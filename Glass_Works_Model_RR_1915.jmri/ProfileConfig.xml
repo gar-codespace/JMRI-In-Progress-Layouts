@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>3</major>
+    <minor>9</minor>
+    <test>6</test>
+    <modifier>.6</modifier>
+  </jmriversion>
+  <gui LAFclass="Metal" class="apps.configurexml.GuiLafConfigPaneXml" LocaleLanguage="en" LocaleCountry="US" LocaleVariant="" nonStandardMouseEvent="no" />
+  <fileLocations class="apps.configurexml.FileLocationPaneXml">
+    <fileLocation defaultScriptLocation="scripts:" />
+    <fileLocation defaultUserLocation="profile:" />
+  </fileLocations>
+  <console class="apps.configurexml.SystemConsoleConfigPanelXml" scheme="0" fontfamily="Monospaced" fontsize="12" fontstyle="0" wrapstyle="2" />
+  <programmer verifyBeforeWrite="no" class="jmri.jmrit.symbolicprog.configurexml.ProgrammerConfigPaneXml" />
+  <managerdefaults class="jmri.managers.configurexml.ManagerDefaultSelectorXml" />
+  <perform name="preference:OperationsTrainWindow.py" type="ScriptFile" class="apps.configurexml.PerformScriptModelXml" />
+  <!--Written by JMRI version r27674 on Mon Aug 31 21:38:44 PDT 2015 $Id: XmlFile.java 27564 2014-11-01 05:08:01Z jacobsen $-->
+</layout-config>
+

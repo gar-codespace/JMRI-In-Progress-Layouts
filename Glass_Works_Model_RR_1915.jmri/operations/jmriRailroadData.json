@@ -1,0 +1,827 @@
+{
+  "buildDate": "04/30/2023-21:34:39", 
+  "carAAR": [
+    "TV", 
+    "F", 
+    "G", 
+    "H", 
+    "Rf", 
+    "Xm", 
+    "RH", 
+    "Nd", 
+    "X", 
+    "TO", 
+    "XV"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "F": [
+      "lumber stack", 
+      "Lumber"
+    ], 
+    "G": [
+      "lumber stack", 
+      "sand", 
+      "Lumber"
+    ], 
+    "H": [
+      "coal"
+    ], 
+    "Nd": [], 
+    "RH": [
+      "produce"
+    ], 
+    "Rf": [
+      "produce"
+    ], 
+    "TO": [
+      "heating oil", 
+      "chemicals"
+    ], 
+    "TV": [
+      "vinegar"
+    ], 
+    "X": [
+      "flooring", 
+      "break bulk", 
+      "Glassware", 
+      "goods", 
+      "merchandise", 
+      "flour"
+    ], 
+    "XV": [
+      "Glassware", 
+      "produce"
+    ], 
+    "Xm": []
+  }, 
+  "divisions": [
+    "Atlantic"
+  ], 
+  "industries": {
+    "1": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Electric Co NJ", 
+      "c-schedule": {
+        "ECo": [
+          [
+            "H", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "10": {
+      "a-location": "Salem Township", 
+      "b-track": "Salem 3 Packing", 
+      "c-schedule": {
+        "S3P": [
+          [
+            "X", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "11": {
+      "a-location": "South Bend Spur", 
+      "b-track": "Gaynor Ware Shed", 
+      "c-schedule": {
+        "GWS": [
+          [
+            "X", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "12": {
+      "a-location": "South Bend Spur", 
+      "b-track": "Gaynor Ware House", 
+      "c-schedule": {
+        "GWH": [
+          [
+            "X", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "13": {
+      "a-location": "South Bend Spur", 
+      "b-track": "Gaynor Sand", 
+      "c-schedule": {
+        "GSH": [
+          [
+            "G", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "14": {
+      "a-location": "South Bend Spur", 
+      "b-track": "FH Lloyd", 
+      "c-schedule": {
+        "FHL": [
+          [
+            "X", 
+            "R", 
+            "flour", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "15": {
+      "a-location": "Salem Township", 
+      "b-track": "Salem 3 Sand Storage", 
+      "c-schedule": {
+        "S3X": [
+          [
+            "G", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "17": {
+      "a-location": "Salem Township", 
+      "b-track": "Heinz Shipping", 
+      "c-schedule": {
+        "HJS": [
+          [
+            "X", 
+            "S", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "18": {
+      "a-location": "Salem Township", 
+      "b-track": "Heinz Bottling", 
+      "c-schedule": {
+        "HJB": [
+          [
+            "X", 
+            "R", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "19": {
+      "a-location": "Salem Township", 
+      "b-track": "Heinz Vinegar", 
+      "c-schedule": {
+        "HJV": [
+          [
+            "TV", 
+            "R", 
+            "vinegar", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "20": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Fenwick Oil", 
+      "c-schedule": {
+        "FO": [
+          [
+            "TO", 
+            "R", 
+            "heating oil", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "21": {
+      "a-location": "South Bend Spur", 
+      "b-track": "Am Oilcloth Chem", 
+      "c-schedule": {
+        "AOC": [
+          [
+            "TO", 
+            "R", 
+            "chemicals", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "22": {
+      "a-location": "South Bend Spur", 
+      "b-track": "Am Oilcloth Shipping", 
+      "c-schedule": {
+        "AOS": [
+          [
+            "X", 
+            "S", 
+            "flooring", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "23": {
+      "a-location": "South Bend Spur", 
+      "b-track": "WH Harris", 
+      "c-schedule": {
+        "WHH": [
+          [
+            "F", 
+            "R", 
+            "Lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "G", 
+            "R", 
+            "Lumber", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "25": {
+      "a-location": "South Bend Spur", 
+      "b-track": "Gaynor Shop", 
+      "c-schedule": {
+        "GBS": [
+          [
+            "F", 
+            "R", 
+            "lumber stack", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "G", 
+            "R", 
+            "lumber stack", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "27": {
+      "a-location": "Salem Township", 
+      "b-track": "Salem 3 Sand House", 
+      "c-schedule": {
+        "S3H": [
+          [
+            "G", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Salem Gas Light", 
+      "c-schedule": {
+        "SGL": [
+          [
+            "H", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "30": {
+      "a-location": "South Bend Spur", 
+      "b-track": "S&PSNCo Dock", 
+      "c-schedule": {
+        "S&P": [
+          [
+            "F", 
+            "R", 
+            "Lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "G", 
+            "R", 
+            "Lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "X", 
+            "R", 
+            "break bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "31": {
+      "a-location": "Salem Township", 
+      "b-track": "Heinz Ketchen", 
+      "c-schedule": {
+        "HJK": [
+          [
+            "RH", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Rf", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "35": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Salem 4 Ware Shed", 
+      "c-schedule": {
+        "S4M": [
+          [
+            "X", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "4": {
+      "a-location": "South Bend Spur", 
+      "b-track": "Gaynor Coal", 
+      "c-schedule": {
+        "GCB": [
+          [
+            "H", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "5": {
+      "a-location": "Salem Township", 
+      "b-track": "Salem 3 Coal Gas", 
+      "c-schedule": {
+        "S3C": [
+          [
+            "H", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "6": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Salem 4 Sand Storage", 
+      "c-schedule": {
+        "S4S": [
+          [
+            "G", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "7": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Salem 4 Ware House", 
+      "c-schedule": {
+        "S4W": [
+          [
+            "X", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "8": {
+      "a-location": "Salem Township", 
+      "b-track": "Salem 3 Ware House", 
+      "c-schedule": {
+        "S3W": [
+          [
+            "X", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "9": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Salem 3 Merch Storage", 
+      "c-schedule": {
+        "S3S": [
+          [
+            "X", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "S", 
+            "Glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "Glass Works Model - 1915", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "24", 
+      "label": "Y", 
+      "location": "Salem", 
+      "track": "Yard", 
+      "type": "staging"
+    }, 
+    "10": {
+      "capacity": "3", 
+      "label": "S4M", 
+      "location": "Fenwick Creek", 
+      "track": "Salem 4 Ware Shed", 
+      "type": "industry"
+    }, 
+    "11": {
+      "capacity": "4", 
+      "label": "ECo", 
+      "location": "Fenwick Creek", 
+      "track": "Electric Co NJ", 
+      "type": "industry"
+    }, 
+    "12": {
+      "capacity": "4", 
+      "label": "FO", 
+      "location": "Fenwick Creek", 
+      "track": "Fenwick Oil", 
+      "type": "industry"
+    }, 
+    "13": {
+      "capacity": "2", 
+      "label": "HJB", 
+      "location": "Salem Township", 
+      "track": "Heinz Bottling", 
+      "type": "industry"
+    }, 
+    "14": {
+      "capacity": "4", 
+      "label": "HJS", 
+      "location": "Salem Township", 
+      "track": "Heinz Shipping", 
+      "type": "industry"
+    }, 
+    "15": {
+      "capacity": "4", 
+      "label": "HJK", 
+      "location": "Salem Township", 
+      "track": "Heinz Ketchen", 
+      "type": "industry"
+    }, 
+    "16": {
+      "capacity": "1", 
+      "label": "HJV", 
+      "location": "Salem Township", 
+      "track": "Heinz Vinegar", 
+      "type": "industry"
+    }, 
+    "17": {
+      "capacity": "3", 
+      "label": "SGL", 
+      "location": "Fenwick Creek", 
+      "track": "Salem Gas Light", 
+      "type": "industry"
+    }, 
+    "18": {
+      "capacity": "3", 
+      "label": "S3X", 
+      "location": "Salem Township", 
+      "track": "Salem 3 Sand Storage", 
+      "type": "industry"
+    }, 
+    "19": {
+      "capacity": "1", 
+      "label": "FHL", 
+      "location": "South Bend Spur", 
+      "track": "FH Lloyd", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "2", 
+      "label": "S3C", 
+      "location": "Salem Township", 
+      "track": "Salem 3 Coal Gas", 
+      "type": "industry"
+    }, 
+    "20": {
+      "capacity": "1", 
+      "label": "WHH", 
+      "location": "South Bend Spur", 
+      "track": "WH Harris", 
+      "type": "industry"
+    }, 
+    "21": {
+      "capacity": "1", 
+      "label": "GBS", 
+      "location": "South Bend Spur", 
+      "track": "Gaynor Shop", 
+      "type": "industry"
+    }, 
+    "22": {
+      "capacity": "1", 
+      "label": "AOS", 
+      "location": "South Bend Spur", 
+      "track": "Am Oilcloth Shipping", 
+      "type": "industry"
+    }, 
+    "23": {
+      "capacity": "2", 
+      "label": "GCB", 
+      "location": "South Bend Spur", 
+      "track": "Gaynor Coal", 
+      "type": "industry"
+    }, 
+    "25": {
+      "capacity": "4", 
+      "label": "GSH", 
+      "location": "South Bend Spur", 
+      "track": "Gaynor Sand", 
+      "type": "industry"
+    }, 
+    "26": {
+      "capacity": "2", 
+      "label": "GWH", 
+      "location": "South Bend Spur", 
+      "track": "Gaynor Ware House", 
+      "type": "industry"
+    }, 
+    "27": {
+      "capacity": "2", 
+      "label": "GWS", 
+      "location": "South Bend Spur", 
+      "track": "Gaynor Ware Shed", 
+      "type": "industry"
+    }, 
+    "28": {
+      "capacity": "4", 
+      "label": "S&P", 
+      "location": "South Bend Spur", 
+      "track": "S&PSNCo Dock", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "2", 
+      "label": "S3P", 
+      "location": "Salem Township", 
+      "track": "Salem 3 Packing", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "1", 
+      "label": "S3H", 
+      "location": "Salem Township", 
+      "track": "Salem 3 Sand House", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "3", 
+      "label": "S3S", 
+      "location": "Fenwick Creek", 
+      "track": "Salem 3 Merch Storage", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "4", 
+      "label": "S3W", 
+      "location": "Salem Township", 
+      "track": "Salem 3 Ware House", 
+      "type": "industry"
+    }, 
+    "7": {
+      "capacity": "2", 
+      "label": "AOC", 
+      "location": "South Bend Spur", 
+      "track": "Am Oilcloth Chem", 
+      "type": "industry"
+    }, 
+    "8": {
+      "capacity": "2", 
+      "label": "S4S", 
+      "location": "Fenwick Creek", 
+      "track": "Salem 4 Sand Storage", 
+      "type": "industry"
+    }, 
+    "9": {
+      "capacity": "2", 
+      "label": "S4W", 
+      "location": "Fenwick Creek", 
+      "track": "Salem 4 Ware House", 
+      "type": "industry"
+    }
+  }, 
+  "location": "Salem, New Jersey", 
+  "locationIds": [
+    "00", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5", 
+    "6", 
+    "8", 
+    "9", 
+    "10", 
+    "11", 
+    "12", 
+    "13", 
+    "14", 
+    "15", 
+    "16", 
+    "17", 
+    "19", 
+    "20", 
+    "21", 
+    "7", 
+    "22", 
+    "23", 
+    "25", 
+    "26", 
+    "27", 
+    "28", 
+    "18"
+  ], 
+  "locations": [
+    "Salem Township", 
+    "South Bend Spur", 
+    "Fenwick Creek", 
+    "Salem", 
+    "Unreported"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "B6s", 
+      "ESS"
+    ]
+  ], 
+  "locoTypes": [
+    "ESS"
+  ], 
+  "operatingRoad": "WJ&S RR", 
+  "roads": [
+    "HJH", 
+    "WJ&S", 
+    "TCX", 
+    "ACL", 
+    "LV", 
+    "B&O", 
+    "ER", 
+    "ET", 
+    "PRR", 
+    "M&P", 
+    "DL&W", 
+    "NYC", 
+    "TELX", 
+    "PL", 
+    "AT&SF", 
+    "P&R", 
+    "B&A", 
+    "SP", 
+    "CNJ"
+  ], 
+  "scale": "HO", 
+  "territory": "Glass Works Branch", 
+  "year": "1915"
+}

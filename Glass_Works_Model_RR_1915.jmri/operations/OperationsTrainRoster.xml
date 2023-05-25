@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Sun May 21 07:50:22 PDT 2023-->
+  <options>
+    <trainOptions buildMessages="true" buildReport="true" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
+    <conductorOptions showHyphenName="false" />
+    <rowColorOptions rowColorManual="true" rowColorBuidFailed="" rowColorBuilt="" rowColorTrainEnRoute="" rowColorTerminated="" />
+    <manifestCreator>
+      <directory name="csvManifests" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </manifestCreator>
+    <switchlistCreator>
+      <directory name="csvSwitchLists" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </switchlistCreator>
+  </options>
+  <trains>
+    <train id="1" name="Town Job" description="Switch Salem Glass Works &amp; Heinz" departHour="01" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="true" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="2/09/2021 11:59" RequestedCars="65" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <route name="Salem Township" id="16" />
+      <types>
+        <carType name="F" />
+        <carType name="G" />
+        <carType name="H" />
+        <carType name="N" />
+        <carType name="R" />
+        <carType name="TO" />
+        <carType name="TV" />
+        <carType name="X" />
+      </types>
+      <scripts>
+        <afterBuild name="settings:OperationsCopyManifest2.py" />
+        <terminate name="preference:OperationsSetCarsAtStaging.py" />
+      </scripts>
+    </train>
+    <train id="2" name="South Bend Flyer" description="Switch Along Salem Creek" departHour="02" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="true" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="4/01/2021 09:13" RequestedCars="70" statusCode="0" oldStatusCode="20" comment="" showTimes="false">
+      <rowColor name="" resetRowColor="" />
+      <route name="Salem Creek" id="14" />
+      <types>
+        <carType name="F" />
+        <carType name="G" />
+        <carType name="H" />
+        <carType name="N" />
+        <carType name="R" />
+        <carType name="TO" />
+        <carType name="TV" />
+        <carType name="X" />
+      </types>
+      <scripts>
+        <afterBuild name="settings:OperationsCopyManifest2.py" />
+      </scripts>
+    </train>
+    <train id="3" name="Fenwick Flyer" description="Switch Along Fenwick Creek" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="true" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="11/02/2022 22:07" RequestedCars="121" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <route name="Fenwick Creek" id="15" />
+      <types>
+        <carType name="" />
+        <carType name="F" />
+        <carType name="G" />
+        <carType name="H" />
+        <carType name="N" />
+        <carType name="Nd" />
+        <carType name="R" />
+        <carType name="RF" />
+        <carType name="RH" />
+        <carType name="Rf" />
+        <carType name="TO" />
+        <carType name="TV" />
+        <carType name="X" />
+        <carType name="XV" />
+        <carType name="Xm" />
+      </types>
+      <scripts>
+        <afterBuild name="settings:OperationsCopyManifest2.py" />
+        <terminate name="preference:OperationsSetCarsAtStaging.py" />
+      </scripts>
+    </train>
+  </trains>
+  <trainScheduleOptions activeId="" />
+  <schedules>
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
+  </schedules>
+  <automationOptions automationStartupId="" />
+  <automations />
+</operations-config>

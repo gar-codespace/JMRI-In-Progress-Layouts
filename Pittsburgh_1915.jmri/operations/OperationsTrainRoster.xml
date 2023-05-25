@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon Jun 06 07:50:40 PDT 2022-->
+  <options>
+    <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
+    <conductorOptions showHyphenName="false" />
+    <rowColorOptions rowColorManual="true" rowColorBuidFailed="" rowColorBuilt="" rowColorTrainEnRoute="" rowColorTerminated="" />
+    <manifestCreator>
+      <directory name="csvManifests" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </manifestCreator>
+    <switchlistCreator>
+      <directory name="csvSwitchLists" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </switchlistCreator>
+  </options>
+  <trains>
+    <train id="4" name="AS&amp;WCo - Manifest Pulls" description="Plant Switch - Manifest" departHour="00" departMinute="15" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="3/31/2022 13:32" RequestedCars="30" statusCode="0" oldStatusCode="20" comment="Pick up AS&amp;WCo Transfer at AVRR" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="AS&amp;WCo-Pulls" id="3" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gk" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Ventilated" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="11" name="PRRCo - Grain Block" description="Via Pike Street" departHour="12" departMinute="30" departureTrack="37s30" terminationTrack="37s30" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 10:22" TerminationDate="3/22/2021 10:22" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Return via Smallman Street" showTimes="true">
+      <rowColor name="Orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Xl Grain" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="12" name="B&amp;O - Strip District" description="Via PJRR (B&amp;O)" departHour="13" departMinute="10" departureTrack="37s28" terminationTrack="37s28" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 11:02" TerminationDate="3/22/2021 11:02" RequestedCars="125" statusCode="128" oldStatusCode="20" comment="Block SI X" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging - B&amp;O" id="87">
+        <skips>
+          <location name="Railroad Street" id="87r14" />
+          <location name="Duquesne Way" id="87r15" />
+          <location name="Allegheny Business" id="87r17" />
+          <location name="AVRR(PRR)" id="87r7" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="16" name="Penna Co - Respots" description="Produce Station Respots" departHour="08" departMinute="10" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/20/2021 11:24" TerminationDate="3/20/2021 11:24" RequestedCars="25" statusCode="128" oldStatusCode="20" comment="Ramp to Consolidated Ice to Station" showTimes="true">
+      <rowColor name="green" resetRowColor="" />
+      <route name="Switch - Pike Street" id="89">
+        <skips>
+          <location name="AVRR(PRR)" id="89r2" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+      </types>
+    </train>
+    <train id="24" name="Penna Co - Freight House" description="LCL Spots &amp; Pulls" departHour="01" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/21/2021 22:28" TerminationDate="3/21/2021 22:28" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Set out to Railroad Street - Freight Transfer." showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Railroad Street" id="79r15" />
+          <location name="AVRR(PRR)" id="79r16" />
+          <location name="Pike Street" id="79r17" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Ventilated" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="27" name="Penna Co - 16th St - S1" description="Team Track South - Pulls" departHour="02" departMinute="25" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 07:01" TerminationDate="3/22/2021 07:01" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Set Train into Waterside - Transfer" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Pike Street" id="79r17" />
+          <location name="Railroad Street" id="79r18" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="28" name="Penna Co - 16th St - S3" description="Team Track South - Setouts" departHour="02" departMinute="45" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 07:20" TerminationDate="3/22/2021 07:20" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Railroad Street" id="79r15" />
+          <location name="Pike Street" id="79r17" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="29" name="PRR - 16th St South" description="Via Railroad Street" departHour="02" departMinute="30" departureTrack="37s23" terminationTrack="37s23" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 07:07" TerminationDate="3/22/2021 07:07" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Arrive via TT North&#xA;Depart via TT South" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="30" name="PFtW&amp;C - Freight House" description="Via Fort Wayne Terminal" departHour="12" departMinute="15" departureTrack="37s17" terminationTrack="37s17" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 10:04" TerminationDate="3/22/2021 10:04" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Shove out of staging." showTimes="true">
+      <rowColor name="Orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="31" name="PFtW&amp;C - Team Tracks" description="Via Fort Wayne Terminal" departHour="12" departMinute="20" departureTrack="37s23" terminationTrack="37s23" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 10:11" TerminationDate="3/22/2021 10:11" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Shove out of staging" showTimes="true">
+      <rowColor name="Orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="32" name="C&amp;P - Freight House" description="Via Pike Street" departHour="12" departMinute="10" departureTrack="37s17" terminationTrack="37s17" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 09:54" TerminationDate="3/22/2021 09:54" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Shove out of staging" showTimes="true">
+      <rowColor name="Orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="33" name="AVRR - Produce Yard" description="Via Smallman Street" departHour="09" departMinute="55" departureTrack="37s27" terminationTrack="37s27" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="true" switchListStatus="" status="Terminated 3/22/2021 06:50" TerminationDate="3/22/2021 06:50" RequestedCars="125" statusCode="128" oldStatusCode="20" comment="Return via Railroad Street" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="34" name="Penna Co - Empties" description="Produce Yard" departHour="07" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 15:41" TerminationDate="3/22/2021 15:41" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Set out to Railroad Street - Produce Transfer.&#xA;Clear off a thru track." showTimes="true" carRoadOption="Include" carLoadOption="Exclude">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Pike Street" id="79r17" />
+          <location name="Railroad Street" id="79r18" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+      <carRoads>
+        <carRoad name="ART" />
+        <carRoad name="Adams Express" />
+        <carRoad name="FGE" />
+        <carRoad name="FGEX" />
+        <carRoad name="MDT" />
+        <carRoad name="NYP&amp;N" />
+        <carRoad name="PRR" />
+      </carRoads>
+      <carLoads>
+        <carLoad name="Re Iced" />
+      </carLoads>
+    </train>
+    <train id="35" name="Penna Co - PFE &amp; SFRD" description="Pull PFE &amp; SFRD - West" departHour="07" departMinute="45" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 09:40" TerminationDate="3/22/2021 09:40" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Set out to Produce Transfer.&#xA;Clear off a thru track. 1-4" showTimes="true" carRoadOption="Include">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Pike Street" id="79r17" />
+          <location name="Railroad Street" id="79r18" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xm" />
+      </types>
+      <carRoads>
+        <carRoad name="PFE" />
+        <carRoad name="SFRD" />
+      </carRoads>
+    </train>
+    <train id="36" name="Penna Co - FGE" description="Via Pike Street" departHour="07" departMinute="40" departureTrack="37s25" terminationTrack="37s25" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 09:38" TerminationDate="3/22/2021 09:38" RequestedCars="175" statusCode="128" oldStatusCode="20" comment="Set out in Produce Yard&#xA;Pick up Produce Transfer" showTimes="true">
+      <rowColor name="Orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="38" name="Penna Co - FGE" description="Pull FGE - West" departHour="07" departMinute="35" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 09:32" TerminationDate="3/22/2021 09:32" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Set out to Railroad Street - Produce Transfer.&#xA;Clear off a thru track.1-4" showTimes="true" carRoadOption="Include">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Pike Street" id="79r17" />
+          <location name="Railroad Street" id="79r18" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+      </types>
+      <carRoads>
+        <carRoad name="FGE" />
+        <carRoad name="FGEX" />
+      </carRoads>
+    </train>
+    <train id="40" name="PRR - Produce Reloads" description="Via Railroad Street" departHour="07" departMinute="20" departureTrack="37s27" terminationTrack="37s27" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 18:12" TerminationDate="3/22/2021 18:12" RequestedCars="175" statusCode="128" oldStatusCode="20" comment="Set out in Produce Yard&#xA;Pick up 16th Street Transfer" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="59" name="Penna Co - 16th St - N3" description="Team Track North - Setouts" departHour="03" departMinute="55" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 08:59" TerminationDate="3/22/2021 08:59" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Railroad Street" id="79r15" />
+          <location name="Pike Street" id="79r17" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="60" name="B&amp;O - 20th Street" description="Via PJRR (B&amp;O)" departHour="06" departMinute="20" departureTrack="37s23" terminationTrack="37s23" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 07:53" TerminationDate="3/22/2021 07:53" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Block T OWS OWR TTN" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging - B&amp;O" id="87">
+        <skips>
+          <location name="Duquesne Way" id="87r15" />
+          <location name="PJRR(B&amp;O)" id="87r16" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="65" name="-" description="" departHour="07" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="70" name="PRR - Strip District" description="Via Railroad Street" departHour="13" departMinute="05" departureTrack="37s23" terminationTrack="37s23" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 11:05" TerminationDate="3/22/2021 11:05" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Run around train at 16th Street" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Ventilated" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="71" name="AVRR - Etna St Switch" description="Industry Switch - Etna St" departHour="13" departMinute="15" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 12:13" TerminationDate="3/22/2021 12:13" RequestedCars="100" statusCode="128" oldStatusCode="20" comment="West end switch" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Strip District" id="48">
+        <skips>
+          <location name="Pike Street" id="48r17" />
+          <location name="PJRR(B&amp;O)" id="48r23" />
+          <location name="Pennsylvania Railroad Co" id="48r25" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <locoType name="Switcher" />
+      </types>
+      <railRoad name="Allegheny Flyer" />
+    </train>
+    <train id="75" name="AVRR - Pike St Switch" description="Industry Switch - Pike St" departHour="13" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 12:20" TerminationDate="3/22/2021 12:20" RequestedCars="100" statusCode="128" oldStatusCode="20" comment="East end switch" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Strip District" id="48">
+        <skips>
+          <location name="Etna Street" id="48r20" />
+          <location name="PJRR(B&amp;O)" id="48r23" />
+          <location name="Pennsylvania Railroad Co" id="48r25" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="76" name="B&amp;O - Oil Train" description="Via PJRR (B&amp;O)" departHour="05" departMinute="05" departureTrack="37s29" terminationTrack="37s29" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/02/2021 21:54" TerminationDate="3/02/2021 21:54" RequestedCars="75" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging - B&amp;O" id="87">
+        <skips>
+          <location name="Railroad Street" id="87r14" />
+          <location name="Duquesne Way" id="87r15" />
+          <location name="PJRR(B&amp;O)" id="87r16" />
+          <location name="Allegheny Business" id="87r17" />
+          <location name="AVRR(PRR)" id="87r7" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Tankcar" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="79" name="PRR - Freight House" description="Via Railroad Street" departHour="01" departMinute="10" departureTrack="37s17" terminationTrack="37s17" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/21/2021 22:34" TerminationDate="3/21/2021 22:34" RequestedCars="175" statusCode="128" oldStatusCode="20" comment="Set out to PRR Freight House Hold" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+      </types>
+    </train>
+    <train id="82" name="PRR - 16th St North" description="Via Railroad Street" departHour="03" departMinute="50" departureTrack="37s23" terminationTrack="37s23" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 08:56" TerminationDate="3/22/2021 08:56" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Arrive via TT North&#xA;Depart via TT South" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="87" name="AVRR - 13th St Switch" description="Industry Switch - Yard" departHour="13" departMinute="25" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 12:27" TerminationDate="3/22/2021 12:27" RequestedCars="100" statusCode="128" oldStatusCode="20" comment="Builds both outbound trains" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Strip District" id="48">
+        <skips>
+          <location name="Pike Street" id="48r17" />
+          <location name="PJRR(B&amp;O)" id="48r2" />
+          <location name="Etna Street" id="48r20" />
+          <location name="Pennsylvania Railroad Co" id="48r24" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="93" name="-" description="" departHour="13" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="95" name="Penna Co - 16th St - N1" description="Team Track North - Pulls" departHour="03" departMinute="45" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 08:52" TerminationDate="3/22/2021 08:52" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Set Train into Waterside - Transfer" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Railroad Street" id="79r15" />
+          <location name="AVRR(PRR)" id="79r16" />
+          <location name="Pike Street" id="79r17" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="100" name="Penna Co - B&amp;O Pulls" description="Team Track North - B&amp;O Cars" departHour="06" departMinute="10" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 07:29" TerminationDate="3/22/2021 07:29" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Pull cars to the B&amp;O Interchange&#xA;Clear off B&amp;O Setouts&#xA;" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Pike Street" id="79r17" />
+          <location name="Railroad Street" id="79r18" />
+          <location name="Pike Street" id="79r19" />
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="103" name="B&amp;O - Duquesne Way" description="Via PJRR (B&amp;O)" departHour="04" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="4/12/2021 12:16" RequestedCars="152" statusCode="0" oldStatusCode="0" comment="Block SS D C on head end" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging - B&amp;O" id="87">
+        <skips>
+          <location name="Allegheny Business" id="87r12" />
+          <location name="Railroad Street" id="87r14" />
+          <location name="AVRR(PRR)" id="87r7" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Ventilated" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="108" name="AVRR - Pike Street" description="Via Pike Street" departHour="12" departMinute="30" departureTrack="37s17" terminationTrack="37s17" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 10:18" TerminationDate="3/22/2021 10:18" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Return east via Smallman Street" showTimes="true">
+      <rowColor name="orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="109" name="PCC&amp;StL - Grant Street 2" description="Via Panhandle" departHour="11" departMinute="15" departureTrack="37s16" terminationTrack="37s16" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/18/2021 11:19" TerminationDate="3/18/2021 11:19" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="Set out at Grant Street Team Tracks" showTimes="true">
+      <rowColor name="Orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="110" name="PCC&amp;StL - Grant Street 1" description="Freight Station Pulls" departHour="11" departMinute="10" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/18/2021 11:01" TerminationDate="3/18/2021 11:01" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Put the Cabin Car on the east end" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Grant Street" id="59">
+        <skips>
+          <location name="Grant Street" id="59r2" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="111" name="PCC&amp;StL - Grant Street 3" description="Freight Station Setouts" departHour="11" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/18/2021 11:24" TerminationDate="3/18/2021 11:24" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="Green" resetRowColor="" />
+      <route name="Switch - Grant Street" id="59">
+        <skips>
+          <location name="Grant Street" id="59r1" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="112" name="-" description="" departHour="11" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="117" name="PRR - Duquesne Frt Hse" description="Via Duquesne Way Elevated RR" departHour="17" departMinute="10" departureTrack="37s17" terminationTrack="37s17" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/26/2021 21:44" TerminationDate="3/26/2021 21:44" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="121" name="PRR - Duquesne Team" description="Via Duquesne Way Elevated RR" departHour="17" departMinute="25" departureTrack="37s21" terminationTrack="37s21" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/02/2021 21:42" TerminationDate="3/02/2021 21:42" RequestedCars="125" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="122" name="PRR - Duquesne Frt Yard" description="Via Duquesne Way Elevated RR" departHour="17" departMinute="15" departureTrack="37s17" terminationTrack="37s17" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/26/2021 21:52" TerminationDate="3/26/2021 21:52" RequestedCars="150" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="Yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="123" name="-" description="" departHour="12" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="125" name="Penna Co - Strip District" description="Via Pike Street" departHour="13" departMinute="13" departureTrack="37s23" terminationTrack="37s23" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 10:53" TerminationDate="3/22/2021 10:53" RequestedCars="225" statusCode="128" oldStatusCode="20" comment="Block PCo X R TT.&#xA;Depart east via Smallman Street" showTimes="true">
+      <rowColor name="orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="AVRR(PRR)" id="88r3" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="126" name="-" description="" departHour="02" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="127" name="-" description="" departHour="06" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="131" name="AS&amp;WCo - Bulk Pulls" description="Plant Switch - Bulk" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="3/22/2022 21:50" RequestedCars="30" statusCode="0" oldStatusCode="20" comment="Pick up AS&amp;WCo Transfer at AVRR" showTimes="true">
+      <rowColor name="green" resetRowColor="" />
+      <route name="AS&amp;WCo-Pulls" id="3" />
+      <types>
+        <carType name="Gd" />
+        <carType name="Ge Coke" />
+        <carType name="Gk" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="132" name="Penna Co - Re-Ice" description="Consolidated Ice" departHour="07" departMinute="15" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 18:09" TerminationDate="3/22/2021 18:09" RequestedCars="125" statusCode="128" oldStatusCode="20" comment="Set out to Railroad Street - Produce Transfer.&#xA;Clear off a thru track." showTimes="true" carRoadOption="Exclude">
+      <rowColor name="green" resetRowColor="" />
+      <route name="Switch - Railroad Street" id="79">
+        <skips>
+          <location name="Smallman Street" id="79r20" />
+          <location name="AVRR(PRR)" id="79r21" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+      <carRoads>
+        <carRoad name="FGEX" />
+        <carRoad name="PFE" />
+        <carRoad name="SFRD" />
+      </carRoads>
+    </train>
+    <train id="135" name="-" description="" departHour="01" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="138" name="PRR - Produce Station" description="Via Smallman Street" departHour="08" departMinute="20" departureTrack="37s27" terminationTrack="37s27" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/20/2021 11:29" TerminationDate="3/20/2021 11:29" RequestedCars="200" statusCode="128" oldStatusCode="20" comment="Set out Produce Ramp&#xA;Pick up Produce Transfer&#xA;" showTimes="true">
+      <rowColor name="yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="Railroad Street" id="88r4" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="139" name="-" description="" departHour="08" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="140" name="-" description="" departHour="23" departMinute="59" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="143" name="Penna Co - PFE &amp; SFRD" description="Via Pike Street" departHour="07" departMinute="50" departureTrack="37s24" terminationTrack="37s24" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 09:43" TerminationDate="3/22/2021 09:43" RequestedCars="175" statusCode="128" oldStatusCode="20" comment="Set out in Produce Yard&#xA;Pick up 16th St Transfers" showTimes="true">
+      <rowColor name="orange" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="144" name="Penna Co - Produce Pulls" description="Produce Station Pulls" departHour="08" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/20/2021 11:21" TerminationDate="3/20/2021 11:21" RequestedCars="50" statusCode="128" oldStatusCode="20" comment="Pull Reloads and Empties to Transfer" showTimes="true">
+      <rowColor name="green" resetRowColor="" />
+      <route name="Switch - Pike Street" id="89" />
+      <types>
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="145" name="-" description="" departHour="03" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="146" name="-" description="" departHour="09" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="147" name="-" description="" departHour="04" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="148" name="-" description="" departHour="05" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="149" name="PRR - Produce Yard" description="Via Railroad Street" departHour="07" departMinute="10" departureTrack="37s27" terminationTrack="37s27" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/22/2021 15:56" TerminationDate="3/22/2021 15:56" RequestedCars="175" statusCode="128" oldStatusCode="20" comment="Set out in Produce Yard&#xA;Pick up 16th Street Transfer" showTimes="true">
+      <rowColor name="yellow" resetRowColor="" />
+      <route name="Staging" id="88">
+        <skips>
+          <location name="Pike Street" id="88r10" />
+          <location name="Duquesne Freight Station" id="88r11" />
+          <location name="Pennsylvania Railroad Co" id="88r12" />
+          <location name="PJRR(B&amp;O)" id="88r5" />
+          <location name="Smallman Street" id="88r7" />
+          <location name="Penn Avenue" id="88r9" />
+        </skips>
+      </route>
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="150" name="-" description="" departHour="15" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="" TerminationDate="" RequestedCars="0" statusCode="65535" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gd" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <carType name="R7" />
+        <carType name="Reefer" />
+        <carType name="Rf" />
+        <carType name="Tankcar" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Produce" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Grain" />
+        <carType name="Xl Ventilated" />
+        <carType name="Xm" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="151" name="AVRR-Manifest" description="AS&amp;WCo Manifest" departHour="00" departMinute="20" departureTrack="37s21" terminationTrack="37s21" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 3/31/2022 13:32" TerminationDate="3/31/2022 13:32" RequestedCars="166" statusCode="128" oldStatusCode="20" comment="Manifest hauler to AS&amp;WCo transfer track" showTimes="true" carLoadOption="Exclude">
+      <rowColor name="yellow" resetRowColor="" />
+      <route name="AS&amp;WCo-Interchange" id="91" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gk" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Ventilated" />
+      </types>
+      <carLoads>
+        <carLoad name="Limestone" />
+      </carLoads>
+    </train>
+    <train id="152" name="AVRR-Minerals" description="AS&amp;WCo Furnace Charge" departHour="00" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="3/22/2022 21:55" RequestedCars="166" statusCode="0" oldStatusCode="20" comment="Mineral hauler to AS&amp;WCo transfer track" showTimes="true">
+      <rowColor name="yellow" resetRowColor="" />
+      <route name="AS&amp;WCo-Interchange" id="91" />
+      <types>
+        <carType name="Gd" />
+        <carType name="Ge Coke" />
+        <carType name="Gk" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+      </types>
+    </train>
+    <train id="153" name="AS&amp;WCo - Bulk Spots" description="Plant Switch - Bulk" departHour="00" departMinute="10" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="3/22/2022 22:01" RequestedCars="30" statusCode="0" oldStatusCode="20" comment="Set out to AS&amp;WCo Transfer at AVRR" showTimes="true">
+      <rowColor name="green" resetRowColor="" />
+      <route name="AS&amp;WCo-Spots" id="92" />
+      <types>
+        <carType name="Gd" />
+        <carType name="Ge Coke" />
+        <carType name="Gk" />
+        <carType name="Gl" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="Gs Coke" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+    <train id="154" name="AS&amp;WCo - Manifest Spots" description="Plant Switch - Manifest" departHour="00" departMinute="25" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="3/26/2022 20:06" RequestedCars="30" statusCode="0" oldStatusCode="20" comment="Set out to AS&amp;WCo Transfer at AVRR" showTimes="true">
+      <rowColor name="green" resetRowColor="" />
+      <route name="AS&amp;WCo-Spots" id="92" />
+      <types>
+        <carType name="Boxcar" />
+        <carType name="Fh" />
+        <carType name="Fm" />
+        <carType name="Gk" />
+        <carType name="Gr" />
+        <carType name="Gs" />
+        <carType name="X23" />
+        <carType name="X25" />
+        <carType name="Xh" />
+        <carType name="Xh Ventilated" />
+        <carType name="Xl" />
+        <carType name="Xl Ventilated" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+  </trains>
+  <trainScheduleOptions activeId="" />
+  <schedules>
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
+    <schedule id="9" name="Friday" trainIds="" />
+  </schedules>
+  <automations />
+</operations-config>

@@ -1,0 +1,310 @@
+{
+  "Main Script": {
+    "CD": {
+      "BLANCH": {
+        "A": 210, 
+        "B": 255, 
+        "D": "Lighten a bit", 
+        "G": 255, 
+        "R": 255
+      }, 
+      "DUST": {
+        "A": 255, 
+        "B": 218, 
+        "D": "Light tan", 
+        "G": 242, 
+        "R": 252
+      }, 
+      "FADED": {
+        "A": 255, 
+        "B": 245, 
+        "D": "Light purple", 
+        "G": 225, 
+        "R": 237
+      }, 
+      "GLOOM": {
+        "A": 10, 
+        "B": 0, 
+        "D": "Darken a bit", 
+        "G": 0, 
+        "R": 0
+      }, 
+      "LICHEN": {
+        "A": 255, 
+        "B": 244, 
+        "D": "Light green", 
+        "G": 255, 
+        "R": 236
+      }, 
+      "PALE": {
+        "A": 255, 
+        "B": 250, 
+        "D": "Light blue", 
+        "G": 243, 
+        "R": 237
+      }, 
+      "RASH": {
+        "A": 255, 
+        "B": 224, 
+        "D": "Light red", 
+        "G": 208, 
+        "R": 240
+      }, 
+      "colorA": "DUST", 
+      "colorB": "FADED", 
+      "colorC": "RASH"
+    }, 
+    "CP": {
+      "AP": true, 
+      "DR": true, 
+      "EH": false, 
+      "OC": true, 
+      "PH": 280, 
+      "PW": 1000, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20230305, 
+      "SE": "utf-8", 
+      "Subroutines.Patterns": true, 
+      "Subroutines.Throwback": true, 
+      "Subroutines.jPlus": true, 
+      "Subroutines.o2o": true, 
+      "TC": "UD", 
+      "TS": {
+        "UD": "UseDeepL", 
+        "UX": "UseSomethingElse"
+      }
+    }, 
+    "LD": {
+      "BD": "", 
+      "LO": "", 
+      "OR": "", 
+      "SC": "", 
+      "TR": "", 
+      "YR": ""
+    }, 
+    "SR": {
+      "G": 11, 
+      "HO": 6, 
+      "HON3": 4, 
+      "N": 2, 
+      "O": 10, 
+      "ON3": 9, 
+      "OO": 5, 
+      "S": 8, 
+      "SN3": 7, 
+      "TT": 3, 
+      "Z": 1
+    }, 
+    "TO": {
+      "CWS": true, 
+      "SBA": true, 
+      "SCT": "ARR Codes", 
+      "SIA": true, 
+      "SME": true, 
+      "TNB": false
+    }
+  }, 
+  "Patterns": {
+    "AD": [], 
+    "AL": [], 
+    "AS": true, 
+    "PA": false, 
+    "PD": "", 
+    "PH": 16, 
+    "PI": true, 
+    "PL": "", 
+    "PT": {}, 
+    "PW": 260, 
+    "RD": "", 
+    "RF": 8, 
+    "RM": {
+      "AW": {
+        " ": 1, 
+        "Color": 6, 
+        "Comment": 15, 
+        "Consist": 8, 
+        "Dest&Track": 27, 
+        "Destination": 15, 
+        "FD&Track": 23, 
+        "Final Dest": 11, 
+        "Hazardous": 10, 
+        "Kernel": 7, 
+        "Kernel Size": 3, 
+        "Length": 7, 
+        "Load": 6, 
+        "Load Type": 1, 
+        "Location": 9, 
+        "Model": 5, 
+        "Number": 7, 
+        "On Train": 0, 
+        "Owner": 6, 
+        "PUSO": 6, 
+        "PickUp Msg": 12, 
+        "RWE": 10, 
+        "RWL": 10, 
+        "Road": 5, 
+        "Set to": 6, 
+        "SetOut Msg": 12, 
+        "Track": 6, 
+        "Type": 6, 
+        "Weight": 7
+      }, 
+      "DS": "No Waybill", 
+      "DT": "*Not Consigned", 
+      "FD": "Any Line", 
+      "FT": "*Any Line", 
+      "SC": [
+        "Load Type", 
+        "FD&Track"
+      ], 
+      "SL": [
+        "Model"
+      ]
+    }, 
+    "SV": true, 
+    "TC": "", 
+    "TD": "", 
+    "TN": ""
+  }, 
+  "Throwback": {
+    "SS": [
+      [
+        "", 
+        ""
+      ]
+    ], 
+    "SV": true
+  }, 
+  "jPlus": {
+    "SV": true
+  }, 
+  "o2o": {
+    "CC": {
+      "alertColor": "RASH", 
+      "carColor": "DUST", 
+      "locoColor": "FADED"
+    }, 
+    "CFL": [
+      "CMX", 
+      "EMX", 
+      "LMX"
+    ], 
+    "CX": [
+      "N", 
+      "NM", 
+      "NE"
+    ], 
+    "DL": 40, 
+    "PX": [
+      "B", 
+      "BE", 
+      "BH", 
+      "BM", 
+      "BMR", 
+      "BMT", 
+      "BP", 
+      "BR", 
+      "BX", 
+      "Bd", 
+      "Bn", 
+      "Bdr", 
+      "B60", 
+      "CA", 
+      "CS", 
+      "D", 
+      "DA", 
+      "DB", 
+      "DC", 
+      "DL", 
+      "DO", 
+      "DP", 
+      "DPA", 
+      "MA", 
+      "MB", 
+      "MR", 
+      "Ok", 
+      "P", 
+      "PA", 
+      "PAS", 
+      "PB", 
+      "PBC", 
+      "PBO", 
+      "PC", 
+      "PL", 
+      "PO", 
+      "PS", 
+      "PSA"
+    ], 
+    "RA": [
+      "PUSO", 
+      "Road", 
+      "Number", 
+      "Model", 
+      "Load_Type", 
+      "Load", 
+      "Location", 
+      "Dest&Track", 
+      "FD&Track"
+    ], 
+    "RF": {
+      "TRI": "TrainPlayer Report - Industries.txt", 
+      "TRL": "TrainPlayer Report - Locations.txt", 
+      "TRR": "TrainPlayer Report - Rolling Stock.txt"
+    }, 
+    "RMF": {
+      "MC": [
+        "Road", 
+        "Number", 
+        "Type", 
+        "Load Type", 
+        "Load", 
+        "Final Dest"
+      ], 
+      "PUC": [
+        "Road", 
+        "Number", 
+        "Type", 
+        "Load Type", 
+        "Load", 
+        "Destination"
+      ], 
+      "PUL": [
+        "Road", 
+        "Number", 
+        "Model", 
+        "Consist", 
+        "Destination"
+      ], 
+      "SOC": [
+        "Road", 
+        "Number", 
+        "Type", 
+        "Load Type", 
+        "Load", 
+        "Destination"
+      ], 
+      "SOL": [
+        "Road", 
+        "Number", 
+        "Model", 
+        "Consist", 
+        "Destination"
+      ]
+    }, 
+    "RN": "o2o-Workevents", 
+    "SM": {
+      "LEE": true, 
+      "RCL": true, 
+      "SCL": true
+    }, 
+    "SV": true, 
+    "TR": {
+      "XO reserved": "Spur", 
+      "class yard": "Yard", 
+      "industry": "Spur", 
+      "interchange": "Interchange", 
+      "staging": "Staging"
+    }
+  }
+}

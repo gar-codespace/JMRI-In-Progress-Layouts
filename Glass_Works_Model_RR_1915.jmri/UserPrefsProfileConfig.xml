@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>3</major>
+    <minor>9</minor>
+    <test>6</test>
+    <modifier>.6</modifier>
+  </jmriversion>
+  <UserMessagePreferences class="jmri.managers.configurexml.DefaultUserMessagePreferencesXml">
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarLoadEditFrame">
+      <locX>429.0</locX>
+      <locY>441.0</locY>
+      <width>425.0</width>
+      <height>500.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainsScriptFrame">
+      <locX>286.0</locX>
+      <locY>44.0</locY>
+      <width>500.0</width>
+      <height>250.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.SetPhysicalLocationAction$SetPhysicalLocationFrame:Set Physical Locations">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>332.0</width>
+      <height>196.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.EditManifestTextFrame:Edit Manifest Text">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>710.0</width>
+      <height>1120.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainsByCarTypeFrame">
+      <locX>62.0</locX>
+      <locY>62.0</locY>
+      <width>300.0</width>
+      <height>250.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.LocationsByCarTypeFrame">
+      <locX>93.0</locX>
+      <locY>93.0</locY>
+      <width>325.0</width>
+      <height>250.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainSwitchListEditFrame$TrainSwitchListCommentFrame">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>1019.0</width>
+      <height>251.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.SpurEditFrame">
+      <locX>93.0</locX>
+      <locY>93.0</locY>
+      <width>689.0</width>
+      <height>589.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.SpurEditFrame:1">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>689.0</width>
+      <height>628.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.ChangeTrackFrame">
+      <locX>62.0</locX>
+      <locY>62.0</locY>
+      <width>313.0</width>
+      <height>112.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.OperationsSetupFrame:OperationsPro Settings">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>919.0</width>
+      <height>652.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location:2">
+      <locX>62.0</locX>
+      <locY>62.0</locY>
+      <width>689.0</width>
+      <height>838.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location:1">
+      <locX>1498.0</locX>
+      <locY>330.0</locY>
+      <width>795.0</width>
+      <height>748.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.ChangeTracksFrame">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>370.0</width>
+      <height>112.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.routes.RouteCopyFrame:Copy Route">
+      <locX>324.0</locX>
+      <locY>316.0</locY>
+      <width>600.0</width>
+      <height>200.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.BuildReportOptionFrame:Build Report Options">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>500.0</width>
+      <height>500.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarAttributeEditFrame">
+      <locX>81.0</locX>
+      <locY>271.0</locY>
+      <width>400.0</width>
+      <height>250.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.Roster">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <properties>
+        <property>
+          <key class="java.lang.String">defaultRosterGroup</key>
+        </property>
+      </properties>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarsSetFrame:Set Car">
+      <locX>1332.0</locX>
+      <locY>681.0</locY>
+      <width>500.0</width>
+      <height>670.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarSetFrame:Set Car">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>500.0</width>
+      <height>559.0</height>
+    </windowDetails>
+    <windowDetails class="PanelPro">
+      <locX>1057.0</locX>
+      <locY>586.0</locY>
+      <width>445.0</width>
+      <height>268.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.ShowTrainsServingLocationFrame">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>500.0</width>
+      <height>272.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.EditManifestHeaderTextFrame:Edit Manifest Header Text">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>500.0</width>
+      <height>1279.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.routes.RoutesTableFrame:Routes">
+      <locX>1487.0</locX>
+      <locY>307.0</locY>
+      <width>730.0</width>
+      <height>536.0</height>
+    </windowDetails>
+    <windowDetails class="apps.gui3.TabbedPreferencesAction$1:Preferences">
+      <locX>1446.0</locX>
+      <locY>536.0</locY>
+      <width>861.0</width>
+      <height>440.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.engines.EngineAttributeEditFrame">
+      <locX>342.0</locX>
+      <locY>401.0</locY>
+      <width>400.0</width>
+      <height>250.0</height>
+    </windowDetails>
+    <windowDetails class="Print Preview: Train Build Report ">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>660.0</width>
+      <height>892.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.TrackCopyFrame">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>400.0</width>
+      <height>400.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars:3">
+      <locX>62.0</locX>
+      <locY>62.0</locY>
+      <width>1149.0</width>
+      <height>610.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars:2">
+      <locX>944.0</locX>
+      <locY>-8.0</locY>
+      <width>1616.0</width>
+      <height>916.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars:1">
+      <locX>831.0</locX>
+      <locY>291.0</locY>
+      <width>1149.0</width>
+      <height>963.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainLoadOptionsFrame:Train Load Options">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>600.0</width>
+      <height>400.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.OperationsSetupFrame:Operations Settings">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>700.0</width>
+      <height>594.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame">
+      <locX>392.0</locX>
+      <locY>326.0</locY>
+      <width>500.0</width>
+      <height>730.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.PrintOptionFrame:Manifest Print Options">
+      <locX>717.0</locX>
+      <locY>579.0</locY>
+      <width>1409.0</width>
+      <height>831.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Train Build Options">
+      <locX>791.0</locX>
+      <locY>520.0</locY>
+      <width>587.0</width>
+      <height>454.0</height>
+    </windowDetails>
+    <windowDetails class="Print Preview: Train South Bend Flyer">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>660.0</width>
+      <height>892.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.InterchangeEditFrame">
+      <locX>569.0</locX>
+      <locY>235.0</locY>
+      <width>818.0</width>
+      <height>794.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations">
+      <locX>1570.0</locX>
+      <locY>548.0</locY>
+      <width>888.0</width>
+      <height>424.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.StagingEditFrame">
+      <locX>266.0</locX>
+      <locY>323.0</locY>
+      <width>779.0</width>
+      <height>706.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.OptionFrame:Options">
+      <locX>1164.0</locX>
+      <locY>121.0</locY>
+      <width>500.0</width>
+      <height>1028.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainScriptFrame">
+      <locX>420.0</locX>
+      <locY>363.0</locY>
+      <width>500.0</width>
+      <height>445.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.TrackCopyFrame:1">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>400.0</width>
+      <height>400.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars">
+      <locX>1156.0</locX>
+      <locY>149.0</locY>
+      <width>1395.0</width>
+      <height>892.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.ScheduleEditFrame">
+      <locX>207.0</locX>
+      <locY>286.0</locY>
+      <width>1262.0</width>
+      <height>624.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainManifestOptionFrame:Options">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>415.0</width>
+      <height>250.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainCopyFrame">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>400.0</width>
+      <height>200.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.engines.EngineEditFrame">
+      <locX>92.0</locX>
+      <locY>64.0</locY>
+      <width>500.0</width>
+      <height>674.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.LocationTrackBlockingOrderFrame:Track Blocking Order">
+      <locX>372.0</locX>
+      <locY>461.0</locY>
+      <width>600.0</width>
+      <height>500.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train">
+      <locX>420.0</locX>
+      <locY>363.0</locY>
+      <width>799.0</width>
+      <height>826.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route">
+      <locX>1346.0</locX>
+      <locY>169.0</locY>
+      <width>1152.0</width>
+      <height>562.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainSwitchListEditFrame:Switch Lists by Location">
+      <locX>131.0</locX>
+      <locY>317.0</locY>
+      <width>851.0</width>
+      <height>929.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location">
+      <locX>195.0</locX>
+      <locY>568.0</locY>
+      <width>766.0</width>
+      <height>803.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.PoolTrackFrame">
+      <locX>62.0</locX>
+      <locY>62.0</locY>
+      <width>308.0</width>
+      <height>250.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.TrackLoadEditFrame:Edit Track Load Options">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>600.0</width>
+      <height>400.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.engines.EnginesTableFrame:Locomotives">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>794.0</width>
+      <height>610.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.SchedulesTableFrame:Schedules">
+      <locX>62.0</locX>
+      <locY>62.0</locY>
+      <width>1282.0</width>
+      <height>468.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.rollingstock.cars.CarsSetFrame:Set Car:1">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>500.0</width>
+      <height>559.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train:1">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <width>799.0</width>
+      <height>658.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.locations.YardmasterFrame:Yardmaster">
+      <locX>31.0</locX>
+      <locY>31.0</locY>
+      <width>500.0</width>
+      <height>500.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.setup.PrintMoreOptionFrame:More Print Options">
+      <locX>493.0</locX>
+      <locY>156.0</locY>
+      <width>300.0</width>
+      <height>400.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.operations.trains.TrainsTableFrame">
+      <locX>12.0</locX>
+      <locY>279.0</locY>
+      <width>1436.0</width>
+      <height>307.0</height>
+    </windowDetails>
+    <tableDetails>
+      <table name="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars:1:table">
+        <column name="Location">
+          <order>9</order>
+          <width>190</width>
+        </column>
+        <column name="Len">
+          <order>4</order>
+          <width>35</width>
+        </column>
+        <column name="Moves">
+          <order>14</order>
+          <width>50</width>
+        </column>
+        <column name="Kernel">
+          <order>8</order>
+          <width>65</width>
+        </column>
+        <column name="Owner">
+          <order>16</order>
+          <width>50</width>
+        </column>
+        <column name="RFID">
+          <order>18</order>
+          <width>50</width>
+        </column>
+        <column name="Destination">
+          <order>10</order>
+          <width>190</width>
+        </column>
+        <column name="Final Destination">
+          <order>11</order>
+          <width>190</width>
+        </column>
+        <column name="Type">
+          <order>3</order>
+          <width>65</width>
+        </column>
+        <column name="Road">
+          <order>2</order>
+          <width>60</width>
+        </column>
+        <column name="Built">
+          <order>15</order>
+          <width>50</width>
+        </column>
+        <column name="Select">
+          <order>0</order>
+          <width>60</width>
+        </column>
+        <column name="Load">
+          <order>5</order>
+          <width>75</width>
+        </column>
+        <column name="Set">
+          <order>22</order>
+          <width>65</width>
+        </column>
+        <column name="Last Moved">
+          <order>21</order>
+          <width>50</width>
+        </column>
+        <column name="Pickup">
+          <order>20</order>
+          <width>50</width>
+        </column>
+        <column name="Return When Empty">
+          <order>12</order>
+          <width>190</width>
+        </column>
+        <column name="Train">
+          <order>13</order>
+          <width>65</width>
+        </column>
+        <column name="Edit">
+          <order>23</order>
+          <width>70</width>
+        </column>
+        <column name="Wait">
+          <order>19</order>
+          <width>50</width>
+        </column>
+        <column name="Value">
+          <order>17</order>
+          <width>50</width>
+        </column>
+        <column name="RWE Load">
+          <order>6</order>
+          <width>75</width>
+        </column>
+        <column name="Color">
+          <order>7</order>
+          <width>75</width>
+        </column>
+        <column name="Number">
+          <order>1</order>
+          <width>60</width>
+        </column>
+      </table>
+      <table name="jmri.jmrit.operations.locations.ScheduleEditFrame:table">
+        <column name="Type">
+          <order>2</order>
+          <width>90</width>
+        </column>
+        <column name="Destination">
+          <order>7</order>
+          <width>130</width>
+        </column>
+        <column name="Down">
+          <order>13</order>
+          <width>70</width>
+        </column>
+        <column name="Id">
+          <order>0</order>
+          <width>35</width>
+        </column>
+        <column name="Current">
+          <order>1</order>
+          <width>50</width>
+        </column>
+        <column name="Pickup">
+          <order>9</order>
+          <width>90</width>
+        </column>
+        <column name="Ship">
+          <order>6</order>
+          <width>90</width>
+        </column>
+        <column name="Up">
+          <order>12</order>
+          <width>60</width>
+        </column>
+        <column name="Road">
+          <order>4</order>
+          <width>90</width>
+        </column>
+        <column name="Hits">
+          <order>10</order>
+          <width>45</width>
+        </column>
+        <column name="Wait">
+          <order>11</order>
+          <width>40</width>
+        </column>
+        <column name="Delivery">
+          <order>3</order>
+          <width>90</width>
+        </column>
+        <column name="Receive">
+          <order>5</order>
+          <width>90</width>
+        </column>
+        <column name="Track">
+          <order>8</order>
+          <width>130</width>
+        </column>
+        <column name="Delete">
+          <order>14</order>
+          <width>70</width>
+        </column>
+      </table>
+      <table name="jmri.jmrit.operations.locations.SchedulesTableFrame:Schedules:table">
+        <column name="Status Spur">
+          <order>5</order>
+          <width>150</width>
+        </column>
+        <column name="Edit">
+          <order>7</order>
+          <width>70</width>
+        </column>
+        <column name="Id">
+          <order>0</order>
+          <width>40</width>
+        </column>
+        <column name="Spurs">
+          <order>4</order>
+          <width>350</width>
+        </column>
+        <column name="Name">
+          <order>1</order>
+          <width>200</width>
+        </column>
+        <column name="Num">
+          <order>3</order>
+          <width>40</width>
+        </column>
+        <column name="Status">
+          <order>2</order>
+          <width>80</width>
+        </column>
+        <column name="Mode">
+          <order>6</order>
+          <width>70</width>
+        </column>
+        <column name="Delete">
+          <order>8</order>
+          <width>90</width>
+        </column>
+      </table>
+      <table name="jmri.jmrit.operations.trains.TrainsTableFrame:table">
+        <column name="Description">
+          <order>4</order>
+          <width>172</width>
+        </column>
+        <column name="Edit">
+          <order>11</order>
+          <width>70</width>
+        </column>
+        <column name="Function">
+          <order>2</order>
+          <width>72</width>
+        </column>
+        <column name="Departs">
+          <order>6</order>
+          <width>120</width>
+        </column>
+        <column name="Current">
+          <order>8</order>
+          <width>172</width>
+        </column>
+        <column name="Terminates">
+          <order>7</order>
+          <width>171</width>
+        </column>
+        <column name="Action">
+          <order>10</order>
+          <width>90</width>
+        </column>
+        <column name="Name">
+          <order>3</order>
+          <width>127</width>
+        </column>
+        <column name="Time">
+          <order>0</order>
+          <width>50</width>
+          <sort>1</sort>
+        </column>
+        <column name="Route">
+          <order>5</order>
+          <width>120</width>
+        </column>
+        <column name="Build">
+          <order>1</order>
+          <width>50</width>
+        </column>
+        <column name="Status">
+          <order>9</order>
+          <width>176</width>
+        </column>
+      </table>
+      <table name="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars:2:table">
+        <column name="Location">
+          <order>9</order>
+          <width>190</width>
+        </column>
+        <column name="Len">
+          <order>4</order>
+          <width>35</width>
+        </column>
+        <column name="Moves">
+          <order>14</order>
+          <width>50</width>
+        </column>
+        <column name="Kernel">
+          <order>8</order>
+          <width>65</width>
+        </column>
+        <column name="Owner">
+          <order>16</order>
+          <width>50</width>
+        </column>
+        <column name="RFID">
+          <order>18</order>
+          <width>50</width>
+        </column>
+        <column name="Destination">
+          <order>10</order>
+          <width>190</width>
+        </column>
+        <column name="Final Destination">
+          <order>11</order>
+          <width>190</width>
+        </column>
+        <column name="Type">
+          <order>3</order>
+          <width>65</width>
+        </column>
+        <column name="Road">
+          <order>2</order>
+          <width>60</width>
+        </column>
+        <column name="Built">
+          <order>15</order>
+          <width>50</width>
+        </column>
+        <column name="Select">
+          <order>0</order>
+          <width>60</width>
+        </column>
+        <column name="Load">
+          <order>5</order>
+          <width>75</width>
+        </column>
+        <column name="Set">
+          <order>22</order>
+          <width>65</width>
+        </column>
+        <column name="Last Moved">
+          <order>21</order>
+          <width>50</width>
+        </column>
+        <column name="Pickup">
+          <order>20</order>
+          <width>50</width>
+        </column>
+        <column name="Return When Empty">
+          <order>12</order>
+          <width>190</width>
+        </column>
+        <column name="Train">
+          <order>13</order>
+          <width>65</width>
+        </column>
+        <column name="Edit">
+          <order>23</order>
+          <width>70</width>
+        </column>
+        <column name="Wait">
+          <order>19</order>
+          <width>50</width>
+        </column>
+        <column name="Value">
+          <order>17</order>
+          <width>50</width>
+        </column>
+        <column name="RWE Load">
+          <order>6</order>
+          <width>75</width>
+        </column>
+        <column name="Color">
+          <order>7</order>
+          <width>75</width>
+        </column>
+        <column name="Number">
+          <order>1</order>
+          <width>60</width>
+        </column>
+      </table>
+      <table name="jmri.jmrit.operations.rollingstock.engines.EnginesTableFrame:Locomotives:table">
+        <column name="Type">
+          <order>3</order>
+          <width>65</width>
+        </column>
+        <column name="Destination">
+          <order>7</order>
+          <width>190</width>
+        </column>
+        <column name="Edit">
+          <order>11</order>
+          <width>70</width>
+        </column>
+        <column name="Model">
+          <order>2</order>
+          <width>65</width>
+        </column>
+        <column name="Location">
+          <order>6</order>
+          <width>190</width>
+        </column>
+        <column name="Len">
+          <order>4</order>
+          <width>35</width>
+        </column>
+        <column name="Number">
+          <order>0</order>
+          <width>60</width>
+        </column>
+        <column name="Road">
+          <order>1</order>
+          <width>60</width>
+        </column>
+        <column name="Consist">
+          <order>5</order>
+          <width>75</width>
+        </column>
+        <column name="Train">
+          <order>8</order>
+          <width>65</width>
+        </column>
+        <column name="Moves">
+          <order>9</order>
+          <width>50</width>
+        </column>
+        <column name="Set">
+          <order>10</order>
+          <width>65</width>
+        </column>
+      </table>
+      <table name="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars:table">
+        <column name="Location">
+          <order>9</order>
+          <width>269</width>
+        </column>
+        <column name="Len">
+          <order>4</order>
+          <width>35</width>
+        </column>
+        <column name="Moves">
+          <order>14</order>
+          <width>50</width>
+        </column>
+        <column name="Kernel">
+          <order>8</order>
+          <width>65</width>
+        </column>
+        <column name="Owner">
+          <order>16</order>
+          <width>50</width>
+        </column>
+        <column name="RFID">
+          <order>18</order>
+          <width>50</width>
+        </column>
+        <column name="Destination">
+          <order>10</order>
+          <width>129</width>
+        </column>
+        <column name="Final Destination">
+          <order>11</order>
+          <width>190</width>
+        </column>
+        <column name="Type">
+          <order>3</order>
+          <width>105</width>
+        </column>
+        <column name="Road">
+          <order>2</order>
+          <width>60</width>
+        </column>
+        <column name="Built">
+          <order>15</order>
+          <width>50</width>
+        </column>
+        <column name="Select">
+          <order>0</order>
+          <width>60</width>
+        </column>
+        <column name="Load">
+          <order>5</order>
+          <width>75</width>
+        </column>
+        <column name="Set">
+          <order>22</order>
+          <width>65</width>
+        </column>
+        <column name="Last Moved">
+          <order>21</order>
+          <width>50</width>
+        </column>
+        <column name="Pickup">
+          <order>20</order>
+          <width>50</width>
+        </column>
+        <column name="Return When Empty">
+          <order>12</order>
+          <width>190</width>
+        </column>
+        <column name="Train">
+          <order>13</order>
+          <width>119</width>
+        </column>
+        <column name="Edit">
+          <order>23</order>
+          <width>70</width>
+        </column>
+        <column name="Wait">
+          <order>19</order>
+          <width>50</width>
+        </column>
+        <column name="Value">
+          <order>17</order>
+          <width>50</width>
+        </column>
+        <column name="RWE Load">
+          <order>6</order>
+          <width>75</width>
+        </column>
+        <column name="Color">
+          <order>7</order>
+          <width>75</width>
+        </column>
+        <column name="Number">
+          <order>1</order>
+          <width>222</width>
+        </column>
+      </table>
+      <table name="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route:table">
+        <column name="Y">
+          <order>11</order>
+          <width>35</width>
+        </column>
+        <column name="X">
+          <order>10</order>
+          <width>35</width>
+        </column>
+        <column name="Comment">
+          <order>12</order>
+          <width>70</width>
+        </column>
+        <column name="Down">
+          <order>14</order>
+          <width>70</width>
+        </column>
+        <column name="Id">
+          <order>0</order>
+          <width>40</width>
+        </column>
+        <column name="Train Direction">
+          <order>2</order>
+          <width>95</width>
+        </column>
+        <column name="Random">
+          <order>4</order>
+          <width>65</width>
+        </column>
+        <column name="Location">
+          <order>1</order>
+          <width>198</width>
+        </column>
+        <column name="Up">
+          <order>13</order>
+          <width>60</width>
+        </column>
+        <column name="Max Length">
+          <order>8</order>
+          <width>75</width>
+        </column>
+        <column name="Pick ups?">
+          <order>5</order>
+          <width>65</width>
+        </column>
+        <column name="Set outs?">
+          <order>6</order>
+          <width>65</width>
+        </column>
+        <column name="Wait">
+          <order>7</order>
+          <width>60</width>
+        </column>
+        <column name="Moves">
+          <order>3</order>
+          <width>50</width>
+        </column>
+        <column name="Delete">
+          <order>15</order>
+          <width>70</width>
+        </column>
+        <column name="Grade">
+          <order>9</order>
+          <width>50</width>
+        </column>
+      </table>
+    </tableDetails>
+  </UserMessagePreferences>
+  <!--Written by JMRI version r27674 on Sun Apr 05 16:13:05 PDT 2020 $Id: XmlFile.java 27564 2014-11-01 05:08:01Z jacobsen $-->
+</layout-config>
+

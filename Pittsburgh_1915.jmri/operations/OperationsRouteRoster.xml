@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.25.4+R6bcb9ac1fa on Wed Mar 23 11:24:21 PDT 2022-->
+  <routes>
+    <route id="3" name="AS&amp;WCo-Pulls" comment="">
+      <location id="3r20" name="AS&amp;WCo" locationId="1" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="30" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="3r25" name="AVRR(PRR)" locationId="33" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="30" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="48" name="Switch - Strip District" comment="">
+      <location id="48r2" name="PJRR(B&amp;O)" locationId="14" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="48r24" name="Pennsylvania Railroad Co" locationId="41" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="48r17" name="Pike Street" locationId="10" sequenceId="3" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="48r20" name="Etna Street" locationId="36" sequenceId="4" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="48r27" name="AS&amp;WCo" locationId="1" sequenceId="5" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="10" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="48r26" name="AVRR(PRR)" locationId="33" sequenceId="6" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="48r23" name="PJRR(B&amp;O)" locationId="14" sequenceId="7" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="48r25" name="Pennsylvania Railroad Co" locationId="41" sequenceId="8" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="59" name="Switch - Grant Street" comment="">
+      <location id="59r1" name="Grant Street" locationId="23" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="59r4" name="Pennsylvania Railroad Co" locationId="41" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="59r2" name="Grant Street" locationId="23" sequenceId="3" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="79" name="Switch - Railroad Street" comment="">
+      <location id="79r17" name="Pike Street" locationId="10" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="79r15" name="Railroad Street" locationId="13" sequenceId="3" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="79r16" name="AVRR(PRR)" locationId="33" sequenceId="4" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="79r18" name="Railroad Street" locationId="13" sequenceId="5" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="79r20" name="Smallman Street" locationId="32" sequenceId="6" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="79r21" name="AVRR(PRR)" locationId="33" sequenceId="7" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="79r19" name="Pike Street" locationId="10" sequenceId="8" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="87" name="Staging - B&amp;O" comment="">
+      <location id="87r10" name="Staging" locationId="37" sequenceId="1" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r12" name="Allegheny Business" locationId="40" sequenceId="2" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r14" name="Railroad Street" locationId="13" sequenceId="3" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r7" name="AVRR(PRR)" locationId="33" sequenceId="4" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r16" name="PJRR(B&amp;O)" locationId="14" sequenceId="5" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r17" name="Allegheny Business" locationId="40" sequenceId="6" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r15" name="Duquesne Way" locationId="35" sequenceId="7" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r18" name="PJRR(B&amp;O)" locationId="14" sequenceId="8" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="87r11" name="Staging" locationId="37" sequenceId="9" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="88" name="Staging" comment="">
+      <location id="88r1" name="Staging" locationId="37" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r7" name="Smallman Street" locationId="32" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r4" name="Railroad Street" locationId="13" sequenceId="3" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="3" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r3" name="AVRR(PRR)" locationId="33" sequenceId="4" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="4" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r5" name="PJRR(B&amp;O)" locationId="14" sequenceId="5" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="5" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r9" name="Penn Avenue" locationId="5" sequenceId="6" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="6" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r10" name="Pike Street" locationId="10" sequenceId="7" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="7" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r11" name="Duquesne Freight Station" locationId="38" sequenceId="8" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="8" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r12" name="Pennsylvania Railroad Co" locationId="41" sequenceId="9" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="9" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="88r2" name="Staging" locationId="37" sequenceId="10" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="10" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="89" name="Switch - Pike Street" comment="">
+      <location id="89r1" name="Pike Street" locationId="10" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="89r2" name="AVRR(PRR)" locationId="33" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="90" name="AS&amp;WCo Connections" comment="">
+      <location id="90r1" name="Staging" locationId="37" sequenceId="1" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="90r4" name="AVRR(PRR)" locationId="33" sequenceId="2" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="90r11" name="PJRR(B&amp;O)" locationId="14" sequenceId="3" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="3" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="90r10" name="Staging" locationId="37" sequenceId="4" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="4" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="91" name="AS&amp;WCo-Interchange" comment="">
+      <location id="91r1" name="Staging" locationId="37" sequenceId="1" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="111" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="91r3" name="AVRR(PRR)" locationId="33" sequenceId="2" trainDirection="2" maxTrainLength="3000" grade="0.0" maxCarMoves="111" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="91r2" name="Staging" locationId="37" sequenceId="3" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="111" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="3" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="92" name="AS&amp;WCo-Spots" comment="">
+      <location id="92r1" name="AVRR(PRR)" locationId="33" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="30" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="92r2" name="AS&amp;WCo" locationId="1" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="30" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+  </routes>
+</operations-config>
