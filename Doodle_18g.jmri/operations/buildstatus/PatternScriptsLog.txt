@@ -1,15 +1,204 @@
-2023-05-24 00:19:17,930 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-05-24 00:19:17,960 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-05-24 00:19:17,966 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-05-24 00:19:17,966 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-05-24 00:19:17,966 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-05-24 00:19:17,976 - OPS.OE.PSE - INFO - Directory created: C:\Users\greg9\JMRI\JMRI-Freelance-Layouts\Doodle_18g.jmri\operations\csvManifests
-2023-05-24 00:19:17,989 - OPS.OE.PSE - INFO - Directory created: C:\Users\greg9\JMRI\JMRI-Freelance-Layouts\Doodle_18g.jmri\operations\csvSwitchLists
-2023-05-24 00:19:17,993 - OPS.OE.PSE - INFO - Directory created: C:\Users\greg9\JMRI\JMRI-Freelance-Layouts\Doodle_18g.jmri\operations\jsonManifests
-2023-05-24 00:19:17,993 - OPS.OE.PSE - INFO - Directory created: C:\Users\greg9\JMRI\JMRI-Freelance-Layouts\Doodle_18g.jmri\operations\switchLists
-2023-05-24 00:19:17,993 - OPS.OE.PSE - INFO - Directory created: C:\Users\greg9\JMRI\JMRI-Freelance-Layouts\Doodle_18g.jmri\operations\manifests
-2023-05-24 00:19:17,993 - OPS.OE.PSE - INFO - 5Destination folders created
-2023-05-24 00:19:18,007 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-05-24 00:19:18,007 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-05-24 00:19:18,480 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-05-24 00:19:18,512 - OPS.Main.Controller - INFO - Main script run time (sec): 0.566
+2023-05-25 13:55:02,776 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-05-25 13:55:02,809 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-05-25 13:55:02,809 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-05-25 13:55:02,809 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-05-25 13:55:02,809 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-05-25 13:55:02,809 - OPS.OE.PSE - INFO - Destination folders check OK
+2023-05-25 13:55:02,838 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-05-25 13:55:02,854 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-05-25 13:55:03,311 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-05-25 13:55:03,325 - OPS.Main.Controller - INFO - Main script run time (sec): 0.535
+2023-05-25 13:55:09,951 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1685048109952,modifiers=Button1] on psButton
+2023-05-25 13:55:09,967 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
+2023-05-25 13:55:09,996 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-05-25 13:55:09,996 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-05-25 13:55:10,203 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-05-25 13:55:10,203 - OPS.o2o.Controller - INFO - o2o makeFrame completed
+2023-05-25 13:55:10,266 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 13:55:10,282 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 13:55:10,331 - OPS.PT.Controller - INFO - Patterns makeFrame completed
+2023-05-25 13:55:10,394 - OPS.TB.Model - INFO - Directory created: C:\Users\greg9\JMRI\JMRI-In-Progress-Layouts\Doodle_18g.jmri\operations\throwback
+2023-05-25 13:55:10,394 - OPS.Main.View - DEBUG - makePatternScriptsWindow
+2023-05-25 13:55:10,503 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:55:10,615 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:55:23,046 - OPS.TB.Listeners - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Show Subroutines.Throwback,when=1685048123046,modifiers=Button1] on Subroutines.Throwback
+2023-05-25 13:55:23,046 - OPS.TB.Listeners - INFO - Show Subroutines.Throwback
+2023-05-25 13:55:23,062 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-05-25 13:55:23,078 - OPS.o2o.Controller - INFO - o2o makeFrame completed
+2023-05-25 13:55:23,078 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 13:55:23,078 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 13:55:23,092 - OPS.PT.Controller - INFO - Patterns makeFrame completed
+2023-05-25 13:55:23,092 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-05-25 13:55:23,092 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
+2023-05-25 13:55:37,404 - OPS.PT.Model - DEBUG - jLocations
+2023-05-25 13:55:37,420 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 13:55:37,420 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 13:55:37,436 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 13:55:37,436 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 13:55:46,170 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1685048146170,modifiers=Button1] on scButton
+2023-05-25 13:55:46,170 - OPS.PT.Model - DEBUG - updateConfigFile
+2023-05-25 13:55:46,170 - OPS.PT.Model - DEBUG - validSelection
+2023-05-25 13:55:46,170 - OPS.PT.View - DEBUG - setCarsToTrack
+2023-05-25 13:55:46,217 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-05-25 13:55:46,217 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-05-25 13:55:46,249 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-05-25 13:55:46,249 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-05-25 13:55:46,263 - OPS.PT.View - INFO - Set Rolling Stock Window created for track 71
+2023-05-25 13:55:46,263 - OPS.PT.View - INFO - 1 Set Rolling Stock windows for City created
+2023-05-25 13:55:49,750 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Switch List,when=1685048149750,modifiers=Button1] on javax.swing.JButton[,36,21,83x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@7fc6d57b,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Switch List,defaultCapable=true]
+2023-05-25 13:55:49,765 - OPS.PT.ModelSetCarsForm - DEBUG - testValidityOfForm
+2023-05-25 13:55:49,765 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-05-25 13:55:49,799 - OPS.PT.ModelSetCarsForm - DEBUG - maksSwitchList
+2023-05-25 13:55:50,526 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-05-25 13:55:50,526 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-05-25 13:55:50,526 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-05-25 13:55:50,526 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-05-25 13:55:50,526 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-05-25 13:57:00,250 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,180,484x661,invalid,hidden,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 71,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,468x622,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:57:03,426 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1685048223426,modifiers=Button1] on scButton
+2023-05-25 13:57:03,426 - OPS.PT.Model - DEBUG - updateConfigFile
+2023-05-25 13:57:03,426 - OPS.PT.Model - DEBUG - validSelection
+2023-05-25 13:57:03,440 - OPS.PT.View - DEBUG - setCarsToTrack
+2023-05-25 13:57:03,487 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-05-25 13:57:03,487 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-05-25 13:57:03,507 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-05-25 13:57:03,519 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-05-25 13:57:03,535 - OPS.PT.View - INFO - Set Rolling Stock Window created for track 72
+2023-05-25 13:57:03,535 - OPS.PT.View - INFO - 1 Set Rolling Stock windows for City created
+2023-05-25 13:57:05,341 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Switch List,when=1685048225341,modifiers=Button1] on javax.swing.JButton[,36,21,83x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@7fc6d57b,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Switch List,defaultCapable=true]
+2023-05-25 13:57:05,341 - OPS.PT.ModelSetCarsForm - DEBUG - testValidityOfForm
+2023-05-25 13:57:05,357 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-05-25 13:57:05,357 - OPS.PT.ModelSetCarsForm - DEBUG - maksSwitchList
+2023-05-25 13:57:05,487 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-05-25 13:57:05,487 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-05-25 13:57:05,487 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-05-25 13:57:05,487 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-05-25 13:57:05,487 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-05-25 13:57:54,354 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,180,453x789,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 72,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,437x750,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:58:00,269 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,180,453x789,invalid,hidden,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 72,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,437x750,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:58:05,515 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1685048285515,modifiers=Button1] on scButton
+2023-05-25 13:58:05,515 - OPS.PT.Model - DEBUG - updateConfigFile
+2023-05-25 13:58:05,529 - OPS.PT.Model - DEBUG - validSelection
+2023-05-25 13:58:05,529 - OPS.PT.View - DEBUG - setCarsToTrack
+2023-05-25 13:58:05,555 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-05-25 13:58:05,555 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-05-25 13:58:05,578 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-05-25 13:58:05,578 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-05-25 13:58:05,592 - OPS.PT.View - INFO - Set Rolling Stock Window created for track 73
+2023-05-25 13:58:05,592 - OPS.PT.View - INFO - 1 Set Rolling Stock windows for City created
+2023-05-25 13:58:07,375 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Switch List,when=1685048287376,modifiers=Button1] on javax.swing.JButton[,36,21,83x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@7fc6d57b,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Switch List,defaultCapable=true]
+2023-05-25 13:58:07,375 - OPS.PT.ModelSetCarsForm - DEBUG - testValidityOfForm
+2023-05-25 13:58:07,375 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-05-25 13:58:07,375 - OPS.PT.ModelSetCarsForm - DEBUG - maksSwitchList
+2023-05-25 13:58:07,486 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-05-25 13:58:07,486 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-05-25 13:58:07,486 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-05-25 13:58:07,486 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-05-25 13:58:07,486 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-05-25 13:58:17,905 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,168,453x852,invalid,hidden,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 73,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,437x813,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:58:47,142 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:58:50,263 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1685048330264,modifiers=Button1] on scButton
+2023-05-25 13:58:50,263 - OPS.PT.Model - DEBUG - updateConfigFile
+2023-05-25 13:58:50,279 - OPS.PT.Model - DEBUG - validSelection
+2023-05-25 13:58:50,279 - OPS.PT.View - DEBUG - setCarsToTrack
+2023-05-25 13:58:50,295 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-05-25 13:58:50,295 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-05-25 13:58:50,311 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-05-25 13:58:50,311 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-05-25 13:58:50,342 - OPS.PT.View - INFO - Set Rolling Stock Window created for track 74
+2023-05-25 13:58:50,342 - OPS.PT.View - INFO - 1 Set Rolling Stock windows for City created
+2023-05-25 13:58:51,664 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Switch List,when=1685048331665,modifiers=Button1] on javax.swing.JButton[,36,21,83x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@7fc6d57b,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Switch List,defaultCapable=true]
+2023-05-25 13:58:51,664 - OPS.PT.ModelSetCarsForm - DEBUG - testValidityOfForm
+2023-05-25 13:58:51,664 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-05-25 13:58:51,664 - OPS.PT.ModelSetCarsForm - DEBUG - maksSwitchList
+2023-05-25 13:58:51,776 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-05-25 13:58:51,776 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-05-25 13:58:51,776 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-05-25 13:58:51,776 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-05-25 13:58:51,776 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-05-25 13:58:57,085 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,180,453x814,invalid,hidden,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 74,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,437x775,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:59:23,898 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 13:59:28,358 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1685048368358,modifiers=Button1] on scButton
+2023-05-25 13:59:28,358 - OPS.PT.Model - DEBUG - updateConfigFile
+2023-05-25 13:59:28,372 - OPS.PT.Model - DEBUG - validSelection
+2023-05-25 13:59:28,372 - OPS.PT.View - DEBUG - setCarsToTrack
+2023-05-25 13:59:28,388 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-05-25 13:59:28,388 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-05-25 13:59:28,404 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-05-25 13:59:28,404 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-05-25 13:59:28,421 - OPS.PT.View - INFO - Set Rolling Stock Window created for track 75
+2023-05-25 13:59:28,421 - OPS.PT.View - INFO - 1 Set Rolling Stock windows for City created
+2023-05-25 13:59:31,602 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Switch List,when=1685048371588,modifiers=Button1] on javax.swing.JButton[,36,21,83x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@7fc6d57b,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Switch List,defaultCapable=true]
+2023-05-25 13:59:31,602 - OPS.PT.ModelSetCarsForm - DEBUG - testValidityOfForm
+2023-05-25 13:59:31,602 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-05-25 13:59:31,602 - OPS.PT.ModelSetCarsForm - DEBUG - maksSwitchList
+2023-05-25 13:59:31,704 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-05-25 13:59:31,704 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-05-25 13:59:31,704 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-05-25 13:59:31,704 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-05-25 13:59:31,704 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-05-25 14:00:00,244 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 14:00:02,959 - OPS.PT.Model - DEBUG - jLocations
+2023-05-25 14:00:02,974 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:00:02,974 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:00:02,990 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:00:02,990 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:00:17,921 - OPS.PT.Model - DEBUG - jLocations
+2023-05-25 14:00:17,937 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:00:17,937 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:00:17,950 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:00:17,953 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:00:23,990 - OPS.PT.Model - DEBUG - jLocations
+2023-05-25 14:00:23,990 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:00:24,005 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:00:24,006 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:00:24,006 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:00:28,631 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1685048428631,modifiers=Button1] on scButton
+2023-05-25 14:00:28,631 - OPS.PT.Model - DEBUG - updateConfigFile
+2023-05-25 14:00:28,647 - OPS.PT.Model - DEBUG - validSelection
+2023-05-25 14:00:28,651 - OPS.PT.View - DEBUG - setCarsToTrack
+2023-05-25 14:00:28,657 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-05-25 14:00:28,657 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-05-25 14:00:28,673 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-05-25 14:00:28,673 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-05-25 14:00:28,688 - OPS.PT.View - INFO - Set Rolling Stock Window created for track Cabin Track
+2023-05-25 14:00:28,688 - OPS.PT.View - INFO - 1 Set Rolling Stock windows for Train Service created
+2023-05-25 14:00:30,401 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Switch List,when=1685048430401,modifiers=Button1] on javax.swing.JButton[,36,21,83x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@7fc6d57b,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Switch List,defaultCapable=true]
+2023-05-25 14:00:30,401 - OPS.PT.ModelSetCarsForm - DEBUG - testValidityOfForm
+2023-05-25 14:00:30,401 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-05-25 14:00:30,417 - OPS.PT.ModelSetCarsForm - DEBUG - maksSwitchList
+2023-05-25 14:00:30,526 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-05-25 14:00:30,526 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-05-25 14:00:30,526 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-05-25 14:00:30,526 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-05-25 14:00:30,526 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-05-25 14:00:36,331 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,180,1007x414,invalid,hidden,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: Cabin Track,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,991x375,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 14:01:12,447 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 14:01:16,736 - OPS.PT.Model - DEBUG - jLocations
+2023-05-25 14:01:16,750 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:01:16,750 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:01:16,766 - OPS.PT.Model - DEBUG - updateLocations
+2023-05-25 14:01:16,766 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-05-25 14:01:18,753 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1685048478754,modifiers=Button1] on scButton
+2023-05-25 14:01:18,753 - OPS.PT.Model - DEBUG - updateConfigFile
+2023-05-25 14:01:18,753 - OPS.PT.Model - DEBUG - validSelection
+2023-05-25 14:01:18,753 - OPS.PT.View - DEBUG - setCarsToTrack
+2023-05-25 14:01:18,769 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-05-25 14:01:18,769 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-05-25 14:01:18,785 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-05-25 14:01:18,785 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-05-25 14:01:18,801 - OPS.PT.View - INFO - Set Rolling Stock Window created for track Ice
+2023-05-25 14:01:18,801 - OPS.PT.View - INFO - 1 Set Rolling Stock windows for Downtown created
+2023-05-25 14:01:20,158 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Switch List,when=1685048480159,modifiers=Button1] on javax.swing.JButton[,36,21,83x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@7fc6d57b,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Switch List,defaultCapable=true]
+2023-05-25 14:01:20,158 - OPS.PT.ModelSetCarsForm - DEBUG - testValidityOfForm
+2023-05-25 14:01:20,158 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-05-25 14:01:20,174 - OPS.PT.ModelSetCarsForm - DEBUG - maksSwitchList
+2023-05-25 14:01:20,289 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-05-25 14:01:20,289 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-05-25 14:01:20,289 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-05-25 14:01:20,289 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-05-25 14:01:20,289 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-05-25 14:01:26,259 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,180,1025x646,invalid,hidden,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: Ice,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1009x607,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 14:01:55,852 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 14:05:05,101 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-05-25 14:06:04,868 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,0,0,1222x843,invalid,hidden,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1206x804,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow

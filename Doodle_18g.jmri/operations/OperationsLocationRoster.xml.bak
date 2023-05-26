@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Thu May 25 14:03:00 PDT 2023-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue May 23 06:32:14 PDT 2023-->
   <divisions>
     <division id="2" name="Easton Division" comment="" />
     <division id="1" name="Northton Division" comment="" />
@@ -55,7 +55,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="1s1" name="~" trackType="Yard" dir="15" length="3000" moves="6">
+      <track id="1s1" name="~" trackType="Yard" locType="Yard" dir="15" length="3000" moves="6">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -145,12 +145,12 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="2s1" name="Ash" trackType="Spur" dir="15" length="88" moves="1" schedule="DA" scheduleId="1481" itemId="1481c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s1" name="Ash" trackType="Spur" locType="Siding" dir="15" length="88" moves="1" schedule="DA" scheduleId="1481" itemId="1481c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="GB" />
         </types>
       </track>
-      <track id="2s10" name="Platform 2" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="2s10" name="Platform 2" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -195,7 +195,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="2s11" name="Platform 3" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="2s11" name="Platform 3" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -240,13 +240,13 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="2s12" name="Ice" trackType="Spur" dir="15" length="528" moves="0" schedule="CI" scheduleId="1487" itemId="1487c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s12" name="Ice" trackType="Spur" locType="Siding" dir="15" length="528" moves="0" schedule="CI" scheduleId="1487" itemId="1487c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="RB" />
           <carType name="RS" />
         </types>
       </track>
-      <track id="2s13" name="Platform 5" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="2s13" name="Platform 5" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -291,29 +291,29 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="2s2" name="Coal" trackType="Spur" dir="15" length="220" moves="5" schedule="DC" scheduleId="1482" itemId="1482c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s2" name="Coal" trackType="Spur" locType="Siding" dir="15" length="220" moves="5" schedule="DC" scheduleId="1482" itemId="1482c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
       </track>
-      <track id="2s3" name="Gantry Crane" trackType="Spur" dir="15" length="88" moves="1" schedule="DG" scheduleId="1483" itemId="1483c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s3" name="Gantry Crane" trackType="Spur" locType="Siding" dir="15" length="88" moves="1" schedule="DG" scheduleId="1483" itemId="1483c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="GB" />
         </types>
       </track>
-      <track id="2s4" name="Sand" trackType="Spur" dir="15" length="44" moves="1" schedule="DS" scheduleId="1485" itemId="1485c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s4" name="Sand" trackType="Spur" locType="Siding" dir="15" length="44" moves="1" schedule="DS" scheduleId="1485" itemId="1485c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="GB" />
         </types>
       </track>
-      <track id="2s5" name="General Delivery" trackType="Spur" dir="15" length="352" moves="3" schedule="DD" scheduleId="1478" itemId="1478c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s5" name="General Delivery" trackType="Spur" locType="Siding" dir="15" length="352" moves="3" schedule="DD" scheduleId="1478" itemId="1478c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s6" name="DY" trackType="Spur" dir="15" length="352" moves="0" schedule="DY" scheduleId="1480" itemId="1480c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s6" name="DY" trackType="Spur" locType="Siding" dir="15" length="352" moves="0" schedule="DY" scheduleId="1480" itemId="1480c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="B60" />
           <carType name="Bn" />
@@ -321,7 +321,7 @@
           <carType name="XX" />
         </types>
       </track>
-      <track id="2s7" name="Service Track" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="2s7" name="Service Track" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -366,14 +366,14 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="2s8" name="DX" trackType="Spur" dir="15" length="308" moves="3" schedule="DX" scheduleId="1470" itemId="1470c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s8" name="DX" trackType="Spur" locType="Siding" dir="15" length="308" moves="3" schedule="DX" scheduleId="1470" itemId="1470c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Ok" />
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s9" name="Platform 4" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="2s9" name="Platform 4" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -463,24 +463,24 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="3s1" name="Coal" trackType="Spur" dir="15" length="88" moves="4" schedule="JC" scheduleId="1486" itemId="1486c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="3s1" name="Coal" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="JC" scheduleId="1486" itemId="1486c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
       </track>
-      <track id="3s2" name="Steel Products" trackType="Spur" dir="15" length="440" moves="3" schedule="JS" scheduleId="1468" itemId="1468c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="3s2" name="Steel Products" trackType="Spur" locType="Siding" dir="15" length="440" moves="3" schedule="JS" scheduleId="1468" itemId="1468c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
           <carType name="XM" />
         </types>
       </track>
-      <track id="3s3" name="Depot" trackType="Spur" dir="15" length="88" moves="3" schedule="JD" scheduleId="1488" itemId="1488c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="3s3" name="Depot" trackType="Spur" locType="Siding" dir="15" length="88" moves="3" schedule="JD" scheduleId="1488" itemId="1488c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
       </track>
-      <track id="3s4" name="Off Spot" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="3s4" name="Off Spot" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -570,7 +570,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="4s1" name="Interchange" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="4s1" name="Interchange" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -660,45 +660,45 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="5s1" name="Coal" trackType="Spur" dir="15" length="88" moves="6" schedule="PC" scheduleId="1475" itemId="1475c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s1" name="Coal" trackType="Spur" locType="Siding" dir="15" length="88" moves="6" schedule="PC" scheduleId="1475" itemId="1475c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
       </track>
-      <track id="5s2" name="Freight House" trackType="Spur" dir="15" length="264" moves="3" schedule="PF" scheduleId="1476" itemId="1476c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s2" name="Freight House" trackType="Spur" locType="Siding" dir="15" length="264" moves="3" schedule="PF" scheduleId="1476" itemId="1476c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
       </track>
-      <track id="5s3" name="Lumber" trackType="Spur" dir="15" length="88" moves="2" schedule="PL" scheduleId="1473" itemId="1473c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s3" name="Lumber" trackType="Spur" locType="Siding" dir="15" length="88" moves="2" schedule="PL" scheduleId="1473" itemId="1473c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
         </types>
       </track>
-      <track id="5s4" name="Power House" trackType="Spur" dir="15" length="220" moves="6" schedule="PP" scheduleId="1472" itemId="1472c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s4" name="Power House" trackType="Spur" locType="Siding" dir="15" length="220" moves="6" schedule="PP" scheduleId="1472" itemId="1472c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
       </track>
-      <track id="5s5" name="General Delivery" trackType="Spur" dir="15" length="176" moves="4" schedule="PG" scheduleId="1477" itemId="1477c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s5" name="General Delivery" trackType="Spur" locType="Siding" dir="15" length="176" moves="4" schedule="PG" scheduleId="1477" itemId="1477c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
           <carType name="XM" />
         </types>
       </track>
-      <track id="5s6" name="Depot" trackType="Spur" dir="15" length="440" moves="4" schedule="PD" scheduleId="1469" itemId="1469c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s6" name="Depot" trackType="Spur" locType="Siding" dir="15" length="440" moves="4" schedule="PD" scheduleId="1469" itemId="1469c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
       </track>
-      <track id="5s7" name="Fuel Oil" trackType="Spur" dir="15" length="88" moves="4" schedule="PO" scheduleId="1474" itemId="1474c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s7" name="Fuel Oil" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="PO" scheduleId="1474" itemId="1474c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="TM" />
         </types>
       </track>
-      <track id="5s8" name="Off Spot" trackType="Yard" dir="15" length="3000" moves="55">
+      <track id="5s8" name="Off Spot" trackType="Yard" locType="Yard" dir="15" length="3000" moves="55">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -788,30 +788,30 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="6s1" name="Coal" trackType="Spur" dir="15" length="88" moves="4" schedule="VC" scheduleId="1479" itemId="1479c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="6s1" name="Coal" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="VC" scheduleId="1479" itemId="1479c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
       </track>
-      <track id="6s2" name="Depot" trackType="Spur" dir="15" length="88" moves="4" schedule="VD" scheduleId="1471" itemId="1471c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="6s2" name="Depot" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="VD" scheduleId="1471" itemId="1471c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
       </track>
-      <track id="6s3" name="Produce" trackType="Spur" dir="15" length="528" moves="0" schedule="VP" scheduleId="1484" itemId="1484c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="6s3" name="Produce" trackType="Spur" locType="Siding" dir="15" length="528" moves="0" schedule="VP" scheduleId="1484" itemId="1484c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="RB" />
           <carType name="RS" />
         </types>
       </track>
-      <track id="6s4" name="General Delivery" trackType="Spur" dir="15" length="88" moves="4" schedule="VG" scheduleId="1489" itemId="1489c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="6s4" name="General Delivery" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="VG" scheduleId="1489" itemId="1489c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
           <carType name="XM" />
         </types>
       </track>
-      <track id="6s5" name="Roundhouse" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="6s5" name="Roundhouse" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -856,7 +856,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="6s6" name="Station" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="6s6" name="Station" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -901,7 +901,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="6s7" name="Off Spot" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="6s7" name="Off Spot" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -991,7 +991,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="7s1" name="S1" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="7s1" name="S1" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1036,7 +1036,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="7s2" name="S2" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="7s2" name="S2" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1126,7 +1126,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="8s1" name="N2" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="8s1" name="N2" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1171,7 +1171,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="8s2" name="N1" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="8s2" name="N1" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1216,7 +1216,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="8s3" name="N3" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="8s3" name="N3" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1261,7 +1261,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="8s4" name="N4" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="8s4" name="N4" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1351,7 +1351,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="9s1" name="E1" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="9s1" name="E1" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1396,7 +1396,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="9s2" name="E4" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="9s2" name="E4" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1441,7 +1441,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="9s3" name="E2" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="9s3" name="E2" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1486,7 +1486,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="9s4" name="E3" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="9s4" name="E3" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1576,7 +1576,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="10s1" name="Car Barn" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="10s1" name="Car Barn" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1621,7 +1621,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s10" name="OB-Park" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="10s10" name="OB-Park" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1666,7 +1666,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s11" name="Repair" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="10s11" name="Repair" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1711,7 +1711,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s2" name="Roundhouse" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="10s2" name="Roundhouse" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1756,7 +1756,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s3" name="OB-Easton" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="10s3" name="OB-Easton" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1801,7 +1801,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s4" name="OB-Northton" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="10s4" name="OB-Northton" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1846,7 +1846,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s5" name="OB-Downtown" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="10s5" name="OB-Downtown" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1891,7 +1891,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s6" name="OB-Valley" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="10s6" name="OB-Valley" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1936,7 +1936,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s7" name="OB-Summit" trackType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
+      <track id="10s7" name="OB-Summit" trackType="Interchange" locType="Interchange" dir="15" length="3000" moves="0" onlyCarWithFD="false">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -1981,7 +1981,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s8" name="Cabin Track" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="10s8" name="Cabin Track" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2026,7 +2026,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="10s9" name="Coach Yard" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="10s9" name="Coach Yard" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2116,7 +2116,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="11s1" name="71" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="11s1" name="71" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2161,7 +2161,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="11s2" name="72" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="11s2" name="72" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2206,7 +2206,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="11s3" name="73" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="11s3" name="73" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2251,7 +2251,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="11s4" name="74" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="11s4" name="74" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2296,7 +2296,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="11s5" name="75" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="11s5" name="75" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2341,7 +2341,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="11s6" name="Receiving" trackType="Yard" dir="15" length="3000" moves="0">
+      <track id="11s6" name="Receiving" trackType="Yard" locType="Yard" dir="15" length="3000" moves="0">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2431,7 +2431,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="12s1" name="W1" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="12s1" name="W1" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2476,7 +2476,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="12s2" name="W3" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="12s2" name="W3" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />
@@ -2521,7 +2521,7 @@
           <locoType name="ESS" />
         </types>
       </track>
-      <track id="12s3" name="W2" trackType="Staging" dir="15" length="3000" moves="0" onlyCarWithFD="false" loadOptions="26">
+      <track id="12s3" name="W2" trackType="Staging" locType="Staging" dir="15" length="3000" moves="0" loadOptions="26">
         <types>
           <carType name="B" />
           <carType name="B60" />

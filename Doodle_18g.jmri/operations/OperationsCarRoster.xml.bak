@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Thu May 25 14:03:00 PDT 2023-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue May 23 06:32:14 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -208,30 +208,30 @@
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
     </load>
-    <load type="PB">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-    </load>
     <load type="MA">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="mail" loadType="load" />
+    </load>
+    <load type="PB">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
     </load>
     <load type="B60">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="express" loadType="load" />
     </load>
+    <load type="NM">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+    </load>
     <load type="HK">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="coal2" loadType="load" />
     </load>
-    <load type="NM">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-    </load>
-    <load type="Pk">
+    <load type="P70">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
     </load>
@@ -240,7 +240,7 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="fuel" loadType="load" />
     </load>
-    <load type="P70">
+    <load type="Pk">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
     </load>
@@ -412,7 +412,7 @@
     <car id="M&amp;P5577" roadName="M&amp;P" roadNumber="5577" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="11" secLocationId="11s3" moves="0" date="" selected="false" load="E" />
     <car id="M&amp;P6045" roadName="M&amp;P" roadNumber="6045" type="FM" length="40" color="Red" weight="2" weightTons="40" locationId="11" secLocationId="11s1" moves="0" date="" selected="false" load="E" />
     <car id="M&amp;P6808" roadName="M&amp;P" roadNumber="6808" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="11" secLocationId="11s4" moves="0" date="" selected="false" load="E" />
-    <car id="M&amp;P8641" roadName="M&amp;P" roadNumber="8641" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="11" secLocationId="11s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="M&amp;P8641" roadName="M&amp;P" roadNumber="8641" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="E" />
     <car id="NYC0574" roadName="NYC" roadNumber="0574" type="GB" length="40" color="Red" weight="2" weightTons="40" locationId="11" secLocationId="11s2" moves="0" date="" selected="false" load="E" />
     <car id="NYC3866" roadName="NYC" roadNumber="3866" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="11" secLocationId="11s3" moves="0" date="" selected="false" load="E" />
     <car id="NYC4619" roadName="NYC" roadNumber="4619" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="4" secLocationId="4s1" moves="0" date="" selected="false" load="E" />
