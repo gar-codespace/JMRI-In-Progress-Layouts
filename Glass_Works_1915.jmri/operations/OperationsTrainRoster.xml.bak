@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 11:18:58 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 11:43:19 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Salem Yard" description="Switch Salem Terminal" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="true" buildFailedMessage="Could not find a departure staging track at Salem that meets the train requirements" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="1/20/2023 21:29" RequestedCars="120" statusCode="2" oldStatusCode="20" comment="" showTimes="true">
+    <train id="1" name="Salem Yard" description="Switch Salem Terminal" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="true" buildFailedMessage="Could not find a departure staging track at Salem that meets the train requirements" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="1/20/2023 21:29" RequestedCars="120" statusCode="2" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Terminal Switch" id="1" />
       <types>
