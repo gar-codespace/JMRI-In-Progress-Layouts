@@ -1,13 +1,11 @@
- Build Report for train (Pier Switcher) built on 6/20/23, 9:37 PM 
+ Build Report for train (Pier Switcher) built on 6/21/23, 8:15 AM 
  JMRI version 5.2+R760b98537f 
   Build report detail level: Normal 
  
   Train (Pier Switcher) route (Pier Switch): 
-  1r1 Staging (Harbor Drive) Eastbound request 13 pick ups, maximum train length 1,000 
-  feet 
-  1r3 Location (West Harbor) Eastbound requests 30 moves, maximum train length 1,000 
-  feet 
-  1r2 Staging (Harbor Drive) Eastbound requests 13 set outs 
+  1r4 Staging (Water Street) Eastbound request 13 pick ups, maximum train length 1,000 feet 
+  1r3 Location (Unreported) Eastbound requests 30 moves, maximum train length 1,000 feet 
+  1r5 Staging (Water Street) Eastbound requests 13 set outs 
  Route (Pier Switch) requests 28 cars and 56 moves 
  
  Train requirements: 
@@ -15,16 +13,51 @@
  
  Found 0 locomotives for train (Pier Switcher) 
   
- Train terminates into staging at (Harbor Drive), there are 1 tracks 
- Train will return to staging (Harbor Drive) reuse departure track 
+ Train terminates into staging at (Water Street), there are 1 tracks 
+ Train will return to staging (Water Street) reuse departure track 
   
- Train will depart staging (Harbor Drive), there are 1 tracks 
-  Staging track (Street Tracks) has 1 loco(s) and 13 cars 
-  Staging track (Street Tracks) has a loco (MUTT 492) type (ESS) that is not serviced 
-  by train (Pier Switcher) 
- Train requirements: 
- Train does not require any locomotives 
- 
- Could not find a departure staging track at Harbor Drive that meets the train 
- requirements 
+ Train will depart staging (Water Street), there are 1 tracks 
+  Staging track (Street Tracks) has 0 loco(s) and 13 cars 
+  
+ Found 13 cars for train (Pier Switcher) 
+  
+  Requested cars (28) for train (Pier Switcher) the number available (13) building train! 
+  
+  Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
+  Departing staging in aggressive mode, find destinations from (Water Street) in next pass 
+ Route location (Water Street) id 1r4 requests 0 pick ups, 13/13 moves are available 
+ Success 0/0 cars at location (Water Street) assigned to train (Pier Switcher) 
+ Route location (Unreported) id 1r3 requests 15 pick ups, 30/30 moves are available 
+ Partial 0/15 cars at location (Unreported) assigned to train (Pier Switcher) 
+ Route location (Water Street) id 1r5 no pick ups 
+  
+  Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
+ Route location (Water Street) id 1r4 requests 13 pick ups, 13/13 moves are available 
+ Warning car (PRR 6249) departing staging without a destination 
+ Warning car (P&R 8715) departing staging without a destination 
+ Warning car (ACL 9405) departing staging without a destination 
+ Warning car (PL 4401) departing staging without a destination 
+ Warning car (ER 2050) departing staging without a destination 
+ Warning car (ACL 4430) departing staging without a destination 
+ Warning car (ER 1824) departing staging without a destination 
+ Warning car (B&A 1897) departing staging without a destination 
+ Warning car (LV 2943) departing staging without a destination 
+ Warning car (WJ&S 6433) departing staging without a destination 
+ Warning car (NYNH&H 9743) departing staging without a destination 
+ Warning car (M&P 8833) departing staging without a destination 
+ Warning car (P&R 3022) departing staging without a destination 
+ BUILD FAILED could not find destinations for 13 car(s) departing from staging track (Water Street, Street Tracks) 
+ PRR 6249 
+ P&R 8715 
+ ACL 9405 
+ PL 4401 
+ ER 2050 
+ ACL 4430 
+ ER 1824 
+ B&A 1897 
+ LV 2943 
+ WJ&S 6433 
+ NYNH&H 9743 
+ M&P 8833 
+ P&R 3022 
  Build failed for train (Pier Switcher) 

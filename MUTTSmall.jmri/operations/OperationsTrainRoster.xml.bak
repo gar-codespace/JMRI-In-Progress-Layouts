@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Tue Jun 20 21:46:17 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 21 10:26:46 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,9 +19,9 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Pier Switcher" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="true" buildFailedMessage="BUILD FAILED could not find destinations for 3 car(s) departing from staging track (Water Street, Street Tracks)&#xA; WJ&amp;S 6433&#xA; M&amp;P 8833&#xA; P&amp;R 3022" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="5/25/2023 14:18" RequestedCars="23" statusCode="2" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="Pier Switcher" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="true" buildFailedMessage="BUILD FAILED could not find destinations for 13 car(s) departing from staging track (Water Street, Street Tracks)&#xA; PRR 6249&#xA; P&amp;R 8715&#xA; ACL 9405&#xA; PL 4401&#xA; ER 2050&#xA; ACL 4430&#xA; ER 1824&#xA; B&amp;A 1897&#xA; LV 2943&#xA; WJ&amp;S 6433&#xA; NYNH&amp;H 9743&#xA; M&amp;P 8833&#xA; P&amp;R 3022" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="5/25/2023 14:18" RequestedCars="48" statusCode="2" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
-      <route name="Pier Switch" id="1" />
+      <route name="Pier Switcher" id="2" />
       <types>
         <carType name="Bdr" />
         <carType name="FP3" />
@@ -39,13 +39,13 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="" />
-    <schedule id="2" name="Monday" trainIds="" />
-    <schedule id="3" name="Tuesday" trainIds="" />
-    <schedule id="4" name="Wednesday" trainIds="" />
-    <schedule id="5" name="Thursday" trainIds="" />
-    <schedule id="6" name="Friday" trainIds="" />
-    <schedule id="7" name="Saturday" trainIds="" />
+    <schedule id="1" name="Sunday" trainIds="," />
+    <schedule id="2" name="Monday" trainIds="," />
+    <schedule id="3" name="Tuesday" trainIds="," />
+    <schedule id="4" name="Wednesday" trainIds="," />
+    <schedule id="5" name="Thursday" trainIds="," />
+    <schedule id="6" name="Friday" trainIds="," />
+    <schedule id="7" name="Saturday" trainIds="," />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />

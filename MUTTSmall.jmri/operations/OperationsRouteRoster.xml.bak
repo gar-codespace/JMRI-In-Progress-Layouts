@@ -2,12 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Tue Jun 20 21:43:34 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 21 10:26:26 PDT 2023-->
   <routes>
-    <route id="1" name="Pier Switch" comment="">
-      <location id="1r4" name="Water Street" locationId="2" sequenceId="1" trainDirection="1" maxTrainLength="1000" grade="0.0" maxCarMoves="13" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="1r3" name="West Harbor" locationId="3" sequenceId="2" trainDirection="1" maxTrainLength="1000" grade="0.0" maxCarMoves="20" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="1r5" name="Water Street" locationId="2" sequenceId="3" trainDirection="1" maxTrainLength="1000" grade="0.0" maxCarMoves="13" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-    </route>
+    <route id="2" name="Pier Switcher" comment="" />
   </routes>
 </operations-config>
