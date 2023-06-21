@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon May 22 11:40:46 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Jun 20 21:49:11 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,24 +19,21 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Pier Switcher" description="" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="" RequestedCars="28" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="Pier Switcher" description="" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="5/25/2023 14:18" RequestedCars="28" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Pier Switch" id="1" />
       <types>
         <carType name="Bdr" />
-        <carType name="F" />
-        <carType name="FM" />
-        <carType name="G" />
-        <carType name="GB" />
-        <carType name="RS" />
-        <carType name="Rf" />
-        <carType name="TM" />
-        <carType name="TO" />
-        <carType name="X" />
-        <carType name="XI" />
-        <carType name="XM" />
-        <carType name="XV" />
-        <carType name="Xm" />
+        <carType name="FP3" />
+        <carType name="FP4" />
+        <carType name="GPD" />
+        <carType name="GPx" />
+        <carType name="RP3" />
+        <carType name="TPO" />
+        <carType name="XP3" />
+        <carType name="XP4" />
+        <carType name="XPP" />
+        <carType name="XPV" />
       </types>
     </train>
   </trains>
@@ -50,5 +47,6 @@
     <schedule id="6" name="Friday" trainIds="" />
     <schedule id="7" name="Saturday" trainIds="" />
   </schedules>
+  <automationOptions automationStartupId="" />
   <automations />
 </operations-config>
