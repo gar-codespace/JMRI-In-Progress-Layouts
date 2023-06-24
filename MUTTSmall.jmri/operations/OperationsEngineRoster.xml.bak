@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-engines.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-engines.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 21 10:25:43 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 21 10:25:55 PDT 2023-->
   <models>
     <model name="A4" />
   </models>
@@ -41,5 +41,7 @@
     <length value="90" />
   </lengths>
   <newConsists />
-  <engines />
+  <engines>
+    <engine id="MUTT492" roadName="MUTT" roadNumber="492" type="ESS" length="40" locationId="3" secLocationId="3s1" moves="0" date="" selected="false" model="A4" hp="" bUnit="false" />
+  </engines>
 </operations-config>
