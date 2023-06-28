@@ -2,20 +2,20 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 24 11:15:40 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Jun 27 11:17:37 PDT 2023-->
   <operations>
     <setup comment="" />
-    <settings mainMenu="true" closeOnSave="true" autoSave="true" autoBackup="false" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="Descriptive" switchTime="3" travelTime="4" showValue="false" valueLabel="Value" showRfid="false" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="1915" />
-    <pickupEngFormat prefix=" [ ] Pick up" setting="Road,Number, ,Model, , ,Location,Comment," />
-    <dropEngFormat prefix=" [ ] Set out" setting="Road,Number, ,Model, , ,Destination,Comment," />
-    <pickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Length,Color,Load,Hazardous,Location,Comment,PickUp Msg," />
-    <dropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Length,Color,Load,Hazardous,Destination,Comment,SetOut Msg," />
-    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load,Final Dest,FD&amp;Track," />
+    <settings mainMenu="true" closeOnSave="true" autoSave="true" autoBackup="false" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="ARR Codes" switchTime="3" travelTime="4" showValue="false" valueLabel="Value" showRfid="false" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="1915" />
+    <pickupEngFormat prefix=" [ ] Pick up" setting="Road,Number,Model,Consist,Destination," />
+    <dropEngFormat prefix=" [ ] Set out" setting="Road,Number,Model,Consist,Destination," />
+    <pickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Destination," />
+    <dropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Destination," />
+    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Final Dest," />
     <missingCarFormat prefix="" setting="Road,Number,Type,Length,Color,Comment," />
     <switchList sameAsManifest="true" realTime="true" allTrains="true" pageFormat="pageNormal" printRouteLocation="true" trackSummary="true" />
-    <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Length,Color,Load,Hazardous,Location,Comment,PickUp Msg," />
-    <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Length,Color,Load,Hazardous,Destination,Comment,SetOut Msg," />
-    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load,Final Dest,FD&amp;Track," />
+    <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Destination," />
+    <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Destination," />
+    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Final Dest," />
     <panel name="Panel" trainIconXY="true" trainIconAppend="false" />
     <fontName name="Monospaced" />
     <fontSize size="10" />

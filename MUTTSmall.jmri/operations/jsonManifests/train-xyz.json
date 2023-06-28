@@ -1,11 +1,11 @@
 {
   "railroad" : "Metropolitan Union Transfer Terminal",
-  "userName" : "Pier Switcher",
+  "userName" : "xyz",
   "description" : "",
   "locations" : [ {
     "userName" : "Water Street",
     "name" : "2r1",
-    "departureTime" : "00:00",
+    "departureTime" : "00:02",
     "location" : {
       "comment" : "",
       "name" : "2"
@@ -23,104 +23,12 @@
     },
     "trainDirection" : 1,
     "length" : {
-      "length" : 528,
+      "length" : 572,
       "unit" : "Feet"
     },
     "weight" : 0,
     "cars" : {
       "add" : [ {
-        "name" : "P&R8715",
-        "number" : "8715",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Water Street",
-          "name" : "2",
-          "route" : "2r1",
-          "track" : {
-            "userName" : "Street Tracks",
-            "name" : "2s1"
-          }
-        },
-        "destination" : {
-          "userName" : "West Harbor",
-          "name" : "1",
-          "route" : "2r3",
-          "track" : {
-            "userName" : "4th Street Pier",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL9405",
-        "number" : "9405",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Water Street",
-          "name" : "2",
-          "route" : "2r1",
-          "track" : {
-            "userName" : "Street Tracks",
-            "name" : "2s1"
-          }
-        },
-        "destination" : {
-          "userName" : "West Harbor",
-          "name" : "1",
-          "route" : "2r3",
-          "track" : {
-            "userName" : "4th Street Pier",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "ER2050",
         "number" : "2050",
         "road" : "ER",
@@ -218,6 +126,52 @@
         "road" : "B&A",
         "rfid" : "",
         "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV2943",
+        "number" : "2943",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "XP4",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -397,52 +351,6 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR6249",
-        "number" : "6249",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Water Street",
-          "name" : "2",
-          "route" : "2r1",
-          "track" : {
-            "userName" : "Street Tracks",
-            "name" : "2s1"
-          }
-        },
-        "destination" : {
-          "userName" : "West Harbor",
-          "name" : "1",
-          "route" : "2r3",
-          "track" : {
-            "userName" : "Coffee Roasterz",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "ER1824",
         "number" : "1824",
         "road" : "ER",
@@ -471,11 +379,103 @@
           "name" : "1",
           "route" : "2r3",
           "track" : {
-            "userName" : "Gantry Crane",
-            "name" : "1s4"
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
           }
         },
-        "load" : "tank",
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R8715",
+        "number" : "8715",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Coffee Roasters",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL9405",
+        "number" : "9405",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Coffee Roasters",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -522,6 +522,52 @@
           }
         },
         "load" : "tank",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR6249",
+        "number" : "6249",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -582,15 +628,15 @@
         "status" : ""
       } ],
       "remove" : [ ],
-      "total" : 12,
-      "loads" : 12,
+      "total" : 13,
+      "loads" : 13,
       "empties" : 0
     }
   }, {
     "userName" : "West Harbor",
     "name" : "2r3",
-    "arrivalTime" : "00:04",
-    "expectedDepartureTime" : "01:04",
+    "arrivalTime" : "00:06",
+    "expectedDepartureTime" : "01:42",
     "location" : {
       "comment" : "",
       "name" : "1"
@@ -602,8 +648,16 @@
     },
     "track" : {
       "1s1" : {
+        "add" : "",
         "remove" : "",
+        "addAndRemove" : "",
         "comment" : "TrainPlayer ID:1"
+      },
+      "1s3" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:3"
       },
       "1s2" : {
         "add" : "",
@@ -632,7 +686,7 @@
     },
     "trainDirection" : 1,
     "length" : {
-      "length" : 176,
+      "length" : 572,
       "unit" : "Feet"
     },
     "weight" : 0,
@@ -730,6 +784,328 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "FGEX9107",
+        "number" : "9107",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Produce",
+            "name" : "1s7"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF5337",
+        "number" : "5337",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "FP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "lumber",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR3990",
+        "number" : "3990",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O6992",
+        "number" : "6992",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "lumber",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0306",
+        "number" : "0306",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "gravel",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF0191",
+        "number" : "0191",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "gravel",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A6470",
+        "number" : "6470",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "gravel",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "PL3265",
         "number" : "3265",
         "road" : "PL",
@@ -749,7 +1125,53 @@
           "name" : "1",
           "route" : "2r3",
           "track" : {
-            "userName" : "Coffee Roasterz",
+            "userName" : "Coffee Roasters",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Coffee Sacks",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0614",
+        "number" : "0614",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Coffee Roasters",
             "name" : "1s2"
           }
         },
@@ -778,6 +1200,98 @@
       }, {
         "name" : "FGEX5751",
         "number" : "5751",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Live Oysters",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "FGEX3882",
+        "number" : "3882",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Live Oysters",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "FGEX9508",
+        "number" : "9508",
         "road" : "FGEX",
         "rfid" : "",
         "carType" : "RP3",
@@ -915,98 +1429,6 @@
         "status" : ""
       } ],
       "remove" : [ {
-        "name" : "P&R8715",
-        "number" : "8715",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Water Street",
-          "name" : "2",
-          "route" : "2r1",
-          "track" : {
-            "userName" : "Street Tracks",
-            "name" : "2s1"
-          }
-        },
-        "destination" : {
-          "userName" : "West Harbor",
-          "name" : "1",
-          "route" : "2r3",
-          "track" : {
-            "userName" : "4th Street Pier",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL9405",
-        "number" : "9405",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Water Street",
-          "name" : "2",
-          "route" : "2r1",
-          "track" : {
-            "userName" : "Street Tracks",
-            "name" : "2s1"
-          }
-        },
-        "destination" : {
-          "userName" : "West Harbor",
-          "name" : "1",
-          "route" : "2r3",
-          "track" : {
-            "userName" : "4th Street Pier",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "ER2050",
         "number" : "2050",
         "road" : "ER",
@@ -1104,6 +1526,52 @@
         "road" : "B&A",
         "rfid" : "",
         "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV2943",
+        "number" : "2943",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "XP4",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1329,52 +1797,6 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR6249",
-        "number" : "6249",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Water Street",
-          "name" : "2",
-          "route" : "2r1",
-          "track" : {
-            "userName" : "Street Tracks",
-            "name" : "2s1"
-          }
-        },
-        "destination" : {
-          "userName" : "West Harbor",
-          "name" : "1",
-          "route" : "2r3",
-          "track" : {
-            "userName" : "Coffee Roasterz",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "ER1824",
         "number" : "1824",
         "road" : "ER",
@@ -1403,11 +1825,103 @@
           "name" : "1",
           "route" : "2r3",
           "track" : {
-            "userName" : "Gantry Crane",
-            "name" : "1s4"
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
           }
         },
-        "load" : "tank",
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R8715",
+        "number" : "8715",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Coffee Roasters",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL9405",
+        "number" : "9405",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Coffee Roasters",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1467,11 +1981,103 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "PRR6249",
+        "number" : "6249",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r1",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "PRR5069",
         "number" : "5069",
         "road" : "PRR",
         "rfid" : "",
         "carType" : "Bdr",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Produce",
+            "name" : "1s7"
+          }
+        },
+        "destination" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "FGEX9107",
+        "number" : "9107",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1559,15 +2165,15 @@
         "returnWhenEmpty" : null,
         "status" : ""
       } ],
-      "total" : 4,
-      "loads" : 4,
+      "total" : 13,
+      "loads" : 13,
       "empties" : 0
     }
   }, {
     "userName" : "Water Street",
     "name" : "2r2",
-    "arrivalTime" : "01:08",
-    "expectedDepartureTime" : "01:20",
+    "arrivalTime" : "01:46",
+    "expectedDepartureTime" : "02:25",
     "location" : {
       "comment" : "",
       "name" : "2"
@@ -1581,6 +2187,282 @@
     "cars" : {
       "add" : [ ],
       "remove" : [ {
+        "name" : "AT&SF5337",
+        "number" : "5337",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "FP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "lumber",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR3990",
+        "number" : "3990",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O6992",
+        "number" : "6992",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "4th Street Pier",
+            "name" : "1s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "lumber",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0306",
+        "number" : "0306",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "gravel",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF0191",
+        "number" : "0191",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "gravel",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A6470",
+        "number" : "6470",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Bulk Material Wharf",
+            "name" : "1s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "gravel",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "PL3265",
         "number" : "3265",
         "road" : "PL",
@@ -1600,7 +2482,53 @@
           "name" : "1",
           "route" : "2r3",
           "track" : {
-            "userName" : "Coffee Roasterz",
+            "userName" : "Coffee Roasters",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Coffee Sacks",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0614",
+        "number" : "0614",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Coffee Roasters",
             "name" : "1s2"
           }
         },
@@ -1629,6 +2557,98 @@
       }, {
         "name" : "FGEX5751",
         "number" : "5751",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Live Oysters",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "FGEX3882",
+        "number" : "3882",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "West Harbor",
+          "name" : "1",
+          "route" : "2r3",
+          "track" : {
+            "userName" : "Mother Schuckers",
+            "name" : "1s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Water Street",
+          "name" : "2",
+          "route" : "2r2",
+          "track" : {
+            "userName" : "Street Tracks",
+            "name" : "2s1"
+          }
+        },
+        "load" : "Live Oysters",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "FGEX9508",
+        "number" : "9508",
         "road" : "FGEX",
         "rfid" : "",
         "carType" : "RP3",
@@ -1767,5 +2787,5 @@
       } ]
     }
   } ],
-  "date" : "1915-06-27T19:17:30.708+00:00"
+  "date" : "1915-06-27T17:01:39.499+00:00"
 }
