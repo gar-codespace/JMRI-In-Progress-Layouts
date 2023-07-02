@@ -1,0 +1,3616 @@
+{
+  "railroad" : "WJ&amp;SRR Salem &amp; Glass Works Branch 1915",
+  "userName" : "Salem Yard",
+  "description" : "Switch Salem Terminal",
+  "locations" : [ {
+    "userName" : "Salem",
+    "name" : "1r1",
+    "departureTime" : "00:00",
+    "location" : {
+      "comment" : "",
+      "name" : "5"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "5s1" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:31"
+      }
+    },
+    "trainDirection" : 4,
+    "length" : {
+      "length" : 1144,
+      "unit" : "Feet"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ {
+        "name" : "WJ&S8867",
+        "number" : "8867",
+        "road" : "WJ&S",
+        "rfid" : "",
+        "carType" : "XPV",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "load" : "Genl Del",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O3915",
+        "number" : "3915",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "load" : "tarp",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "SP0293",
+        "number" : "0293",
+        "road" : "SP",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "JF Ayers",
+            "name" : "2s2"
+          }
+        },
+        "load" : "Machinery",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "WJ&S6228",
+        "number" : "6228",
+        "road" : "WJ&S",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "load" : "machinery",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ER3140",
+        "number" : "3140",
+        "road" : "ER",
+        "rfid" : "",
+        "carType" : "FP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "load" : "machinery",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR3349",
+        "number" : "3349",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF6328",
+        "number" : "6328",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Material",
+            "name" : "2s4"
+          }
+        },
+        "load" : "material",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYNH&H4216",
+        "number" : "4216",
+        "road" : "NYNH&H",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Material",
+            "name" : "2s4"
+          }
+        },
+        "load" : "material",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A7392",
+        "number" : "7392",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "load" : "wire",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR2547",
+        "number" : "2547",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "load" : "barrels",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL7188",
+        "number" : "7188",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF5392",
+        "number" : "5392",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYC3868",
+        "number" : "3868",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "load" : "wire",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "HJH3054",
+        "number" : "3054",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "THV",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R2441",
+        "number" : "2441",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "HJH6142",
+        "number" : "6142",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "RHx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PGCC9165",
+        "number" : "9165",
+        "road" : "PGCC",
+        "rfid" : "",
+        "carType" : "HPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "UTLX1967",
+        "number" : "1967",
+        "road" : "UTLX",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "HJH7591",
+        "number" : "7591",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "RHx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR4674",
+        "number" : "4674",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0018",
+        "number" : "0018",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "HJH1676",
+        "number" : "1676",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "RHx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "FGEX9091",
+        "number" : "9091",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR4110",
+        "number" : "4110",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TELX4868",
+        "number" : "4868",
+        "road" : "TELX",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX9455",
+        "number" : "9455",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ ],
+      "total" : 26,
+      "loads" : 13,
+      "empties" : 13
+    }
+  }, {
+    "userName" : "Terminal",
+    "name" : "1r4",
+    "arrivalTime" : "00:04",
+    "expectedDepartureTime" : "00:49",
+    "location" : {
+      "comment" : "",
+      "name" : "2"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "2s10" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:42"
+      },
+      "2s2" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:34"
+      },
+      "2s3" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:35"
+      },
+      "2s1" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:33"
+      },
+      "2s9" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:41"
+      },
+      "2s4" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:36"
+      },
+      "2s5" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:37"
+      },
+      "2s6" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:38"
+      },
+      "2s7" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:39"
+      }
+    },
+    "trainDirection" : 4,
+    "length" : {
+      "length" : 748,
+      "unit" : "Feet"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ {
+        "name" : "AT&SF6915",
+        "number" : "6915",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Luke F Smith",
+            "name" : "2s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CNJ0550",
+        "number" : "0550",
+        "road" : "CNJ",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Material",
+            "name" : "2s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Scrap",
+            "name" : "2s5"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYNH&H2230",
+        "number" : "2230",
+        "road" : "NYNH&H",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Smith Canning",
+            "name" : "2s7"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ {
+        "name" : "WJ&S8867",
+        "number" : "8867",
+        "road" : "WJ&S",
+        "rfid" : "",
+        "carType" : "XPV",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "load" : "Genl Del",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O3915",
+        "number" : "3915",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "load" : "tarp",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "SP0293",
+        "number" : "0293",
+        "road" : "SP",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "JF Ayers",
+            "name" : "2s2"
+          }
+        },
+        "load" : "Machinery",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF6915",
+        "number" : "6915",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Luke F Smith",
+            "name" : "2s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "WJ&S6228",
+        "number" : "6228",
+        "road" : "WJ&S",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "load" : "machinery",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ER3140",
+        "number" : "3140",
+        "road" : "ER",
+        "rfid" : "",
+        "carType" : "FP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "load" : "machinery",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR3349",
+        "number" : "3349",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF6328",
+        "number" : "6328",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Material",
+            "name" : "2s4"
+          }
+        },
+        "load" : "material",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYNH&H4216",
+        "number" : "4216",
+        "road" : "NYNH&H",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Material",
+            "name" : "2s4"
+          }
+        },
+        "load" : "material",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CNJ0550",
+        "number" : "0550",
+        "road" : "CNJ",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Material",
+            "name" : "2s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Scrap",
+            "name" : "2s5"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A7392",
+        "number" : "7392",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "load" : "wire",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYNH&H2230",
+        "number" : "2230",
+        "road" : "NYNH&H",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Smith Canning",
+            "name" : "2s7"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 17,
+      "loads" : 4,
+      "empties" : 13
+    }
+  }, {
+    "userName" : "Unreported",
+    "name" : "1r6",
+    "arrivalTime" : "00:53",
+    "expectedDepartureTime" : "00:53",
+    "location" : {
+      "comment" : "",
+      "name" : "6"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 4,
+    "length" : {
+      "length" : 748,
+      "unit" : "Feet"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 17,
+      "loads" : 4,
+      "empties" : 13
+    }
+  }, {
+    "userName" : "Terminal",
+    "name" : "1r5",
+    "arrivalTime" : "00:57",
+    "expectedDepartureTime" : "01:33",
+    "location" : {
+      "comment" : "",
+      "name" : "2"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "2s8" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:40"
+      },
+      "2s10" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:42"
+      },
+      "2s3" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:35"
+      },
+      "2s1" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:33"
+      },
+      "2s9" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:41"
+      },
+      "2s6" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:38"
+      }
+    },
+    "trainDirection" : 8,
+    "length" : {
+      "length" : 924,
+      "unit" : "Feet"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ {
+        "name" : "PGCC0933",
+        "number" : "0933",
+        "road" : "PGCC",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Coal Bin",
+            "name" : "2s8"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV8679",
+        "number" : "8679",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "XPV",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Genl Del",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV5114",
+        "number" : "5114",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O9163",
+        "number" : "9163",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Luke F Smith",
+            "name" : "2s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "foodstuffs",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ER3999",
+        "number" : "3999",
+        "road" : "ER",
+        "rfid" : "",
+        "carType" : "FP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL8161",
+        "number" : "8161",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR2836",
+        "number" : "2836",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A7893",
+        "number" : "7893",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ {
+        "name" : "PRR2547",
+        "number" : "2547",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "load" : "barrels",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL7188",
+        "number" : "7188",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF5392",
+        "number" : "5392",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYC3868",
+        "number" : "3868",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "SB&I Ware House",
+            "name" : "2s6"
+          }
+        },
+        "load" : "wire",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 21,
+      "loads" : 8,
+      "empties" : 13
+    }
+  }, {
+    "userName" : "Salem",
+    "name" : "1r2",
+    "arrivalTime" : "01:37",
+    "expectedDepartureTime" : "02:40",
+    "location" : {
+      "comment" : "",
+      "name" : "5"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "TrainTerminatesIn" : "Salem",
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "HJH3054",
+        "number" : "3054",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "THV",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R2441",
+        "number" : "2441",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "HJH6142",
+        "number" : "6142",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "RHx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PGCC9165",
+        "number" : "9165",
+        "road" : "PGCC",
+        "rfid" : "",
+        "carType" : "HPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "UTLX1967",
+        "number" : "1967",
+        "road" : "UTLX",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "HJH7591",
+        "number" : "7591",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "RHx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR4674",
+        "number" : "4674",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0018",
+        "number" : "0018",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "HJH1676",
+        "number" : "1676",
+        "road" : "HJH",
+        "rfid" : "",
+        "carType" : "RHx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "FGEX9091",
+        "number" : "9091",
+        "road" : "FGEX",
+        "rfid" : "",
+        "carType" : "RP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR4110",
+        "number" : "4110",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TELX4868",
+        "number" : "4868",
+        "road" : "TELX",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX9455",
+        "number" : "9455",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PGCC0933",
+        "number" : "0933",
+        "road" : "PGCC",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Coal Bin",
+            "name" : "2s8"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV8679",
+        "number" : "8679",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "XPV",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Genl Del",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV5114",
+        "number" : "5114",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "General Delivery",
+            "name" : "2s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O9163",
+        "number" : "9163",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Luke F Smith",
+            "name" : "2s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "foodstuffs",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ER3999",
+        "number" : "3999",
+        "road" : "ER",
+        "rfid" : "",
+        "carType" : "FP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL8161",
+        "number" : "8161",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Ramp",
+            "name" : "2s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR2836",
+        "number" : "2836",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A7893",
+        "number" : "7893",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Terminal",
+          "name" : "2",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Salem Freight House",
+            "name" : "2s9"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "1r2",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ]
+    }
+  } ],
+  "date" : "1915-07-02T19:13:18.603+00:00"
+}
