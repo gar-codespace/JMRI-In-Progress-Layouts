@@ -1,8 +1,7 @@
 {
-  "buildDate": "03/31/2023-11:00:23", 
+  "buildDate": "07/02/2023-09:23:49", 
   "carAAR": [
     "XX", 
-    "MWK", 
     "RS", 
     "Bd", 
     "HK", 
@@ -10,6 +9,7 @@
     "FM", 
     "P70", 
     "Bn", 
+    "M", 
     "P54", 
     "RB", 
     "MA", 
@@ -41,7 +41,9 @@
     "Bn": [
       "express"
     ], 
-    "CA": [], 
+    "CA": [
+      "express"
+    ], 
     "FM": [
       "lumber stack", 
       "Tarp3", 
@@ -59,10 +61,10 @@
     "HK": [
       "coal2"
     ], 
+    "M": [], 
     "MA": [
       "mail"
     ], 
-    "MWK": [], 
     "NE": [], 
     "NM": [], 
     "P54": [], 
@@ -679,6 +681,22 @@
             ""
           ], 
           [
+            "CA", 
+            "R", 
+            "express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "CA", 
+            "S", 
+            "express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
             "Ok", 
             "R", 
             "express", 
@@ -798,7 +816,7 @@
       "type": "industry"
     }, 
     "15": {
-      "capacity": "0", 
+      "capacity": "17", 
       "label": "D12", 
       "location": "Train Service", 
       "track": "OB-Downtown", 
@@ -826,7 +844,7 @@
       "type": "industry"
     }, 
     "19": {
-      "capacity": "0", 
+      "capacity": "16", 
       "label": "P14", 
       "location": "Downtown", 
       "track": "Platform 4", 
@@ -840,56 +858,56 @@
       "type": "industry"
     }, 
     "20": {
-      "capacity": "14", 
+      "capacity": "27", 
       "label": "C71", 
       "location": "City", 
       "track": "71", 
       "type": "class yard"
     }, 
     "21": {
-      "capacity": "4", 
+      "capacity": "15", 
       "label": "V71", 
       "location": "Valley", 
       "track": "Roundhouse", 
       "type": "class yard"
     }, 
     "22": {
-      "capacity": "0", 
+      "capacity": "1", 
       "label": "E1", 
       "location": "Easton", 
       "track": "E1", 
       "type": "staging"
     }, 
     "23": {
-      "capacity": "0", 
+      "capacity": "14", 
       "label": "S1", 
       "location": "Summit", 
       "track": "S1", 
       "type": "staging"
     }, 
     "24": {
-      "capacity": "0", 
+      "capacity": "47", 
       "label": "N2", 
       "location": "Northton", 
       "track": "N2", 
       "type": "staging"
     }, 
     "25": {
-      "capacity": "34", 
+      "capacity": "46", 
       "label": "N1", 
       "location": "Northton", 
       "track": "N1", 
       "type": "staging"
     }, 
     "26": {
-      "capacity": "4", 
+      "capacity": "6", 
       "label": "S71", 
       "location": "Train Service", 
       "track": "Cabin Track", 
       "type": "class yard"
     }, 
     "27": {
-      "capacity": "0", 
+      "capacity": "15", 
       "label": "D11", 
       "location": "Train Service", 
       "track": "OB-Summit", 
@@ -924,21 +942,21 @@
       "type": "industry"
     }, 
     "31": {
-      "capacity": "0", 
+      "capacity": "35", 
       "label": "D13", 
       "location": "Train Service", 
       "track": "OB-Easton", 
       "type": "interchange"
     }, 
     "32": {
-      "capacity": "0", 
+      "capacity": "35", 
       "label": "D14", 
       "location": "Train Service", 
       "track": "OB-Northton", 
       "type": "interchange"
     }, 
     "33": {
-      "capacity": "10", 
+      "capacity": "28", 
       "label": "S72", 
       "location": "Train Service", 
       "track": "Car Barn", 
@@ -959,28 +977,28 @@
       "type": "industry"
     }, 
     "36": {
-      "capacity": "10", 
+      "capacity": "14", 
       "label": "S73", 
       "location": "Train Service", 
       "track": "Coach Yard", 
       "type": "class yard"
     }, 
     "37": {
-      "capacity": "16", 
+      "capacity": "45", 
       "label": "N3", 
       "location": "Northton", 
       "track": "N3", 
       "type": "staging"
     }, 
     "38": {
-      "capacity": "38", 
+      "capacity": "103", 
       "label": "W2", 
       "location": "Weston", 
       "track": "W2", 
       "type": "staging"
     }, 
     "39": {
-      "capacity": "0", 
+      "capacity": "12", 
       "label": "P15", 
       "location": "Downtown", 
       "track": "Platform 5", 
@@ -994,14 +1012,14 @@
       "type": "industry"
     }, 
     "40": {
-      "capacity": "10", 
+      "capacity": "44", 
       "label": "N4", 
       "location": "Northton", 
       "track": "N4", 
       "type": "staging"
     }, 
     "41": {
-      "capacity": "0", 
+      "capacity": "21", 
       "label": "D16", 
       "location": "Train Service", 
       "track": "OB-Valley", 
@@ -1015,14 +1033,14 @@
       "type": "industry"
     }, 
     "43": {
-      "capacity": "15", 
+      "capacity": "14", 
       "label": "S2", 
       "location": "Summit", 
       "track": "S2", 
       "type": "staging"
     }, 
     "44": {
-      "capacity": "36", 
+      "capacity": "79", 
       "label": "E4", 
       "location": "Easton", 
       "track": "E4", 
@@ -1036,28 +1054,28 @@
       "type": "industry"
     }, 
     "46": {
-      "capacity": "3", 
+      "capacity": "8", 
       "label": "P16", 
       "location": "Downtown", 
       "track": "Service Track", 
       "type": "interchange"
     }, 
     "47": {
-      "capacity": "0", 
+      "capacity": "28", 
       "label": "P12", 
       "location": "Downtown", 
       "track": "Platform 2", 
       "type": "interchange"
     }, 
     "48": {
-      "capacity": "0", 
+      "capacity": "19", 
       "label": "P13", 
       "location": "Downtown", 
       "track": "Platform 3", 
       "type": "interchange"
     }, 
     "49": {
-      "capacity": "0", 
+      "capacity": "19", 
       "label": "D15", 
       "location": "Train Service", 
       "track": "OB-Park", 
@@ -1071,21 +1089,21 @@
       "type": "staging"
     }, 
     "50": {
-      "capacity": "0", 
+      "capacity": "75", 
       "label": "W1", 
       "location": "Weston", 
       "track": "W1", 
       "type": "staging"
     }, 
     "51": {
-      "capacity": "0", 
+      "capacity": "13", 
       "label": "V11", 
       "location": "Valley", 
       "track": "Station", 
       "type": "interchange"
     }, 
     "52": {
-      "capacity": "0", 
+      "capacity": "8", 
       "label": "S75", 
       "location": "Train Service", 
       "track": "Repair", 
@@ -1099,42 +1117,42 @@
       "type": "industry"
     }, 
     "54": {
-      "capacity": "0", 
+      "capacity": "28", 
       "label": "C76", 
       "location": "City", 
       "track": "Receiving", 
       "type": "class yard"
     }, 
     "55": {
-      "capacity": "21", 
+      "capacity": "30", 
       "label": "C72", 
       "location": "City", 
       "track": "72", 
       "type": "class yard"
     }, 
     "56": {
-      "capacity": "23", 
+      "capacity": "26", 
       "label": "C73", 
       "location": "City", 
       "track": "73", 
       "type": "class yard"
     }, 
     "57": {
-      "capacity": "22", 
+      "capacity": "23", 
       "label": "C74", 
       "location": "City", 
       "track": "74", 
       "type": "class yard"
     }, 
     "58": {
-      "capacity": "7", 
+      "capacity": "21", 
       "label": "C75", 
       "location": "City", 
       "track": "75", 
       "type": "class yard"
     }, 
     "59": {
-      "capacity": "0", 
+      "capacity": "1", 
       "label": "W3", 
       "location": "Weston", 
       "track": "W3", 
@@ -1148,28 +1166,28 @@
       "type": "industry"
     }, 
     "60": {
-      "capacity": "19", 
+      "capacity": "73", 
       "label": "E3", 
       "location": "Easton", 
       "track": "E3", 
       "type": "staging"
     }, 
     "63": {
-      "capacity": "0", 
+      "capacity": "8", 
       "label": "J1", 
       "location": "Junction", 
       "track": "Off Spot", 
       "type": "class yard"
     }, 
     "64": {
-      "capacity": "0", 
+      "capacity": "8", 
       "label": "P1", 
       "location": "Park", 
       "track": "Off Spot", 
       "type": "class yard"
     }, 
     "65": {
-      "capacity": "0", 
+      "capacity": "8", 
       "label": "V1", 
       "location": "Valley", 
       "track": "Off Spot", 
@@ -1183,14 +1201,14 @@
       "type": "industry"
     }, 
     "8": {
-      "capacity": "20", 
+      "capacity": "120", 
       "label": "S74", 
       "location": "Train Service", 
       "track": "Roundhouse", 
       "type": "class yard"
     }, 
     "9": {
-      "capacity": "20", 
+      "capacity": "25", 
       "label": "M11", 
       "location": "Midway", 
       "track": "Interchange", 
@@ -1367,7 +1385,6 @@
     "SP", 
     "WJ&S", 
     "PRRMoW", 
-    "EEI", 
     "ACL", 
     "B&O", 
     "ER", 

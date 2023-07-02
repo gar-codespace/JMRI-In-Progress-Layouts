@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sun Jul 02 08:47:21 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sun Jul 02 08:36:46 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -166,7 +166,6 @@
     <load type="CA">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
-      <carLoad name="express" loadType="load" />
     </load>
     <load type="PS">
       <carLoad name="Empty" loadType="empty" />
@@ -530,7 +529,7 @@
     <car id="PRR6279" roadName="PRR" roadNumber="6279" type="P70" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" load="E" />
     <car id="PRR6418" roadName="PRR" roadNumber="6418" type="MA" length="40" weightTons="0" locationId="8" secLocationId="8s3" moves="0" date="" selected="false" load="E" />
     <car id="PRR6446" roadName="PRR" roadNumber="6446" type="HK" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" load="Empty" />
-    <car id="PRR6485" roadName="PRR" roadNumber="6485" type="CA" length="40" weightTons="0" locationId="4" secLocationId="4s1" moves="0" date="" selected="false" load="express" />
+    <car id="PRR6485" roadName="PRR" roadNumber="6485" type="CA" length="40" weightTons="0" locationId="4" secLocationId="4s1" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR6558" roadName="PRR" roadNumber="6558" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="PRR6854" roadName="PRR" roadNumber="6854" type="B60" length="40" weightTons="0" locationId="4" secLocationId="4s2" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR689" roadName="PRR" roadNumber="689" type="NM" length="40" weightTons="0" locationId="7" secLocationId="7s5" moves="0" date="" selected="false" load="unloadable" />

@@ -76,15 +76,42 @@
             </columns>
             <sortOrder/>
         </table>
+        <table xmlns="" name="jmri.jmrit.operations.locations.LocationsTableFrame:Locations:table">
+            <columns>
+                <column hidden="false" name="Cars" order="7" width="60"/>
+                <column hidden="false" name="Action" order="13" width="95"/>
+                <column hidden="false" name="Set outs" order="10" width="60"/>
+                <column hidden="false" name="Locos" order="8" width="60"/>
+                <column hidden="false" name="Num" order="3" width="40"/>
+                <column hidden="false" name="Pick ups" order="9" width="60"/>
+                <column hidden="false" name="Edit" order="14" width="80"/>
+                <column hidden="false" name="Name" order="1" width="200"/>
+                <column hidden="true" name="Reporters" order="12" width="75"/>
+                <column hidden="false" name="Length" order="4" width="60"/>
+                <column hidden="false" name="Used" order="5" width="60"/>
+                <column hidden="false" name="Rolling Stock" order="6" width="80"/>
+                <column hidden="false" name="Division" order="11" width="160"/>
+                <column hidden="false" name="ID" order="0" width="40"/>
+                <column hidden="false" name="Track" order="2" width="89"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="11" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="916.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="843.0" locX="0.0" locY="0.0" width="1222.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="613.0" locX="0.0" locY="0.0" width="1265.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarSetFrame:Set Car" height="629.0" locX="31.0" locY="31.0" width="500.0"/>
-        <window xmlns="" class="JMRI System Console" height="733.0" locX="1043.0" locY="292.0" width="859.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="916.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.InterchangeEditFrame:Add C/I Track" height="600.0" locX="62.0" locY="62.0" width="561.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="1001.0" locX="31.0" locY="31.0" width="970.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="843.0" locX="0.0" locY="0.0" width="1222.0"/>
+        <window xmlns="" class="Script Output" height="294.0" locX="0.0" locY="0.0" width="712.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="62.0" locY="62.0" width="561.0"/>
         <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="613.0" locX="0.0" locY="0.0" width="1265.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="404.0" locX="0.0" locY="0.0" width="1232.0"/>
+        <window xmlns="" class="JMRI System Console" height="733.0" locX="1043.0" locY="292.0" width="859.0"/>
         <window xmlns="" class="PanelPro" height="287.0" locX="1374.0" locY="6.0" width="502.0"/>
     </windowDetails>
 </auxiliary-configuration>
