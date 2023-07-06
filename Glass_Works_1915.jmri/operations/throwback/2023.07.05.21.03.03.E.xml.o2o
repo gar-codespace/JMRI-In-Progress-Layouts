@@ -2,13 +2,10 @@
 <?xml-stylesheet href="/xml/XSLT/operations-engines.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-engines.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 11:42:51 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Jul 05 20:48:35 PDT 2023-->
   <models>
-    <model name="0-6-0 prr" />
-    <model name="A4" />
     <model name="A5s" />
     <model name="B6s" />
-    <model name="diesel" />
   </models>
   <types>
     <type name="ESS" />
@@ -47,6 +44,6 @@
   <newConsists />
   <engines>
     <engine id="WJ&amp;S058" roadName="WJ&amp;S" roadNumber="058" type="ESS" length="40" locationId="6" secLocationId="6s1" moves="0" date="" selected="false" model="B6s" hp="" bUnit="false" />
-    <engine id="WJ&amp;S123" roadName="WJ&amp;S" roadNumber="123" type="ESS" length="40" locationId="5" secLocationId="5s1" moves="0" date="" selected="false" model="A5s" hp="" bUnit="false" />
+    <engine id="WJ&amp;S123" roadName="WJ&amp;S" roadNumber="123" type="ESS" length="40" locationId="6" secLocationId="6s1" moves="0" date="" selected="false" model="A5s" hp="" bUnit="false" />
   </engines>
 </operations-config>
