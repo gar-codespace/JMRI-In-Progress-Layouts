@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Jul 12 08:34:34 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Jul 11 22:29:55 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,21 +19,21 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Pier Switcher" description="" departHour="00" departMinute="00" current="2r1" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="true" build="true" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Partial 27/75 cars" TerminationDate="7/11/2023 22:48" RequestedCars="75" statusCode="20" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="Pier Switcher" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="true" buildFailedMessage="BUILD FAILED could not find destinations for 1 car(s) departing from staging track (Water Street, Street Tracks)&#xA; PL 4401" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="5/25/2023 14:18" RequestedCars="75" statusCode="2" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Pier Switcher" id="2" />
       <types>
-        <carType name="XPV" />
-        <carType name="XPP" />
-        <carType name="XP4" />
-        <carType name="XP3" />
-        <carType name="TPO" />
-        <carType name="RP3" />
-        <carType name="GPx" />
-        <carType name="GPD" />
-        <carType name="FP4" />
-        <carType name="FP3" />
         <carType name="Bdr" />
+        <carType name="FP3" />
+        <carType name="FP4" />
+        <carType name="GPD" />
+        <carType name="GPx" />
+        <carType name="RP3" />
+        <carType name="TPO" />
+        <carType name="XP3" />
+        <carType name="XP4" />
+        <carType name="XPP" />
+        <carType name="XPV" />
       </types>
     </train>
   </trains>

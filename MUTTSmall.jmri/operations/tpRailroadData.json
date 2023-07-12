@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/30/2023-19:02:03", 
+  "buildDate": "07/12/2023-08:32:45", 
   "carAAR": [
     "FP3", 
     "FP4", 
@@ -8,8 +8,8 @@
     "TPO", 
     "RP3", 
     "XPP", 
-    "GPD", 
     "XP3", 
+    "GPD", 
     "XP4", 
     "XPV"
   ], 
@@ -18,7 +18,7 @@
   ], 
   "carLoads": {
     "Bdr": [
-      "Strawberries", 
+      "Perishables", 
       "Live Oysters"
     ], 
     "FP3": [
@@ -31,7 +31,9 @@
       "boiler2"
     ], 
     "GPD": [
-      "gravel"
+      "barrels", 
+      "gravel", 
+      "tank"
     ], 
     "GPx": [
       "barrels", 
@@ -52,6 +54,7 @@
       "Coffee Sacks"
     ], 
     "XP4": [
+      "Can Oysters", 
       "Break Bulk", 
       "Foodstuffs", 
       "Coffee Sacks"
@@ -101,6 +104,14 @@
             ""
           ], 
           [
+            "XP4", 
+            "S", 
+            "Can Oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
             "XPV", 
             "S", 
             "Can Oysters", 
@@ -136,6 +147,14 @@
             "FP4", 
             "S", 
             "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "S", 
+            "barrels", 
             "", 
             "", 
             ""
@@ -183,103 +202,15 @@
         ]
       }
     }, 
-    "17": {
-      "a-location": "West Harbor", 
-      "b-track": "Foodstuffs", 
-      "c-schedule": {
-        "F": [
-          [
-            "XP3", 
-            "R", 
-            "Foodstuffs", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP3", 
-            "S", 
-            "Foodstuffs", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP4", 
-            "R", 
-            "Foodstuffs", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP4", 
-            "S", 
-            "Foodstuffs", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XPV", 
-            "R", 
-            "Foodstuffs", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XPV", 
-            "S", 
-            "Foodstuffs", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "2": {
-      "a-location": "West Harbor", 
-      "b-track": "Coffee Roasters", 
-      "c-schedule": {
-        "CR": [
-          [
-            "XP3", 
-            "S", 
-            "Coffee Sacks", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP4", 
-            "S", 
-            "Coffee Sacks", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XPV", 
-            "S", 
-            "Coffee Sacks", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
     "22": {
       "a-location": "West Harbor", 
-      "b-track": "Produce", 
+      "b-track": "Block No 4", 
       "c-schedule": {
-        "P": [
+        "B4": [
           [
             "Bdr", 
             "R", 
-            "Strawberries", 
+            "Perishables", 
             "", 
             "", 
             ""
@@ -288,6 +219,54 @@
             "RP3", 
             "R", 
             "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "R", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -303,7 +282,31 @@
           [
             "XPV", 
             "R", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
             "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -328,6 +331,14 @@
             "FP4", 
             "R", 
             "boiler2", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "tank", 
             "", 
             "", 
             ""
@@ -378,17 +389,17 @@
       "type": "class yard"
     }, 
     "1": {
-      "capacity": "26", 
+      "capacity": "20", 
       "label": "P4", 
       "location": "West Harbor", 
       "track": "4th Street Pier", 
       "type": "industry"
     }, 
     "2": {
-      "capacity": "2", 
-      "label": "CR", 
+      "capacity": "9", 
+      "label": "B4", 
       "location": "West Harbor", 
-      "track": "Coffee Roasters", 
+      "track": "Block No 4", 
       "type": "industry"
     }, 
     "3": {
@@ -406,31 +417,17 @@
       "type": "industry"
     }, 
     "6": {
-      "capacity": "13", 
+      "capacity": "12", 
       "label": "ST", 
       "location": "Water Street", 
       "track": "Street Tracks", 
       "type": "staging"
-    }, 
-    "7": {
-      "capacity": "3", 
-      "label": "F", 
-      "location": "West Harbor", 
-      "track": "Foodstuffs", 
-      "type": "industry"
     }, 
     "8": {
       "capacity": "3", 
       "label": "MS", 
       "location": "West Harbor", 
       "track": "Mother Schuckers", 
-      "type": "industry"
-    }, 
-    "9": {
-      "capacity": "4", 
-      "label": "P", 
-      "location": "West Harbor", 
-      "track": "Produce", 
       "type": "industry"
     }
   }, 
@@ -442,9 +439,7 @@
     "3", 
     "4", 
     "8", 
-    "2", 
-    "7", 
-    "9"
+    "2"
   ], 
   "locations": [
     "West Harbor", 
@@ -467,8 +462,8 @@
   "roads": [
     "NYNH&H", 
     "WJ&S", 
-    "LV", 
     "ACL", 
+    "LV", 
     "B&O", 
     "MUTT", 
     "ER", 
@@ -477,8 +472,8 @@
     "M&P", 
     "PL", 
     "AT&SF", 
-    "B&A", 
     "P&R", 
+    "B&A", 
     "CNJ"
   ], 
   "scale": "HO", 

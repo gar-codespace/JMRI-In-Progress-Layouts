@@ -1,63 +1,236 @@
- Build Report for train (Pier Switcher) built on 6/21/23, 8:15 AM 
+ Build Report for train (Pier Switcher) built on 7/12/23, 8:11 AM 
  JMRI version 5.2+R760b98537f 
   Build report detail level: Normal 
+   Build report detail level: Detailed 
  
-  Train (Pier Switcher) route (Pier Switch): 
-  1r4 Staging (Water Street) Eastbound request 13 pick ups, maximum train length 1,000 feet 
-  1r3 Location (Unreported) Eastbound requests 30 moves, maximum train length 1,000 feet 
-  1r5 Staging (Water Street) Eastbound requests 13 set outs 
- Route (Pier Switch) requests 28 cars and 56 moves 
+   Train Build Options: 
+   Build option is set to aggressive 
+   Perform 2 passes 
+   Make departure track available after train is built 
+   
+   Staging build options: 
+   Make departure track available after train is built 
+   
+   Car routing options: 
+   WARNING only selected trains used for routing: 
+   
+   Enabled build options for train (Pier Switcher): 
+   Allow local moves if car has a custom load or FD 
+   
+   Disabled build options for train (Pier Switcher): 
+   Use normal mode when building this train 
+   Send all car pick ups to terminal (Water Street) 
+   Allow cars to return to staging 
+   Service all cars with a final destination (FD) 
+   Send cars with custom loads to staging 
+   Build loco consist from single locos 
+   
+  Train (Pier Switcher) route (Pier Switcher): 
+  2r1 Staging (Water Street) Eastbound request 50 pick ups, maximum train length 1,000 feet 
+  2r3 Location (West Harbor) Eastbound requests 50 moves, maximum train length 1,000 feet 
+  2r2 Staging (Water Street) Eastbound requests 50 set outs 
+ Route (Pier Switcher) requests 75 cars and 150 moves 
  
  Train requirements: 
  Train does not require any locomotives 
  
+   
  Found 0 locomotives for train (Pier Switcher) 
+   
+   
   
  Train terminates into staging at (Water Street), there are 1 tracks 
  Train will return to staging (Water Street) reuse departure track 
   
  Train will depart staging (Water Street), there are 1 tracks 
-  Staging track (Street Tracks) has 0 loco(s) and 13 cars 
+  Staging track (Street Tracks) has 0 loco(s) and 12 cars 
   
- Found 13 cars for train (Pier Switcher) 
+   
+   Train (Pier Switcher) services car types: 
+   Bdr, FP3, FP4, GPD, GPx, RP3, TPO, XP3, XP4, XPP, XPV 
+   
+   Departing staging (Water Street, Street Tracks) with 12 cars 
+   
+ Found 33 cars for train (Pier Switcher) 
+   Train does not require caboose when departing (Water Street) 
+   Train does not require car with FRED 
   
-  Requested cars (28) for train (Pier Switcher) the number available (13) building train! 
+  Requested cars (75) for train (Pier Switcher) the number available (33) building train! 
   
   Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
   Departing staging in aggressive mode, find destinations from (Water Street) in next pass 
- Route location (Water Street) id 1r4 requests 0 pick ups, 13/13 moves are available 
+ Route location (Water Street) id 2r1 requests 0 pick ups, 50/50 moves are available 
+   
  Success 0/0 cars at location (Water Street) assigned to train (Pier Switcher) 
- Route location (Unreported) id 1r3 requests 15 pick ups, 30/30 moves are available 
- Partial 0/15 cars at location (Unreported) assigned to train (Pier Switcher) 
- Route location (Water Street) id 1r5 no pick ups 
+ Route location (West Harbor) id 2r3 requests 25 pick ups, 50/50 moves are available 
+   
+   Find spur for car (FGEX 9489) type (RP3) custom load (Live Oysters) at (West Harbor, Mother Schuckers) 
+   Try to send car (FGEX 9489) custom load (Live Oysters) to staging 
+   Car (FGEX 9489) doesn't have an assigned destination track 
+   Car (FGEX 9489) assigned to staging track (Street Tracks) 
+  Car (FGEX 9489) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (FGEX 3597) type (RP3) custom load (Live Oysters) at (West Harbor, Mother Schuckers) 
+   Try to send car (FGEX 3597) custom load (Live Oysters) to staging 
+   Car (FGEX 3597) doesn't have an assigned destination track 
+   Car (FGEX 3597) assigned to staging track (Street Tracks) 
+  Car (FGEX 3597) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (PL 6762) type (FP3) custom load (lumber) at (West Harbor, 4th Street Pier) 
+   Try to send car (PL 6762) custom load (lumber) to staging 
+   Car (PL 6762) doesn't have an assigned destination track 
+   Car (PL 6762) assigned to staging track (Street Tracks) 
+  Car (PL 6762) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (PRR 3990) type (TPO) custom empty (Empty) at (West Harbor, 4th Street Pier) 
+   Try to send car (PRR 3990) custom load (Empty) to staging 
+   Car (PRR 3990) doesn't have an assigned destination track 
+   Car (PRR 3990) assigned to staging track (Street Tracks) 
+  Car (PRR 3990) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (LV 1748) type (XPV) custom load (Can Oysters) at (West Harbor, Mother Schuckers) 
+   Try to send car (LV 1748) custom load (Can Oysters) to staging 
+   Car (LV 1748) doesn't have an assigned destination track 
+   Car (LV 1748) assigned to staging track (Street Tracks) 
+  Car (LV 1748) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (ER 1824) type (GPx) custom load (gravel) at (West Harbor, Bulk Material Wharf) 
+   Try to send car (ER 1824) custom load (gravel) to staging 
+   Car (ER 1824) doesn't have an assigned destination track 
+   Car (ER 1824) assigned to staging track (Street Tracks) 
+  Car (ER 1824) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (LV 2943) type (XP4) custom load (Break Bulk) at (West Harbor, 4th Street Pier) 
+   Try to send car (LV 2943) custom load (Break Bulk) to staging 
+   Car (LV 2943) doesn't have an assigned destination track 
+   Car (LV 2943) assigned to staging track (Street Tracks) 
+  Car (LV 2943) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (WJ&S 6433) type (XP3) custom load (Break Bulk) at (West Harbor, 4th Street Pier) 
+   Try to send car (WJ&S 6433) custom load (Break Bulk) to staging 
+   Car (WJ&S 6433) doesn't have an assigned destination track 
+   Car (WJ&S 6433) assigned to staging track (Street Tracks) 
+  Car (WJ&S 6433) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (NYNH&H 9743) type (GPx) custom empty (Empty) at (West Harbor, Gantry Crane) 
+  Car (NYNH&H 9743) assigned to train, destination (West Harbor, Bulk Material Wharf) 
+  
+   Find spur for car (M&P 8833) type (XP3) custom load (Break Bulk) at (West Harbor, 4th Street Pier) 
+   Try to send car (M&P 8833) custom load (Break Bulk) to staging 
+   Car (M&P 8833) doesn't have an assigned destination track 
+   Car (M&P 8833) assigned to staging track (Street Tracks) 
+  Car (M&P 8833) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (P&R 3022) type (XP3) custom load (Break Bulk) at (West Harbor, 4th Street Pier) 
+   Try to send car (P&R 3022) custom load (Break Bulk) to staging 
+   Car (P&R 3022) doesn't have an assigned destination track 
+   Car (P&R 3022) assigned to staging track (Street Tracks) 
+  Car (P&R 3022) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (PRR 6249) type (XP3) custom load (Coffee Sacks) at (West Harbor, Block No 4) 
+   Try to send car (PRR 6249) custom load (Coffee Sacks) to staging 
+   Car (PRR 6249) doesn't have an assigned destination track 
+   Car (PRR 6249) assigned to staging track (Street Tracks) 
+  Car (PRR 6249) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (P&R 8715) type (XP3) custom load (Coffee Sacks) at (West Harbor, Block No 4) 
+   Try to send car (P&R 8715) custom load (Coffee Sacks) to staging 
+   Car (P&R 8715) doesn't have an assigned destination track 
+   Car (P&R 8715) assigned to staging track (Street Tracks) 
+  Car (P&R 8715) assigned to train, destination (Water Street, Street Tracks) 
+  
+   Find spur for car (ACL 9405) type (XP3) custom load (Coffee Sacks) at (West Harbor, Block No 4) 
+   Try to send car (ACL 9405) custom load (Coffee Sacks) to staging 
+   Did not assign a destination for car (ACL 9405) 
+   
+   Find spur for car (PL 4401) type (XPP) custom empty (Empty) at (West Harbor, Block No 4) 
+   Try to send car (PL 4401) custom load (Empty) to staging 
+   Did not assign a destination for car (PL 4401) 
+   
+   Find spur for car (ER 2050) type (XP3) custom load (Coffee Sacks) at (West Harbor, Block No 4) 
+   Try to send car (ER 2050) custom load (Coffee Sacks) to staging 
+   Did not assign a destination for car (ER 2050) 
+   
+   Find spur for car (PRR 0614) type (XP3) custom load (Coffee Sacks) at (West Harbor, Block No 4) 
+   Try to send car (PRR 0614) custom load (Coffee Sacks) to staging 
+   Did not assign a destination for car (PRR 0614) 
+   
+   Find spur for car (PRR 5069) type (Bdr) custom empty (Empty) at (West Harbor, Block No 4) 
+  Car (PRR 5069) assigned to train, destination (West Harbor, Mother Schuckers) 
+  
+   Find spur for car (ACL 4430) type (XP3) custom load (Coffee Sacks) at (West Harbor, Block No 4) 
+   Try to send car (ACL 4430) custom load (Coffee Sacks) to staging 
+   Did not assign a destination for car (ACL 4430) 
+   
+   Find spur for car (FGEX 9107) type (RP3) custom empty (Empty) at (West Harbor, Block No 4) 
+  Car (FGEX 9107) assigned to train, destination (West Harbor, Mother Schuckers) 
+  
+   Find spur for car (B&A 1897) type (XP3) custom load (Coffee Sacks) at (West Harbor, Block No 4) 
+   Try to send car (B&A 1897) custom load (Coffee Sacks) to staging 
+   Did not assign a destination for car (B&A 1897) 
+   
+ Partial 15/25 cars at location (West Harbor) assigned to train (Pier Switcher) 
+ Route location (Water Street) id 2r2 no pick ups 
   
   Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
- Route location (Water Street) id 1r4 requests 13 pick ups, 13/13 moves are available 
- Warning car (PRR 6249) departing staging without a destination 
- Warning car (P&R 8715) departing staging without a destination 
- Warning car (ACL 9405) departing staging without a destination 
- Warning car (PL 4401) departing staging without a destination 
- Warning car (ER 2050) departing staging without a destination 
- Warning car (ACL 4430) departing staging without a destination 
- Warning car (ER 1824) departing staging without a destination 
- Warning car (B&A 1897) departing staging without a destination 
- Warning car (LV 2943) departing staging without a destination 
- Warning car (WJ&S 6433) departing staging without a destination 
- Warning car (NYNH&H 9743) departing staging without a destination 
- Warning car (M&P 8833) departing staging without a destination 
- Warning car (P&R 3022) departing staging without a destination 
- BUILD FAILED could not find destinations for 13 car(s) departing from staging track (Water Street, Street Tracks) 
- PRR 6249 
- P&R 8715 
- ACL 9405 
- PL 4401 
- ER 2050 
- ACL 4430 
- ER 1824 
- B&A 1897 
- LV 2943 
- WJ&S 6433 
- NYNH&H 9743 
- M&P 8833 
- P&R 3022 
+ Route location (Water Street) id 2r1 requests 50 pick ups, 50/50 moves are available 
+   
+   Staging track (Street Tracks) has the following options selected: 
+   Generate custom loads for spurs serviced by this train 
+   
+   Generate load for (PL 3265) type (XP3) load (E) at (Water Street, Street Tracks) destination () 
+   Car (PL 3265) custom load (Empty) final destination (West Harbor, Mother Schuckers) 
+  Car (PL 3265) assigned to train, destination (West Harbor, Mother Schuckers) 
+  
+   Generate load for (CNJ 8878) type (XP3) load (E) at (Water Street, Street Tracks) destination () 
+   Car (CNJ 8878) custom load (Foodstuffs) final destination (West Harbor, Block No 4) 
+  Car (CNJ 8878) assigned to train, destination (West Harbor, Block No 4) 
+  
+   Generate load for (FGEX 5751) type (RP3) load (E) at (Water Street, Street Tracks) destination () 
+   Car (FGEX 5751) custom load (Produce) final destination (West Harbor, Block No 4) 
+  Car (FGEX 5751) assigned to train, destination (West Harbor, Block No 4) 
+  
+   Generate load for (AT&SF 5337) type (FP3) load (E) at (Water Street, Street Tracks) destination () 
+   Car (AT&SF 5337) custom load (boiler2) final destination (West Harbor, Gantry Crane) 
+  Car (AT&SF 5337) assigned to train, destination (West Harbor, Gantry Crane) 
+  
+   Generate load for (ACL 0676) type (XP4) load (E) at (Water Street, Street Tracks) destination () 
+   Car (ACL 0676) custom load (Foodstuffs) final destination (West Harbor, Block No 4) 
+  Car (ACL 0676) assigned to train, destination (West Harbor, Block No 4) 
+  
+   Generate load for (PRR 0306) type (GPD) load (E) at (Water Street, Street Tracks) destination () 
+   Car (PRR 0306) custom load (Empty) final destination (West Harbor, Bulk Material Wharf) 
+  Car (PRR 0306) assigned to train, destination (West Harbor, Bulk Material Wharf) 
+  
+   Generate load for (FGEX 3882) type (RP3) load (E) at (Water Street, Street Tracks) destination () 
+   Car (FGEX 3882) custom load (Produce) final destination (West Harbor, Block No 4) 
+  Car (FGEX 3882) assigned to train, destination (West Harbor, Block No 4) 
+  
+   Generate load for (AT&SF 0191) type (GPx) load (E) at (Water Street, Street Tracks) destination () 
+   Car (AT&SF 0191) custom load (Empty) final destination (West Harbor, Bulk Material Wharf) 
+  Car (AT&SF 0191) assigned to train, destination (West Harbor, Bulk Material Wharf) 
+  
+   Generate load for (B&A 6470) type (GPD) load (E) at (Water Street, Street Tracks) destination () 
+   Find destinations for (B&A 6470) type (GPD) empty (E) at (Water Street, Street Tracks) 
+   Could not find a track for (B&A 6470) at destination (West Harbor) 
+   Did not assign a destination for car (B&A 6470) 
+   
+ Warning car (B&A 6470) departing staging without a destination 
+   Generate load for (B&O 6992) type (FP4) load (E) at (Water Street, Street Tracks) destination () 
+   Car (B&O 6992) custom load (boiler2) final destination (West Harbor, Gantry Crane) 
+  Car (B&O 6992) assigned to train, destination (West Harbor, Gantry Crane) 
+  
+   Generate load for (FGEX 9508) type (RP3) load (E) at (Water Street, Street Tracks) destination () 
+   Find destinations for (FGEX 9508) type (RP3) empty (E) at (Water Street, Street Tracks) 
+   Could not find a track for (FGEX 9508) at destination (West Harbor) 
+   Did not assign a destination for car (FGEX 9508) 
+   
+ Warning car (FGEX 9508) departing staging without a destination 
+   Generate load for (P&R 5448) type (FP4) load (E) at (Water Street, Street Tracks) destination () 
+   Car (P&R 5448) custom load (Empty) final destination (West Harbor, 4th Street Pier) 
+  Car (P&R 5448) assigned to train, destination (West Harbor, 4th Street Pier) 
+  
+ BUILD FAILED could not find destinations for 2 car(s) departing from staging track (Water Street, Street Tracks) 
+ B&A 6470 
+ FGEX 9508 
  Build failed for train (Pier Switcher) 
