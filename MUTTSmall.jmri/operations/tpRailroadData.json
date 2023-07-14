@@ -1,5 +1,5 @@
 {
-  "buildDate": "07/12/2023-08:32:45", 
+  "buildDate": "07/13/2023-23:29:39", 
   "carAAR": [
     "FP3", 
     "FP4", 
@@ -27,7 +27,6 @@
     ], 
     "FP4": [
       "lumber", 
-      "Break Bulk", 
       "boiler2"
     ], 
     "GPD": [
@@ -75,10 +74,10 @@
   ], 
   "industries": {
     "11": {
-      "a-location": "West Harbor", 
+      "a-location": "Water Street", 
       "b-track": "Mother Schuckers", 
       "c-schedule": {
-        "MS": [
+        "O": [
           [
             "Bdr", 
             "S", 
@@ -123,10 +122,10 @@
       }
     }, 
     "13": {
-      "a-location": "West Harbor", 
+      "a-location": "Water Street", 
       "b-track": "4th Street Pier", 
       "c-schedule": {
-        "P4": [
+        "P": [
           [
             "FP3", 
             "S", 
@@ -138,7 +137,7 @@
           [
             "FP4", 
             "S", 
-            "Break Bulk", 
+            "lumber", 
             "", 
             "", 
             ""
@@ -203,7 +202,7 @@
       }
     }, 
     "22": {
-      "a-location": "West Harbor", 
+      "a-location": "Water Street", 
       "b-track": "Block No 4", 
       "c-schedule": {
         "B4": [
@@ -282,14 +281,6 @@
           [
             "XPV", 
             "R", 
-            "Foodstuffs", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XPV", 
-            "R", 
             "Produce", 
             "", 
             "", 
@@ -315,7 +306,7 @@
       }
     }, 
     "26": {
-      "a-location": "West Harbor", 
+      "a-location": "Water Street", 
       "b-track": "Gantry Crane", 
       "c-schedule": {
         "G": [
@@ -355,10 +346,10 @@
       }
     }, 
     "3": {
-      "a-location": "West Harbor", 
+      "a-location": "Water Street", 
       "b-track": "Bulk Material Wharf", 
       "c-schedule": {
-        "BMW": [
+        "M": [
           [
             "GPD", 
             "S", 
@@ -390,43 +381,50 @@
     }, 
     "1": {
       "capacity": "20", 
-      "label": "P4", 
-      "location": "West Harbor", 
+      "label": "P", 
+      "location": "Water Street", 
       "track": "4th Street Pier", 
       "type": "industry"
     }, 
     "2": {
       "capacity": "9", 
       "label": "B4", 
-      "location": "West Harbor", 
+      "location": "Water Street", 
       "track": "Block No 4", 
       "type": "industry"
     }, 
     "3": {
       "capacity": "3", 
-      "label": "BMW", 
-      "location": "West Harbor", 
+      "label": "M", 
+      "location": "Water Street", 
       "track": "Bulk Material Wharf", 
       "type": "industry"
     }, 
     "4": {
       "capacity": "2", 
       "label": "G", 
-      "location": "West Harbor", 
+      "location": "Water Street", 
       "track": "Gantry Crane", 
       "type": "industry"
     }, 
+    "5": {
+      "capacity": "0", 
+      "label": "OS", 
+      "location": "Water Street", 
+      "track": "Off Spot", 
+      "type": "class yard"
+    }, 
     "6": {
       "capacity": "12", 
-      "label": "ST", 
-      "location": "Water Street", 
+      "label": "Y", 
+      "location": "West Yard", 
       "track": "Street Tracks", 
       "type": "staging"
     }, 
     "8": {
       "capacity": "3", 
-      "label": "MS", 
-      "location": "West Harbor", 
+      "label": "O", 
+      "location": "Water Street", 
       "track": "Mother Schuckers", 
       "type": "industry"
     }
@@ -439,10 +437,11 @@
     "3", 
     "4", 
     "8", 
-    "2"
+    "2", 
+    "5"
   ], 
   "locations": [
-    "West Harbor", 
+    "West Yard", 
     "Water Street", 
     "Unreported"
   ], 
@@ -462,16 +461,16 @@
   "roads": [
     "NYNH&H", 
     "WJ&S", 
-    "ACL", 
     "LV", 
+    "ACL", 
     "B&O", 
     "MUTT", 
     "ER", 
     "PRR", 
     "FGEX", 
     "M&P", 
-    "PL", 
     "AT&SF", 
+    "PL", 
     "P&R", 
     "B&A", 
     "CNJ"
