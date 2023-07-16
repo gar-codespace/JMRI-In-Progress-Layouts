@@ -1,5 +1,5 @@
 {
-  "buildDate": "07/13/2023-23:29:39", 
+  "buildDate": "07/16/2023-06:56:24", 
   "carAAR": [
     "FP3", 
     "FP4", 
@@ -23,7 +23,7 @@
     ], 
     "FP3": [
       "lumber", 
-      "boiler2"
+      "tank"
     ], 
     "FP4": [
       "lumber", 
@@ -31,13 +31,13 @@
     ], 
     "GPD": [
       "barrels", 
-      "gravel", 
+      "Gravel", 
       "tank"
     ], 
     "GPx": [
       "barrels", 
-      "gravel", 
-      "tank"
+      "boiler2", 
+      "Gravel"
     ], 
     "RP3": [
       "Produce", 
@@ -65,8 +65,7 @@
       "Produce", 
       "Can Oysters", 
       "Break Bulk", 
-      "Foodstuffs", 
-      "Coffee Sacks"
+      "Foodstuffs"
     ]
   }, 
   "divisions": [
@@ -77,7 +76,7 @@
       "a-location": "Water Street", 
       "b-track": "Mother Schuckers", 
       "c-schedule": {
-        "O": [
+        "MS": [
           [
             "Bdr", 
             "S", 
@@ -125,7 +124,7 @@
       "a-location": "Water Street", 
       "b-track": "4th Street Pier", 
       "c-schedule": {
-        "P": [
+        "P4": [
           [
             "FP3", 
             "S", 
@@ -203,9 +202,9 @@
     }, 
     "22": {
       "a-location": "Water Street", 
-      "b-track": "Block No 4", 
+      "b-track": "Water Street Stores", 
       "c-schedule": {
-        "B4": [
+        "WS": [
           [
             "Bdr", 
             "R", 
@@ -241,7 +240,7 @@
           [
             "XP3", 
             "S", 
-            "Foodstuffs", 
+            "Coffee Sacks", 
             "", 
             "", 
             ""
@@ -258,14 +257,6 @@
             "XP4", 
             "S", 
             "Coffee Sacks", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP4", 
-            "S", 
-            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -289,14 +280,6 @@
           [
             "XPV", 
             "S", 
-            "Coffee Sacks", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XPV", 
-            "S", 
             "Foodstuffs", 
             "", 
             "", 
@@ -309,11 +292,11 @@
       "a-location": "Water Street", 
       "b-track": "Gantry Crane", 
       "c-schedule": {
-        "G": [
+        "GC": [
           [
             "FP3", 
             "R", 
-            "boiler2", 
+            "tank", 
             "", 
             "", 
             ""
@@ -337,7 +320,7 @@
           [
             "GPx", 
             "R", 
-            "tank", 
+            "boiler2", 
             "", 
             "", 
             ""
@@ -349,11 +332,11 @@
       "a-location": "Water Street", 
       "b-track": "Bulk Material Wharf", 
       "c-schedule": {
-        "M": [
+        "MW": [
           [
             "GPD", 
             "S", 
-            "gravel", 
+            "Gravel", 
             "", 
             "", 
             ""
@@ -361,7 +344,7 @@
           [
             "GPx", 
             "S", 
-            "gravel", 
+            "Gravel", 
             "", 
             "", 
             ""
@@ -381,49 +364,42 @@
     }, 
     "1": {
       "capacity": "20", 
-      "label": "P", 
+      "label": "P4", 
       "location": "Water Street", 
       "track": "4th Street Pier", 
       "type": "industry"
     }, 
     "2": {
-      "capacity": "9", 
-      "label": "B4", 
+      "capacity": "8", 
+      "label": "WS", 
       "location": "Water Street", 
-      "track": "Block No 4", 
+      "track": "Water Street Stores", 
       "type": "industry"
     }, 
     "3": {
       "capacity": "3", 
-      "label": "M", 
+      "label": "MW", 
       "location": "Water Street", 
       "track": "Bulk Material Wharf", 
       "type": "industry"
     }, 
     "4": {
       "capacity": "2", 
-      "label": "G", 
+      "label": "GC", 
       "location": "Water Street", 
       "track": "Gantry Crane", 
       "type": "industry"
     }, 
-    "5": {
-      "capacity": "0", 
-      "label": "OS", 
-      "location": "Water Street", 
-      "track": "Off Spot", 
-      "type": "class yard"
-    }, 
     "6": {
       "capacity": "12", 
-      "label": "Y", 
+      "label": "ST", 
       "location": "West Yard", 
       "track": "Street Tracks", 
       "type": "staging"
     }, 
     "8": {
       "capacity": "3", 
-      "label": "O", 
+      "label": "MS", 
       "location": "Water Street", 
       "track": "Mother Schuckers", 
       "type": "industry"
@@ -437,8 +413,7 @@
     "3", 
     "4", 
     "8", 
-    "2", 
-    "5"
+    "2"
   ], 
   "locations": [
     "West Yard", 
@@ -461,18 +436,18 @@
   "roads": [
     "NYNH&H", 
     "WJ&S", 
-    "LV", 
     "ACL", 
+    "LV", 
     "B&O", 
     "MUTT", 
     "ER", 
     "PRR", 
     "FGEX", 
     "M&P", 
-    "AT&SF", 
     "PL", 
-    "P&R", 
+    "AT&SF", 
     "B&A", 
+    "P&R", 
     "CNJ"
   ], 
   "scale": "HO", 
