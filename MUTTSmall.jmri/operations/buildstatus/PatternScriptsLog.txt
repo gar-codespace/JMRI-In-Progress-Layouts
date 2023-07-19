@@ -1,66 +1,154 @@
-2023-07-16 09:28:45,368 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-07-16 09:28:45,400 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-07-16 09:28:45,400 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-07-16 09:28:45,400 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-07-16 09:28:45,414 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-07-16 09:28:45,414 - OPS.OE.PSE - INFO - Destination folders check OK
-2023-07-16 09:28:45,430 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-07-16 09:28:45,440 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-07-16 09:28:45,901 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-07-16 09:28:45,934 - OPS.Main.Controller - INFO - Main script run time (sec): 0.534
-2023-07-16 09:28:47,812 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1689524927812,modifiers=Button1] on psButton
-2023-07-16 09:28:47,825 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
-2023-07-16 09:28:47,844 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-07-16 09:28:47,844 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-07-16 09:28:47,951 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-07-16 09:28:47,951 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
-2023-07-16 09:28:48,076 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
-2023-07-16 09:28:48,076 - OPS.o2o.Controller - INFO - o2o makeFrame completed
-2023-07-16 09:28:48,155 - OPS.PT.Model - DEBUG - initializeComboBoxes
-2023-07-16 09:28:48,155 - OPS.PT.Model - INFO - Set initial location and tracks in config file
-2023-07-16 09:28:48,171 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
-2023-07-16 09:28:48,217 - OPS.PT.Controller - INFO - Patterns makeFrame completed
-2023-07-16 09:28:48,296 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-07-16 09:28:48,312 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
-2023-07-16 09:28:48,328 - OPS.Main.View - DEBUG - makePatternScriptsWindow
-2023-07-16 09:28:48,444 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-07-16 09:28:48,548 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-07-16 09:28:53,318 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,318 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,318 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,318 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Terminated 7/16/2023 07:05; newValue=Train reset; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,332 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,348 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,348 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,395 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 28/37 cars; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,569 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=West Yard; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,585 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,585 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-07-16 09:28:53,585 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
-2023-07-16 09:28:53,599 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
-2023-07-16 09:28:53,599 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
-2023-07-16 09:28:53,694 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
-2023-07-16 09:28:53,710 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
-2023-07-16 09:28:53,710 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
-2023-07-16 09:28:53,710 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
-2023-07-16 09:28:53,710 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
-2023-07-16 09:28:53,710 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-07-16 09:43:23,161 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=West Yard; newValue=Water Street; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,161 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainLocation; oldValue=West Yard; newValue=Water Street; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 28/37 cars; newValue=Train en route 12 cars, 528 feet, 0 tons; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainMoveComplete; oldValue=West Yard; newValue=Water Street; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Water Street; newValue=West Yard; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainLocation; oldValue=Water Street; newValue=West Yard; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainMoveComplete; oldValue=Water Street; newValue=West Yard; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=West Yard; newValue=null; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainLocation; oldValue=West Yard; newValue=null; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train en route 0 cars, 0 feet, 0 tons; newValue=Terminated 7/16/2023 09:43; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
-2023-07-16 09:43:23,177 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainMoveComplete; oldValue=West Yard; newValue=null; propagationId=null; source=Pier Switcher]
-2023-07-16 09:45:24,753 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-07-16 09:45:52,269 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Delete All Commits,when=1689525952270,modifiers=Button1] on reset
-2023-07-16 09:45:52,285 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-07-16 09:45:58,821 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1689525958821,modifiers=Button1] on commit
-2023-07-16 09:45:58,851 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-07-16 15:31:34,525 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-07-17 06:38:36,392 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-07-19 08:05:08,154 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-07-19 08:05:08,176 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-07-19 08:05:08,177 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-07-19 08:05:08,193 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-07-19 08:05:08,194 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-07-19 08:05:08,194 - OPS.OE.PSE - INFO - Destination folders check OK
+2023-07-19 08:05:08,230 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-07-19 08:05:08,236 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-07-19 08:05:08,755 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-07-19 08:05:08,770 - OPS.Main.Controller - INFO - Main script run time (sec): 0.604
+2023-07-19 08:05:10,573 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1689779110574,modifiers=Button1] on psButton
+2023-07-19 08:05:10,605 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
+2023-07-19 08:05:10,637 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-07-19 08:05:10,637 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-07-19 08:05:10,739 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-07-19 08:05:10,747 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
+2023-07-19 08:05:10,875 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-07-19 08:05:10,890 - OPS.o2o.Controller - INFO - o2o makeFrame completed
+2023-07-19 08:05:10,980 - OPS.PT.Model - DEBUG - initializeComboBoxes
+2023-07-19 08:05:10,987 - OPS.PT.Model - INFO - Set initial location and tracks in config file
+2023-07-19 08:05:11,016 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-19 08:05:11,045 - OPS.PT.Controller - INFO - Patterns makeFrame completed
+2023-07-19 08:05:11,095 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-19 08:05:11,111 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
+2023-07-19 08:05:11,111 - OPS.Main.View - DEBUG - makePatternScriptsWindow
+2023-07-19 08:05:11,230 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-19 08:05:11,323 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-07-19 08:05:14,555 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1689779114556,modifiers=Button1] on commit
+2023-07-19 08:05:14,585 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:01,961 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:01,961 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:01,961 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:01,961 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Terminated 7/16/2023 09:43; newValue=Train reset; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:01,976 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:01,992 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:01,992 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:02,085 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 27/37 cars; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:02,290 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=West Yard; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:02,290 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:02,290 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:02,306 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-19 08:06:02,306 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:02,319 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-19 08:06:02,322 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-19 08:06:02,401 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-19 08:06:02,423 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-07-19 08:06:02,423 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-19 08:06:02,423 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-19 08:06:02,423 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-19 08:06:02,423 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-19 08:06:03,657 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=West Yard; newValue=null; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:03,657 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:03,657 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:03,657 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:03,657 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:03,657 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:03,657 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 27/37 cars; newValue=Train reset; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:08,960 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-19 08:06:09,211 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Locations,when=1689779169212,modifiers=Button1] on updateJmriLocations
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - INFO - TrainPlayer Locations file OK
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - INFO - TrainPlayer Industries file OK
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - INFO - TrainPlayer Inventory file OK
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - DEBUG - processFileHeaders
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - DEBUG - getLocationIds
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - DEBUG - getRrLocations
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - DEBUG - getRrLocales
+2023-07-19 08:06:09,227 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
+2023-07-19 08:06:09,240 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
+2023-07-19 08:06:09,240 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
+2023-07-19 08:06:09,243 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
+2023-07-19 08:06:09,243 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
+2023-07-19 08:06:09,243 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
+2023-07-19 08:06:09,243 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
+2023-07-19 08:06:09,243 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
+2023-07-19 08:06:09,243 - OPS.o2o.ModelImport - DEBUG - writeTPLayoutData
+2023-07-19 08:06:09,275 - OPS.o2o.Model - INFO - TrainPlayer railroad data imported OK
+2023-07-19 08:06:09,338 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,341 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,341 - OPS.o2o.Model - DEBUG - setRailroadDetails
+2023-07-19 08:06:09,420 - OPS.o2o.Model - DEBUG - tweakOperationsXml
+2023-07-19 08:06:09,420 - OPS.o2o.Model - INFO - Layout details added
+2023-07-19 08:06:09,420 - OPS.o2o.Model - INFO - JMRI operations settings updated
+2023-07-19 08:06:09,433 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,433 - OPS.o2o.Model - INFO - Divisions updated
+2023-07-19 08:06:09,433 - OPS.o2o.Model - INFO - JMRI locations updated from TrainPlayer data
+2023-07-19 08:06:09,433 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,433 - OPS.o2o.Model - DEBUG - addRoads
+2023-07-19 08:06:09,433 - OPS.o2o.Model - DEBUG - addCarAar
+2023-07-19 08:06:09,440 - OPS.o2o.Model - DEBUG - addCarLoads
+2023-07-19 08:06:09,440 - OPS.o2o.Model - DEBUG - addCarKernels
+2023-07-19 08:06:09,440 - OPS.o2o.Model - DEBUG - addLocoModels
+2023-07-19 08:06:09,440 - OPS.o2o.Model - DEBUG - addLocoTypes
+2023-07-19 08:06:09,448 - OPS.o2o.Model - DEBUG - addLocoConsist
+2023-07-19 08:06:09,448 - OPS.o2o.Model - INFO - New rolling stock attributes
+2023-07-19 08:06:09,448 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,448 - OPS.o2o.Model - DEBUG - addSchedules
+2023-07-19 08:06:09,448 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-19 08:06:09,448 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-19 08:06:09,448 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-19 08:06:09,464 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-19 08:06:09,464 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-19 08:06:09,467 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,467 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,467 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,480 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,480 - OPS.o2o.Model - INFO - JMRI tracks updated from TrainPlayer data
+2023-07-19 08:06:09,480 - OPS.o2o.Model - INFO - TrainPlayer Inventory file OK
+2023-07-19 08:06:09,480 - OPS.o2o.Model - DEBUG - splitTpList
+2023-07-19 08:06:09,480 - OPS.o2o.Model - DEBUG - setBaseCarAttribs
+2023-07-19 08:06:09,480 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
+2023-07-19 08:06:09,480 - OPS.o2o.Model - INFO - Updated rolling stock
+2023-07-19 08:06:09,496 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
+2023-07-19 08:06:09,496 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-19 08:06:09,496 - OPS.o2o.Model - DEBUG - setRailroadDetails
+2023-07-19 08:06:09,540 - OPS.o2o.Model - INFO - Layout details updated
+2023-07-19 08:06:09,562 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:09,575 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:09,575 - OPS.PT.Model - DEBUG - initializeComboBoxes
+2023-07-19 08:06:09,575 - OPS.PT.Model - INFO - Set initial location and tracks in config file
+2023-07-19 08:06:09,575 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:09,592 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:14,059 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,059 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,059 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,089 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 24/37 cars; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,121 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=West Yard; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,121 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,121 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,121 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-19 08:06:14,121 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
+2023-07-19 08:06:14,121 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-19 08:06:14,137 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-19 08:06:14,137 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-19 08:06:14,137 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
+2023-07-19 08:06:14,137 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-19 08:06:14,137 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-19 08:06:14,137 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-19 08:06:14,137 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-19 08:06:23,315 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame2,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-19 08:06:23,516 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Previous,when=1689779183516,modifiers=Button1] on previous
+2023-07-19 08:06:31,111 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Throwback,when=1689779191112,modifiers=Button1] on throwback
+2023-07-19 08:06:31,204 - OPS.TB.Model - INFO - Throwback: Locations to Initial
+2023-07-19 08:06:31,232 - OPS.TB.Model - INFO - Throwback: Routes to Initial
+2023-07-19 08:06:31,236 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainsListLength; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.trains.TrainManager@9d269a1]
+2023-07-19 08:06:31,253 - OPS.TB.Model - INFO - Throwback: Trains to Initial
+2023-07-19 08:06:31,283 - OPS.TB.Model - INFO - Throwback: Cars to Initial
+2023-07-19 08:06:31,302 - OPS.TB.Model - INFO - Throwback: Engines to Initial
+2023-07-19 08:06:31,302 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:31,315 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:31,315 - OPS.PT.Model - DEBUG - initializeComboBoxes
+2023-07-19 08:06:31,315 - OPS.PT.Model - INFO - Set initial location and tracks in config file
+2023-07-19 08:06:31,315 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-19 08:06:31,332 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui

@@ -2,20 +2,20 @@
 <?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sun Jul 02 10:21:49 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Mon Jul 17 17:55:13 PDT 2023-->
   <routes>
     <route id="1" name="Terminal Switch" comment="">
-      <location id="1r1" name="Salem" locationId="5" sequenceId="1" trainDirection="4" maxTrainLength="4000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="1r4" name="Terminal" locationId="2" sequenceId="2" trainDirection="4" maxTrainLength="4000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="1r6" name="Unreported" locationId="6" sequenceId="3" trainDirection="4" maxTrainLength="4000" grade="0.0" maxCarMoves="0" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="3" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="1r5" name="Terminal" locationId="2" sequenceId="4" trainDirection="8" maxTrainLength="4000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="4" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="1r2" name="Salem" locationId="5" sequenceId="5" trainDirection="8" maxTrainLength="4000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="5" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r1" name="Salem" locationId="5" sequenceId="1" trainDirection="2" maxTrainLength="4000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r4" name="Terminal" locationId="2" sequenceId="2" trainDirection="2" maxTrainLength="4000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r6" name="Unreported" locationId="6" sequenceId="3" trainDirection="2" maxTrainLength="4000" grade="0.0" maxCarMoves="0" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="3" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r5" name="Terminal" locationId="2" sequenceId="4" trainDirection="1" maxTrainLength="4000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="4" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r2" name="Salem" locationId="5" sequenceId="5" trainDirection="1" maxTrainLength="4000" grade="0.0" maxCarMoves="100" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="5" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
     </route>
     <route id="2" name="Fenwick Switchx" comment="">
       <location id="2r1" name="Salem" locationId="5" sequenceId="1" trainDirection="2" maxTrainLength="4000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="2r3" name="Fenwick Creek" locationId="4" sequenceId="2" trainDirection="2" maxTrainLength="4000" grade="0.0" maxCarMoves="15" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="2r3" name="Fenwick Creek" locationId="4" sequenceId="2" trainDirection="2" maxTrainLength="4000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
       <location id="2r5" name="Unreported" locationId="6" sequenceId="3" trainDirection="2" maxTrainLength="4000" grade="0.0" maxCarMoves="0" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="3" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="2r4" name="Fenwick Creek" locationId="4" sequenceId="4" trainDirection="1" maxTrainLength="4000" grade="0.0" maxCarMoves="15" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="4" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="2r4" name="Fenwick Creek" locationId="4" sequenceId="4" trainDirection="1" maxTrainLength="4000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="4" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
       <location id="2r2" name="Salem" locationId="5" sequenceId="5" trainDirection="1" maxTrainLength="4000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="5" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
     </route>
     <route id="3" name="Townshipper" comment="">

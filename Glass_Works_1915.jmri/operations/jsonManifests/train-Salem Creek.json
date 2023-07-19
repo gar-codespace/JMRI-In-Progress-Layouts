@@ -121,6 +121,52 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "SP0293",
+        "number" : "0293",
+        "road" : "SP",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "5",
+          "route" : "4r1",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "5s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem Creek",
+          "name" : "3",
+          "route" : "4r3",
+          "track" : {
+            "userName" : "FH Lloyd",
+            "name" : "3s9"
+          }
+        },
+        "load" : "flour",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "WJ&S6228",
         "number" : "6228",
         "road" : "WJ&S",
@@ -167,57 +213,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "NYNH&H4216",
-        "number" : "4216",
-        "road" : "NYNH&H",
+        "name" : "PRR3349",
+        "number" : "3349",
+        "road" : "PRR",
         "rfid" : "",
-        "carType" : "GPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "5",
-          "route" : "4r1",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "5s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem Creek",
-          "name" : "3",
-          "route" : "4r3",
-          "track" : {
-            "userName" : "Sand House",
-            "name" : "3s12"
-          }
-        },
-        "load" : "sand",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S8867",
-        "number" : "8867",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XPV",
+        "carType" : "XP3",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -259,9 +259,9 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "SP0293",
-        "number" : "0293",
-        "road" : "SP",
+        "name" : "B&A7392",
+        "number" : "7392",
+        "road" : "B&A",
         "rfid" : "",
         "carType" : "XP3",
         "carSubType" : "",
@@ -305,11 +305,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR3349",
-        "number" : "3349",
-        "road" : "PRR",
+        "name" : "WJ&S8867",
+        "number" : "8867",
+        "road" : "WJ&S",
         "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -443,11 +443,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "B&A7392",
-        "number" : "7392",
-        "road" : "B&A",
+        "name" : "NYNH&H4216",
+        "number" : "4216",
+        "road" : "NYNH&H",
         "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "GPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -475,7 +475,7 @@
             "name" : "3s3"
           }
         },
-        "load" : "Empty",
+        "load" : "lumber bh flat",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1257,6 +1257,8 @@
       },
       "3s9" : {
         "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
         "comment" : "TrainPlayer ID:16"
       },
       "3s12" : {
@@ -1657,11 +1659,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "WJ&S6228",
-        "number" : "6228",
-        "road" : "WJ&S",
+        "name" : "SP0293",
+        "number" : "0293",
+        "road" : "SP",
         "rfid" : "",
-        "carType" : "GPx",
+        "carType" : "XP3",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1685,11 +1687,11 @@
           "name" : "3",
           "route" : "4r3",
           "track" : {
-            "userName" : "Sand House",
-            "name" : "3s12"
+            "userName" : "FH Lloyd",
+            "name" : "3s9"
           }
         },
-        "load" : "sand",
+        "load" : "flour",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1703,11 +1705,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "NYNH&H4216",
-        "number" : "4216",
-        "road" : "NYNH&H",
+        "name" : "WJ&S6228",
+        "number" : "6228",
+        "road" : "WJ&S",
         "rfid" : "",
-        "carType" : "GPD",
+        "carType" : "GPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1795,11 +1797,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "WJ&S8867",
-        "number" : "8867",
-        "road" : "WJ&S",
+        "name" : "PRR3349",
+        "number" : "3349",
+        "road" : "PRR",
         "rfid" : "",
-        "carType" : "XPV",
+        "carType" : "XP3",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1841,9 +1843,9 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "SP0293",
-        "number" : "0293",
-        "road" : "SP",
+        "name" : "B&A7392",
+        "number" : "7392",
+        "road" : "B&A",
         "rfid" : "",
         "carType" : "XP3",
         "carSubType" : "",
@@ -2238,11 +2240,11 @@
         "status" : ""
       } ],
       "remove" : [ {
-        "name" : "PRR3349",
-        "number" : "3349",
-        "road" : "PRR",
+        "name" : "WJ&S8867",
+        "number" : "8867",
+        "road" : "WJ&S",
         "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2376,11 +2378,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "B&A7392",
-        "number" : "7392",
-        "road" : "B&A",
+        "name" : "NYNH&H4216",
+        "number" : "4216",
+        "road" : "NYNH&H",
         "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "GPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2408,7 +2410,7 @@
             "name" : "3s3"
           }
         },
-        "load" : "Empty",
+        "load" : "lumber bh flat",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -3688,5 +3690,5 @@
       } ]
     }
   } ],
-  "date" : "1915-07-06T04:55:21.586+00:00"
+  "date" : "1915-07-18T03:59:22.890+00:00"
 }

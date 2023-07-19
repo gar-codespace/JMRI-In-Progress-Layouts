@@ -2,72 +2,48 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sun Jul 02 09:33:12 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Jul 18 11:19:06 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
-    <road name="B" />
     <road name="B&amp;A" />
     <road name="B&amp;O" />
-    <road name="BX" />
     <road name="CNJ" />
     <road name="CS" />
     <road name="DL&amp;W" />
-    <road name="EEI" />
     <road name="ER" />
-    <road name="ESHP" />
-    <road name="ESS" />
     <road name="ET" />
     <road name="FGEX" />
-    <road name="GB" />
-    <road name="HT" />
     <road name="LV" />
     <road name="M&amp;P" />
-    <road name="MWK" />
     <road name="NYC" />
     <road name="NYNH&amp;H" />
     <road name="P&amp;R" />
-    <road name="PC" />
-    <road name="PFEX" />
     <road name="PGCC" />
     <road name="PL" />
     <road name="PRR" />
-    <road name="PRRMW" />
     <road name="PRRMoW" />
-    <road name="SFRD" />
     <road name="SP" />
     <road name="TCX" />
     <road name="TELX" />
-    <road name="TM" />
     <road name="UTLX" />
     <road name="WCC" />
     <road name="WJ&amp;S" />
-    <road name="XM" />
-    <road name="XX" />
   </roads>
   <types>
-    <type name="B" />
     <type name="B60" />
-    <type name="BE" />
-    <type name="BX" />
     <type name="Bd" />
-    <type name="Bdr" />
     <type name="Bn" />
     <type name="CA" />
     <type name="FM" />
     <type name="GB" />
     <type name="HK" />
-    <type name="HT" />
     <type name="M" />
     <type name="MA" />
-    <type name="MWK" />
     <type name="NE" />
     <type name="NM" />
-    <type name="Ok" />
     <type name="P54" />
     <type name="P70" />
-    <type name="PB" />
-    <type name="PC" />
     <type name="PS" />
     <type name="Pk" />
     <type name="RB" />
@@ -118,10 +94,6 @@
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="express" loadType="load" />
-    </load>
-    <load type="Bdr">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
     </load>
     <load type="Bn">
       <carLoad name="Empty" loadType="empty" />
@@ -178,28 +150,6 @@
       <carLoad name="iced" loadType="load" />
       <carLoad name="produce" loadType="load" />
     </load>
-    <load type="BX">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="express" loadType="load" />
-    </load>
-    <load type="B">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-    </load>
-    <load type="Ok">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="express" loadType="load" />
-    </load>
-    <load type="MWK">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-    </load>
-    <load type="HT">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-    </load>
     <load type="GB">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
@@ -209,14 +159,6 @@
       <carLoad name="cinders" loadType="load" />
       <carLoad name="sand" loadType="load" />
       <carLoad name="steel rods" loadType="load" />
-    </load>
-    <load type="PC">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-    </load>
-    <load type="PB">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
     </load>
     <load type="MA">
       <carLoad name="Empty" loadType="empty" />
@@ -228,16 +170,16 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="express" loadType="load" />
     </load>
+    <load type="NM">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+    </load>
     <load type="HK">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="coal2" loadType="load" />
     </load>
-    <load type="NM">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-    </load>
-    <load type="Pk">
+    <load type="P70">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
     </load>
@@ -246,14 +188,9 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="fuel" loadType="load" />
     </load>
-    <load type="P70">
+    <load type="Pk">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
-    </load>
-    <load type="BE">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="express" loadType="load" />
     </load>
   </loads>
   <newKernels>
@@ -275,7 +212,7 @@
     <car id="ACL5093" roadName="ACL" roadNumber="5093" type="FM" length="40" weightTons="0" locationId="5" secLocationId="5s3" moves="0" date="" selected="false" load="Empty" />
     <car id="ACL6195" roadName="ACL" roadNumber="6195" type="GB" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="ACL7510" roadName="ACL" roadNumber="7510" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
-    <car id="ACL7836" roadName="ACL" roadNumber="7836" type="GB" length="40" weightTons="0" locationId="4" secLocationId="4s7" moves="0" date="" selected="false" load="cinders" />
+    <car id="ACL7836" roadName="ACL" roadNumber="7836" type="GB" length="40" weightTons="0" locationId="10" secLocationId="10s1" moves="0" date="" selected="false" load="Empty" />
     <car id="ACL8139" roadName="ACL" roadNumber="8139" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
     <car id="AT&amp;SF0204" roadName="AT&amp;SF" roadNumber="0204" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="AT&amp;SF8248" roadName="AT&amp;SF" roadNumber="8248" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" />

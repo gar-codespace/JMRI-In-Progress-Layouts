@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/30/2023-23:59:36", 
+  "buildDate": "07/17/2023-20:13:09", 
   "carAAR": [
     "RHx", 
     "THV", 
@@ -7,13 +7,14 @@
     "FP3", 
     "FP4", 
     "GPx", 
+    "HPx", 
     "TPO", 
     "RP3", 
     "XPP", 
     "XP3", 
-    "HPC", 
     "GPD", 
     "XP4", 
+    "HPD", 
     "XPV"
   ], 
   "carKernel": [
@@ -38,7 +39,10 @@
       "sand", 
       "Lumber"
     ], 
-    "HPC": [
+    "HPD": [
+      "coal"
+    ], 
+    "HPx": [
       "coal"
     ], 
     "NPD": [], 
@@ -92,7 +96,15 @@
       "c-schedule": {
         "ECo": [
           [
-            "HPC", 
+            "HPD", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "HPx", 
             "R", 
             "coal", 
             "", 
@@ -284,7 +296,7 @@
       "c-schedule": {
         "SGL": [
           [
-            "HPC", 
+            "HPx", 
             "R", 
             "coal", 
             "", 
@@ -524,7 +536,15 @@
       "c-schedule": {
         "S3C": [
           [
-            "HPC", 
+            "HPD", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "HPx", 
             "R", 
             "coal", 
             "", 

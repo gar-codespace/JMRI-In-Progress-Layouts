@@ -1,31 +1,535 @@
-2023-07-06 08:14:05,979 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-07-06 08:14:06,005 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-07-06 08:14:06,005 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-07-06 08:14:06,005 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-07-06 08:14:06,005 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-07-06 08:14:06,005 - OPS.OE.PSE - INFO - Destination folders check OK
-2023-07-06 08:14:06,076 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-07-06 08:14:06,085 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-07-06 08:14:06,691 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-07-06 08:14:06,716 - OPS.Main.Controller - INFO - Main script run time (sec): 0.721
-2023-07-06 08:14:08,950 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1688656448950,modifiers=Button1] on psButton
-2023-07-06 08:14:08,961 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
-2023-07-06 08:14:08,993 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-07-06 08:14:08,993 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-07-06 08:14:09,088 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-07-06 08:14:09,104 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
-2023-07-06 08:14:09,213 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
-2023-07-06 08:14:09,213 - OPS.o2o.Controller - INFO - o2o makeFrame completed
-2023-07-06 08:14:09,293 - OPS.PT.Model - DEBUG - initializeComboBoxes
-2023-07-06 08:14:09,293 - OPS.PT.Model - INFO - Set initial location and tracks in config file
-2023-07-06 08:14:09,309 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
-2023-07-06 08:14:09,338 - OPS.PT.Controller - INFO - Patterns makeFrame completed
-2023-07-06 08:14:09,401 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-07-06 08:14:09,430 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
-2023-07-06 08:14:09,430 - OPS.Main.View - DEBUG - makePatternScriptsWindow
-2023-07-06 08:14:09,545 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1422,4,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-07-06 08:14:09,638 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-07-06 08:14:16,259 - OPS.PT.Model - DEBUG - jLocations
-2023-07-06 08:14:16,290 - OPS.PT.Model - DEBUG - initializeComboBoxes
-2023-07-06 08:14:16,290 - OPS.PT.Model - INFO - Set initial location and tracks in config file
-2023-07-06 08:14:16,306 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-17 17:52:54,619 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-07-17 17:52:54,651 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-07-17 17:52:54,651 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-07-17 17:52:54,651 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-07-17 17:52:54,651 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-07-17 17:52:54,664 - OPS.OE.PSE - INFO - Destination folders check OK
+2023-07-17 17:52:54,684 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-07-17 17:52:54,684 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-07-17 17:52:55,122 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-07-17 17:52:55,141 - OPS.Main.Controller - INFO - Main script run time (sec): 0.503
+2023-07-17 17:52:57,483 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1689641577484,modifiers=Button1] on psButton
+2023-07-17 17:52:57,499 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
+2023-07-17 17:52:57,515 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-07-17 17:52:57,515 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-07-17 17:52:57,608 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-07-17 17:52:57,625 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
+2023-07-17 17:52:57,750 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-07-17 17:52:57,750 - OPS.o2o.Controller - INFO - o2o makeFrame completed
+2023-07-17 17:52:57,828 - OPS.PT.Model - DEBUG - initializeComboBoxes
+2023-07-17 17:52:57,845 - OPS.PT.Model - INFO - Set initial location and tracks in config file
+2023-07-17 17:52:57,845 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-17 17:52:57,891 - OPS.PT.Controller - INFO - Patterns makeFrame completed
+2023-07-17 17:52:57,954 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-17 17:52:57,970 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
+2023-07-17 17:52:57,970 - OPS.Main.View - DEBUG - makePatternScriptsWindow
+2023-07-17 17:52:58,081 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1422,4,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-17 17:52:58,174 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-07-17 17:53:08,338 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1689641588339,modifiers=Button1] on commit
+2023-07-17 17:53:08,354 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-17 17:53:11,654 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Locations,when=1689641591654,modifiers=Button1] on updateJmriLocations
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - INFO - TrainPlayer Locations file OK
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - INFO - TrainPlayer Industries file OK
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - INFO - TrainPlayer Inventory file OK
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - processFileHeaders
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getLocationIds
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getRrLocations
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getRrLocales
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
+2023-07-17 17:53:11,668 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
+2023-07-17 17:53:11,686 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
+2023-07-17 17:53:11,686 - OPS.o2o.ModelImport - DEBUG - writeTPLayoutData
+2023-07-17 17:53:11,717 - OPS.o2o.Model - INFO - TrainPlayer railroad data imported OK
+2023-07-17 17:53:11,717 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,717 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,732 - OPS.o2o.Model - DEBUG - setRailroadDetails
+2023-07-17 17:53:11,786 - OPS.o2o.Model - DEBUG - tweakOperationsXml
+2023-07-17 17:53:11,786 - OPS.o2o.Model - INFO - Layout details added
+2023-07-17 17:53:11,786 - OPS.o2o.Model - INFO - JMRI operations settings updated
+2023-07-17 17:53:11,786 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,786 - OPS.o2o.Model - INFO - Divisions updated
+2023-07-17 17:53:11,786 - OPS.o2o.Model - INFO - JMRI locations updated from TrainPlayer data
+2023-07-17 17:53:11,795 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,795 - OPS.o2o.Model - DEBUG - addRoads
+2023-07-17 17:53:11,795 - OPS.o2o.Model - DEBUG - addCarAar
+2023-07-17 17:53:11,795 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=13; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,795 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=13; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,795 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=13; propagationId=null; source=Township]
+2023-07-17 17:53:11,795 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=15; newValue=14; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=12; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=12; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=12; propagationId=null; source=Township]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=13; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=11; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=11; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=11; propagationId=null; source=Township]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=12; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=10; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=10; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=10; propagationId=null; source=Township]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=11; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=9; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=9; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=9; propagationId=null; source=Township]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=10; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=8; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,811 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=8; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=8; propagationId=null; source=Township]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=9; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=Township]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=8; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=Township]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=Township]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=Township]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=Township]
+2023-07-17 17:53:11,825 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=Township]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=Township]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=Township]
+2023-07-17 17:53:11,842 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=Salem Creek]
+2023-07-17 17:53:11,842 - OPS.o2o.Model - DEBUG - addCarLoads
+2023-07-17 17:53:11,842 - OPS.o2o.Model - DEBUG - addCarKernels
+2023-07-17 17:53:11,842 - OPS.o2o.Model - DEBUG - addLocoModels
+2023-07-17 17:53:11,842 - OPS.o2o.Model - DEBUG - addLocoTypes
+2023-07-17 17:53:11,842 - OPS.o2o.Model - DEBUG - addLocoConsist
+2023-07-17 17:53:11,842 - OPS.o2o.Model - INFO - New rolling stock attributes
+2023-07-17 17:53:11,858 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - addSchedules
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,858 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,872 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,885 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,885 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,885 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,885 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-17 17:53:11,888 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,904 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,904 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,904 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,904 - OPS.o2o.Model - INFO - JMRI tracks updated from TrainPlayer data
+2023-07-17 17:53:11,920 - OPS.o2o.Model - INFO - TrainPlayer Inventory file OK
+2023-07-17 17:53:11,920 - OPS.o2o.Model - DEBUG - splitTpList
+2023-07-17 17:53:11,936 - OPS.o2o.Model - DEBUG - setBaseCarAttribs
+2023-07-17 17:53:11,943 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
+2023-07-17 17:53:11,944 - OPS.o2o.Model - INFO - Updated rolling stock
+2023-07-17 17:53:11,951 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
+2023-07-17 17:53:11,951 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-17 17:53:11,951 - OPS.o2o.Model - DEBUG - setRailroadDetails
+2023-07-17 17:53:12,015 - OPS.o2o.Model - INFO - Layout details updated
+2023-07-17 17:53:12,030 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-07-17 17:53:12,062 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-07-17 17:53:12,085 - OPS.PT.Model - DEBUG - initializeComboBoxes
+2023-07-17 17:53:12,085 - OPS.PT.Model - INFO - Set initial location and tracks in config file
+2023-07-17 17:53:12,085 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-17 17:53:12,125 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=0; newValue=1; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=2; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=3; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=4; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=5; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=6; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=7; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=8; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=9; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=10; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=11; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,586 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=12; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,586 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=13; propagationId=null; source=Salem Yard]
+2023-07-17 17:53:27,586 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=14; propagationId=null; source=Salem Yard]
+2023-07-17 17:54:06,170 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeListChange; oldValue=null; newValue=RouteLocation; propagationId=null; source=Salem Yard]
+2023-07-17 17:54:19,721 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeListChange; oldValue=null; newValue=RouteLocation; propagationId=null; source=Salem Yard]
+2023-07-17 17:54:31,480 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeListChange; oldValue=null; newValue=RouteLocation; propagationId=null; source=Salem Yard]
+2023-07-17 17:54:37,322 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainEditFrame[frame1,31,31,729x741,layout=java.awt.BorderLayout,title=Edit Train,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,713x702,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-17 17:54:53,108 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.locations.LocationsTableFrame[frame2,75,236,1247x538,invalid,hidden,layout=java.awt.BorderLayout,title=Locations,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1231x499,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-17 17:54:59,752 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeListChange; oldValue=null; newValue=RouteLocation; propagationId=null; source=Salem Yard]
+2023-07-17 17:55:13,349 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeListChange; oldValue=null; newValue=RouteLocation; propagationId=null; source=Salem Yard]
+2023-07-17 17:55:17,713 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainEditFrame[frame1,31,31,729x741,invalid,hidden,layout=java.awt.BorderLayout,title=Edit Train,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,713x702,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-17 17:55:57,595 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:55:58,578 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,045 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,059 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,059 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,154 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 38/112 cars; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,326 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,326 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,326 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,342 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 17:56:19,342 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:19,342 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 17:56:19,342 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 17:56:19,437 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 17:56:19,437 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 17:56:19,437 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 17:56:19,437 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 17:56:19,437 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 17:56:19,437 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 17:56:21,147 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:21,147 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:21,147 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:21,147 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:21,147 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:21,147 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:21,147 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 38/112 cars; newValue=Train reset; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:23,115 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:23,131 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=; newValue=Could not find a departure staging track at Salem that meets the train requirements; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:23,131 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:23,131 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Train reset; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:23,131 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Build Failed; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:25,634 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 17:56:26,174 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=Could not find a departure staging track at Salem that meets the train requirements; newValue=; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Build Failed; newValue=Train reset; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=; newValue=Could not find a departure staging track at Salem that meets the train requirements; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Train reset; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:26,882 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Build Failed; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:28,778 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:56:29,318 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 17:56:30,671 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Township]
+2023-07-17 17:56:30,671 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=; newValue=Could not find a departure staging track at Salem that meets the train requirements; propagationId=null; source=Township]
+2023-07-17 17:56:30,671 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 17:56:30,671 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Train reset; propagationId=null; source=Township]
+2023-07-17 17:56:30,671 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Build Failed; propagationId=null; source=Township]
+2023-07-17 17:56:45,881 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 17:56:46,694 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 17:56:47,887 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Salem Creek]
+2023-07-17 17:56:47,887 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=; newValue=Could not find a departure staging track at Salem that meets the train requirements; propagationId=null; source=Salem Creek]
+2023-07-17 17:56:47,887 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 17:56:47,887 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Train reset; propagationId=null; source=Salem Creek]
+2023-07-17 17:56:47,887 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Build Failed; propagationId=null; source=Salem Creek]
+2023-07-17 17:57:13,022 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=nameChange; oldValue=Fenwick Switchx; newValue=Fenwick Switch; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=0; newValue=1; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=2; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=3; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=4; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=5; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=6; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=7; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=8; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=9; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=10; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,157 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=11; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,157 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=12; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,157 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=13; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:40,157 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=14; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,753 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,753 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=Could not find a departure staging track at Salem that meets the train requirements; newValue=; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,753 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Build Failed; newValue=Train reset; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,753 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,753 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,753 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,818 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 38/62 cars; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,818 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,831 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,831 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,831 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 17:59:44,831 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:44,831 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 17:59:44,846 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 17:59:44,846 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 17:59:44,846 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 17:59:44,846 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 17:59:44,846 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 17:59:44,846 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 17:59:44,846 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 17:59:46,724 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:46,724 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:46,724 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:46,724 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:46,724 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:46,724 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:46,724 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 38/62 cars; newValue=Train reset; propagationId=null; source=Fenwick Creek]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=0; newValue=1; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=2; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=3; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=4; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=5; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=6; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=7; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=8; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=9; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=10; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=11; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=12; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=13; propagationId=null; source=Township]
+2023-07-17 17:59:49,532 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=14; propagationId=null; source=Township]
+2023-07-17 17:59:52,872 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 17:59:53,869 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 17:59:54,332 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=Could not find a departure staging track at Salem that meets the train requirements; newValue=; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Build Failed; newValue=Train reset; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=; newValue=Could not find a departure staging track at Salem that meets the train requirements; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Train reset; propagationId=null; source=Salem Creek]
+2023-07-17 17:59:55,214 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Build Failed; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:00,450 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 18:00:00,450 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=Could not find a departure staging track at Salem that meets the train requirements; newValue=; propagationId=null; source=Township]
+2023-07-17 18:00:00,450 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Build Failed; newValue=Train reset; propagationId=null; source=Township]
+2023-07-17 18:00:00,450 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Township]
+2023-07-17 18:00:00,459 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Township]
+2023-07-17 18:00:00,459 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Township]
+2023-07-17 18:00:00,496 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 41/65 cars; propagationId=null; source=Township]
+2023-07-17 18:00:00,496 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Township]
+2023-07-17 18:00:00,496 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 18:00:00,496 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 18:00:00,513 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:00:00,513 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 18:00:00,513 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 18:00:00,513 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 18:00:00,513 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 18:00:00,513 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 18:00:00,528 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 18:00:00,528 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 18:00:00,528 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 18:00:00,528 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:00:02,463 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Township]
+2023-07-17 18:00:02,464 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Township]
+2023-07-17 18:00:02,464 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Township]
+2023-07-17 18:00:02,464 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 18:00:02,464 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 18:00:02,464 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 18:00:02,464 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 41/65 cars; newValue=Train reset; propagationId=null; source=Township]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=2; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=3; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=4; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=5; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=6; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=7; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=8; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=9; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=10; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=11; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=12; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=13; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=14; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:04,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=15; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailed; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,378 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=buildFailedMessage; oldValue=Could not find a departure staging track at Salem that meets the train requirements; newValue=; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,378 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Build Failed; newValue=Train reset; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,378 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,378 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,378 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 38/62 cars; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,418 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:00:07,418 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:07,418 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 18:00:07,418 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 18:00:07,418 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 18:00:07,418 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 18:00:07,418 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 18:00:07,418 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 18:00:07,418 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 18:00:07,418 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:00:10,230 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:10,230 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:10,230 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:10,230 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:10,230 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:10,230 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:10,246 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 38/62 cars; newValue=Train reset; propagationId=null; source=Salem Creek]
+2023-07-17 18:00:15,217 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame3,0,0,1412x313,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1396x274,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-17 18:00:15,302 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Delete All Commits,when=1689642015302,modifiers=Button1] on reset
+2023-07-17 18:00:15,316 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-17 18:00:28,187 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1689642028187,modifiers=Button1] on commit
+2023-07-17 18:00:28,217 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-17 18:01:28,071 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,690 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,697 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,697 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,729 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 38/112 cars; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,729 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,744 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,744 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,744 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:01:28,744 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Salem Yard]
+2023-07-17 18:01:28,744 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 18:01:28,744 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 18:01:28,744 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 18:01:28,744 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 18:01:28,744 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 18:01:28,744 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 18:01:28,744 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 18:01:28,744 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:04:50,130 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:50,130 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:50,130 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:50,130 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:50,130 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:50,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:50,144 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 38/112 cars; newValue=Train reset; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:51,578 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Salem Yard]
+2023-07-17 18:04:52,035 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,617 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,627 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,627 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,694 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 38/62 cars; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,710 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,710 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,710 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,710 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:04:52,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:04:52,726 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 18:04:52,726 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 18:04:52,726 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 18:04:52,726 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 18:04:52,726 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 18:04:52,726 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 18:04:52,726 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 18:04:52,726 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 18:11:21,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:11:21,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:11:21,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:11:21,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:11:21,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:11:21,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 18:11:21,726 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 38/62 cars; newValue=Train reset; propagationId=null; source=Fenwick Creek]
+2023-07-17 19:57:23,782 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 19:57:24,348 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 19:57:25,526 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Township]
+2023-07-17 19:57:25,526 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Township]
+2023-07-17 19:57:25,540 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Township]
+2023-07-17 19:57:25,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 41/65 cars; propagationId=null; source=Township]
+2023-07-17 19:57:25,572 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Township]
+2023-07-17 19:57:25,582 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 19:57:25,582 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 19:57:25,582 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 19:57:25,582 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Township]
+2023-07-17 19:57:25,582 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 19:57:25,588 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 19:57:25,588 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 19:57:25,588 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 19:57:25,588 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 19:57:25,588 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 19:57:25,588 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 19:57:25,588 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 19:59:20,226 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Township]
+2023-07-17 19:59:20,226 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Township]
+2023-07-17 19:59:20,226 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Township]
+2023-07-17 19:59:20,226 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 19:59:20,226 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 19:59:20,226 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 19:59:20,226 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 41/65 cars; newValue=Train reset; propagationId=null; source=Township]
+2023-07-17 19:59:21,897 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Township]
+2023-07-17 19:59:22,374 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,844 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,858 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,858 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,875 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 38/62 cars; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,891 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,891 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,891 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,891 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 19:59:22,891 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Salem Creek]
+2023-07-17 19:59:22,891 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 19:59:22,891 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 19:59:22,891 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 19:59:22,891 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 19:59:22,891 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 19:59:22,891 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 19:59:22,891 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 19:59:22,905 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 20:01:21,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:21,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:21,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:21,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:21,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:21,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:21,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 38/62 cars; newValue=Train reset; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:23,418 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=true; newValue=false; propagationId=null; source=Salem Creek]
+2023-07-17 20:01:24,392 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuild; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Yard; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,413 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 38/62 cars; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,413 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=Salem; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,413 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,413 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,428 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 20:01:25,428 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:01:25,428 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-07-17 20:01:25,428 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-07-17 20:01:25,428 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-07-17 20:01:25,428 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json.json not found
+2023-07-17 20:01:25,428 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-07-17 20:01:25,428 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-07-17 20:01:25,428 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-07-17 20:01:25,428 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-07-17 20:05:15,956 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=Salem; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:05:15,956 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:05:15,956 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Yard; newValue=null; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:05:15,956 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:05:15,956 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=routeStatusChange; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:05:15,956 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:05:15,956 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 38/62 cars; newValue=Train reset; propagationId=null; source=Fenwick Creek]
+2023-07-17 20:05:26,423 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame3,0,0,1412x313,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1396x274,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-17 20:05:26,502 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Delete All Commits,when=1689649526502,modifiers=Button1] on reset
+2023-07-17 20:05:26,502 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-17 20:05:31,522 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1689649531522,modifiers=Button1] on commit
+2023-07-17 20:05:31,536 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui

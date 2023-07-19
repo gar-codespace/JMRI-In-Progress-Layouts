@@ -1,70 +1,269 @@
-2023-07-02 09:32:40,448 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-07-02 09:32:40,476 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-07-02 09:32:40,476 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-07-02 09:32:40,476 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-07-02 09:32:40,476 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-07-02 09:32:40,476 - OPS.OE.PSE - INFO - Destination folders check OK
-2023-07-02 09:32:40,507 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-07-02 09:32:40,507 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-07-02 09:32:40,948 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-07-02 09:32:40,979 - OPS.Main.Controller - INFO - Main script run time (sec): 0.514
-2023-07-02 09:32:42,645 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1688315562646,modifiers=Button1] on psButton
-2023-07-02 09:32:42,661 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
-2023-07-02 09:32:42,677 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-07-02 09:32:42,677 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-07-02 09:32:42,753 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-07-02 09:32:42,756 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
-2023-07-02 09:32:42,835 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
-2023-07-02 09:32:42,835 - OPS.o2o.Controller - INFO - o2o makeFrame completed
-2023-07-02 09:32:42,928 - OPS.PT.Model - DEBUG - initializeComboBoxes
-2023-07-02 09:32:42,944 - OPS.PT.Model - INFO - Set initial location and tracks in config file
-2023-07-02 09:32:42,953 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
-2023-07-02 09:32:42,960 - OPS.PT.Controller - INFO - Patterns makeFrame completed
-2023-07-02 09:32:43,023 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-07-02 09:32:43,023 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
-2023-07-02 09:32:43,023 - OPS.Main.View - DEBUG - makePatternScriptsWindow
-2023-07-02 09:32:43,164 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-07-02 09:32:43,259 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-07-02 09:32:46,180 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Cars,when=1688315566180,modifiers=Button1] on updateJmriRollingingStock
-2023-07-02 09:32:46,180 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
-2023-07-02 09:32:46,180 - OPS.o2o.ModelImport - INFO - TrainPlayer Locations file OK
-2023-07-02 09:32:46,180 - OPS.o2o.ModelImport - INFO - TrainPlayer Industries file OK
-2023-07-02 09:32:46,180 - OPS.o2o.ModelImport - INFO - TrainPlayer Inventory file OK
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - processFileHeaders
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - getLocationIds
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - getRrLocations
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - getRrLocales
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
-2023-07-02 09:32:46,194 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
-2023-07-02 09:32:46,210 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
-2023-07-02 09:32:46,210 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
-2023-07-02 09:32:46,210 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
-2023-07-02 09:32:46,210 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
-2023-07-02 09:32:46,210 - OPS.o2o.ModelImport - DEBUG - writeTPLayoutData
-2023-07-02 09:32:46,226 - OPS.o2o.Model - INFO - TrainPlayer railroad data imported OK
-2023-07-02 09:32:46,242 - OPS.o2o.Model - INFO - TrainPlayer Inventory file OK
-2023-07-02 09:32:46,242 - OPS.o2o.Model - DEBUG - splitTpList
-2023-07-02 09:32:46,242 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-07-02 09:32:46,242 - OPS.o2o.Model - DEBUG - addRoads
-2023-07-02 09:32:46,259 - OPS.o2o.Model - DEBUG - addCarAar
-2023-07-02 09:32:46,259 - OPS.o2o.Model - DEBUG - addCarLoads
-2023-07-02 09:32:46,259 - OPS.o2o.Model - DEBUG - addCarKernels
-2023-07-02 09:32:46,259 - OPS.o2o.Model - DEBUG - addLocoModels
-2023-07-02 09:32:46,259 - OPS.o2o.Model - DEBUG - addLocoTypes
-2023-07-02 09:32:46,259 - OPS.o2o.Model - DEBUG - addLocoConsist
-2023-07-02 09:32:46,259 - OPS.o2o.Model - INFO - New rolling stock attributes
-2023-07-02 09:32:46,273 - OPS.o2o.Model - DEBUG - setBaseCarAttribs
-2023-07-02 09:32:46,289 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
-2023-07-02 09:32:46,289 - OPS.o2o.Model - INFO - Updated rolling stock
-2023-07-02 09:32:46,305 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
-2023-07-02 09:32:46,305 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-07-02 09:32:46,321 - OPS.o2o.Model - DEBUG - setRailroadDetails
-2023-07-02 09:32:46,384 - OPS.o2o.Model - INFO - Layout details updated
-2023-07-02 09:32:46,414 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-07-02 09:32:46,430 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
-2023-07-02 09:32:46,446 - OPS.PT.Model - DEBUG - initializeComboBoxes
-2023-07-02 09:32:46,446 - OPS.PT.Model - INFO - Set initial location and tracks in config file
-2023-07-02 09:32:46,446 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
-2023-07-02 09:32:46,477 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-18 11:16:51,657 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-07-18 11:16:51,657 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-07-18 11:16:51,657 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-07-18 11:16:51,674 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-07-18 11:16:51,674 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-07-18 11:16:51,674 - OPS.OE.PSE - INFO - Destination folders check OK
+2023-07-18 11:16:51,706 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-07-18 11:16:51,720 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-07-18 11:16:52,191 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-07-18 11:16:52,223 - OPS.Main.Controller - INFO - Main script run time (sec): 0.566
+2023-07-18 11:16:54,312 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1689704214313,modifiers=Button1] on psButton
+2023-07-18 11:16:54,344 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
+2023-07-18 11:16:54,375 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-07-18 11:16:54,375 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-07-18 11:16:54,484 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-07-18 11:16:54,500 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
+2023-07-18 11:16:54,612 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-07-18 11:16:54,612 - OPS.o2o.Controller - INFO - o2o makeFrame completed
+2023-07-18 11:16:54,720 - OPS.PT.Model - DEBUG - initializeComboBoxes
+2023-07-18 11:16:54,736 - OPS.PT.Model - INFO - Set initial location and tracks in config file
+2023-07-18 11:16:54,736 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-18 11:16:54,767 - OPS.PT.Controller - INFO - Patterns makeFrame completed
+2023-07-18 11:16:54,815 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-18 11:16:54,831 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
+2023-07-18 11:16:54,831 - OPS.Main.View - DEBUG - makePatternScriptsWindow
+2023-07-18 11:16:54,957 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-18 11:16:55,051 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-07-18 11:16:58,569 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1689704218570,modifiers=Button1] on commit
+2023-07-18 11:16:58,601 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-18 11:17:01,134 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Locations,when=1689704221132,modifiers=Button1] on updateJmriLocations
+2023-07-18 11:17:01,135 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
+2023-07-18 11:17:01,135 - OPS.o2o.ModelImport - INFO - TrainPlayer Locations file OK
+2023-07-18 11:17:01,135 - OPS.o2o.ModelImport - INFO - TrainPlayer Industries file OK
+2023-07-18 11:17:01,135 - OPS.o2o.ModelImport - INFO - TrainPlayer Inventory file OK
+2023-07-18 11:17:01,135 - OPS.o2o.ModelImport - DEBUG - processFileHeaders
+2023-07-18 11:17:01,135 - OPS.o2o.ModelImport - DEBUG - getLocationIds
+2023-07-18 11:17:01,151 - OPS.o2o.ModelImport - DEBUG - getRrLocations
+2023-07-18 11:17:01,153 - OPS.o2o.ModelImport - DEBUG - getRrLocales
+2023-07-18 11:17:01,153 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
+2023-07-18 11:17:01,167 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
+2023-07-18 11:17:01,167 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
+2023-07-18 11:17:01,167 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
+2023-07-18 11:17:01,167 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
+2023-07-18 11:17:01,167 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
+2023-07-18 11:17:01,167 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
+2023-07-18 11:17:01,167 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
+2023-07-18 11:17:01,193 - OPS.o2o.ModelImport - DEBUG - writeTPLayoutData
+2023-07-18 11:17:01,214 - OPS.o2o.Model - INFO - TrainPlayer railroad data imported OK
+2023-07-18 11:17:01,230 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,246 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,246 - OPS.o2o.Model - DEBUG - setRailroadDetails
+2023-07-18 11:17:01,292 - OPS.o2o.Model - DEBUG - tweakOperationsXml
+2023-07-18 11:17:01,292 - OPS.o2o.Model - INFO - Layout details added
+2023-07-18 11:17:01,292 - OPS.o2o.Model - INFO - JMRI operations settings updated
+2023-07-18 11:17:01,292 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,292 - OPS.o2o.Model - INFO - Divisions updated
+2023-07-18 11:17:01,292 - OPS.o2o.Model - INFO - JMRI locations updated from TrainPlayer data
+2023-07-18 11:17:01,309 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,309 - OPS.o2o.Model - DEBUG - addRoads
+2023-07-18 11:17:01,309 - OPS.o2o.Model - DEBUG - addCarAar
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=41; newValue=40; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=40; newValue=39; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=39; newValue=38; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=38; newValue=37; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=702]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=703]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=702Y]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=703Y]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=37; newValue=36; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=36; newValue=35; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,309 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=35; newValue=34; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,325 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=34; newValue=33; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,325 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=67M]
+2023-07-18 11:17:01,325 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=13L]
+2023-07-18 11:17:01,325 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=68M]
+2023-07-18 11:17:01,325 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=68Y]
+2023-07-18 11:17:01,325 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=11L]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=35T]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=35Y]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=8; propagationId=null; source=15L]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=98M]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=98Y]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=13Y]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=33Y]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=11Y]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=99M]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=8; propagationId=null; source=33T]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=33; newValue=32; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=67M]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=13L]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=68M]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=68Y]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=11L]
+2023-07-18 11:17:01,329 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=35T]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=35Y]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=15L]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=98M]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=98Y]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=13Y]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=33Y]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=11Y]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=99M]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=7; propagationId=null; source=33T]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=32; newValue=31; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=67M]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=13L]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=68M]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=68Y]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=11L]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=35T]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=35Y]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=15L]
+2023-07-18 11:17:01,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=98M]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=98Y]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=13Y]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=33Y]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=11Y]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=99M]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=6; propagationId=null; source=33T]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=31; newValue=30; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=30; newValue=29; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=29; newValue=28; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=28; newValue=27; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=67M]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=78P]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=68M]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=98M]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=99M]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=27; newValue=26; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=78P]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=13L]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=15L]
+2023-07-18 11:17:01,355 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=5; propagationId=null; source=33T]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=26; newValue=25; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=702]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=703]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=702Y]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=703Y]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=25; newValue=24; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=702]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=703]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=702Y]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=703Y]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=24; newValue=23; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=23; newValue=22; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=22; newValue=21; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=21; newValue=20; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=20; newValue=19; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=702]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=703]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=702Y]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=703Y]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=19; newValue=18; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=78P]
+2023-07-18 11:17:01,371 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=15L]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=33Y]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=4; propagationId=null; source=33T]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=16; newValue=15; propagationId=null; source=32B]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=18; newValue=17; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=78P]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=15L]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=33Y]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=33T]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=15; newValue=14; propagationId=null; source=32B]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=17; newValue=16; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=67M]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=13L]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=3; propagationId=null; source=68M]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=68Y]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=35T]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=35Y]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=98M]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=98Y]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=13Y]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=99M]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=16; newValue=15; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=67M]
+2023-07-18 11:17:01,388 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=13L]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=68M]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=68Y]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=11L]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=35T]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=35Y]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=15L]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=98M]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=98Y]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=13Y]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=33Y]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=11Y]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=99M]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=2; propagationId=null; source=33T]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=15; newValue=14; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=15L]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=1; newValue=0; propagationId=null; source=33Y]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=1; propagationId=null; source=33T]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=13; propagationId=null; source=32B]
+2023-07-18 11:17:01,404 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=13; propagationId=null; source=Downtown Yardmaster]
+2023-07-18 11:17:01,404 - OPS.o2o.Model - DEBUG - addCarLoads
+2023-07-18 11:17:01,418 - OPS.o2o.Model - DEBUG - addCarKernels
+2023-07-18 11:17:01,418 - OPS.o2o.Model - DEBUG - addLocoModels
+2023-07-18 11:17:01,418 - OPS.o2o.Model - DEBUG - addLocoTypes
+2023-07-18 11:17:01,418 - OPS.o2o.Model - DEBUG - addLocoConsist
+2023-07-18 11:17:01,418 - OPS.o2o.Model - INFO - New rolling stock attributes
+2023-07-18 11:17:01,430 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - addSchedules
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,434 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.Model - DEBUG - composeSchedule
+2023-07-18 11:17:01,450 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,450 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,467 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,467 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,467 - OPS.o2o.Model - INFO - JMRI tracks updated from TrainPlayer data
+2023-07-18 11:17:01,483 - OPS.o2o.Model - INFO - TrainPlayer Inventory file OK
+2023-07-18 11:17:01,483 - OPS.o2o.Model - DEBUG - splitTpList
+2023-07-18 11:17:01,515 - OPS.o2o.Model - DEBUG - setBaseCarAttribs
+2023-07-18 11:17:01,530 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
+2023-07-18 11:17:01,530 - OPS.o2o.Model - INFO - Updated rolling stock
+2023-07-18 11:17:01,546 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
+2023-07-18 11:17:01,546 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-07-18 11:17:01,562 - OPS.o2o.Model - DEBUG - setRailroadDetails
+2023-07-18 11:17:01,641 - OPS.o2o.Model - INFO - Layout details updated
+2023-07-18 11:17:01,673 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-07-18 11:17:01,704 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-07-18 11:17:01,730 - OPS.PT.Model - DEBUG - initializeComboBoxes
+2023-07-18 11:17:01,736 - OPS.PT.Model - INFO - Set initial location and tracks in config file
+2023-07-18 11:17:01,736 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-07-18 11:17:01,752 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-07-18 11:18:50,566 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.locations.LocationsTableFrame[frame1,0,0,1232x404,invalid,layout=java.awt.BorderLayout,title=Locations,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1216x365,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-07-18 11:18:57,313 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=2; newValue=3; propagationId=null; source=67M]
+2023-07-18 11:18:57,313 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=3; newValue=4; propagationId=null; source=67M]
+2023-07-18 11:18:57,328 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=4; newValue=5; propagationId=null; source=67M]
+2023-07-18 11:18:57,328 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=5; newValue=6; propagationId=null; source=67M]
+2023-07-18 11:18:57,328 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=6; newValue=7; propagationId=null; source=67M]
+2023-07-18 11:18:57,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=7; newValue=8; propagationId=null; source=67M]
+2023-07-18 11:18:57,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=8; newValue=9; propagationId=null; source=67M]
+2023-07-18 11:18:57,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=9; newValue=10; propagationId=null; source=67M]
+2023-07-18 11:18:57,341 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=10; newValue=11; propagationId=null; source=67M]
+2023-07-18 11:18:57,344 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=11; newValue=12; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=12; newValue=13; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=13; newValue=14; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=14; newValue=15; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=15; newValue=16; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=16; newValue=17; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=17; newValue=18; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=18; newValue=19; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=19; newValue=20; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=20; newValue=21; propagationId=null; source=67M]
+2023-07-18 11:18:57,345 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainTypes; oldValue=21; newValue=22; propagationId=null; source=67M]
+2023-07-18 11:19:17,000 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame2,0,0,1222x843,invalid,hidden,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1206x804,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow

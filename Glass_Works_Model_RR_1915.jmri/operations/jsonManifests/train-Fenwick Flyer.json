@@ -23,7 +23,7 @@
     },
     "trainDirection" : 1,
     "length" : {
-      "length" : 1056,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
@@ -75,11 +75,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR3776",
-        "number" : "3776",
-        "road" : "PRR",
+        "name" : "ACL8074",
+        "number" : "8074",
+        "road" : "ACL",
         "rfid" : "",
-        "carType" : "XPV",
+        "carType" : "XP3",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -121,57 +121,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "B&O4103",
-        "number" : "4103",
-        "road" : "B&O",
+        "name" : "PRR3776",
+        "number" : "3776",
+        "road" : "PRR",
         "rfid" : "",
-        "carType" : "XP4",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "AT&SF1154",
-        "number" : "1154",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "XP4",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -217,7 +171,7 @@
         "number" : "0721",
         "road" : "PL",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -263,7 +217,7 @@
         "number" : "1750",
         "road" : "DL&W",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -285,10 +239,10 @@
         "destination" : {
           "userName" : "Fenwick Creek",
           "name" : "3",
-          "route" : "15r31",
+          "route" : "15r30",
           "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
+            "userName" : "Salem Gas Light",
+            "name" : "3s4"
           }
         },
         "load" : "coal",
@@ -309,7 +263,7 @@
         "number" : "2681",
         "road" : "CNJ",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -443,11 +397,57 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "ACL8074",
-        "number" : "8074",
-        "road" : "ACL",
+        "name" : "B&O4103",
+        "number" : "4103",
+        "road" : "B&O",
         "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "XP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r22",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Fenwick Creek",
+          "name" : "3",
+          "route" : "15r31",
+          "track" : {
+            "userName" : "Salem 3 Merch Storage",
+            "name" : "3s5"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF1154",
+        "number" : "1154",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP4",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -765,6 +765,52 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "M&P5414",
+        "number" : "5414",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "HPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r22",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r27",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "ACL4893",
         "number" : "4893",
         "road" : "ACL",
@@ -907,7 +953,7 @@
         "number" : "3805",
         "road" : "NYC",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1134,9 +1180,9 @@
         "status" : ""
       } ],
       "remove" : [ ],
-      "total" : 24,
+      "total" : 25,
       "loads" : 10,
-      "empties" : 14
+      "empties" : 15
     }
   }, {
     "userName" : "Fenwick Creek",
@@ -1180,7 +1226,7 @@
     },
     "trainDirection" : 1,
     "length" : {
-      "length" : 1056,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
@@ -1374,7 +1420,7 @@
         "number" : "8399",
         "road" : "WJ&S",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1463,11 +1509,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR3776",
-        "number" : "3776",
-        "road" : "PRR",
+        "name" : "ACL8074",
+        "number" : "8074",
+        "road" : "ACL",
         "rfid" : "",
-        "carType" : "XPV",
+        "carType" : "XP3",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1509,57 +1555,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "B&O4103",
-        "number" : "4103",
-        "road" : "B&O",
+        "name" : "PRR3776",
+        "number" : "3776",
+        "road" : "PRR",
         "rfid" : "",
-        "carType" : "XP4",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "AT&SF1154",
-        "number" : "1154",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "XP4",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1605,7 +1605,53 @@
         "number" : "0721",
         "road" : "PL",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r22",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Fenwick Creek",
+          "name" : "3",
+          "route" : "15r30",
+          "track" : {
+            "userName" : "Salem Gas Light",
+            "name" : "3s4"
+          }
+        },
+        "load" : "coal",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "DL&W1750",
+        "number" : "1750",
+        "road" : "DL&W",
+        "rfid" : "",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1647,9 +1693,9 @@
         "returnWhenEmpty" : null,
         "status" : ""
       } ],
-      "total" : 24,
+      "total" : 25,
       "loads" : 10,
-      "empties" : 14
+      "empties" : 15
     }
   }, {
     "userName" : "Salem Township",
@@ -1668,16 +1714,16 @@
     "track" : { },
     "trainDirection" : 1,
     "length" : {
-      "length" : 1056,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
     "cars" : {
       "add" : [ ],
       "remove" : [ ],
-      "total" : 24,
+      "total" : 25,
       "loads" : 10,
-      "empties" : 14
+      "empties" : 15
     }
   }, {
     "userName" : "Fenwick Creek",
@@ -1715,7 +1761,7 @@
     },
     "trainDirection" : 2,
     "length" : {
-      "length" : 1056,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
@@ -1725,7 +1771,7 @@
         "number" : "6546",
         "road" : "PRR",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1771,7 +1817,7 @@
         "number" : "8485",
         "road" : "PRR",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1952,57 +1998,11 @@
         "status" : ""
       } ],
       "remove" : [ {
-        "name" : "DL&W1750",
-        "number" : "1750",
-        "road" : "DL&W",
-        "rfid" : "",
-        "carType" : "HPC",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "load" : "coal",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "CNJ2681",
         "number" : "2681",
         "road" : "CNJ",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2136,11 +2136,57 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "ACL8074",
-        "number" : "8074",
-        "road" : "ACL",
+        "name" : "B&O4103",
+        "number" : "4103",
+        "road" : "B&O",
         "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "XP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r22",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Fenwick Creek",
+          "name" : "3",
+          "route" : "15r31",
+          "track" : {
+            "userName" : "Salem 3 Merch Storage",
+            "name" : "3s5"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF1154",
+        "number" : "1154",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP4",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2182,15 +2228,15 @@
         "returnWhenEmpty" : null,
         "status" : ""
       } ],
-      "total" : 24,
+      "total" : 25,
       "loads" : 10,
-      "empties" : 14
+      "empties" : 15
     }
   }, {
     "userName" : "Salem",
     "name" : "15r27",
     "arrivalTime" : "01:16",
-    "expectedDepartureTime" : "02:28",
+    "expectedDepartureTime" : "02:31",
     "location" : {
       "comment" : "",
       "name" : "4"
@@ -2208,7 +2254,7 @@
         "number" : "6546",
         "road" : "PRR",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2254,7 +2300,7 @@
         "number" : "8485",
         "road" : "PRR",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2622,7 +2668,7 @@
         "number" : "8399",
         "road" : "WJ&S",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2940,6 +2986,52 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "M&P5414",
+        "number" : "5414",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "HPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r22",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r27",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "ACL4893",
         "number" : "4893",
         "road" : "ACL",
@@ -3082,7 +3174,7 @@
         "number" : "3805",
         "road" : "NYC",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -3310,5 +3402,5 @@
       } ]
     }
   } ],
-  "date" : "1915-07-01T07:47:05.792+00:00"
+  "date" : "1915-07-18T04:13:41.781+00:00"
 }

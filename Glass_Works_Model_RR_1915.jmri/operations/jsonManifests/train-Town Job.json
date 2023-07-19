@@ -23,7 +23,7 @@
     },
     "trainDirection" : 1,
     "length" : {
-      "length" : 1056,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
@@ -167,6 +167,52 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "ACL8074",
+        "number" : "8074",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r20",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem Township",
+          "name" : "1",
+          "route" : "16r16",
+          "track" : {
+            "userName" : "Heinz Shipping",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "AT&SF1154",
         "number" : "1154",
         "road" : "AT&SF",
@@ -217,7 +263,7 @@
         "number" : "0721",
         "road" : "PL",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -305,57 +351,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR5314",
-        "number" : "5314",
+        "name" : "PRR3776",
+        "number" : "3776",
         "road" : "PRR",
         "rfid" : "",
-        "carType" : "GPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "16r20",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem Township",
-          "name" : "1",
-          "route" : "16r16",
-          "track" : {
-            "userName" : "Salem 3 Sand Storage",
-            "name" : "1s5"
-          }
-        },
-        "load" : "sand",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL8074",
-        "number" : "8074",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -476,52 +476,6 @@
           }
         },
         "load" : "sand",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR3776",
-        "number" : "3776",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XPV",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "16r20",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem Township",
-          "name" : "1",
-          "route" : "16r17",
-          "track" : {
-            "userName" : "Salem 3 Ware House",
-            "name" : "1s9"
-          }
-        },
-        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -769,7 +723,7 @@
         "number" : "1750",
         "road" : "DL&W",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -815,7 +769,53 @@
         "number" : "2681",
         "road" : "CNJ",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r20",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5314",
+        "number" : "5314",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -862,6 +862,52 @@
         "road" : "PL",
         "rfid" : "",
         "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r20",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "M&P5414",
+        "number" : "5414",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -953,7 +999,7 @@
         "number" : "3805",
         "road" : "NYC",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1134,9 +1180,9 @@
         "status" : ""
       } ],
       "remove" : [ ],
-      "total" : 24,
-      "loads" : 14,
-      "empties" : 10
+      "total" : 25,
+      "loads" : 13,
+      "empties" : 12
     }
   }, {
     "userName" : "Salem Township",
@@ -1186,7 +1232,7 @@
     },
     "trainDirection" : 1,
     "length" : {
-      "length" : 1056,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
@@ -1426,7 +1472,7 @@
         "number" : "9740",
         "road" : "CNJ",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1745,6 +1791,52 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "ACL8074",
+        "number" : "8074",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r20",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem Township",
+          "name" : "1",
+          "route" : "16r16",
+          "track" : {
+            "userName" : "Heinz Shipping",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "AT&SF1154",
         "number" : "1154",
         "road" : "AT&SF",
@@ -1795,7 +1887,7 @@
         "number" : "0721",
         "road" : "PL",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1882,56 +1974,10 @@
         "finalDestination" : null,
         "returnWhenEmpty" : null,
         "status" : ""
-      }, {
-        "name" : "PRR5314",
-        "number" : "5314",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "16r20",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem Township",
-          "name" : "1",
-          "route" : "16r16",
-          "track" : {
-            "userName" : "Salem 3 Sand Storage",
-            "name" : "1s5"
-          }
-        },
-        "load" : "sand",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
       } ],
-      "total" : 24,
-      "loads" : 14,
-      "empties" : 10
+      "total" : 25,
+      "loads" : 13,
+      "empties" : 12
     }
   }, {
     "userName" : "Fenwick Creek",
@@ -1950,22 +1996,22 @@
     "track" : { },
     "trainDirection" : 1,
     "length" : {
-      "length" : 1056,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
     "cars" : {
       "add" : [ ],
       "remove" : [ ],
-      "total" : 24,
-      "loads" : 14,
-      "empties" : 10
+      "total" : 25,
+      "loads" : 13,
+      "empties" : 12
     }
   }, {
     "userName" : "Salem Township",
     "name" : "16r17",
     "arrivalTime" : "02:00",
-    "expectedDepartureTime" : "02:39",
+    "expectedDepartureTime" : "02:36",
     "location" : {
       "comment" : "",
       "name" : "1"
@@ -1997,7 +2043,7 @@
     },
     "trainDirection" : 2,
     "length" : {
-      "length" : 1012,
+      "length" : 1100,
       "unit" : "Feet"
     },
     "weight" : 0,
@@ -2280,11 +2326,11 @@
         "status" : ""
       } ],
       "remove" : [ {
-        "name" : "ACL8074",
-        "number" : "8074",
-        "road" : "ACL",
+        "name" : "PRR3776",
+        "number" : "3776",
+        "road" : "PRR",
         "rfid" : "",
-        "carType" : "XP3",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2405,52 +2451,6 @@
           }
         },
         "load" : "sand",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR3776",
-        "number" : "3776",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XPV",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "16r20",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem Township",
-          "name" : "1",
-          "route" : "16r17",
-          "track" : {
-            "userName" : "Salem 3 Ware House",
-            "name" : "1s9"
-          }
-        },
-        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -2602,15 +2602,15 @@
         "returnWhenEmpty" : null,
         "status" : ""
       } ],
-      "total" : 23,
+      "total" : 25,
       "loads" : 13,
-      "empties" : 10
+      "empties" : 12
     }
   }, {
     "userName" : "Salem",
     "name" : "16r19",
-    "arrivalTime" : "02:43",
-    "expectedDepartureTime" : "03:52",
+    "arrivalTime" : "02:40",
+    "expectedDepartureTime" : "03:55",
     "location" : {
       "comment" : "",
       "name" : "4"
@@ -2812,7 +2812,7 @@
         "number" : "9740",
         "road" : "CNJ",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -3318,7 +3318,7 @@
         "number" : "1750",
         "road" : "DL&W",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -3364,7 +3364,53 @@
         "number" : "2681",
         "road" : "CNJ",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r20",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5314",
+        "number" : "5314",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -3411,6 +3457,52 @@
         "road" : "PL",
         "rfid" : "",
         "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r20",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "16r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "M&P5414",
+        "number" : "5414",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -3502,7 +3594,7 @@
         "number" : "3805",
         "road" : "NYC",
         "rfid" : "",
-        "carType" : "HPC",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -3684,5 +3776,5 @@
       } ]
     }
   } ],
-  "date" : "1915-07-01T07:50:56.274+00:00"
+  "date" : "1915-07-18T04:14:36.399+00:00"
 }
