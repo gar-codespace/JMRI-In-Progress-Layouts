@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Thu Jul 20 22:45:17 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Jul 20 21:41:35 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -180,7 +180,7 @@
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
     </load>
-    <load type="P70">
+    <load type="Pk">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
     </load>
@@ -189,7 +189,7 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="fuel" loadType="load" />
     </load>
-    <load type="Pk">
+    <load type="P70">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
     </load>
@@ -206,20 +206,20 @@
   <options />
   <cars>
     <car id="ACL0360" roadName="ACL" roadNumber="0360" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
-    <car id="ACL0395" roadName="ACL" roadNumber="0395" type="GB" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s6" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c1" />
-    <car id="ACL1418" roadName="ACL" roadNumber="1418" type="GB" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c1" />
+    <car id="ACL0395" roadName="ACL" roadNumber="0395" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s6" moves="0" date="" selected="false" load="Empty" />
+    <car id="ACL1418" roadName="ACL" roadNumber="1418" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="ACL2039" roadName="ACL" roadNumber="2039" type="XM" length="40" weightTons="0" locationId="5" secLocationId="5s2" moves="0" date="" selected="false" load="goods" />
-    <car id="ACL3944" roadName="ACL" roadNumber="3944" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="ACL3944" roadName="ACL" roadNumber="3944" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="ACL5093" roadName="ACL" roadNumber="5093" type="FM" length="40" weightTons="0" locationId="5" secLocationId="5s3" moves="0" date="" selected="false" load="Empty" />
     <car id="ACL6195" roadName="ACL" roadNumber="6195" type="GB" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="ACL7510" roadName="ACL" roadNumber="7510" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="ACL7836" roadName="ACL" roadNumber="7836" type="GB" length="40" weightTons="0" locationId="10" secLocationId="10s1" moves="0" date="" selected="false" load="Empty" />
-    <car id="ACL8139" roadName="ACL" roadNumber="8139" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s3" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="ACL8139" roadName="ACL" roadNumber="8139" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
     <car id="AT&amp;SF0204" roadName="AT&amp;SF" roadNumber="0204" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s4" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c1" previousScheduleId="1644c1" />
     <car id="AT&amp;SF8248" roadName="AT&amp;SF" roadNumber="8248" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="AT&amp;SF8501" roadName="AT&amp;SF" roadNumber="8501" type="XM" length="40" weightTons="0" locationId="11" secLocationId="11s4" moves="0" date="" selected="false" load="steel products" />
     <car id="AT&amp;SF9192" roadName="AT&amp;SF" roadNumber="9192" type="GB" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="Empty" />
-    <car id="B&amp;A0591" roadName="B&amp;A" roadNumber="0591" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="B&amp;A0591" roadName="B&amp;A" roadNumber="0591" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="B&amp;A1434" roadName="B&amp;A" roadNumber="1434" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="B&amp;A2122" roadName="B&amp;A" roadNumber="2122" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="B&amp;A2789" roadName="B&amp;A" roadNumber="2789" type="FM" length="40" weightTons="0" locationId="3" secLocationId="3s3" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c3" previousScheduleId="1644c3" />
@@ -250,11 +250,11 @@
     <car id="B&amp;O8996" roadName="B&amp;O" roadNumber="8996" type="HK" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
     <car id="B&amp;O9336" roadName="B&amp;O" roadNumber="9336" type="HK" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1662c1" previousScheduleId="1662c1" />
     <car id="CNJ2995" roadName="CNJ" roadNumber="2995" type="GB" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="Empty" />
-    <car id="CNJ5227" roadName="CNJ" roadNumber="5227" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
-    <car id="CNJ9642" roadName="CNJ" roadNumber="9642" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="CNJ5227" roadName="CNJ" roadNumber="5227" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="CNJ9642" roadName="CNJ" roadNumber="9642" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="CS0073" roadName="CS" roadNumber="0073" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="CS1705" roadName="CS" roadNumber="1705" type="GB" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" load="Empty" />
-    <car id="CS1725" roadName="CS" roadNumber="1725" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="CS1725" roadName="CS" roadNumber="1725" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="CS3014" roadName="CS" roadNumber="3014" type="XM" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" load="Empty" />
     <car id="CS3576" roadName="CS" roadNumber="3576" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s5" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="CS5642" roadName="CS" roadNumber="5642" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
@@ -263,7 +263,7 @@
     <car id="CS5997" roadName="CS" roadNumber="5997" type="GB" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="Empty" />
     <car id="CS6469" roadName="CS" roadNumber="6469" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="CS8963" roadName="CS" roadNumber="8963" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
-    <car id="CS9474" roadName="CS" roadNumber="9474" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="CS9474" roadName="CS" roadNumber="9474" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="DL&amp;W0237" roadName="DL&amp;W" roadNumber="0237" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="DL&amp;W5996" roadName="DL&amp;W" roadNumber="5996" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="DL&amp;W6790" roadName="DL&amp;W" roadNumber="6790" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
@@ -272,13 +272,13 @@
     <car id="DL&amp;W7977" roadName="DL&amp;W" roadNumber="7977" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s5" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="ER2343" roadName="ER" roadNumber="2343" type="XM" length="40" weightTons="0" locationId="5" secLocationId="5s8" moves="0" date="" selected="false" load="lcl" />
     <car id="ER2798" roadName="ER" roadNumber="2798" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c2" previousScheduleId="1644c2" />
-    <car id="ER3741" roadName="ER" roadNumber="3741" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="ER3741" roadName="ER" roadNumber="3741" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="ER5365" roadName="ER" roadNumber="5365" type="GB" length="40" weightTons="0" locationId="4" secLocationId="4s9" moves="0" date="" selected="false" load="Empty" />
     <car id="ER7426" roadName="ER" roadNumber="7426" type="FM" length="40" weightTons="0" locationId="3" secLocationId="3s3" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c3" previousScheduleId="1644c3" />
     <car id="ER7904" roadName="ER" roadNumber="7904" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
     <car id="ER9009" roadName="ER" roadNumber="9009" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="FGEX0464" roadName="FGEX" roadNumber="0464" type="RS" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" load="Empty" />
-    <car id="FGEX0775" roadName="FGEX" roadNumber="0775" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX0775" roadName="FGEX" roadNumber="0775" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX0857" roadName="FGEX" roadNumber="0857" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R7" load="E" />
     <car id="FGEX0914" roadName="FGEX" roadNumber="0914" type="RB" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" leadKernel="true" load="Empty" />
     <car id="FGEX1013" roadName="FGEX" roadNumber="1013" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" load="E" />
@@ -295,18 +295,18 @@
     <car id="FGEX2108" roadName="FGEX" roadNumber="2108" type="RB" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" load="Empty" />
     <car id="FGEX2140" roadName="FGEX" roadNumber="2140" type="RS" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" load="Empty" />
     <car id="FGEX2192" roadName="FGEX" roadNumber="2192" type="RS" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R1" load="E" />
-    <car id="FGEX2300" roadName="FGEX" roadNumber="2300" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
-    <car id="FGEX2420" roadName="FGEX" roadNumber="2420" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX2300" roadName="FGEX" roadNumber="2300" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
+    <car id="FGEX2420" roadName="FGEX" roadNumber="2420" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX2504" roadName="FGEX" roadNumber="2504" type="RB" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" load="Empty" />
-    <car id="FGEX2534" roadName="FGEX" roadNumber="2534" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX2534" roadName="FGEX" roadNumber="2534" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX2719" roadName="FGEX" roadNumber="2719" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R1" load="E" />
-    <car id="FGEX2746" roadName="FGEX" roadNumber="2746" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX2746" roadName="FGEX" roadNumber="2746" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX2756" roadName="FGEX" roadNumber="2756" type="RS" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R1" load="E" />
-    <car id="FGEX2851" roadName="FGEX" roadNumber="2851" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX2851" roadName="FGEX" roadNumber="2851" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX3069" roadName="FGEX" roadNumber="3069" type="RS" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" load="E" />
     <car id="FGEX3237" roadName="FGEX" roadNumber="3237" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R7" load="E" />
     <car id="FGEX3250" roadName="FGEX" roadNumber="3250" type="RS" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" load="Empty" />
-    <car id="FGEX3251" roadName="FGEX" roadNumber="3251" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX3251" roadName="FGEX" roadNumber="3251" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX3887" roadName="FGEX" roadNumber="3887" type="RB" length="40" weightTons="0" locationId="7" secLocationId="7s4" moves="0" date="" selected="false" kernel="R5" load="produce" nextDestId="8" />
     <car id="FGEX3994" roadName="FGEX" roadNumber="3994" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R7" load="E" />
     <car id="FGEX4338" roadName="FGEX" roadNumber="4338" type="RS" length="40" weightTons="0" locationId="7" secLocationId="7s4" moves="0" date="" selected="false" kernel="R5" load="produce" nextDestId="8" />
@@ -321,9 +321,9 @@
     <car id="FGEX5733" roadName="FGEX" roadNumber="5733" type="RB" length="40" weightTons="0" locationId="7" secLocationId="7s4" moves="0" date="" selected="false" kernel="R5" load="produce" nextDestId="8" />
     <car id="FGEX5863" roadName="FGEX" roadNumber="5863" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R1" load="E" />
     <car id="FGEX6112" roadName="FGEX" roadNumber="6112" type="RS" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" load="Empty" />
-    <car id="FGEX6135" roadName="FGEX" roadNumber="6135" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX6135" roadName="FGEX" roadNumber="6135" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX6176" roadName="FGEX" roadNumber="6176" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R7" load="E" />
-    <car id="FGEX6304" roadName="FGEX" roadNumber="6304" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" leadKernel="true" load="E" scheduleId="1663c1" previousScheduleId="1663c1" />
+    <car id="FGEX6304" roadName="FGEX" roadNumber="6304" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" leadKernel="true" load="E" />
     <car id="FGEX6509" roadName="FGEX" roadNumber="6509" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R1" load="E" />
     <car id="FGEX6554" roadName="FGEX" roadNumber="6554" type="RB" length="40" weightTons="0" locationId="7" secLocationId="7s4" moves="0" date="" selected="false" kernel="R5" load="produce" nextDestId="8" />
     <car id="FGEX6661" roadName="FGEX" roadNumber="6661" type="RS" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" load="E" />
@@ -340,38 +340,38 @@
     <car id="FGEX7896" roadName="FGEX" roadNumber="7896" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" load="E" />
     <car id="FGEX7991" roadName="FGEX" roadNumber="7991" type="RS" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" load="E" />
     <car id="FGEX8220" roadName="FGEX" roadNumber="8220" type="RS" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" load="E" />
-    <car id="FGEX8387" roadName="FGEX" roadNumber="8387" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
+    <car id="FGEX8387" roadName="FGEX" roadNumber="8387" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
     <car id="FGEX8617" roadName="FGEX" roadNumber="8617" type="RS" length="40" weightTons="0" locationId="7" secLocationId="7s4" moves="0" date="" selected="false" kernel="R5" load="produce" nextDestId="8" />
     <car id="FGEX8881" roadName="FGEX" roadNumber="8881" type="RB" length="40" weightTons="0" locationId="7" secLocationId="7s4" moves="0" date="" selected="false" kernel="R5" load="produce" nextDestId="8" />
     <car id="FGEX8990" roadName="FGEX" roadNumber="8990" type="RS" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R7" load="E" />
     <car id="FGEX9054" roadName="FGEX" roadNumber="9054" type="RB" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" kernel="R4" load="Empty" />
-    <car id="FGEX9060" roadName="FGEX" roadNumber="9060" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
-    <car id="FGEX9138" roadName="FGEX" roadNumber="9138" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="produce" />
-    <car id="FGEX9586" roadName="FGEX" roadNumber="9586" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" leadKernel="true" load="produce" />
+    <car id="FGEX9060" roadName="FGEX" roadNumber="9060" type="RS" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
+    <car id="FGEX9138" roadName="FGEX" roadNumber="9138" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" load="iced" />
+    <car id="FGEX9586" roadName="FGEX" roadNumber="9586" type="RB" length="40" weightTons="0" locationId="4" secLocationId="4s5" moves="0" date="" selected="false" kernel="R6" leadKernel="true" load="iced" />
     <car id="FGEX9672" roadName="FGEX" roadNumber="9672" type="RB" length="40" weightTons="0" locationId="6" secLocationId="6s3" moves="0" date="" selected="false" kernel="R3" load="E" />
     <car id="LV7577" roadName="LV" roadNumber="7577" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="goods" />
-    <car id="M&amp;P1712" roadName="M&amp;P" roadNumber="1712" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s3" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
-    <car id="M&amp;P2664" roadName="M&amp;P" roadNumber="2664" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
-    <car id="M&amp;P3300" roadName="M&amp;P" roadNumber="3300" type="GB" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s3" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c1" />
+    <car id="M&amp;P1712" roadName="M&amp;P" roadNumber="1712" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
+    <car id="M&amp;P2664" roadName="M&amp;P" roadNumber="2664" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="M&amp;P3300" roadName="M&amp;P" roadNumber="3300" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
     <car id="M&amp;P5577" roadName="M&amp;P" roadNumber="5577" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s3" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="M&amp;P6045" roadName="M&amp;P" roadNumber="6045" type="FM" length="40" weightTons="0" locationId="3" secLocationId="3s6" moves="0" date="" selected="false" load="Empty" />
     <car id="M&amp;P6808" roadName="M&amp;P" roadNumber="6808" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
-    <car id="M&amp;P8641" roadName="M&amp;P" roadNumber="8641" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="M&amp;P8641" roadName="M&amp;P" roadNumber="8641" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="NYC0574" roadName="NYC" roadNumber="0574" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s2" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c1" previousScheduleId="1644c1" />
-    <car id="NYC3866" roadName="NYC" roadNumber="3866" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s3" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="NYC3866" roadName="NYC" roadNumber="3866" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
     <car id="NYC4619" roadName="NYC" roadNumber="4619" type="XM" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" load="Empty" />
     <car id="NYC6203" roadName="NYC" roadNumber="6203" type="XM" length="40" weightTons="0" locationId="7" secLocationId="7s3" moves="0" date="" selected="false" load="lcl" />
     <car id="NYC7571" roadName="NYC" roadNumber="7571" type="GB" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="NYC7835" roadName="NYC" roadNumber="7835" type="FM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
-    <car id="NYC9231" roadName="NYC" roadNumber="9231" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="NYC9231" roadName="NYC" roadNumber="9231" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="NYNH&amp;H0256" roadName="NYNH&amp;H" roadNumber="0256" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="NYNH&amp;H0323" roadName="NYNH&amp;H" roadNumber="0323" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="NYNH&amp;H0540" roadName="NYNH&amp;H" roadNumber="0540" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s5" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="NYNH&amp;H3285" roadName="NYNH&amp;H" roadNumber="3285" type="GB" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
-    <car id="NYNH&amp;H3502" roadName="NYNH&amp;H" roadNumber="3502" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="NYNH&amp;H3502" roadName="NYNH&amp;H" roadNumber="3502" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="NYNH&amp;H4320" roadName="NYNH&amp;H" roadNumber="4320" type="GB" length="40" weightTons="0" locationId="11" secLocationId="11s4" moves="0" date="" selected="false" load="steel rods" />
     <car id="NYNH&amp;H4979" roadName="NYNH&amp;H" roadNumber="4979" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="goods" />
-    <car id="NYNH&amp;H8380" roadName="NYNH&amp;H" roadNumber="8380" type="GB" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s6" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c1" />
+    <car id="NYNH&amp;H8380" roadName="NYNH&amp;H" roadNumber="8380" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s6" moves="0" date="" selected="false" load="Empty" />
     <car id="NYNH&amp;H8947" roadName="NYNH&amp;H" roadNumber="8947" type="XM" length="40" weightTons="0" locationId="5" secLocationId="5s2" moves="0" date="" selected="false" load="goods" />
     <car id="P&amp;R1166" roadName="P&amp;R" roadNumber="1166" type="HK" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="P&amp;R1315" roadName="P&amp;R" roadNumber="1315" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s1" moves="0" date="" selected="false" load="lcl" />
@@ -380,7 +380,7 @@
     <car id="P&amp;R5960" roadName="P&amp;R" roadNumber="5960" type="HK" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1662c1" previousScheduleId="1662c1" />
     <car id="P&amp;R6575" roadName="P&amp;R" roadNumber="6575" type="HK" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1662c1" previousScheduleId="1662c1" />
     <car id="P&amp;R7136" roadName="P&amp;R" roadNumber="7136" type="HK" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
-    <car id="P&amp;R7172" roadName="P&amp;R" roadNumber="7172" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s5" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="P&amp;R7172" roadName="P&amp;R" roadNumber="7172" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s5" moves="0" date="" selected="false" load="Empty" />
     <car id="P&amp;R7375" roadName="P&amp;R" roadNumber="7375" type="HK" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1662c1" previousScheduleId="1662c1" />
     <car id="P&amp;R7622" roadName="P&amp;R" roadNumber="7622" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="P&amp;R8004" roadName="P&amp;R" roadNumber="8004" type="HK" length="40" weightTons="0" locationId="7" secLocationId="7s2" moves="0" date="" selected="false" load="Empty" nextDestId="1" />
@@ -411,7 +411,7 @@
     <car id="PRR0420" roadName="PRR" roadNumber="0420" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="PRR0449" roadName="PRR" roadNumber="0449" type="B60" length="40" weightTons="0" locationId="8" secLocationId="8s3" moves="0" date="" selected="false" load="E" />
     <car id="PRR0460" roadName="PRR" roadNumber="0460" type="XX" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" load="Empty" />
-    <car id="PRR0618" roadName="PRR" roadNumber="0618" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="PRR0618" roadName="PRR" roadNumber="0618" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR0672" roadName="PRR" roadNumber="0672" type="TM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="PRR0736" roadName="PRR" roadNumber="0736" type="Bn" length="40" weightTons="0" locationId="8" secLocationId="8s3" moves="0" date="" selected="false" load="E" />
     <car id="PRR0838" roadName="PRR" roadNumber="0838" type="P54" length="40" weightTons="36" locationId="9" secLocationId="9s10" moves="0" date="" selected="false" passenger="true" load="Empty" />
@@ -431,7 +431,7 @@
     <car id="PRR2450" roadName="PRR" roadNumber="2450" type="XX" length="40" weightTons="0" locationId="8" secLocationId="8s3" moves="0" date="" selected="false" load="E" />
     <car id="PRR2476" roadName="PRR" roadNumber="2476" type="GB" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="PRR2490" roadName="PRR" roadNumber="2490" type="Bn" length="40" weightTons="0" locationId="8" secLocationId="8s3" moves="0" date="" selected="false" load="E" />
-    <car id="PRR2598" roadName="PRR" roadNumber="2598" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="PRR2598" roadName="PRR" roadNumber="2598" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR2643" roadName="PRR" roadNumber="2643" type="FM" length="40" weightTons="0" locationId="5" secLocationId="5s3" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR2727" roadName="PRR" roadNumber="2727" type="B60" length="40" weightTons="0" locationId="8" secLocationId="8s3" moves="0" date="" selected="false" load="E" />
     <car id="PRR2886" roadName="PRR" roadNumber="2886" type="P54" length="40" weightTons="36" locationId="9" secLocationId="9s10" moves="0" date="" selected="false" passenger="true" load="Empty" />
@@ -445,9 +445,9 @@
     <car id="PRR4193" roadName="PRR" roadNumber="4193" type="FM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1644c3" previousScheduleId="1644c3" />
     <car id="PRR4414" roadName="PRR" roadNumber="4414" type="P70" length="40" weightTons="36" locationId="9" secLocationId="9s10" moves="0" date="" selected="false" passenger="true" load="Empty" />
     <car id="PRR4472" roadName="PRR" roadNumber="4472" type="TM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
-    <car id="PRR4478" roadName="PRR" roadNumber="4478" type="GB" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c1" />
-    <car id="PRR4752" roadName="PRR" roadNumber="4752" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
-    <car id="PRR4766" roadName="PRR" roadNumber="4766" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="PRR4478" roadName="PRR" roadNumber="4478" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="PRR4752" roadName="PRR" roadNumber="4752" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="PRR4766" roadName="PRR" roadNumber="4766" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR4843" roadName="PRR" roadNumber="4843" type="XX" length="40" weightTons="0" locationId="4" secLocationId="4s13" moves="0" date="" selected="false" load="express" />
     <car id="PRR4961" roadName="PRR" roadNumber="4961" type="FM" length="40" weightTons="0" locationId="3" secLocationId="3s6" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c3" previousScheduleId="1644c3" />
     <car id="PRR4973" roadName="PRR" roadNumber="4973" type="P70" length="40" weightTons="36" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" passenger="true" load="E" />
@@ -480,8 +480,8 @@
     <car id="PRR7387" roadName="PRR" roadNumber="7387" type="P70" length="40" weightTons="36" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" passenger="true" load="E" />
     <car id="PRR7396" roadName="PRR" roadNumber="7396" type="HK" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1662c1" previousScheduleId="1662c1" />
     <car id="PRR7481" roadName="PRR" roadNumber="7481" type="HK" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1662c1" previousScheduleId="1662c1" />
-    <car id="PRR7482" roadName="PRR" roadNumber="7482" type="TM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" />
-    <car id="PRR7541" roadName="PRR" roadNumber="7541" type="GB" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c1" />
+    <car id="PRR7482" roadName="PRR" roadNumber="7482" type="TM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="PRR7541" roadName="PRR" roadNumber="7541" type="GB" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR7808" roadName="PRR" roadNumber="7808" type="XX" length="40" weightTons="0" locationId="12" secLocationId="12s1" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR7863" roadName="PRR" roadNumber="7863" type="B60" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" load="E" />
     <car id="PRR7874" roadName="PRR" roadNumber="7874" type="Bd" length="40" weightTons="0" locationId="8" secLocationId="8s3" moves="0" date="" selected="false" load="E" />
@@ -508,14 +508,14 @@
     <car id="TCX1116" roadName="TCX" roadNumber="1116" type="TM" length="40" weightTons="0" locationId="3" secLocationId="3s4" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" />
     <car id="TCX2539" roadName="TCX" roadNumber="2539" type="TM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="TCX2717" roadName="TCX" roadNumber="2717" type="TM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1650c1" previousScheduleId="1650c1" />
-    <car id="TCX2904" roadName="TCX" roadNumber="2904" type="TM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" />
+    <car id="TCX2904" roadName="TCX" roadNumber="2904" type="TM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="TCX5207" roadName="TCX" roadNumber="5207" type="TM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="TCX5324" roadName="TCX" roadNumber="5324" type="TM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1650c1" previousScheduleId="1650c1" />
     <car id="TCX7210" roadName="TCX" roadNumber="7210" type="TM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="TELX0113" roadName="TELX" roadNumber="0113" type="TM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="TELX2341" roadName="TELX" roadNumber="2341" type="TM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1650c1" previousScheduleId="1650c1" />
-    <car id="TELX4330" roadName="TELX" roadNumber="4330" type="TM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" />
-    <car id="TELX8228" roadName="TELX" roadNumber="8228" type="TM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s4" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" />
+    <car id="TELX4330" roadName="TELX" roadNumber="4330" type="TM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="TELX8228" roadName="TELX" roadNumber="8228" type="TM" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
     <car id="TELX8870" roadName="TELX" roadNumber="8870" type="TM" length="40" weightTons="0" locationId="2" secLocationId="2s2" moves="0" date="" selected="false" load="E" />
     <car id="UTLX1758" roadName="UTLX" roadNumber="1758" type="TM" length="40" weightTons="0" locationId="3" secLocationId="3s3" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" />
     <car id="UTLX4974" roadName="UTLX" roadNumber="4974" type="TM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1650c1" previousScheduleId="1650c1" />
@@ -536,7 +536,7 @@
     <car id="WJ&amp;S5624" roadName="WJ&amp;S" roadNumber="5624" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="WJ&amp;S5720" roadName="WJ&amp;S" roadNumber="5720" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" lastRouteId="69" moves="2" date="07/20/2023 21:40:25" selected="false" load="Empty" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="WJ&amp;S6658" roadName="WJ&amp;S" roadNumber="6658" type="XM" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
-    <car id="WJ&amp;S6707" roadName="WJ&amp;S" roadNumber="6707" type="XM" length="40" weightTons="0" locationId="3" routeLocationId="74r3" secLocationId="3s2" destinationId="9" routeDestinationId="74r4" secDestinationId="9s7" moves="0" date="" selected="false" train="98Y" trainId="37" load="Empty" scheduleId="1644c2" />
+    <car id="WJ&amp;S6707" roadName="WJ&amp;S" roadNumber="6707" type="XM" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="WJ&amp;S7368" roadName="WJ&amp;S" roadNumber="7368" type="GB" length="40" weightTons="0" locationId="8" secLocationId="8s1" moves="0" date="" selected="false" load="E" />
     <car id="WJ&amp;S8346" roadName="WJ&amp;S" roadNumber="8346" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="E" scheduleId="1644c2" previousScheduleId="1644c2" />
     <car id="WJ&amp;S8765" roadName="WJ&amp;S" roadNumber="8765" type="XM" length="40" weightTons="0" locationId="5" secLocationId="5s2" moves="0" date="" selected="false" load="goods" />
