@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jul 22 08:11:11 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sun Jul 23 17:00:50 PDT 2023-->
   <divisions>
     <division id="2" name="Easton Division" comment="" />
     <division id="1" name="Northton Division" comment="" />
@@ -369,7 +369,37 @@
         <locoType name="ESS" />
       </types>
       <track id="3s1" name="Receiving" trackType="Yard" dir="15" length="1452" moves="15">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:54" />
           <both comment="" />
@@ -381,6 +411,30 @@
       </track>
       <track id="3s2" name="72" trackType="Yard" dir="15" length="1320" moves="15">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
@@ -398,6 +452,30 @@
       </track>
       <track id="3s3" name="73" trackType="Yard" dir="15" length="1144" moves="8">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
@@ -415,6 +493,30 @@
       </track>
       <track id="3s4" name="74" trackType="Yard" dir="15" length="1012" moves="16">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
@@ -432,6 +534,30 @@
       </track>
       <track id="3s5" name="75" trackType="Yard" dir="15" length="924" moves="14">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
@@ -449,6 +575,30 @@
       </track>
       <track id="3s6" name="71" trackType="Yard" dir="15" length="1188" moves="14">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
@@ -541,7 +691,37 @@
         </comments>
       </track>
       <track id="4s12" name="Platform 5" trackType="Interchange" dir="15" length="528" moves="13" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:39" />
           <both comment="" />
@@ -568,7 +748,37 @@
         </comments>
       </track>
       <track id="4s2" name="Service Track" trackType="Interchange" dir="15" length="220" moves="1" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:46" />
           <both comment="" />
@@ -579,7 +789,37 @@
         </comments>
       </track>
       <track id="4s3" name="Platform 2" trackType="Interchange" dir="15" length="1232" moves="1" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:47" />
           <both comment="" />
@@ -590,7 +830,37 @@
         </comments>
       </track>
       <track id="4s4" name="Platform 3" trackType="Interchange" dir="15" length="836" moves="1" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:48" />
           <both comment="" />
@@ -621,7 +891,37 @@
         </comments>
       </track>
       <track id="4s6" name="Platform 4" trackType="Interchange" dir="15" length="704" moves="12" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:19" />
           <both comment="" />
@@ -841,6 +1141,10 @@
     </location>
     <location id="6" name="Weston" divisionId="3" ops="2" dir="3" switchList="true" comment="" switchListComment="">
       <types>
+        <locoType name="EELP" />
+        <locoType name="EEHP" />
+        <locoType name="EEHF" />
+        <locoType name="EDHF" />
         <carType name="B60" />
         <carType name="Bd" />
         <carType name="Bn" />
@@ -869,6 +1173,10 @@
       </types>
       <track id="6s1" name="W1" trackType="Staging" dir="15" length="3300" moves="0" onlyCarWithFD="false" loadOptions="11">
         <types>
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
           <carType name="B60" />
           <carType name="Bd" />
           <carType name="Bn" />
@@ -906,6 +1214,10 @@
       </track>
       <track id="6s2" name="W3" trackType="Staging" dir="15" length="2024" moves="0" onlyCarWithFD="false" loadOptions="11">
         <types>
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
           <carType name="B60" />
           <carType name="Bd" />
           <carType name="Bn" />
@@ -943,6 +1255,32 @@
       </track>
       <track id="6s3" name="W2" trackType="Staging" dir="3" length="4092" moves="0" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="NE" />
           <carType name="RB" />
           <carType name="RS" />
@@ -1246,6 +1584,30 @@
       </track>
       <track id="8s2" name="E2" trackType="Staging" dir="3" length="2068" moves="120" dropOption="trains" onlyCarWithFD="false" loadOptions="11">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="NE" />
           <carType name="RB" />
           <carType name="RS" />
@@ -1380,7 +1742,37 @@
         <locoType name="ESS" />
       </types>
       <track id="9s1" name="OB-Park" trackType="Interchange" dir="15" length="748" moves="11" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:49" />
           <both comment="" />
@@ -1392,6 +1784,27 @@
       </track>
       <track id="9s10" name="Coach Yard" trackType="Yard" dir="15" length="528" moves="9">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
           <carType name="B60" />
           <carType name="Bd" />
           <carType name="Bn" />
@@ -1411,7 +1824,37 @@
         </comments>
       </track>
       <track id="9s11" name="OB-Valley" trackType="Interchange" dir="15" length="924" moves="11" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:41" />
           <both comment="" />
@@ -1422,7 +1865,37 @@
         </comments>
       </track>
       <track id="9s2" name="Repair" trackType="Yard" dir="0" length="352" moves="3">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:52" />
           <both comment="" />
@@ -1433,7 +1906,37 @@
         </comments>
       </track>
       <track id="9s3" name="OB-Downtown" trackType="Interchange" dir="15" length="748" moves="11" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:15" />
           <both comment="" />
@@ -1445,6 +1948,30 @@
       </track>
       <track id="9s4" name="Roundhouse" trackType="Yard" dir="15" length="5280" moves="18">
         <types>
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <locoType name="ESHF" />
           <locoType name="ESHP" />
           <locoType name="ESLF" />
@@ -1462,6 +1989,33 @@
       </track>
       <track id="9s5" name="Cabin Track" trackType="Yard" dir="15" length="264" moves="4">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="NE" />
           <carType name="NM" />
         </types>
@@ -1475,7 +2029,37 @@
         </comments>
       </track>
       <track id="9s6" name="OB-Summit" trackType="Interchange" dir="15" length="660" moves="11" onlyCarWithFD="false">
-        <types />
+        <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
+        </types>
         <comments>
           <track comment="TrainPlayer ID:27" />
           <both comment="" />
@@ -1487,6 +2071,31 @@
       </track>
       <track id="9s7" name="OB-Easton" trackType="Interchange" dir="3" length="1320" moves="33" dropOption="trains" onlyCarWithFD="false">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="TM" />
@@ -1506,6 +2115,30 @@
       </track>
       <track id="9s8" name="OB-Northton" trackType="Interchange" dir="12" length="1320" moves="89" dropOption="trains" onlyCarWithFD="false">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <locoType name="EELP" />
+          <locoType name="EEHP" />
+          <locoType name="EEHF" />
+          <locoType name="EDHF" />
+          <carType name="XX" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
@@ -1526,6 +2159,31 @@
       </track>
       <track id="9s9" name="Car Barn" trackType="Yard" dir="15" length="1232" moves="15">
         <types>
+          <locoType name="ESS" />
+          <locoType name="ESLP" />
+          <locoType name="ESLF" />
+          <locoType name="ESHP" />
+          <locoType name="ESHF" />
+          <carType name="XX" />
+          <carType name="XM" />
+          <carType name="TM" />
+          <carType name="RS" />
+          <carType name="RB" />
+          <carType name="Pk" />
+          <carType name="PS" />
+          <carType name="P70" />
+          <carType name="P54" />
+          <carType name="NM" />
+          <carType name="NE" />
+          <carType name="MA" />
+          <carType name="M" />
+          <carType name="HK" />
+          <carType name="GB" />
+          <carType name="FM" />
+          <carType name="CA" />
+          <carType name="Bn" />
+          <carType name="Bd" />
+          <carType name="B60" />
           <locoType name="EDHF" />
           <locoType name="EEHF" />
           <locoType name="EEHP" />
