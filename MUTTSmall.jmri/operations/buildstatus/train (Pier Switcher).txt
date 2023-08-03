@@ -1,4 +1,4 @@
-1- Build Report for train (Pier Switcher) built on 7/19/23, 8:06 AM
+1- Build Report for train (Pier Switcher) built on 8/2/23, 10:53 PM
 1- JMRI version 5.2+R760b98537f
 3- Build report detail level: Normal
 5- Build report detail level: Detailed
@@ -48,7 +48,7 @@
 1- Train will return to staging (West Yard) reuse departure track
 3-  
 1- Train will depart staging (West Yard), there are 1 tracks
-3- Staging track (Street Tracks) has 0 loco(s) and 9 cars
+3- Staging track (Street Tracks) has 0 loco(s) and 12 cars
 7- Train (Pier Switcher) can depart from staging track (Street Tracks)
 7- Done assigning locomotives from staging
 3-  
@@ -60,9 +60,12 @@
 7-  
 7- Remove cars from the other staging tracks:
 5-  
-5- Departing staging (West Yard, Street Tracks) with 9 cars
+5- Departing staging (West Yard, Street Tracks) with 12 cars
+7- Staging car (ER 2050) type (XP3) load (E)
 7- Staging car (PRR 0614) type (XP3) load (E)
+7- Staging car (ACL 4430) type (XP3) load (E)
 7- Staging car (AT&SF 0191) type (GPx) load (E)
+7- Staging car (B&A 1897) type (XP3) load (E)
 7- Staging car (FGEX 9508) type (RP3) load (E)
 7- Staging car (FGEX 9489) type (RP3) load (E)
 7- Staging car (PL 3265) type (XP3) load (E)
@@ -71,10 +74,13 @@
 7- Staging car (ER 1824) type (GPx) load (E)
 7- Staging car (B&A 6470) type (GPD) load (E)
 5-  
-1- Found 30 cars for train (Pier Switcher)
+1- Found 33 cars for train (Pier Switcher)
 7- Cars available from staging (West Yard):
+7- Car (ER 2050) type (XP3) at (West Yard, Street Tracks) 5 moves
 7- Car (PRR 0614) type (XP3) at (West Yard, Street Tracks) 5 moves
+7- Car (ACL 4430) type (XP3) at (West Yard, Street Tracks) 5 moves
 7- Car (AT&SF 0191) type (GPx) at (West Yard, Street Tracks) 5 moves
+7- Car (B&A 1897) type (XP3) at (West Yard, Street Tracks) 5 moves
 7- Car (FGEX 9508) type (RP3) at (West Yard, Street Tracks) 5 moves
 7- Car (FGEX 9489) type (RP3) at (West Yard, Street Tracks) 6 moves
 7- Car (PL 3265) type (XP3) at (West Yard, Street Tracks) 6 moves
@@ -113,7 +119,7 @@
 7-  
 7- Remove cars not needed by this train:
 3-  
-3- Requested cars (37) for train (Pier Switcher) the number available (30) building train!
+3- Requested cars (37) for train (Pier Switcher) the number available (33) building train!
 3-  
 3- Multiple pass build (Aggressive Mode), begin 1 of 2 passes
 3- Departing staging in aggressive mode, find destinations from (West Yard) in next pass
@@ -415,6 +421,22 @@
 5- Staging track (Street Tracks) has the following options selected:
 5- Generate custom loads for any spur (multiple trains)
 5-  
+5- Generate load for (ER 2050) type (XP3) load (E) at (West Yard, Street Tracks) destination ()
+7- Try spur (Water Street, Mother Schuckers) custom load (Empty)
+7- Train (Pier Switcher) can transport car (ER 2050) from staging (West Yard, Street Tracks) to (Water Street, Mother Schuckers)
+7- Route for car (ER 2050): (West Yard, Street Tracks)->(Water Street, Mother Schuckers)
+7- Can't use spur (Water Street, Mother Schuckers) for (ER 2050) due to rolling stock length 44 feet, available track space 0 feet
+7- Track (Mother Schuckers) full, searching for a yard at destination (Water Street)
+7- Could not find a yard at (Water Street) for car (ER 2050)
+7- Could not find an interim C/I or yard track that can service car to destination (Water Street)
+7- Can't route car (ER 2050) with load (Empty) to (Water Street, Mother Schuckers)
+7- Try spur (Water Street, 4th Street Pier) custom load (Empty)
+7- Train (Pier Switcher) can transport car (ER 2050) from staging (West Yard, Street Tracks) to (Water Street, 4th Street Pier)
+7- Route for car (ER 2050): (West Yard, Street Tracks)->(Water Street, 4th Street Pier)
+5- Car (ER 2050) custom load (Empty) final destination (Water Street, 4th Street Pier)
+7- Car (ER 2050) load (Empty) has assigned destination (Water Street, 4th Street Pier)
+3- Car (ER 2050) assigned to train, destination (Water Street, 4th Street Pier)
+3-  
 5- Generate load for (PRR 0614) type (XP3) load (E) at (West Yard, Street Tracks) destination ()
 7- Try spur (Water Street, Mother Schuckers) custom load (Empty)
 7- Train (Pier Switcher) can transport car (PRR 0614) from staging (West Yard, Street Tracks) to (Water Street, Mother Schuckers)
@@ -424,12 +446,28 @@
 7- Could not find a yard at (Water Street) for car (PRR 0614)
 7- Could not find an interim C/I or yard track that can service car to destination (Water Street)
 7- Can't route car (PRR 0614) with load (Empty) to (Water Street, Mother Schuckers)
+7- Try spur (Water Street, Water Street Stores) custom load (Foodstuffs)
+7- Train (Pier Switcher) can transport car (PRR 0614) from staging (West Yard, Street Tracks) to (Water Street, Water Street Stores)
+7- Route for car (PRR 0614): (West Yard, Street Tracks)->(Water Street, Water Street Stores)
+5- Car (PRR 0614) custom load (Foodstuffs) final destination (Water Street, Water Street Stores)
+7- Car (PRR 0614) load (Foodstuffs) has assigned destination (Water Street, Water Street Stores)
+3- Car (PRR 0614) assigned to train, destination (Water Street, Water Street Stores)
+3-  
+5- Generate load for (ACL 4430) type (XP3) load (E) at (West Yard, Street Tracks) destination ()
+7- Try spur (Water Street, Mother Schuckers) custom load (Empty)
+7- Train (Pier Switcher) can transport car (ACL 4430) from staging (West Yard, Street Tracks) to (Water Street, Mother Schuckers)
+7- Route for car (ACL 4430): (West Yard, Street Tracks)->(Water Street, Mother Schuckers)
+7- Can't use spur (Water Street, Mother Schuckers) for (ACL 4430) due to rolling stock length 44 feet, available track space 0 feet
+7- Track (Mother Schuckers) full, searching for a yard at destination (Water Street)
+7- Could not find a yard at (Water Street) for car (ACL 4430)
+7- Could not find an interim C/I or yard track that can service car to destination (Water Street)
+7- Can't route car (ACL 4430) with load (Empty) to (Water Street, Mother Schuckers)
 7- Try spur (Water Street, 4th Street Pier) custom load (Empty)
-7- Train (Pier Switcher) can transport car (PRR 0614) from staging (West Yard, Street Tracks) to (Water Street, 4th Street Pier)
-7- Route for car (PRR 0614): (West Yard, Street Tracks)->(Water Street, 4th Street Pier)
-5- Car (PRR 0614) custom load (Empty) final destination (Water Street, 4th Street Pier)
-7- Car (PRR 0614) load (Empty) has assigned destination (Water Street, 4th Street Pier)
-3- Car (PRR 0614) assigned to train, destination (Water Street, 4th Street Pier)
+7- Train (Pier Switcher) can transport car (ACL 4430) from staging (West Yard, Street Tracks) to (Water Street, 4th Street Pier)
+7- Route for car (ACL 4430): (West Yard, Street Tracks)->(Water Street, 4th Street Pier)
+5- Car (ACL 4430) custom load (Empty) final destination (Water Street, 4th Street Pier)
+7- Car (ACL 4430) load (Empty) has assigned destination (Water Street, 4th Street Pier)
+3- Car (ACL 4430) assigned to train, destination (Water Street, 4th Street Pier)
 3-  
 5- Generate load for (AT&SF 0191) type (GPx) load (E) at (West Yard, Street Tracks) destination ()
 7- Try spur (Water Street, Bulk Material Wharf) custom load (Empty)
@@ -439,6 +477,22 @@
 5- Car (AT&SF 0191) custom load (Empty) final destination (Water Street, Bulk Material Wharf)
 7- Car (AT&SF 0191) load (Empty) has assigned destination (Water Street, Bulk Material Wharf)
 3- Car (AT&SF 0191) assigned to train, destination (Water Street, Bulk Material Wharf)
+3-  
+5- Generate load for (B&A 1897) type (XP3) load (E) at (West Yard, Street Tracks) destination ()
+7- Try spur (Water Street, Mother Schuckers) custom load (Empty)
+7- Train (Pier Switcher) can transport car (B&A 1897) from staging (West Yard, Street Tracks) to (Water Street, Mother Schuckers)
+7- Route for car (B&A 1897): (West Yard, Street Tracks)->(Water Street, Mother Schuckers)
+7- Can't use spur (Water Street, Mother Schuckers) for (B&A 1897) due to rolling stock length 44 feet, available track space 0 feet
+7- Track (Mother Schuckers) full, searching for a yard at destination (Water Street)
+7- Could not find a yard at (Water Street) for car (B&A 1897)
+7- Could not find an interim C/I or yard track that can service car to destination (Water Street)
+7- Can't route car (B&A 1897) with load (Empty) to (Water Street, Mother Schuckers)
+7- Try spur (Water Street, Water Street Stores) custom load (Empty)
+7- Train (Pier Switcher) can transport car (B&A 1897) from staging (West Yard, Street Tracks) to (Water Street, Water Street Stores)
+7- Route for car (B&A 1897): (West Yard, Street Tracks)->(Water Street, Water Street Stores)
+5- Car (B&A 1897) custom load (Empty) final destination (Water Street, Water Street Stores)
+7- Car (B&A 1897) load (Empty) has assigned destination (Water Street, Water Street Stores)
+3- Car (B&A 1897) assigned to train, destination (Water Street, Water Street Stores)
 3-  
 5- Generate load for (FGEX 9508) type (RP3) load (E) at (West Yard, Street Tracks) destination ()
 7- Try spur (Water Street, Mother Schuckers) custom load (Empty)
@@ -545,8 +599,9 @@
 7- Car (B&A 6470) load (tank) has assigned destination (Water Street, Gantry Crane)
 3- Car (B&A 6470) assigned to train, destination (Water Street, Gantry Crane)
 3-  
-1- Partial 9/12 cars at location (West Yard) assigned to train (Pier Switcher)
-1- Route location (Water Street) id 2r6 requests 26 pick ups, 26/50 moves are available
+1- Success 12/12 cars at location (West Yard) assigned to train (Pier Switcher)
+7-  
+1- Route location (Water Street) id 2r6 requests 23 pick ups, 23/50 moves are available
 5-  
 5- Find spur for car (PRR 3990) type (TPO) custom empty (Empty) at (Water Street, 4th Street Pier)
 7- Spur (Water Street, Mother Schuckers) can't service car (PRR 3990) with load (Empty) due to type (TPO)
@@ -626,8 +681,8 @@
 7- Couldn't find staging that would accept car (B&O 6992) and load (lumber)
 5- Did not assign a destination for car (B&O 6992)
 5-  
-1- Partial 0/26 cars at location (Water Street) assigned to train (Pier Switcher)
+1- Partial 0/23 cars at location (Water Street) assigned to train (Pier Switcher)
 1- Route location (West Yard) id 2r5 no pick ups
-1- Partial 24/37 cars
+1- Partial 27/37 cars
 1- Build report for train (Pier Switcher) has 1 warnings
-5- Build for train (Pier Switcher) took 31 mSec
+5- Build for train (Pier Switcher) took 79 mSec
