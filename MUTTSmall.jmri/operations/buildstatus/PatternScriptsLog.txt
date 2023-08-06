@@ -1,49 +1,25 @@
-2023-08-02 22:53:14,591 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-08-02 22:53:14,618 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-08-02 22:53:14,621 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-08-02 22:53:14,625 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-08-02 22:53:14,627 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-08-02 22:53:14,631 - OPS.OE.PSE - INFO - Destination folders check OK
-2023-08-02 22:53:14,654 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-08-02 22:53:14,660 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-08-02 22:53:15,234 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-08-02 22:53:15,256 - OPS.Main.Controller - INFO - Main script run time (sec): 0.648
-2023-08-02 22:53:17,188 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1691041997187,modifiers=Button1] on psButton
-2023-08-02 22:53:17,204 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
-2023-08-02 22:53:17,224 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-08-02 22:53:17,226 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-08-02 22:53:17,334 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-08-02 22:53:17,349 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
-2023-08-02 22:53:17,543 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
-2023-08-02 22:53:17,549 - OPS.o2o.Controller - INFO - o2o makeFrame completed
-2023-08-02 22:53:17,617 - OPS.PT.Model - DEBUG - initializeComboBoxes
-2023-08-02 22:53:17,622 - OPS.PT.Model - INFO - Set initial location and tracks in config file
-2023-08-02 22:53:17,630 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
-2023-08-02 22:53:17,667 - OPS.PT.Controller - INFO - Patterns makeFrame completed
-2023-08-02 22:53:17,733 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-08-02 22:53:17,743 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
-2023-08-02 22:53:17,744 - OPS.Main.View - DEBUG - makePatternScriptsWindow
-2023-08-02 22:53:17,868 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-02 22:53:17,967 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-08-02 22:53:23,122 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Train reset; newValue=Building; propagationId=null; source=Pier Switcher]
-2023-08-02 22:53:23,122 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
-2023-08-02 22:53:23,122 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=null; newValue=Street Tracks; propagationId=null; source=Pier Switcher]
-2023-08-02 22:53:23,200 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Building; newValue=Partial 27/37 cars; propagationId=null; source=Pier Switcher]
-2023-08-02 22:53:23,390 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=null; newValue=West Yard; propagationId=null; source=Pier Switcher]
-2023-08-02 22:53:23,390 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
-2023-08-02 22:53:23,424 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-08-02 22:53:23,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=false; newValue=true; propagationId=null; source=Pier Switcher]
-2023-08-02 22:53:23,437 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
-2023-08-02 22:53:23,437 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
-2023-08-02 22:53:23,542 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
-2023-08-02 22:53:23,551 - OPS.o2o.ModelEntities - INFO - tpRollingStockData.json: OK
-2023-08-02 22:53:23,551 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
-2023-08-02 22:53:23,555 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
-2023-08-02 22:53:23,556 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
-2023-08-02 22:53:23,556 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-08-02 22:54:22,108 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=current; oldValue=West Yard; newValue=null; propagationId=null; source=Pier Switcher]
-2023-08-02 22:54:22,108 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=DepartureTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
-2023-08-02 22:54:22,108 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TerminationTrackChanged; oldValue=Street Tracks; newValue=null; propagationId=null; source=Pier Switcher]
-2023-08-02 22:54:22,108 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainBuilt; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
-2023-08-02 22:54:22,108 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=trainPrinted; oldValue=true; newValue=false; propagationId=null; source=Pier Switcher]
-2023-08-02 22:54:22,108 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=TrainStatus; oldValue=Partial 27/37 cars; newValue=Train reset; propagationId=null; source=Pier Switcher]
+2023-08-06 12:37:44,733 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-08-06 12:37:44,762 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-08-06 12:37:44,766 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-08-06 12:37:44,766 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-08-06 12:37:44,770 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-08-06 12:37:44,776 - OPS.OE.PSE - INFO - Destination folders check OK
+2023-08-06 12:37:44,801 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-08-06 12:37:44,805 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-08-06 12:37:45,404 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-08-06 12:37:45,423 - OPS.Main.Controller - INFO - Main script run time (sec): 0.674
+2023-08-06 12:37:56,762 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1691350676762,modifiers=Button1] on psButton
+2023-08-06 12:37:56,782 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
+2023-08-06 12:37:56,793 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-08-06 12:37:56,793 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-08-06 12:37:56,885 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
+2023-08-06 12:37:56,917 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
+2023-08-06 12:37:57,042 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
+2023-08-06 12:37:57,059 - OPS.o2o.Controller - INFO - o2o makeFrame completed
+2023-08-06 12:37:57,153 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
+2023-08-06 12:37:57,183 - OPS.PT.Controller - INFO - Patterns makeFrame completed
+2023-08-06 12:37:57,200 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
+2023-08-06 12:37:57,216 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
+2023-08-06 12:37:57,216 - OPS.Main.View - DEBUG - makePatternScriptsWindow
+2023-08-06 12:37:57,357 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-08-06 12:37:57,436 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
