@@ -1,22 +1,71 @@
 {
-  "buildDate": "07/19/2023-08:05:51", 
-  "carAAR": [
-    "FP3", 
-    "FP4", 
-    "GPx", 
-    "Bdr", 
-    "TPO", 
-    "RP3", 
-    "XPP", 
-    "XP3", 
-    "GPD", 
-    "XP4", 
-    "XPV"
+  "AAR_Caboose": [
+    "E", 
+    "ES", 
+    "ED", 
+    "EE", 
+    "EP", 
+    "N", 
+    "NE", 
+    "NM", 
+    "Xm"
   ], 
-  "carKernel": [
-    ""
+  "AAR_Engine": [
+    "ESS"
   ], 
-  "carLoads": {
+  "AAR_Express": [
+    "Bdr"
+  ], 
+  "AAR_MOW": [
+    "F", 
+    "FA", 
+    "FA6", 
+    "FB", 
+    "FC", 
+    "FCA", 
+    "FD", 
+    "FL", 
+    "FM", 
+    "FS", 
+    "FW", 
+    "G", 
+    "GA", 
+    "GB", 
+    "GD", 
+    "GBH", 
+    "GE", 
+    "GS", 
+    "GT", 
+    "H", 
+    "HM", 
+    "LG", 
+    "LO", 
+    "LP", 
+    "LT", 
+    "O", 
+    "RA", 
+    "RBL", 
+    "RP", 
+    "S", 
+    "SH", 
+    "SM", 
+    "T", 
+    "TA", 
+    "TL", 
+    "TW", 
+    "X", 
+    "XAR", 
+    "XMR", 
+    "XI", 
+    "XM", 
+    "XP", 
+    "XV"
+  ], 
+  "AAR_Passenger": [
+    "HT", 
+    "HK"
+  ], 
+  "CarRoster_loads": {
     "Bdr": [
       "Perishables", 
       "Live Oysters"
@@ -68,10 +117,127 @@
       "Foodstuffs"
     ]
   }, 
-  "divisions": [
+  "CarRoster_newKernels": [
     ""
   ], 
-  "industries": {
+  "CarRoster_roads": [
+    "NYNH&H", 
+    "WJ&S", 
+    "ACL", 
+    "LV", 
+    "B&O", 
+    "MUTT", 
+    "ER", 
+    "PRR", 
+    "FGEX", 
+    "M&P", 
+    "PL", 
+    "AT&SF", 
+    "P&R", 
+    "B&A", 
+    "CNJ"
+  ], 
+  "CarRoster_types": [
+    "FP3", 
+    "FP4", 
+    "GPx", 
+    "Bdr", 
+    "TPO", 
+    "RP3", 
+    "XPP", 
+    "XP3", 
+    "GPD", 
+    "XP4", 
+    "XPV"
+  ], 
+  "EngineRoster_models": [
+    [
+      "A4", 
+      "ESS"
+    ]
+  ], 
+  "EngineRoster_newConsists": [
+    ""
+  ], 
+  "EngineRoster_types": [
+    "ESS"
+  ], 
+  "Extended_buildDate": "08/10/2023-21:25:30", 
+  "Extended_divisions": [
+    ""
+  ], 
+  "Extended_layoutName": "Metropolitan Union Transfer Terminal", 
+  "Extended_location": "West Pier District", 
+  "Extended_operatingRoad": "Metropolitian Harbor Railroad", 
+  "Extended_scale": "HO", 
+  "Extended_territory": "Metropolitian Union Transfer Terminal", 
+  "Extended_year": "1915", 
+  "LocationRoster_location": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "20", 
+      "label": "P4", 
+      "location": "Water Street", 
+      "track": "4th Street Pier", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "8", 
+      "label": "WS", 
+      "location": "Water Street", 
+      "track": "Water Street Stores", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "3", 
+      "label": "MW", 
+      "location": "Water Street", 
+      "track": "Bulk Material Wharf", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "2", 
+      "label": "GC", 
+      "location": "Water Street", 
+      "track": "Gantry Crane", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "12", 
+      "label": "ST", 
+      "location": "West Yard", 
+      "track": "Street Tracks", 
+      "type": "staging"
+    }, 
+    "8": {
+      "capacity": "3", 
+      "label": "MS", 
+      "location": "Water Street", 
+      "track": "Mother Schuckers", 
+      "type": "industry"
+    }
+  }, 
+  "LocationRoster_locationIds": [
+    "00", 
+    "6", 
+    "1", 
+    "3", 
+    "4", 
+    "8", 
+    "2"
+  ], 
+  "LocationRoster_locations": [
+    "West Yard", 
+    "Water Street", 
+    "Unreported"
+  ], 
+  "LocationRoster_spurs": {
     "11": {
       "a-location": "Water Street", 
       "b-track": "Mother Schuckers", 
@@ -352,105 +518,5 @@
         ]
       }
     }
-  }, 
-  "layoutName": "Metropolitan Union Transfer Terminal", 
-  "locales": {
-    "00": {
-      "capacity": "100", 
-      "label": "~", 
-      "location": "Unreported", 
-      "track": "~", 
-      "type": "class yard"
-    }, 
-    "1": {
-      "capacity": "20", 
-      "label": "P4", 
-      "location": "Water Street", 
-      "track": "4th Street Pier", 
-      "type": "industry"
-    }, 
-    "2": {
-      "capacity": "8", 
-      "label": "WS", 
-      "location": "Water Street", 
-      "track": "Water Street Stores", 
-      "type": "industry"
-    }, 
-    "3": {
-      "capacity": "3", 
-      "label": "MW", 
-      "location": "Water Street", 
-      "track": "Bulk Material Wharf", 
-      "type": "industry"
-    }, 
-    "4": {
-      "capacity": "2", 
-      "label": "GC", 
-      "location": "Water Street", 
-      "track": "Gantry Crane", 
-      "type": "industry"
-    }, 
-    "6": {
-      "capacity": "12", 
-      "label": "ST", 
-      "location": "West Yard", 
-      "track": "Street Tracks", 
-      "type": "staging"
-    }, 
-    "8": {
-      "capacity": "3", 
-      "label": "MS", 
-      "location": "Water Street", 
-      "track": "Mother Schuckers", 
-      "type": "industry"
-    }
-  }, 
-  "location": "West Pier District", 
-  "locationIds": [
-    "00", 
-    "6", 
-    "1", 
-    "3", 
-    "4", 
-    "8", 
-    "2"
-  ], 
-  "locations": [
-    "West Yard", 
-    "Water Street", 
-    "Unreported"
-  ], 
-  "locoConsists": [
-    ""
-  ], 
-  "locoModels": [
-    [
-      "A4", 
-      "ESS"
-    ]
-  ], 
-  "locoTypes": [
-    "ESS"
-  ], 
-  "operatingRoad": "Metropolitian Harbor Railroad", 
-  "roads": [
-    "NYNH&H", 
-    "WJ&S", 
-    "ACL", 
-    "LV", 
-    "B&O", 
-    "MUTT", 
-    "ER", 
-    "PRR", 
-    "FGEX", 
-    "M&P", 
-    "PL", 
-    "AT&SF", 
-    "P&R", 
-    "B&A", 
-    "CNJ"
-  ], 
-  "scale": "HO", 
-  "territory": "Metropolitian Union Transfer Terminal", 
-  "year": "1915"
+  }
 }
