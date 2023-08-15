@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Mon Jul 17 20:17:34 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Aug 15 11:56:30 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -74,58 +74,6 @@
   </owners>
   <loads>
     <defaults empty="E" load="L" />
-    <load type="TPO">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="chemicals" loadType="load" />
-      <carLoad name="heating oil" loadType="load" />
-    </load>
-    <load type="GPD">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="Lumber" loadType="load" />
-      <carLoad name="lumber stack" loadType="load" />
-      <carLoad name="sand" loadType="load" />
-    </load>
-    <load type="XPV">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Glassware" loadType="load" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="break bulk" loadType="load" />
-      <carLoad name="flooring" loadType="load" />
-      <carLoad name="goods" loadType="load" />
-      <carLoad name="merchandise" loadType="load" />
-    </load>
-    <load type="THV">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="vinegar" loadType="load" />
-    </load>
-    <load type="XPP">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="produce" loadType="load" />
-    </load>
-    <load type="RHx">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="produce" loadType="load" />
-    </load>
-    <load type="HPx">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="coal" loadType="load" />
-    </load>
-    <load type="RP3">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="produce" loadType="load" />
-    </load>
-    <load type="HPD">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="coal" loadType="load" />
-    </load>
     <load type="XP4">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Glassware" loadType="load" />
@@ -152,15 +100,15 @@
       <carLoad name="Lumber" loadType="load" />
       <carLoad name="lumber stack" loadType="load" />
     </load>
+    <load type="NPD">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+    </load>
     <load type="FP3">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="Lumber" loadType="load" />
       <carLoad name="lumber stack" loadType="load" />
-    </load>
-    <load type="NPD">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
     </load>
     <load type="GPx">
       <carLoad name="Empty" loadType="empty" />
@@ -168,6 +116,58 @@
       <carLoad name="Lumber" loadType="load" />
       <carLoad name="lumber stack" loadType="load" />
       <carLoad name="sand" loadType="load" />
+    </load>
+    <load type="THV">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="vinegar" loadType="load" />
+    </load>
+    <load type="RHx">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="produce" loadType="load" />
+    </load>
+    <load type="XPV">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Glassware" loadType="load" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="break bulk" loadType="load" />
+      <carLoad name="flooring" loadType="load" />
+      <carLoad name="goods" loadType="load" />
+      <carLoad name="merchandise" loadType="load" />
+    </load>
+    <load type="HPx">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="coal" loadType="load" />
+    </load>
+    <load type="GPD">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="Lumber" loadType="load" />
+      <carLoad name="lumber stack" loadType="load" />
+      <carLoad name="sand" loadType="load" />
+    </load>
+    <load type="RP3">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="produce" loadType="load" />
+    </load>
+    <load type="XPP">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="produce" loadType="load" />
+    </load>
+    <load type="HPD">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="coal" loadType="load" />
+    </load>
+    <load type="TPO">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="chemicals" loadType="load" />
+      <carLoad name="heating oil" loadType="load" />
     </load>
   </loads>
   <newKernels />
