@@ -59,11 +59,11 @@
       "DR": true, 
       "EH": false, 
       "OC": true, 
-      "PH": 612, 
-      "PW": 1041, 
-      "PX": 9, 
-      "PY": 418, 
-      "RV": 20230305, 
+      "PH": 703, 
+      "PW": 1000, 
+      "PX": 14, 
+      "PY": 303, 
+      "RV": 20230802, 
       "SE": "utf-8", 
       "Subroutines.Patterns": false, 
       "Subroutines.Throwback": false, 
@@ -76,8 +76,9 @@
       }
     }, 
     "LD": {
-      "BD": "07/23/2023-16:32:01", 
+      "BD": "08/15/2023-16:36:33", 
       "JN": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
+      "LN": "", 
       "LO": "Western Pennsylvania", 
       "OR": "Pennsylvania Railroad", 
       "RN": "Doodle 18g", 
@@ -99,6 +100,7 @@
       "Z": 1
     }, 
     "TO": {
+      "ASE": true, 
       "CWS": true, 
       "SBA": true, 
       "SCT": "ARR Codes", 
@@ -108,20 +110,8 @@
     }
   }, 
   "Patterns": {
-    "AD": [
-      "Easton Division", 
-      "Northton Division", 
-      "Unassigned", 
-      "Unknown", 
-      "Valley Branch", 
-      "Weston Division"
-    ], 
-    "AL": [
-      "City", 
-      "Downtown", 
-      "Train Service", 
-      "Weston"
-    ], 
+    "AD": [], 
+    "AL": [], 
     "AS": true, 
     "PA": false, 
     "PD": "Weston Division", 
@@ -135,45 +125,47 @@
     "RM": {
       "AW": {
         " ": 1, 
-        "Color": 6, 
-        "Comment": 15, 
-        "Consist": 8, 
-        "Dest&Track": 27, 
-        "Destination": 15, 
-        "FD&Track": 23, 
-        "Final Dest": 11, 
-        "Hazardous": 10, 
-        "Kernel": 7, 
-        "Kernel Size": 3, 
-        "Length": 7, 
-        "Load": 6, 
-        "Load Type": 1, 
-        "Location": 9, 
-        "Model": 5, 
-        "Number": 7, 
-        "On Train": 0, 
-        "Owner": 6, 
-        "PUSO": 6, 
-        "PickUp Msg": 12, 
-        "RWE": 10, 
-        "RWL": 10, 
-        "Road": 5, 
-        "Set to": 6, 
-        "SetOut Msg": 12, 
-        "Track": 6, 
-        "Type": 6, 
-        "Weight": 7
+        "carType": 6, 
+        "color": 6, 
+        "comment": 15, 
+        "consist": 8, 
+        "dccAddress": 10, 
+        "dest&Track": 27, 
+        "destination": 15, 
+        "division": 15, 
+        "fd&Track": 23, 
+        "finalDest": 11, 
+        "hazardous": 10, 
+        "kernel": 7, 
+        "kernelSize": 3, 
+        "length": 7, 
+        "load": 6, 
+        "loadType": 1, 
+        "location": 9, 
+        "model": 5, 
+        "number": 7, 
+        "onTrain": 0, 
+        "owner": 20, 
+        "pickupMsg": 12, 
+        "puso": 6, 
+        "road": 5, 
+        "rwe": 10, 
+        "rwl": 10, 
+        "setOutMsg": 12, 
+        "setTo": 6, 
+        "track": 6, 
+        "weight": 7
       }, 
       "DS": "No Waybill", 
       "DT": "*Not Consigned", 
       "FD": "Any Line", 
       "FT": "*Any Line", 
       "SC": [
-        "Load Type", 
-        "FD&Track"
+        "loadType", 
+        "fd&Track"
       ], 
       "SL": [
-        "Model"
+        "model"
       ]
     }, 
     "SV": true, 
@@ -188,42 +180,15 @@
         ""
       ], 
       [
-        "2023.03.31.10.55.19", 
-        "Initial"
-      ], 
-      [
-        "2023.07.01.07.44.59", 
-        "second"
-      ], 
-      [
-        "2023.07.02.08.38.59", 
-        "third"
-      ], 
-      [
-        "2023.07.18.11.16.58", 
-        "4"
-      ], 
-      [
-        "2023.07.19.08.48.06", 
-        "5"
-      ], 
-      [
-        "2023.07.20.21.42.28", 
-        "6"
-      ], 
-      [
-        "2023.07.20.22.32.40", 
-        "7"
-      ], 
-      [
-        "2023.07.23.17.00.14", 
-        "8"
+        "2023.08.15.16.37.47", 
+        "1"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": true
+    "SV": true, 
+    "XH": false
   }, 
   "o2o": {
     "CC": {
@@ -236,52 +201,7 @@
       "EMX", 
       "LMX"
     ], 
-    "CX": [
-      "N", 
-      "NM", 
-      "NE"
-    ], 
     "DL": 40, 
-    "PX": [
-      "B", 
-      "BE", 
-      "BH", 
-      "BM", 
-      "BMR", 
-      "BMT", 
-      "BP", 
-      "BR", 
-      "BX", 
-      "Bd", 
-      "Bn", 
-      "Bdr", 
-      "B60", 
-      "CA", 
-      "CS", 
-      "D", 
-      "DA", 
-      "DB", 
-      "DC", 
-      "DL", 
-      "DO", 
-      "DP", 
-      "DPA", 
-      "MA", 
-      "MB", 
-      "MR", 
-      "Ok", 
-      "P", 
-      "PA", 
-      "PAS", 
-      "PB", 
-      "PBC", 
-      "PBO", 
-      "PC", 
-      "PL", 
-      "PO", 
-      "PS", 
-      "PSA"
-    ], 
     "RA": [
       "PUSO", 
       "Road", 
@@ -293,7 +213,12 @@
       "Dest&Track", 
       "FD&Track"
     ], 
+    "RC": [
+      "Generic"
+    ], 
     "RF": {
+      "RRD": "tpRailroadData", 
+      "RSD": "tpRollingStockData", 
       "TRI": "TrainPlayer Report - Industries.txt", 
       "TRL": "TrainPlayer Report - Locations.txt", 
       "TRR": "TrainPlayer Report - Rolling Stock.txt"
@@ -338,7 +263,7 @@
         "Destination"
       ]
     }, 
-    "RN": "o2o-Work-Events", 
+    "RN": "o2o-Workevents", 
     "SM": {
       "LEE": true, 
       "RCL": true, 
@@ -351,6 +276,67 @@
       "industry": "Spur", 
       "interchange": "Interchange", 
       "staging": "Staging"
-    }
+    }, 
+    "XC": [
+      "N", 
+      "NM", 
+      "NE"
+    ], 
+    "XE": [
+      "E", 
+      "ES", 
+      "ED", 
+      "EE", 
+      "ET"
+    ], 
+    "XM": [
+      "M", 
+      "MWB", 
+      "MWC", 
+      "MWD", 
+      "MWG", 
+      "MWF", 
+      "MWK", 
+      "MWR", 
+      "MWX"
+    ], 
+    "XP": [
+      "EP", 
+      "CA", 
+      "CS", 
+      "D", 
+      "DA", 
+      "DB", 
+      "DC", 
+      "DL", 
+      "DO", 
+      "DP", 
+      "DPA", 
+      "P", 
+      "PA", 
+      "PAS", 
+      "PB", 
+      "PBC", 
+      "PBO", 
+      "PC", 
+      "PL", 
+      "PO", 
+      "PS", 
+      "PSA"
+    ], 
+    "XX": [
+      "B", 
+      "BE", 
+      "BH", 
+      "BM", 
+      "BMR", 
+      "BMT", 
+      "BP", 
+      "BR", 
+      "BX", 
+      "MA", 
+      "MB", 
+      "MR"
+    ]
   }
 }

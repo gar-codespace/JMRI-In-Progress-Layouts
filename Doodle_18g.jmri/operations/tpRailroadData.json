@@ -1,10 +1,176 @@
 {
-  "buildDate": "07/23/2023-16:32:01", 
-  "cabooseAar": [
+  "AAR_Caboose": [
     "NE", 
     "NM"
   ], 
-  "carAAR": [
+  "AAR_Engine": [
+    "ESLP", 
+    "ESHP", 
+    "ESHF", 
+    "ESLF", 
+    "ESS", 
+    "EEI", 
+    "EEHF", 
+    "EEHP", 
+    "EDHF", 
+    "EDHP"
+  ], 
+  "AAR_Express": [
+    "B", 
+    "BE", 
+    "BH", 
+    "BM", 
+    "BMR", 
+    "BMT", 
+    "BP", 
+    "BR", 
+    "BX", 
+    "Bd", 
+    "Bn", 
+    "Bdr", 
+    "B60", 
+    "XX", 
+    "MA", 
+    "MB", 
+    "MR"
+  ], 
+  "AAR_MOW": [
+    "M", 
+    "MWB", 
+    "MWC", 
+    "MWD", 
+    "MWG", 
+    "MWF", 
+    "MWK", 
+    "MWR", 
+    "MWX"
+  ], 
+  "AAR_Passenger": [
+    "EELP", 
+    "CA", 
+    "CS", 
+    "D", 
+    "DA", 
+    "DB", 
+    "DC", 
+    "DL", 
+    "DO", 
+    "DP", 
+    "DPA", 
+    "Ok", 
+    "P", 
+    "PA", 
+    "PAS", 
+    "PB", 
+    "PBC", 
+    "PBO", 
+    "PC", 
+    "PL", 
+    "PO", 
+    "PS", 
+    "PSA", 
+    "Pk", 
+    "P54", 
+    "P70"
+  ], 
+  "CarRoster_loads": {
+    "B60": [
+      "Express"
+    ], 
+    "Bd": [
+      "Express"
+    ], 
+    "Bn": [
+      "Express"
+    ], 
+    "CA": [
+      "Express"
+    ], 
+    "FM": [
+      "lumber stack", 
+      "Tarp3", 
+      "Tarp", 
+      "steel rods"
+    ], 
+    "GB": [
+      "Cinders", 
+      "Tarp3", 
+      "Tarp", 
+      "steel rods", 
+      "sand", 
+      "Milled timber"
+    ], 
+    "HK": [
+      "coal2"
+    ], 
+    "M": [], 
+    "MA": [
+      "Mail"
+    ], 
+    "NE": [], 
+    "NM": [], 
+    "P54": [], 
+    "P70": [], 
+    "PS": [], 
+    "Pk": [], 
+    "RB": [
+      "Produce", 
+      "Iced"
+    ], 
+    "RS": [
+      "Produce", 
+      "Iced"
+    ], 
+    "TM": [
+      "fuel"
+    ], 
+    "XM": [
+      "Goods", 
+      "LCL", 
+      "steel products", 
+      "Merchandise"
+    ], 
+    "XX": [
+      "Express"
+    ]
+  }, 
+  "CarRoster_newKernels": [
+    "", 
+    "R3", 
+    "R4", 
+    "R5", 
+    "R6", 
+    "R7", 
+    "R1"
+  ], 
+  "CarRoster_roads": [
+    "NYNH&H", 
+    "TCX", 
+    "LV", 
+    "UTLX", 
+    "PRR", 
+    "FGEX", 
+    "NYC", 
+    "DL&W", 
+    "TELX", 
+    "AT&SF", 
+    "B&A", 
+    "SP", 
+    "WJ&S", 
+    "PRRMoW", 
+    "ACL", 
+    "B&O", 
+    "ER", 
+    "ET", 
+    "CS", 
+    "PGCC", 
+    "WCC", 
+    "M&P", 
+    "PL", 
+    "P&R", 
+    "CNJ"
+  ], 
+  "CarRoster_types": [
     "XX", 
     "RS", 
     "Bd", 
@@ -26,746 +192,93 @@
     "CA", 
     "NM"
   ], 
-  "carKernel": [
-    "", 
-    "R3", 
-    "R4", 
-    "R5", 
-    "R6", 
-    "R7", 
-    "R1"
-  ], 
-  "carLoads": {
-    "B60": [
-      "express"
+  "EngineRoster_models": [
+    [
+      "D16sb", 
+      "ESLP"
     ], 
-    "Bd": [
-      "express"
+    [
+      "I1s", 
+      "ESHF"
     ], 
-    "Bn": [
-      "express"
+    [
+      "MP54e1", 
+      "EELP"
     ], 
-    "CA": [
-      "express"
+    [
+      "E6S", 
+      "ESLP"
     ], 
-    "FM": [
-      "lumber stack", 
-      "Tarp3", 
-      "Tarp", 
-      "steel rods"
+    [
+      "H9s", 
+      "ESLF"
     ], 
-    "GB": [
-      "Tarp3", 
-      "Tarp", 
-      "steel rods", 
-      "sand", 
-      "cinders", 
-      "Milled timber"
+    [
+      "GG1", 
+      "EEHP"
     ], 
-    "HK": [
-      "coal2"
+    [
+      "J1a", 
+      "ESHF"
     ], 
-    "M": [], 
-    "MA": [
-      "mail"
+    [
+      "f 3a sal", 
+      "EDHF"
     ], 
-    "NE": [], 
-    "NM": [], 
-    "P54": [], 
-    "P70": [], 
-    "PS": [], 
-    "Pk": [], 
-    "RB": [
-      "iced", 
-      "produce"
+    [
+      "p5b", 
+      "EEHF"
     ], 
-    "RS": [
-      "iced", 
-      "produce"
+    [
+      "f 3b sal", 
+      "EDHF"
     ], 
-    "TM": [
-      "fuel"
+    [
+      "B6s", 
+      "ESS"
     ], 
-    "XM": [
-      "goods", 
-      "merchandise", 
-      "lcl", 
-      "steel products"
+    [
+      "T1s", 
+      "ESHP"
     ], 
-    "XX": [
-      "express"
+    [
+      "K4s", 
+      "ESHP"
+    ], 
+    [
+      "K4s streaml", 
+      "ESHP"
     ]
-  }, 
-  "divisions": [
+  ], 
+  "EngineRoster_newConsists": [
+    "", 
+    "F1"
+  ], 
+  "EngineRoster_types": [
+    "EELP", 
+    "ESS", 
+    "EEHP", 
+    "ESLF", 
+    "ESHF", 
+    "ESLP", 
+    "ESHP", 
+    "EDHF", 
+    "EEHF"
+  ], 
+  "Extended_buildDate": "08/15/2023-16:36:33", 
+  "Extended_divisions": [
     "Weston Division", 
     "Easton Division", 
     "Northton Division", 
     "Valley Branch"
   ], 
-  "engineAar": [
-    "ESLP", 
-    "ESHP", 
-    "ESHF", 
-    "ESLF", 
-    "ESS", 
-    "EEI", 
-    "EEHF", 
-    "EEHP", 
-    "EDHF", 
-    "EDHP"
-  ], 
-  "industries": {
-    "14": {
-      "a-location": "Park", 
-      "b-track": "Power House", 
-      "c-schedule": {
-        "PP": [
-          [
-            "HK", 
-            "R", 
-            "coal2", 
-            "Northton", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "16": {
-      "a-location": "Park", 
-      "b-track": "Coal", 
-      "c-schedule": {
-        "PC": [
-          [
-            "HK", 
-            "R", 
-            "coal2", 
-            "Northton", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "17": {
-      "a-location": "Park", 
-      "b-track": "Freight House", 
-      "c-schedule": {
-        "PF": [
-          [
-            "XM", 
-            "R", 
-            "merchandise", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "goods", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "18": {
-      "a-location": "Downtown", 
-      "b-track": "General Delivery", 
-      "c-schedule": {
-        "DD": [
-          [
-            "FM", 
-            "R", 
-            "Tarp", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "GB", 
-            "R", 
-            "Tarp", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "R", 
-            "merchandise", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "goods", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "19": {
-      "a-location": "Downtown", 
-      "b-track": "DY", 
-      "c-schedule": {
-        "DY": [
-          [
-            "B60", 
-            "R", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "B60", 
-            "S", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "Bn", 
-            "R", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "Bn", 
-            "S", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "MA", 
-            "R", 
-            "mail", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "MA", 
-            "S", 
-            "mail", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XX", 
-            "R", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XX", 
-            "S", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "2": {
-      "a-location": "Downtown", 
-      "b-track": "Ash", 
-      "c-schedule": {
-        "DA": [
-          [
-            "GB", 
-            "S", 
-            "cinders", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "28": {
-      "a-location": "Park", 
-      "b-track": "General Delivery", 
-      "c-schedule": {
-        "PG": [
-          [
-            "FM", 
-            "R", 
-            "Tarp3", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "GB", 
-            "R", 
-            "Tarp", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "R", 
-            "merchandise", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "goods", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "29": {
-      "a-location": "Valley", 
-      "b-track": "Coal", 
-      "c-schedule": {
-        "VC": [
-          [
-            "HK", 
-            "R", 
-            "coal2", 
-            "Northton", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "3": {
-      "a-location": "Downtown", 
-      "b-track": "Coal", 
-      "c-schedule": {
-        "DC": [
-          [
-            "HK", 
-            "R", 
-            "coal2", 
-            "Northton", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "32": {
-      "a-location": "Valley", 
-      "b-track": "General Delivery", 
-      "c-schedule": {
-        "VG": [
-          [
-            "FM", 
-            "R", 
-            "Tarp", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "GB", 
-            "R", 
-            "Tarp3", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "R", 
-            "merchandise", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "goods", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "33": {
-      "a-location": "Junction", 
-      "b-track": "Steel Products", 
-      "c-schedule": {
-        "JS": [
-          [
-            "FM", 
-            "S", 
-            "steel rods", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "GB", 
-            "S", 
-            "steel rods", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "steel products", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "36": {
-      "a-location": "Park", 
-      "b-track": "Lumber", 
-      "c-schedule": {
-        "PL": [
-          [
-            "FM", 
-            "R", 
-            "lumber stack", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "GB", 
-            "R", 
-            "Milled timber", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "37": {
-      "a-location": "Park", 
-      "b-track": "Fuel Oil", 
-      "c-schedule": {
-        "PO": [
-          [
-            "TM", 
-            "R", 
-            "fuel", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "4": {
-      "a-location": "Downtown", 
-      "b-track": "Gantry Crane", 
-      "c-schedule": {
-        "DG": [
-          [
-            "GB", 
-            "R", 
-            "Tarp3", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "GB", 
-            "R", 
-            "Tarp", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "42": {
-      "a-location": "Junction", 
-      "b-track": "Depot", 
-      "c-schedule": {
-        "JD": [
-          [
-            "XM", 
-            "R", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "45": {
-      "a-location": "Park", 
-      "b-track": "Depot", 
-      "c-schedule": {
-        "PD": [
-          [
-            "XM", 
-            "R", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "46": {
-      "a-location": "Valley", 
-      "b-track": "Depot", 
-      "c-schedule": {
-        "VD": [
-          [
-            "XM", 
-            "R", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "5": {
-      "a-location": "Valley", 
-      "b-track": "Produce", 
-      "c-schedule": {
-        "VP": [
-          [
-            "RB", 
-            "R", 
-            "iced", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RB", 
-            "S", 
-            "produce", 
-            "Easton", 
-            "", 
-            ""
-          ], 
-          [
-            "RS", 
-            "R", 
-            "iced", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RS", 
-            "S", 
-            "produce", 
-            "Easton", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "50": {
-      "a-location": "Downtown", 
-      "b-track": "Ice", 
-      "c-schedule": {
-        "CI": [
-          [
-            "RB", 
-            "R", 
-            "produce", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RB", 
-            "S", 
-            "iced", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RB", 
-            "S", 
-            "produce", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RS", 
-            "R", 
-            "produce", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RS", 
-            "S", 
-            "iced", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RS", 
-            "S", 
-            "produce", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "56": {
-      "a-location": "Downtown", 
-      "b-track": "DX", 
-      "c-schedule": {
-        "DX": [
-          [
-            "Bd", 
-            "R", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "Bd", 
-            "S", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "CA", 
-            "R", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "CA", 
-            "S", 
-            "express", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "R", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XM", 
-            "S", 
-            "lcl", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "7": {
-      "a-location": "Downtown", 
-      "b-track": "Sand", 
-      "c-schedule": {
-        "DS": [
-          [
-            "GB", 
-            "R", 
-            "sand", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "8": {
-      "a-location": "Junction", 
-      "b-track": "Coal", 
-      "c-schedule": {
-        "JC": [
-          [
-            "HK", 
-            "R", 
-            "coal2", 
-            "Northton", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }
-  }, 
-  "layoutName": "Doodle 18g", 
-  "locales": {
+  "Extended_layoutName": "Doodle 18g", 
+  "Extended_location": "Western Pennsylvania", 
+  "Extended_operatingRoad": "Pennsylvania Railroad", 
+  "Extended_scale": "HO", 
+  "Extended_territory": "Allegheny Region", 
+  "Extended_year": "1938", 
+  "LocationRoster_location": {
     "00": {
       "capacity": "100", 
       "label": "~", 
@@ -1215,8 +728,7 @@
       "type": "interchange"
     }
   }, 
-  "location": "Western Pennsylvania", 
-  "locationIds": [
+  "LocationRoster_locationIds": [
     "00", 
     "1", 
     "2", 
@@ -1282,7 +794,7 @@
     "64", 
     "65"
   ], 
-  "locations": [
+  "LocationRoster_locations": [
     "Northton", 
     "Summit", 
     "City", 
@@ -1296,164 +808,654 @@
     "Junction", 
     "Midway"
   ], 
-  "locoConsists": [
-    "", 
-    "F1"
-  ], 
-  "locoModels": [
-    [
-      "D16sb", 
-      "ESLP"
-    ], 
-    [
-      "I1s", 
-      "ESHF"
-    ], 
-    [
-      "MP54e1", 
-      "EELP"
-    ], 
-    [
-      "E6S", 
-      "ESLP"
-    ], 
-    [
-      "H9s", 
-      "ESLF"
-    ], 
-    [
-      "GG1", 
-      "EEHP"
-    ], 
-    [
-      "J1a", 
-      "ESHF"
-    ], 
-    [
-      "f 3a sal", 
-      "EDHF"
-    ], 
-    [
-      "p5b", 
-      "EEHF"
-    ], 
-    [
-      "f 3b sal", 
-      "EDHF"
-    ], 
-    [
-      "B6s", 
-      "ESS"
-    ], 
-    [
-      "T1s", 
-      "ESHP"
-    ], 
-    [
-      "K4s", 
-      "ESHP"
-    ], 
-    [
-      "K4s streaml", 
-      "ESHP"
-    ]
-  ], 
-  "locoTypes": [
-    "EELP", 
-    "ESS", 
-    "EEHP", 
-    "ESLF", 
-    "ESHF", 
-    "ESLP", 
-    "ESHP", 
-    "EDHF", 
-    "EEHF"
-  ], 
-  "mowAar": [
-    "M", 
-    "MWB", 
-    "MWC", 
-    "MWD", 
-    "MWG", 
-    "MWF", 
-    "MWK", 
-    "MWR", 
-    "MWX"
-  ], 
-  "operatingRoad": "Pennsylvania Railroad", 
-  "passAar": [
-    "EELP", 
-    "B", 
-    "BE", 
-    "BH", 
-    "BM", 
-    "BMR", 
-    "BMT", 
-    "BP", 
-    "BR", 
-    "BX", 
-    "Bd", 
-    "Bn", 
-    "Bdr", 
-    "B60", 
-    "CA", 
-    "CS", 
-    "D", 
-    "DA", 
-    "DB", 
-    "DC", 
-    "DL", 
-    "DO", 
-    "DP", 
-    "DPA", 
-    "MA", 
-    "MB", 
-    "MR", 
-    "Ok", 
-    "P", 
-    "PA", 
-    "PAS", 
-    "PB", 
-    "PBC", 
-    "PBO", 
-    "PC", 
-    "PL", 
-    "PO", 
-    "PS", 
-    "PSA", 
-    "Pk", 
-    "P54", 
-    "P70", 
-    "XX"
-  ], 
-  "roads": [
-    "NYNH&H", 
-    "TCX", 
-    "LV", 
-    "UTLX", 
-    "PRR", 
-    "FGEX", 
-    "NYC", 
-    "DL&W", 
-    "TELX", 
-    "AT&SF", 
-    "B&A", 
-    "SP", 
-    "WJ&S", 
-    "PRRMoW", 
-    "ACL", 
-    "B&O", 
-    "ER", 
-    "ET", 
-    "CS", 
-    "PGCC", 
-    "WCC", 
-    "M&P", 
-    "PL", 
-    "P&R", 
-    "CNJ"
-  ], 
-  "scale": "HO", 
-  "territory": "Allegheny Region", 
-  "year": "1938"
+  "LocationRoster_spurs": {
+    "14": {
+      "a-location": "Park", 
+      "b-track": "Power House", 
+      "c-schedule": {
+        "PP": [
+          [
+            "HK", 
+            "R", 
+            "coal2", 
+            "Northton", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "16": {
+      "a-location": "Park", 
+      "b-track": "Coal", 
+      "c-schedule": {
+        "PC": [
+          [
+            "HK", 
+            "R", 
+            "coal2", 
+            "Northton", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "17": {
+      "a-location": "Park", 
+      "b-track": "Freight House", 
+      "c-schedule": {
+        "PF": [
+          [
+            "XM", 
+            "R", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "18": {
+      "a-location": "Downtown", 
+      "b-track": "General Delivery", 
+      "c-schedule": {
+        "DD": [
+          [
+            "FM", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GB", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "19": {
+      "a-location": "Downtown", 
+      "b-track": "DY", 
+      "c-schedule": {
+        "DY": [
+          [
+            "B60", 
+            "R", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "B60", 
+            "S", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Bn", 
+            "R", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Bn", 
+            "S", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "MA", 
+            "R", 
+            "Mail", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "MA", 
+            "S", 
+            "Mail", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XX", 
+            "R", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XX", 
+            "S", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "2": {
+      "a-location": "Downtown", 
+      "b-track": "Ash", 
+      "c-schedule": {
+        "DA": [
+          [
+            "GB", 
+            "S", 
+            "Cinders", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "28": {
+      "a-location": "Park", 
+      "b-track": "General Delivery", 
+      "c-schedule": {
+        "PG": [
+          [
+            "FM", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GB", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "29": {
+      "a-location": "Valley", 
+      "b-track": "Coal", 
+      "c-schedule": {
+        "VC": [
+          [
+            "HK", 
+            "R", 
+            "coal2", 
+            "Northton", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "Downtown", 
+      "b-track": "Coal", 
+      "c-schedule": {
+        "DC": [
+          [
+            "HK", 
+            "R", 
+            "coal2", 
+            "Northton", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "32": {
+      "a-location": "Valley", 
+      "b-track": "General Delivery", 
+      "c-schedule": {
+        "VG": [
+          [
+            "FM", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GB", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "33": {
+      "a-location": "Junction", 
+      "b-track": "Steel Products", 
+      "c-schedule": {
+        "JS": [
+          [
+            "FM", 
+            "S", 
+            "steel rods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GB", 
+            "S", 
+            "steel rods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "steel products", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "36": {
+      "a-location": "Park", 
+      "b-track": "Lumber", 
+      "c-schedule": {
+        "PL": [
+          [
+            "FM", 
+            "R", 
+            "lumber stack", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GB", 
+            "R", 
+            "Milled timber", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "37": {
+      "a-location": "Park", 
+      "b-track": "Fuel Oil", 
+      "c-schedule": {
+        "PO": [
+          [
+            "TM", 
+            "R", 
+            "fuel", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "4": {
+      "a-location": "Downtown", 
+      "b-track": "Gantry Crane", 
+      "c-schedule": {
+        "DG": [
+          [
+            "GB", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GB", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "42": {
+      "a-location": "Junction", 
+      "b-track": "Depot", 
+      "c-schedule": {
+        "JD": [
+          [
+            "XM", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "45": {
+      "a-location": "Park", 
+      "b-track": "Depot", 
+      "c-schedule": {
+        "PD": [
+          [
+            "XM", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "46": {
+      "a-location": "Valley", 
+      "b-track": "Depot", 
+      "c-schedule": {
+        "VD": [
+          [
+            "XM", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "5": {
+      "a-location": "Valley", 
+      "b-track": "Produce", 
+      "c-schedule": {
+        "VP": [
+          [
+            "RB", 
+            "R", 
+            "Iced", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RB", 
+            "S", 
+            "Produce", 
+            "Easton", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "R", 
+            "Iced", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "S", 
+            "Produce", 
+            "Easton", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "50": {
+      "a-location": "Downtown", 
+      "b-track": "Ice", 
+      "c-schedule": {
+        "CI": [
+          [
+            "RB", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RB", 
+            "S", 
+            "Iced", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RB", 
+            "S", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "S", 
+            "Iced", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "S", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "56": {
+      "a-location": "Downtown", 
+      "b-track": "DX", 
+      "c-schedule": {
+        "DX": [
+          [
+            "Bd", 
+            "R", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Bd", 
+            "S", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "CA", 
+            "R", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "CA", 
+            "S", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "7": {
+      "a-location": "Downtown", 
+      "b-track": "Sand", 
+      "c-schedule": {
+        "DS": [
+          [
+            "GB", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "8": {
+      "a-location": "Junction", 
+      "b-track": "Coal", 
+      "c-schedule": {
+        "JC": [
+          [
+            "HK", 
+            "R", 
+            "coal2", 
+            "Northton", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }
 }
