@@ -57,18 +57,20 @@
     "CP": {
       "AP": true, 
       "DR": true, 
+      "EC": {
+        "400": "400 - Bad Request: Unable to translate the current language.", 
+        "402": "402 - Requested page not found", 
+        "403": "403 - Forbidden. The key is invalid."
+      }, 
       "EH": false, 
+      "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
       "OC": true, 
-      "PH": 628, 
+      "PH": 280, 
       "PW": 1000, 
-      "PX": 4, 
-      "PY": 400, 
-      "RV": 20230802, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20230807, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": false, 
-      "Subroutines.Throwback": false, 
-      "Subroutines.jPlus": false, 
-      "Subroutines.o2o": false, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -76,15 +78,14 @@
       }
     }, 
     "LD": {
-      "BD": "08/15/2023-12:55:19", 
-      "JN": "Metropolitian Harbor Railroad\nMetropolitian Union Transfer Terminal\nWest Pier District", 
+      "BD": "", 
+      "JN": "", 
       "LN": "", 
-      "LO": "West Pier District", 
-      "OR": "Metropolitian Harbor Railroad", 
-      "RN": "Metropolitan Union Transfer Terminal", 
-      "SC": "HO", 
-      "TR": "Metropolitian Union Transfer Terminal", 
-      "YR": "1915"
+      "LO": "", 
+      "OR": "", 
+      "SC": "", 
+      "TR": "", 
+      "YR": ""
     }, 
     "SR": {
       "G": 11, 
@@ -114,10 +115,10 @@
     "AL": [], 
     "AS": true, 
     "PA": false, 
-    "PD": "", 
+    "PD": null, 
     "PH": 16, 
     "PI": true, 
-    "PL": "Water Street", 
+    "PL": null, 
     "PT": {}, 
     "PW": 260, 
     "RD": "", 
@@ -178,17 +179,12 @@
       [
         "", 
         ""
-      ], 
-      [
-        "2023.08.15.17.15.46", 
-        "1"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": true, 
-    "XH": true
+    "SV": true
   }, 
   "o2o": {
     "CC": {

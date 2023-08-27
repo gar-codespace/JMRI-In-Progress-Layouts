@@ -1,69 +1,10 @@
-2023-08-15 16:50:13,111 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-08-15 16:50:13,134 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-08-15 16:50:13,137 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-08-15 16:50:13,138 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-08-15 16:50:13,141 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-08-15 16:50:13,145 - OPS.OE.PSE - INFO - Destination folders check OK
-2023-08-15 16:50:13,161 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-08-15 16:50:13,167 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-08-15 16:50:13,573 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-08-15 16:50:13,615 - OPS.Main.Controller - INFO - Main script run time (sec): 0.493
-2023-08-15 16:50:16,776 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1692143416776,modifiers=Button1] on psButton
-2023-08-15 16:50:16,806 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
-2023-08-15 16:50:16,822 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-08-15 16:50:16,822 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-08-15 16:50:16,901 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-08-15 16:50:16,917 - OPS.JP.Controller - INFO - jPlusSubroutine makeFrame completed
-2023-08-15 16:50:16,963 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-08-15 16:50:16,980 - OPS.o2o.View - DEBUG - o2oSubroutine.View.makeSubroutineGui
-2023-08-15 16:50:16,980 - OPS.o2o.Controller - INFO - o2o makeFrame completed
-2023-08-15 16:50:17,042 - OPS.PT.View - DEBUG - PatternTracksSubroutine.View.makeSubroutineGui
-2023-08-15 16:50:17,058 - OPS.PT.Controller - INFO - Patterns makeFrame completed
-2023-08-15 16:50:17,088 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-08-15 16:50:17,088 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
-2023-08-15 16:50:17,088 - OPS.Main.View - DEBUG - makePatternScriptsWindow
-2023-08-15 16:50:17,214 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 16:50:17,309 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 16:50:17,325 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-08-15 16:50:29,430 - OPS.JP.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Use Extended Header,when=1692143429431,modifiers=Button1] on useExtended
-2023-08-15 16:50:29,467 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-08-15 16:50:32,351 - OPS.JP.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update,when=1692143432352,modifiers=Button1] on update
-2023-08-15 16:50:32,384 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-08-15 16:50:57,305 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-08-15 16:50:57,305 - OPS.o2o.ModelWorkEvents - DEBUG - findNewestTrain
-2023-08-15 16:50:57,305 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-08-15 16:50:57,319 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
-2023-08-15 16:50:57,329 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
-2023-08-15 16:50:57,430 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
-2023-08-15 16:50:57,430 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
-2023-08-15 16:50:57,430 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
-2023-08-15 16:50:57,430 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
-2023-08-15 16:50:57,446 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-08-15 16:50:57,446 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
-2023-08-15 17:15:44,714 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:15:46,756 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1692144946756,modifiers=Button1] on commit
-2023-08-15 17:15:46,795 - OPS.TB.View - DEBUG - ThrowbackSubroutine.View.makeSubroutineGui
-2023-08-15 17:16:49,585 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:18:48,423 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:19:24,516 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:19:31,634 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.setup.OperationsSettingsFrame[frame2,62,62,700x613,invalid,hidden,layout=java.awt.BorderLayout,title=OperationsPro Settings,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,684x574,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:19:36,750 - OPS.JP.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update,when=1692145176735,modifiers=Button1] on update
-2023-08-15 17:19:36,766 - OPS.JP.View - DEBUG - jPlusSubroutine.View.makeSubroutineGui
-2023-08-15 17:19:40,986 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.setup.OperationsSettingsFrame[frame3,62,62,700x613,invalid,hidden,layout=java.awt.BorderLayout,title=OperationsPro Settings,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,684x574,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:20:14,391 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-08-15 17:20:14,407 - OPS.o2o.ModelWorkEvents - DEBUG - findNewestTrain
-2023-08-15 17:20:14,407 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-08-15 17:20:14,407 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
-2023-08-15 17:20:14,407 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
-2023-08-15 17:20:14,407 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
-2023-08-15 17:20:14,407 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
-2023-08-15 17:20:14,423 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
-2023-08-15 17:20:14,423 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
-2023-08-15 17:20:14,423 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-08-15 17:20:14,423 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
-2023-08-15 17:20:34,111 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:20:35,609 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1692145235610,modifiers=Button1] on ypButton
-2023-08-15 17:20:35,609 - OPS.PT.Model - DEBUG - updateConfigFile
-2023-08-15 17:20:35,625 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-08-15 17:20:43,319 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-08-15 17:21:38,109 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
+2023-08-26 21:57:02,323 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-08-26 21:57:02,323 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-08-26 21:57:02,323 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-08-26 21:57:02,336 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-08-26 21:57:02,341 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-08-26 21:57:02,341 - OPS.OE.PSE - INFO - Destination folders check OK
+2023-08-26 21:57:02,368 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-08-26 21:57:02,368 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-08-26 21:57:02,762 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-08-26 21:57:02,778 - OPS.Main.Controller - INFO - Main script run time (sec): 0.438
