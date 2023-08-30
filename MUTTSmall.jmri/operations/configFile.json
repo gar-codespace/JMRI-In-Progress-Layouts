@@ -62,13 +62,13 @@
         "402": "402 - Requested page not found", 
         "403": "403 - Forbidden. The key is invalid."
       }, 
-      "EH": false, 
+      "EH": true, 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
       "OC": true, 
-      "PH": 280, 
+      "PH": 697, 
       "PW": 1000, 
-      "PX": 0, 
-      "PY": 0, 
+      "PX": 13, 
+      "PY": 317, 
       "RV": 20230807, 
       "SE": "utf-8", 
       "TC": "UD", 
@@ -78,14 +78,14 @@
       }
     }, 
     "LD": {
-      "BD": "", 
-      "JN": "", 
-      "LN": "", 
-      "LO": "", 
-      "OR": "", 
-      "SC": "", 
-      "TR": "", 
-      "YR": ""
+      "BD": "08/30/2023-10:28:21", 
+      "JN": "Metropolitian Harbor Railroad\nMetropolitian Union Transfer Terminal\nWest Pier District", 
+      "LN": "Metropolitan Union Transfer Terminal", 
+      "LO": "West Pier District", 
+      "OR": "Metropolitian Harbor Railroad", 
+      "SC": "HO", 
+      "TR": "Metropolitian Union Transfer Terminal", 
+      "YR": "1915"
     }, 
     "SR": {
       "G": 11, 
@@ -118,8 +118,14 @@
     "PD": null, 
     "PH": 16, 
     "PI": true, 
-    "PL": null, 
-    "PT": {}, 
+    "PL": "Water Street", 
+    "PT": {
+      "4th Street Pier": false, 
+      "Bulk Material Wharf": false, 
+      "Gantry Crane": true, 
+      "Mother Schuckers": false, 
+      "Water Street Stores": false
+    }, 
     "PW": 260, 
     "RD": "", 
     "RF": 8, 
@@ -174,11 +180,18 @@
     "TD": "", 
     "TN": ""
   }, 
+  "Template": {
+    "SV": false
+  }, 
   "Throwback": {
     "SS": [
       [
         "", 
         ""
+      ], 
+      [
+        "2023.08.30.10.29.26", 
+        "initial"
       ]
     ], 
     "SV": true
