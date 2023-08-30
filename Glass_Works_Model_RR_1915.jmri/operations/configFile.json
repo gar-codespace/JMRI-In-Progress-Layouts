@@ -57,18 +57,27 @@
     "CP": {
       "AP": true, 
       "DR": true, 
+      "EC": {
+        "400": "400 - Bad Request: Unable to translate the current language.", 
+        "402": "402 - Requested page not found", 
+        "403": "403 - Forbidden. The key is invalid."
+      }, 
       "EH": false, 
+      "EO": {
+        "CA": "utf-8", 
+        "CB": "ascii", 
+        "CC": "utf-16", 
+        "CD": "ISO-8859"
+      }, 
+      "ES": "CA", 
+      "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
       "OC": true, 
-      "PH": 719, 
+      "PH": 280, 
       "PW": 1000, 
-      "PX": 33, 
-      "PY": 310, 
-      "RV": 20230305, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20230808, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": true, 
-      "Subroutines.Throwback": true, 
-      "Subroutines.jPlus": true, 
-      "Subroutines.o2o": true, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -76,14 +85,14 @@
       }
     }, 
     "LD": {
-      "BD": "07/17/2023-20:13:09", 
-      "JN": "WJ&S RR\nGlass Works Branch\nSalem, New Jersey", 
-      "LO": "Salem, New Jersey", 
-      "OR": "WJ&S RR", 
-      "RN": "Glass Works Model - 1915", 
-      "SC": "HO", 
-      "TR": "Glass Works Branch", 
-      "YR": "1915"
+      "BD": "", 
+      "JN": "", 
+      "LN": "", 
+      "LO": "", 
+      "OR": "", 
+      "SC": "", 
+      "TR": "", 
+      "YR": ""
     }, 
     "SR": {
       "G": 11, 
@@ -99,6 +108,7 @@
       "Z": 1
     }, 
     "TO": {
+      "ASE": true, 
       "CWS": true, 
       "SBA": true, 
       "SCT": "ARR Codes", 
@@ -108,23 +118,14 @@
     }
   }, 
   "Patterns": {
-    "AD": [
-      "Atlantic", 
-      "Unassigned", 
-      "Unknown"
-    ], 
-    "AL": [
-      "Fenwick Creek", 
-      "Salem", 
-      "Salem Township", 
-      "South Bend Spur"
-    ], 
+    "AD": [], 
+    "AL": [], 
     "AS": true, 
     "PA": false, 
-    "PD": "Atlantic", 
+    "PD": null, 
     "PH": 16, 
     "PI": true, 
-    "PL": "", 
+    "PL": null, 
     "PT": {}, 
     "PW": 260, 
     "RD": "", 
@@ -132,45 +133,47 @@
     "RM": {
       "AW": {
         " ": 1, 
-        "Color": 6, 
-        "Comment": 15, 
-        "Consist": 8, 
-        "Dest&Track": 27, 
-        "Destination": 15, 
-        "FD&Track": 23, 
-        "Final Dest": 11, 
-        "Hazardous": 10, 
-        "Kernel": 7, 
-        "Kernel Size": 3, 
-        "Length": 7, 
-        "Load": 6, 
-        "Load Type": 1, 
-        "Location": 9, 
-        "Model": 5, 
-        "Number": 7, 
-        "On Train": 0, 
-        "Owner": 6, 
-        "PUSO": 6, 
-        "PickUp Msg": 12, 
-        "RWE": 10, 
-        "RWL": 10, 
-        "Road": 5, 
-        "Set to": 6, 
-        "SetOut Msg": 12, 
-        "Track": 6, 
-        "Type": 6, 
-        "Weight": 7
+        "carType": 6, 
+        "color": 6, 
+        "comment": 15, 
+        "consist": 8, 
+        "dccAddress": 10, 
+        "dest&Track": 27, 
+        "destination": 15, 
+        "division": 15, 
+        "fd&Track": 23, 
+        "finalDest": 11, 
+        "hazardous": 10, 
+        "kernel": 7, 
+        "kernelSize": 3, 
+        "length": 7, 
+        "load": 6, 
+        "loadType": 1, 
+        "location": 9, 
+        "model": 5, 
+        "number": 7, 
+        "onTrain": 0, 
+        "owner": 20, 
+        "pickupMsg": 12, 
+        "puso": 6, 
+        "road": 5, 
+        "rwe": 10, 
+        "rwl": 10, 
+        "setOutMsg": 12, 
+        "setTo": 6, 
+        "track": 6, 
+        "weight": 7
       }, 
       "DS": "No Waybill", 
       "DT": "*Not Consigned", 
       "FD": "Any Line", 
       "FT": "*Any Line", 
       "SC": [
-        "Load Type", 
-        "FD&Track"
+        "loadType", 
+        "fd&Track"
       ], 
       "SL": [
-        "Model"
+        "model"
       ]
     }, 
     "SV": true, 
@@ -178,15 +181,14 @@
     "TD": "", 
     "TN": ""
   }, 
+  "Template": {
+    "SV": true
+  }, 
   "Throwback": {
     "SS": [
       [
         "", 
         ""
-      ], 
-      [
-        "2023.07.17.20.17.34", 
-        "initial"
       ]
     ], 
     "SV": true
@@ -205,52 +207,7 @@
       "EMX", 
       "LMX"
     ], 
-    "CX": [
-      "N", 
-      "NM", 
-      "NE"
-    ], 
     "DL": 40, 
-    "PX": [
-      "B", 
-      "BE", 
-      "BH", 
-      "BM", 
-      "BMR", 
-      "BMT", 
-      "BP", 
-      "BR", 
-      "BX", 
-      "Bd", 
-      "Bn", 
-      "Bdr", 
-      "B60", 
-      "CA", 
-      "CS", 
-      "D", 
-      "DA", 
-      "DB", 
-      "DC", 
-      "DL", 
-      "DO", 
-      "DP", 
-      "DPA", 
-      "MA", 
-      "MB", 
-      "MR", 
-      "Ok", 
-      "P", 
-      "PA", 
-      "PAS", 
-      "PB", 
-      "PBC", 
-      "PBO", 
-      "PC", 
-      "PL", 
-      "PO", 
-      "PS", 
-      "PSA"
-    ], 
     "RA": [
       "PUSO", 
       "Road", 
@@ -262,7 +219,12 @@
       "Dest&Track", 
       "FD&Track"
     ], 
+    "RC": [
+      "Generic"
+    ], 
     "RF": {
+      "RRD": "tpRailroadData", 
+      "RSD": "tpRollingStockData", 
       "TRI": "TrainPlayer Report - Industries.txt", 
       "TRL": "TrainPlayer Report - Locations.txt", 
       "TRR": "TrainPlayer Report - Rolling Stock.txt"
@@ -320,6 +282,67 @@
       "industry": "Spur", 
       "interchange": "Interchange", 
       "staging": "Staging"
-    }
+    }, 
+    "XC": [
+      "N", 
+      "NM", 
+      "NE"
+    ], 
+    "XE": [
+      "E", 
+      "ES", 
+      "ED", 
+      "EE", 
+      "ET"
+    ], 
+    "XM": [
+      "M", 
+      "MWB", 
+      "MWC", 
+      "MWD", 
+      "MWG", 
+      "MWF", 
+      "MWK", 
+      "MWR", 
+      "MWX"
+    ], 
+    "XP": [
+      "EP", 
+      "CA", 
+      "CS", 
+      "D", 
+      "DA", 
+      "DB", 
+      "DC", 
+      "DL", 
+      "DO", 
+      "DP", 
+      "DPA", 
+      "P", 
+      "PA", 
+      "PAS", 
+      "PB", 
+      "PBC", 
+      "PBO", 
+      "PC", 
+      "PL", 
+      "PO", 
+      "PS", 
+      "PSA"
+    ], 
+    "XX": [
+      "B", 
+      "BE", 
+      "BH", 
+      "BM", 
+      "BMR", 
+      "BMT", 
+      "BP", 
+      "BR", 
+      "BX", 
+      "MA", 
+      "MB", 
+      "MR"
+    ]
   }
 }
