@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Aug 26 21:57:51 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Sep 06 09:25:57 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -175,7 +175,7 @@
   <cars>
     <car id="ACL4893" roadName="ACL" roadNumber="4893" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" scheduleId="1035c3" />
     <car id="ACL5708" roadName="ACL" roadNumber="5708" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s4" moves="0" date="" selected="false" load="Glassware" />
-    <car id="ACL8074" roadName="ACL" roadNumber="8074" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" scheduleId="1024c3" />
+    <car id="ACL8074" roadName="ACL" roadNumber="8074" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s7" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" scheduleId="1034c3" />
     <car id="AT&amp;SF0638" roadName="AT&amp;SF" roadNumber="0638" type="HPD" length="40" weightTons="0" locationId="3" secLocationId="3s2" destinationId="4" moves="0" date="" selected="false" load="Empty" />
     <car id="AT&amp;SF1154" roadName="AT&amp;SF" roadNumber="1154" type="XP4" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s5" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" scheduleId="1035c1" />
     <car id="AT&amp;SF1561" roadName="AT&amp;SF" roadNumber="1561" type="XP3" length="40" weightTons="0" locationId="3" routeLocationId="15r30" secLocationId="3s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Glassware" />
@@ -185,14 +185,14 @@
     <car id="B&amp;A2021" roadName="B&amp;A" roadNumber="2021" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s5" moves="0" date="" selected="false" load="Glassware" />
     <car id="B&amp;A4542" roadName="B&amp;A" roadNumber="4542" type="GPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" scheduleId="1033c2" />
     <car id="B&amp;A5848" roadName="B&amp;A" roadNumber="5848" type="RP3" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" load="Empty" />
-    <car id="B&amp;O4103" roadName="B&amp;O" roadNumber="4103" type="XP4" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s7" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" scheduleId="1034c1" />
+    <car id="B&amp;O4103" roadName="B&amp;O" roadNumber="4103" type="XP4" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" scheduleId="1024c1" />
     <car id="B&amp;O8418" roadName="B&amp;O" roadNumber="8418" type="FP4" length="40" weightTons="0" locationId="2" secLocationId="2s6" moves="0" date="" selected="false" load="Empty" />
     <car id="CNJ2681" roadName="CNJ" roadNumber="2681" type="HPD" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s2" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="coal" loadFromStaging="true" scheduleId="1029c1" />
     <car id="CNJ8473" roadName="CNJ" roadNumber="8473" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" scheduleId="1035c3" />
     <car id="CNJ9740" roadName="CNJ" roadNumber="9740" type="HPD" length="40" weightTons="0" locationId="1" secLocationId="1s6" moves="0" date="" selected="false" load="Empty" />
     <car id="DL&amp;W0677" roadName="DL&amp;W" roadNumber="0677" type="XP3" length="40" weightTons="0" locationId="3" routeLocationId="15r31" secLocationId="3s5" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Glassware" />
     <car id="DL&amp;W0693" roadName="DL&amp;W" roadNumber="0693" type="HPx" length="40" weightTons="0" locationId="3" secLocationId="3s2" destinationId="4" moves="0" date="" selected="false" load="Empty" />
-    <car id="DL&amp;W1750" roadName="DL&amp;W" roadNumber="1750" type="HPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s4" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="coal" loadFromStaging="true" scheduleId="1030c1" />
+    <car id="DL&amp;W1750" roadName="DL&amp;W" roadNumber="1750" type="HPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s2" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="coal" loadFromStaging="true" scheduleId="1029c2" />
     <car id="DL&amp;W3776" roadName="DL&amp;W" roadNumber="3776" type="GPx" length="40" weightTons="0" locationId="2" secLocationId="2s9" moves="0" date="" selected="false" load="Empty" />
     <car id="DL&amp;W8851" roadName="DL&amp;W" roadNumber="8851" type="GPx" length="40" weightTons="0" locationId="2" secLocationId="2s10" moves="0" date="" selected="false" load="Empty" />
     <car id="ER6085" roadName="ER" roadNumber="6085" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="flooring" />
@@ -226,7 +226,7 @@
     <car id="PL6739" roadName="PL" roadNumber="6739" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="merchandise" />
     <car id="PRR0331" roadName="PRR" roadNumber="0331" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="merchandise" />
     <car id="PRR1680" roadName="PRR" roadNumber="1680" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s7" moves="0" date="" selected="false" load="Glassware" />
-    <car id="PRR3776" roadName="PRR" roadNumber="3776" type="XPV" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s5" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" scheduleId="1035c2" />
+    <car id="PRR3776" roadName="PRR" roadNumber="3776" type="XPV" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" scheduleId="1024c2" />
     <car id="PRR5314" roadName="PRR" roadNumber="5314" type="GPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" scheduleId="1033c2" />
     <car id="PRR5443" roadName="PRR" roadNumber="5443" type="TPO" length="40" weightTons="0" locationId="2" secLocationId="2s8" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR5450" roadName="PRR" roadNumber="5450" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s6" moves="0" date="" selected="false" load="Empty" />
