@@ -1,11 +1,11 @@
 {
   "railroad" : "Glass Works Model RR (SAE)",
-  "userName" : "Fenwick Flyer",
-  "description" : "Switch Along Fenwick Creek",
+  "userName" : "South Bend Flyer",
+  "description" : "Switch Along Salem Creek",
   "locations" : [ {
     "userName" : "Salem",
-    "name" : "15r22",
-    "departureTime" : "00:00",
+    "name" : "14r19",
+    "departureTime" : "02:00",
     "location" : {
       "comment" : "",
       "name" : "4"
@@ -29,52 +29,6 @@
     "weight" : 0,
     "cars" : {
       "add" : [ {
-        "name" : "LV8804",
-        "number" : "8804",
-        "road" : "LV",
-        "rfid" : "",
-        "carType" : "GPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Sand Storage",
-            "name" : "3s6"
-          }
-        },
-        "load" : "sand",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "B&O4103",
         "number" : "4103",
         "road" : "B&O",
@@ -92,19 +46,203 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Ware House",
-            "name" : "3s7"
+            "userName" : "FH Lloyd",
+            "name" : "2s7"
+          }
+        },
+        "load" : "flour",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5314",
+        "number" : "5314",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
+          }
+        },
+        "load" : "sand",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL1211",
+        "number" : "1211",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
+          }
+        },
+        "load" : "sand",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV8804",
+        "number" : "8804",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Shop",
+            "name" : "2s10"
+          }
+        },
+        "load" : "lumber stack",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL8074",
+        "number" : "8074",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Ware House",
+            "name" : "2s4"
           }
         },
         "load" : "Empty",
@@ -138,341 +276,19 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Ware House",
-            "name" : "3s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL8074",
-        "number" : "8074",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL0721",
-        "number" : "0721",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "HPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem Gas Light",
-            "name" : "3s4"
-          }
-        },
-        "load" : "coal",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "DL&W1750",
-        "number" : "1750",
-        "road" : "DL&W",
-        "rfid" : "",
-        "carType" : "HPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "load" : "coal",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ2681",
-        "number" : "2681",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "HPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "load" : "coal",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TELX5346",
-        "number" : "5346",
-        "road" : "TELX",
-        "rfid" : "",
-        "carType" : "TPO",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
-          }
-        },
-        "load" : "heating oil",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR6726",
-        "number" : "6726",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "TPO",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
-          }
-        },
-        "load" : "heating oil",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "AT&SF1154",
-        "number" : "1154",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "XP4",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Salem 3 Merch Storage",
-            "name" : "3s5"
+            "userName" : "Gaynor Ware Shed",
+            "name" : "2s5"
           }
         },
         "load" : "Empty",
@@ -506,7 +322,329 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "WH Harris",
+            "name" : "2s9"
+          }
+        },
+        "load" : "Lumber",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TELX5346",
+        "number" : "5346",
+        "road" : "TELX",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "Am Oilcloth Chem",
+            "name" : "2s8"
+          }
+        },
+        "load" : "chemicals",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR6726",
+        "number" : "6726",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "Am Oilcloth Chem",
+            "name" : "2s8"
+          }
+        },
+        "load" : "chemicals",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF1154",
+        "number" : "1154",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "load" : "break bulk",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R3718",
+        "number" : "3718",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "load" : "break bulk",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL4893",
+        "number" : "4893",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "load" : "break bulk",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV2594",
+        "number" : "2594",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "load" : "Lumber",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL0721",
+        "number" : "0721",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -515,7 +653,53 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "DL&W1750",
+        "number" : "1750",
+        "road" : "DL&W",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -552,7 +736,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -561,7 +745,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -598,7 +782,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -607,7 +791,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -627,11 +811,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR5314",
-        "number" : "5314",
-        "road" : "PRR",
+        "name" : "CNJ2681",
+        "number" : "2681",
+        "road" : "CNJ",
         "rfid" : "",
-        "carType" : "GPx",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -644,7 +828,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -653,99 +837,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "P&R3718",
-        "number" : "3718",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL1211",
-        "number" : "1211",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "GPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -782,7 +874,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -791,99 +883,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL4893",
-        "number" : "4893",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "LV2594",
-        "number" : "2594",
-        "road" : "LV",
-        "rfid" : "",
-        "carType" : "FP4",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -920,7 +920,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -929,7 +929,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -966,7 +966,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -975,7 +975,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1012,7 +1012,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1021,7 +1021,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1058,7 +1058,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1067,7 +1067,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1104,7 +1104,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1113,7 +1113,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1150,7 +1150,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1159,7 +1159,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1181,17 +1181,17 @@
       } ],
       "remove" : [ ],
       "total" : 25,
-      "loads" : 10,
-      "empties" : 15
+      "loads" : 13,
+      "empties" : 12
     }
   }, {
-    "userName" : "Fenwick Creek",
-    "name" : "15r30",
-    "arrivalTime" : "00:04",
-    "expectedDepartureTime" : "00:34",
+    "userName" : "South Bend Spur",
+    "name" : "14r14",
+    "arrivalTime" : "02:04",
+    "expectedDepartureTime" : "02:55",
     "location" : {
       "comment" : "",
-      "name" : "3"
+      "name" : "2"
     },
     "comment" : "",
     "engines" : {
@@ -1199,44 +1199,56 @@
       "remove" : [ ]
     },
     "track" : {
-      "3s6" : {
+      "2s7" : {
         "add" : "",
         "remove" : "",
         "addAndRemove" : "",
-        "comment" : "TrainPlayer ID:8"
+        "comment" : "TrainPlayer ID:19"
       },
-      "3s7" : {
+      "2s3" : {
         "add" : "",
         "remove" : "",
         "addAndRemove" : "",
-        "comment" : "TrainPlayer ID:9"
+        "comment" : "TrainPlayer ID:25"
       },
-      "3s1" : {
+      "2s10" : {
         "add" : "",
         "remove" : "",
         "addAndRemove" : "",
-        "comment" : "TrainPlayer ID:10"
+        "comment" : "TrainPlayer ID:21"
       },
-      "3s4" : {
+      "2s4" : {
         "add" : "",
         "remove" : "",
         "addAndRemove" : "",
-        "comment" : "TrainPlayer ID:17"
+        "comment" : "TrainPlayer ID:26"
+      },
+      "2s5" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:27"
+      },
+      "2s9" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:20"
       }
     },
     "trainDirection" : 1,
     "length" : {
-      "length" : 1100,
+      "length" : 1056,
       "unit" : "Feet"
     },
     "weight" : 0,
     "cars" : {
       "add" : [ {
-        "name" : "PL3726",
-        "number" : "3726",
-        "road" : "PL",
+        "name" : "M&P3152",
+        "number" : "3152",
+        "road" : "M&P",
         "rfid" : "",
-        "carType" : "GPx",
+        "carType" : "XP4",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1247,18 +1259,110 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Sand Storage",
-            "name" : "3s6"
+            "userName" : "FH Lloyd",
+            "name" : "2s7"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Ware House",
+            "name" : "2s4"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "SP2700",
+        "number" : "2700",
+        "road" : "SP",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "FH Lloyd",
+            "name" : "2s7"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Ware Shed",
+            "name" : "2s5"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR8138",
+        "number" : "8138",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
           }
         },
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1278,56 +1382,102 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "AT&SF8977",
-        "number" : "8977",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Ware House",
-            "name" : "3s7"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Glassware",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "SP6136",
-        "number" : "6136",
+        "name" : "SP0452",
+        "number" : "0452",
         "road" : "SP",
         "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "DL&W8851",
+        "number" : "8851",
+        "road" : "DL&W",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Shop",
+            "name" : "2s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL5708",
+        "number" : "5708",
+        "road" : "ACL",
+        "rfid" : "",
         "carType" : "XP3",
         "carSubType" : "",
         "length" : 40,
@@ -1339,18 +1489,18 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
+            "userName" : "Gaynor Ware House",
+            "name" : "2s4"
           }
         },
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1370,9 +1520,9 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "AT&SF1561",
-        "number" : "1561",
-        "road" : "AT&SF",
+        "name" : "B&A2021",
+        "number" : "2021",
+        "road" : "B&A",
         "rfid" : "",
         "carType" : "XP3",
         "carSubType" : "",
@@ -1385,18 +1535,18 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
+            "userName" : "Gaynor Ware Shed",
+            "name" : "2s5"
           }
         },
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1416,11 +1566,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "WJ&S8399",
-        "number" : "8399",
-        "road" : "WJ&S",
+        "name" : "DL&W3776",
+        "number" : "3776",
+        "road" : "DL&W",
         "rfid" : "",
-        "carType" : "HPx",
+        "carType" : "GPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1431,18 +1581,18 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem Gas Light",
-            "name" : "3s4"
+            "userName" : "WH Harris",
+            "name" : "2s9"
           }
         },
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1463,52 +1613,6 @@
         "status" : ""
       } ],
       "remove" : [ {
-        "name" : "LV8804",
-        "number" : "8804",
-        "road" : "LV",
-        "rfid" : "",
-        "carType" : "GPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Sand Storage",
-            "name" : "3s6"
-          }
-        },
-        "load" : "sand",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "B&O4103",
         "number" : "4103",
         "road" : "B&O",
@@ -1526,22 +1630,22 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Ware House",
-            "name" : "3s7"
+            "userName" : "FH Lloyd",
+            "name" : "2s7"
           }
         },
-        "load" : "Empty",
+        "load" : "flour",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1555,11 +1659,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR3776",
-        "number" : "3776",
+        "name" : "PRR5314",
+        "number" : "5314",
         "road" : "PRR",
         "rfid" : "",
-        "carType" : "XPV",
+        "carType" : "GPx",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1572,22 +1676,114 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Ware House",
-            "name" : "3s7"
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
           }
         },
-        "load" : "Empty",
+        "load" : "sand",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL1211",
+        "number" : "1211",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
+          }
+        },
+        "load" : "sand",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV8804",
+        "number" : "8804",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Shop",
+            "name" : "2s10"
+          }
+        },
+        "load" : "lumber stack",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1618,19 +1814,19 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
+            "userName" : "Gaynor Ware House",
+            "name" : "2s4"
           }
         },
         "load" : "Empty",
@@ -1647,11 +1843,57 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PL0721",
-        "number" : "0721",
-        "road" : "PL",
+        "name" : "M&P3152",
+        "number" : "3152",
+        "road" : "M&P",
         "rfid" : "",
-        "carType" : "HPx",
+        "carType" : "XP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "FH Lloyd",
+            "name" : "2s7"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Ware House",
+            "name" : "2s4"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR3776",
+        "number" : "3776",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1664,22 +1906,114 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
           "track" : {
-            "userName" : "Salem Gas Light",
-            "name" : "3s4"
+            "userName" : "Gaynor Ware Shed",
+            "name" : "2s5"
           }
         },
-        "load" : "coal",
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "SP2700",
+        "number" : "2700",
+        "road" : "SP",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "FH Lloyd",
+            "name" : "2s7"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Ware Shed",
+            "name" : "2s5"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL2710",
+        "number" : "2710",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "WH Harris",
+            "name" : "2s9"
+          }
+        },
+        "load" : "Lumber",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1693,43 +2027,15 @@
         "returnWhenEmpty" : null,
         "status" : ""
       } ],
-      "total" : 25,
-      "loads" : 10,
-      "empties" : 15
-    }
-  }, {
-    "userName" : "Salem Township",
-    "name" : "15r29",
-    "arrivalTime" : "00:38",
-    "expectedDepartureTime" : "00:38",
-    "location" : {
-      "comment" : "",
-      "name" : "1"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ ]
-    },
-    "track" : { },
-    "trainDirection" : 1,
-    "length" : {
-      "length" : 1100,
-      "unit" : "Feet"
-    },
-    "weight" : 0,
-    "cars" : {
-      "add" : [ ],
-      "remove" : [ ],
-      "total" : 25,
-      "loads" : 10,
-      "empties" : 15
+      "total" : 24,
+      "loads" : 12,
+      "empties" : 12
     }
   }, {
     "userName" : "Fenwick Creek",
-    "name" : "15r31",
-    "arrivalTime" : "00:42",
-    "expectedDepartureTime" : "01:12",
+    "name" : "14r15",
+    "arrivalTime" : "02:59",
+    "expectedDepartureTime" : "02:59",
     "location" : {
       "comment" : "",
       "name" : "3"
@@ -1739,174 +2045,58 @@
       "add" : [ ],
       "remove" : [ ]
     },
+    "track" : { },
+    "trainDirection" : 1,
+    "length" : {
+      "length" : 1056,
+      "unit" : "Feet"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 24,
+      "loads" : 12,
+      "empties" : 12
+    }
+  }, {
+    "userName" : "South Bend Spur",
+    "name" : "14r16",
+    "arrivalTime" : "03:03",
+    "expectedDepartureTime" : "03:33",
+    "location" : {
+      "comment" : "",
+      "name" : "2"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
     "track" : {
-      "3s2" : {
+      "2s8" : {
         "add" : "",
         "remove" : "",
         "addAndRemove" : "",
-        "comment" : "TrainPlayer ID:11"
+        "comment" : "TrainPlayer ID:7"
       },
-      "3s3" : {
+      "2s6" : {
         "add" : "",
         "remove" : "",
         "addAndRemove" : "",
-        "comment" : "TrainPlayer ID:12"
-      },
-      "3s5" : {
-        "add" : "",
-        "remove" : "",
-        "addAndRemove" : "",
-        "comment" : "TrainPlayer ID:5"
+        "comment" : "TrainPlayer ID:28"
       }
     },
     "trainDirection" : 2,
     "length" : {
-      "length" : 1100,
+      "length" : 968,
       "unit" : "Feet"
     },
     "weight" : 0,
     "cars" : {
       "add" : [ {
-        "name" : "PRR6546",
-        "number" : "6546",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "HPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR8485",
-        "number" : "8485",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "HPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX3534",
-        "number" : "3534",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TPO",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR5808",
-        "number" : "5808",
+        "name" : "PRR5443",
+        "number" : "5443",
         "road" : "PRR",
         "rfid" : "",
         "carType" : "TPO",
@@ -1920,18 +2110,18 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
           "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
+            "userName" : "Am Oilcloth Chem",
+            "name" : "2s8"
           }
         },
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -1951,9 +2141,9 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "DL&W0677",
-        "number" : "0677",
-        "road" : "DL&W",
+        "name" : "AT&SF8805",
+        "number" : "8805",
+        "road" : "AT&SF",
         "rfid" : "",
         "carType" : "XP3",
         "carSubType" : "",
@@ -1966,24 +2156,116 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
           "track" : {
-            "userName" : "Salem 3 Merch Storage",
-            "name" : "3s5"
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
           }
         },
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
-        "load" : "Glassware",
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O8418",
+        "number" : "8418",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5450",
+        "number" : "5450",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1998,98 +2280,6 @@
         "status" : ""
       } ],
       "remove" : [ {
-        "name" : "DL&W1750",
-        "number" : "1750",
-        "road" : "DL&W",
-        "rfid" : "",
-        "carType" : "HPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "load" : "coal",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ2681",
-        "number" : "2681",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "HPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "load" : "coal",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "TELX5346",
         "number" : "5346",
         "road" : "TELX",
@@ -2107,22 +2297,22 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
           "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
+            "userName" : "Am Oilcloth Chem",
+            "name" : "2s8"
           }
         },
-        "load" : "heating oil",
+        "load" : "chemicals",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -2153,22 +2343,22 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
           "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
+            "userName" : "Am Oilcloth Chem",
+            "name" : "2s8"
           }
         },
-        "load" : "heating oil",
+        "load" : "chemicals",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -2199,22 +2389,160 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
           "track" : {
-            "userName" : "Salem 3 Merch Storage",
-            "name" : "3s5"
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
           }
         },
-        "load" : "Empty",
+        "load" : "break bulk",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R3718",
+        "number" : "3718",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "load" : "break bulk",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL4893",
+        "number" : "4893",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "load" : "break bulk",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "LV2594",
+        "number" : "2594",
+        "road" : "LV",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r19",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "load" : "Lumber",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -2228,15 +2556,15 @@
         "returnWhenEmpty" : null,
         "status" : ""
       } ],
-      "total" : 25,
+      "total" : 22,
       "loads" : 10,
-      "empties" : 15
+      "empties" : 12
     }
   }, {
     "userName" : "Salem",
-    "name" : "15r27",
-    "arrivalTime" : "01:16",
-    "expectedDepartureTime" : "02:31",
+    "name" : "14r18",
+    "arrivalTime" : "03:37",
+    "expectedDepartureTime" : "04:43",
     "location" : {
       "comment" : "",
       "name" : "4"
@@ -2250,55 +2578,9 @@
     "cars" : {
       "add" : [ ],
       "remove" : [ {
-        "name" : "PRR6546",
-        "number" : "6546",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "HPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR8485",
-        "number" : "8485",
-        "road" : "PRR",
+        "name" : "PL0721",
+        "number" : "0721",
+        "road" : "PL",
         "rfid" : "",
         "carType" : "HPx",
         "carSubType" : "",
@@ -2311,24 +2593,24 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Electric Co NJ",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
-        "load" : "Empty",
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "E",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -2342,332 +2624,10 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "TCX3534",
-        "number" : "3534",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TPO",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR5808",
-        "number" : "5808",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "TPO",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Fenwick Oil",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "DL&W0677",
-        "number" : "0677",
+        "name" : "DL&W1750",
+        "number" : "1750",
         "road" : "DL&W",
         "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Salem 3 Merch Storage",
-            "name" : "3s5"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Glassware",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL3726",
-        "number" : "3726",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "GPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Sand Storage",
-            "name" : "3s6"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "AT&SF8977",
-        "number" : "8977",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Ware House",
-            "name" : "3s7"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Glassware",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "SP6136",
-        "number" : "6136",
-        "road" : "SP",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Glassware",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "AT&SF1561",
-        "number" : "1561",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem 4 Ware Shed",
-            "name" : "3s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Glassware",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S8399",
-        "number" : "8399",
-        "road" : "WJ&S",
-        "rfid" : "",
         "carType" : "HPx",
         "carSubType" : "",
         "length" : 40,
@@ -2679,55 +2639,9 @@
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r30",
-          "track" : {
-            "userName" : "Salem Gas Light",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL2710",
-        "number" : "2710",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "GPD",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -2736,7 +2650,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -2773,7 +2687,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -2782,7 +2696,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -2819,7 +2733,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -2828,7 +2742,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -2848,11 +2762,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR5314",
-        "number" : "5314",
-        "road" : "PRR",
+        "name" : "CNJ2681",
+        "number" : "2681",
+        "road" : "CNJ",
         "rfid" : "",
-        "carType" : "GPx",
+        "carType" : "HPD",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -2865,7 +2779,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -2874,99 +2788,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "P&R3718",
-        "number" : "3718",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL1211",
-        "number" : "1211",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "GPx",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3003,7 +2825,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3012,99 +2834,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL4893",
-        "number" : "4893",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XP3",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "load" : "E",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "LV2594",
-        "number" : "2594",
-        "road" : "LV",
-        "rfid" : "",
-        "carType" : "FP4",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3141,7 +2871,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3150,7 +2880,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3187,7 +2917,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3196,7 +2926,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3233,7 +2963,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3242,7 +2972,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3279,7 +3009,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3288,7 +3018,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3325,7 +3055,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3334,7 +3064,7 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3371,7 +3101,7 @@
         "location" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r22",
+          "route" : "14r19",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
@@ -3380,13 +3110,473 @@
         "destination" : {
           "userName" : "Salem",
           "name" : "4",
-          "route" : "15r27",
+          "route" : "14r18",
           "track" : {
             "userName" : "Yard",
             "name" : "4s1"
           }
         },
         "load" : "E",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5443",
+        "number" : "5443",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "TPO",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "Am Oilcloth Chem",
+            "name" : "2s8"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR8138",
+        "number" : "8138",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GPD",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "SP0452",
+        "number" : "0452",
+        "road" : "SP",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Sand",
+            "name" : "2s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "DL&W8851",
+        "number" : "8851",
+        "road" : "DL&W",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Shop",
+            "name" : "2s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL5708",
+        "number" : "5708",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Ware House",
+            "name" : "2s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Glassware",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A2021",
+        "number" : "2021",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "Gaynor Ware Shed",
+            "name" : "2s5"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Glassware",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF8805",
+        "number" : "8805",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O8418",
+        "number" : "8418",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "FP4",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5450",
+        "number" : "5450",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XP3",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r16",
+          "track" : {
+            "userName" : "S&PSNCo Dock",
+            "name" : "2s6"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "DL&W3776",
+        "number" : "3776",
+        "road" : "DL&W",
+        "rfid" : "",
+        "carType" : "GPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "South Bend Spur",
+          "name" : "2",
+          "route" : "14r14",
+          "track" : {
+            "userName" : "WH Harris",
+            "name" : "2s9"
+          }
+        },
+        "destination" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "14r18",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -3402,5 +3592,5 @@
       } ]
     }
   } ],
-  "date" : "1915-09-06T17:42:39.578+00:00"
+  "date" : "1915-09-06T17:48:42.419+00:00"
 }
