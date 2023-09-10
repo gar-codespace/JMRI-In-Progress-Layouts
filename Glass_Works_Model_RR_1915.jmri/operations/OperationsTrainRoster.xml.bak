@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Sep 06 09:50:51 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Sep 07 07:47:44 PDT 2023-->
   <options>
     <trainOptions buildMessages="false" buildReport="true" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -88,13 +88,13 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="" />
-    <schedule id="2" name="Monday" trainIds="" />
-    <schedule id="3" name="Tuesday" trainIds="" />
-    <schedule id="4" name="Wednesday" trainIds="" />
-    <schedule id="5" name="Thursday" trainIds="" />
-    <schedule id="6" name="Friday" trainIds="" />
-    <schedule id="7" name="Saturday" trainIds="" />
+    <schedule id="1" name="Sunday" trainIds="," />
+    <schedule id="2" name="Monday" trainIds="," />
+    <schedule id="3" name="Tuesday" trainIds="," />
+    <schedule id="4" name="Wednesday" trainIds="," />
+    <schedule id="5" name="Thursday" trainIds="," />
+    <schedule id="6" name="Friday" trainIds="," />
+    <schedule id="7" name="Saturday" trainIds="," />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />

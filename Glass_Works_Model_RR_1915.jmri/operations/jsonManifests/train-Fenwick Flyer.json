@@ -167,6 +167,52 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
+        "name" : "PRR3776",
+        "number" : "3776",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XPV",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r22",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Fenwick Creek",
+          "name" : "3",
+          "route" : "15r30",
+          "track" : {
+            "userName" : "Salem 4 Ware Shed",
+            "name" : "3s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "PL0721",
         "number" : "0721",
         "road" : "PL",
@@ -239,10 +285,10 @@
         "destination" : {
           "userName" : "Fenwick Creek",
           "name" : "3",
-          "route" : "15r30",
+          "route" : "15r31",
           "track" : {
-            "userName" : "Salem Gas Light",
-            "name" : "3s4"
+            "userName" : "Electric Co NJ",
+            "name" : "3s2"
           }
         },
         "load" : "coal",
@@ -384,52 +430,6 @@
           }
         },
         "load" : "heating oil",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR3776",
-        "number" : "3776",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XPV",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Salem 3 Merch Storage",
-            "name" : "3s5"
-          }
-        },
-        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1601,11 +1601,11 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PL0721",
-        "number" : "0721",
-        "road" : "PL",
+        "name" : "PRR3776",
+        "number" : "3776",
+        "road" : "PRR",
         "rfid" : "",
-        "carType" : "HPx",
+        "carType" : "XPV",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
@@ -1629,11 +1629,11 @@
           "name" : "3",
           "route" : "15r30",
           "track" : {
-            "userName" : "Salem Gas Light",
-            "name" : "3s4"
+            "userName" : "Salem 4 Ware Shed",
+            "name" : "3s1"
           }
         },
-        "load" : "coal",
+        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -1647,9 +1647,9 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "DL&W1750",
-        "number" : "1750",
-        "road" : "DL&W",
+        "name" : "PL0721",
+        "number" : "0721",
+        "road" : "PL",
         "rfid" : "",
         "carType" : "HPx",
         "carSubType" : "",
@@ -1998,6 +1998,52 @@
         "status" : ""
       } ],
       "remove" : [ {
+        "name" : "DL&W1750",
+        "number" : "1750",
+        "road" : "DL&W",
+        "rfid" : "",
+        "carType" : "HPx",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Salem",
+          "name" : "4",
+          "route" : "15r22",
+          "track" : {
+            "userName" : "Yard",
+            "name" : "4s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Fenwick Creek",
+          "name" : "3",
+          "route" : "15r31",
+          "track" : {
+            "userName" : "Electric Co NJ",
+            "name" : "3s2"
+          }
+        },
+        "load" : "coal",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
         "name" : "CNJ2681",
         "number" : "2681",
         "road" : "CNJ",
@@ -2123,52 +2169,6 @@
           }
         },
         "load" : "heating oil",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR3776",
-        "number" : "3776",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XPV",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Salem",
-          "name" : "4",
-          "route" : "15r22",
-          "track" : {
-            "userName" : "Yard",
-            "name" : "4s1"
-          }
-        },
-        "destination" : {
-          "userName" : "Fenwick Creek",
-          "name" : "3",
-          "route" : "15r31",
-          "track" : {
-            "userName" : "Salem 3 Merch Storage",
-            "name" : "3s5"
-          }
-        },
-        "load" : "Empty",
         "hazardous" : false,
         "caboose" : false,
         "passenger" : false,
@@ -3402,5 +3402,5 @@
       } ]
     }
   } ],
-  "date" : "1915-09-07T15:47:38.126+00:00"
+  "date" : "1915-09-10T17:45:13.281+00:00"
 }

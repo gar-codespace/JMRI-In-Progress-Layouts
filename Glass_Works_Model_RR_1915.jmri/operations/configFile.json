@@ -1,62 +1,6 @@
 {
   "Main Script": {
-    "CD": {
-      "BLANCH": {
-        "A": 210, 
-        "B": 255, 
-        "D": "Lighten a bit", 
-        "G": 255, 
-        "R": 255
-      }, 
-      "DUST": {
-        "A": 255, 
-        "B": 218, 
-        "D": "Light tan", 
-        "G": 242, 
-        "R": 252
-      }, 
-      "FADED": {
-        "A": 255, 
-        "B": 245, 
-        "D": "Light purple", 
-        "G": 225, 
-        "R": 237
-      }, 
-      "GLOOM": {
-        "A": 10, 
-        "B": 0, 
-        "D": "Darken a bit", 
-        "G": 0, 
-        "R": 0
-      }, 
-      "LICHEN": {
-        "A": 255, 
-        "B": 244, 
-        "D": "Light green", 
-        "G": 255, 
-        "R": 236
-      }, 
-      "PALE": {
-        "A": 255, 
-        "B": 250, 
-        "D": "Light blue", 
-        "G": 243, 
-        "R": 237
-      }, 
-      "RASH": {
-        "A": 255, 
-        "B": 224, 
-        "D": "Light red", 
-        "G": 208, 
-        "R": 240
-      }, 
-      "colorA": "DUST", 
-      "colorB": "FADED", 
-      "colorC": "RASH"
-    }, 
     "CP": {
-      "AP": true, 
-      "DR": true, 
       "EC": {
         "400": "400 - Bad Request: Unable to translate the current language.", 
         "402": "402 - Requested page not found", 
@@ -71,7 +15,6 @@
       }, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "OC": true, 
       "PH": 280, 
       "PW": 1000, 
       "PX": 0, 
@@ -107,14 +50,62 @@
       "TT": 3, 
       "Z": 1
     }, 
-    "TO": {
-      "ASE": true, 
-      "CWS": true, 
-      "SBA": true, 
-      "SCT": "ARR Codes", 
-      "SIA": true, 
-      "SME": true, 
-      "TNB": false
+    "US": {
+      "CD": {
+        "BLANCH": {
+          "A": 210, 
+          "B": 255, 
+          "D": "Lighten a bit", 
+          "G": 255, 
+          "R": 255
+        }, 
+        "DUST": {
+          "A": 255, 
+          "B": 218, 
+          "D": "Light tan", 
+          "G": 242, 
+          "R": 252
+        }, 
+        "FADED": {
+          "A": 255, 
+          "B": 245, 
+          "D": "Light purple", 
+          "G": 225, 
+          "R": 237
+        }, 
+        "GLOOM": {
+          "A": 10, 
+          "B": 0, 
+          "D": "Darken a bit", 
+          "G": 0, 
+          "R": 0
+        }, 
+        "LICHEN": {
+          "A": 255, 
+          "B": 244, 
+          "D": "Light green", 
+          "G": 255, 
+          "R": 236
+        }, 
+        "PALE": {
+          "A": 255, 
+          "B": 250, 
+          "D": "Light blue", 
+          "G": 243, 
+          "R": 237
+        }, 
+        "RASH": {
+          "A": 255, 
+          "B": 224, 
+          "D": "Light red", 
+          "G": 208, 
+          "R": 240
+        }, 
+        "colorA": "DUST", 
+        "colorB": "FADED", 
+        "colorC": "RASH"
+      }, 
+      "OC": true
     }
   }, 
   "Patterns": {
@@ -130,7 +121,11 @@
     "PW": 260, 
     "RD": "", 
     "RF": 8, 
-    "RM": {
+    "SV": true, 
+    "TC": "", 
+    "TD": "", 
+    "TN": "", 
+    "US": {
       "AW": {
         " ": 1, 
         "Color": 6, 
@@ -164,6 +159,11 @@
         "puso": 6, 
         "setTo": 6
       }, 
+      "DS": "Not Assigned", 
+      "DT": "Not Scheduled", 
+      "EH": "Available", 
+      "FD": "Unconsigned", 
+      "FT": "No Waybill", 
       "SC": [
         "Load_Type", 
         "FD&Track"
@@ -171,21 +171,11 @@
       "SL": [
         "Model"
       ]
-    }, 
-    "SI": {
-      "DS": "Not Assigned", 
-      "DT": "Not Scheduled", 
-      "EH": "Available", 
-      "FD": "Unconsigned", 
-      "FT": "No Waybill"
-    }, 
-    "SV": true, 
-    "TC": "", 
-    "TD": "", 
-    "TN": ""
+    }
   }, 
   "Template": {
-    "SV": true
+    "SV": true, 
+    "US": {}
   }, 
   "Throwback": {
     "SS": [
@@ -194,37 +184,15 @@
         ""
       ]
     ], 
-    "SV": true
+    "SV": true, 
+    "US": {}
   }, 
   "jPlus": {
-    "SV": true
+    "SV": true, 
+    "US": {}
   }, 
   "o2o": {
-    "CC": {
-      "alertColor": "RASH", 
-      "carColor": "DUST", 
-      "locoColor": "FADED"
-    }, 
-    "CFL": [
-      "CMX", 
-      "EMX", 
-      "LMX"
-    ], 
     "DL": 40, 
-    "RA": [
-      "PUSO", 
-      "Road", 
-      "Number", 
-      "Model", 
-      "Load_Type", 
-      "Load", 
-      "Location", 
-      "Dest&Track", 
-      "FD&Track"
-    ], 
-    "RC": [
-      "Generic"
-    ], 
     "RF": {
       "RRD": "tpRailroadData", 
       "RSD": "tpRollingStockData", 
@@ -312,6 +280,15 @@
       "SCL": true
     }, 
     "SV": true, 
+    "TO": {
+      "ASE": true, 
+      "CWS": true, 
+      "SBA": true, 
+      "SCT": "ARR Codes", 
+      "SIA": true, 
+      "SME": true, 
+      "TNB": false
+    }, 
     "TR": {
       "XO reserved": "Spur", 
       "class yard": "Yard", 
@@ -319,66 +296,68 @@
       "interchange": "Interchange", 
       "staging": "Staging"
     }, 
-    "XC": [
-      "N", 
-      "NM", 
-      "NE"
-    ], 
-    "XE": [
-      "E", 
-      "ES", 
-      "ED", 
-      "EE", 
-      "ET"
-    ], 
-    "XM": [
-      "M", 
-      "MWB", 
-      "MWC", 
-      "MWD", 
-      "MWG", 
-      "MWF", 
-      "MWK", 
-      "MWR", 
-      "MWX"
-    ], 
-    "XP": [
-      "EP", 
-      "CA", 
-      "CS", 
-      "D", 
-      "DA", 
-      "DB", 
-      "DC", 
-      "DL", 
-      "DO", 
-      "DP", 
-      "DPA", 
-      "P", 
-      "PA", 
-      "PAS", 
-      "PB", 
-      "PBC", 
-      "PBO", 
-      "PC", 
-      "PL", 
-      "PO", 
-      "PS", 
-      "PSA"
-    ], 
-    "XX": [
-      "B", 
-      "BE", 
-      "BH", 
-      "BM", 
-      "BMR", 
-      "BMT", 
-      "BP", 
-      "BR", 
-      "BX", 
-      "MA", 
-      "MB", 
-      "MR"
-    ]
+    "US": {
+      "XC": [
+        "N", 
+        "NM", 
+        "NE"
+      ], 
+      "XE": [
+        "E", 
+        "ES", 
+        "ED", 
+        "EE", 
+        "ET"
+      ], 
+      "XM": [
+        "M", 
+        "MWB", 
+        "MWC", 
+        "MWD", 
+        "MWG", 
+        "MWF", 
+        "MWK", 
+        "MWR", 
+        "MWX"
+      ], 
+      "XP": [
+        "EP", 
+        "CA", 
+        "CS", 
+        "D", 
+        "DA", 
+        "DB", 
+        "DC", 
+        "DL", 
+        "DO", 
+        "DP", 
+        "DPA", 
+        "P", 
+        "PA", 
+        "PAS", 
+        "PB", 
+        "PBC", 
+        "PBO", 
+        "PC", 
+        "PL", 
+        "PO", 
+        "PS", 
+        "PSA"
+      ], 
+      "XX": [
+        "B", 
+        "BE", 
+        "BH", 
+        "BM", 
+        "BMR", 
+        "BMT", 
+        "BP", 
+        "BR", 
+        "BX", 
+        "MA", 
+        "MB", 
+        "MR"
+      ]
+    }
   }
 }
