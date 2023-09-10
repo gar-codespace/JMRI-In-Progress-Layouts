@@ -1,68 +1,77 @@
-2023-09-07 12:55:10,677 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-09-07 12:55:10,677 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-09-07 12:55:10,677 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-09-07 12:55:10,687 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-09-07 12:55:10,687 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-09-07 12:55:10,716 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-09-07 12:55:10,716 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-09-07 12:55:11,118 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-09-07 12:55:11,134 - OPS.Main.Controller - INFO - Main script run time (sec): 0.441
-2023-09-07 12:55:13,257 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1694116513258,modifiers=Button1] on psButton
-2023-09-07 12:55:13,273 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
-2023-09-07 12:55:13,312 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-09-07 12:55:13,312 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-09-07 12:55:13,415 - OPS.JP.Controller - INFO - Subroutines.jPlus makeFrame completed
-2023-09-07 12:55:13,526 - OPS.o2o.Controller - INFO - Subroutines.o2o makeFrame completed
-2023-09-07 12:55:13,619 - OPS.PT.Controller - INFO - Subroutines.Patterns makeFrame completed
-2023-09-07 12:55:13,683 - OPS.XX.Controller - INFO - Subroutines.Template makeFrame completed
-2023-09-07 12:55:13,744 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
-2023-09-07 12:55:13,744 - OPS.Main.View - DEBUG - makePatternScriptsWindow
-2023-09-07 12:55:15,302 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-09-07 12:55:15,349 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-09-07 12:55:15,365 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-09-07 12:55:15,365 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-09-07 12:55:15,381 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-09-07 12:55:15,395 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener
-2023-09-07 12:55:15,395 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-09-07 12:55:15,395 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-09-07 12:55:15,414 - OPS.PT.Model - DEBUG - divComboSelected
-2023-09-07 12:55:15,427 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-09-07 12:55:15,444 - OPS.PT.Model - DEBUG - trackRowManager
-2023-09-07 12:55:15,506 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-09-07 12:55:15,515 - OPS.PT.Model - DEBUG - locComboSelected
-2023-09-07 12:55:15,523 - OPS.PT.Model - DEBUG - trackRowManager
-2023-09-07 12:55:15,553 - OPS.PT.Model - DEBUG - locComboSelected
-2023-09-07 12:55:15,569 - OPS.PT.Model - DEBUG - trackRowManager
-2023-09-07 12:55:15,585 - OPS.PT.Model - DEBUG - trackRowManager
-2023-09-07 12:55:15,601 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-09-07 12:55:15,601 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-09-07 12:55:15,601 - OPS.PT.Listeners - DEBUG - Add division name change listener
-2023-09-07 12:55:15,601 - OPS.PT.Listeners - DEBUG - Add location name change listener
-2023-09-07 12:55:15,615 - OPS.PT.Listeners - DEBUG - Add location name change listener
-2023-09-07 12:55:15,615 - OPS.PT.Listeners - DEBUG - Add location name change listener
-2023-09-07 12:55:15,617 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener
-2023-09-07 12:55:15,617 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-09-07 12:55:24,572 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,6,15,1236x279,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1220x240,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
-2023-09-07 12:55:24,589 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=opsWindowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.util.JmriJFrame[patternScriptsWindow,-15,283,1000x731,invalid,layout=java.awt.BorderLayout,title=Pattern Scripts,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,984x692,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
-2023-09-07 12:55:28,615 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1694116528615,modifiers=Button1] on commit
-2023-09-07 12:55:32,042 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-09-07 12:55:32,042 - OPS.o2o.ModelWorkEvents - DEBUG - findNewestTrain
-2023-09-07 12:55:32,042 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-09-07 12:55:32,052 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
-2023-09-07 12:55:32,058 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
-2023-09-07 12:55:32,121 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
-2023-09-07 12:55:32,138 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
-2023-09-07 12:55:32,138 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
-2023-09-07 12:55:32,138 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
-2023-09-07 12:55:32,150 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-09-07 12:55:32,150 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.o2oPropertyChange- Pier Switcher TrainBuilt
-2023-09-07 12:55:45,901 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on patternScriptsWindow
-2023-09-07 12:55:45,913 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-09-07 12:55:45,913 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-09-07 12:55:45,913 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener
-2023-09-07 12:55:45,913 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-09-07 12:55:45,927 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-09-07 12:55:45,927 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-09-07 12:55:45,927 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener
-2023-09-07 12:55:45,927 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener
-2023-09-07 12:55:45,927 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
+2023-09-07 13:08:26,184 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-09-07 13:08:26,200 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-09-07 13:08:26,200 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-09-07 13:08:26,200 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-09-07 13:08:26,200 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-09-07 13:08:26,217 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-09-07 13:08:26,217 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-09-07 13:08:26,453 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\Greg\JMRI\OperationsPatternScripts
+2023-09-07 13:08:26,469 - OPS.Main.Controller - INFO - Main script run time (sec): 0.268
+2023-09-07 13:08:38,516 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1694117318516,modifiers=Button1] on psButton
+2023-09-07 13:08:38,516 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
+2023-09-07 13:08:38,532 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-09-07 13:08:38,532 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-09-07 13:08:38,625 - OPS.JP.Controller - INFO - Subroutines.jPlus makeFrame completed
+2023-09-07 13:08:38,734 - OPS.o2o.Controller - INFO - Subroutines.o2o makeFrame completed
+2023-09-07 13:08:38,859 - OPS.PT.Controller - INFO - Subroutines.Patterns makeFrame completed
+2023-09-07 13:08:38,907 - OPS.XX.Controller - INFO - Subroutines.Template makeFrame completed
+2023-09-07 13:08:38,969 - OPS.TB.Controller - INFO - Subroutines.Throwback makeFrame completed
+2023-09-07 13:08:38,969 - OPS.Main.View - DEBUG - makePatternScriptsWindow
+2023-09-07 13:08:39,000 - OPS.OB.Bundle - WARNING - Authentication key file not found
+2023-09-07 13:08:41,121 - OPS.OB.Bundle - WARNING - FAIL: Translation service check: 403 - Forbidden. The key is invalid.
+2023-09-07 13:08:41,220 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,2073,26,439x317,invalid,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,423x278,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on patternScriptsWindow
+2023-09-07 13:08:41,223 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-09-07 13:08:41,398 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
+2023-09-07 13:08:41,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
+2023-09-07 13:08:41,413 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener
+2023-09-07 13:08:41,413 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
+2023-09-07 13:08:41,428 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-09-07 13:08:41,444 - OPS.PT.Model - DEBUG - divComboSelected
+2023-09-07 13:08:41,444 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-09-07 13:08:41,460 - OPS.PT.Model - DEBUG - trackRowManager
+2023-09-07 13:08:41,490 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-09-07 13:08:41,490 - OPS.PT.Model - DEBUG - locComboSelected
+2023-09-07 13:08:41,490 - OPS.PT.Model - DEBUG - trackRowManager
+2023-09-07 13:08:41,523 - OPS.PT.Model - DEBUG - locComboSelected
+2023-09-07 13:08:41,523 - OPS.PT.Model - DEBUG - trackRowManager
+2023-09-07 13:08:41,538 - OPS.PT.Model - DEBUG - trackRowManager
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Add division name change listener
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Add location name change listener
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Add location name change listener
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Add location name change listener
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener
+2023-09-07 13:08:41,553 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
+2023-09-07 13:08:52,272 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Throwback,when=1694117332272,modifiers=Button1] on throwback
+2023-09-07 13:08:52,335 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-09-07 13:08:52,335 - OPS.PT.Model - DEBUG - locComboSelected
+2023-09-07 13:08:52,349 - OPS.PT.Model - DEBUG - trackRowManager
+2023-09-07 13:08:52,365 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@89f0c6]
+2023-09-07 13:08:52,365 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-09-07 13:08:52,365 - OPS.PT.Model - DEBUG - locComboSelected
+2023-09-07 13:08:52,381 - OPS.PT.Model - DEBUG - trackRowManager
+2023-09-07 13:08:52,413 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=1; newValue=2; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@89f0c6]
+2023-09-07 13:08:52,413 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-09-07 13:08:52,427 - OPS.PT.Model - DEBUG - locComboSelected
+2023-09-07 13:08:52,427 - OPS.PT.Model - DEBUG - trackRowManager
+2023-09-07 13:08:52,444 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=2; newValue=3; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@89f0c6]
+2023-09-07 13:08:52,460 - OPS.TB.Model - INFO - Throwback: Locations to 1
+2023-09-07 13:08:52,490 - OPS.TB.Model - INFO - Throwback: Routes to 1
+2023-09-07 13:08:52,506 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener
+2023-09-07 13:08:52,506 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener
+2023-09-07 13:08:52,506 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.o2oPropertyChange- jmri.jmrit.operations.trains.TrainManager@54e73b TrainsListLength
+2023-09-07 13:08:52,522 - OPS.TB.Model - INFO - Throwback: Trains to 1
+2023-09-07 13:08:52,538 - OPS.TB.Model - INFO - Throwback: Cars to 1
+2023-09-07 13:08:52,569 - OPS.TB.Model - INFO - Throwback: Engines to 1
+2023-09-07 13:08:52,569 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=extendedDetails; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@89f0c6]
+2023-09-07 13:08:59,029 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on patternScriptsWindow
+2023-09-07 13:08:59,043 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
+2023-09-07 13:08:59,043 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
+2023-09-07 13:08:59,043 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener
+2023-09-07 13:08:59,043 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
+2023-09-07 13:08:59,043 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
+2023-09-07 13:08:59,043 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
+2023-09-07 13:08:59,043 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener
+2023-09-07 13:08:59,043 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener
+2023-09-07 13:08:59,043 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
