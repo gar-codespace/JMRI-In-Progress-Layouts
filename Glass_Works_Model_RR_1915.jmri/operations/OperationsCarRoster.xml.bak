@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Thu Sep 07 07:47:44 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sun Sep 10 09:45:23 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -122,11 +122,6 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="vinegar" loadType="load" />
     </load>
-    <load type="RHx">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="produce" loadType="load" />
-    </load>
     <load type="XPV">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Glassware" loadType="load" />
@@ -135,6 +130,11 @@
       <carLoad name="flooring" loadType="load" />
       <carLoad name="goods" loadType="load" />
       <carLoad name="merchandise" loadType="load" />
+    </load>
+    <load type="RHx">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="produce" loadType="load" />
     </load>
     <load type="HPx">
       <carLoad name="Empty" loadType="empty" />
