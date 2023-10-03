@@ -1,78 +1,77 @@
-2023-10-02 12:41:30,877 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-10-02 12:41:30,892 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-10-02 12:41:30,892 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-10-02 12:41:30,892 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-10-02 12:41:30,892 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-10-02 12:41:30,910 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 12:41:30,917 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 12:41:31,299 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-10-02 12:41:31,315 - OPS.Main.Controller - INFO - Main script run time (sec): 0.423
-2023-10-02 12:41:33,107 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696275693106,modifiers=Button1] on psButton
-2023-10-02 12:41:33,134 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 12:41:33,134 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 12:41:33,213 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-02 12:41:33,275 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-02 12:41:33,354 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-02 12:41:33,431 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-02 12:41:33,494 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-02 12:41:33,494 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-02 12:41:34,961 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-02 12:41:35,056 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 12:41:35,088 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:35,088 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:35,088 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:35,104 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:35,104 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 12:41:35,104 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-10-02 12:41:35,119 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:35,119 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-10-02 12:41:35,119 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Pier Switcher
-2023-10-02 12:41:35,119 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-10-02 12:41:35,119 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:35,119 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-10-02 12:41:35,119 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-10-02 12:41:35,119 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
-2023-10-02 12:41:35,134 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Water Street
-2023-10-02 12:41:35,134 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: West Yard
-2023-10-02 12:41:35,134 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-10-02 12:41:35,134 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-02 12:41:35,134 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 12:41:35,151 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 12:41:35,197 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:35,197 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Pier Switcher
-2023-10-02 12:41:35,197 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-02 12:41:35,223 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 12:41:39,703 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-10-02 12:41:39,703 - OPS.o2o.ModelWorkEvents - DEBUG - findNewestTrain
-2023-10-02 12:41:39,703 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
-2023-10-02 12:41:39,719 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
-2023-10-02 12:41:39,719 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
-2023-10-02 12:41:39,796 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
-2023-10-02 12:41:39,796 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
-2023-10-02 12:41:39,796 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
-2023-10-02 12:41:39,796 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
-2023-10-02 12:41:39,796 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
-2023-10-02 12:41:39,796 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.o2oPropertyChange- Pier Switcher TrainBuilt
-2023-10-02 12:41:39,812 - OPS.OE.Manifest - DEBUG - Manifest.addSequenceToManifest
-2023-10-02 12:41:39,844 - OPS.OE.Manifest - DEBUG - Manifest.resequenceManifest
-2023-10-02 12:41:39,901 - OPS.OE.Manifest - DEBUG - Manifest.textManifest
-2023-10-02 12:41:39,924 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.ScannerPropertyChange- Pier Switcher TrainBuilt
-2023-10-02 14:34:05,280 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:34:05,280 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-10-02 14:34:05,296 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 14:34:05,296 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-10-02 14:34:05,296 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Pier Switcher
-2023-10-02 14:34:05,312 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-10-02 14:34:05,312 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 14:34:05,312 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
-2023-10-02 14:34:05,312 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-10-02 14:34:05,328 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
-2023-10-02 14:34:05,328 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Water Street
-2023-10-02 14:34:05,328 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: West Yard
-2023-10-02 14:34:05,328 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-10-02 14:34:05,328 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 14:34:05,328 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@66ac6692]
-2023-10-02 14:34:05,345 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:34:05,345 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:34:05,345 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:34:05,345 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-03 13:25:38,328 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-10-03 13:25:38,344 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-10-03 13:25:38,349 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-10-03 13:25:38,352 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-10-03 13:25:38,357 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-10-03 13:25:38,381 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-03 13:25:38,385 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-03 13:25:38,809 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-10-03 13:25:38,822 - OPS.Main.Controller - INFO - Main script run time (sec): 0.487
+2023-10-03 13:25:40,421 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696364740421,modifiers=Button1] on psButton
+2023-10-03 13:25:40,437 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-03 13:25:40,437 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-03 13:25:40,530 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-10-03 13:25:40,664 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
+2023-10-03 13:25:40,763 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
+2023-10-03 13:25:40,864 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
+2023-10-03 13:25:40,957 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
+2023-10-03 13:25:40,964 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-10-03 13:25:42,420 - OPS.OB.Bundle - INFO - PASS: Translation service check
+2023-10-03 13:25:42,497 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1385,5,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-10-03 13:25:42,545 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:42,545 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:42,545 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:42,561 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:42,561 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-03 13:25:42,561 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
+2023-10-03 13:25:42,561 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:42,561 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
+2023-10-03 13:25:42,575 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Pier Switcher
+2023-10-03 13:25:42,575 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
+2023-10-03 13:25:42,575 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:42,575 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
+2023-10-03 13:25:42,575 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
+2023-10-03 13:25:42,575 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
+2023-10-03 13:25:42,575 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Water Street
+2023-10-03 13:25:42,575 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: West Yard
+2023-10-03 13:25:42,575 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
+2023-10-03 13:25:42,592 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-10-03 13:25:42,598 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-10-03 13:25:42,608 - OPS.PT.Model - DEBUG - trackRowManager
+2023-10-03 13:25:42,638 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:42,654 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Pier Switcher
+2023-10-03 13:25:42,654 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-10-03 13:25:42,670 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:25:47,434 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
+2023-10-03 13:25:47,434 - OPS.o2o.ModelWorkEvents - DEBUG - findNewestTrain
+2023-10-03 13:25:47,434 - OPS.o2o.ModelWorkEvents - DEBUG - getBuiltTrains
+2023-10-03 13:25:47,450 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.jmriManifestGetter
+2023-10-03 13:25:47,450 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertHeader
+2023-10-03 13:25:47,517 - OPS.o2o.ModelWorkEvents - DEBUG - jmriManifestConversion.convertBody
+2023-10-03 13:25:47,529 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oHeader
+2023-10-03 13:25:47,529 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.o2oLocations
+2023-10-03 13:25:47,529 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents.saveList
+2023-10-03 13:25:47,529 - OPS.o2o.ModelEntities - INFO - TrainPlayer destination directory OK
+2023-10-03 13:25:47,529 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.o2oPropertyChange- Pier Switcher TrainBuilt
+2023-10-03 13:25:47,546 - OPS.OE.Manifest - DEBUG - Manifest.extendJmriManifestJson
+2023-10-03 13:25:47,655 - OPS.OE.Manifest - DEBUG - Manifest.resequenceJmriManifest
+2023-10-03 13:25:47,703 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.ScannerPropertyChange- Pier Switcher TrainBuilt
+2023-10-03 13:31:20,917 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-03 13:31:20,918 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
+2023-10-03 13:31:20,918 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:31:20,920 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
+2023-10-03 13:31:20,921 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Pier Switcher
+2023-10-03 13:31:20,923 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
+2023-10-03 13:31:20,923 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:31:20,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
+2023-10-03 13:31:20,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
+2023-10-03 13:31:20,927 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
+2023-10-03 13:31:20,928 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Water Street
+2023-10-03 13:31:20,928 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: West Yard
+2023-10-03 13:31:20,928 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
+2023-10-03 13:31:20,928 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:31:20,928 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@5273c8a7]
+2023-10-03 13:31:20,940 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-03 13:31:20,940 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-03 13:31:20,943 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-03 13:31:20,944 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
