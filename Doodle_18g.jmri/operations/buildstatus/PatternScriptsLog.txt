@@ -1,1129 +1,170 @@
-2023-10-02 14:34:30,898 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-10-02 14:34:30,911 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-10-02 14:34:30,911 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-10-02 14:34:30,911 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-10-02 14:34:30,911 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-10-02 14:34:30,927 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 14:34:30,927 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 14:34:31,305 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-10-02 14:34:31,319 - OPS.Main.Controller - INFO - Main script run time (sec): 0.406
-2023-10-02 14:34:33,803 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696282473804,modifiers=Button1] on psButton
-2023-10-02 14:34:33,829 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 14:34:33,829 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 14:34:33,907 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-02 14:34:33,970 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-02 14:34:34,081 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-02 14:34:34,147 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-02 14:34:34,237 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-02 14:34:34,237 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-02 14:34:35,752 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-02 14:34:35,839 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:34:35,861 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:35,861 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:35,861 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:35,878 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:35,878 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:34:35,878 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-10-02 14:34:35,878 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:35,878 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 67M
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 78P
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13L
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68M
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68Y
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11L
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35T
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35Y
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 15L
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98M
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98Y
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:34:35,892 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13Y
-2023-10-02 14:34:35,907 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33Y
-2023-10-02 14:34:35,907 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11Y
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 99M
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33T
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702Y
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703Y
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 32B
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-10-02 14:34:35,908 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Valley Branch
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Weston Division
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Easton Division
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Northton Division
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Train Service
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Easton
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Valley
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Weston
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Park
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Downtown
-2023-10-02 14:34:35,908 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Midway
-2023-10-02 14:34:35,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: City
-2023-10-02 14:34:35,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Junction
-2023-10-02 14:34:35,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Summit
-2023-10-02 14:34:35,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
-2023-10-02 14:34:35,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Northton
-2023-10-02 14:34:35,924 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-10-02 14:34:35,924 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-02 14:34:35,924 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:34:35,940 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:34:35,971 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:35,971 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 67M
-2023-10-02 14:34:35,971 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 78P
-2023-10-02 14:34:35,971 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13L
-2023-10-02 14:34:35,971 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68M
-2023-10-02 14:34:35,971 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68Y
-2023-10-02 14:34:35,971 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:34:35,971 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11L
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35T
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35Y
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 15L
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98M
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98Y
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13Y
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33Y
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11Y
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 99M
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33T
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702Y
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703Y
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 32B
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 
-2023-10-02 14:34:35,987 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:34:36,003 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-02 14:34:36,019 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:34:47,769 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add New Commit,when=1696282487770,modifiers=Button1] on commit
-2023-10-02 14:35:01,029 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:35:01,045 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:35:01,045 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:35:01,059 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:35:01,069 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:35:05,744 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:35:05,759 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:35:05,759 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:35:05,759 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:35:05,779 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:35:43,717 - OPS.SC.Model - DEBUG - applyScanReport
-2023-10-02 14:35:43,717 - OPS.SC.Model - DEBUG - applyScanReport for scanner: Easton-Arrival
-2023-10-02 14:35:43,717 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1696282543717,modifiers=Button1] on scButton
-2023-10-02 14:37:19,154 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:37:19,158 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:19,158 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:19,158 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:19,158 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:33,384 - OPS.OE.Listeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:37:33,384 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-10-02 14:37:33,384 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:33,384 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-10-02 14:37:33,384 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 67M
-2023-10-02 14:37:33,384 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 78P
-2023-10-02 14:37:33,384 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13L
-2023-10-02 14:37:33,384 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68M
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: City Yardmaster
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11L
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35T
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 15L
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98M
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Northton Division
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Valley Branch
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Easton Division
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Westton Division
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 99M
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33T
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703Y
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 32B
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Downtown Yardmaster
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-10-02 14:37:33,398 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:33,398 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
-2023-10-02 14:37:33,398 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Valley Branch
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Weston Division
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Easton Division
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Northton Division
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Train Service
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Easton
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Valley
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Weston
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Park
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Downtown
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Midway
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: City
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Junction
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Summit
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Northton
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-10-02 14:37:33,414 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:33,414 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:33,427 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:37:33,430 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:37:33,430 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:37:33,430 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:37:34,759 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696282654760,modifiers=Button1] on psButton
-2023-10-02 14:37:34,776 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 14:37:34,776 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 14:37:34,792 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-02 14:37:34,792 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-02 14:37:34,792 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-02 14:37:34,806 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-02 14:37:34,806 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-02 14:37:34,806 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-02 14:37:35,767 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-02 14:37:35,799 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:37:35,799 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:35,799 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:35,799 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:35,815 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:35,815 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:37:35,815 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-10-02 14:37:35,815 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:35,815 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-10-02 14:37:35,815 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 67M
-2023-10-02 14:37:35,815 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 78P
-2023-10-02 14:37:35,815 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13L
-2023-10-02 14:37:35,831 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68M
-2023-10-02 14:37:35,831 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68Y
-2023-10-02 14:37:35,831 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:37:35,831 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11L
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35T
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35Y
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 15L
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98M
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98Y
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13Y
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33Y
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11Y
-2023-10-02 14:37:35,832 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702
-2023-10-02 14:37:35,836 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703
-2023-10-02 14:37:35,838 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:37:35,838 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:37:35,839 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 99M
-2023-10-02 14:37:35,839 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33T
-2023-10-02 14:37:35,841 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702Y
-2023-10-02 14:37:35,841 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703Y
-2023-10-02 14:37:35,841 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 32B
-2023-10-02 14:37:35,842 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 
-2023-10-02 14:37:35,842 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:37:35,842 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-10-02 14:37:35,844 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:35,844 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Valley Branch
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Weston Division
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Easton Division
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Northton Division
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Train Service
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Easton
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Valley
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Weston
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Park
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Downtown
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Midway
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: City
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Junction
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Summit
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Northton
-2023-10-02 14:37:35,845 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-10-02 14:37:35,845 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-02 14:37:35,845 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:37:35,861 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:37:35,877 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 67M
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 78P
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13L
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68M
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68Y
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11L
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35T
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35Y
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 15L
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98M
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98Y
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13Y
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33Y
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11Y
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 99M
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33T
-2023-10-02 14:37:35,877 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702Y
-2023-10-02 14:37:35,892 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703Y
-2023-10-02 14:37:35,892 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 32B
-2023-10-02 14:37:35,892 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 
-2023-10-02 14:37:35,892 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:37:35,892 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-02 14:37:35,892 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:37:45,033 - OPS.SC.Model - DEBUG - applyScanReport
-2023-10-02 14:37:45,049 - OPS.SC.Model - DEBUG - applyScanReport for scanner: Weston-Arrival
-2023-10-02 14:37:45,059 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1696282665034,modifiers=Button1] on scButton
-2023-10-02 14:37:52,576 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:37:52,576 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:37:52,588 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:37:52,588 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:37:52,604 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:37:56,089 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:37:56,089 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:38:30,236 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:38:30,236 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:38:30,236 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:38:30,253 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:38:30,253 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:38:31,786 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:38:31,801 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:38:35,012 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E1,when=1696282715012,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:38:35,562 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E2,when=1696282715563,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:38:36,275 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E3,when=1696282716275,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:38:36,973 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E4,when=1696282716974,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:38:37,729 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1696282717714,modifiers=Button1] on ypButton
-2023-10-02 14:38:37,760 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-10-02 14:38:38,487 - OPS.PT.Model - DEBUG - trackPatternAsCsv
-2023-10-02 14:44:16,424 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:44:16,424 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:16,424 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:16,424 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:16,424 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:18,033 - OPS.OE.Listeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:44:18,033 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-10-02 14:44:18,033 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 67M
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 78P
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13L
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68M
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68Y
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: City Yardmaster
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11L
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35T
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35Y
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 15L
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98M
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98Y
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Northton Division
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Valley Branch
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13Y
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33Y
-2023-10-02 14:44:18,033 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11Y
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Easton Division
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Westton Division
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 99M
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33T
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702Y
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703Y
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 32B
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Downtown Yardmaster
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-10-02 14:44:18,048 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Valley Branch
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Weston Division
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Easton Division
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Northton Division
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Train Service
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Easton
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Valley
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Weston
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Park
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Downtown
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Midway
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: City
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Junction
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Summit
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Northton
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-10-02 14:44:18,048 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:18,048 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:18,048 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:18,048 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:18,048 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:18,048 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:19,285 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696283059285,modifiers=Button1] on psButton
-2023-10-02 14:44:19,295 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 14:44:19,295 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 14:44:19,295 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-02 14:44:19,311 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-02 14:44:19,311 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-02 14:44:19,311 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-02 14:44:19,325 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-02 14:44:19,325 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-02 14:44:20,290 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-02 14:44:20,322 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:44:20,322 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:20,322 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:20,322 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:20,322 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:20,322 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:44:20,338 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-10-02 14:44:20,338 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 67M
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 78P
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13L
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68M
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11L
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35T
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 15L
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98M
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 99M
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33T
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703Y
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 32B
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-10-02 14:44:20,338 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Valley Branch
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Weston Division
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Easton Division
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Northton Division
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Train Service
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Easton
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Valley
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Weston
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Park
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Downtown
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Midway
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: City
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Junction
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Summit
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Northton
-2023-10-02 14:44:20,338 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-10-02 14:44:20,338 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-02 14:44:20,352 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:44:20,352 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:44:20,352 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:20,352 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 67M
-2023-10-02 14:44:20,352 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 78P
-2023-10-02 14:44:20,352 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13L
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68M
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11L
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35T
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 15L
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98M
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 99M
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33T
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703Y
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 32B
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:44:20,368 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-02 14:44:20,368 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:33,766 - OPS.OE.Listeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:44:33,766 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-10-02 14:44:33,766 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 67M
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 78P
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13L
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68M
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: City Yardmaster
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11L
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35T
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 15L
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98M
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Northton Division
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Valley Branch
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Easton Division
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Westton Division
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 99M
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33T
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703Y
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 32B
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Downtown Yardmaster
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-10-02 14:44:33,766 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Valley Branch
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Weston Division
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Easton Division
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Northton Division
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Train Service
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Easton
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Valley
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Weston
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Park
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Downtown
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Midway
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: City
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Junction
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Summit
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Northton
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-10-02 14:44:33,766 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:33,766 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:33,766 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:33,766 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:33,766 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:33,766 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:44:37,273 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696283077273,modifiers=Button1] on psButton
-2023-10-02 14:44:37,273 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 14:44:37,273 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 14:44:37,289 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-02 14:44:37,289 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-02 14:44:37,303 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-02 14:44:37,303 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-02 14:44:37,303 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-02 14:44:37,303 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-02 14:44:38,489 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-02 14:44:38,522 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:44:38,522 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:38,522 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:38,522 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:38,536 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:38,536 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:44:38,536 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-10-02 14:44:38,536 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 67M
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 78P
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13L
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68M
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11L
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35T
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 15L
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98M
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 99M
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33T
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703Y
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 32B
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-10-02 14:44:38,536 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Valley Branch
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Weston Division
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Easton Division
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Northton Division
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Train Service
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Easton
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Valley
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Weston
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Park
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Downtown
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Midway
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: City
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Junction
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Summit
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Northton
-2023-10-02 14:44:38,536 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-10-02 14:44:38,536 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-02 14:44:38,552 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:44:38,552 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:44:38,568 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 67M
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 78P
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13L
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68M
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11L
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35T
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 15L
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98M
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 99M
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33T
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703Y
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 32B
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:44:38,568 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-02 14:44:38,568 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:44:53,299 - OPS.SC.Model - DEBUG - applyScanReport
-2023-10-02 14:44:53,299 - OPS.SC.Model - DEBUG - applyScanReport for scanner: Easton-Arrival 4
-2023-10-02 14:44:53,299 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1696283093299,modifiers=Button1] on scButton
-2023-10-02 14:44:58,063 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:44:58,079 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:44:58,079 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:44:58,079 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:44:58,086 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:45:00,927 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:45:00,941 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:45:02,500 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E4,when=1696283102500,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:45:03,786 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1696283103787,modifiers=Button1] on ypButton
-2023-10-02 14:45:03,802 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-10-02 14:45:03,911 - OPS.PT.Model - DEBUG - trackPatternAsCsv
-2023-10-02 14:46:50,368 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:46:50,368 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:46:50,368 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:46:50,368 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:46:50,372 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:07,644 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:48:07,644 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:07,644 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:07,644 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:07,655 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:12,848 - OPS.OE.Listeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:48:12,862 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-10-02 14:48:12,862 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 67M
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 78P
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13L
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68M
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68Y
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: City Yardmaster
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11L
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35T
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35Y
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 15L
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98M
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98Y
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Northton Division
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Valley Branch
-2023-10-02 14:48:12,862 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13Y
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33Y
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11Y
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Easton Division
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Westton Division
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 99M
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33T
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702Y
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703Y
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 32B
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Downtown Yardmaster
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-10-02 14:48:12,868 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Valley Branch
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Weston Division
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Easton Division
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Northton Division
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Train Service
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Easton
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Valley
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Weston
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Park
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Downtown
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Midway
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: City
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Junction
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Summit
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Northton
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-10-02 14:48:12,868 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:12,868 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:12,878 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:48:12,878 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:48:12,878 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:48:12,878 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:48:14,517 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696283294503,modifiers=Button1] on psButton
-2023-10-02 14:48:14,517 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 14:48:14,517 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 14:48:14,533 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-02 14:48:14,533 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-02 14:48:14,533 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-02 14:48:14,533 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-02 14:48:14,549 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-02 14:48:14,549 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-02 14:48:15,450 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-02 14:48:15,476 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:48:15,482 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:15,482 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:15,482 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:48:15,482 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-10-02 14:48:15,482 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 67M
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 78P
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13L
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68M
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11L
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35T
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 15L
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98M
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 99M
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33T
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703Y
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 32B
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-10-02 14:48:15,482 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Valley Branch
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Weston Division
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Easton Division
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Northton Division
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Train Service
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Easton
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Valley
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Weston
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Park
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Downtown
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Midway
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: City
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Junction
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Summit
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Northton
-2023-10-02 14:48:15,482 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-10-02 14:48:15,482 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-02 14:48:15,496 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:48:15,496 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:48:15,513 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 67M
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 78P
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13L
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68M
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11L
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35T
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 15L
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98M
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 99M
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33T
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703Y
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 32B
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:48:15,513 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-02 14:48:15,513 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:48:22,461 - OPS.SC.Model - DEBUG - applyScanReport
-2023-10-02 14:48:22,471 - OPS.SC.Model - DEBUG - applyScanReport for scanner: Easton-Arrival 1 & 2
-2023-10-02 14:48:22,471 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1696283302462,modifiers=Button1] on scButton
-2023-10-02 14:48:26,138 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:48:26,154 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:48:26,154 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:48:26,154 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:48:26,170 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:48:27,486 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:48:27,496 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:48:29,516 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E1,when=1696283309516,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:48:31,220 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E2,when=1696283311221,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:48:32,377 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1696283312377,modifiers=Button1] on ypButton
-2023-10-02 14:48:32,377 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-10-02 14:48:32,473 - OPS.PT.Model - DEBUG - trackPatternAsCsv
-2023-10-02 14:49:37,361 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:49:37,361 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:49:37,361 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:49:37,361 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:49:37,361 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:49:44,096 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:49:44,105 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:49:44,112 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:49:44,112 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:49:44,112 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:49:45,930 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:49:45,930 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:49:47,214 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=W1,when=1696283387215,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:49:48,089 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=W2,when=1696283388090,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:49:49,038 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1696283389038,modifiers=Button1] on ypButton
-2023-10-02 14:49:49,053 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-10-02 14:49:49,138 - OPS.PT.Model - DEBUG - trackPatternAsCsv
-2023-10-02 14:57:51,946 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:57:51,946 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:51,946 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:51,946 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:51,953 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:52,049 - OPS.OE.Listeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:57:52,049 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-10-02 14:57:52,049 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 67M
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 78P
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13L
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68M
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: City Yardmaster
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11L
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35T
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 15L
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98M
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Northton Division
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Valley Branch
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Easton Division
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Westton Division
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 99M
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33T
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703Y
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 32B
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Downtown Yardmaster
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-10-02 14:57:52,049 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Valley Branch
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Weston Division
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Easton Division
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Northton Division
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Train Service
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Easton
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Valley
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Weston
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Park
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Downtown
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Midway
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: City
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Junction
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Summit
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Northton
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-10-02 14:57:52,049 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:52,049 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:52,065 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:57:52,065 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:57:52,065 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:57:52,065 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 14:57:53,862 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696283873863,modifiers=Button1] on psButton
-2023-10-02 14:57:53,862 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-02 14:57:53,862 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-02 14:57:53,878 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-02 14:57:53,878 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-02 14:57:53,878 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-02 14:57:53,894 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-02 14:57:53,894 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-02 14:57:53,894 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-02 14:57:54,855 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-02 14:57:54,884 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:57:54,884 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:54,884 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:54,887 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:54,890 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:54,890 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:57:54,890 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
-2023-10-02 14:57:54,890 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 67M
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 78P
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13L
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68M
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11L
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35T
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 15L
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98M
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 99M
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33T
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703Y
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 32B
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
-2023-10-02 14:57:54,890 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Valley Branch
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Weston Division
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Easton Division
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Northton Division
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Train Service
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Easton
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Valley
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Weston
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Park
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Downtown
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Midway
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: City
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Junction
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Summit
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Northton
-2023-10-02 14:57:54,890 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
-2023-10-02 14:57:54,890 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-02 14:57:54,903 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:57:54,907 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:57:54,910 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 67M
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 78P
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13L
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68M
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68Y
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: City Yardmaster
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11L
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35T
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35Y
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 15L
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98M
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98Y
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Northton Division
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Valley Branch
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13Y
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33Y
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11Y
-2023-10-02 14:57:54,910 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Easton Division
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Westton Division
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 99M
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33T
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702Y
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703Y
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 32B
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 
-2023-10-02 14:57:54,918 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Downtown Yardmaster
-2023-10-02 14:57:54,918 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-02 14:57:54,924 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:01,108 - OPS.SC.Model - DEBUG - applyScanReport
-2023-10-02 14:58:01,108 - OPS.SC.Model - DEBUG - applyScanReport for scanner: Weston-Arrival 3
-2023-10-02 14:58:01,108 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1696283881096,modifiers=Button1] on scButton
-2023-10-02 14:58:04,030 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:58:04,030 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:58:04,046 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:58:04,046 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:58:04,046 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:58:06,072 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:58:06,072 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:58:07,020 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=W3,when=1696283887021,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:58:07,921 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1696283887921,modifiers=Button1] on ypButton
-2023-10-02 14:58:07,937 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-10-02 14:58:08,003 - OPS.PT.Model - DEBUG - trackPatternAsCsv
-2023-10-02 14:58:10,180 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:58:10,180 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:10,180 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:10,180 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:10,191 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:14,661 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=W2,when=1696283894662,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:58:15,752 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=W1,when=1696283895752,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:58:16,418 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1696283896419,modifiers=Button1] on ypButton
-2023-10-02 14:58:16,430 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-10-02 14:58:16,509 - OPS.PT.Model - DEBUG - trackPatternAsCsv
-2023-10-02 14:58:55,410 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 14:58:55,411 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:55,411 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:55,411 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:55,414 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 14:58:56,519 - OPS.PT.Model - DEBUG - divComboSelected
-2023-10-02 14:58:56,535 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-02 14:58:56,535 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:58:56,535 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:58:56,551 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:58:58,017 - OPS.PT.Model - DEBUG - locComboSelected
-2023-10-02 14:58:58,017 - OPS.PT.Model - DEBUG - trackRowManager
-2023-10-02 14:58:59,039 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=E3,when=1696283939039,modifiers=Button1] on jTrackCheckBox
-2023-10-02 14:58:59,917 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1696283939918,modifiers=Button1] on ypButton
-2023-10-02 14:58:59,933 - OPS.PT.Model - DEBUG - getReportForPrint
-2023-10-02 14:59:00,012 - OPS.PT.Model - DEBUG - trackPatternAsCsv
-2023-10-02 15:03:15,302 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 15:03:15,305 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:15,305 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:15,305 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:15,305 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:16,709 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-02 15:03:16,709 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
-2023-10-02 15:03:16,709 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 67M
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 78P
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13L
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68M
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68Y
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: City Yardmaster
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11L
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35T
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35Y
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 15L
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98M
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98Y
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Northton Division
-2023-10-02 15:03:16,709 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Valley Branch
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13Y
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33Y
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11Y
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Easton Division
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Westton Division
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 99M
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33T
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702Y
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703Y
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 32B
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Downtown Yardmaster
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
-2023-10-02 15:03:16,724 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Valley Branch
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Weston Division
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Easton Division
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Northton Division
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Train Service
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Easton
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Valley
-2023-10-02 15:03:16,724 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Weston
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Park
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Downtown
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Midway
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: City
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Junction
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Summit
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Northton
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
-2023-10-02 15:03:16,740 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:16,740 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@b96fffb]
-2023-10-02 15:03:16,753 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 15:03:16,753 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 15:03:16,753 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
-2023-10-02 15:03:16,756 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-04 13:07:35,086 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-10-04 13:07:35,086 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-10-04 13:07:35,086 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-10-04 13:07:35,086 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-10-04 13:07:35,086 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-10-04 13:07:35,118 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-04 13:07:35,118 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-04 13:07:35,589 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-10-04 13:07:35,621 - OPS.Main.Controller - INFO - Main script run time (sec): 0.503
+2023-10-04 13:07:44,441 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1696450064442,modifiers=Button1] on psButton
+2023-10-04 13:07:44,473 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-04 13:07:44,473 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-04 13:07:44,663 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-10-04 13:07:44,726 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
+2023-10-04 13:07:44,846 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
+2023-10-04 13:07:44,931 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
+2023-10-04 13:07:45,009 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
+2023-10-04 13:07:45,009 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-10-04 13:07:46,930 - OPS.OB.Bundle - INFO - PASS: Translation service check
+2023-10-04 13:07:47,025 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-10-04 13:07:47,104 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:47,104 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:47,104 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:47,153 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-10-04 13:07:47,183 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowActivated; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:47,183 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-04 13:07:47,183 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.addSubroutineListeners
+2023-10-04 13:07:47,183 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:47,183 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsTableListener
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 67M
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 78P
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13L
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68M
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 68Y
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: City Yardmaster
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11L
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35T
+2023-10-04 13:07:47,198 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 35Y
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 15L
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98M
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 98Y
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Northton Division
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Valley Branch
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 13Y
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33Y
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 11Y
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Easton Division
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Westton Division
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 99M
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 33T
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 702Y
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 703Y
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 32B
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: 
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addTrainsListener: Downtown Yardmaster
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.addSubroutineListeners
+2023-10-04 13:07:47,214 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsTableListener
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Valley Branch
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Weston Division
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Easton Division
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addDivisionsListener: Northton Division
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsTableListener
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Train Service
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Easton
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Valley
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Weston
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Park
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Downtown
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Midway
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: City
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Junction
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Summit
+2023-10-04 13:07:47,230 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Unreported
+2023-10-04 13:07:47,246 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addLocationsListener: Northton
+2023-10-04 13:07:47,246 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.addSubroutineListeners
+2023-10-04 13:07:47,246 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-10-04 13:07:47,246 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-10-04 13:07:47,279 - OPS.PT.Model - DEBUG - trackRowManager
+2023-10-04 13:07:47,331 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowOpened; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 67M
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 78P
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13L
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68M
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 68Y
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: City Yardmaster
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11L
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35T
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 35Y
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 15L
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98M
+2023-10-04 13:07:47,331 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 98Y
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Northton Division
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Valley Branch
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 13Y
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33Y
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 11Y
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Easton Division
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Westton Division
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 99M
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 33T
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 702Y
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 703Y
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 32B
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: 
+2023-10-04 13:07:47,342 - OPS.SC.Listeners - DEBUG - Scanner.Listeners.addTrainsListener: Downtown Yardmaster
+2023-10-04 13:07:47,362 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-10-04 13:07:52,276 - OPS.OE.Listeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-04 13:07:52,276 - OPS.JP.Listeners - DEBUG - jPlus.Listeners.removeSubroutineListeners
+2023-10-04 13:07:52,276 - OPS.JP.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:52,279 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsTableListener
+2023-10-04 13:07:52,279 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 67M
+2023-10-04 13:07:52,279 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 78P
+2023-10-04 13:07:52,279 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13L
+2023-10-04 13:07:52,279 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68M
+2023-10-04 13:07:52,279 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 68Y
+2023-10-04 13:07:52,279 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: City Yardmaster
+2023-10-04 13:07:52,289 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11L
+2023-10-04 13:07:52,289 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35T
+2023-10-04 13:07:52,289 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 35Y
+2023-10-04 13:07:52,292 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 15L
+2023-10-04 13:07:52,292 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98M
+2023-10-04 13:07:52,292 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 98Y
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Northton Division
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Valley Branch
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 13Y
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33Y
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 11Y
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Easton Division
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Westton Division
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 99M
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 33T
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 702Y
+2023-10-04 13:07:52,295 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 703Y
+2023-10-04 13:07:52,309 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 32B
+2023-10-04 13:07:52,309 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: 
+2023-10-04 13:07:52,309 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeTrainsListener: Downtown Yardmaster
+2023-10-04 13:07:52,313 - OPS.o2o.Listeners - DEBUG - o2o.Listeners.removeSubroutineListeners
+2023-10-04 13:07:52,313 - OPS.o2o.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:52,313 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsTableListener
+2023-10-04 13:07:52,313 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Valley Branch
+2023-10-04 13:07:52,313 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Weston Division
+2023-10-04 13:07:52,313 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Easton Division
+2023-10-04 13:07:52,313 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeDivisionsListener: Northton Division
+2023-10-04 13:07:52,313 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsTableListener
+2023-10-04 13:07:52,325 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Train Service
+2023-10-04 13:07:52,325 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Easton
+2023-10-04 13:07:52,339 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Valley
+2023-10-04 13:07:52,342 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Weston
+2023-10-04 13:07:52,342 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Park
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Downtown
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Midway
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: City
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Junction
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Summit
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Unreported
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeLocationsListener: Northton
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - Patterns.Listeners.removeSubroutineListeners
+2023-10-04 13:07:52,344 - OPS.PT.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:52,344 - OPS.SC.Listeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=windowClosing; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@42e25a70]
+2023-10-04 13:07:52,361 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-04 13:07:52,361 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-04 13:07:52,361 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-04 13:07:52,361 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
