@@ -6,7 +6,7 @@
         "402": "402 - Requested page not found", 
         "403": "403 - Forbidden. The key is invalid."
       }, 
-      "EH": true, 
+      "EH": false, 
       "EO": {
         "CA": "utf-8", 
         "CB": "ascii", 
@@ -15,11 +15,11 @@
       }, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 588, 
+      "PH": 280, 
       "PW": 1000, 
-      "PX": 2, 
-      "PY": 448, 
-      "RV": 20231002, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20231003, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -28,14 +28,14 @@
       }
     }, 
     "LD": {
-      "BD": "10/16/2023-15:22:50", 
-      "JN": "Metropolitian Harbor Railroad\nMetropolitian Union Transfer Terminal\nWest Pier District", 
-      "LN": "Metropolitan Union Transfer Terminal", 
-      "LO": "West Pier District", 
-      "OR": "Metropolitian Harbor Railroad", 
-      "SC": "HO", 
-      "TR": "Metropolitian Union Transfer Terminal", 
-      "YR": "1915"
+      "BD": "", 
+      "JN": "", 
+      "LN": "", 
+      "LO": "", 
+      "OR": "", 
+      "SC": "", 
+      "TR": "", 
+      "YR": ""
     }, 
     "SL": [
       "o2o", 
@@ -157,9 +157,9 @@
     "PI": true, 
     "PL": "Water St", 
     "PT": {
-      "4th Street Pier": false, 
+      "4th Street Pier": true, 
       "Bulk Material Wharf": true, 
-      "Gantry Crane": false, 
+      "Gantry Crane": true, 
       "Mother Schuckers": false, 
       "Water Street Stores": false
     }, 
@@ -177,20 +177,16 @@
       "FD": "Unconsigned", 
       "FT": "No Waybill", 
       "HCP": " [ ] Hold", 
-      "SC": [
-        "Load_Type", 
-        "FD&Track"
-      ], 
-      "SL": [
-        "Model"
-      ]
-    }
-  }, 
-  "Scanner": {
-    "SI": null, 
-    "SV": true, 
-    "US": {
-      "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
+      "SC": {
+        "destination userName": 0, 
+        "division": 0, 
+        "finalDestination userName": 1, 
+        "loadType": 2, 
+        "road": 0
+      }, 
+      "SL": {
+        "model": 1
+      }
     }
   }, 
   "Throwback": {
@@ -200,10 +196,6 @@
         ""
       ]
     ], 
-    "SV": true, 
-    "US": {}
-  }, 
-  "jPlus": {
     "SV": true, 
     "US": {}
   }, 
