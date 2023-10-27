@@ -1,4 +1,4 @@
-1- Build Report for train (Pier Switcher) built on 10/25/23, 2:03 PM
+1- Build Report for train (Pier Switcher) built on 10/27/23, 12:01 PM
 1- JMRI version 5.2+R760b98537f
 3- Build report detail level: Normal
 5- Build report detail level: Detailed
@@ -144,14 +144,7 @@
 5- Car (PL 44011) assigned to staging track (Street Tracks)
 3- Car (PL 44011) assigned to train, destination (West Yard, Street Tracks)
 3-  
-5- Find spur for car (P&R 54488) type (FP4) custom load (lumber) at (Water St, 4th Street Pier)
-7- Spur (Water St, Bulk Material Wharf) can't service car (P&R 54488) with load (lumber) due to type (FP4)
-7- Spur (Water St, Mother Schuckers) can't service car (P&R 54488) with load (lumber) due to type (FP4)
-7- Spur (Water St, Gantry Crane) can't service car (P&R 54488) with load (lumber) due to schedule no match
-7- Spur (Water St, Water Street Stores) can't service car (P&R 54488) with load (lumber) due to type (FP4)
-7- Could not find a reachable spur for car (P&R 54488) load (lumber)
-5- Try to send car (P&R 54488) custom load (lumber) to staging
-7- Staging (West Yard, Street Tracks) can accept car's load (lumber)
+5- Car (P&R 54488) type (FP4) load (lumber) at (Water St, 4th Street Pier) has final destination (West Yard, ) routing begins
 7- Train (Pier Switcher) can transport car (P&R 54488) from spur (Water St, 4th Street Pier) to (West Yard, )
 7- Route for car (P&R 54488): (Water St, 4th Street Pier)->(West Yard, )
 7- Car (P&R 54488) load (lumber) has assigned destination (West Yard, )
@@ -258,20 +251,15 @@
 7- Car (FGEX 9489) load (Empty) has assigned destination (Water St, Mother Schuckers)
 3- Car (FGEX 9489) assigned to train, destination (Water St, Mother Schuckers)
 3-  
-5- Find spur for car (PL 3265) type (XP3) custom load (Break Bulk) at (Water St, 4th Street Pier)
-7- Spur (Water St, Bulk Material Wharf) can't service car (PL 3265) with load (Break Bulk) due to type (XP3)
-7- Spur (Water St, Mother Schuckers) can't service car (PL 3265) with load (Break Bulk) due to schedule no match
-7- Spur (Water St, Gantry Crane) can't service car (PL 3265) with load (Break Bulk) due to type (XP3)
-7- Spur (Water St, Water Street Stores) can't service car (PL 3265) with load (Break Bulk) due to schedule no match
-7- Could not find a reachable spur for car (PL 3265) load (Break Bulk)
-5- Try to send car (PL 3265) custom load (Break Bulk) to staging
-7- Staging (West Yard, Street Tracks) can accept car's load (Break Bulk)
-7- Train (Pier Switcher) can transport car (PL 3265) from spur (Water St, 4th Street Pier) to (West Yard, )
-7- Route for car (PL 3265): (Water St, 4th Street Pier)->(West Yard, )
-7- Car (PL 3265) load (Break Bulk) has assigned destination (West Yard, )
-5- Car (PL 3265) doesn't have an assigned destination track
-5- Car (PL 3265) assigned to staging track (Street Tracks)
-3- Car (PL 3265) assigned to train, destination (West Yard, Street Tracks)
+5- Find spur for car (PL 3265) type (XP3) custom empty (Empty) at (Water St, 4th Street Pier)
+7- Spur (Water St, Bulk Material Wharf) can't service car (PL 3265) with load (Empty) due to type (XP3)
+7- Spur at (Water St, Mother Schuckers) is full, no alternate track
+7- Spur (Water St, Gantry Crane) can't service car (PL 3265) with load (Empty) due to type (XP3)
+7- Try spur (Water St, Water Street Stores) for car (PL 3265) with load (Empty) 
+7- Train (Pier Switcher) can transport car (PL 3265) from spur (Water St, 4th Street Pier) to (Water St, Water Street Stores)
+7- Route for car (PL 3265): (Water St, 4th Street Pier)->(Water St, Water Street Stores)
+7- Car (PL 3265) load (Empty) has assigned destination (Water St, Water Street Stores)
+3- Car (PL 3265) assigned to train, destination (Water St, Water Street Stores)
 3-  
 5- Find spur for car (PL 6762) type (FP3) custom load (lumber) at (Water St, 4th Street Pier)
 7- Spur (Water St, Bulk Material Wharf) can't service car (PL 6762) with load (lumber) due to type (FP3)
@@ -288,14 +276,7 @@
 5- Car (PL 6762) assigned to staging track (Street Tracks)
 3- Car (PL 6762) assigned to train, destination (West Yard, Street Tracks)
 3-  
-5- Find spur for car (PRR 3990) type (TPO) custom empty (Empty) at (Water St, 4th Street Pier)
-7- Spur (Water St, Bulk Material Wharf) can't service car (PRR 3990) with load (Empty) due to type (TPO)
-7- Spur (Water St, Mother Schuckers) can't service car (PRR 3990) with load (Empty) due to type (TPO)
-7- Spur (Water St, Gantry Crane) can't service car (PRR 3990) with load (Empty) due to type (TPO)
-7- Spur (Water St, Water Street Stores) can't service car (PRR 3990) with load (Empty) due to type (TPO)
-7- Could not find a reachable spur for car (PRR 3990) load (Empty)
-5- Try to send car (PRR 3990) custom load (Empty) to staging
-7- Staging (West Yard, Street Tracks) can accept car's load (Empty)
+5- Car (PRR 3990) type (TPO) load (Empty) at (Water St, 4th Street Pier) has final destination (West Yard, ) routing begins
 7- Train (Pier Switcher) can transport car (PRR 3990) from spur (Water St, 4th Street Pier) to (West Yard, )
 7- Route for car (PRR 3990): (Water St, 4th Street Pier)->(West Yard, )
 7- Car (PRR 3990) load (Empty) has assigned destination (West Yard, )
@@ -318,17 +299,17 @@
 5- Car (ER 2050) assigned to staging track (Street Tracks)
 3- Car (ER 2050) assigned to train, destination (West Yard, Street Tracks)
 3-  
-5- Find spur for car (LV 1748) type (XPV) custom load (Break Bulk) at (Water St, 4th Street Pier)
-7- Spur (Water St, Bulk Material Wharf) can't service car (LV 1748) with load (Break Bulk) due to type (XPV)
-7- Spur (Water St, Mother Schuckers) can't service car (LV 1748) with load (Break Bulk) due to schedule no match
-7- Spur (Water St, Gantry Crane) can't service car (LV 1748) with load (Break Bulk) due to type (XPV)
-7- Spur (Water St, Water Street Stores) can't service car (LV 1748) with load (Break Bulk) due to schedule no match
-7- Could not find a reachable spur for car (LV 1748) load (Break Bulk)
-5- Try to send car (LV 1748) custom load (Break Bulk) to staging
-7- Staging (West Yard, Street Tracks) can accept car's load (Break Bulk)
+5- Find spur for car (LV 1748) type (XPV) custom empty (Empty) at (Water St, 4th Street Pier)
+7- Spur (Water St, Bulk Material Wharf) can't service car (LV 1748) with load (Empty) due to type (XPV)
+7- Spur at (Water St, Mother Schuckers) is full, no alternate track
+7- Spur (Water St, Gantry Crane) can't service car (LV 1748) with load (Empty) due to type (XPV)
+7- Spur (Water St, Water Street Stores) can't service car (LV 1748) with load (Empty) due to schedule no match
+7- Could not find a reachable spur for car (LV 1748) load (Empty)
+5- Try to send car (LV 1748) custom load (Empty) to staging
+7- Staging (West Yard, Street Tracks) can accept car's load (Empty)
 7- Train (Pier Switcher) can transport car (LV 1748) from spur (Water St, 4th Street Pier) to (West Yard, )
 7- Route for car (LV 1748): (Water St, 4th Street Pier)->(West Yard, )
-7- Car (LV 1748) load (Break Bulk) has assigned destination (West Yard, )
+7- Car (LV 1748) load (Empty) has assigned destination (West Yard, )
 5- Car (LV 1748) doesn't have an assigned destination track
 5- Car (LV 1748) assigned to staging track (Street Tracks)
 3- Car (LV 1748) assigned to train, destination (West Yard, Street Tracks)
@@ -341,11 +322,13 @@
 7- Could not find a reachable spur for car (ACL 4430) load (Break Bulk)
 5- Try to send car (ACL 4430) custom load (Break Bulk) to staging
 7- Staging (West Yard, Street Tracks) can accept car's load (Break Bulk)
-7- Train (Pier Switcher) can't transport car (ACL 4430) to (West Yard, ) due to rolling stock length 44 feet, available track space 
-7- 0 feet 
-7- Couldn't find staging that would accept car (ACL 4430) and load (Break Bulk)
-5- Did not assign a destination for car (ACL 4430)
-5-  
+7- Train (Pier Switcher) can transport car (ACL 4430) from spur (Water St, 4th Street Pier) to (West Yard, )
+7- Route for car (ACL 4430): (Water St, 4th Street Pier)->(West Yard, )
+7- Car (ACL 4430) load (Break Bulk) has assigned destination (West Yard, )
+5- Car (ACL 4430) doesn't have an assigned destination track
+5- Car (ACL 4430) assigned to staging track (Street Tracks)
+3- Car (ACL 4430) assigned to train, destination (West Yard, Street Tracks)
+3-  
 5- Find spur for car (ER 1824) type (GPx) custom empty (Empty) at (Water St, Gantry Crane)
 7- Spur at (Water St, Bulk Material Wharf) is full, no alternate track
 7- Spur (Water St, Mother Schuckers) can't service car (ER 1824) with load (Empty) due to type (GPx)
@@ -408,7 +391,7 @@
 7- Couldn't find staging that would accept car (AT&SF 0191) and load (Gravel)
 5- Did not assign a destination for car (AT&SF 0191)
 5-  
-1- Partial 16/25 cars at location (Water St) assigned to train (Pier Switcher)
+1- Partial 17/25 cars at location (Water St) assigned to train (Pier Switcher)
 1- Route location (West Yard) id 2r5 no pick ups
 3-  
 3- Multiple pass build (Aggressive Mode), begin 2 of 2 passes
@@ -603,20 +586,7 @@
 3-  
 1- Success 12/12 cars at location (West Yard) assigned to train (Pier Switcher)
 7-  
-1- Route location (Water St) id 2r7 requests 22 pick ups, 22/50 moves are available
-5-  
-5- Find spur for car (ACL 4430) type (XP3) custom load (Break Bulk) at (Water St, 4th Street Pier)
-7- Spur (Water St, Bulk Material Wharf) can't service car (ACL 4430) with load (Break Bulk) due to type (XP3)
-7- Spur (Water St, Mother Schuckers) can't service car (ACL 4430) with load (Break Bulk) due to schedule no match
-7- Spur (Water St, Gantry Crane) can't service car (ACL 4430) with load (Break Bulk) due to type (XP3)
-7- Spur (Water St, Water Street Stores) can't service car (ACL 4430) with load (Break Bulk) due to schedule no match
-7- Could not find a reachable spur for car (ACL 4430) load (Break Bulk)
-5- Try to send car (ACL 4430) custom load (Break Bulk) to staging
-7- Staging (West Yard, Street Tracks) can accept car's load (Break Bulk)
-7- Train (Pier Switcher) can't transport car (ACL 4430) to (West Yard, ) due to rolling stock length 44 feet, available track space 
-7- 0 feet 
-7- Couldn't find staging that would accept car (ACL 4430) and load (Break Bulk)
-5- Did not assign a destination for car (ACL 4430)
+1- Route location (Water St) id 2r7 requests 21 pick ups, 21/50 moves are available
 5-  
 5- Find spur for car (B&O 6992) type (FP4) custom load (lumber) at (Water St, 4th Street Pier)
 7- Spur (Water St, Bulk Material Wharf) can't service car (B&O 6992) with load (lumber) due to type (FP4)
@@ -670,8 +640,8 @@
 7- Couldn't find staging that would accept car (AT&SF 0191) and load (Gravel)
 5- Did not assign a destination for car (AT&SF 0191)
 5-  
-1- Partial 0/22 cars at location (Water St) assigned to train (Pier Switcher)
+1- Partial 0/21 cars at location (Water St) assigned to train (Pier Switcher)
 1- Route location (West Yard) id 2r5 no pick ups
-1- Partial 28/37 cars
+1- Partial 29/37 cars
 1- Build report for train (Pier Switcher) has 1 warnings
-5- Build for train (Pier Switcher) took 130 mSec
+5- Build for train (Pier Switcher) took 102 mSec
