@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Oct 25 17:14:49 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Oct 26 16:47:57 PDT 2023-->
   <operations>
     <setup comment="" />
     <settings mainMenu="true" closeOnSave="true" autoSave="true" autoBackup="false" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="ARR Codes" switchTime="3" travelTime="4" showValue="false" valueLabel="Value" showRfid="false" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="1915" />
@@ -10,12 +10,12 @@
     <dropEngFormat prefix=" [ ] Set out" setting="Road,Number,Model,Consist,Destination," />
     <pickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Hazardous,Destination," />
     <dropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Hazardous,Dest&amp;Track," />
-    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest," />
+    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest,Dest&amp;Track," />
     <missingCarFormat prefix="" setting="Road,Number,Type,Length,Color,Comment," />
     <switchList sameAsManifest="true" realTime="true" allTrains="true" pageMode="true" pageFormat="pagePerTrain" printRouteLocation="true" trackSummary="true" />
     <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Hazardous,Destination," />
     <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Hazardous,Dest&amp;Track," />
-    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest," />
+    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest,Dest&amp;Track," />
     <panel name="Panel" trainIconXY="true" trainIconAppend="false" />
     <fontName name="Monospaced" />
     <fontSize size="10" />
