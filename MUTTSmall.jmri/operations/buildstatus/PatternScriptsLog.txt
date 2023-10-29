@@ -1,75 +1,53 @@
-2023-10-27 13:33:41,930 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-10-27 13:33:41,947 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-10-27 13:33:41,947 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-10-27 13:33:41,947 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-10-27 13:33:41,947 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-10-27 13:33:41,983 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-27 13:33:41,986 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-27 13:33:42,407 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-10-27 13:33:42,447 - OPS.Main.Controller - INFO - Main script run time (sec): 0.492
-2023-10-27 13:33:43,765 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1698438823765,modifiers=Button1] on psButton
-2023-10-27 13:33:43,782 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-27 13:33:43,782 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-27 13:33:43,924 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-27 13:33:43,986 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-27 13:33:44,095 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-27 13:33:44,194 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-27 13:33:44,204 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-27 13:33:45,799 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-27 13:33:45,882 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1382,11,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-27 13:33:45,931 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-27 13:33:45,937 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-10-27 13:33:45,938 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-10-27 13:33:45,940 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
-2023-10-27 13:33:45,941 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-10-27 13:33:45,941 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
-2023-10-27 13:33:45,943 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-10-27 13:33:45,943 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-10-27 13:33:45,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-10-27 13:33:45,950 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-27 13:33:45,957 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-27 13:33:45,963 - OPS.PT.Model - DEBUG - makeTrackRows
-2023-10-27 13:33:50,217 - OPS.JP.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update,when=1698438830218,modifiers=Button1] on update
-2023-10-27 13:33:50,233 - OPS.JP.Model - DEBUG - extendedRailroadDetails
-2023-10-27 13:33:50,233 - OPS.OE.PSE - DEBUG - PSE.makeCompositRailroadName
-2023-10-27 13:33:50,233 - OPS.JP.Model - DEBUG - updateYearModeled
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-10-27 13:33:52,588 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
-2023-10-27 13:33:53,523 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1698438833523,modifiers=Button1] on psButton
-2023-10-27 13:33:53,539 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-27 13:33:53,539 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-27 13:33:53,553 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-10-27 13:33:53,556 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-27 13:33:53,556 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-27 13:33:53,571 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-10-27 13:33:53,571 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-27 13:33:54,576 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-27 13:33:54,632 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1382,11,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-10-27 13:33:54,645 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-10-27 13:33:54,663 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-27 13:33:54,663 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-27 13:33:54,663 - OPS.PT.Model - DEBUG - makeTrackRows
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-10-27 13:34:46,494 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-10-28 21:24:29,447 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-10-28 21:24:29,450 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-10-28 21:24:29,450 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-10-28 21:24:29,450 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-10-28 21:24:29,450 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-10-28 21:24:29,499 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-28 21:24:29,506 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-28 21:24:30,059 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-10-28 21:24:30,092 - OPS.Main.Controller - INFO - Main script run time (sec): 0.628
+2023-10-28 21:24:31,763 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1698553471763,modifiers=Button1] on psButton
+2023-10-28 21:24:31,809 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-28 21:24:31,809 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-28 21:24:31,937 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-10-28 21:24:32,016 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
+2023-10-28 21:24:32,119 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
+2023-10-28 21:24:32,207 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
+2023-10-28 21:24:32,214 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-10-28 21:24:34,081 - OPS.OB.Bundle - INFO - PASS: Translation service check
+2023-10-28 21:24:34,223 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-28 21:24:34,239 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
+2023-10-28 21:24:34,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
+2023-10-28 21:24:34,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
+2023-10-28 21:24:34,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
+2023-10-28 21:24:34,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
+2023-10-28 21:24:34,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
+2023-10-28 21:24:34,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
+2023-10-28 21:24:34,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
+2023-10-28 21:24:34,269 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-10-28 21:24:34,286 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-10-28 21:24:34,286 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-10-28 21:24:40,523 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-28 21:24:40,696 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-28 21:24:40,743 - OPS.OE.TextReports - DEBUG - opsTextManifest
+2023-10-28 21:24:40,914 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-28 21:24:40,947 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-28 21:24:40,954 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-28 21:24:42,048 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
+2023-10-28 21:24:57,757 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-28 21:24:57,759 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
+2023-10-28 21:24:57,763 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
+2023-10-28 21:24:57,788 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
+2023-10-28 21:24:57,788 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
+2023-10-28 21:24:57,803 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
+2023-10-28 21:24:57,803 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
+2023-10-28 21:24:57,803 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street Stores
+2023-10-28 21:24:57,803 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th Street Pier
+2023-10-28 21:24:57,803 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
+2023-10-28 21:24:57,811 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-10-28 21:24:57,811 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
+2023-10-28 21:24:57,811 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Street Tracks
+2023-10-28 21:24:57,811 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
+2023-10-28 21:24:57,811 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
+2023-10-28 21:24:57,811 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
