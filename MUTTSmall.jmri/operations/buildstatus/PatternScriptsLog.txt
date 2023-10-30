@@ -1,58 +1,161 @@
-2023-10-30 10:14:45,401 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-10-30 10:14:45,417 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-10-30 10:14:45,417 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-10-30 10:14:45,417 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-10-30 10:14:45,417 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-10-30 10:14:45,466 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-30 10:14:45,471 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-30 10:14:45,993 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-10-30 10:14:46,020 - OPS.Main.Controller - INFO - Main script run time (sec): 0.597
-2023-10-30 10:14:47,786 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1698686087786,modifiers=Button1] on psButton
-2023-10-30 10:14:47,818 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-10-30 10:14:47,818 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-10-30 10:14:47,946 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-10-30 10:14:48,079 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-10-30 10:14:48,145 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-10-30 10:14:48,145 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-10-30 10:14:49,999 - OPS.OB.Bundle - INFO - PASS: Translation service check
-2023-10-30 10:14:50,125 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-10-30 10:14:50,157 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-10-30 10:14:50,157 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-10-30 10:14:50,188 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-10-30 10:14:50,188 - OPS.PT.Model - DEBUG - makeTrackRows
-2023-10-30 10:14:50,250 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-10-30 10:15:05,809 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:05,888 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:05,967 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:06,094 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:06,188 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:06,204 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
-2023-10-30 10:15:06,361 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:06,377 - OPS.OE.TextReports - DEBUG - opsJmriManifest
-2023-10-30 10:15:06,392 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:06,408 - OPS.OE.TextReports - DEBUG - opsJmriManifest
-2023-10-30 10:15:06,424 - OPS.OE.PSE - DEBUG - findNewestTrain
-2023-10-30 10:15:07,592 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
-2023-10-30 10:16:07,414 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-10-30 10:16:07,414 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
-2023-10-30 10:16:07,428 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street Stores
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th Street Pier
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
-2023-10-30 10:16:07,444 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Street Tracks
-2023-10-30 10:16:07,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-10-30 10:16:07,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-10-30 10:16:07,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-10-30 12:26:56,605 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-10-30 12:26:56,644 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-10-30 12:26:56,644 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-10-30 12:26:56,664 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-10-30 12:26:56,668 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-10-30 12:26:56,700 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-30 12:26:56,700 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-30 12:26:57,283 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-10-30 12:26:57,315 - OPS.Main.Controller - INFO - Main script run time (sec): 0.686
+2023-10-30 12:26:59,122 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1698694019123,modifiers=Button1] on psButton
+2023-10-30 12:26:59,154 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-10-30 12:26:59,174 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-10-30 12:26:59,325 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
+2023-10-30 12:26:59,473 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
+2023-10-30 12:26:59,555 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
+2023-10-30 12:26:59,565 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-10-30 12:27:01,494 - OPS.OB.Bundle - INFO - PASS: Translation service check
+2023-10-30 12:27:01,628 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-30 12:27:01,660 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
+2023-10-30 12:27:01,660 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
+2023-10-30 12:27:01,668 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
+2023-10-30 12:27:01,674 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
+2023-10-30 12:27:01,674 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
+2023-10-30 12:27:01,674 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
+2023-10-30 12:27:01,678 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
+2023-10-30 12:27:01,680 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
+2023-10-30 12:27:01,681 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-10-30 12:27:01,703 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-10-30 12:27:01,720 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-10-30 12:27:01,776 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-10-30 12:27:03,983 - OPS.PT.Model - DEBUG - locComboSelected
+2023-10-30 12:27:04,000 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-10-30 12:27:05,170 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=4th Street Pier,when=1698694025170,modifiers=Button1] on jTrackCheckBox
+2023-10-30 12:27:06,986 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1698694026986,modifiers=Button1] on ypButton
+2023-10-30 12:27:07,052 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-10-30 12:27:08,312 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsPatternReport
+2023-10-30 12:27:26,342 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1698694046342,modifiers=Button1] on scButton
+2023-10-30 12:27:26,371 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-10-30 12:27:26,371 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-10-30 12:27:26,418 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-10-30 12:27:26,434 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-10-30 12:27:26,496 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 4th Street Pier
+2023-10-30 12:27:32,917 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=+ Switch List,when=1698694052917,modifiers=Button1] on javax.swing.JButton[,36,21,93x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=+ Switch List,defaultCapable=true]
+2023-10-30 12:27:32,947 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:27:32,963 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:27:32,973 - OPS.OE.TextReports - DEBUG - opsTextSwitchList
+2023-10-30 12:27:33,082 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsSwitchList
+2023-10-30 12:27:52,632 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=+ Switch List,when=1698694072633,modifiers=Button1] on javax.swing.JButton[,36,21,93x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=+ Switch List,defaultCapable=true]
+2023-10-30 12:27:52,632 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:27:52,657 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:27:52,663 - OPS.OE.TextReports - DEBUG - opsTextSwitchList
+2023-10-30 12:27:52,760 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsSwitchList
+2023-10-30 12:28:02,338 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=+ Switch List,when=1698694082339,modifiers=Button1] on javax.swing.JButton[,36,21,93x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=+ Switch List,defaultCapable=true]
+2023-10-30 12:28:02,338 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:28:02,361 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:28:02,361 - OPS.OE.TextReports - DEBUG - opsTextSwitchList
+2023-10-30 12:28:02,453 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsSwitchList
+2023-10-30 12:28:46,894 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:46,973 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:47,020 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:47,153 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:47,226 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:47,243 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:28:47,259 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:47,275 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:28:47,305 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:47,322 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:28:47,338 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:28:47,431 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
+2023-10-30 12:32:36,408 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1698694356409,modifiers=Button1] on scButton
+2023-10-30 12:32:36,423 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-10-30 12:32:36,423 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-10-30 12:32:36,466 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-10-30 12:32:36,470 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-10-30 12:32:36,506 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 4th Street Pier
+2023-10-30 12:32:43,677 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=+ Switch List,when=1698694363677,modifiers=Button1] on javax.swing.JButton[,36,21,93x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=+ Switch List,defaultCapable=true]
+2023-10-30 12:32:43,677 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:32:43,693 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:32:43,707 - OPS.OE.TextReports - DEBUG - opsTextSwitchList
+2023-10-30 12:32:43,809 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsSwitchList
+2023-10-30 12:33:32,072 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=+ Switch List,when=1698694412072,modifiers=Button1] on javax.swing.JButton[,36,21,93x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=+ Switch List,defaultCapable=true]
+2023-10-30 12:33:32,072 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:33:32,091 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:33:32,102 - OPS.OE.TextReports - DEBUG - opsTextSwitchList
+2023-10-30 12:33:32,200 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsSwitchList
+2023-10-30 12:35:21,180 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,211 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,288 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,339 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,371 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,388 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:35:21,403 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,418 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:35:21,434 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,450 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:35:21,483 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:35:21,561 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
+2023-10-30 12:36:31,625 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:31,690 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:31,736 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:31,799 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:31,831 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:31,831 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:36:31,831 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:31,862 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:36:31,878 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:31,924 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:36:31,940 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:36:32,019 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
+2023-10-30 12:46:45,369 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,398 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,433 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,532 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,569 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,585 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:46:45,585 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,601 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:46:45,601 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,617 - OPS.OE.TextReports - DEBUG - opsJmriManifest
+2023-10-30 12:46:45,631 - OPS.OE.PSE - DEBUG - findNewestTrain
+2023-10-30 12:46:45,710 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- Pier Switcher TrainBuilt
+2023-10-30 12:46:51,292 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1698695211293,modifiers=Button1] on scButton
+2023-10-30 12:46:51,309 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-10-30 12:46:51,323 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-10-30 12:46:51,345 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-10-30 12:46:51,345 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-10-30 12:46:51,371 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 4th Street Pier
+2023-10-30 12:46:57,621 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=+ Switch List,when=1698695217622,modifiers=Button1] on javax.swing.JButton[,36,21,93x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=+ Switch List,defaultCapable=true]
+2023-10-30 12:46:57,621 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:46:57,644 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
+2023-10-30 12:46:57,644 - OPS.OE.TextReports - DEBUG - opsTextSwitchList
+2023-10-30 12:46:57,739 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsSwitchList
+2023-10-30 12:48:41,898 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1698695321898,modifiers=Button1] on javax.swing.JButton[,36,21,153x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Set Rolling Stock to Track,defaultCapable=true]
+2023-10-30 12:48:41,898 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:48:52,551 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1698695332551,modifiers=Button1] on javax.swing.JButton[,36,21,153x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@ad5cf9d,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Set Rolling Stock to Track,defaultCapable=true]
+2023-10-30 12:48:52,551 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-10-30 12:49:05,141 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Bulk Material Wharf,when=1698695345141,modifiers=Button1] on jTrackCheckBox
+2023-10-30 12:49:05,737 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Track Inquiry,when=1698695345738,modifiers=Button1] on ypButton
+2023-10-30 12:49:05,769 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-10-30 12:49:05,867 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.TrainsPropertyChange- jmri.jmrit.operations.trains.TrainManager@47c6fdc7 opsPatternReport
+2023-10-30 12:49:40,374 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-10-30 12:49:40,377 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
+2023-10-30 12:49:40,378 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
+2023-10-30 12:49:40,384 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
+2023-10-30 12:49:40,384 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
+2023-10-30 12:49:40,384 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
+2023-10-30 12:49:40,384 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
+2023-10-30 12:49:40,384 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street Stores
+2023-10-30 12:49:40,388 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th Street Pier
+2023-10-30 12:49:40,390 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
+2023-10-30 12:49:40,392 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-10-30 12:49:40,392 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
+2023-10-30 12:49:40,394 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Street Tracks
+2023-10-30 12:49:40,395 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
+2023-10-30 12:49:40,398 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
+2023-10-30 12:49:40,398 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-10-30 12:49:40,404 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-30 12:49:40,405 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-30 12:49:40,405 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-30 12:49:40,405 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-10-30 12:49:40,405 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
