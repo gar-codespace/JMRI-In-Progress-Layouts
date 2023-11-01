@@ -4,7 +4,8 @@
       "EC": {
         "400": "400 - Bad Request: Unable to translate the current language.", 
         "402": "402 - Requested page not found", 
-        "403": "403 - Forbidden. The key is invalid."
+        "403": "403 - Forbidden. The key is invalid.", 
+        "456": "456 - Usage limits exceeded."
       }, 
       "EO": {
         "CA": "utf-8", 
@@ -15,11 +16,11 @@
       "ER": true, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 502, 
+      "PH": 280, 
       "PW": 1000, 
-      "PX": 23, 
-      "PY": 364, 
-      "RV": 20231006, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20231007, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -28,9 +29,7 @@
       }
     }, 
     "SL": [
-      "o2o", 
-      "Patterns", 
-      "Scanner"
+      "Patterns"
     ], 
     "SR": {
       "G": 11, 
@@ -168,182 +167,6 @@
       "SL": {
         "model": 1
       }
-    }
-  }, 
-  "Scanner": {
-    "SI": null, 
-    "SV": true, 
-    "US": {
-      "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
-    }
-  }, 
-  "o2o": {
-    "DL": 40, 
-    "RF": {
-      "RRD": "tpRailroadData", 
-      "RSD": "tpRollingStockData", 
-      "TRI": "TrainPlayer Report - Industries.txt", 
-      "TRL": "TrainPlayer Report - Locations.txt", 
-      "TRR": "TrainPlayer Report - Rolling Stock.txt"
-    }, 
-    "RMF": {
-      "MC": [
-        "A01", 
-        "A02", 
-        "A03", 
-        "A08", 
-        "A07", 
-        "A13"
-      ], 
-      "PUC": [
-        "A01", 
-        "A02", 
-        "A03", 
-        "A08", 
-        "A07", 
-        "A11"
-      ], 
-      "PUL": [
-        "A01", 
-        "A02", 
-        "A04", 
-        "A16", 
-        "A11"
-      ], 
-      "SOC": [
-        "A01", 
-        "A02", 
-        "A03", 
-        "A08", 
-        "A07", 
-        "A11"
-      ], 
-      "SOL": [
-        "A01", 
-        "A02", 
-        "A04", 
-        "A16", 
-        "A11"
-      ]
-    }, 
-    "RMO": {
-      "A01": "Road", 
-      "A02": "Number", 
-      "A03": "Type", 
-      "A04": "Model", 
-      "A05": "Length", 
-      "A06": "Weight", 
-      "A07": "Load", 
-      "A08": "Load_Type", 
-      "A09": "Color", 
-      "A10": "Track", 
-      "A11": "Destination", 
-      "A12": "Dest&Track", 
-      "A13": "Final_Dest", 
-      "A14": "FD&Track", 
-      "A15": "Location", 
-      "A16": "Consist", 
-      "A17": "DCC_Address", 
-      "A18": "Kernel", 
-      "A19": "Owner", 
-      "A20": "Division", 
-      "A21": "RWE", 
-      "A22": "Comment", 
-      "A23": "SetOut_Msg", 
-      "A24": "PickUp_Msg", 
-      "A25": "Hazardous", 
-      "A26": " ", 
-      "A27": "Tab", 
-      "A28": "Tab2", 
-      "A29": "Tab3", 
-      "A30": " [ ] ", 
-      "A31": "Kernel_Size"
-    }, 
-    "RN": "o2o-Workevents", 
-    "SM": {
-      "LEE": true, 
-      "RCL": true, 
-      "SCL": true
-    }, 
-    "SV": true, 
-    "TO": {
-      "ASE": true, 
-      "CWS": true, 
-      "SBA": true, 
-      "SCT": "ARR Codes", 
-      "SIA": true, 
-      "SME": true, 
-      "TNB": false
-    }, 
-    "TR": {
-      "XO reserved": "Spur", 
-      "class yard": "Yard", 
-      "industry": "Spur", 
-      "interchange": "Interchange", 
-      "staging": "Staging"
-    }, 
-    "US": {
-      "XC": [
-        "N", 
-        "NM", 
-        "NE"
-      ], 
-      "XE": [
-        "E", 
-        "ES", 
-        "ED", 
-        "EE", 
-        "ET"
-      ], 
-      "XM": [
-        "M", 
-        "MWB", 
-        "MWC", 
-        "MWD", 
-        "MWG", 
-        "MWF", 
-        "MWK", 
-        "MWR", 
-        "MWX"
-      ], 
-      "XP": [
-        "EP", 
-        "CA", 
-        "CS", 
-        "D", 
-        "DA", 
-        "DB", 
-        "DC", 
-        "DL", 
-        "DO", 
-        "DP", 
-        "DPA", 
-        "P", 
-        "PA", 
-        "PAS", 
-        "PB", 
-        "PBC", 
-        "PBO", 
-        "PC", 
-        "PL", 
-        "PO", 
-        "PS", 
-        "PSA"
-      ], 
-      "XX": [
-        "B", 
-        "BE", 
-        "BH", 
-        "BM", 
-        "BMR", 
-        "BMT", 
-        "BP", 
-        "BR", 
-        "BX", 
-        "MA", 
-        "MB", 
-        "MR"
-      ]
     }
   }
 }
