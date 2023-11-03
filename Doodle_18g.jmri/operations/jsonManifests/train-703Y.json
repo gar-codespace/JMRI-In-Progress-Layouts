@@ -1,0 +1,334 @@
+{
+  "railroad" : "Doodle 18g",
+  "userName" : "703Y",
+  "description" : "Build 703",
+  "locations" : [ {
+    "userName" : "Train Service",
+    "name" : "60r4",
+    "departureTime" : "16:40",
+    "location" : {
+      "comment" : "",
+      "name" : "9"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "9s10" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:36"
+      }
+    },
+    "trainDirection" : 1,
+    "length" : {
+      "length" : 132,
+      "unit" : "Feet"
+    },
+    "weight" : 108,
+    "cars" : {
+      "add" : [ {
+        "name" : "PRR0838",
+        "number" : "0838",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "P54",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "60r4",
+          "track" : {
+            "userName" : "Coach Yard",
+            "name" : "9s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Downtown",
+          "name" : "4",
+          "route" : "60r6",
+          "track" : {
+            "userName" : "Ready Track",
+            "name" : "4s12"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : true,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5466",
+        "number" : "5466",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "P54",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "60r4",
+          "track" : {
+            "userName" : "Coach Yard",
+            "name" : "9s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Downtown",
+          "name" : "4",
+          "route" : "60r6",
+          "track" : {
+            "userName" : "Ready Track",
+            "name" : "4s12"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : true,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR7303",
+        "number" : "7303",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "Pk",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "60r4",
+          "track" : {
+            "userName" : "Coach Yard",
+            "name" : "9s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Downtown",
+          "name" : "4",
+          "route" : "60r6",
+          "track" : {
+            "userName" : "Ready Track",
+            "name" : "4s12"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : true,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ ],
+      "total" : 3,
+      "loads" : 3,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Downtown",
+    "name" : "60r6",
+    "arrivalTime" : "16:44",
+    "expectedDepartureTime" : "16:53",
+    "location" : {
+      "comment" : "",
+      "name" : "4"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "TrainTerminatesIn" : "Downtown",
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "PRR0838",
+        "number" : "0838",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "P54",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "60r4",
+          "track" : {
+            "userName" : "Coach Yard",
+            "name" : "9s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Downtown",
+          "name" : "4",
+          "route" : "60r6",
+          "track" : {
+            "userName" : "Ready Track",
+            "name" : "4s12"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : true,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR5466",
+        "number" : "5466",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "P54",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "60r4",
+          "track" : {
+            "userName" : "Coach Yard",
+            "name" : "9s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Downtown",
+          "name" : "4",
+          "route" : "60r6",
+          "track" : {
+            "userName" : "Ready Track",
+            "name" : "4s12"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : true,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR7303",
+        "number" : "7303",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "Pk",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "60r4",
+          "track" : {
+            "userName" : "Coach Yard",
+            "name" : "9s10"
+          }
+        },
+        "destination" : {
+          "userName" : "Downtown",
+          "name" : "4",
+          "route" : "60r6",
+          "track" : {
+            "userName" : "Ready Track",
+            "name" : "4s12"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : true,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ]
+    }
+  } ],
+  "date" : "1938-11-03T16:34:50.316+00:00"
+}

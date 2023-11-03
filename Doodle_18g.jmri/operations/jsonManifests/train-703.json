@@ -1,0 +1,151 @@
+{
+  "railroad" : "Doodle 18g",
+  "userName" : "703",
+  "description" : "Valley - Passenger Local",
+  "locations" : [ {
+    "userName" : "Train Service",
+    "name" : "59r6",
+    "departureTime" : "02:50",
+    "location" : {
+      "comment" : "",
+      "name" : "9"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ {
+        "name" : "PRR240",
+        "number" : "240",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "ESLP",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "59r6",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "9s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "59r4",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "model" : "E6S",
+        "consist" : ""
+      } ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 4,
+    "length" : {
+      "length" : 44,
+      "unit" : "Feet"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 0,
+      "loads" : 0,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Downtown",
+    "name" : "59r1",
+    "arrivalTime" : "02:54",
+    "expectedDepartureTime" : "02:54",
+    "location" : {
+      "comment" : "",
+      "name" : "4"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 4,
+    "length" : {
+      "length" : 44,
+      "unit" : "Feet"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 0,
+      "loads" : 0,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Valley",
+    "name" : "59r4",
+    "arrivalTime" : "02:58",
+    "expectedDepartureTime" : "02:58",
+    "location" : {
+      "comment" : "",
+      "name" : "7"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "PRR240",
+        "number" : "240",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "ESLP",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "59r6",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "9s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "59r4",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "model" : "E6S",
+        "consist" : ""
+      } ]
+    },
+    "TrainTerminatesIn" : "Valley",
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ]
+    }
+  } ],
+  "date" : "1938-11-03T16:24:42.999+00:00"
+}

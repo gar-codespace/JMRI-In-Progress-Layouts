@@ -15,46 +15,19 @@
       "add" : [ ],
       "remove" : [ ]
     },
-    "track" : {
-      "3s6" : {
-        "add" : "",
-        "comment" : "TrainPlayer ID:20"
-      },
-      "3s2" : {
-        "add" : "",
-        "comment" : "TrainPlayer ID:55"
-      },
-      "3s3" : {
-        "add" : "",
-        "comment" : "TrainPlayer ID:56"
-      },
-      "3s4" : {
-        "add" : "",
-        "comment" : "TrainPlayer ID:57"
-      },
-      "3s5" : {
-        "add" : "",
-        "comment" : "TrainPlayer ID:58"
-      }
-    },
-    "trainDirection" : 1,
-    "length" : {
-      "length" : 1320,
-      "unit" : "Feet"
-    },
-    "weight" : 0,
+    "TrainTerminatesIn" : "City",
     "cars" : {
       "add" : [ {
-        "name" : "ACL0395",
-        "number" : "0395",
-        "road" : "ACL",
+        "name" : "ER3741",
+        "number" : "3741",
+        "road" : "ER",
         "rfid" : "",
-        "carType" : "GB",
+        "carType" : "XM",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -69,58 +42,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "NYNH&H8380",
-        "number" : "8380",
-        "road" : "NYNH&H",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
           "userName" : "City",
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "71",
-            "name" : "3s6"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -132,8 +59,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -146,7 +77,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -161,12 +92,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -178,8 +109,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -192,7 +127,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -207,12 +142,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -224,8 +159,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -238,7 +177,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -253,12 +192,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -270,8 +209,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -284,7 +227,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -299,12 +242,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -316,8 +259,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -330,7 +277,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -345,58 +292,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER3741",
-        "number" : "3741",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
           "userName" : "City",
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "72",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -408,8 +309,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -422,7 +327,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -437,12 +342,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -454,8 +359,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -468,7 +377,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -483,12 +392,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -500,8 +409,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -514,7 +427,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -529,12 +442,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -546,8 +459,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -560,7 +477,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -575,12 +492,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -592,8 +509,262 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX0510",
+        "number" : "0510",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR6262",
+        "number" : "6262",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR7333",
+        "number" : "7333",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "M&P5577",
+        "number" : "5577",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "UTLX1758",
+        "number" : "1758",
+        "road" : "UTLX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -606,7 +777,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -621,12 +792,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -638,8 +809,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -652,7 +827,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -667,12 +842,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -684,8 +859,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -698,7 +877,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -713,12 +892,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -730,21 +909,75 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "NYC3866",
-        "number" : "3866",
-        "road" : "NYC",
+        "name" : "UTLX7837",
+        "number" : "7837",
+        "road" : "UTLX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "74",
+            "name" : "3s4"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR7291",
+        "number" : "7291",
+        "road" : "PRR",
         "rfid" : "",
         "carType" : "XM",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -754,17 +987,17 @@
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "73",
-            "name" : "3s3"
+            "userName" : "74",
+            "name" : "3s4"
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -776,8 +1009,112 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX1116",
+        "number" : "1116",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "74",
+            "name" : "3s4"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A5607",
+        "number" : "5607",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "74",
+            "name" : "3s4"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -790,7 +1127,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -805,12 +1142,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -822,8 +1159,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -836,7 +1177,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -851,12 +1192,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -868,8 +1209,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -882,7 +1227,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -897,12 +1242,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -914,8 +1259,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -928,7 +1277,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -943,12 +1292,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -960,8 +1309,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -974,7 +1327,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -989,12 +1342,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1006,8 +1359,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1020,7 +1377,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1035,12 +1392,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1052,8 +1409,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1066,7 +1427,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1081,12 +1442,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1098,8 +1459,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1112,7 +1477,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1127,12 +1492,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1144,8 +1509,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1158,7 +1527,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1173,58 +1542,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TELX4330",
-        "number" : "4330",
-        "road" : "TELX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
           "userName" : "City",
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1236,159 +1559,25 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "NYNH&H3502",
-        "number" : "3502",
-        "road" : "NYNH&H",
+        "name" : "WJ&S3080",
+        "number" : "3080",
+        "road" : "WJ&S",
         "rfid" : "",
         "carType" : "XM",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "74r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7482",
-        "number" : "7482",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "74r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ5227",
-        "number" : "5227",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "74r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "P&R7172",
-        "number" : "7172",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1403,12 +1592,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1420,44 +1609,76 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R7172",
+        "number" : "7172",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "75",
+            "name" : "3s5"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       } ],
-      "remove" : [ ],
-      "total" : 30,
-      "loads" : 30,
-      "empties" : 0
-    }
-  }, {
-    "userName" : "Train Service",
-    "name" : "74r4",
-    "arrivalTime" : "13:14",
-    "expectedDepartureTime" : "14:44",
-    "location" : {
-      "comment" : "",
-      "name" : "9"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ ]
-    },
-    "TrainTerminatesIn" : "Train Service",
-    "cars" : {
-      "add" : [ ],
       "remove" : [ {
-        "name" : "ACL0395",
-        "number" : "0395",
-        "road" : "ACL",
+        "name" : "ER3741",
+        "number" : "3741",
+        "road" : "ER",
         "rfid" : "",
-        "carType" : "GB",
+        "carType" : "XM",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1472,58 +1693,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "NYNH&H8380",
-        "number" : "8380",
-        "road" : "NYNH&H",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
           "userName" : "City",
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "71",
-            "name" : "3s6"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1535,8 +1710,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1549,7 +1728,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1564,12 +1743,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1581,8 +1760,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1595,7 +1778,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1610,12 +1793,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1627,8 +1810,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1641,7 +1828,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1656,12 +1843,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1673,8 +1860,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1687,7 +1878,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1702,12 +1893,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1719,8 +1910,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1733,7 +1928,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1748,58 +1943,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER3741",
-        "number" : "3741",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
           "userName" : "City",
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "72",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1811,8 +1960,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1825,7 +1978,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1840,12 +1993,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1857,8 +2010,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1871,7 +2028,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1886,12 +2043,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1903,8 +2060,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1917,7 +2078,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1932,12 +2093,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1949,8 +2110,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -1963,7 +2128,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1978,12 +2143,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -1995,8 +2160,262 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX0510",
+        "number" : "0510",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR6262",
+        "number" : "6262",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR7333",
+        "number" : "7333",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "M&P5577",
+        "number" : "5577",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "UTLX1758",
+        "number" : "1758",
+        "road" : "UTLX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "73",
+            "name" : "3s3"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2009,7 +2428,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2024,12 +2443,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2041,8 +2460,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2055,7 +2478,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2070,12 +2493,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2087,8 +2510,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2101,7 +2528,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2116,12 +2543,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2133,21 +2560,75 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "NYC3866",
-        "number" : "3866",
-        "road" : "NYC",
+        "name" : "UTLX7837",
+        "number" : "7837",
+        "road" : "UTLX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "74",
+            "name" : "3s4"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR7291",
+        "number" : "7291",
+        "road" : "PRR",
         "rfid" : "",
         "carType" : "XM",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2157,17 +2638,17 @@
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "73",
-            "name" : "3s3"
+            "userName" : "74",
+            "name" : "3s4"
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2179,8 +2660,112 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX1116",
+        "number" : "1116",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "74",
+            "name" : "3s4"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A5607",
+        "number" : "5607",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "74",
+            "name" : "3s4"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2193,7 +2778,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2208,12 +2793,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2225,8 +2810,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2239,7 +2828,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2254,12 +2843,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2271,8 +2860,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2285,7 +2878,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2300,12 +2893,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2317,8 +2910,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2331,7 +2928,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2346,12 +2943,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2363,8 +2960,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2377,7 +2978,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2392,12 +2993,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2409,8 +3010,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2423,7 +3028,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2438,12 +3043,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2455,8 +3060,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2469,7 +3078,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2484,12 +3093,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2501,8 +3110,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2515,7 +3128,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2530,12 +3143,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2547,8 +3160,12 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
@@ -2561,7 +3178,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2576,58 +3193,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TELX4330",
-        "number" : "4330",
-        "road" : "TELX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
           "userName" : "City",
           "name" : "3",
           "route" : "74r3",
           "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2639,159 +3210,25 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "NYNH&H3502",
-        "number" : "3502",
-        "road" : "NYNH&H",
+        "name" : "WJ&S3080",
+        "number" : "3080",
+        "road" : "WJ&S",
         "rfid" : "",
         "carType" : "XM",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "74r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7482",
-        "number" : "7482",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "74r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ5227",
-        "number" : "5227",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "74r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
-          "track" : {
-            "userName" : "OB-Easton",
-            "name" : "9s7"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "P&R7172",
-        "number" : "7172",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -2806,12 +3243,12 @@
           }
         },
         "destination" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "74r4",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
           "track" : {
             "userName" : "OB-Easton",
-            "name" : "9s7"
+            "name" : "3s11"
           }
         },
         "load" : "Empty",
@@ -2823,12 +3260,66 @@
         "addComment" : "",
         "kernel" : "",
         "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R7172",
+        "number" : "7172",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "75",
+            "name" : "3s5"
+          }
+        },
+        "destination" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "74r3",
+          "track" : {
+            "userName" : "OB-Easton",
+            "name" : "3s11"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : true,
+        "finalDestination" : {
+          "userName" : "Easton",
+          "name" : "8",
+          "route" : null
+        },
         "returnWhenEmpty" : null,
         "status" : ""
       } ]
     }
   } ],
-  "date" : "1938-07-21T05:49:53.891+00:00"
+  "date" : "1938-11-02T23:33:09.094+00:00"
 }
