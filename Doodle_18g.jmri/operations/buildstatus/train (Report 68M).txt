@@ -1,4 +1,4 @@
- Build Report for train (68M) built on 7/20/23, 9:31 PM 
+ Build Report for train (68M) built on 11/3/23, 2:38 PM 
  JMRI version 5.2+R760b98537f 
   Build report detail level: Normal 
    Build report detail level: Detailed 
@@ -11,48 +11,270 @@
    The option to restrict staging to the same car types, roads, and loads as the train 
    being built is enabled 
    Make departure track available after train is built 
+   Prompt for Arrival Track into Staging 
    
    Car routing options: 
    Car routing via yards is enabled 
+   Car routing through staging is enabled 
    Use all Trains when Routing 
    
    Enabled build options for train (68M): 
-   Allow cars to travel from origin to terminal 
+   Build loco consist from single locos 
+   0 HPT (Horsepower per Ton) when adding locos to train 
    
    Disabled build options for train (68M): 
    Use normal mode when building this train 
    Send all car pick ups to terminal (Northton) 
    Allow local moves if car has a custom load or FD 
+   Allow cars to travel from origin to terminal 
    Service all cars with a final destination (FD) 
    Send cars with custom loads to staging 
-   Build loco consist from single locos 
    
   Train (68M) route (68M): 
-  69r3 Location (Train Service) Northbound requests 33 pick ups, maximum train length 
+  69r7 Location (Train Service) Eastbound requests 5 pick ups, maximum train length 
   3,000 feet 
-  69r4 Staging (Northton) Northbound requests 33 set outs 
- Route (68M) requests 33 cars and 66 moves 
+  69r9 Location (City) Eastbound requests 50 pick ups, maximum train length 3,000 feet 
+  69r8 Staging (Northton) Northbound requests 50 set outs 
+ Route (68M) requests 52 cars and 105 moves 
  
  Train requirements: 
  Train departs (Train Service) with 2 consisted locomotives, model () road () 
  Train must depart (Train Service) with caboose, road () 
  
    Train (68M) services locomotive types: 
-   EEHF, EDHF 
+   EEHP, EDHF, EEHF 
    
- Found 8 locomotives for train (68M) 
+ Found 10 locomotives for train (68M) 
+   
    
    
   
  Train terminates into staging at (Northton), there are 4 tracks 
-   Staging track (N1) is occupied, found 2 locomotive(s) and 33 cars 
    Staging track (N3) is occupied, found 1 locomotive(s) and 11 cars 
    Staging track (N4) is occupied, found 7 locomotive(s) and 0 cars 
- Staging track (N2) is available at destination (Northton) 
+   User selected arrival track (N1) at (Northton) 
   
    Search for 2 loco(s), model (), road (), departing (Train Service), destination 
    (Northton) 
-   Requested locomotives not found at location (Train Service) 
- Train requires 2 loco(s), could not pick up at departure (Train Service) or set out 
- at (Northton) 
- Build failed for train (68M) 
+   Option to build consist with 2 locos departing (Train Service) is enabled 
+   There are 6 single locomotives at (Train Service) that meet this train's requirements 
+ Loco (PRR 303) assigned to train, departs (Train Service) destination (Northton, N1) 
+ Loco (PRR 532) assigned to train, departs (Train Service) destination (Northton, N1) 
+   
+   Train (68M) services car types: 
+   FM, GB, HK, NE, TM, XM 
+   
+ Found 32 cars for train (68M) 
+ Train (68M) requires caboose, road () departing (Train Service) destination (Northton) 
+   Find destinations for (PRR 308) type (NE) load (Occupied) at (Train Service, Cabin 
+   Track) 
+   Car (PRR 308) can go to staging (Northton, N1) 0/50 moves used 
+  Car (PRR 308) assigned to train, destination (Northton, N1) 
+  
+   Train does not require car with FRED 
+  
+  Requested cars (52) for train (68M) the number available (30) building train! 
+  
+  Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
+ Route location (Train Service) id 69r7 requests 2 pick ups, 4/5 moves are available 
+   
+   No cars available for pick up at location (Train Service) 
+   
+ Partial 0/2 cars at location (Train Service) assigned to train (68M) 
+ Route location (City) id 69r9 requests 25 pick ups, 50/50 moves are available 
+   
+   Car (UTLX 7837) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (UTLX 7837) doesn't have an assigned destination track 
+   Car (UTLX 7837) assigned to staging track (N1) 
+  Car (UTLX 7837) assigned to train, destination (Northton, N1) 
+  
+   Car (TCX 0510) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (TCX 0510) doesn't have an assigned destination track 
+   Car (TCX 0510) assigned to staging track (N1) 
+  Car (TCX 0510) assigned to train, destination (Northton, N1) 
+  
+   Find spur for car (PGCC 5648) type (HK) custom empty (Empty) at (City, OB-Northton) 
+   Try to send car (PGCC 5648) custom load (Empty) to staging 
+   Car (PGCC 5648) doesn't have an assigned destination track 
+   Car (PGCC 5648) assigned to staging track (N1) 
+  Car (PGCC 5648) assigned to train, destination (Northton, N1) 
+  
+   Car (PRR 6262) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (PRR 6262) doesn't have an assigned destination track 
+   Car (PRR 6262) assigned to staging track (N1) 
+  Car (PRR 6262) assigned to train, destination (Northton, N1) 
+  
+   Car (PRR 7333) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (PRR 7333) doesn't have an assigned destination track 
+   Car (PRR 7333) assigned to staging track (N1) 
+  Car (PRR 7333) assigned to train, destination (Northton, N1) 
+  
+   Car (B&O 3502) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (B&O 3502) doesn't have an assigned destination track 
+   Car (B&O 3502) assigned to staging track (N1) 
+  Car (B&O 3502) assigned to train, destination (Northton, N1) 
+  
+   Car (M&P 5577) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (M&P 5577) doesn't have an assigned destination track 
+   Car (M&P 5577) assigned to staging track (N1) 
+  Car (M&P 5577) assigned to train, destination (Northton, N1) 
+  
+   Car (PRR 7291) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (PRR 7291) doesn't have an assigned destination track 
+   Car (PRR 7291) assigned to staging track (N1) 
+  Car (PRR 7291) assigned to train, destination (Northton, N1) 
+  
+   Car (WJ&S 3080) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (WJ&S 3080) doesn't have an assigned destination track 
+   Car (WJ&S 3080) assigned to staging track (N1) 
+  Car (WJ&S 3080) assigned to train, destination (Northton, N1) 
+  
+   Car (TCX 1116) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (TCX 1116) doesn't have an assigned destination track 
+   Car (TCX 1116) assigned to staging track (N1) 
+  Car (TCX 1116) assigned to train, destination (Northton, N1) 
+  
+   Car (B&A 5607) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (B&A 5607) doesn't have an assigned destination track 
+   Car (B&A 5607) assigned to staging track (N1) 
+  Car (B&A 5607) assigned to train, destination (Northton, N1) 
+  
+   Car (UTLX 1758) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (UTLX 1758) doesn't have an assigned destination track 
+   Car (UTLX 1758) assigned to staging track (N1) 
+  Car (UTLX 1758) assigned to train, destination (Northton, N1) 
+  
+   Find spur for car (B&O 0263) type (HK) custom empty (Empty) at (City, OB-Northton) 
+   Try to send car (B&O 0263) custom load (Empty) to staging 
+   Car (B&O 0263) doesn't have an assigned destination track 
+   Car (B&O 0263) assigned to staging track (N1) 
+  Car (B&O 0263) assigned to train, destination (Northton, N1) 
+  
+   Car (WJ&S 6707) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (WJ&S 6707) doesn't have an assigned destination track 
+   Car (WJ&S 6707) assigned to staging track (N1) 
+  Car (WJ&S 6707) assigned to train, destination (Northton, N1) 
+  
+   Car (CNJ 9642) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (CNJ 9642) doesn't have an assigned destination track 
+   Car (CNJ 9642) assigned to staging track (N1) 
+  Car (CNJ 9642) assigned to train, destination (Northton, N1) 
+  
+   Car (PRR 4478) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (PRR 4478) doesn't have an assigned destination track 
+   Car (PRR 4478) assigned to staging track (N1) 
+  Car (PRR 4478) assigned to train, destination (Northton, N1) 
+  
+   Car (B&O 5953) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (B&O 5953) doesn't have an assigned destination track 
+   Car (B&O 5953) assigned to staging track (N1) 
+  Car (B&O 5953) assigned to train, destination (Northton, N1) 
+  
+   Car (CS 9474) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (CS 9474) doesn't have an assigned destination track 
+   Car (CS 9474) assigned to staging track (N1) 
+  Car (CS 9474) assigned to train, destination (Northton, N1) 
+  
+   Car (M&P 1712) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (M&P 1712) doesn't have an assigned destination track 
+   Car (M&P 1712) assigned to staging track (N1) 
+  Car (M&P 1712) assigned to train, destination (Northton, N1) 
+  
+   Car (NYC 9231) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (NYC 9231) doesn't have an assigned destination track 
+   Car (NYC 9231) assigned to staging track (N1) 
+  Car (NYC 9231) assigned to train, destination (Northton, N1) 
+  
+   Car (B&A 0591) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (B&A 0591) doesn't have an assigned destination track 
+   Car (B&A 0591) assigned to staging track (N1) 
+  Car (B&A 0591) assigned to train, destination (Northton, N1) 
+  
+   Car (ACL 8139) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (ACL 8139) doesn't have an assigned destination track 
+   Car (ACL 8139) assigned to staging track (N1) 
+  Car (ACL 8139) assigned to train, destination (Northton, N1) 
+  
+   Car (PRR 0618) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (PRR 0618) doesn't have an assigned destination track 
+   Car (PRR 0618) assigned to staging track (N1) 
+  Car (PRR 0618) assigned to train, destination (Northton, N1) 
+  
+   Car (TCX 2904) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (TCX 2904) doesn't have an assigned destination track 
+   Car (TCX 2904) assigned to staging track (N1) 
+  Car (TCX 2904) assigned to train, destination (Northton, N1) 
+  
+   Car (PGCC 0575) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (PGCC 0575) doesn't have an assigned destination track 
+   Car (PGCC 0575) assigned to staging track (N1) 
+  Car (PGCC 0575) assigned to train, destination (Northton, N1) 
+  
+ Success 25/25 cars at location (City) assigned to train (68M) 
+ Route location (Northton) id 69r8 no pick ups 
+  
+  Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
+ Route location (Train Service) id 69r7 requests 4 pick ups, 4/5 moves are available 
+   
+   No cars available for pick up at location (Train Service) 
+   
+ Partial 0/4 cars at location (Train Service) assigned to train (68M) 
+ Route location (City) id 69r9 requests 25 pick ups, 25/50 moves are available 
+   
+   Car (CS 1725) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (CS 1725) doesn't have an assigned destination track 
+   Car (CS 1725) assigned to staging track (N1) 
+  Car (CS 1725) assigned to train, destination (Northton, N1) 
+  
+   Car (P&R 7172) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (P&R 7172) doesn't have an assigned destination track 
+   Car (P&R 7172) assigned to staging track (N1) 
+  Car (P&R 7172) assigned to train, destination (Northton, N1) 
+  
+   Car (ER 3741) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (ER 3741) doesn't have an assigned destination track 
+   Car (ER 3741) assigned to staging track (N1) 
+  Car (ER 3741) assigned to train, destination (Northton, N1) 
+  
+   Car (ACL 3944) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (ACL 3944) doesn't have an assigned destination track 
+   Car (ACL 3944) assigned to staging track (N1) 
+  Car (ACL 3944) assigned to train, destination (Northton, N1) 
+  
+   Car (B&O 5501) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+   (Northton, ) routing begins 
+   Car (B&O 5501) doesn't have an assigned destination track 
+   Car (B&O 5501) assigned to staging track (N1) 
+  Car (B&O 5501) assigned to train, destination (Northton, N1) 
+  
+ Partial 5/25 cars at location (City) assigned to train (68M) 
+ Route location (Northton) id 69r8 no pick ups 
+ Partial 31/52 cars 
+   Build for train (68M) took 31 mSec 

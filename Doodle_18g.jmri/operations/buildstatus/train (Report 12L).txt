@@ -1,0 +1,274 @@
+ Build Report for train (12L) built on 11/3/23, 2:45 PM 
+ JMRI version 5.2+R760b98537f 
+  Build report detail level: Normal 
+   Build report detail level: Detailed 
+ 
+   Train Build Options: 
+   Build option is set to aggressive 
+   Perform 2 passes 
+   
+   Car routing options: 
+   Car routing via yards is enabled 
+   Car routing through staging is enabled 
+   Use all Trains when Routing 
+   
+   Enabled build options for train (12L): 
+   Allow local moves if car has a custom load or FD 
+   Build loco consist from single locos 
+   0 HPT (Horsepower per Ton) when adding locos to train 
+   
+   Disabled build options for train (12L): 
+   Use normal mode when building this train 
+   Send all car pick ups to terminal (Train Service) 
+   Service all cars with a final destination (FD) 
+   Send cars with custom loads to staging 
+   
+  Train (12L) route (13L): 
+  71r5 Location (Train Service) Eastbound requests 5 pick ups, maximum train length 
+  3,000 feet 
+  71r10 Location (City) Eastbound requests 50 pick ups, maximum train length 3,000 feet 
+  71r6 Location (Park) Eastbound requests 50 moves, maximum train length 3,000 feet 
+  71r9 Location (Park) Westbound requests 50 moves, maximum train length 3,000 feet 
+  71r7 Location (City) Westbound requests 50 set outs, maximum train length 3,000 feet 
+  71r8 Location (Train Service) Westbound requests 50 set outs 
+ Route (13L) requests 127 cars and 255 moves 
+ 
+ Train requirements: 
+ Train departs (Train Service) with a single locomotive, model () road () 
+ Train must depart (Train Service) with caboose, road () 
+ 
+   Train (12L) services locomotive types: 
+   ESLF 
+   
+ Found 2 locomotives for train (12L) 
+   
+   
+   
+  
+   Search for 1 loco(s), model (), road (), departing (Train Service), destination 
+   (Train Service) 
+   Loco (PRR 949) road (PRR) model (H9s) type (ESLF) at location (Train Service, 
+   Roundhouse) destination (Train Service) 
+ Loco (PRR 949) assigned to train, departs (Train Service) destination (Train Service, 
+ Roundhouse) 
+   
+   Train (12L) services car types: 
+   FM, GB, HK, NM, TM, XM 
+   
+ Found 36 cars for train (12L) 
+ Train (12L) requires caboose, road () departing (Train Service) destination (Train 
+ Service) 
+   Find destinations for (PRR 235) type (NM) load (Occupied) at (Train Service, Cabin 
+   Track) 
+   Car (PRR 235) can go to C/I (Train Service, Cabin Track) 0/50 moves used 
+  Car (PRR 235) assigned to train, destination (Train Service, Cabin Track) 
+  
+   Train does not require car with FRED 
+  
+  Requested cars (127) for train (12L) the number available (34) building train! 
+  
+  Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
+ Route location (Train Service) id 71r5 requests 2 pick ups, 4/5 moves are available 
+   
+   No cars available for pick up at location (Train Service) 
+   
+ Partial 0/2 cars at location (Train Service) assigned to train (12L) 
+ Route location (City) id 71r10 requests 25 pick ups, 50/50 moves are available 
+   
+   Car (PRR 7396) type (HK) load (coal2) at (City, OB-Park) has final destination (Park, 
+   Coal) routing begins 
+  Car (PRR 7396) assigned to train, destination (Park, Coal) 
+  
+   Car (PRR 4193) type (FM) load (lumber stack) at (City, OB-Park) has final destination 
+   (Park, Lumber) routing begins 
+   Did not assign a destination for car (PRR 4193) 
+   
+   Car (P&R 7375) type (HK) load (coal2) at (City, OB-Park) has final destination (Park, 
+   Coal) routing begins 
+  Car (P&R 7375) assigned to train, destination (Park, Coal) 
+  
+   Car (PL 8533) type (XM) load (LCL) at (City, OB-Park) has final destination (Park, 
+   Depot) routing begins 
+  Car (PL 8533) assigned to train, destination (Park, Depot) 
+  
+   Car (UTLX 4974) type (TM) load (fuel) at (City, OB-Park) has final destination (Park, 
+   Fuel Oil) routing begins 
+  Car (UTLX 4974) assigned to train, destination (Park, Fuel Oil) 
+  
+   Car (AT&SF 8248) type (XM) load (Merchandise) at (City, OB-Park) has final 
+   destination (Park, Freight House) routing begins 
+  Car (AT&SF 8248) assigned to train, destination (Park, Freight House) 
+  
+   Car (WJ&S 4217) type (GB) load (Milled timber) at (City, OB-Park) has final 
+   destination (Park, Lumber) routing begins 
+   Did not assign a destination for car (WJ&S 4217) 
+   
+   Car (P&R 5960) type (HK) load (coal2) at (City, OB-Park) has final destination (Park, 
+   Power House) routing begins 
+  Car (P&R 5960) assigned to train, destination (Park, Power House) 
+  
+   Car (PGCC 9109) type (HK) load (coal2) at (City, OB-Park) has final destination 
+   (Park, Power House) routing begins 
+   Did not assign a destination for car (PGCC 9109) 
+   
+   Car (TCX 5324) type (TM) load (fuel) at (City, OB-Park) has final destination (Park, 
+   Fuel Oil) routing begins 
+   Did not assign a destination for car (TCX 5324) 
+   
+   Car (P&R 6575) type (HK) load (coal2) at (City, OB-Park) has final destination (Park, 
+   Power House) routing begins 
+   Did not assign a destination for car (P&R 6575) 
+   
+   Car (TELX 2341) type (TM) load (fuel) at (City, OB-Park) has final destination (Park, 
+   Fuel Oil) routing begins 
+   Did not assign a destination for car (TELX 2341) 
+   
+   Car (DL&W 7085) type (XM) load (Merchandise) at (City, OB-Park) has final destination 
+   (Park, General Delivery) routing begins 
+  Car (DL&W 7085) assigned to train, destination (Park, General Delivery) 
+  
+   Car (WJ&S 8346) type (XM) load (LCL) at (City, OB-Park) has final destination (Park, 
+   Depot) routing begins 
+  Car (WJ&S 8346) assigned to train, destination (Park, Depot) 
+  
+   Car (P&R 7622) type (XM) load (Merchandise) at (City, OB-Park) has final destination 
+   (Park, Freight House) routing begins 
+  Car (P&R 7622) assigned to train, destination (Park, Freight House) 
+  
+   Car (WJ&S 4790) type (FM) load (Tarp3) at (City, OB-Park) has final destination 
+   (Park, General Delivery) routing begins 
+  Car (WJ&S 4790) assigned to train, destination (Park, General Delivery) 
+  
+   Car (PRR 1215) type (XM) load (LCL) at (City, OB-Park) has final destination (Park, 
+   Depot) routing begins 
+   Did not assign a destination for car (PRR 1215) 
+   
+ Partial 10/25 cars at location (City) assigned to train (12L) 
+ Route location (Park) id 71r6 requests 20 pick ups, 40/50 moves are available 
+   
+   Car (PGCC 2474) type (HK) load (Empty) at (Park, Power House) has final destination 
+   (Northton, ) routing begins 
+   Car (B&O 3864) type (HK) load (Empty) at (Park, Power House) has final destination 
+   (Northton, ) routing begins 
+   Find spur for car (WJ&S 8765) type (XM) custom load (Goods) at (Park, Freight House) 
+   Try to send car (WJ&S 8765) custom load (Goods) to staging 
+   Find spur for car (WJ&S 2774) type (XM) custom load (Goods) at (Park, General 
+   Delivery) 
+   Try to send car (WJ&S 2774) custom load (Goods) to staging 
+   Find spur for car (NYNH&H 8947) type (XM) custom load (Goods) at (Park, Freight House) 
+   Try to send car (NYNH&H 8947) custom load (Goods) to staging 
+   Find spur for car (ER 2343) type (XM) custom load (LCL) at (Park, Depot) 
+   Find spur for car (PRR 8322) type (XM) custom load (Goods) at (Park, Freight House) 
+   Try to send car (PRR 8322) custom load (Goods) to staging 
+   Find spur for car (PRR 2643) type (FM) custom empty (Empty) at (Park, Lumber) 
+   Try to send car (PRR 2643) custom load (Empty) to staging 
+   Find spur for car (B&O 0125) type (XM) custom load (Goods) at (Park, Freight House) 
+   Try to send car (B&O 0125) custom load (Goods) to staging 
+   Find spur for car (ACL 2039) type (XM) custom load (Goods) at (Park, Freight House) 
+   Try to send car (ACL 2039) custom load (Goods) to staging 
+   Car (B&O 6457) type (HK) load (Empty) at (Park, Power House) has final destination 
+   (Northton, ) routing begins 
+   Find spur for car (B&O 5413) type (XM) custom load (Goods) at (Park, Freight House) 
+   Try to send car (B&O 5413) custom load (Goods) to staging 
+   Find spur for car (PRR 1896) type (TM) custom empty (Empty) at (Park, Fuel Oil) 
+   Try to send car (PRR 1896) custom load (Empty) to staging 
+   Car (PGCC 7891) type (HK) load (Empty) at (Park, Power House) has final destination 
+   (Northton, ) routing begins 
+   Find spur for car (B&O 1529) type (XM) custom load (Goods) at (Park, General Delivery) 
+   Try to send car (B&O 1529) custom load (Goods) to staging 
+   Find spur for car (UTLX 9649) type (TM) custom empty (Empty) at (Park, Fuel Oil) 
+   Try to send car (UTLX 9649) custom load (Empty) to staging 
+   Find spur for car (ACL 5093) type (FM) custom empty (Empty) at (Park, Lumber) 
+   Try to send car (ACL 5093) custom load (Empty) to staging 
+ Partial 0/20 cars at location (Park) assigned to train (12L) 
+ Route location (Park) id 71r9 requests 25 pick ups, 50/50 moves are available 
+   
+  Car (PGCC 2474) assigned to train, destination (City, Hold 2) 
+  
+  Car (B&O 3864) assigned to train, destination (City, Hold 2) 
+  
+  Car (WJ&S 8765) assigned to train, destination (City, Hold 2) 
+  
+  Car (WJ&S 2774) assigned to train, destination (City, Hold 2) 
+  
+  Car (NYNH&H 8947) assigned to train, destination (City, Hold 2) 
+  
+  Car (ER 2343) assigned to train, destination (City, Hold 2) 
+  
+  Car (PRR 8322) assigned to train, destination (City, Hold 2) 
+  
+  Car (PRR 2643) assigned to train, destination (City, Hold 2) 
+  
+  Car (B&O 0125) assigned to train, destination (City, Hold 2) 
+  
+  Car (ACL 2039) assigned to train, destination (City, Hold 2) 
+  
+  Car (B&O 6457) assigned to train, destination (City, Hold 2) 
+  
+  Car (B&O 5413) assigned to train, destination (City, Hold 2) 
+  
+  Car (PRR 1896) assigned to train, destination (City, Hold 2) 
+  
+  Car (PGCC 7891) assigned to train, destination (City, Hold 2) 
+  
+  Car (B&O 1529) assigned to train, destination (City, Hold 2) 
+  
+  Car (UTLX 9649) assigned to train, destination (City, Hold 2) 
+  
+  Car (ACL 5093) assigned to train, destination (City, Hold 2) 
+  
+ Partial 17/25 cars at location (Park) assigned to train (12L) 
+ Route location (City) id 71r7 no pick ups 
+ Route location (Train Service) id 71r8 no pick ups 
+  
+  Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
+ Route location (Train Service) id 71r5 requests 4 pick ups, 4/5 moves are available 
+   
+   No cars available for pick up at location (Train Service) 
+   
+ Partial 0/4 cars at location (Train Service) assigned to train (12L) 
+ Route location (City) id 71r10 requests 40 pick ups, 40/50 moves are available 
+   
+   Car (PRR 4193) type (FM) load (lumber stack) at (City, OB-Park) has final destination 
+   (Park, Lumber) routing begins 
+  Car (PRR 4193) assigned to train, destination (Park, Lumber) 
+  
+   Car (WJ&S 4217) type (GB) load (Milled timber) at (City, OB-Park) has final 
+   destination (Park, Lumber) routing begins 
+  Car (WJ&S 4217) assigned to train, destination (Park, Lumber) 
+  
+   Car (PGCC 9109) type (HK) load (coal2) at (City, OB-Park) has final destination 
+   (Park, Power House) routing begins 
+  Car (PGCC 9109) assigned to train, destination (Park, Power House) 
+  
+   Car (TCX 5324) type (TM) load (fuel) at (City, OB-Park) has final destination (Park, 
+   Fuel Oil) routing begins 
+  Car (TCX 5324) assigned to train, destination (Park, Fuel Oil) 
+  
+   Car (P&R 6575) type (HK) load (coal2) at (City, OB-Park) has final destination (Park, 
+   Power House) routing begins 
+  Car (P&R 6575) assigned to train, destination (Park, Power House) 
+  
+   Car (TELX 2341) type (TM) load (fuel) at (City, OB-Park) has final destination (Park, 
+   Fuel Oil) routing begins 
+  Car (TELX 2341) assigned to train, destination (Park, Fuel Oil) 
+  
+   Car (PRR 1215) type (XM) load (LCL) at (City, OB-Park) has final destination (Park, 
+   Depot) routing begins 
+  Car (PRR 1215) assigned to train, destination (Park, Depot) 
+  
+ Partial 7/40 cars at location (City) assigned to train (12L) 
+ Route location (Park) id 71r6 requests 33 pick ups, 33/50 moves are available 
+   
+   No cars available for pick up at location (Park) 
+   
+ Partial 0/33 cars at location (Park) assigned to train (12L) 
+ Route location (Park) id 71r9 requests 33 pick ups, 33/50 moves are available 
+   
+   No cars available for pick up at location (Park) 
+   
+ Partial 0/33 cars at location (Park) assigned to train (12L) 
+ Route location (City) id 71r7 no pick ups 
+ Route location (Train Service) id 71r8 no pick ups 
+ Partial 35/127 cars 
+   Build for train (12L) took 171 mSec 

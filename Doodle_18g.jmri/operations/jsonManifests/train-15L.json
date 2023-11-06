@@ -1,0 +1,1561 @@
+{
+  "railroad" : "Doodle 18g",
+  "userName" : "15L",
+  "description" : "Valley Local",
+  "locations" : [ {
+    "userName" : "Valley",
+    "name" : "64r18",
+    "departureTime" : "02:20",
+    "location" : {
+      "comment" : "",
+      "name" : "7"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ {
+        "name" : "PRR936",
+        "number" : "936",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "ESLF",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "model" : "H9s",
+        "consist" : ""
+      } ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "7s2" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:16"
+      },
+      "7s3" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:17"
+      },
+      "7s5" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:21"
+      }
+    },
+    "trainDirection" : 8,
+    "length" : {
+      "length" : 176,
+      "unit" : "Feet"
+    },
+    "weight" : 36,
+    "cars" : {
+      "add" : [ {
+        "name" : "P&R8004",
+        "number" : "8004",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Coal",
+            "name" : "7s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYC6203",
+        "number" : "6203",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Depot",
+            "name" : "7s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Depot",
+            "name" : "11s1"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR689",
+        "number" : "689",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "NM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "7s6"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : true,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ ],
+      "total" : 3,
+      "loads" : 3,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Junction",
+    "name" : "64r17",
+    "arrivalTime" : "02:24",
+    "expectedDepartureTime" : "02:39",
+    "location" : {
+      "comment" : "",
+      "name" : "11"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "11s2" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:7"
+      },
+      "11s4" : {
+        "add" : "",
+        "comment" : "TrainPlayer ID:29"
+      }
+    },
+    "trainDirection" : 8,
+    "length" : {
+      "length" : 396,
+      "unit" : "Feet"
+    },
+    "weight" : 36,
+    "cars" : {
+      "add" : [ {
+        "name" : "B&O1876",
+        "number" : "1876",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Coal",
+            "name" : "11s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF8501",
+        "number" : "8501",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "steel products",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL3670",
+        "number" : "3670",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "steel rods",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR8860",
+        "number" : "8860",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Coal",
+            "name" : "11s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "7s6"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYNH&H4320",
+        "number" : "4320",
+        "road" : "NYNH&H",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "7s6"
+          }
+        },
+        "load" : "steel rods",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ ],
+      "total" : 8,
+      "loads" : 8,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Midway",
+    "name" : "64r16",
+    "arrivalTime" : "02:43",
+    "expectedDepartureTime" : "03:13",
+    "location" : {
+      "comment" : "",
+      "name" : "12"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "12s1" : {
+        "add" : "",
+        "remove" : "",
+        "addAndRemove" : "",
+        "comment" : "TrainPlayer ID:9"
+      }
+    },
+    "trainDirection" : 8,
+    "length" : {
+      "length" : 484,
+      "unit" : "Feet"
+    },
+    "weight" : 36,
+    "cars" : {
+      "add" : [ {
+        "name" : "B&O7676",
+        "number" : "7676",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS3014",
+        "number" : "3014",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O6073",
+        "number" : "6073",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR6446",
+        "number" : "6446",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS1705",
+        "number" : "1705",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYC4619",
+        "number" : "4619",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ {
+        "name" : "B&O1876",
+        "number" : "1876",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Coal",
+            "name" : "11s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AT&SF8501",
+        "number" : "8501",
+        "road" : "AT&SF",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "steel products",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PL3670",
+        "number" : "3670",
+        "road" : "PL",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "steel rods",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R8004",
+        "number" : "8004",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Coal",
+            "name" : "7s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 10,
+      "loads" : 10,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Junction",
+    "name" : "64r20",
+    "arrivalTime" : "03:17",
+    "expectedDepartureTime" : "03:38",
+    "location" : {
+      "comment" : "",
+      "name" : "11"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "11s1" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:4"
+      },
+      "11s3" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:63"
+      },
+      "11s4" : {
+        "remove" : "",
+        "comment" : "TrainPlayer ID:29"
+      }
+    },
+    "trainDirection" : 4,
+    "length" : {
+      "length" : 176,
+      "unit" : "Feet"
+    },
+    "weight" : 36,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "NYC6203",
+        "number" : "6203",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Depot",
+            "name" : "7s3"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Depot",
+            "name" : "11s1"
+          }
+        },
+        "load" : "LCL",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O7676",
+        "number" : "7676",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS3014",
+        "number" : "3014",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O6073",
+        "number" : "6073",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR6446",
+        "number" : "6446",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "11s3"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS1705",
+        "number" : "1705",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYC4619",
+        "number" : "4619",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Midway",
+          "name" : "12",
+          "route" : "64r16",
+          "track" : {
+            "userName" : "Interchange",
+            "name" : "12s1"
+          }
+        },
+        "destination" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r20",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 3,
+      "loads" : 3,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Valley",
+    "name" : "64r19",
+    "arrivalTime" : "03:42",
+    "expectedDepartureTime" : "03:51",
+    "location" : {
+      "comment" : "",
+      "name" : "7"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "PRR936",
+        "number" : "936",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "ESLF",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "model" : "H9s",
+        "consist" : ""
+      } ]
+    },
+    "TrainTerminatesIn" : "Valley",
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "PRR8860",
+        "number" : "8860",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Coal",
+            "name" : "11s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "7s6"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : null
+        },
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYNH&H4320",
+        "number" : "4320",
+        "road" : "NYNH&H",
+        "rfid" : "",
+        "carType" : "GB",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Junction",
+          "name" : "11",
+          "route" : "64r17",
+          "track" : {
+            "userName" : "Steel Products",
+            "name" : "11s4"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "7s6"
+          }
+        },
+        "load" : "steel rods",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR689",
+        "number" : "689",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "NM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r18",
+          "track" : {
+            "userName" : "Roundhouse",
+            "name" : "7s5"
+          }
+        },
+        "destination" : {
+          "userName" : "Valley",
+          "name" : "7",
+          "route" : "64r19",
+          "track" : {
+            "userName" : "Off Spot",
+            "name" : "7s6"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : true,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ]
+    }
+  } ],
+  "date" : "1938-11-04T07:17:26.051+00:00"
+}

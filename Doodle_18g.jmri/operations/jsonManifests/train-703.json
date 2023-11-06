@@ -1,151 +1,587 @@
 {
-  "railroad" : "Doodle 18g",
-  "userName" : "703",
-  "description" : "Valley - Passenger Local",
-  "locations" : [ {
-    "userName" : "Train Service",
-    "name" : "59r6",
-    "departureTime" : "02:50",
-    "location" : {
-      "comment" : "",
-      "name" : "9"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ {
-        "name" : "PRR240",
-        "number" : "240",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "ESLP",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "59r6",
-          "track" : {
-            "userName" : "Roundhouse",
-            "name" : "9s4"
+  "date": "1938-11-05T03:40:27.327+00:00", 
+  "description": "Valley - Passenger Local", 
+  "locations": [
+    {
+      "cars": {
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Bd", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Express", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR0107", 
+            "number": "0107", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDp7d5uj8np8lo", 
+            "road": "PRR", 
+            "sequence": 8000, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR5466", 
+            "number": "5466", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDu4dx8lewcglo", 
+            "road": "PRR", 
+            "sequence": 8000, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Pk", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR7303", 
+            "number": "7303", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfhzfkzbse1ne", 
+            "road": "PRR", 
+            "sequence": 8000, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR2886", 
+            "number": "2886", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID6a64geqmg537", 
+            "road": "PRR", 
+            "sequence": 8002, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
           }
-        },
-        "destination" : {
-          "userName" : "Valley",
-          "name" : "7",
-          "route" : "59r4",
-          "track" : {
-            "userName" : "Roundhouse",
-            "name" : "7s5"
+        ], 
+        "empties": 0, 
+        "loads": 4, 
+        "remove": [], 
+        "total": 4
+      }, 
+      "comment": "", 
+      "departureTime": "05:30", 
+      "engines": {
+        "add": [
+          {
+            "built": "", 
+            "carSubType": "", 
+            "carType": "ESLP", 
+            "color": "Generic", 
+            "comment": "", 
+            "consist": "", 
+            "dccAddress": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s6", 
+                "userName": "Off Spot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "length": 40, 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s4", 
+                "userName": "Roundhouse"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "model": "D16sb", 
+            "name": "PRR194", 
+            "number": "194", 
+            "outOfService": false, 
+            "owner": "", 
+            "rfid": "ID5ntcec70cxug", 
+            "road": "PRR", 
+            "weight": 0.0, 
+            "weightTons": 0.0
           }
-        },
-        "model" : "E6S",
-        "consist" : ""
-      } ],
-      "remove" : [ ]
-    },
-    "track" : { },
-    "trainDirection" : 4,
-    "length" : {
-      "length" : 44,
-      "unit" : "Feet"
-    },
-    "weight" : 0,
-    "cars" : {
-      "add" : [ ],
-      "remove" : [ ],
-      "total" : 0,
-      "loads" : 0,
-      "empties" : 0
+        ], 
+        "remove": []
+      }, 
+      "length": {
+        "length": 220, 
+        "unit": "Feet"
+      }, 
+      "location": {
+        "comment": "", 
+        "name": "9"
+      }, 
+      "name": "59r6", 
+      "track": {
+        "9s11": {
+          "add": "", 
+          "comment": "TrainPlayer ID:39"
+        }
+      }, 
+      "trainDirection": 4, 
+      "userName": "Train Service", 
+      "weight": 144
+    }, 
+    {
+      "TrainTerminatesIn": "Valley", 
+      "arrivalTime": "05:34", 
+      "cars": {
+        "add": [], 
+        "remove": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Bd", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Express", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR0107", 
+            "number": "0107", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDp7d5uj8np8lo", 
+            "road": "PRR", 
+            "sequence": 8000, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR5466", 
+            "number": "5466", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDu4dx8lewcglo", 
+            "road": "PRR", 
+            "sequence": 8000, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Pk", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR7303", 
+            "number": "7303", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfhzfkzbse1ne", 
+            "road": "PRR", 
+            "sequence": 8000, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s1", 
+                "userName": "Platform"
+              }, 
+              "userName": "Valley"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s11", 
+                "userName": "Ready Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR2886", 
+            "number": "2886", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID6a64geqmg537", 
+            "road": "PRR", 
+            "sequence": 8002, 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }
+        ]
+      }, 
+      "comment": "", 
+      "engines": {
+        "add": [], 
+        "remove": [
+          {
+            "built": "", 
+            "carSubType": "", 
+            "carType": "ESLP", 
+            "color": "Generic", 
+            "comment": "", 
+            "consist": "", 
+            "dccAddress": "", 
+            "destination": {
+              "name": "7", 
+              "route": "59r4", 
+              "track": {
+                "name": "7s6", 
+                "userName": "Off Spot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "length": 40, 
+            "location": {
+              "name": "9", 
+              "route": "59r6", 
+              "track": {
+                "name": "9s4", 
+                "userName": "Roundhouse"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "model": "D16sb", 
+            "name": "PRR194", 
+            "number": "194", 
+            "outOfService": false, 
+            "owner": "", 
+            "rfid": "ID5ntcec70cxug", 
+            "road": "PRR", 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }
+        ]
+      }, 
+      "expectedDepartureTime": "05:46", 
+      "location": {
+        "comment": "", 
+        "name": "7"
+      }, 
+      "name": "59r4", 
+      "userName": "Valley"
     }
-  }, {
-    "userName" : "Downtown",
-    "name" : "59r1",
-    "arrivalTime" : "02:54",
-    "expectedDepartureTime" : "02:54",
-    "location" : {
-      "comment" : "",
-      "name" : "4"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ ]
-    },
-    "track" : { },
-    "trainDirection" : 4,
-    "length" : {
-      "length" : 44,
-      "unit" : "Feet"
-    },
-    "weight" : 0,
-    "cars" : {
-      "add" : [ ],
-      "remove" : [ ],
-      "total" : 0,
-      "loads" : 0,
-      "empties" : 0
-    }
-  }, {
-    "userName" : "Valley",
-    "name" : "59r4",
-    "arrivalTime" : "02:58",
-    "expectedDepartureTime" : "02:58",
-    "location" : {
-      "comment" : "",
-      "name" : "7"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ {
-        "name" : "PRR240",
-        "number" : "240",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "ESLP",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "59r6",
-          "track" : {
-            "userName" : "Roundhouse",
-            "name" : "9s4"
-          }
-        },
-        "destination" : {
-          "userName" : "Valley",
-          "name" : "7",
-          "route" : "59r4",
-          "track" : {
-            "userName" : "Roundhouse",
-            "name" : "7s5"
-          }
-        },
-        "model" : "E6S",
-        "consist" : ""
-      } ]
-    },
-    "TrainTerminatesIn" : "Valley",
-    "cars" : {
-      "add" : [ ],
-      "remove" : [ ]
-    }
-  } ],
-  "date" : "1938-11-03T16:24:42.999+00:00"
+  ], 
+  "railroad": "Doodle 18g", 
+  "userName": "703"
 }

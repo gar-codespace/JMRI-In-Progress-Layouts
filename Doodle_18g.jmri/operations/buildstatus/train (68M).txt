@@ -1,4 +1,4 @@
-1- Build Report for train (68M) built on 11/2/23, 9:06 AM
+1- Build Report for train (68M) built on 11/3/23, 2:38 PM
 1- JMRI version 5.2+R760b98537f
 3- Build report detail level: Normal
 5- Build report detail level: Detailed
@@ -12,13 +12,14 @@
 5- The option to restrict staging to the same car types, roads, and loads as the train 
 5- being built is enabled 
 5- Make departure track available after train is built
+5- Prompt for Arrival Track into Staging
 5-  
 5- Car routing options:
 5- Car routing via yards is enabled
+5- Car routing through staging is enabled
 5- Use all Trains when Routing
 5-  
 5- Enabled build options for train (68M):
-5- Allow cars to travel from origin to terminal
 5- Build loco consist from single locos
 5- 0 HPT (Horsepower per Ton) when adding locos to train
 5-  
@@ -26,21 +27,23 @@
 5- Use normal mode when building this train
 5- Send all car pick ups to terminal (Northton)
 5- Allow local moves if car has a custom load or FD
+5- Allow cars to travel from origin to terminal
 5- Service all cars with a final destination (FD)
 5- Send cars with custom loads to staging
 5-  
 3- Train (68M) route (68M):
-3- 69r7 Location (Train Service) Eastbound requests 50 pick ups, maximum train length 
+3- 69r7 Location (Train Service) Eastbound requests 5 pick ups, maximum train length 
 3- 3,000 feet 
+3- 69r9 Location (City) Eastbound requests 50 pick ups, maximum train length 3,000 feet
 3- 69r8 Staging (Northton) Northbound requests 50 set outs
-1- Route (68M) requests 50 cars and 100 moves
+1- Route (68M) requests 52 cars and 105 moves
 1-  
 1- Train requirements:
 1- Train departs (Train Service) with 2 consisted locomotives, model () road ()
 1- Train must depart (Train Service) with caboose, road ()
 1-  
 5- Train (68M) services locomotive types:
-5- EDHF, EEHF
+5- EEHP, EDHF, EEHF
 7- Exclude loco (PRR 114) at (Northton, N4) type (EELP) is not serviced by this train
 7- Exclude loco (PRR 039) at (Northton, N4) type (EELP) is not serviced by this train
 7- Exclude loco (PRR 038) at (Northton, N4) type (EELP) is not serviced by this train
@@ -56,8 +59,6 @@
 7- this train 
 7- Exclude loco (PRR 045) at (Easton, E4) type (ESHF) is not serviced by this train
 7- Exclude loco (PRR 323) at (Train Service, Roundhouse) type (ESHP) is not serviced by 
-7- this train 
-7- Exclude loco (PRR 587) at (Train Service, Car Barn) type (EEHP) is not serviced by 
 7- this train 
 7- Exclude loco (PRR 072) at (Train Service, Roundhouse) type (ESHP) is not serviced by 
 7- this train 
@@ -77,44 +78,631 @@
 7- this train 
 7- Exclude loco (PRR 878) at (Train Service, Roundhouse) type (ESHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 611) at (Northton, N3) type (EEHP) is not serviced by this train
 7- Exclude loco (PRR 053) at (Easton, E3) type (ESHP) is not serviced by this train
 7- Exclude loco (PRR 363) at (Northton, N4) type (EELP) is not serviced by this train
 5-  
-1- Found 8 locomotives for train (68M)
+1- Found 10 locomotives for train (68M)
 7- Locos at location (Train Service):
 7- LOCO (PRR 872) type (EDHF) model (f 3a sal) at (Train Service, Car Barn) 0 moves
 7- LOCO (PRR 798) type (EDHF) model (f 3a sal) at (Train Service, Car Barn) 0 moves
 7- LOCO (PRR 092) type (EDHF) model (f 3b sal) at (Train Service, Car Barn) 0 moves
+7- LOCO (PRR 587) type (EEHP) model (GG1) at (Train Service, Car Barn) 0 moves
 7- LOCO (PRR 303) type (EEHF) model (p5b) at (Train Service, Car Barn) 0 moves
+7- LOCO (PRR 532) type (EEHF) model (p5b) at (Train Service, Car Barn) 1 moves
 7- LOCO (PRR 486) type (EEHF) model (p5b) at (Train Service, Car Barn) 1 moves
+7- LOCO (PRR 351) type (EEHF) model (p5b) at (Train Service, Car Barn) 1 moves
 7- LOCO (PRR 410) type (EEHF) model (p5b) at (Train Service, Car Barn) 1 moves
 5-  
+7- Locos at location (City):
+5-  
 7- Locos available from staging (Northton):
-7- LOCO (PRR 532) type (EEHF) model (p5b) at (Northton, N1) 0 moves
-7- LOCO (PRR 351) type (EEHF) model (p5b) at (Northton, N1) 0 moves
+7- LOCO (PRR 611) type (EEHP) model (GG1) at (Northton, N3) 0 moves
 5-  
 3-  
 1- Train terminates into staging at (Northton), there are 4 tracks
-5- Staging track (N1) is occupied, found 2 locomotive(s) and 33 cars
+7- Train (68M) can terminate to staging track (N1)
+7- Train (68M) can terminate to staging track (N2)
 5- Staging track (N3) is occupied, found 1 locomotive(s) and 11 cars
 5- Staging track (N4) is occupied, found 7 locomotive(s) and 0 cars
-7- Train (68M) can terminate to staging track (N2)
-1- Staging track (N2) is available at destination (Northton)
+5- User selected arrival track (N1) at (Northton)
 3-  
 5- Search for 2 loco(s), model (), road (), departing (Train Service), destination 
 5- (Northton) 
 7- Loco (PRR 798) is lead loco for consist (F1) and has 3 locomotives
 7- Exclude loco (PRR 798) consist (F1) wrong number of locomotives (3)
+7- Skip single loco (PRR 587) train requires 2 locomotives
 7- Skip single loco (PRR 303) train requires 2 locomotives
+7- Skip single loco (PRR 532) train requires 2 locomotives
 7- Skip single loco (PRR 486) train requires 2 locomotives
+7- Skip single loco (PRR 351) train requires 2 locomotives
 7- Skip single loco (PRR 410) train requires 2 locomotives
 5- Option to build consist with 2 locos departing (Train Service) is enabled
-5- There are 3 single locomotives at (Train Service) that meet this train's requirements
-7- Can't send loco (PRR 303) to staging (N2) due to type (EEHF)
-7- Can't send loco (PRR 486) to staging (N2) due to type (EEHF)
-7- Can't send loco (PRR 410) to staging (N2) due to type (EEHF)
-5- Requested locomotives not found at location (Train Service)
-1- Train requires 2 loco(s), could not pick up at departure (Train Service) or set out 
-1- at (Northton) 
-1- Build failed for train (68M)
+5- There are 6 single locomotives at (Train Service) that meet this train's requirements
+7- Can't send loco (PRR 587) to staging (N1) due to type (EEHP)
+1- Loco (PRR 303) assigned to train, departs (Train Service) destination (Northton, N1)
+7- Can't send loco (PRR 587) to staging (N1) due to type (EEHP)
+1- Loco (PRR 532) assigned to train, departs (Train Service) destination (Northton, N1)
+7- Done assigning locomotives to train (68M)
+5-  
+5- Train (68M) services car types:
+5- FM, GB, HK, NE, TM, XM
+7-  
+7- Remove cars not serviced by this train:
+7- Exclude car (PRR 8869) type (P70) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (NYC 0574) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (PRR 9505) type (P70) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (WJ&S 3512) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 7303) type (Pk) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (ACL 0395) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 235) at (Train Service, Cabin Track) train doesn't service type (NM)
+7- Exclude car (PRR 5466) type (P54) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PGCC 7590) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (M&P 2664) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PRR 4414) type (P70) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PGCC 1635) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (M&P 8641) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (P&R 1166) type (HK) by train, no pick up from C/I (City, 72)
+7- Exclude car (ACL 1418) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (PRR 4766) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (B&O 8996) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 6115) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (PGCC 3336) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 4752) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (TELX 8228) type (TM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PRR 2598) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (P&R 7136) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 7541) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (M&P 3300) type (GB) by train, no pick up from C/I (City, 73)
+7- Exclude car (NYNH&H 8380) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (TELX 4330) type (TM) by train, no pick up from C/I (City, 74)
+7- Exclude car (NYC 3866) type (XM) by train, no pick up from C/I (City, 73)
+7- Exclude car (NYNH&H 3502) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PRR 7482) type (TM) by train, no pick up from C/I (City, 74)
+7- Exclude car (CNJ 5227) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (M&P 6045) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (WJ&S 3268) type (XM) by train, no pick up from C/I (City, 73)
+7- Exclude car (B&O 8552) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (PL 0919) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (ER 7904) type (GB) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 119) at (Train Service, Cabin Track) train doesn't service type (NM)
+7- Exclude car (PRR 0838) type (P54) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (WJ&S 9592) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (B&A 5690) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (CS 6469) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (P&R 8518) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (B&O 1107) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (M&P 6808) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PL 2963) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (P&R 9149) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (PRR 2886) type (P54) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (TCX 7210) type (TM) by train, no pick up from C/I (City, 72)
+7- Exclude car (PRR 7396) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (ER 7426) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 4193) type (FM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (P&R 7375) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PL 8533) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (P&R 3532) type (GB) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (WJ&S 5720) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (AT&SF 0204) type (GB) by train, no pick up from C/I (City, 74)
+7- Exclude car (DL&W 7242) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 9880) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 5250) type (XM) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 4961) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 8836) type (GB) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (NYNH&H 0540) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (PL 2128) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (CS 3576) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (PL 2120) type (GB) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 5992) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (UTLX 4974) type (TM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (AT&SF 8248) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (ER 2798) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (WJ&S 4217) type (GB) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (DL&W 7977) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (B&A 2789) type (FM) by train, no pick up from C/I (City, 73)
+7- Exclude car (P&R 5960) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PGCC 9109) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (TCX 5324) type (TM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (P&R 6575) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (TELX 2341) type (TM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (B&O 6978) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (DL&W 7085) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PRR 3375) type (TM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (WJ&S 8346) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (P&R 7622) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (B&O 9336) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (WJ&S 4790) type (FM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (UTLX 7588) type (TM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PRR 1215) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PRR 1942) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PRR 7481) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (WCC 1472) type (HK) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (NYNH&H 0256) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (B&O 1911) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (TCX 2717) type (TM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PRR 0420) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (CS 0073) type (XM) by train, no pick up from C/I (City, Hold 2)
+7- Exclude car (PRR 7049) type (XM) by train, no pick up from C/I (City, Hold 2)
+5-  
+1- Found 32 cars for train (68M)
+7- Cars at location (Train Service):
+7- Car (PRR 308) type (NE) (C) at (Train Service, Cabin Track) 0 moves
+7- Car (PRR 386) type (NE) (C) at (Train Service, Cabin Track) 1 moves
+7-  
+7- Cars at location (City):
+7- Car (UTLX 7837) type (TM) at (City, OB-Northton) 1 moves
+7- Car (TCX 0510) type (TM) at (City, OB-Northton) 1 moves
+7- Car (PGCC 5648) type (HK) at (City, OB-Northton) 1 moves
+7- Car (PRR 6262) type (GB) at (City, OB-Northton) 1 moves
+7- Car (PRR 7333) type (GB) at (City, OB-Northton) 1 moves
+7- Car (B&O 3502) type (HK) at (City, OB-Northton) 1 moves
+7- Car (M&P 5577) type (XM) at (City, OB-Northton) 1 moves
+7- Car (PRR 7291) type (XM) at (City, OB-Northton) 1 moves
+7- Car (WJ&S 3080) type (XM) at (City, OB-Northton) 1 moves
+7- Car (TCX 1116) type (TM) at (City, OB-Northton) 1 moves
+7- Car (B&A 5607) type (GB) at (City, OB-Northton) 1 moves
+7- Car (UTLX 1758) type (TM) at (City, OB-Northton) 1 moves
+7- Car (B&O 0263) type (HK) at (City, OB-Northton) 1 moves
+7- Car (WJ&S 6707) type (XM) at (City, OB-Northton) 1 moves
+7- Car (CNJ 9642) type (XM) at (City, OB-Northton) 1 moves
+7- Car (PRR 4478) type (GB) at (City, OB-Northton) 1 moves
+7- Car (B&O 5953) type (HK) at (City, OB-Northton) 1 moves
+7- Car (CS 9474) type (XM) at (City, OB-Northton) 1 moves
+7- Car (M&P 1712) type (XM) at (City, OB-Northton) 1 moves
+7- Car (NYC 9231) type (XM) at (City, OB-Northton) 1 moves
+7- Car (B&A 0591) type (XM) at (City, OB-Northton) 1 moves
+7- Car (ACL 8139) type (XM) at (City, OB-Northton) 1 moves
+7- Car (PRR 0618) type (XM) at (City, OB-Northton) 1 moves
+7- Car (TCX 2904) type (TM) at (City, OB-Northton) 1 moves
+7- Car (PGCC 0575) type (HK) at (City, OB-Northton) 1 moves
+7- Car (CS 1725) type (XM) at (City, OB-Northton) 1 moves
+7- Car (P&R 7172) type (XM) at (City, OB-Northton) 1 moves
+7- Car (ER 3741) type (XM) at (City, OB-Northton) 1 moves
+7- Car (ACL 3944) type (XM) at (City, OB-Northton) 1 moves
+7- Car (B&O 5501) type (HK) at (City, OB-Northton) 1 moves
+7-  
+7- Cars available from staging (Northton):
+7-  
+7- Sort cars on FIFO and LIFO tracks:
+7-  
+1- Train (68M) requires caboose, road () departing (Train Service) destination (Northton)
+7- Car (PRR 308) is a caboose, road (PRR) at location (Train Service, Cabin Track)
+7- Car (PRR 308) road (PRR) matches loco (PRR 303)
+5- Find destinations for (PRR 308) type (NE) load (Occupied) at (Train Service, Cabin 
+5- Track) 
+7- Searching location (Northton) route id 69r8 for possible destination
+5- Car (PRR 308) can go to staging (Northton, N1) 0/50 moves used
+3- Car (PRR 308) assigned to train, destination (Northton, N1)
+3-  
+5- Train does not require car with FRED
+7-  
+7- Remove cars not needed by this train:
+7- Exclude car (PRR 386) type (NE) at location (Train Service, Cabin Track)
+3-  
+3- Requested cars (52) for train (68M) the number available (30) building train!
+3-  
+3- Multiple pass build (Aggressive Mode), begin 1 of 2 passes
+1- Route location (Train Service) id 69r7 requests 2 pick ups, 4/5 moves are available
+5-  
+5- No cars available for pick up at location (Train Service)
+5-  
+1- Partial 0/2 cars at location (Train Service) assigned to train (68M)
+1- Route location (City) id 69r9 requests 25 pick ups, 50/50 moves are available
+5-  
+5- Car (UTLX 7837) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (UTLX 7837) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (UTLX 7837): (City, OB-Northton)->(Northton, )
+7- Car (UTLX 7837) load (Empty) has assigned destination (Northton, )
+5- Car (UTLX 7837) doesn't have an assigned destination track
+5- Car (UTLX 7837) assigned to staging track (N1)
+3- Car (UTLX 7837) assigned to train, destination (Northton, N1)
+3-  
+5- Car (TCX 0510) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (TCX 0510) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (TCX 0510): (City, OB-Northton)->(Northton, )
+7- Car (TCX 0510) load (Empty) has assigned destination (Northton, )
+5- Car (TCX 0510) doesn't have an assigned destination track
+5- Car (TCX 0510) assigned to staging track (N1)
+3- Car (TCX 0510) assigned to train, destination (Northton, N1)
+3-  
+5- Find spur for car (PGCC 5648) type (HK) custom empty (Empty) at (City, OB-Northton)
+7- Spur (Valley, Produce) can't service car (PGCC 5648) with load (Empty) due to type 
+7- (HK) 
+7- Spur (Downtown, DY) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Junction, Coal) can't service car (PGCC 5648) with load (Empty) due to schedule 
+7- no match 
+7- Spur (Junction, Depot) can't service car (PGCC 5648) with load (Empty) due to type 
+7- (HK) 
+7- Spur (Junction, Steel Products) can't service car (PGCC 5648) with load (Empty) due 
+7- to type (HK) 
+7- Spur (Downtown, Sand) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Valley, Coal) can't service car (PGCC 5648) with load (Empty) due to schedule 
+7- no match 
+7- Spur (Valley, Depot) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Valley, General Delivery) can't service car (PGCC 5648) with load (Empty) due 
+7- to type (HK) 
+7- Spur (Park, Coal) can't service car (PGCC 5648) with load (Empty) due to schedule no 
+7- match 
+7- Spur (Park, Power House) can't service car (PGCC 5648) with load (Empty) due to 
+7- schedule no match 
+7- Spur (Downtown, Ash) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Downtown, Gantry Crane) can't service car (PGCC 5648) with load (Empty) due to 
+7- type (HK) 
+7- Spur (Park, Fuel Oil) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Park, Lumber) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Park, Depot) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Park, Freight House) can't service car (PGCC 5648) with load (Empty) due to 
+7- type (HK) 
+7- Spur (Park, General Delivery) can't service car (PGCC 5648) with load (Empty) due to 
+7- type (HK) 
+7- Spur (Downtown, DX) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Spur (Downtown, General Delivery) can't service car (PGCC 5648) with load (Empty) due 
+7- to type (HK) 
+7- Spur (Downtown, Coal) can't service car (PGCC 5648) with load (Empty) due to schedule 
+7- no match 
+7- Spur (Downtown, Ice) can't service car (PGCC 5648) with load (Empty) due to type (HK)
+7- Could not find a reachable spur for car (PGCC 5648) load (Empty)
+5- Try to send car (PGCC 5648) custom load (Empty) to staging
+7- Staging (Easton, E4) can accept car's load (Empty)
+7- Could not find an interim C/I or yard track that can service car from location (City)
+7- Find a route for car (PGCC 5648) through staging to (Easton, )
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Could not find an interim C/I or yard track that can service car from location (City)
+7- Staging (Northton, N1) can accept car's load (Empty)
+7- Train (68M) can transport car (PGCC 5648) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (PGCC 5648): (City, OB-Northton)->(Northton, )
+7- Car (PGCC 5648) load (Empty) has assigned destination (Northton, )
+5- Car (PGCC 5648) doesn't have an assigned destination track
+5- Car (PGCC 5648) assigned to staging track (N1)
+3- Car (PGCC 5648) assigned to train, destination (Northton, N1)
+3-  
+5- Car (PRR 6262) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (PRR 6262) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (PRR 6262): (City, OB-Northton)->(Northton, )
+7- Car (PRR 6262) load (Empty) has assigned destination (Northton, )
+5- Car (PRR 6262) doesn't have an assigned destination track
+5- Car (PRR 6262) assigned to staging track (N1)
+3- Car (PRR 6262) assigned to train, destination (Northton, N1)
+3-  
+5- Car (PRR 7333) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (PRR 7333) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (PRR 7333): (City, OB-Northton)->(Northton, )
+7- Car (PRR 7333) load (Empty) has assigned destination (Northton, )
+5- Car (PRR 7333) doesn't have an assigned destination track
+5- Car (PRR 7333) assigned to staging track (N1)
+3- Car (PRR 7333) assigned to train, destination (Northton, N1)
+3-  
+5- Car (B&O 3502) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (B&O 3502) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (B&O 3502): (City, OB-Northton)->(Northton, )
+7- Car (B&O 3502) load (Empty) has assigned destination (Northton, )
+5- Car (B&O 3502) doesn't have an assigned destination track
+5- Car (B&O 3502) assigned to staging track (N1)
+3- Car (B&O 3502) assigned to train, destination (Northton, N1)
+3-  
+5- Car (M&P 5577) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (M&P 5577) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (M&P 5577): (City, OB-Northton)->(Northton, )
+7- Car (M&P 5577) load (Empty) has assigned destination (Northton, )
+5- Car (M&P 5577) doesn't have an assigned destination track
+5- Car (M&P 5577) assigned to staging track (N1)
+3- Car (M&P 5577) assigned to train, destination (Northton, N1)
+3-  
+5- Car (PRR 7291) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (PRR 7291) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (PRR 7291): (City, OB-Northton)->(Northton, )
+7- Car (PRR 7291) load (Empty) has assigned destination (Northton, )
+5- Car (PRR 7291) doesn't have an assigned destination track
+5- Car (PRR 7291) assigned to staging track (N1)
+3- Car (PRR 7291) assigned to train, destination (Northton, N1)
+3-  
+5- Car (WJ&S 3080) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (WJ&S 3080) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (WJ&S 3080): (City, OB-Northton)->(Northton, )
+7- Car (WJ&S 3080) load (Empty) has assigned destination (Northton, )
+5- Car (WJ&S 3080) doesn't have an assigned destination track
+5- Car (WJ&S 3080) assigned to staging track (N1)
+3- Car (WJ&S 3080) assigned to train, destination (Northton, N1)
+3-  
+5- Car (TCX 1116) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (TCX 1116) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (TCX 1116): (City, OB-Northton)->(Northton, )
+7- Car (TCX 1116) load (Empty) has assigned destination (Northton, )
+5- Car (TCX 1116) doesn't have an assigned destination track
+5- Car (TCX 1116) assigned to staging track (N1)
+3- Car (TCX 1116) assigned to train, destination (Northton, N1)
+3-  
+5- Car (B&A 5607) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (B&A 5607) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (B&A 5607): (City, OB-Northton)->(Northton, )
+7- Car (B&A 5607) load (Empty) has assigned destination (Northton, )
+5- Car (B&A 5607) doesn't have an assigned destination track
+5- Car (B&A 5607) assigned to staging track (N1)
+3- Car (B&A 5607) assigned to train, destination (Northton, N1)
+3-  
+5- Car (UTLX 1758) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (UTLX 1758) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (UTLX 1758): (City, OB-Northton)->(Northton, )
+7- Car (UTLX 1758) load (Empty) has assigned destination (Northton, )
+5- Car (UTLX 1758) doesn't have an assigned destination track
+5- Car (UTLX 1758) assigned to staging track (N1)
+3- Car (UTLX 1758) assigned to train, destination (Northton, N1)
+3-  
+5- Find spur for car (B&O 0263) type (HK) custom empty (Empty) at (City, OB-Northton)
+7- Spur (Valley, Produce) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Downtown, DY) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Junction, Coal) can't service car (B&O 0263) with load (Empty) due to schedule 
+7- no match 
+7- Spur (Junction, Depot) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Junction, Steel Products) can't service car (B&O 0263) with load (Empty) due to 
+7- type (HK) 
+7- Spur (Downtown, Sand) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Valley, Coal) can't service car (B&O 0263) with load (Empty) due to schedule no 
+7- match 
+7- Spur (Valley, Depot) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Valley, General Delivery) can't service car (B&O 0263) with load (Empty) due to 
+7- type (HK) 
+7- Spur (Park, Coal) can't service car (B&O 0263) with load (Empty) due to schedule no 
+7- match 
+7- Spur (Park, Power House) can't service car (B&O 0263) with load (Empty) due to 
+7- schedule no match 
+7- Spur (Downtown, Ash) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Downtown, Gantry Crane) can't service car (B&O 0263) with load (Empty) due to 
+7- type (HK) 
+7- Spur (Park, Fuel Oil) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Park, Lumber) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Park, Depot) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Park, Freight House) can't service car (B&O 0263) with load (Empty) due to type 
+7- (HK) 
+7- Spur (Park, General Delivery) can't service car (B&O 0263) with load (Empty) due to 
+7- type (HK) 
+7- Spur (Downtown, DX) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Spur (Downtown, General Delivery) can't service car (B&O 0263) with load (Empty) due 
+7- to type (HK) 
+7- Spur (Downtown, Coal) can't service car (B&O 0263) with load (Empty) due to schedule 
+7- no match 
+7- Spur (Downtown, Ice) can't service car (B&O 0263) with load (Empty) due to type (HK)
+7- Could not find a reachable spur for car (B&O 0263) load (Empty)
+5- Try to send car (B&O 0263) custom load (Empty) to staging
+7- Staging (Weston, W2) can accept car's load (Empty)
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (B&O 0263) through staging to (Weston, )
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging (Easton, E4) can accept car's load (Empty)
+7- Could not find an interim C/I or yard track that can service car from location (City)
+7- Find a route for car (B&O 0263) through staging to (Easton, )
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Could not find an interim C/I or yard track that can service car from location (City)
+7- Staging (Northton, N1) can accept car's load (Empty)
+7- Train (68M) can transport car (B&O 0263) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (B&O 0263): (City, OB-Northton)->(Northton, )
+7- Car (B&O 0263) load (Empty) has assigned destination (Northton, )
+5- Car (B&O 0263) doesn't have an assigned destination track
+5- Car (B&O 0263) assigned to staging track (N1)
+3- Car (B&O 0263) assigned to train, destination (Northton, N1)
+3-  
+5- Car (WJ&S 6707) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (WJ&S 6707) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (WJ&S 6707): (City, OB-Northton)->(Northton, )
+7- Car (WJ&S 6707) load (Empty) has assigned destination (Northton, )
+5- Car (WJ&S 6707) doesn't have an assigned destination track
+5- Car (WJ&S 6707) assigned to staging track (N1)
+3- Car (WJ&S 6707) assigned to train, destination (Northton, N1)
+3-  
+5- Car (CNJ 9642) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (CNJ 9642) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (CNJ 9642): (City, OB-Northton)->(Northton, )
+7- Car (CNJ 9642) load (Empty) has assigned destination (Northton, )
+5- Car (CNJ 9642) doesn't have an assigned destination track
+5- Car (CNJ 9642) assigned to staging track (N1)
+3- Car (CNJ 9642) assigned to train, destination (Northton, N1)
+3-  
+5- Car (PRR 4478) type (GB) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (PRR 4478) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (PRR 4478): (City, OB-Northton)->(Northton, )
+7- Car (PRR 4478) load (Empty) has assigned destination (Northton, )
+5- Car (PRR 4478) doesn't have an assigned destination track
+5- Car (PRR 4478) assigned to staging track (N1)
+3- Car (PRR 4478) assigned to train, destination (Northton, N1)
+3-  
+5- Car (B&O 5953) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (B&O 5953) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (B&O 5953): (City, OB-Northton)->(Northton, )
+7- Car (B&O 5953) load (Empty) has assigned destination (Northton, )
+5- Car (B&O 5953) doesn't have an assigned destination track
+5- Car (B&O 5953) assigned to staging track (N1)
+3- Car (B&O 5953) assigned to train, destination (Northton, N1)
+3-  
+5- Car (CS 9474) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (CS 9474) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (CS 9474): (City, OB-Northton)->(Northton, )
+7- Car (CS 9474) load (Empty) has assigned destination (Northton, )
+5- Car (CS 9474) doesn't have an assigned destination track
+5- Car (CS 9474) assigned to staging track (N1)
+3- Car (CS 9474) assigned to train, destination (Northton, N1)
+3-  
+5- Car (M&P 1712) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (M&P 1712) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (M&P 1712): (City, OB-Northton)->(Northton, )
+7- Car (M&P 1712) load (Empty) has assigned destination (Northton, )
+5- Car (M&P 1712) doesn't have an assigned destination track
+5- Car (M&P 1712) assigned to staging track (N1)
+3- Car (M&P 1712) assigned to train, destination (Northton, N1)
+3-  
+5- Car (NYC 9231) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (NYC 9231) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (NYC 9231): (City, OB-Northton)->(Northton, )
+7- Car (NYC 9231) load (Empty) has assigned destination (Northton, )
+5- Car (NYC 9231) doesn't have an assigned destination track
+5- Car (NYC 9231) assigned to staging track (N1)
+3- Car (NYC 9231) assigned to train, destination (Northton, N1)
+3-  
+5- Car (B&A 0591) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (B&A 0591) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (B&A 0591): (City, OB-Northton)->(Northton, )
+7- Car (B&A 0591) load (Empty) has assigned destination (Northton, )
+5- Car (B&A 0591) doesn't have an assigned destination track
+5- Car (B&A 0591) assigned to staging track (N1)
+3- Car (B&A 0591) assigned to train, destination (Northton, N1)
+3-  
+5- Car (ACL 8139) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (ACL 8139) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (ACL 8139): (City, OB-Northton)->(Northton, )
+7- Car (ACL 8139) load (Empty) has assigned destination (Northton, )
+5- Car (ACL 8139) doesn't have an assigned destination track
+5- Car (ACL 8139) assigned to staging track (N1)
+3- Car (ACL 8139) assigned to train, destination (Northton, N1)
+3-  
+5- Car (PRR 0618) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (PRR 0618) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (PRR 0618): (City, OB-Northton)->(Northton, )
+7- Car (PRR 0618) load (Empty) has assigned destination (Northton, )
+5- Car (PRR 0618) doesn't have an assigned destination track
+5- Car (PRR 0618) assigned to staging track (N1)
+3- Car (PRR 0618) assigned to train, destination (Northton, N1)
+3-  
+5- Car (TCX 2904) type (TM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (TCX 2904) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (TCX 2904): (City, OB-Northton)->(Northton, )
+7- Car (TCX 2904) load (Empty) has assigned destination (Northton, )
+5- Car (TCX 2904) doesn't have an assigned destination track
+5- Car (TCX 2904) assigned to staging track (N1)
+3- Car (TCX 2904) assigned to train, destination (Northton, N1)
+3-  
+5- Car (PGCC 0575) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (PGCC 0575) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (PGCC 0575): (City, OB-Northton)->(Northton, )
+7- Car (PGCC 0575) load (Empty) has assigned destination (Northton, )
+5- Car (PGCC 0575) doesn't have an assigned destination track
+5- Car (PGCC 0575) assigned to staging track (N1)
+3- Car (PGCC 0575) assigned to train, destination (Northton, N1)
+3-  
+1- Success 25/25 cars at location (City) assigned to train (68M)
+1- Route location (Northton) id 69r8 no pick ups
+3-  
+3- Multiple pass build (Aggressive Mode), begin 2 of 2 passes
+1- Route location (Train Service) id 69r7 requests 4 pick ups, 4/5 moves are available
+5-  
+5- No cars available for pick up at location (Train Service)
+5-  
+1- Partial 0/4 cars at location (Train Service) assigned to train (68M)
+1- Route location (City) id 69r9 requests 25 pick ups, 25/50 moves are available
+5-  
+5- Car (CS 1725) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (CS 1725) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (CS 1725): (City, OB-Northton)->(Northton, )
+7- Car (CS 1725) load (Empty) has assigned destination (Northton, )
+5- Car (CS 1725) doesn't have an assigned destination track
+5- Car (CS 1725) assigned to staging track (N1)
+3- Car (CS 1725) assigned to train, destination (Northton, N1)
+3-  
+5- Car (P&R 7172) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (P&R 7172) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (P&R 7172): (City, OB-Northton)->(Northton, )
+7- Car (P&R 7172) load (Empty) has assigned destination (Northton, )
+5- Car (P&R 7172) doesn't have an assigned destination track
+5- Car (P&R 7172) assigned to staging track (N1)
+3- Car (P&R 7172) assigned to train, destination (Northton, N1)
+3-  
+5- Car (ER 3741) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (ER 3741) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (ER 3741): (City, OB-Northton)->(Northton, )
+7- Car (ER 3741) load (Empty) has assigned destination (Northton, )
+5- Car (ER 3741) doesn't have an assigned destination track
+5- Car (ER 3741) assigned to staging track (N1)
+3- Car (ER 3741) assigned to train, destination (Northton, N1)
+3-  
+5- Car (ACL 3944) type (XM) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (ACL 3944) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (ACL 3944): (City, OB-Northton)->(Northton, )
+7- Car (ACL 3944) load (Empty) has assigned destination (Northton, )
+5- Car (ACL 3944) doesn't have an assigned destination track
+5- Car (ACL 3944) assigned to staging track (N1)
+3- Car (ACL 3944) assigned to train, destination (Northton, N1)
+3-  
+5- Car (B&O 5501) type (HK) load (Empty) at (City, OB-Northton) has final destination 
+5- (Northton, ) routing begins 
+7- Train (68M) can transport car (B&O 5501) from C/I (City, OB-Northton) to (Northton, )
+7- Route for car (B&O 5501): (City, OB-Northton)->(Northton, )
+7- Car (B&O 5501) load (Empty) has assigned destination (Northton, )
+5- Car (B&O 5501) doesn't have an assigned destination track
+5- Car (B&O 5501) assigned to staging track (N1)
+3- Car (B&O 5501) assigned to train, destination (Northton, N1)
+3-  
+1- Partial 5/25 cars at location (City) assigned to train (68M)
+1- Route location (Northton) id 69r8 no pick ups
+1- Partial 31/52 cars
+5- Build for train (68M) took 31 mSec

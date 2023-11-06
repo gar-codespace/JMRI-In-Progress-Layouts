@@ -1,4 +1,4 @@
-1- Build Report for train (78P) built on 7/20/23, 10:35 PM
+1- Build Report for train (78P) built on 11/4/23, 7:50 PM
 1- JMRI version 5.2+R760b98537f
 3- Build report detail level: Normal
 5- Build report detail level: Detailed
@@ -14,9 +14,11 @@
 5- being built is enabled 
 5- Make departure track available after train is built
 5- Prompt for Departure Track from Staging
+5- Prompt for Arrival Track into Staging
 5-  
 5- Car routing options:
 5- Car routing via yards is enabled
+5- Car routing through staging is enabled
 5- Use all Trains when Routing
 5-  
 5- Enabled build options for train (78P):
@@ -33,11 +35,13 @@
 5-  
 3- Train (78P) route (78P):
 3- 61r7 Staging (Weston) Eastbound request 50 pick ups, maximum train length 3,000 feet
-3- 61r11 Location (Downtown) Eastbound requests 24 moves, maximum train length 3,000 feet
+3- 61r12 Location (City) Eastbound requests 12 set outs, maximum train length 3,000 feet
+3- 61r11 Location (Downtown) Eastbound requests 55 pick ups, maximum train length 3,000 
+3- feet 
 3- 61r9 Location (Train Service) Eastbound requests 3 moves, maximum train length 3,000 
 3- feet 
 3- 61r10 Staging (Easton) Eastbound requests 50 set outs
-1- Route (78P) requests 63 cars and 127 moves
+1- Route (78P) requests 85 cars and 170 moves
 1-  
 1- Train requirements:
 1- Train departs (Weston) with 2 consisted locomotives, model () road ()
@@ -45,8 +49,7 @@
 1- Train must depart (Weston) with caboose, road ()
 1-  
 5- Train (78P) services locomotive types:
-5- ESHP, ESHF
-7- Exclude loco (PRR 532) at (Northton, N1) type (EEHF) is not serviced by this train
+5- ESHF, ESHP
 7- Exclude loco (PRR 872) at (Train Service, Car Barn) type (EDHF) is not serviced by 
 7- this train 
 7- Exclude loco (PRR 798) at (Train Service, Car Barn) type (EDHF) is not serviced by 
@@ -60,43 +63,47 @@
 7- Exclude loco (PRR 828) at (Northton, N4) type (EELP) is not serviced by this train
 7- Exclude loco (PRR 092) at (Train Service, Car Barn) type (EDHF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 949) at (Train Service, Roundhouse) type (ESLF) is not serviced by 
-7- this train 
 7- Exclude loco (PRR 587) at (Train Service, Car Barn) type (EEHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 351) at (Northton, N1) type (EEHF) is not serviced by this train
 7- Exclude loco (PRR 520) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 240) at (Train Service, Roundhouse) type (ESLP) is not serviced by 
-7- this train 
 7- Exclude loco (PRR 474) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 194) at (Train Service, Roundhouse) type (ESLP) is not serviced by 
-7- this train 
 7- Exclude loco (PRR 720) at (Train Service, Roundhouse) type (ESLF) is not serviced by 
 7- this train 
 7- Exclude loco (PRR 677) at (Unreported, ~) type (ESS) is not serviced by this train
-7- Exclude loco (PRR 303) at (Train Service, Car Barn) type (EEHF) is not serviced by 
-7- this train 
 7- Exclude loco (PRR 611) at (Northton, N3) type (EEHP) is not serviced by this train
 7- Exclude loco (PRR 363) at (Northton, N4) type (EELP) is not serviced by this train
 7- Exclude loco (PRR 486) at (Train Service, Car Barn) type (EEHF) is not serviced by 
 7- this train 
+7- Exclude loco (PRR 949) at (Train Service, Roundhouse) type (ESLF) is not serviced by 
+7- this train 
+7- Exclude loco (PRR 351) at (Train Service, Car Barn) type (EEHF) is not serviced by 
+7- this train 
 7- Exclude loco (PRR 410) at (Train Service, Car Barn) type (EEHF) is not serviced by 
+7- this train 
+7- Exclude loco (PRR 303) at (Northton, N1) type (EEHF) is not serviced by this train
+7- Exclude loco (PRR 532) at (Northton, N1) type (EEHF) is not serviced by this train
+7- Exclude loco (PRR 240) at (Train Service, Roundhouse) type (ESLP) is not serviced by 
+7- this train 
+7- Exclude loco (PRR 194) at (Train Service, Car Barn) type (ESLP) is not serviced by 
 7- this train 
 5-  
 1- Found 11 locomotives for train (78P)
 7- Locos available from staging (Weston):
-7- LOCO (PRR 208) type (ESHP) model (K4s streamlined) at (Weston, W2) 0 moves
-7- LOCO (PRR 758) type (ESHP) model (K4s) at (Weston, W2) 0 moves
+7- LOCO (PRR 452) type (ESHP) model (K4s) at (Weston, W2) 1 moves
+7- LOCO (PRR 323) type (ESHP) model (K4s) at (Weston, W2) 1 moves
+5-  
+7- Locos at location (City):
 5-  
 7- Locos at location (Downtown):
 5-  
 7- Locos at location (Train Service):
-7- LOCO (PRR 452) type (ESHP) model (K4s) at (Train Service, Roundhouse) 0 moves
-7- LOCO (PRR 323) type (ESHP) model (K4s) at (Train Service, Roundhouse) 0 moves
 7- LOCO (PRR 072) type (ESHP) model (T1s) at (Train Service, Roundhouse) 0 moves
 7- LOCO (PRR 449) type (ESHF) model (J1a) at (Train Service, Roundhouse) 0 moves
 7- LOCO (PRR 025) type (ESHF) model (I1s) at (Train Service, Roundhouse) 0 moves
 7- LOCO (PRR 878) type (ESHP) model (K4s) at (Train Service, Roundhouse) 0 moves
+7- LOCO (PRR 208) type (ESHP) model (K4s streamlined) at (Train Service, Roundhouse) 1 
+7- moves 
+7- LOCO (PRR 758) type (ESHP) model (K4s) at (Train Service, Roundhouse) 1 moves
 5-  
 7- Locos available from staging (Easton):
 7- LOCO (PRR 792) type (ESHP) model (K4s) at (Easton, E3) 0 moves
@@ -105,10 +112,10 @@
 5-  
 3-  
 1- Train terminates into staging at (Easton), there are 4 tracks
-5- Staging track (E4) is occupied, found 1 locomotive(s) and 34 cars
-5- Staging track (E3) is occupied, found 2 locomotive(s) and 12 cars
-7- Train (78P) can terminate to staging track (E1)
-1- Staging track (E1) is available at destination (Easton)
+5- Staging track (E1) does not service this train
+7- Train (78P) can terminate to staging track (E2)
+5- Staging track (E3) does not service this train
+5- Staging track (E4) does not service this train
 3-  
 1- Train will depart staging (Weston), there are 3 tracks
 3- Staging track (W1) is empty
@@ -118,160 +125,227 @@
 3-  
 5- Search for 2 loco(s), model (), road (), departing (Weston), destination (Train 
 5- Service) 
-7- Can't set out rolling stock (PRR 208) using Eastbound train, destination track 
+7- Can't set out rolling stock (PRR 452) using Eastbound train, destination track 
 7- (Repair) does not service this direction 
-1- Loco (PRR 208) assigned to train, departs (Weston) destination (Train Service, Cabin 
-1- Track) 
-7- Can't set out rolling stock (PRR 758) using Eastbound train, destination track 
+7- Can't send loco (PRR 452) to C/I (Cabin Track) due to type (ESHP)
+1- Loco (PRR 452) assigned to train, departs (Weston) destination (Train Service, 
+1- Roundhouse) 
+7- Can't set out rolling stock (PRR 323) using Eastbound train, destination track 
 7- (Repair) does not service this direction 
-1- Loco (PRR 758) assigned to train, departs (Weston) destination (Train Service, Cabin 
-1- Track) 
+7- Can't send loco (PRR 323) to C/I (Cabin Track) due to type (ESHP)
+1- Loco (PRR 323) assigned to train, departs (Weston) destination (Train Service, Car 
+1- Barn) 
 3-  
 3- Locomotive change at (Train Service), departs with 2 loco(s), model (K4s) road ()
 5- Search for 2 loco(s), model (K4s), road (), departing (Train Service), destination 
 5- (Easton) 
-7- Skip single loco (PRR 452) train requires 2 locomotives
-7- Skip single loco (PRR 323) train requires 2 locomotives
 7- Skip loco (PRR 072) model (T1s) location (Train Service)
 7- Skip loco (PRR 449) model (J1a) location (Train Service)
 7- Skip loco (PRR 025) model (I1s) location (Train Service)
 7- Skip single loco (PRR 878) train requires 2 locomotives
+7- Skip loco (PRR 208) model (K4s streamlined) location (Train Service)
+7- Skip single loco (PRR 758) train requires 2 locomotives
 5- Option to build consist with 2 locos departing (Train Service) is enabled
-5- There are 3 single locomotives at (Train Service) that meet this train's requirements
-1- Loco (PRR 452) assigned to train, departs (Train Service) destination (Easton, E1)
-1- Loco (PRR 323) assigned to train, departs (Train Service) destination (Easton, E1)
+5- There are 2 single locomotives at (Train Service) that meet this train's requirements
+1- Loco (PRR 878) assigned to train, departs (Train Service) destination (Easton, E2)
+1- Loco (PRR 758) assigned to train, departs (Train Service) destination (Easton, E2)
 7- Done assigning locomotives to train (78P)
 5-  
 5- Train (78P) services car types:
 5- NE, RB, RS
 7-  
 7- Remove cars not serviced by this train:
-7- Exclude car (PRR 8869) at (Train Service, Coach Yard) train doesn't service type (P70)
-7- Exclude car (PRR 8102) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (PRR 8057) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (SP 2996) at (Downtown, Sand) train doesn't service type (GB)
-7- Exclude car (B&O 4601) at (Downtown, Coal) train doesn't service type (HK)
-7- Exclude car (PRR 9505) at (Train Service, Coach Yard) train doesn't service type (P70)
-7- Exclude car (PRR 8020) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (PRR 5189) at (Downtown, DY) train doesn't service type (XX)
-7- Exclude car (CNJ 2995) at (Downtown, General Delivery) train doesn't service type (GB)
-7- Exclude car (P&R 2756) at (Downtown, DX) train doesn't service type (XM)
-7- Exclude car (PRR 6999) at (Downtown, General Delivery) train doesn't service type (FM)
-7- Exclude car (P&R 1315) at (Downtown, DX) train doesn't service type (XM)
-7- Exclude car (PRR 7303) at (Train Service, Coach Yard) train doesn't service type (Pk)
-7- Exclude car (CS 5997) at (Downtown, General Delivery) train doesn't service type (GB)
-7- Exclude car (AT&SF 9192) at (Downtown, General Delivery) train doesn't service type 
-7- (GB) 
-7- Exclude car (PRR 4843) at (Downtown, DY) train doesn't service type (XX)
-7- Exclude car (PRR 235) at (Train Service, Cabin Track) train doesn't service type (NM)
-7- Exclude car (PRR 5466) at (Train Service, Coach Yard) train doesn't service type (P54)
-7- Exclude car (SP 7403) at (Downtown, General Delivery) train doesn't service type (GB)
-7- Exclude car (PRR 4414) at (Train Service, Coach Yard) train doesn't service type (P70)
-7- Exclude car (LV 7577) at (Downtown, General Delivery) train doesn't service type (XM)
-7- Exclude car (PL 5884) at (Downtown, DX) train doesn't service type (XM)
-7- Exclude car (NYNH&H 4979) at (Downtown, General Delivery) train doesn't service type 
-7- (XM) 
-7- Exclude car (PRR 6485) at (Downtown, DX) train doesn't service type (CA)
-7- Exclude car (PRR 206) at (Train Service, Cabin Track) train doesn't service type (NM)
+7- Exclude car (PRR 8869) type (P70) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (NYC 0574) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (PRR 8102) type (B60) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (PRR 8057) type (B60) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (PRR 7808) type (XX) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (SP 2996) type (GB) by train, no pick up from spur (Downtown, Sand)
+7- Exclude car (B&O 4601) type (HK) by train, no pick up from spur (Downtown, Coal)
+7- Exclude car (PRR 9505) type (P70) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PRR 8020) type (B60) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (PRR 5189) type (XX) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (CNJ 2995) type (GB) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (WJ&S 3512) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (P&R 2756) type (XM) by train, no pick up from spur (Downtown, DX)
+7- Exclude car (PRR 6999) type (FM) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (P&R 1315) type (XM) by train, no pick up from spur (Downtown, DX)
+7- Exclude car (CS 5997) type (GB) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (ACL 0395) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (AT&SF 9192) type (GB) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (PRR 4843) type (XX) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (SP 7403) type (GB) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (PGCC 7590) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (M&P 2664) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PRR 4414) type (P70) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PGCC 1635) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (LV 7577) type (XM) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (M&P 8641) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PL 5884) type (XM) by train, no pick up from spur (Downtown, DX)
+7- Exclude car (P&R 1166) type (HK) by train, no pick up from C/I (City, 72)
+7- Exclude car (ACL 1418) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (NYNH&H 4979) type (XM) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (PRR 6485) type (CA) by train, no pick up from spur (Downtown, DX)
+7- Exclude car (PRR 4766) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (B&O 8996) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 6115) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (PGCC 3336) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 4752) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (TELX 8228) type (TM) by train, no pick up from C/I (City, 74)
 7- Exclude car (PRR 8587) at (Downtown, Service Track) train doesn't service type (PS)
+7- Exclude car (PRR 2598) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (P&R 7136) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 7541) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (M&P 3300) type (GB) by train, no pick up from C/I (City, 73)
 7- Exclude car (PRR 6854) at (Downtown, Service Track) train doesn't service type (B60)
-7- Exclude car (B&A 3657) at (Downtown, Gantry Crane) train doesn't service type (GB)
-7- Exclude car (PRR 0107) at (Downtown, DX) train doesn't service type (Bd)
-7- Exclude car (PRR 3657) at (Downtown, DY) train doesn't service type (Bn)
-7- Exclude car (B&A 5360) at (Downtown, General Delivery) train doesn't service type (FM)
-7- Exclude car (PRR 5369) at (Downtown, DY) train doesn't service type (MA)
-7- Exclude car (ER 5365) at (Downtown, Gantry Crane) train doesn't service type (GB)
-7- Exclude car (PRR 119) at (Train Service, Cabin Track) train doesn't service type (NM)
-7- Exclude car (PRR 0838) at (Train Service, Coach Yard) train doesn't service type (P54)
-7- Exclude car (PRR 3620) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (PRR 2886) at (Train Service, Coach Yard) train doesn't service type (P54)
+7- Exclude car (B&A 3657) type (GB) by train, no pick up from spur (Downtown, Gantry 
+7- Crane) 
+7- Exclude car (NYNH&H 8380) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 0460) type (XX) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (TELX 4330) type (TM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PRR 3657) type (Bn) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (NYC 3866) type (XM) by train, no pick up from C/I (City, 73)
+7- Exclude car (NYNH&H 3502) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PRR 7482) type (TM) by train, no pick up from C/I (City, 74)
+7- Exclude car (CNJ 5227) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (B&A 5360) type (FM) by train, no pick up from spur (Downtown, General 
+7- Delivery) 
+7- Exclude car (PRR 5369) type (MA) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (ER 5365) type (GB) by train, no pick up from spur (Downtown, Gantry 
+7- Crane) 
+7- Exclude car (M&P 6045) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (WJ&S 3268) type (XM) by train, no pick up from C/I (City, 73)
+7- Exclude car (B&O 8552) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (PL 0919) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (ER 7904) type (GB) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 119) type (NM) by train, no pick up from C/I (Train Service, Cabin 
+7- Track) 
+7- Exclude car (PRR 3620) type (B60) by train, no pick up from spur (Downtown, DY)
+7- Exclude car (WJ&S 9592) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (B&A 5690) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (CS 6469) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (P&R 8518) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (B&O 1107) type (HK) by train, no pick up from C/I (City, 73)
+7- Exclude car (M&P 6808) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (PL 2963) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (P&R 9149) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (TCX 7210) type (TM) by train, no pick up from C/I (City, 72)
+7- Exclude car (ER 7426) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (WJ&S 5720) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 386) type (NE) by train, no pick up from C/I (Train Service, Cabin 
+7- Track) 
+7- Exclude car (AT&SF 0204) type (GB) by train, no pick up from C/I (City, 74)
+7- Exclude car (DL&W 7242) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 9880) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 5250) type (XM) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 4961) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (NYNH&H 0540) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (PL 2128) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (CS 3576) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (PL 2120) type (GB) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 5992) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (ER 2798) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (DL&W 7977) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (B&A 2789) type (FM) by train, no pick up from C/I (City, 73)
+7- Exclude car (PRR 235) type (NM) by train, no pick up from C/I (Train Service, Cabin 
+7- Track) 
+7- Exclude car (P&R 3532) type (GB) by train, no pick up from C/I (City, 71)
+7- Exclude car (PGCC 2474) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 8836) type (GB) by train, no pick up from C/I (City, 72)
+7- Exclude car (B&O 3864) type (HK) by train, no pick up from C/I (City, 72)
+7- Exclude car (WJ&S 8765) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (WJ&S 2774) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (NYNH&H 8947) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (ER 2343) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (B&O 6978) type (HK) by train, no pick up from C/I (City, 74)
+7- Exclude car (PRR 3375) type (TM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 8322) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (B&O 9336) type (HK) by train, no pick up from C/I (City, 75)
+5- ********** Only the first 100 cars are shown for (Type) **********
+7- Exclude car (UTLX 7588) type (TM) by train, no pick up from C/I (City, 72)
+7- Exclude car (PRR 2643) type (FM) by train, no pick up from C/I (City, 75)
+7- Exclude car (B&O 0125) type (XM) by train, no pick up from C/I (City, 71)
+7- Exclude car (ACL 2039) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (PRR 1942) type (HK) by train, no pick up from C/I (City, 75)
+7- Exclude car (B&O 6457) type (HK) by train, no pick up from C/I (City, 74)
+7- Exclude car (B&O 5413) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (PRR 1896) type (TM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 7481) type (HK) by train, no pick up from C/I (City, 71)
+7- Exclude car (PGCC 7891) type (HK) by train, no pick up from C/I (City, 72)
+7- Exclude car (WCC 1472) type (HK) by train, no pick up from C/I (City, 72)
+7- Exclude car (B&O 1529) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (UTLX 9649) type (TM) by train, no pick up from C/I (City, 75)
+7- Exclude car (NYNH&H 0256) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (B&O 1911) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (TCX 2717) type (TM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 0420) type (XM) by train, no pick up from C/I (City, 72)
+7- Exclude car (CS 0073) type (XM) by train, no pick up from C/I (City, 74)
+7- Exclude car (ACL 5093) type (FM) by train, no pick up from C/I (City, 71)
+7- Exclude car (PRR 7049) type (XM) by train, no pick up from C/I (City, 75)
+7- Exclude car (PRR 0838) type (P54) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PRR 2886) type (P54) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PRR 7303) type (Pk) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PRR 5466) type (P54) by train, no pick up from C/I (Train Service, Coach 
+7- Yard) 
+7- Exclude car (PRR 0107) type (Bd) by train, no pick up from spur (Downtown, DX)
 7-  
 7- Remove cars from the other staging tracks:
 5-  
 5- Departing staging (Weston, W2) with 37 cars
-7- Staging car (FGEX 6509) type (RB) load (E)
 7- Staging car (FGEX 8220) type (RS) load (E)
-7- Staging car (FGEX 2192) type (RS) load (E)
 7- Staging car (FGEX 7896) type (RB) load (E)
 7- Staging car (FGEX 4699) type (RB) load (E)
 7- Staging car (FGEX 7095) type (RB) load (E)
 7- Staging car (FGEX 0857) type (RB) load (E)
-7- Staging car (FGEX 1530) type (RB) load (E)
+7- Staging car (FGEX 3251) type (RB) load (E)
 7- Staging car (FGEX 3994) type (RB) load (E)
+7- Staging car (FGEX 9586) type (RB) load (E)
 7- Staging car (FGEX 3237) type (RB) load (E)
 7- Staging car (FGEX 7063) type (RS) load (E)
 7- Staging car (FGEX 1072) type (RB) load (E)
+7- Staging car (FGEX 2534) type (RB) load (E)
+7- Staging car (FGEX 0775) type (RB) load (E)
 7- Staging car (FGEX 7388) type (RS) load (E)
-7- Staging car (FGEX 1782) type (RB) load (E)
-7- Staging car (FGEX 1417) type (RS) load (E)
+7- Staging car (FGEX 9138) type (RB) load (E)
+7- Staging car (FGEX 2851) type (RB) load (E)
 7- Staging car (FGEX 1013) type (RB) load (E)
 7- Staging car (FGEX 1802) type (RS) load (E)
-7- Staging car (FGEX 4555) type (RB) load (E)
 7- Staging car (FGEX 1756) type (RS) load (E)
+7- Staging car (FGEX 8387) type (RS) load (E)
+7- Staging car (FGEX 9060) type (RS) load (E)
 7- Staging car (FGEX 6304) type (RB) load (E)
 7- Staging car (FGEX 6661) type (RS) load (E)
-7- Staging car (FGEX 4540) type (RS) load (E)
 7- Staging car (FGEX 3069) type (RS) load (E)
-7- Staging car (FGEX 7290) type (RB) load (E)
-7- Staging car (FGEX 2756) type (RS) load (E)
+7- Staging car (FGEX 2420) type (RS) load (E)
+7- Staging car (FGEX 2746) type (RB) load (E)
 7- Staging car (FGEX 6176) type (RB) load (E)
 7- Staging car (FGEX 7646) type (RB) load (E)
 7- Staging car (FGEX 7991) type (RS) load (E)
-7- Staging car (FGEX 2719) type (RB) load (E)
-7- Staging car (FGEX 5863) type (RB) load (E)
-7- Staging car (FGEX 7611) type (RB) load (E)
+7- Staging car (FGEX 2300) type (RS) load (E)
 7- Staging car (PRR 506) type (NE) load (E)
+7- Staging car (FGEX 6135) type (RB) load (E)
 7- Staging car (FGEX 4774) type (RB) load (E)
 7- Staging car (FGEX 4409) type (RB) load (E)
 7- Staging car (FGEX 9672) type (RB) load (E)
 7- Staging car (FGEX 8990) type (RS) load (E)
 7- Staging car (FGEX 1605) type (RS) load (E)
 5-  
-1- Found 50 cars for train (78P)
+1- Found 49 cars for train (78P)
 7- Cars available from staging (Weston):
-7- Car (FGEX 1782) type (RB) at (Weston, W2) 0 moves
-7- Car (FGEX 1782) is lead in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 1417) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 1530) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 2192) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 2719) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 2756) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 4540) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 4555) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 5863) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 6509) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 7290) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 7611) is in kernel (R1) with 12 cars, 528 feet
-7- Car (FGEX 1756) type (RS) at (Weston, W2) 0 moves
-7- Car (FGEX 1756) is lead in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 0857) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 1072) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 1605) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 1802) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 3237) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 3994) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 4409) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 4699) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 6176) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 7063) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 8990) is in kernel (R7) with 12 cars, 528 feet
-7- Car (FGEX 6304) type (RB) at (Weston, W2) 0 moves
-7- Car (FGEX 6304) is lead in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 1013) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 3069) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 4774) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 6661) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 7095) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 7388) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 7646) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 7896) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 7991) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 8220) is in kernel (R3) with 12 cars, 528 feet
-7- Car (FGEX 9672) is in kernel (R3) with 12 cars, 528 feet
-7- Car (PRR 506) type (NE) (C) at (Weston, W2) 0 moves
-7-  
-7- Cars at location (Downtown):
-7- Car (FGEX 9586) type (RB) at (Downtown, Ice) 0 moves
+7- Car (FGEX 9586) type (RB) at (Weston, W2) 1 moves
 7- Car (FGEX 9586) is lead in kernel (R6) with 12 cars, 528 feet
 7- Car (FGEX 0775) is in kernel (R6) with 12 cars, 528 feet
 7- Car (FGEX 2300) is in kernel (R6) with 12 cars, 528 feet
@@ -284,9 +358,52 @@
 7- Car (FGEX 8387) is in kernel (R6) with 12 cars, 528 feet
 7- Car (FGEX 9060) is in kernel (R6) with 12 cars, 528 feet
 7- Car (FGEX 9138) is in kernel (R6) with 12 cars, 528 feet
+7- Car (FGEX 1756) type (RS) at (Weston, W2) 1 moves
+7- Car (FGEX 1756) is lead in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 0857) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 1072) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 1605) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 1802) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 3237) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 3994) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 4409) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 4699) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 6176) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 7063) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 8990) is in kernel (R7) with 12 cars, 528 feet
+7- Car (FGEX 6304) type (RB) at (Weston, W2) 1 moves
+7- Car (FGEX 6304) is lead in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 1013) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 3069) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 4774) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 6661) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 7095) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 7388) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 7646) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 7896) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 7991) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 8220) is in kernel (R3) with 12 cars, 528 feet
+7- Car (FGEX 9672) is in kernel (R3) with 12 cars, 528 feet
+7- Car (PRR 506) type (NE) (C) at (Weston, W2) 1 moves
+7-  
+7- Cars at location (City):
+7-  
+7- Cars at location (Downtown):
+7- Car (FGEX 1782) type (RB) at (Downtown, Ice) 2 moves
+7- Car (FGEX 1782) is lead in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 1417) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 1530) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 2192) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 2719) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 2756) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 4540) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 4555) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 5863) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 6509) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 7290) is in kernel (R1) with 12 cars, 528 feet
+7- Car (FGEX 7611) is in kernel (R1) with 12 cars, 528 feet
 7-  
 7- Cars at location (Train Service):
-7- Car (PRR 308) type (NE) (C) at (Train Service, Cabin Track) 1 moves
 7-  
 7- Cars available from staging (Easton):
 7-  
@@ -296,249 +413,584 @@
 7- Car (PRR 506) is a caboose, road (PRR) at location (Weston, W2)
 5- Generate load for (PRR 506) type (NE) load (E) at (Weston, W2) destination (Easton)
 7- Could not find a route to a spur that needs a custom load for car (PRR 506)
-5- Find destinations for (PRR 506) type (NE) empty (E) at (Weston, W2)
+7-  
+7- Generate load for (PRR 506) type (NE) load (E) at (Weston, W2) to staging (Easton, E2)
+7- Check route for car (PRR 506) at (Weston, W2) load (load) final destination (Easton, 
+7- E2) 
+7- Train (78P) can transport car (PRR 506) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (PRR 506): (Weston, W2)->(Easton, E2)
+7- Check route for car (PRR 506) at (Weston, W2) load (Occupied) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (PRR 506) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (PRR 506): (Weston, W2)->(Easton, E2)
+7- Check route for car (PRR 506) at (Weston, W2) load (Empty) final destination (Easton, 
+7- E2) 
+7- Train (78P) can transport car (PRR 506) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (PRR 506): (Weston, W2)->(Easton, E2)
+7- Adding custom load (Occupied) to car (PRR 506)
+5- Find destinations for (PRR 506) type (NE) load (Occupied) at (Weston, W2)
 7- Searching location (Easton) route id 61r10 for possible destination
-5- Car (PRR 506) can go to staging (Easton, E1) 0/50 moves used
-3- Car (PRR 506) assigned to train, destination (Easton, E1)
+5- Car (PRR 506) can go to staging (Easton, E2) 0/50 moves used
+3- Car (PRR 506) assigned to train, destination (Easton, E2)
 3-  
-7- Car (PRR 308) is a caboose, road (PRR) at location (Train Service, Cabin Track)
 5- Train does not require car with FRED
 7-  
 7- Remove cars not needed by this train:
-7- Exclude car (PRR 308) type (NE) at location (Train Service, Cabin Track)
 3-  
-3- Requested cars (63) for train (78P) the number available (4) building train!
+3- Requested cars (85) for train (78P) the number available (4) building train!
 3-  
 3- Multiple pass build (Aggressive Mode), begin 1 of 2 passes
 3- Departing staging in aggressive mode, find destinations from (Weston) in next pass
 1- Route location (Weston) id 61r7 requests 0 pick ups, 49/50 moves are available
 5-  
 1- Success 0/0 cars at location (Weston) assigned to train (78P)
-1- Route location (Downtown) id 61r11 requests 12 pick ups, 24/24 moves are available
+1- Route location (City) id 61r12 no pick ups
+1- Route location (Downtown) id 61r11 requests 28 pick ups, 55/55 moves are available
 5-  
-5- Find spur for car (FGEX 9586) type (RB) custom load (iced) at (Downtown, Ice)
-7- Car (FGEX 9586) is lead in kernel (R6) with 12 cars, 528 feet
-7- Spur (Valley, Coal) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Valley, Depot) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Valley, General Delivery) can't service car (FGEX 9586) with load (iced) due to 
-7- type (RB) 
-7- Spur at (Valley, Produce) is full, no alternate track
-7- Spur (Park, Coal) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Park, Depot) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Park, Freight House) can't service car (FGEX 9586) with load (iced) due to type 
-7- (RB) 
-7- Spur (Park, Fuel Oil) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Park, General Delivery) can't service car (FGEX 9586) with load (iced) due to 
-7- type (RB) 
-7- Spur (Park, Lumber) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Park, Power House) can't service car (FGEX 9586) with load (iced) due to type 
-7- (RB) 
-7- Local move from (Downtown, Ice) to track (Downtown, Ash) disabled for train (78P)
-7- Local move from (Downtown, Ice) to track (Downtown, Coal) disabled for train (78P)
-7- Local move from (Downtown, Ice) to track (Downtown, DX) disabled for train (78P)
-7- Local move from (Downtown, Ice) to track (Downtown, DY) disabled for train (78P)
-7- Local move from (Downtown, Ice) to track (Downtown, Gantry Crane) disabled for train 
-7- (78P) 
-7- Local move from (Downtown, Ice) to track (Downtown, General Delivery) disabled for 
-7- train (78P) 
-7- Local move from (Downtown, Ice) to track (Downtown, Sand) disabled for train (78P)
-7- Spur (Junction, Coal) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Junction, Depot) can't service car (FGEX 9586) with load (iced) due to type (RB)
-7- Spur (Junction, Steel Products) can't service car (FGEX 9586) with load (iced) due to 
-7- type (RB) 
-7- Could not find a reachable spur for car (FGEX 9586) load (iced)
-5- Try to send car (FGEX 9586) custom load (iced) to staging
-7- Staging (Summit, S1) can accept car's load (iced)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Summit) 
-7- Staging (Easton, E1) can accept car's load (iced)
-7- Train (78P) can transport car (FGEX 9586) from spur (Downtown, Ice) to (Easton, )
-7- Route for car (FGEX 9586): (Downtown, Ice)->(Easton, )
-7- Car (FGEX 9586) load (iced) has assigned destination (Easton, )
-5- Car (FGEX 9586) doesn't have an assigned destination track
-5- Car (FGEX 9586) assigned to staging track (E1)
-3- Car (FGEX 9586) assigned to train, destination (Easton, E1)
-3- Car (FGEX 9586) is in kernel (R6) with 12 cars, 528 feet
-3- Car (FGEX 0775) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 2300) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 2420) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 2534) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 2746) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 2851) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 3251) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 6135) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 8387) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 9060) kernel (R6) assigned to train, destination (Easton, E1)
-3- Car (FGEX 9138) kernel (R6) assigned to train, destination (Easton, E1)
-3-  
-1- Partial 1/12 cars at location (Downtown) assigned to train (78P)
+5- Car (FGEX 1782) type (RB) load (Iced) at (Downtown, Ice) has final destination 
+5- (Valley, Produce) routing begins 
+7- Route for car (FGEX 1782): (Downtown, Ice)->(Midway, Interchange)->(Valley, Produce)
+7- Can't use C/I (Midway, Interchange) for (FGEX 1782) due to rolling stock length 528 
+7- feet, available track space 176 feet 
+5- Did not assign a destination for car (FGEX 1782)
+5-  
+1- Partial 0/28 cars at location (Downtown) assigned to train (78P)
 1- Route location (Train Service) id 61r9 requests 2 pick ups, 3/3 moves are available
 5-  
 5- No cars available for pick up at location (Train Service)
 5-  
 1- Partial 0/2 cars at location (Train Service) assigned to train (78P)
-1- No pick ups from staging (Easton)
+1- Route location (Easton) id 61r10 no pick ups
 3-  
 3- Multiple pass build (Aggressive Mode), begin 2 of 2 passes
 1- Route location (Weston) id 61r7 requests 49 pick ups, 49/50 moves are available
 5-  
 5- Staging track (W2) has the following options selected:
 5- Generate custom loads for any spur (multiple trains)
+5- Generate custom loads for any staging track
 5-  
-5- Generate load for (FGEX 1782) type (RB) load (E) at (Weston, W2) destination ()
-7- Car (FGEX 1782) is lead in kernel (R1) with 12 cars, 528 feet
-7- Try spur (Valley, Produce) custom load (iced)
-7- Train (78P) can't transport car (FGEX 1782) out of staging (Weston) directly to 
-7- (Valley, Produce) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Valley) 
-7- Can't route car (FGEX 1782) with load (iced) to (Valley, Produce)
+5- Generate load for (FGEX 9586) type (RB) load (E) at (Weston, W2) destination ()
+7- Car (FGEX 9586) is lead in kernel (R6) with 12 cars, 528 feet
+7- Try spur (Valley, Produce) custom load (Iced)
+7- Car (FGEX 9586) would overload track (Valley, Produce), currently 12 inbound cars, 
+7- length (528) feet, 100% loading from staging 
 7- Try spur (Downtown, Ice) custom load (Empty)
-7- Train (78P) can transport car (FGEX 1782) from staging (Weston, W2) to (Downtown, Ice)
-7- Route for car (FGEX 1782): (Weston, W2)->(Downtown, Ice)
-5- Car (FGEX 1782) custom load (Empty) final destination (Downtown, Ice)
-7- Car (FGEX 1782) load (Empty) has assigned destination (Downtown, Ice)
-3- Car (FGEX 1782) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 1782) is in kernel (R1) with 12 cars, 528 feet
-3- Car (FGEX 1417) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 1530) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 2192) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 2719) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 2756) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 4540) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 4555) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 5863) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 6509) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 7290) kernel (R1) assigned to train, destination (Downtown, Ice)
-3- Car (FGEX 7611) kernel (R1) assigned to train, destination (Downtown, Ice)
+7- Train (78P) can't transport car (FGEX 9586) out of staging (Weston) directly to 
+7- (Downtown, Ice) 
+7- Route for car (FGEX 9586): (Weston, W2)->(City, Hold 2)->(Downtown, Ice)
+5- Car (FGEX 9586) custom load (Empty) final destination (Downtown, Ice)
+7- Car (FGEX 9586) load (Empty) has assigned destination (City, Hold 2)
+3- Car (FGEX 9586) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 9586) is in kernel (R6) with 12 cars, 528 feet
+3- Car (FGEX 0775) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 2300) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 2420) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 2534) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 2746) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 2851) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 3251) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 6135) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 8387) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 9060) kernel (R6) assigned to train, destination (City, Hold 2)
+3- Car (FGEX 9138) kernel (R6) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (FGEX 1756) type (RS) load (E) at (Weston, W2) destination ()
 7- Car (FGEX 1756) is lead in kernel (R7) with 12 cars, 528 feet
-7- Try spur (Valley, Produce) custom load (iced)
-7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
-7- (Valley, Produce) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Valley) 
-7- Can't route car (FGEX 1756) with load (iced) to (Valley, Produce)
+7- Try spur (Valley, Produce) custom load (Iced)
+7- Car (FGEX 1756) would overload track (Valley, Produce), currently 12 inbound cars, 
+7- length (528) feet, 100% loading from staging 
 7- Try spur (Downtown, Ice) custom load (Empty)
-7- Train (78P) can transport car (FGEX 1756) from staging (Weston, W2) to (Downtown, Ice)
-7- Route for car (FGEX 1756): (Weston, W2)->(Downtown, Ice)
-7- Can't use spur (Downtown, Ice) for (FGEX 1756) due to rolling stock length 528 feet, 
-7- available track space 0 feet 
-7- Track (Ice) full, searching for a yard at destination (Downtown)
-7- Could not find a yard at (Downtown) for car (FGEX 1756)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Downtown) 
-7- Can't route car (FGEX 1756) with load (Empty) to (Downtown, Ice)
+7- Car (FGEX 1756) would overload track (Downtown, Ice), currently 12 inbound cars, 
+7- length (528) feet, 100% loading from staging 
 7- Could not find a route to a spur that needs a custom load for car (FGEX 1756)
-5- Find destinations for (FGEX 1756) type (RS) empty (E) at (Weston, W2)
-7- Car (FGEX 1756) is lead in kernel (R7) with 12 cars, 528 feet
-7- Searching location (Downtown) route id 61r11 for possible destination
-7- Can't send (FGEX 1756) to spur (DX) due to type (RS)
-7- Can't send (FGEX 1756) to spur (Sand) due to type (RS)
-7- Can't send (FGEX 1756) to spur (General Delivery) due to type (RS)
-7- Can't send (FGEX 1756) to spur (DY) due to type (RS)
-7- Can't send (FGEX 1756) to spur (Ash) due to type (RS)
-7- Can't send (FGEX 1756) to spur (Coal) due to type (RS)
-7- Can't send (FGEX 1756) to spur (Gantry Crane) due to type (RS)
-7- Can't send (FGEX 1756) to spur (Ice) due to rolling stock length 528 feet, available 
-7- track space 0 feet 
-7- Can't send (FGEX 1756) to C/I (Service Track) due to track capacity, rolling stock 
-7- length 528 feet is greater than track length 220 feet 
-5- Car (FGEX 1756) can go to C/I (Downtown, Platform 2) 2/24 moves used
-7- Searching location (Train Service) route id 61r9 for possible destination
-7- Can't set out rolling stock (FGEX 1756) using Eastbound train, destination track 
-7- (Repair) does not service this direction 
-7- Can't send (FGEX 1756) to yard (Cabin Track) due to track capacity, rolling stock 
-7- length 528 feet is greater than track length 264 feet 
-7- Can't send (FGEX 1756) to yard (Coach Yard) due to rolling stock length 528 feet, 
-7- available track space 220 feet 
-5- Car (FGEX 1756) can go to C/I (Train Service, OB-Valley) 0/3 moves used
-7- Searching location (Easton) route id 61r10 for possible destination
-5- Car (FGEX 1756) can go to staging (Easton, E1) 2/50 moves used
-3- Car (FGEX 1756) assigned to train, destination (Train Service, OB-Valley)
+5- Try to send car (FGEX 1756) to staging, found 13 tracks
+7- Ignoring terminal staging track at (Easton) until all others are tried
+7-  
+7- Generate load for (FGEX 1756) type (RS) load (E) at (Weston, W2) to staging (Summit, 
+7- S1) 
+7- Check route for car (FGEX 1756) at (Weston, W2) load (load) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (load)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Produce) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (Produce)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Iced) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (Iced)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Empty) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (FGEX 1756) departing (W2) to staging 
+7- (Summit, S1) 
+7- Staging track (N3) does not accept type (RS)
+7- Staging track (N4) does not accept type (RS)
+7- Staging track (N1) does not accept type (RS)
+7- Staging track (N2) does not accept type (RS)
+7-  
+7- Generate load for (FGEX 1756) type (RS) load (E) at (Weston, W2) to staging (Summit, 
+7- S2) 
+7- Check route for car (FGEX 1756) at (Weston, W2) load (load) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (load)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Produce) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (Produce)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Iced) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (Iced)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Empty) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 1756) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 1756) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (FGEX 1756) departing (W2) to staging 
+7- (Summit, S2) 
+7-  
+7- Generate load for (FGEX 1756) type (RS) load (E) at (Weston, W2) to staging (Easton, 
+7- E2) 
+7- Check route for car (FGEX 1756) at (Weston, W2) load (load) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 1756) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 1756): (Weston, W2)->(Easton, E2)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Produce) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 1756) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 1756): (Weston, W2)->(Easton, E2)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Iced) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 1756) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 1756): (Weston, W2)->(Easton, E2)
+7- Check route for car (FGEX 1756) at (Weston, W2) load (Empty) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 1756) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 1756): (Weston, W2)->(Easton, E2)
+7- Adding custom load (Empty) to car (FGEX 1756)
+5- Car (FGEX 1756) type (RS) load (Empty) at (Weston, W2) has final destination (Easton, 
+5- E2) routing begins 
+7- Train (78P) can transport car (FGEX 1756) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 1756): (Weston, W2)->(Easton, E2)
+7- Car (FGEX 1756) load (Empty) has assigned destination (Easton, E2)
+3- Car (FGEX 1756) assigned to train, destination (Easton, E2)
 3- Car (FGEX 1756) is in kernel (R7) with 12 cars, 528 feet
-3- Car (FGEX 0857) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 1072) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 1605) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 1802) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 3237) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 3994) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 4409) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 4699) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 6176) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 7063) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
-3- Car (FGEX 8990) kernel (R7) assigned to train, destination (Train Service, OB-Valley)
+3- Car (FGEX 0857) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 1072) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 1605) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 1802) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 3237) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 3994) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 4409) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 4699) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 6176) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 7063) kernel (R7) assigned to train, destination (Easton, E2)
+3- Car (FGEX 8990) kernel (R7) assigned to train, destination (Easton, E2)
 3-  
 5- Generate load for (FGEX 6304) type (RB) load (E) at (Weston, W2) destination ()
 7- Car (FGEX 6304) is lead in kernel (R3) with 12 cars, 528 feet
-7- Try spur (Valley, Produce) custom load (iced)
-7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
-7- (Valley, Produce) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Valley) 
-7- Can't route car (FGEX 6304) with load (iced) to (Valley, Produce)
-7- Try spur (Downtown, Ice) custom load (produce)
-7- Train (78P) can transport car (FGEX 6304) from staging (Weston, W2) to (Downtown, Ice)
-7- Route for car (FGEX 6304): (Weston, W2)->(Downtown, Ice)
-7- Can't use spur (Downtown, Ice) for (FGEX 6304) due to rolling stock length 528 feet, 
-7- available track space 0 feet 
-7- Track (Ice) full, searching for a yard at destination (Downtown)
-7- Could not find a yard at (Downtown) for car (FGEX 6304)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Downtown) 
-7- Can't route car (FGEX 6304) with load (produce) to (Downtown, Ice)
+7- Try spur (Valley, Produce) custom load (Iced)
+7- Car (FGEX 6304) would overload track (Valley, Produce), currently 12 inbound cars, 
+7- length (528) feet, 100% loading from staging 
+7- Try spur (Downtown, Ice) custom load (Produce)
+7- Car (FGEX 6304) would overload track (Downtown, Ice), currently 12 inbound cars, 
+7- length (528) feet, 100% loading from staging 
 7- Could not find a route to a spur that needs a custom load for car (FGEX 6304)
-5- Find destinations for (FGEX 6304) type (RB) empty (E) at (Weston, W2)
-7- Car (FGEX 6304) is lead in kernel (R3) with 12 cars, 528 feet
-7- Searching location (Downtown) route id 61r11 for possible destination
-7- Can't send (FGEX 6304) to spur (DX) due to type (RB)
-7- Can't send (FGEX 6304) to spur (Sand) due to type (RB)
-7- Can't send (FGEX 6304) to spur (General Delivery) due to type (RB)
-7- Can't send (FGEX 6304) to spur (DY) due to type (RB)
-7- Can't send (FGEX 6304) to spur (Ash) due to type (RB)
-7- Can't send (FGEX 6304) to spur (Coal) due to type (RB)
-7- Can't send (FGEX 6304) to spur (Gantry Crane) due to type (RB)
-7- Can't send (FGEX 6304) to spur (Ice) due to rolling stock length 528 feet, available 
-7- track space 0 feet 
-7- Can't send (FGEX 6304) to C/I (Service Track) due to track capacity, rolling stock 
-7- length 528 feet is greater than track length 220 feet 
-5- Car (FGEX 6304) can go to C/I (Downtown, Platform 2) 2/24 moves used
-7- Searching location (Train Service) route id 61r9 for possible destination
-7- Can't set out rolling stock (FGEX 6304) using Eastbound train, destination track 
-7- (Repair) does not service this direction 
-7- Can't send (FGEX 6304) to yard (Cabin Track) due to track capacity, rolling stock 
-7- length 528 feet is greater than track length 264 feet 
-7- Can't send (FGEX 6304) to yard (Coach Yard) due to rolling stock length 528 feet, 
-7- available track space 220 feet 
-5- Car (FGEX 6304) can go to C/I (Train Service, OB-Downtown) 1/3 moves used
-7- Searching location (Easton) route id 61r10 for possible destination
-5- Car (FGEX 6304) can go to staging (Easton, E1) 2/50 moves used
-3- Car (FGEX 6304) assigned to train, destination (Easton, E1)
+5- Try to send car (FGEX 6304) to staging, found 13 tracks
+7- Ignoring terminal staging track at (Easton) until all others are tried
+7-  
+7- Generate load for (FGEX 6304) type (RB) load (E) at (Weston, W2) to staging (Summit, 
+7- S2) 
+7- Check route for car (FGEX 6304) at (Weston, W2) load (load) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (load)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Produce) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (Produce)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Iced) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (Iced)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Empty) final destination 
+7- (Summit, S2) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S2)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S2) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (FGEX 6304) departing (W2) to staging 
+7- (Summit, S2) 
+7- Staging track (N1) does not accept type (RB)
+7- Staging track (N2) does not accept type (RB)
+7- Staging track (N4) does not accept type (RB)
+7-  
+7- Generate load for (FGEX 6304) type (RB) load (E) at (Weston, W2) to staging (Summit, 
+7- S1) 
+7- Check route for car (FGEX 6304) at (Weston, W2) load (load) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (load)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Produce) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (Produce)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Iced) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (Iced)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Empty) final destination 
+7- (Summit, S1) 
+7- Train (78P) can't transport car (FGEX 6304) out of staging (Weston) directly to 
+7- (Summit, S1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Summit) 
+7- Find a route for car (FGEX 6304) through staging to (Summit, S1)
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N1) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Summit) 
+7- Staging track (Summit, S1) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (FGEX 6304) departing (W2) to staging 
+7- (Summit, S1) 
+7- Staging track (N3) does not accept type (RB)
+7-  
+7- Generate load for (FGEX 6304) type (RB) load (E) at (Weston, W2) to staging (Easton, 
+7- E2) 
+7- Check route for car (FGEX 6304) at (Weston, W2) load (load) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 6304) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 6304): (Weston, W2)->(Easton, E2)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Produce) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 6304) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 6304): (Weston, W2)->(Easton, E2)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Iced) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 6304) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 6304): (Weston, W2)->(Easton, E2)
+7- Check route for car (FGEX 6304) at (Weston, W2) load (Empty) final destination 
+7- (Easton, E2) 
+7- Train (78P) can transport car (FGEX 6304) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 6304): (Weston, W2)->(Easton, E2)
+7- Adding custom load (load) to car (FGEX 6304)
+5- Car (FGEX 6304) type (RB) load (load) at (Weston, W2) has final destination (Easton, 
+5- E2) routing begins 
+7- Train (78P) can transport car (FGEX 6304) from staging (Weston, W2) to (Easton, E2)
+7- Route for car (FGEX 6304): (Weston, W2)->(Easton, E2)
+7- Car (FGEX 6304) load (load) has assigned destination (Easton, E2)
+3- Car (FGEX 6304) assigned to train, destination (Easton, E2)
 3- Car (FGEX 6304) is in kernel (R3) with 12 cars, 528 feet
-3- Car (FGEX 1013) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 3069) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 4774) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 6661) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 7095) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 7388) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 7646) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 7896) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 7991) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 8220) kernel (R3) assigned to train, destination (Easton, E1)
-3- Car (FGEX 9672) kernel (R3) assigned to train, destination (Easton, E1)
+3- Car (FGEX 1013) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 3069) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 4774) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 6661) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 7095) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 7388) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 7646) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 7896) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 7991) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 8220) kernel (R3) assigned to train, destination (Easton, E2)
+3- Car (FGEX 9672) kernel (R3) assigned to train, destination (Easton, E2)
 3-  
 1- Partial 3/49 cars at location (Weston) assigned to train (78P)
-1- Route location (Downtown) id 61r11 requests 22 pick ups, 22/24 moves are available
+1- Route location (City) id 61r12 no pick ups
+1- Route location (Downtown) id 61r11 requests 55 pick ups, 55/55 moves are available
 5-  
-5- No cars available for pick up at location (Downtown)
+5- Car (FGEX 1782) type (RB) load (Iced) at (Downtown, Ice) has final destination 
+5- (Valley, Produce) routing begins 
+7- Route for car (FGEX 1782): (Downtown, Ice)->(Midway, Interchange)->(Valley, Produce)
+7- Can't use C/I (Midway, Interchange) for (FGEX 1782) due to rolling stock length 528 
+7- feet, available track space 176 feet 
+5- Did not assign a destination for car (FGEX 1782)
 5-  
-1- Partial 0/22 cars at location (Downtown) assigned to train (78P)
-1- Route location (Train Service) id 61r9 requests 2 pick ups, 2/3 moves are available
+1- Partial 0/55 cars at location (Downtown) assigned to train (78P)
+1- Route location (Train Service) id 61r9 requests 3 pick ups, 3/3 moves are available
 5-  
 5- No cars available for pick up at location (Train Service)
 5-  
-1- Partial 0/2 cars at location (Train Service) assigned to train (78P)
-1- No pick ups from staging (Easton)
-1- Partial 49/63 cars
-5- Build for train (78P) took 34 mSec
+1- Partial 0/3 cars at location (Train Service) assigned to train (78P)
+1- Route location (Easton) id 61r10 no pick ups
+1- Partial 37/85 cars
+5- Build for train (78P) took 46 mSec

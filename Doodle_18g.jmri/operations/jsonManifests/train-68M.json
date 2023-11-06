@@ -4,7 +4,7 @@
   "description" : "Northton Hauler",
   "locations" : [ {
     "userName" : "Train Service",
-    "name" : "69r3",
+    "name" : "69r7",
     "departureTime" : "04:05",
     "location" : {
       "comment" : "",
@@ -13,8 +13,8 @@
     "comment" : "",
     "engines" : {
       "add" : [ {
-        "name" : "PRR486",
-        "number" : "486",
+        "name" : "PRR532",
+        "number" : "532",
         "road" : "PRR",
         "rfid" : "",
         "carType" : "EEHF",
@@ -22,7 +22,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -30,7 +30,7 @@
         "location" : {
           "userName" : "Train Service",
           "name" : "9",
-          "route" : "69r3",
+          "route" : "69r7",
           "track" : {
             "userName" : "Car Barn",
             "name" : "9s9"
@@ -39,17 +39,17 @@
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "model" : "p5b",
         "consist" : ""
       }, {
-        "name" : "PRR410",
-        "number" : "410",
+        "name" : "PRR303",
+        "number" : "303",
         "road" : "PRR",
         "rfid" : "",
         "carType" : "EEHF",
@@ -57,7 +57,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -65,7 +65,7 @@
         "location" : {
           "userName" : "Train Service",
           "name" : "9",
-          "route" : "69r3",
+          "route" : "69r7",
           "track" : {
             "userName" : "Car Barn",
             "name" : "9s9"
@@ -74,10 +74,10 @@
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "model" : "p5b",
@@ -89,13 +89,88 @@
       "9s5" : {
         "add" : "",
         "comment" : "TrainPlayer ID:26"
-      },
-      "9s8" : {
+      }
+    },
+    "trainDirection" : 1,
+    "length" : {
+      "length" : 132,
+      "unit" : "Feet"
+    },
+    "weight" : 36,
+    "cars" : {
+      "add" : [ {
+        "name" : "PRR308",
+        "number" : "308",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "NE",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 36.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Train Service",
+          "name" : "9",
+          "route" : "69r7",
+          "track" : {
+            "userName" : "Cabin Track",
+            "name" : "9s5"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Occupied",
+        "hazardous" : false,
+        "caboose" : true,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ ],
+      "total" : 1,
+      "loads" : 1,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "City",
+    "name" : "69r9",
+    "arrivalTime" : "04:09",
+    "expectedDepartureTime" : "05:39",
+    "location" : {
+      "comment" : "",
+      "name" : "3"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "3s12" : {
         "add" : "",
         "comment" : "TrainPlayer ID:32"
       }
     },
-    "trainDirection" : 4,
+    "trainDirection" : 1,
     "length" : {
       "length" : 1452,
       "unit" : "Feet"
@@ -103,144 +178,6 @@
     "weight" : 36,
     "cars" : {
       "add" : [ {
-        "name" : "NYC0574",
-        "number" : "0574",
-        "road" : "NYC",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER7426",
-        "number" : "7426",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S5720",
-        "number" : "5720",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "UTLX7837",
         "number" : "7837",
         "road" : "UTLX",
@@ -250,211 +187,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "AT&SF0204",
-        "number" : "0204",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "DL&W7242",
-        "number" : "7242",
-        "road" : "DL&W",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR9880",
-        "number" : "9880",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR5250",
-        "number" : "5250",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -480,303 +233,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR4961",
-        "number" : "4961",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "NYNH&H0540",
-        "number" : "0540",
-        "road" : "NYNH&H",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL2128",
-        "number" : "2128",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CS3576",
-        "number" : "3576",
-        "road" : "CS",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL2120",
-        "number" : "2120",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR5992",
-        "number" : "5992",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -802,165 +279,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER2798",
-        "number" : "2798",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "DL&W7977",
-        "number" : "7977",
-        "road" : "DL&W",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A2789",
-        "number" : "2789",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -986,27 +325,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1032,27 +371,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1078,27 +417,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1124,27 +463,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1170,27 +509,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1216,27 +555,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1262,27 +601,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1308,27 +647,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1354,27 +693,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1400,27 +739,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1437,36 +776,128 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "WJ&S3512",
-        "number" : "3512",
+        "name" : "WJ&S6707",
+        "number" : "6707",
         "road" : "WJ&S",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CNJ9642",
+        "number" : "9642",
+        "road" : "CNJ",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR4478",
+        "number" : "4478",
+        "road" : "PRR",
         "rfid" : "",
         "carType" : "GB",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1483,41 +914,639 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "PRR308",
-        "number" : "308",
-        "road" : "PRR",
+        "name" : "B&O5953",
+        "number" : "5953",
+        "road" : "B&O",
         "rfid" : "",
-        "carType" : "NE",
+        "carType" : "HK",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
-        "weightTons" : 36.0,
-        "color" : "",
+        "weightTons" : 0.0,
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
-            "userName" : "Cabin Track",
-            "name" : "9s5"
+            "userName" : "OB-Northton",
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
-        "load" : "unloadable",
+        "load" : "Empty",
         "hazardous" : false,
-        "caboose" : true,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS9474",
+        "number" : "9474",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "M&P1712",
+        "number" : "1712",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYC9231",
+        "number" : "9231",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A0591",
+        "number" : "0591",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL8139",
+        "number" : "8139",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0618",
+        "number" : "0618",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX2904",
+        "number" : "2904",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PGCC0575",
+        "number" : "0575",
+        "road" : "PGCC",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS1725",
+        "number" : "1725",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R7172",
+        "number" : "7172",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ER3741",
+        "number" : "3741",
+        "road" : "ER",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL3944",
+        "number" : "3944",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O5501",
+        "number" : "5501",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
         "passenger" : false,
         "fred" : false,
         "removeComment" : "",
@@ -1536,9 +1565,9 @@
     }
   }, {
     "userName" : "Northton",
-    "name" : "69r4",
-    "arrivalTime" : "04:09",
-    "expectedDepartureTime" : "05:42",
+    "name" : "69r8",
+    "arrivalTime" : "05:43",
+    "expectedDepartureTime" : "07:16",
     "location" : {
       "comment" : "",
       "name" : "1"
@@ -1547,8 +1576,8 @@
     "engines" : {
       "add" : [ ],
       "remove" : [ {
-        "name" : "PRR486",
-        "number" : "486",
+        "name" : "PRR532",
+        "number" : "532",
         "road" : "PRR",
         "rfid" : "",
         "carType" : "EEHF",
@@ -1556,7 +1585,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1564,7 +1593,7 @@
         "location" : {
           "userName" : "Train Service",
           "name" : "9",
-          "route" : "69r3",
+          "route" : "69r7",
           "track" : {
             "userName" : "Car Barn",
             "name" : "9s9"
@@ -1573,17 +1602,17 @@
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "model" : "p5b",
         "consist" : ""
       }, {
-        "name" : "PRR410",
-        "number" : "410",
+        "name" : "PRR303",
+        "number" : "303",
         "road" : "PRR",
         "rfid" : "",
         "carType" : "EEHF",
@@ -1591,7 +1620,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -1599,7 +1628,7 @@
         "location" : {
           "userName" : "Train Service",
           "name" : "9",
-          "route" : "69r3",
+          "route" : "69r7",
           "track" : {
             "userName" : "Car Barn",
             "name" : "9s9"
@@ -1608,10 +1637,10 @@
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "model" : "p5b",
@@ -1622,144 +1651,6 @@
     "cars" : {
       "add" : [ ],
       "remove" : [ {
-        "name" : "NYC0574",
-        "number" : "0574",
-        "road" : "NYC",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER7426",
-        "number" : "7426",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S5720",
-        "number" : "5720",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
         "name" : "UTLX7837",
         "number" : "7837",
         "road" : "UTLX",
@@ -1769,211 +1660,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "AT&SF0204",
-        "number" : "0204",
-        "road" : "AT&SF",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "DL&W7242",
-        "number" : "7242",
-        "road" : "DL&W",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR9880",
-        "number" : "9880",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR5250",
-        "number" : "5250",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -1999,303 +1706,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR4961",
-        "number" : "4961",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "NYNH&H0540",
-        "number" : "0540",
-        "road" : "NYNH&H",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL2128",
-        "number" : "2128",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CS3576",
-        "number" : "3576",
-        "road" : "CS",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PL2120",
-        "number" : "2120",
-        "road" : "PL",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR5992",
-        "number" : "5992",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2321,165 +1752,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER2798",
-        "number" : "2798",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "DL&W7977",
-        "number" : "7977",
-        "road" : "DL&W",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A2789",
-        "number" : "2789",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "FM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "9s8"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r4",
-          "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2505,27 +1798,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2551,27 +1844,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2597,27 +1890,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2643,27 +1936,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2689,27 +1982,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2735,27 +2028,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2781,27 +2074,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2827,27 +2120,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2873,27 +2166,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2919,27 +2212,27 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -2956,36 +2249,772 @@
         "returnWhenEmpty" : null,
         "status" : ""
       }, {
-        "name" : "WJ&S3512",
-        "number" : "3512",
+        "name" : "WJ&S6707",
+        "number" : "6707",
         "road" : "WJ&S",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CNJ9642",
+        "number" : "9642",
+        "road" : "CNJ",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR4478",
+        "number" : "4478",
+        "road" : "PRR",
         "rfid" : "",
         "carType" : "GB",
         "carSubType" : "",
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 0.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
         "outOfService" : false,
         "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r3",
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
           "track" : {
             "userName" : "OB-Northton",
-            "name" : "9s8"
+            "name" : "3s12"
           }
         },
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O5953",
+        "number" : "5953",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS9474",
+        "number" : "9474",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "M&P1712",
+        "number" : "1712",
+        "road" : "M&P",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "NYC9231",
+        "number" : "9231",
+        "road" : "NYC",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&A0591",
+        "number" : "0591",
+        "road" : "B&A",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL8139",
+        "number" : "8139",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PRR0618",
+        "number" : "0618",
+        "road" : "PRR",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TCX2904",
+        "number" : "2904",
+        "road" : "TCX",
+        "rfid" : "",
+        "carType" : "TM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "PGCC0575",
+        "number" : "0575",
+        "road" : "PGCC",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "CS1725",
+        "number" : "1725",
+        "road" : "CS",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "P&R7172",
+        "number" : "7172",
+        "road" : "P&R",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ER3741",
+        "number" : "3741",
+        "road" : "ER",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "ACL3944",
+        "number" : "3944",
+        "road" : "ACL",
+        "rfid" : "",
+        "carType" : "XM",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
+          }
+        },
+        "load" : "Empty",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : "",
+        "utility" : false,
+        "isLocal" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "B&O5501",
+        "number" : "5501",
+        "road" : "B&O",
+        "rfid" : "",
+        "carType" : "HK",
+        "carSubType" : "",
+        "length" : 40,
+        "weight" : 0.0,
+        "weightTons" : 0.0,
+        "color" : "Generic",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "City",
+          "name" : "3",
+          "route" : "69r9",
+          "track" : {
+            "userName" : "OB-Northton",
+            "name" : "3s12"
+          }
+        },
+        "destination" : {
+          "userName" : "Northton",
+          "name" : "1",
+          "route" : "69r8",
+          "track" : {
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
         "load" : "Empty",
@@ -3011,7 +3040,7 @@
         "length" : 40,
         "weight" : 0.0,
         "weightTons" : 36.0,
-        "color" : "",
+        "color" : "Generic",
         "owner" : "",
         "built" : "",
         "comment" : "",
@@ -3019,7 +3048,7 @@
         "location" : {
           "userName" : "Train Service",
           "name" : "9",
-          "route" : "69r3",
+          "route" : "69r7",
           "track" : {
             "userName" : "Cabin Track",
             "name" : "9s5"
@@ -3028,13 +3057,13 @@
         "destination" : {
           "userName" : "Northton",
           "name" : "1",
-          "route" : "69r4",
+          "route" : "69r8",
           "track" : {
-            "userName" : "N2",
-            "name" : "1s1"
+            "userName" : "N1",
+            "name" : "1s2"
           }
         },
-        "load" : "unloadable",
+        "load" : "Occupied",
         "hazardous" : false,
         "caboose" : true,
         "passenger" : false,
@@ -3050,5 +3079,5 @@
       } ]
     }
   } ],
-  "date" : "1938-07-21T05:39:46.656+00:00"
+  "date" : "1938-11-03T22:38:29.968+00:00"
 }

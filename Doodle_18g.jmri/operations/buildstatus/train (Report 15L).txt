@@ -1,0 +1,263 @@
+ Build Report for train (15L) built on 11/3/23, 11:17 PM 
+ JMRI version 5.2+R760b98537f 
+  Build report detail level: Normal 
+   Build report detail level: Detailed 
+ 
+   Train Build Options: 
+   Build option is set to aggressive 
+   Perform 2 passes 
+   
+   Car routing options: 
+   Car routing via yards is enabled 
+   Car routing through staging is enabled 
+   Use all Trains when Routing 
+   
+   Enabled build options for train (15L): 
+   
+   Disabled build options for train (15L): 
+   Use normal mode when building this train 
+   Send all car pick ups to terminal (Valley) 
+   Allow local moves if car has a custom load or FD 
+   Service all cars with a final destination (FD) 
+   Send cars with custom loads to staging 
+   Build loco consist from single locos 
+   
+  Train (15L) route (15L): 
+  64r18 Location (Valley) Southbound requests 50 pick ups, maximum train length 3,000 
+  feet 
+  64r17 Location (Junction) Southbound requests 50 pick ups, maximum train length 3,000 
+  feet 
+  64r16 Location (Midway) Southbound requests 50 moves, maximum train length 3,000 feet 
+  64r20 Location (Junction) Northbound requests 50 set outs, maximum train length 3,000 
+  feet 
+  64r19 Location (Valley) Northbound requests 50 set outs 
+ Route (15L) requests 125 cars and 250 moves 
+ 
+ Train requirements: 
+ Train departs (Valley) with a single locomotive, model () road () 
+ Train must depart (Valley) with caboose, road () 
+ 
+   Train (15L) services locomotive types: 
+   ESLF 
+   
+ Found 1 locomotives for train (15L) 
+   
+   
+   
+  
+   Search for 1 loco(s), model (), road (), departing (Valley), destination (Valley) 
+   Loco (PRR 936) road (PRR) model (H9s) type (ESLF) at location (Valley, Roundhouse) 
+   destination (Valley) 
+ Loco (PRR 936) assigned to train, departs (Valley) destination (Valley, Roundhouse) 
+   
+   Train (15L) services car types: 
+   NM, RB, RS, TM, XM, HK, GB, FM 
+   
+ Found 38 cars for train (15L) 
+ Train (15L) requires caboose, road () departing (Valley) destination (Valley) 
+   Find destinations for (PRR 689) type (NM) load (Occupied) at (Valley, Roundhouse) 
+   Car (PRR 689) can go to C/I (Valley, Off Spot) 0/50 moves used 
+  Car (PRR 689) assigned to train, destination (Valley, Off Spot) 
+  
+   Train does not require car with FRED 
+  
+  Requested cars (125) for train (15L) the number available (15) building train! 
+  
+  Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
+ Route location (Valley) id 64r18 requests 24 pick ups, 49/50 moves are available 
+   
+   Find spur for car (NYC 6203) type (XM) custom load (LCL) at (Valley, Depot) 
+   Route (15L) id Junction no set outs at location (64r17) 
+  Car (NYC 6203) assigned to train, destination (Junction, Depot) 
+  
+   Car (P&R 8004) type (HK) load (Empty) at (Valley, Coal) has final destination 
+   (Northton, ) routing begins 
+   
+   WARNING! Car (P&R 8004) at (Valley, Coal) can't be routed to (Northton, ) will 
+   attempt to move stuck car 
+   
+   Find destinations for (P&R 8004) type (HK) empty (Empty) at (Valley, Coal) 
+   Car (P&R 8004) can go to C/I (Midway, Interchange) 0/50 moves used 
+   Car (P&R 8004) can go to C/I (Junction, Off Spot) 1/50 moves used 
+  Car (P&R 8004) assigned to train, destination (Midway, Interchange) 
+  
+   Car (FGEX 1736) type (RB) load (Produce) at (Valley, Produce) has final destination 
+   (Easton, ) routing begins 
+   
+   WARNING! Car (FGEX 1736) at (Valley, Produce) can't be routed to (Easton, ) will 
+   attempt to move stuck car 
+   
+   Find destinations for (FGEX 1736) type (RB) load (Produce) at (Valley, Produce) 
+   Could not find a track for (FGEX 1736) at destination (Midway) 
+   Could not find a track for (FGEX 1736) at destination (Junction) 
+   Did not assign a destination for car (FGEX 1736) 
+   
+ Partial 2/24 cars at location (Valley) assigned to train (15L) 
+ Route location (Junction) id 64r17 requests 25 pick ups, 50/50 moves are available 
+   
+   Car (PRR 8860) type (HK) load (Empty) at (Junction, Coal) has final destination 
+   (Northton, ) routing begins 
+   
+   WARNING! Car (PRR 8860) at (Junction, Coal) can't be routed to (Northton, ) will 
+   attempt to move stuck car 
+   
+   Find destinations for (PRR 8860) type (HK) empty (Empty) at (Junction, Coal) 
+   Could not find a track for (PRR 8860) at destination (Midway) 
+   Car (PRR 8860) can go to C/I (Valley, Off Spot) 1/50 moves used 
+  Car (PRR 8860) assigned to train, destination (Valley, Off Spot) 
+  
+   Find spur for car (NYNH&H 4320) type (GB) custom load (steel rods) at (Junction, 
+   Steel Products) 
+   Try to send car (NYNH&H 4320) custom load (steel rods) to staging 
+   Find destinations for (NYNH&H 4320) type (GB) load (steel rods) at (Junction, Steel 
+   Products) 
+   Could not find a track for (NYNH&H 4320) at destination (Midway) 
+   Car (NYNH&H 4320) can go to C/I (Valley, Off Spot) 2/50 moves used 
+  Car (NYNH&H 4320) assigned to train, destination (Valley, Off Spot) 
+  
+   Find spur for car (AT&SF 8501) type (XM) custom load (steel products) at (Junction, 
+   Steel Products) 
+   Try to send car (AT&SF 8501) custom load (steel products) to staging 
+   Find destinations for (AT&SF 8501) type (XM) load (steel products) at (Junction, 
+   Steel Products) 
+   Could not find a track for (AT&SF 8501) at destination (Midway) 
+   Could not find a track for (AT&SF 8501) at destination (Valley) 
+   Did not assign a destination for car (AT&SF 8501) 
+   
+   Find spur for car (PL 3670) type (GB) custom load (steel rods) at (Junction, Steel 
+   Products) 
+   Try to send car (PL 3670) custom load (steel rods) to staging 
+   Find destinations for (PL 3670) type (GB) load (steel rods) at (Junction, Steel 
+   Products) 
+   Could not find a track for (PL 3670) at destination (Midway) 
+   Could not find a track for (PL 3670) at destination (Valley) 
+   Did not assign a destination for car (PL 3670) 
+   
+   Car (B&O 1876) type (HK) load (Empty) at (Junction, Coal) has final destination 
+   (Northton, ) routing begins 
+   
+   WARNING! Car (B&O 1876) at (Junction, Coal) can't be routed to (Northton, ) will 
+   attempt to move stuck car 
+   
+   Find destinations for (B&O 1876) type (HK) empty (Empty) at (Junction, Coal) 
+   Could not find a track for (B&O 1876) at destination (Midway) 
+   Could not find a track for (B&O 1876) at destination (Valley) 
+   Did not assign a destination for car (B&O 1876) 
+   
+ Partial 2/25 cars at location (Junction) assigned to train (15L) 
+ Route location (Midway) id 64r16 requests 25 pick ups, 49/50 moves are available 
+   
+   Find spur for car (FGEX 0914) type (RB) custom load (Produce) at (Midway, Interchange) 
+   Try to send car (FGEX 0914) custom load (Produce) to staging 
+   Find destinations for (FGEX 0914) type (RB) load (Produce) at (Midway, Interchange) 
+   Could not find a track for (FGEX 0914) at destination (Junction) 
+   Could not find a track for (FGEX 0914) at destination (Valley) 
+   Did not assign a destination for car (FGEX 0914) 
+   
+   Find spur for car (B&O 7676) type (HK) custom empty (Empty) at (Midway, Interchange) 
+   Try to send car (B&O 7676) custom load (Empty) to staging 
+   Find destinations for (B&O 7676) type (HK) empty (Empty) at (Midway, Interchange) 
+   Car (B&O 7676) can go to C/I (Junction, Off Spot) 1/50 moves used 
+   Could not find a track for (B&O 7676) at destination (Valley) 
+  Car (B&O 7676) assigned to train, destination (Junction, Off Spot) 
+  
+   Find spur for car (CS 1705) type (GB) custom empty (Empty) at (Midway, Interchange) 
+  Car (CS 1705) assigned to train, destination (Junction, Steel Products) 
+  
+   Find spur for car (NYC 4619) type (XM) custom empty (Empty) at (Midway, Interchange) 
+  Car (NYC 4619) assigned to train, destination (Junction, Steel Products) 
+  
+   Find spur for car (CS 3014) type (XM) custom empty (Empty) at (Midway, Interchange) 
+   Try to send car (CS 3014) custom load (Empty) to staging 
+   Find destinations for (CS 3014) type (XM) empty (Empty) at (Midway, Interchange) 
+   Car (CS 3014) can go to C/I (Junction, Off Spot) 4/50 moves used 
+   Could not find a track for (CS 3014) at destination (Valley) 
+  Car (CS 3014) assigned to train, destination (Junction, Off Spot) 
+  
+   Find spur for car (B&O 6073) type (HK) custom empty (Empty) at (Midway, Interchange) 
+   Try to send car (B&O 6073) custom load (Empty) to staging 
+   Find destinations for (B&O 6073) type (HK) empty (Empty) at (Midway, Interchange) 
+   Car (B&O 6073) can go to C/I (Junction, Off Spot) 5/50 moves used 
+   Could not find a track for (B&O 6073) at destination (Valley) 
+  Car (B&O 6073) assigned to train, destination (Junction, Off Spot) 
+  
+   Find spur for car (PRR 6446) type (HK) custom empty (Empty) at (Midway, Interchange) 
+   Try to send car (PRR 6446) custom load (Empty) to staging 
+   Find destinations for (PRR 6446) type (HK) empty (Empty) at (Midway, Interchange) 
+   Car (PRR 6446) can go to C/I (Junction, Off Spot) 6/50 moves used 
+   Could not find a track for (PRR 6446) at destination (Valley) 
+  Car (PRR 6446) assigned to train, destination (Junction, Off Spot) 
+  
+ Partial 6/25 cars at location (Midway) assigned to train (15L) 
+ Route location (Junction) id 64r20 no pick ups 
+ Route location (Valley) id 64r19 no pick ups 
+  
+  Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
+ Route location (Valley) id 64r18 requests 47 pick ups, 47/50 moves are available 
+   
+   Car (FGEX 1736) type (RB) load (Produce) at (Valley, Produce) has final destination 
+   (Easton, ) routing begins 
+   
+   WARNING! Car (FGEX 1736) at (Valley, Produce) can't be routed to (Easton, ) will 
+   attempt to move stuck car 
+   
+   Find destinations for (FGEX 1736) type (RB) load (Produce) at (Valley, Produce) 
+   Could not find a track for (FGEX 1736) at destination (Midway) 
+   Could not find a track for (FGEX 1736) at destination (Junction) 
+   Did not assign a destination for car (FGEX 1736) 
+   
+ Partial 0/47 cars at location (Valley) assigned to train (15L) 
+ Route location (Junction) id 64r17 requests 48 pick ups, 48/50 moves are available 
+   
+   Find spur for car (AT&SF 8501) type (XM) custom load (steel products) at (Junction, 
+   Steel Products) 
+   Try to send car (AT&SF 8501) custom load (steel products) to staging 
+   Find destinations for (AT&SF 8501) type (XM) load (steel products) at (Junction, 
+   Steel Products) 
+   Car (AT&SF 8501) can go to C/I (Midway, Interchange) 7/50 moves used 
+   Could not find a track for (AT&SF 8501) at destination (Valley) 
+  Car (AT&SF 8501) assigned to train, destination (Midway, Interchange) 
+  
+   Find spur for car (PL 3670) type (GB) custom load (steel rods) at (Junction, Steel 
+   Products) 
+   Try to send car (PL 3670) custom load (steel rods) to staging 
+   Find destinations for (PL 3670) type (GB) load (steel rods) at (Junction, Steel 
+   Products) 
+   Car (PL 3670) can go to C/I (Midway, Interchange) 8/50 moves used 
+   Could not find a track for (PL 3670) at destination (Valley) 
+  Car (PL 3670) assigned to train, destination (Midway, Interchange) 
+  
+   Car (B&O 1876) type (HK) load (Empty) at (Junction, Coal) has final destination 
+   (Northton, ) routing begins 
+   
+   WARNING! Car (B&O 1876) at (Junction, Coal) can't be routed to (Northton, ) will 
+   attempt to move stuck car 
+   
+   Find destinations for (B&O 1876) type (HK) empty (Empty) at (Junction, Coal) 
+   Car (B&O 1876) can go to C/I (Midway, Interchange) 9/50 moves used 
+   Could not find a track for (B&O 1876) at destination (Valley) 
+  Car (B&O 1876) assigned to train, destination (Midway, Interchange) 
+  
+ Partial 3/48 cars at location (Junction) assigned to train (15L) 
+ Route location (Midway) id 64r16 requests 40 pick ups, 40/50 moves are available 
+   
+   Find spur for car (FGEX 0914) type (RB) custom load (Produce) at (Midway, Interchange) 
+   Try to send car (FGEX 0914) custom load (Produce) to staging 
+   Find destinations for (FGEX 0914) type (RB) load (Produce) at (Midway, Interchange) 
+   Could not find a track for (FGEX 0914) at destination (Junction) 
+   Could not find a track for (FGEX 0914) at destination (Valley) 
+   Did not assign a destination for car (FGEX 0914) 
+   
+ Partial 0/40 cars at location (Midway) assigned to train (15L) 
+ Route location (Junction) id 64r20 no pick ups 
+ Route location (Valley) id 64r19 no pick ups 
+ Partial 14/125 cars 
+ 
+ WARNING! The program wasn't able to route the following cars: 
+ Car (P&R 8004) at (Valley, Coal) final destination (Northton, ) 
+ Car (FGEX 1736) at (Valley, Produce) final destination (Easton, ) 
+ Car (PRR 8860) at (Junction, Coal) final destination (Northton, ) 
+ Car (B&O 1876) at (Junction, Coal) final destination (Northton, ) 
+ 
+ Build report for train (15L) has 1 warnings 
+   Build for train (15L) took 361 mSec 

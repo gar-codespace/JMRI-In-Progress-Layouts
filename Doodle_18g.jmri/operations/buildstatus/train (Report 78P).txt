@@ -1,4 +1,4 @@
- Build Report for train (78P) built on 7/20/23, 10:13 PM 
+ Build Report for train (78P) built on 11/3/23, 11:55 PM 
  JMRI version 5.2+R760b98537f 
   Build report detail level: Normal 
    Build report detail level: Detailed 
@@ -13,9 +13,11 @@
    being built is enabled 
    Make departure track available after train is built 
    Prompt for Departure Track from Staging 
+   Prompt for Arrival Track into Staging 
    
    Car routing options: 
    Car routing via yards is enabled 
+   Car routing through staging is enabled 
    Use all Trains when Routing 
    
    Enabled build options for train (78P): 
@@ -32,79 +34,96 @@
    
   Train (78P) route (78P): 
   61r7 Staging (Weston) Eastbound request 50 pick ups, maximum train length 3,000 feet 
-  61r11 Location (Downtown) Eastbound requests 55 moves, maximum train length 3,000 feet 
+  61r12 Location (City) Eastbound requests 12 set outs, maximum train length 3,000 feet 
+  61r11 Location (Downtown) Eastbound requests 55 pick ups, maximum train length 3,000 
+  feet 
   61r9 Location (Train Service) Eastbound requests 3 moves, maximum train length 3,000 
   feet 
   61r10 Staging (Easton) Eastbound requests 50 set outs 
- Route (78P) requests 79 cars and 158 moves 
+ Route (78P) requests 85 cars and 170 moves 
  
  Train requirements: 
  Train departs (Weston) with 2 consisted locomotives, model () road () 
+ Locomotive change at (Train Service), departs with 2 loco(s), model (K4s) road () 
  Train must depart (Weston) with caboose, road () 
  
    Train (78P) services locomotive types: 
-   ESHP, ESHF 
+   ESHF, ESHP 
    
  Found 11 locomotives for train (78P) 
    
    
    
    
+   
   
  Train terminates into staging at (Easton), there are 4 tracks 
-   Staging track (E4) is occupied, found 1 locomotive(s) and 34 cars 
-   Staging track (E3) is occupied, found 2 locomotive(s) and 12 cars 
- Staging track (E1) is available at destination (Easton) 
+   Staging track (E1) does not service this train 
+   Staging track (E3) does not service this train 
+   Staging track (E4) does not service this train 
   
  Train will depart staging (Weston), there are 3 tracks 
   Staging track (W1) is empty 
   Staging track (W3) is empty 
    Only one departure track (W2) available out of staging (Weston) 
   
-   Search for 2 loco(s), model (), road (), departing (Weston), destination (Easton) 
- Loco (PRR 208) assigned to train, departs (Weston) destination (Easton, E1) 
- Loco (PRR 758) assigned to train, departs (Weston) destination (Easton, E1) 
+   Search for 2 loco(s), model (), road (), departing (Weston), destination (Train 
+   Service) 
+ Loco (PRR 208) assigned to train, departs (Weston) destination (Train Service, 
+ Roundhouse) 
+ Loco (PRR 758) assigned to train, departs (Weston) destination (Train Service, 
+ Roundhouse) 
+  
+  Locomotive change at (Train Service), departs with 2 loco(s), model (K4s) road () 
+   Search for 2 loco(s), model (K4s), road (), departing (Train Service), destination 
+   (Easton) 
+   Option to build consist with 2 locos departing (Train Service) is enabled 
+   There are 3 single locomotives at (Train Service) that meet this train's requirements 
+ Loco (PRR 452) assigned to train, departs (Train Service) destination (Easton, E2) 
+ Loco (PRR 323) assigned to train, departs (Train Service) destination (Easton, E2) 
    
    Train (78P) services car types: 
    NE, RB, RS 
+   ********** Only the first 100 cars are shown for (Type) ********** 
    
    Departing staging (Weston, W2) with 37 cars 
    
- Found 50 cars for train (78P) 
+ Found 49 cars for train (78P) 
  Train (78P) requires caboose, road () departing (Weston) destination (Easton) 
    Generate load for (PRR 506) type (NE) load (E) at (Weston, W2) destination (Easton) 
-   Find destinations for (PRR 506) type (NE) empty (E) at (Weston, W2) 
-   Car (PRR 506) can go to staging (Easton, E1) 0/50 moves used 
-  Car (PRR 506) assigned to train, destination (Easton, E1) 
+   Find destinations for (PRR 506) type (NE) load (Occupied) at (Weston, W2) 
+   Car (PRR 506) can go to staging (Easton, E2) 0/50 moves used 
+  Car (PRR 506) assigned to train, destination (Easton, E2) 
   
    Train does not require car with FRED 
   
-  Requested cars (79) for train (78P) the number available (4) building train! 
+  Requested cars (85) for train (78P) the number available (4) building train! 
   
   Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
   Departing staging in aggressive mode, find destinations from (Weston) in next pass 
  Route location (Weston) id 61r7 requests 0 pick ups, 49/50 moves are available 
    
  Success 0/0 cars at location (Weston) assigned to train (78P) 
+ Route location (City) id 61r12 no pick ups 
  Route location (Downtown) id 61r11 requests 28 pick ups, 55/55 moves are available 
    
-   Find spur for car (FGEX 9586) type (RB) custom load (produce) at (Downtown, Ice) 
-   Try to send car (FGEX 9586) custom load (produce) to staging 
+   Car (FGEX 9586) type (RB) load (Produce) at (Downtown, Ice) has final destination 
+   (Easton, ) routing begins 
    Car (FGEX 9586) doesn't have an assigned destination track 
-   Car (FGEX 9586) assigned to staging track (E1) 
-  Car (FGEX 9586) assigned to train, destination (Easton, E1) 
+   Car (FGEX 9586) assigned to staging track (E2) 
+  Car (FGEX 9586) assigned to train, destination (Easton, E2) 
   Car (FGEX 9586) is in kernel (R6) with 12 cars, 528 feet 
-  Car (FGEX 0775) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 2300) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 2420) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 2534) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 2746) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 2851) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 3251) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 6135) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 8387) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 9060) kernel (R6) assigned to train, destination (Easton, E1) 
-  Car (FGEX 9138) kernel (R6) assigned to train, destination (Easton, E1) 
+  Car (FGEX 0775) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 2300) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 2420) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 2534) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 2746) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 2851) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 3251) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 6135) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 8387) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 9060) kernel (R6) assigned to train, destination (Easton, E2) 
+  Car (FGEX 9138) kernel (R6) assigned to train, destination (Easton, E2) 
   
  Partial 1/28 cars at location (Downtown) assigned to train (78P) 
  Route location (Train Service) id 61r9 requests 2 pick ups, 3/3 moves are available 
@@ -112,68 +131,79 @@
    No cars available for pick up at location (Train Service) 
    
  Partial 0/2 cars at location (Train Service) assigned to train (78P) 
- No pick ups from staging (Easton) 
+ Route location (Easton) id 61r10 no pick ups 
   
   Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
  Route location (Weston) id 61r7 requests 49 pick ups, 49/50 moves are available 
    
    Staging track (W2) has the following options selected: 
    Generate custom loads for any spur (multiple trains) 
+   Generate custom loads for any staging track 
    
    Generate load for (FGEX 1782) type (RB) load (E) at (Weston, W2) destination () 
    Car (FGEX 1782) custom load (Empty) final destination (Downtown, Ice) 
-  Car (FGEX 1782) assigned to train, destination (Downtown, Ice) 
+  Car (FGEX 1782) assigned to train, destination (City, Hold 2) 
   Car (FGEX 1782) is in kernel (R1) with 12 cars, 528 feet 
-  Car (FGEX 1417) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 1530) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 2192) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 2719) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 2756) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 4540) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 4555) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 5863) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 6509) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 7290) kernel (R1) assigned to train, destination (Downtown, Ice) 
-  Car (FGEX 7611) kernel (R1) assigned to train, destination (Downtown, Ice) 
+  Car (FGEX 1417) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 1530) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 2192) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 2719) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 2756) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 4540) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 4555) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 5863) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 6509) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 7290) kernel (R1) assigned to train, destination (City, Hold 2) 
+  Car (FGEX 7611) kernel (R1) assigned to train, destination (City, Hold 2) 
   
    Generate load for (FGEX 1756) type (RS) load (E) at (Weston, W2) destination () 
-   Find destinations for (FGEX 1756) type (RS) empty (E) at (Weston, W2) 
-   Could not find a track for (FGEX 1756) at destination (Downtown) 
-   Could not find a track for (FGEX 1756) at destination (Train Service) 
-   Car (FGEX 1756) can go to staging (Easton, E1) 2/50 moves used 
-  Car (FGEX 1756) assigned to train, destination (Easton, E1) 
+   Try to send car (FGEX 1756) to staging, found 13 tracks 
+   Car (FGEX 1756) type (RS) load (Iced) at (Weston, W2) has final destination (Easton, 
+   E2) routing begins 
+  Car (FGEX 1756) assigned to train, destination (Easton, E2) 
   Car (FGEX 1756) is in kernel (R7) with 12 cars, 528 feet 
-  Car (FGEX 0857) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 1072) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 1605) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 1802) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 3237) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 3994) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 4409) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 4699) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 6176) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 7063) kernel (R7) assigned to train, destination (Easton, E1) 
-  Car (FGEX 8990) kernel (R7) assigned to train, destination (Easton, E1) 
+  Car (FGEX 0857) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 1072) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 1605) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 1802) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 3237) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 3994) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 4409) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 4699) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 6176) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 7063) kernel (R7) assigned to train, destination (Easton, E2) 
+  Car (FGEX 8990) kernel (R7) assigned to train, destination (Easton, E2) 
   
    Generate load for (FGEX 6304) type (RB) load (E) at (Weston, W2) destination () 
-   Find destinations for (FGEX 6304) type (RB) empty (E) at (Weston, W2) 
-   Could not find a track for (FGEX 6304) at destination (Downtown) 
-   Could not find a track for (FGEX 6304) at destination (Train Service) 
-   Did not assign a destination for car (FGEX 6304) 
+   Try to send car (FGEX 6304) to staging, found 13 tracks 
+   Car (FGEX 6304) type (RB) load (load) at (Weston, W2) has final destination (Easton, 
+   E2) routing begins 
+  Car (FGEX 6304) assigned to train, destination (Easton, E2) 
+  Car (FGEX 6304) is in kernel (R3) with 12 cars, 528 feet 
+  Car (FGEX 1013) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 3069) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 4774) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 6661) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 7095) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 7388) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 7646) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 7896) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 7991) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 8220) kernel (R3) assigned to train, destination (Easton, E2) 
+  Car (FGEX 9672) kernel (R3) assigned to train, destination (Easton, E2) 
+  
+ Partial 3/49 cars at location (Weston) assigned to train (78P) 
+ Route location (City) id 61r12 no pick ups 
+ Route location (Downtown) id 61r11 requests 54 pick ups, 54/55 moves are available 
    
- Warning car (FGEX 6304) departing staging without a destination 
- BUILD FAILED could not find destinations for 12 car(s) departing from staging track 
- (Weston, W2) 
- FGEX 1013 
- FGEX 3069 
- FGEX 4774 
- FGEX 6304 
- FGEX 6661 
- FGEX 7095 
- FGEX 7388 
- FGEX 7646 
- FGEX 7896 
- FGEX 7991 
- FGEX 8220 
- FGEX 9672 
- Build failed for train (78P) 
+   No cars available for pick up at location (Downtown) 
+   
+ Partial 0/54 cars at location (Downtown) assigned to train (78P) 
+ Route location (Train Service) id 61r9 requests 3 pick ups, 3/3 moves are available 
+   
+   No cars available for pick up at location (Train Service) 
+   
+ Partial 0/3 cars at location (Train Service) assigned to train (78P) 
+ Route location (Easton) id 61r10 no pick ups 
+ Partial 49/85 cars 
+   Build for train (78P) took 42 mSec 

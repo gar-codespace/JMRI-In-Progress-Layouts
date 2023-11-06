@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Fri Nov 03 08:35:04 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Nov 04 21:16:07 PDT 2023-->
   <divisions>
     <division id="2" name="Easton Division" comment="" />
     <division id="1" name="Northton Division" comment="" />
@@ -10,7 +10,7 @@
     <division id="3" name="Weston Division" comment="" />
   </divisions>
   <locations>
-    <location id="1" name="Northton" divisionId="1" ops="2" dir="12" switchList="true" comment="" switchListComment="">
+    <location id="1" name="Northton" divisionId="1" ops="2" dir="15" switchList="true" comment="" switchListComment="">
       <types>
         <carType name="B60" />
         <carType name="Bd" />
@@ -42,7 +42,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="1s1" name="N2" trackType="Staging" dir="12" length="2068" moves="127" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="43">
+      <track id="1s1" name="N2" trackType="Staging" dir="12" length="2068" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="43">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -50,6 +50,8 @@
           <carType name="NE" />
           <carType name="TM" />
           <carType name="XM" />
+          <locoType name="EDHF" />
+          <locoType name="EEHF" />
         </types>
         <dropIds>
           <dropId id="21" />
@@ -71,8 +73,11 @@
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
+          <carType name="NE" />
           <carType name="TM" />
           <carType name="XM" />
+          <locoType name="EDHF" />
+          <locoType name="EEHF" />
         </types>
         <dropIds>
           <dropId id="21" />
@@ -260,13 +265,15 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="3s1" name="Hold 2" trackType="Interchange" dir="15" length="1600" moves="1330" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s1" name="Hold 2" trackType="Interchange" dir="15" length="1600" moves="177" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
+          <carType name="FM" />
+          <carType name="GB" />
+          <carType name="HK" />
+          <carType name="RB" />
+          <carType name="RS" />
           <carType name="TM" />
           <carType name="XM" />
-          <carType name="HK" />
-          <carType name="GB" />
-          <carType name="FM" />
         </types>
         <dropIds>
           <dropId id="14" />
@@ -275,6 +282,7 @@
           <dropId id="67" />
           <dropId id="29" />
           <dropId id="28" />
+          <dropId id="17" />
         </dropIds>
         <pickupIds>
           <pickupId id="77" />
@@ -288,7 +296,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="3s10" name="OB-Summit" trackType="Interchange" dir="15" length="660" moves="15" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s10" name="OB-Summit" trackType="Interchange" dir="15" length="660" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -311,7 +319,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="3s11" name="OB-Easton" trackType="Interchange" dir="15" length="1600" moves="96" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s11" name="OB-Easton" trackType="Interchange" dir="15" length="1600" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -362,6 +370,8 @@
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
+          <carType name="RB" />
+          <carType name="RS" />
           <carType name="TM" />
           <carType name="XM" />
         </types>
@@ -408,7 +418,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="3s3" name="73" trackType="Interchange" dir="15" length="1144" moves="60" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s3" name="73" trackType="Interchange" dir="15" length="1144" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -417,7 +427,7 @@
           <carType name="XM" />
         </types>
         <dropIds>
-          <dropId id="66" />
+          <dropId id="77" />
         </dropIds>
         <pickupIds>
           <pickupId id="22" />
@@ -464,7 +474,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="3s5" name="75" trackType="Interchange" dir="0" length="924" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s5" name="75" trackType="Interchange" dir="15" length="924" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -537,7 +547,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="3s8" name="OB-Park" trackType="Interchange" dir="15" length="748" moves="51" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s8" name="OB-Park" trackType="Interchange" dir="15" length="748" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -560,7 +570,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="3s9" name="OB-Downtown" trackType="Interchange" dir="15" length="748" moves="30" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s9" name="OB-Downtown" trackType="Interchange" dir="15" length="748" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -616,21 +626,22 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="4s1" name="DX" trackType="Spur" dir="15" length="396" moves="62" dropOption="trains" pickupOption="trains" schedule="DX" scheduleId="1932" itemId="1932c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="4s1" name="DX" trackType="Spur" dir="15" length="396" moves="18" dropOption="trains" pickupOption="trains" schedule="DX" scheduleId="1932" itemId="1932c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
-          <carType name="XM" />
           <carType name="CA" />
+          <carType name="XM" />
         </types>
         <dropIds>
           <dropId id="28" />
+          <dropId id="70" />
         </dropIds>
         <pickupIds>
           <pickupId id="28" />
           <pickupId id="69" />
         </pickupIds>
         <comments>
-          <track comment="TrainPlayer ID:45" />
+          <track comment="TrainPlayer ID:45&#xA;Local LCL and express" />
           <both comment="" />
           <pickup comment="" />
           <setout comment="" />
@@ -638,7 +649,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s10" name="Sand" trackType="Spur" dir="1" length="44" moves="1" dropOption="trains" pickupOption="trains" schedule="DS" scheduleId="1947" itemId="1947c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="4s10" name="Sand" trackType="Spur" dir="1" length="44" moves="0" dropOption="trains" pickupOption="trains" schedule="DS" scheduleId="1947" itemId="1947c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="GB" />
         </types>
@@ -657,7 +668,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s11" name="General Delivery" trackType="Spur" dir="1" length="352" moves="76" dropOption="trains" pickupOption="trains" schedule="DD" scheduleId="1940" itemId="1940c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="4s11" name="General Delivery" trackType="Spur" dir="1" length="352" moves="18" dropOption="trains" pickupOption="trains" schedule="DD" scheduleId="1940" itemId="1940c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -671,27 +682,6 @@
         </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:28" />
-          <both comment="" />
-          <pickup comment="" />
-          <setout comment="" />
-          <printManifest comment="true" />
-          <printSwitchLists comment="false" />
-        </comments>
-      </track>
-      <track id="4s12" name="Ready Track" trackType="Interchange" dir="15" length="528" moves="35" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
-        <types>
-          <carType name="P54" />
-          <carType name="Pk" />
-          <carType name="Bd" />
-        </types>
-        <dropIds>
-          <dropId id="69" />
-        </dropIds>
-        <pickupIds>
-          <pickupId id="75" />
-        </pickupIds>
-        <comments>
-          <track comment="TrainPlayer ID:39" />
           <both comment="" />
           <pickup comment="" />
           <setout comment="" />
@@ -713,7 +703,7 @@
           <pickupId id="75" />
         </pickupIds>
         <comments>
-          <track comment="TrainPlayer ID:42" />
+          <track comment="TrainPlayer ID:42&#xA;Through train LCL and express" />
           <both comment="" />
           <pickup comment="" />
           <setout comment="" />
@@ -721,7 +711,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s2" name="Service Track" trackType="Interchange" dir="0" length="220" moves="4" onlyCarWithFD="false">
+      <track id="4s2" name="Service Track" trackType="Interchange" dir="0" length="220" moves="0" onlyCarWithFD="false">
         <types />
         <comments>
           <track comment="TrainPlayer ID:46" />
@@ -732,7 +722,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s3" name="Platform 2" trackType="Interchange" dir="0" length="1232" moves="7" onlyCarWithFD="false">
+      <track id="4s3" name="Platform 2" trackType="Interchange" dir="0" length="1232" moves="0" onlyCarWithFD="false">
         <types />
         <comments>
           <track comment="TrainPlayer ID:47" />
@@ -743,7 +733,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s4" name="Platform 3" trackType="Interchange" dir="0" length="836" moves="6" onlyCarWithFD="false">
+      <track id="4s4" name="Platform 3" trackType="Interchange" dir="0" length="836" moves="0" onlyCarWithFD="false">
         <types />
         <comments>
           <track comment="TrainPlayer ID:48" />
@@ -754,16 +744,18 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s5" name="Ice" trackType="Spur" dir="1" length="528" moves="104" dropOption="trains" pickupOption="trains" schedule="CI" scheduleId="1949" itemId="1949c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="4s5" name="Ice" trackType="Spur" dir="15" length="528" moves="1" dropOption="trains" pickupOption="trains" schedule="CI" scheduleId="1949" itemId="1949c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="RB" />
           <carType name="RS" />
         </types>
         <dropIds>
-          <dropId id="75" />
+          <dropId id="77" />
+          <dropId id="46" />
         </dropIds>
         <pickupIds>
-          <pickupId id="75" />
+          <pickupId id="67" />
+          <pickupId id="17" />
         </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:53" />
@@ -774,7 +766,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s6" name="Platform 4" trackType="Interchange" dir="0" length="704" moves="12" onlyCarWithFD="false">
+      <track id="4s6" name="Platform 4" trackType="Interchange" dir="0" length="704" moves="0" onlyCarWithFD="false">
         <types />
         <comments>
           <track comment="TrainPlayer ID:19" />
@@ -785,7 +777,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s7" name="Ash" trackType="Spur" dir="1" length="44" moves="30" dropOption="trains" pickupOption="trains" schedule="DA" scheduleId="1943" itemId="1943c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="4s7" name="Ash" trackType="Spur" dir="1" length="44" moves="0" dropOption="trains" pickupOption="trains" schedule="DA" scheduleId="1943" itemId="1943c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="GB" />
         </types>
@@ -804,7 +796,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s8" name="Coal" trackType="Spur" dir="1" length="264" moves="79" dropOption="trains" pickupOption="trains" schedule="DC" scheduleId="1944" itemId="1944c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="4s8" name="Coal" trackType="Spur" dir="1" length="264" moves="1" dropOption="trains" pickupOption="trains" schedule="DC" scheduleId="1944" itemId="1944c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
@@ -823,7 +815,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s9" name="Gantry Crane" trackType="Spur" dir="1" length="88" moves="29" dropOption="trains" pickupOption="trains" schedule="DG" scheduleId="1945" itemId="1945c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="4s9" name="Gantry Crane" trackType="Spur" dir="1" length="88" moves="5" dropOption="trains" pickupOption="trains" schedule="DG" scheduleId="1945" itemId="1945c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="GB" />
         </types>
@@ -875,7 +867,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="5s1" name="Coal" trackType="Spur" dir="15" length="88" moves="22" dropOption="trains" pickupOption="trains" schedule="PC" scheduleId="1937" itemId="1937c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s1" name="Coal" trackType="Spur" dir="15" length="88" moves="1" dropOption="trains" pickupOption="trains" schedule="PC" scheduleId="1937" itemId="1937c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
@@ -894,7 +886,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="5s2" name="Freight House" trackType="Spur" dir="15" length="396" moves="53" dropOption="trains" pickupOption="trains" schedule="PF" scheduleId="1938" itemId="1938c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s2" name="Freight House" trackType="Spur" dir="15" length="396" moves="18" dropOption="trains" pickupOption="trains" schedule="PF" scheduleId="1938" itemId="1938c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
@@ -913,7 +905,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="5s3" name="Lumber" trackType="Spur" dir="15" length="88" moves="30" dropOption="trains" pickupOption="trains" schedule="PL" scheduleId="1935" itemId="1935c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s3" name="Lumber" trackType="Spur" dir="15" length="88" moves="10" dropOption="trains" pickupOption="trains" schedule="PL" scheduleId="1935" itemId="1935c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -933,7 +925,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="5s4" name="Fuel Oil" trackType="Spur" dir="15" length="132" moves="28" dropOption="trains" pickupOption="trains" schedule="PO" scheduleId="1936" itemId="1936c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s4" name="Fuel Oil" trackType="Spur" dir="15" length="132" moves="10" dropOption="trains" pickupOption="trains" schedule="PO" scheduleId="1936" itemId="1936c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="TM" />
         </types>
@@ -952,7 +944,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="5s5" name="Power House" trackType="Spur" dir="15" length="220" moves="25" dropOption="trains" pickupOption="trains" schedule="PP" scheduleId="1934" itemId="1934c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s5" name="Power House" trackType="Spur" dir="15" length="220" moves="1" dropOption="trains" pickupOption="trains" schedule="PP" scheduleId="1934" itemId="1934c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
@@ -1012,7 +1004,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="5s7" name="General Delivery" trackType="Spur" dir="15" length="308" moves="53" dropOption="trains" pickupOption="trains" schedule="PG" scheduleId="1939" itemId="1939c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s7" name="General Delivery" trackType="Spur" dir="15" length="308" moves="18" dropOption="trains" pickupOption="trains" schedule="PG" scheduleId="1939" itemId="1939c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -1033,7 +1025,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="5s8" name="Depot" trackType="Spur" dir="15" length="132" moves="54" dropOption="trains" pickupOption="trains" schedule="PD" scheduleId="1931" itemId="1931c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="5s8" name="Depot" trackType="Spur" dir="15" length="132" moves="15" dropOption="trains" pickupOption="trains" schedule="PD" scheduleId="1931" itemId="1931c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
@@ -1167,7 +1159,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="6s3" name="W2" trackType="Staging" dir="3" length="4092" moves="0" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
+      <track id="6s3" name="W2" trackType="Staging" dir="3" length="4092" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="43">
         <types>
           <carType name="B60" />
           <carType name="Bd" />
@@ -1199,6 +1191,9 @@
           <locoType name="ESLP" />
           <locoType name="ESS" />
         </types>
+        <dropIds>
+          <dropId id="75" />
+        </dropIds>
         <pickupIds>
           <pickupId id="17" />
         </pickupIds>
@@ -1244,15 +1239,18 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="7s1" name="Station" trackType="Interchange" dir="15" length="572" moves="1" dropOption="trains" onlyCarWithFD="false">
+      <track id="7s1" name="Platform" trackType="Interchange" dir="15" length="572" moves="15" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
+          <carType name="Bd" />
           <carType name="P54" />
           <carType name="Pk" />
-          <carType name="Bd" />
         </types>
         <dropIds>
           <dropId id="59" />
         </dropIds>
+        <pickupIds>
+          <pickupId id="78" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:51" />
           <both comment="" />
@@ -1262,10 +1260,16 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="7s2" name="Coal" trackType="Spur" dir="15" length="88" moves="4" schedule="VC" scheduleId="1941" itemId="1941c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="7s2" name="Coal" trackType="Spur" dir="15" length="88" moves="1" dropOption="trains" pickupOption="trains" schedule="VC" scheduleId="1941" itemId="1941c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:16" />
           <both comment="" />
@@ -1275,13 +1279,16 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="7s3" name="Depot" trackType="Spur" dir="15" length="132" moves="4" schedule="VD" scheduleId="1933" itemId="1933c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="7s3" name="Depot" trackType="Spur" dir="15" length="132" moves="15" dropOption="trains" pickupOption="trains" schedule="VD" scheduleId="1933" itemId="1933c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
-          <carType name="P54" />
-          <carType name="Pk" />
-          <carType name="Bd" />
           <carType name="XM" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:17" />
           <both comment="" />
@@ -1291,11 +1298,17 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="7s4" name="Produce" trackType="Spur" dir="15" length="528" moves="0" schedule="VP" scheduleId="1946" itemId="1946c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="7s4" name="Produce" trackType="Spur" dir="15" length="528" moves="0" dropOption="trains" pickupOption="trains" schedule="VP" scheduleId="1946" itemId="1946c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="RB" />
           <carType name="RS" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:18" />
           <both comment="" />
@@ -1305,15 +1318,17 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="7s5" name="Roundhouse" trackType="Interchange" dir="15" length="660" moves="1" dropOption="trains" onlyCarWithFD="false">
+      <track id="7s5" name="Roundhouse" trackType="Interchange" dir="15" length="660" moves="2" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
-          <locoType name="ESS" />
-          <locoType name="ESLP" />
           <locoType name="ESLF" />
+          <locoType name="ESLP" />
         </types>
         <dropIds>
           <dropId id="59" />
         </dropIds>
+        <pickupIds>
+          <pickupId id="78" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:21" />
           <both comment="" />
@@ -1323,7 +1338,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="7s6" name="Off Spot" trackType="Interchange" dir="15" length="132" moves="0" onlyCarWithFD="false">
+      <track id="7s6" name="Off Spot" trackType="Interchange" dir="15" length="132" moves="2" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="B60" />
           <carType name="Bd" />
@@ -1355,6 +1370,12 @@
           <locoType name="ESLP" />
           <locoType name="ESS" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:65" />
           <both comment="" />
@@ -1364,12 +1385,18 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="7s7" name="General Delivery" trackType="Spur" dir="15" length="88" moves="4" schedule="VG" scheduleId="1951" itemId="1951c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="7s7" name="General Delivery" trackType="Spur" dir="15" length="88" moves="10" dropOption="trains" pickupOption="trains" schedule="VG" scheduleId="1951" itemId="1951c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
           <carType name="XM" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:35" />
           <both comment="" />
@@ -1435,7 +1462,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="8s2" name="E2" trackType="Staging" dir="3" length="2068" moves="120" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="43">
+      <track id="8s2" name="E2" trackType="Staging" dir="3" length="2068" moves="38" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="43">
         <types>
           <carType name="B60" />
           <carType name="Bd" />
@@ -1529,40 +1556,17 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="8s4" name="E1" trackType="Staging" dir="15" length="2068" moves="135" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="43">
+      <track id="8s4" name="E1" trackType="Staging" dir="15" length="2068" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="43">
         <types>
-          <carType name="B60" />
-          <carType name="Bd" />
-          <carType name="Bn" />
-          <carType name="CA" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
-          <carType name="M" />
-          <carType name="MA" />
           <carType name="NE" />
-          <carType name="NM" />
-          <carType name="P54" />
-          <carType name="P70" />
-          <carType name="PS" />
-          <carType name="Pk" />
-          <carType name="RB" />
-          <carType name="RS" />
           <carType name="TM" />
           <carType name="XM" />
-          <carType name="XX" />
-          <locoType name="EDHF" />
-          <locoType name="EEHF" />
-          <locoType name="EEHP" />
-          <locoType name="EELP" />
-          <locoType name="ESHF" />
-          <locoType name="ESHP" />
-          <locoType name="ESLF" />
-          <locoType name="ESLP" />
-          <locoType name="ESS" />
         </types>
         <dropIds>
-          <dropId id="75" />
+          <dropId id="76" />
         </dropIds>
         <pickupIds>
           <pickupId id="75" />
@@ -1579,26 +1583,12 @@
     </location>
     <location id="9" name="Train Service" divisionId="3" ops="1" dir="15" switchList="true" comment="" switchListComment="">
       <types>
-        <carType name="B60" />
         <carType name="Bd" />
-        <carType name="Bn" />
-        <carType name="CA" />
-        <carType name="FM" />
-        <carType name="GB" />
-        <carType name="HK" />
-        <carType name="M" />
-        <carType name="MA" />
         <carType name="NE" />
         <carType name="NM" />
         <carType name="P54" />
         <carType name="P70" />
-        <carType name="PS" />
         <carType name="Pk" />
-        <carType name="RB" />
-        <carType name="RS" />
-        <carType name="TM" />
-        <carType name="XM" />
-        <carType name="XX" />
         <locoType name="EDHF" />
         <locoType name="EEHF" />
         <locoType name="EEHP" />
@@ -1609,14 +1599,13 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="9s10" name="Coach Yard" trackType="Interchange" dir="15" length="528" moves="23" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="9s10" name="Coach Yard" trackType="Interchange" dir="15" length="528" moves="18" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="P54" />
-          <carType name="Bd" />
           <carType name="Pk" />
         </types>
         <dropIds>
-          <dropId id="75" />
+          <dropId id="70" />
         </dropIds>
         <pickupIds>
           <pickupId id="69" />
@@ -1630,7 +1619,30 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="9s2" name="Repair" trackType="Interchange" dir="0" length="352" moves="3" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="9s11" name="Ready Track" trackType="Interchange" dir="15" length="528" moves="12" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+        <types>
+          <carType name="Bd" />
+          <carType name="P54" />
+          <carType name="Pk" />
+        </types>
+        <dropIds>
+          <dropId id="69" />
+          <dropId id="78" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="59" />
+          <pickupId id="70" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:39" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="9s2" name="Repair" trackType="Interchange" dir="0" length="352" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="NE" />
           <carType name="NM" />
@@ -1659,7 +1671,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="9s4" name="Roundhouse" trackType="Interchange" dir="15" length="5280" moves="42" onlyCarWithFD="false">
+      <track id="9s4" name="Roundhouse" trackType="Interchange" dir="15" length="5280" moves="7" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <locoType name="ESHF" />
           <locoType name="ESHP" />
@@ -1667,6 +1679,14 @@
           <locoType name="ESLP" />
           <locoType name="ESS" />
         </types>
+        <dropIds>
+          <dropId id="19" />
+          <dropId id="78" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="19" />
+          <pickupId id="59" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:8" />
           <both comment="" />
@@ -1676,11 +1696,19 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="9s5" name="Cabin Track" trackType="Interchange" dir="15" length="264" moves="65" onlyCarWithFD="false">
+      <track id="9s5" name="Cabin Track" trackType="Interchange" dir="15" length="264" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="NE" />
           <carType name="NM" />
         </types>
+        <dropIds>
+          <dropId id="19" />
+          <dropId id="14" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="21" />
+          <pickupId id="19" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:26" />
           <both comment="" />
@@ -1690,13 +1718,23 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="9s9" name="Car Barn" trackType="Interchange" dir="15" length="1232" moves="69" onlyCarWithFD="false">
+      <track id="9s9" name="Car Barn" trackType="Interchange" dir="15" length="1232" moves="7" pickupOption="trains" onlyCarWithFD="false">
         <types>
+          <carType name="NE" />
+          <carType name="NM" />
           <locoType name="EDHF" />
           <locoType name="EEHF" />
           <locoType name="EEHP" />
           <locoType name="EELP" />
+          <locoType name="ESHF" />
+          <locoType name="ESHP" />
+          <locoType name="ESLF" />
+          <locoType name="ESLP" />
+          <locoType name="ESS" />
         </types>
+        <pickupIds>
+          <pickupId id="21" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:33" />
           <both comment="" />
@@ -1854,10 +1892,16 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="11s1" name="Depot" trackType="Spur" dir="15" length="88" moves="0" schedule="JD" scheduleId="1950" itemId="1950c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="11s1" name="Depot" trackType="Spur" dir="15" length="88" moves="10" dropOption="trains" pickupOption="trains" schedule="JD" scheduleId="1950" itemId="1950c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:4" />
           <both comment="" />
@@ -1867,10 +1911,16 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="11s2" name="Coal" trackType="Spur" dir="15" length="132" moves="0" schedule="JC" scheduleId="1948" itemId="1948c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="11s2" name="Coal" trackType="Spur" dir="15" length="132" moves="1" dropOption="trains" pickupOption="trains" schedule="JC" scheduleId="1948" itemId="1948c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="HK" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:7" />
           <both comment="" />
@@ -1921,12 +1971,18 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="11s4" name="Steel Products" trackType="Spur" dir="15" length="176" moves="0" schedule="JS" scheduleId="1930" itemId="1930c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="11s4" name="Steel Products" trackType="Spur" dir="15" length="176" moves="18" dropOption="trains" pickupOption="trains" schedule="JS" scheduleId="1930" itemId="1930c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
           <carType name="XM" />
         </types>
+        <dropIds>
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:29" />
           <both comment="" />
@@ -1939,68 +1995,32 @@
     </location>
     <location id="12" name="Midway" divisionId="4" ops="1" dir="15" switchList="true" comment="" switchListComment="">
       <types>
-        <carType name="B60" />
-        <carType name="Bd" />
-        <carType name="Bn" />
-        <carType name="CA" />
         <carType name="FM" />
         <carType name="GB" />
         <carType name="HK" />
-        <carType name="M" />
-        <carType name="MA" />
-        <carType name="NE" />
-        <carType name="NM" />
-        <carType name="P54" />
-        <carType name="P70" />
-        <carType name="PS" />
-        <carType name="Pk" />
         <carType name="RB" />
         <carType name="RS" />
         <carType name="TM" />
         <carType name="XM" />
-        <carType name="XX" />
-        <locoType name="EDHF" />
-        <locoType name="EEHF" />
-        <locoType name="EEHP" />
-        <locoType name="EELP" />
-        <locoType name="ESHF" />
-        <locoType name="ESHP" />
-        <locoType name="ESLF" />
-        <locoType name="ESLP" />
-        <locoType name="ESS" />
       </types>
-      <track id="12s1" name="Interchange" trackType="Interchange" dir="15" length="968" moves="0" onlyCarWithFD="false">
+      <track id="12s1" name="Interchange" trackType="Interchange" dir="15" length="968" moves="0" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
-          <carType name="B60" />
-          <carType name="Bd" />
-          <carType name="Bn" />
-          <carType name="CA" />
           <carType name="FM" />
           <carType name="GB" />
           <carType name="HK" />
-          <carType name="M" />
-          <carType name="MA" />
-          <carType name="NE" />
-          <carType name="NM" />
-          <carType name="P54" />
-          <carType name="P70" />
-          <carType name="PS" />
-          <carType name="Pk" />
           <carType name="RB" />
           <carType name="RS" />
           <carType name="TM" />
           <carType name="XM" />
-          <carType name="XX" />
-          <locoType name="EDHF" />
-          <locoType name="EEHF" />
-          <locoType name="EEHP" />
-          <locoType name="EELP" />
-          <locoType name="ESHF" />
-          <locoType name="ESHP" />
-          <locoType name="ESLF" />
-          <locoType name="ESLP" />
-          <locoType name="ESS" />
         </types>
+        <dropIds>
+          <dropId id="67" />
+          <dropId id="35" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="67" />
+          <pickupId id="35" />
+        </pickupIds>
         <comments>
           <track comment="TrainPlayer ID:9" />
           <both comment="" />
@@ -2014,15 +2034,15 @@
   </locations>
   <schedules>
     <schedule id="1930" name="JS" comment="">
-      <item id="1930c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="GB" road="" load="Empty" ship="steel rods" comment="" hits="0" />
-      <item id="1930c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="steel products" comment="" hits="0" />
+      <item id="1930c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="GB" road="" load="Empty" ship="steel rods" comment="" hits="1" />
+      <item id="1930c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="steel products" comment="" hits="1" />
       <item id="1930c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="FM" road="" load="Empty" ship="steel rods" comment="" hits="0" />
     </schedule>
     <schedule id="1931" name="PD" comment="">
-      <item id="1931c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="LCL" ship="LCL" comment="" hits="0" />
+      <item id="1931c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="LCL" ship="LCL" comment="" hits="3" />
     </schedule>
     <schedule id="1932" name="DX" comment="">
-      <item id="1932c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="Bd" road="" load="Express" ship="Express" comment="" hits="0" />
+      <item id="1932c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="Bd" road="" load="Express" ship="Express" comment="" hits="4" />
       <item id="1932c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="CA" road="" load="Express" ship="Express" comment="" hits="0" />
       <item id="1932c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="LCL" ship="LCL" comment="" hits="0" />
     </schedule>
@@ -2030,24 +2050,24 @@
       <item id="1933c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="LCL" ship="LCL" comment="" hits="0" />
     </schedule>
     <schedule id="1934" name="PP" comment="">
-      <item id="1934c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="HK" road="" load="coal2" ship="Empty" destinationId="1" comment="" hits="0" />
+      <item id="1934c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="HK" road="" load="coal2" ship="Empty" destinationId="1" comment="" hits="3" />
     </schedule>
     <schedule id="1935" name="PL" comment="">
-      <item id="1935c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="FM" road="" load="lumber stack" ship="Empty" comment="" hits="0" />
-      <item id="1935c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="GB" road="" load="Milled timber" ship="Empty" comment="" hits="0" />
+      <item id="1935c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="FM" road="" load="lumber stack" ship="Empty" comment="" hits="1" />
+      <item id="1935c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="GB" road="" load="Milled timber" ship="Empty" comment="" hits="1" />
     </schedule>
     <schedule id="1936" name="PO" comment="">
-      <item id="1936c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="TM" road="" load="fuel" ship="Empty" comment="" hits="0" />
+      <item id="1936c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="TM" road="" load="fuel" ship="Empty" comment="" hits="3" />
     </schedule>
     <schedule id="1937" name="PC" comment="">
-      <item id="1937c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="HK" road="" load="coal2" ship="Empty" destinationId="1" comment="" hits="0" />
+      <item id="1937c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="HK" road="" load="coal2" ship="Empty" destinationId="1" comment="" hits="2" />
     </schedule>
     <schedule id="1938" name="PF" comment="">
-      <item id="1938c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Merchandise" ship="Goods" comment="" hits="0" />
+      <item id="1938c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Merchandise" ship="Goods" comment="" hits="2" />
     </schedule>
     <schedule id="1939" name="PG" comment="">
-      <item id="1939c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Merchandise" ship="Goods" comment="" hits="0" />
-      <item id="1939c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="FM" road="" load="Tarp3" ship="Empty" comment="" hits="0" />
+      <item id="1939c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Merchandise" ship="Goods" comment="" hits="1" />
+      <item id="1939c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="FM" road="" load="Tarp3" ship="Empty" comment="" hits="1" />
       <item id="1939c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="GB" road="" load="Tarp" ship="Empty" comment="" hits="0" />
     </schedule>
     <schedule id="1940" name="DD" comment="">
@@ -2085,18 +2105,23 @@
       <item id="1948c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="HK" road="" load="coal2" ship="Empty" destinationId="1" comment="" hits="0" />
     </schedule>
     <schedule id="1949" name="CI" comment="">
-      <item id="1949c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RB" road="" load="Produce" ship="Produce" comment="" hits="0" />
-      <item id="1949c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RS" road="" load="Produce" ship="Produce" comment="" hits="0" />
-      <item id="1949c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RB" road="" load="Empty" ship="Iced" comment="" hits="0" />
-      <item id="1949c4" sequenceId="4" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RS" road="" load="Empty" ship="Iced" comment="" hits="0" />
+      <item id="1949c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RB" road="" load="Produce" ship="Produce" destinationId="8" comment="" hits="0" />
+      <item id="1949c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RS" road="" load="Produce" ship="Produce" destinationId="8" comment="" hits="0" />
+      <item id="1949c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RB" road="" load="Empty" ship="Iced" destinationId="7" destTrackId="7s4" comment="" hits="1" />
+      <item id="1949c4" sequenceId="4" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RS" road="" load="Empty" ship="Iced" destinationId="7" destTrackId="7s4" comment="" hits="0" />
     </schedule>
     <schedule id="1950" name="JD" comment="">
-      <item id="1950c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="LCL" ship="LCL" comment="" hits="0" />
+      <item id="1950c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="LCL" ship="LCL" comment="" hits="1" />
     </schedule>
     <schedule id="1951" name="VG" comment="">
       <item id="1951c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Merchandise" ship="Goods" comment="" hits="0" />
       <item id="1951c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="FM" road="" load="Tarp" ship="Empty" comment="" hits="0" />
       <item id="1951c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="GB" road="" load="Tarp3" ship="Empty" comment="" hits="0" />
+    </schedule>
+    <schedule id="1952" name="V" comment="">
+      <item id="1952c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="Bd" road="" load="Express" ship="Express" comment="" hits="1" />
+      <item id="1952c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="P54" road="" load="Occupied" ship="Occupied" comment="" hits="4" />
+      <item id="1952c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="Pk" road="" load="Occupied" ship="Occupied" comment="" hits="2" />
     </schedule>
   </schedules>
 </operations-config>

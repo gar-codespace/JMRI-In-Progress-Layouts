@@ -1,0 +1,109 @@
+ Build Report for train (704Y) built on 11/4/23, 7:36 PM 
+ JMRI version 5.2+R760b98537f 
+  Build report detail level: Normal 
+   Build report detail level: Detailed 
+ 
+   Train Build Options: 
+   Build option is set to aggressive 
+   Perform 2 passes 
+   
+   Car routing options: 
+   Car routing via yards is enabled 
+   Car routing through staging is enabled 
+   Use all Trains when Routing 
+   
+   Enabled build options for train (704Y): 
+   Allow local moves if car has a custom load or FD 
+   
+   Disabled build options for train (704Y): 
+   Use normal mode when building this train 
+   Send all car pick ups to terminal (Downtown) 
+   Allow cars to travel from origin to terminal 
+   Service all cars with a final destination (FD) 
+   Send cars with custom loads to staging 
+   Build loco consist from single locos 
+   
+  Train (704Y) route (704Y): 
+  83r1 Location (Train Service) Eastbound requests 4 pick ups, maximum train length 
+  3,000 feet 
+  83r4 Location (Train Service) Eastbound requests 3 set outs, maximum train length 
+  3,000 feet 
+  83r3 Location (Downtown) Eastbound requests 1 set outs 
+ Route (704Y) requests 4 cars and 8 moves 
+ 
+ Train requirements: 
+ Train does not require any locomotives 
+ 
+   
+ Found 0 locomotives for train (704Y) 
+   
+   
+  
+   
+   Train (704Y) services car types: 
+   Pk, P54, Bd 
+   
+ Found 4 cars for train (704Y) 
+   Train does not require caboose when departing (Train Service) 
+   Train does not require car with FRED 
+  
+  Requested cars (4) for train (704Y) the number available (4) building train! 
+  
+  Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
+ Route location (Train Service) id 83r1 requests 2 pick ups, 4/4 moves are available 
+   
+   Find spur for car (PRR 7303) type (Pk) custom load (Occupied) at (Train Service, 
+   Ready Track) 
+   Try to send car (PRR 7303) custom load (Occupied) to staging 
+   Find destinations for (PRR 7303) type (Pk) load (Occupied) at (Train Service, Ready 
+   Track) 
+   Car (PRR 7303) can go to C/I (Train Service, Coach Yard) 0/3 moves used 
+   Could not find a track for (PRR 7303) at destination (Downtown) 
+  Car (PRR 7303) assigned to train, destination (Train Service, Coach Yard) 
+  
+   Find spur for car (PRR 5466) type (P54) custom load (Occupied) at (Train Service, 
+   Ready Track) 
+   Try to send car (PRR 5466) custom load (Occupied) to staging 
+   Find destinations for (PRR 5466) type (P54) load (Occupied) at (Train Service, Ready 
+   Track) 
+   Car (PRR 5466) can go to C/I (Train Service, Coach Yard) 1/3 moves used 
+   Could not find a track for (PRR 5466) at destination (Downtown) 
+  Car (PRR 5466) assigned to train, destination (Train Service, Coach Yard) 
+  
+ Success 2/2 cars at location (Train Service) assigned to train (704Y) 
+ Route location (Train Service) id 83r4 no pick ups 
+ Route location (Downtown) id 83r3 no pick ups 
+  
+  Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
+ Route location (Train Service) id 83r1 requests 2 pick ups, 2/4 moves are available 
+   
+   Find spur for car (PRR 0107) type (Bd) custom load (Express) at (Train Service, Ready 
+   Track) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Try to send car (PRR 0107) custom load (Express) to staging 
+   Find destinations for (PRR 0107) type (Bd) load (Express) at (Train Service, Ready 
+   Track) 
+   Through traffic not allowed from (Train Service) to terminal (Downtown) 
+   Did not assign a destination for car (PRR 0107) 
+   
+   Find spur for car (PRR 0838) type (P54) custom load (Occupied) at (Train Service, 
+   Ready Track) 
+   Try to send car (PRR 0838) custom load (Occupied) to staging 
+   Find destinations for (PRR 0838) type (P54) load (Occupied) at (Train Service, Ready 
+   Track) 
+   Car (PRR 0838) can go to C/I (Train Service, Coach Yard) 2/3 moves used 
+   Could not find a track for (PRR 0838) at destination (Downtown) 
+  Car (PRR 0838) assigned to train, destination (Train Service, Coach Yard) 
+  
+ Partial 1/2 cars at location (Train Service) assigned to train (704Y) 
+ Route location (Train Service) id 83r4 no pick ups 
+ Route location (Downtown) id 83r3 no pick ups 
+ Partial 3/4 cars 
+   Build for train (704Y) took 32 mSec 

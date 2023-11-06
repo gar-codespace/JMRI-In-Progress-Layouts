@@ -1,4 +1,4 @@
-1- Build Report for train (67M) built on 11/2/23, 3:19 PM
+1- Build Report for train (67M) built on 11/3/23, 2:25 PM
 1- JMRI version 5.2+R760b98537f
 3- Build report detail level: Normal
 5- Build report detail level: Detailed
@@ -757,10 +757,7 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (PRR 8836) with load (Tarp3) to (Valley, General Delivery)
-7- Try spur (Downtown, Ash) custom load (Empty)
-7- Car (PRR 8836) would overload track (Downtown, Ash), currently 1 inbound cars, length 
-7- (44) feet, 100% loading from staging 
-7- Try spur (Downtown, Gantry Crane) custom load (Tarp)
+7- Try spur (Downtown, Gantry Crane) custom load (Tarp3)
 7- Train (67M) can't transport car (PRR 8836) out of staging (Northton) directly to 
 7- (Downtown, Gantry Crane) 
 7- Couldn't route car (PRR 8836) using two trains, routing using multiple trains begins
@@ -768,8 +765,8 @@
 7- Routing using 4 trains destination (Downtown, Gantry Crane) begins
 7- Route for car (PRR 8836): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
 7- OB-Downtown)->(Downtown, Gantry Crane) 
-5- Car (PRR 8836) custom load (Tarp) final destination (Downtown, Gantry Crane)
-7- Car (PRR 8836) load (Tarp) has assigned destination (City, Hold 2)
+5- Car (PRR 8836) custom load (Tarp3) final destination (Downtown, Gantry Crane)
+7- Car (PRR 8836) load (Tarp3) has assigned destination (City, Hold 2)
 3- Car (PRR 8836) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (UTLX 4974) type (TM) load (E) at (Northton, N1) destination ()
@@ -886,16 +883,16 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (AT&SF 8248) with load (Merchandise) to (Valley, General Delivery)
-7- Try spur (Park, Depot) custom load (LCL)
+7- Try spur (Park, Freight House) custom load (Merchandise)
 7- Train (67M) can't transport car (AT&SF 8248) out of staging (Northton) directly to 
-7- (Park, Depot) 
+7- (Park, Freight House) 
 7- Couldn't route car (AT&SF 8248) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, Depot) begins
-7- Routing using 4 trains destination (Park, Depot) begins
+7- Routing using 3 trains destination (Park, Freight House) begins
+7- Routing using 4 trains destination (Park, Freight House) begins
 7- Route for car (AT&SF 8248): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, Depot) 
-5- Car (AT&SF 8248) custom load (LCL) final destination (Park, Depot)
-7- Car (AT&SF 8248) load (LCL) has assigned destination (City, Hold 2)
+7- OB-Park)->(Park, Freight House) 
+5- Car (AT&SF 8248) custom load (Merchandise) final destination (Park, Freight House)
+7- Car (AT&SF 8248) load (Merchandise) has assigned destination (City, Hold 2)
 3- Car (AT&SF 8248) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (WJ&S 4217) type (GB) load (E) at (Northton, N1) destination ()
@@ -952,19 +949,16 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (WJ&S 4217) with load (Tarp3) to (Valley, General Delivery)
-7- Try spur (Downtown, Ash) custom load (Empty)
-7- Car (WJ&S 4217) would overload track (Downtown, Ash), currently 1 inbound cars, 
-7- length (44) feet, 100% loading from staging 
-7- Try spur (Downtown, Gantry Crane) custom load (Tarp3)
+7- Try spur (Park, Lumber) custom load (Milled timber)
 7- Train (67M) can't transport car (WJ&S 4217) out of staging (Northton) directly to 
-7- (Downtown, Gantry Crane) 
+7- (Park, Lumber) 
 7- Couldn't route car (WJ&S 4217) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Downtown, Gantry Crane) begins
-7- Routing using 4 trains destination (Downtown, Gantry Crane) begins
+7- Routing using 3 trains destination (Park, Lumber) begins
+7- Routing using 4 trains destination (Park, Lumber) begins
 7- Route for car (WJ&S 4217): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Downtown)->(Downtown, Gantry Crane) 
-5- Car (WJ&S 4217) custom load (Tarp3) final destination (Downtown, Gantry Crane)
-7- Car (WJ&S 4217) load (Tarp3) has assigned destination (City, Hold 2)
+7- OB-Park)->(Park, Lumber) 
+5- Car (WJ&S 4217) custom load (Milled timber) final destination (Park, Lumber)
+7- Car (WJ&S 4217) load (Milled timber) has assigned destination (City, Hold 2)
 3- Car (WJ&S 4217) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (P&R 5960) type (HK) load (E) at (Northton, N1) destination ()
@@ -1361,15 +1355,15 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (DL&W 7085) with load (Merchandise) to (Valley, General Delivery)
-7- Try spur (Park, Freight House) custom load (Merchandise)
+7- Try spur (Park, General Delivery) custom load (Merchandise)
 7- Train (67M) can't transport car (DL&W 7085) out of staging (Northton) directly to 
-7- (Park, Freight House) 
+7- (Park, General Delivery) 
 7- Couldn't route car (DL&W 7085) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, Freight House) begins
-7- Routing using 4 trains destination (Park, Freight House) begins
+7- Routing using 3 trains destination (Park, General Delivery) begins
+7- Routing using 4 trains destination (Park, General Delivery) begins
 7- Route for car (DL&W 7085): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, Freight House) 
-5- Car (DL&W 7085) custom load (Merchandise) final destination (Park, Freight House)
+7- OB-Park)->(Park, General Delivery) 
+5- Car (DL&W 7085) custom load (Merchandise) final destination (Park, General Delivery)
 7- Car (DL&W 7085) load (Merchandise) has assigned destination (City, Hold 2)
 3- Car (DL&W 7085) assigned to train, destination (City, Hold 2)
 3-  
@@ -1379,6 +1373,290 @@
 7- length (132) feet, 100% loading from staging 
 7- Could not find a route to a spur that needs a custom load for car (PRR 3375)
 5- Try to send car (PRR 3375) to staging, found 13 tracks
+7-  
+7- Generate load for (PRR 3375) type (TM) load (E) at (Northton, N1) to staging (Easton, 
+7- E2) 
+7- Check route for car (PRR 3375) at (Northton, N1) load (load) final destination 
+7- (Easton, E2) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Easton, E2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (PRR 3375) through staging to (Easton, E2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E2) not reachable with custom load (load)
+7- Check route for car (PRR 3375) at (Northton, N1) load (fuel) final destination 
+7- (Easton, E2) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Easton, E2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (PRR 3375) through staging to (Easton, E2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E2) not reachable with custom load (fuel)
+7- Check route for car (PRR 3375) at (Northton, N1) load (Empty) final destination 
+7- (Easton, E2) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Easton, E2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (PRR 3375) through staging to (Easton, E2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E2) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (PRR 3375) departing (N1) to staging 
+7- (Easton, E2) 
+7-  
+7- Generate load for (PRR 3375) type (TM) load (E) at (Northton, N1) to staging (Easton, 
+7- E1) 
+7- Check route for car (PRR 3375) at (Northton, N1) load (load) final destination 
+7- (Easton, E1) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Easton, E1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (PRR 3375) through staging to (Easton, E1)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E1) not reachable with custom load (load)
+7- Check route for car (PRR 3375) at (Northton, N1) load (fuel) final destination 
+7- (Easton, E1) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Easton, E1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (PRR 3375) through staging to (Easton, E1)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E1) not reachable with custom load (fuel)
+7- Check route for car (PRR 3375) at (Northton, N1) load (Empty) final destination 
+7- (Easton, E1) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Easton, E1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (PRR 3375) through staging to (Easton, E1)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E1) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (PRR 3375) departing (N1) to staging 
+7- (Easton, E1) 
+7-  
+7- Generate load for (PRR 3375) type (TM) load (E) at (Northton, N1) to staging (Weston, 
+7- W1) 
+7- Check route for car (PRR 3375) at (Northton, N1) load (load) final destination 
+7- (Weston, W1) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Weston, W1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (PRR 3375) through staging to (Weston, W1)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W1) not reachable with custom load (load)
+7- Check route for car (PRR 3375) at (Northton, N1) load (fuel) final destination 
+7- (Weston, W1) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Weston, W1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (PRR 3375) through staging to (Weston, W1)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W1) not reachable with custom load (fuel)
+7- Check route for car (PRR 3375) at (Northton, N1) load (Empty) final destination 
+7- (Weston, W1) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Weston, W1) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (PRR 3375) through staging to (Weston, W1)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W1) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (PRR 3375) departing (N1) to staging 
+7- (Weston, W1) 
+7-  
+7- Generate load for (PRR 3375) type (TM) load (E) at (Northton, N1) to staging (Weston, 
+7- W2) 
+7- Check route for car (PRR 3375) at (Northton, N1) load (load) final destination 
+7- (Weston, W2) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Weston, W2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (PRR 3375) through staging to (Weston, W2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W2) not reachable with custom load (load)
+7- Check route for car (PRR 3375) at (Northton, N1) load (fuel) final destination 
+7- (Weston, W2) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Weston, W2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (PRR 3375) through staging to (Weston, W2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W2) not reachable with custom load (fuel)
+7- Check route for car (PRR 3375) at (Northton, N1) load (Empty) final destination 
+7- (Weston, W2) 
+7- Train (67M) can't transport car (PRR 3375) out of staging (Northton) directly to 
+7- (Weston, W2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (PRR 3375) through staging to (Weston, W2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W2) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (PRR 3375) departing (N1) to staging 
+7- (Weston, W2) 
 7-  
 7- Generate load for (PRR 3375) type (TM) load (E) at (Northton, N1) to staging (Summit, 
 7- S2) 
@@ -1521,16 +1799,16 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (WJ&S 8346) with load (Merchandise) to (Valley, General Delivery)
-7- Try spur (Park, General Delivery) custom load (Merchandise)
+7- Try spur (Park, Depot) custom load (LCL)
 7- Train (67M) can't transport car (WJ&S 8346) out of staging (Northton) directly to 
-7- (Park, General Delivery) 
+7- (Park, Depot) 
 7- Couldn't route car (WJ&S 8346) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, General Delivery) begins
-7- Routing using 4 trains destination (Park, General Delivery) begins
+7- Routing using 3 trains destination (Park, Depot) begins
+7- Routing using 4 trains destination (Park, Depot) begins
 7- Route for car (WJ&S 8346): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, General Delivery) 
-5- Car (WJ&S 8346) custom load (Merchandise) final destination (Park, General Delivery)
-7- Car (WJ&S 8346) load (Merchandise) has assigned destination (City, Hold 2)
+7- OB-Park)->(Park, Depot) 
+5- Car (WJ&S 8346) custom load (LCL) final destination (Park, Depot)
+7- Car (WJ&S 8346) load (LCL) has assigned destination (City, Hold 2)
 3- Car (WJ&S 8346) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (P&R 7622) type (XM) load (E) at (Northton, N1) destination ()
@@ -1634,16 +1912,16 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (P&R 7622) with load (Merchandise) to (Valley, General Delivery)
-7- Try spur (Park, Depot) custom load (LCL)
+7- Try spur (Park, Freight House) custom load (Merchandise)
 7- Train (67M) can't transport car (P&R 7622) out of staging (Northton) directly to 
-7- (Park, Depot) 
+7- (Park, Freight House) 
 7- Couldn't route car (P&R 7622) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, Depot) begins
-7- Routing using 4 trains destination (Park, Depot) begins
+7- Routing using 3 trains destination (Park, Freight House) begins
+7- Routing using 4 trains destination (Park, Freight House) begins
 7- Route for car (P&R 7622): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, Depot) 
-5- Car (P&R 7622) custom load (LCL) final destination (Park, Depot)
-7- Car (P&R 7622) load (LCL) has assigned destination (City, Hold 2)
+7- OB-Park)->(Park, Freight House) 
+5- Car (P&R 7622) custom load (Merchandise) final destination (Park, Freight House)
+7- Car (P&R 7622) load (Merchandise) has assigned destination (City, Hold 2)
 3- Car (P&R 7622) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (B&O 9336) type (HK) load (E) at (Northton, N1) destination ()
@@ -1767,15 +2045,18 @@
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (WJ&S 4790) with load (Tarp) to (Valley, General Delivery)
 7- Try spur (Park, Lumber) custom load (lumber stack)
+7- Car (WJ&S 4790) would overload track (Park, Lumber), currently 2 inbound cars, length 
+7- (88) feet, 100% loading from staging 
+7- Try spur (Park, General Delivery) custom load (Tarp3)
 7- Train (67M) can't transport car (WJ&S 4790) out of staging (Northton) directly to 
-7- (Park, Lumber) 
+7- (Park, General Delivery) 
 7- Couldn't route car (WJ&S 4790) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, Lumber) begins
-7- Routing using 4 trains destination (Park, Lumber) begins
+7- Routing using 3 trains destination (Park, General Delivery) begins
+7- Routing using 4 trains destination (Park, General Delivery) begins
 7- Route for car (WJ&S 4790): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, Lumber) 
-5- Car (WJ&S 4790) custom load (lumber stack) final destination (Park, Lumber)
-7- Car (WJ&S 4790) load (lumber stack) has assigned destination (City, Hold 2)
+7- OB-Park)->(Park, General Delivery) 
+5- Car (WJ&S 4790) custom load (Tarp3) final destination (Park, General Delivery)
+7- Car (WJ&S 4790) load (Tarp3) has assigned destination (City, Hold 2)
 3- Car (WJ&S 4790) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) destination ()
@@ -1784,6 +2065,290 @@
 7- length (132) feet, 100% loading from staging 
 7- Could not find a route to a spur that needs a custom load for car (UTLX 7588)
 5- Try to send car (UTLX 7588) to staging, found 13 tracks
+7-  
+7- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) to staging 
+7- (Easton, E2) 
+7- Check route for car (UTLX 7588) at (Northton, N1) load (load) final destination 
+7- (Easton, E2) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Easton, E2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (UTLX 7588) through staging to (Easton, E2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E2) not reachable with custom load (load)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (fuel) final destination 
+7- (Easton, E2) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Easton, E2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (UTLX 7588) through staging to (Easton, E2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E2) not reachable with custom load (fuel)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (Empty) final destination 
+7- (Easton, E2) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Easton, E2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (UTLX 7588) through staging to (Easton, E2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E2) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (UTLX 7588) departing (N1) to staging 
+7- (Easton, E2) 
+7-  
+7- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) to staging 
+7- (Easton, E3) 
+7- Check route for car (UTLX 7588) at (Northton, N1) load (load) final destination 
+7- (Easton, E3) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Easton, E3) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (UTLX 7588) through staging to (Easton, E3)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E3) not reachable with custom load (load)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (fuel) final destination 
+7- (Easton, E3) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Easton, E3) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (UTLX 7588) through staging to (Easton, E3)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E3) not reachable with custom load (fuel)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (Empty) final destination 
+7- (Easton, E3) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Easton, E3) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Find a route for car (UTLX 7588) through staging to (Easton, E3)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Easton) 
+7- Staging track (Easton, E3) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (UTLX 7588) departing (N1) to staging 
+7- (Easton, E3) 
+7-  
+7- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) to staging 
+7- (Weston, W3) 
+7- Check route for car (UTLX 7588) at (Northton, N1) load (load) final destination 
+7- (Weston, W3) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Weston, W3) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (UTLX 7588) through staging to (Weston, W3)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W3) not reachable with custom load (load)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (fuel) final destination 
+7- (Weston, W3) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Weston, W3) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (UTLX 7588) through staging to (Weston, W3)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W3) not reachable with custom load (fuel)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (Empty) final destination 
+7- (Weston, W3) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Weston, W3) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (UTLX 7588) through staging to (Weston, W3)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W3) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (UTLX 7588) departing (N1) to staging 
+7- (Weston, W3) 
+7-  
+7- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) to staging 
+7- (Weston, W2) 
+7- Check route for car (UTLX 7588) at (Northton, N1) load (load) final destination 
+7- (Weston, W2) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Weston, W2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (UTLX 7588) through staging to (Weston, W2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W2) not reachable with custom load (load)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (fuel) final destination 
+7- (Weston, W2) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Weston, W2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (UTLX 7588) through staging to (Weston, W2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W2) not reachable with custom load (fuel)
+7- Check route for car (UTLX 7588) at (Northton, N1) load (Empty) final destination 
+7- (Weston, W2) 
+7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
+7- (Weston, W2) 
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Find a route for car (UTLX 7588) through staging to (Weston, W2)
+7- Exclude staging (Easton, E3) it has load modification enabled
+7- Exclude staging (Easton, E4) it has load modification enabled
+7- Exclude staging (Weston, W1) it has load modification enabled
+7- Exclude staging (Weston, W2) it has load modification enabled
+7- Exclude staging (Weston, W3) it has load modification enabled
+7- Exclude staging (Summit, S1) it has load modification enabled
+7- Exclude staging (Summit, S2) it has load modification enabled
+7- Exclude staging (Northton, N3) it has load modification enabled
+7- Exclude staging (Northton, N4) it has load modification enabled
+7- Exclude staging (Easton, E2) it has load modification enabled
+7- Exclude staging (Northton, N2) it has load modification enabled
+7- Exclude staging (Easton, E1) it has load modification enabled
+7- Could not find an interim C/I, yard, or staging track that can service car to 
+7- destination (Weston) 
+7- Staging track (Weston, W2) not reachable with custom load (Empty)
+7- Could not generate a custom load for car (UTLX 7588) departing (N1) to staging 
+7- (Weston, W2) 
 7-  
 7- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) to staging 
 7- (Weston, W1) 
@@ -1857,114 +2422,43 @@
 7- (Weston, W1) 
 7-  
 7- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) to staging 
-7- (Easton, E1) 
+7- (Summit, S2) 
 7- Check route for car (UTLX 7588) at (Northton, N1) load (load) final destination 
-7- (Easton, E1) 
+7- (Summit, S2) 
 7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
-7- (Easton, E1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Find a route for car (UTLX 7588) through staging to (Easton, E1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Easton) 
-7- Staging track (Easton, E1) not reachable with custom load (load)
+7- (Summit, S2) 
+7- Couldn't route car (UTLX 7588) using two trains, routing using multiple trains begins
+7- Routing using 3 trains destination (Summit, S2) begins
+7- Routing using 4 trains destination (Summit, S2) begins
+7- Route for car (UTLX 7588): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
+7- OB-Summit)->(Summit, S2) 
 7- Check route for car (UTLX 7588) at (Northton, N1) load (fuel) final destination 
-7- (Easton, E1) 
+7- (Summit, S2) 
 7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
-7- (Easton, E1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Find a route for car (UTLX 7588) through staging to (Easton, E1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Easton) 
-7- Staging track (Easton, E1) not reachable with custom load (fuel)
+7- (Summit, S2) 
+7- Couldn't route car (UTLX 7588) using two trains, routing using multiple trains begins
+7- Routing using 3 trains destination (Summit, S2) begins
+7- Routing using 4 trains destination (Summit, S2) begins
+7- Route for car (UTLX 7588): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
+7- OB-Summit)->(Summit, S2) 
 7- Check route for car (UTLX 7588) at (Northton, N1) load (Empty) final destination 
-7- (Easton, E1) 
+7- (Summit, S2) 
 7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
-7- (Easton, E1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Find a route for car (UTLX 7588) through staging to (Easton, E1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Easton) 
-7- Staging track (Easton, E1) not reachable with custom load (Empty)
-7- Could not generate a custom load for car (UTLX 7588) departing (N1) to staging 
-7- (Easton, E1) 
-7-  
-7- Generate load for (UTLX 7588) type (TM) load (E) at (Northton, N1) to staging 
-7- (Easton, E4) 
-7- Check route for car (UTLX 7588) at (Northton, N1) load (load) final destination 
-7- (Easton, E4) 
-7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
-7- (Easton, E4) 
+7- (Summit, S2) 
 7- Couldn't route car (UTLX 7588) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Easton, E4) begins
-7- Routing using 4 trains destination (Easton, E4) begins
+7- Routing using 3 trains destination (Summit, S2) begins
+7- Routing using 4 trains destination (Summit, S2) begins
 7- Route for car (UTLX 7588): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Easton)->(Easton, E4) 
-7- Check route for car (UTLX 7588) at (Northton, N1) load (fuel) final destination 
-7- (Easton, E4) 
+7- OB-Summit)->(Summit, S2) 
+7- Adding custom load (Empty) to car (UTLX 7588)
 7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
-7- (Easton, E4) 
+7- (Summit, ) 
 7- Couldn't route car (UTLX 7588) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Easton, E4) begins
-7- Routing using 4 trains destination (Easton, E4) begins
+7- Routing using 3 trains destination (Summit, ) begins
+7- Routing using 4 trains destination (Summit, ) begins
 7- Route for car (UTLX 7588): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Easton)->(Easton, E4) 
-7- Check route for car (UTLX 7588) at (Northton, N1) load (Empty) final destination 
-7- (Easton, E4) 
-7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
-7- (Easton, E4) 
-7- Couldn't route car (UTLX 7588) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Easton, E4) begins
-7- Routing using 4 trains destination (Easton, E4) begins
-7- Route for car (UTLX 7588): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Easton)->(Easton, E4) 
-7- Adding custom load (load) to car (UTLX 7588)
-7- Train (67M) can't transport car (UTLX 7588) out of staging (Northton) directly to 
-7- (Easton, ) 
-7- Couldn't route car (UTLX 7588) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Easton, ) begins
-7- Routing using 4 trains destination (Easton, ) begins
-7- Route for car (UTLX 7588): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Easton)->(Easton, ) 
-7- Car (UTLX 7588) load (load) has assigned destination (City, Hold 2)
+7- OB-Summit)->(Summit, ) 
+7- Car (UTLX 7588) load (Empty) has assigned destination (City, Hold 2)
 3- Car (UTLX 7588) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (PRR 1215) type (XM) load (E) at (Northton, N1) destination ()
@@ -2068,16 +2562,16 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (PRR 1215) with load (Merchandise) to (Valley, General Delivery)
-7- Try spur (Park, Freight House) custom load (Merchandise)
+7- Try spur (Park, Depot) custom load (LCL)
 7- Train (67M) can't transport car (PRR 1215) out of staging (Northton) directly to 
-7- (Park, Freight House) 
+7- (Park, Depot) 
 7- Couldn't route car (PRR 1215) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, Freight House) begins
-7- Routing using 4 trains destination (Park, Freight House) begins
+7- Routing using 3 trains destination (Park, Depot) begins
+7- Routing using 4 trains destination (Park, Depot) begins
 7- Route for car (PRR 1215): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, Freight House) 
-5- Car (PRR 1215) custom load (Merchandise) final destination (Park, Freight House)
-7- Car (PRR 1215) load (Merchandise) has assigned destination (City, Hold 2)
+7- OB-Park)->(Park, Depot) 
+5- Car (PRR 1215) custom load (LCL) final destination (Park, Depot)
+7- Car (PRR 1215) load (LCL) has assigned destination (City, Hold 2)
 3- Car (PRR 1215) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (PRR 1942) type (HK) load (E) at (Northton, N1) destination ()
@@ -2392,16 +2886,16 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (NYNH&H 0256) with load (Merchandise) to (Valley, General Delivery)
-7- Try spur (Park, General Delivery) custom load (Merchandise)
+7- Try spur (Park, Freight House) custom load (Merchandise)
 7- Train (67M) can't transport car (NYNH&H 0256) out of staging (Northton) directly to 
-7- (Park, General Delivery) 
+7- (Park, Freight House) 
 7- Couldn't route car (NYNH&H 0256) using two trains, routing using multiple trains 
 7- begins 
-7- Routing using 3 trains destination (Park, General Delivery) begins
-7- Routing using 4 trains destination (Park, General Delivery) begins
+7- Routing using 3 trains destination (Park, Freight House) begins
+7- Routing using 4 trains destination (Park, Freight House) begins
 7- Route for car (NYNH&H 0256): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, General Delivery) 
-5- Car (NYNH&H 0256) custom load (Merchandise) final destination (Park, General Delivery)
+7- OB-Park)->(Park, Freight House) 
+5- Car (NYNH&H 0256) custom load (Merchandise) final destination (Park, Freight House)
 7- Car (NYNH&H 0256) load (Merchandise) has assigned destination (City, Hold 2)
 3- Car (NYNH&H 0256) assigned to train, destination (City, Hold 2)
 3-  
@@ -2506,18 +3000,15 @@
 7- Routing using 6 trains destination (Valley, General Delivery) begins
 7- Routing using 7 trains destination (Valley, General Delivery) begins
 7- Can't route car (B&O 1911) with load (Merchandise) to (Valley, General Delivery)
-7- Try spur (Park, Depot) custom load (LCL)
-7- Car (B&O 1911) would overload track (Park, Depot), currently 3 inbound cars, length 
-7- (132) feet, 100% loading from staging 
-7- Try spur (Park, Freight House) custom load (Merchandise)
+7- Try spur (Park, General Delivery) custom load (Merchandise)
 7- Train (67M) can't transport car (B&O 1911) out of staging (Northton) directly to 
-7- (Park, Freight House) 
+7- (Park, General Delivery) 
 7- Couldn't route car (B&O 1911) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, Freight House) begins
-7- Routing using 4 trains destination (Park, Freight House) begins
+7- Routing using 3 trains destination (Park, General Delivery) begins
+7- Routing using 4 trains destination (Park, General Delivery) begins
 7- Route for car (B&O 1911): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, Freight House) 
-5- Car (B&O 1911) custom load (Merchandise) final destination (Park, Freight House)
+7- OB-Park)->(Park, General Delivery) 
+5- Car (B&O 1911) custom load (Merchandise) final destination (Park, General Delivery)
 7- Car (B&O 1911) load (Merchandise) has assigned destination (City, Hold 2)
 3- Car (B&O 1911) assigned to train, destination (City, Hold 2)
 3-  
@@ -2527,290 +3018,6 @@
 7- length (132) feet, 100% loading from staging 
 7- Could not find a route to a spur that needs a custom load for car (TCX 2717)
 5- Try to send car (TCX 2717) to staging, found 13 tracks
-7-  
-7- Generate load for (TCX 2717) type (TM) load (E) at (Northton, N1) to staging (Easton, 
-7- E2) 
-7- Check route for car (TCX 2717) at (Northton, N1) load (load) final destination 
-7- (Easton, E2) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Easton, E2) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Find a route for car (TCX 2717) through staging to (Easton, E2)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Easton) 
-7- Staging track (Easton, E2) not reachable with custom load (load)
-7- Check route for car (TCX 2717) at (Northton, N1) load (fuel) final destination 
-7- (Easton, E2) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Easton, E2) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Find a route for car (TCX 2717) through staging to (Easton, E2)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Easton) 
-7- Staging track (Easton, E2) not reachable with custom load (fuel)
-7- Check route for car (TCX 2717) at (Northton, N1) load (Empty) final destination 
-7- (Easton, E2) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Easton, E2) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Find a route for car (TCX 2717) through staging to (Easton, E2)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Easton) 
-7- Staging track (Easton, E2) not reachable with custom load (Empty)
-7- Could not generate a custom load for car (TCX 2717) departing (N1) to staging 
-7- (Easton, E2) 
-7-  
-7- Generate load for (TCX 2717) type (TM) load (E) at (Northton, N1) to staging (Summit, 
-7- S1) 
-7- Check route for car (TCX 2717) at (Northton, N1) load (load) final destination 
-7- (Summit, S1) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Summit, S1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Summit) 
-7- Find a route for car (TCX 2717) through staging to (Summit, S1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Summit) 
-7- Staging track (Summit, S1) not reachable with custom load (load)
-7- Check route for car (TCX 2717) at (Northton, N1) load (fuel) final destination 
-7- (Summit, S1) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Summit, S1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Summit) 
-7- Find a route for car (TCX 2717) through staging to (Summit, S1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Summit) 
-7- Staging track (Summit, S1) not reachable with custom load (fuel)
-7- Check route for car (TCX 2717) at (Northton, N1) load (Empty) final destination 
-7- (Summit, S1) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Summit, S1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Summit) 
-7- Find a route for car (TCX 2717) through staging to (Summit, S1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Summit) 
-7- Staging track (Summit, S1) not reachable with custom load (Empty)
-7- Could not generate a custom load for car (TCX 2717) departing (N1) to staging 
-7- (Summit, S1) 
-7-  
-7- Generate load for (TCX 2717) type (TM) load (E) at (Northton, N1) to staging (Weston, 
-7- W3) 
-7- Check route for car (TCX 2717) at (Northton, N1) load (load) final destination 
-7- (Weston, W3) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Weston, W3) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Find a route for car (TCX 2717) through staging to (Weston, W3)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Weston) 
-7- Staging track (Weston, W3) not reachable with custom load (load)
-7- Check route for car (TCX 2717) at (Northton, N1) load (fuel) final destination 
-7- (Weston, W3) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Weston, W3) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Find a route for car (TCX 2717) through staging to (Weston, W3)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Weston) 
-7- Staging track (Weston, W3) not reachable with custom load (fuel)
-7- Check route for car (TCX 2717) at (Northton, N1) load (Empty) final destination 
-7- (Weston, W3) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Weston, W3) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Find a route for car (TCX 2717) through staging to (Weston, W3)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Weston) 
-7- Staging track (Weston, W3) not reachable with custom load (Empty)
-7- Could not generate a custom load for car (TCX 2717) departing (N1) to staging 
-7- (Weston, W3) 
-7-  
-7- Generate load for (TCX 2717) type (TM) load (E) at (Northton, N1) to staging (Weston, 
-7- W1) 
-7- Check route for car (TCX 2717) at (Northton, N1) load (load) final destination 
-7- (Weston, W1) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Weston, W1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Find a route for car (TCX 2717) through staging to (Weston, W1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Weston) 
-7- Staging track (Weston, W1) not reachable with custom load (load)
-7- Check route for car (TCX 2717) at (Northton, N1) load (fuel) final destination 
-7- (Weston, W1) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Weston, W1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Find a route for car (TCX 2717) through staging to (Weston, W1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Weston) 
-7- Staging track (Weston, W1) not reachable with custom load (fuel)
-7- Check route for car (TCX 2717) at (Northton, N1) load (Empty) final destination 
-7- (Weston, W1) 
-7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
-7- (Weston, W1) 
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Find a route for car (TCX 2717) through staging to (Weston, W1)
-7- Exclude staging (Easton, E3) it has load modification enabled
-7- Exclude staging (Easton, E4) it has load modification enabled
-7- Exclude staging (Weston, W1) it has load modification enabled
-7- Exclude staging (Weston, W2) it has load modification enabled
-7- Exclude staging (Weston, W3) it has load modification enabled
-7- Exclude staging (Summit, S1) it has load modification enabled
-7- Exclude staging (Summit, S2) it has load modification enabled
-7- Exclude staging (Northton, N3) it has load modification enabled
-7- Exclude staging (Northton, N4) it has load modification enabled
-7- Exclude staging (Easton, E2) it has load modification enabled
-7- Exclude staging (Northton, N2) it has load modification enabled
-7- Exclude staging (Easton, E1) it has load modification enabled
-7- Could not find an interim C/I, yard, or staging track that can service car to 
-7- destination (Weston) 
-7- Staging track (Weston, W1) not reachable with custom load (Empty)
-7- Could not generate a custom load for car (TCX 2717) departing (N1) to staging 
-7- (Weston, W1) 
 7-  
 7- Generate load for (TCX 2717) type (TM) load (E) at (Northton, N1) to staging (Summit, 
 7- S2) 
@@ -2841,7 +3048,7 @@
 7- Routing using 4 trains destination (Summit, S2) begins
 7- Route for car (TCX 2717): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
 7- OB-Summit)->(Summit, S2) 
-7- Adding custom load (load) to car (TCX 2717)
+7- Adding custom load (fuel) to car (TCX 2717)
 7- Train (67M) can't transport car (TCX 2717) out of staging (Northton) directly to 
 7- (Summit, ) 
 7- Couldn't route car (TCX 2717) using two trains, routing using multiple trains begins
@@ -2849,7 +3056,7 @@
 7- Routing using 4 trains destination (Summit, ) begins
 7- Route for car (TCX 2717): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
 7- OB-Summit)->(Summit, ) 
-7- Car (TCX 2717) load (load) has assigned destination (City, Hold 2)
+7- Car (TCX 2717) load (fuel) has assigned destination (City, Hold 2)
 3- Car (TCX 2717) assigned to train, destination (City, Hold 2)
 3-  
 5- Generate load for (PRR 0420) type (XM) load (E) at (Northton, N1) destination ()
@@ -2956,15 +3163,15 @@
 7- Try spur (Park, Depot) custom load (LCL)
 7- Car (PRR 0420) would overload track (Park, Depot), currently 3 inbound cars, length 
 7- (132) feet, 100% loading from staging 
-7- Try spur (Park, General Delivery) custom load (Merchandise)
+7- Try spur (Park, Freight House) custom load (Merchandise)
 7- Train (67M) can't transport car (PRR 0420) out of staging (Northton) directly to 
-7- (Park, General Delivery) 
+7- (Park, Freight House) 
 7- Couldn't route car (PRR 0420) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, General Delivery) begins
-7- Routing using 4 trains destination (Park, General Delivery) begins
+7- Routing using 3 trains destination (Park, Freight House) begins
+7- Routing using 4 trains destination (Park, Freight House) begins
 7- Route for car (PRR 0420): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, General Delivery) 
-5- Car (PRR 0420) custom load (Merchandise) final destination (Park, General Delivery)
+7- OB-Park)->(Park, Freight House) 
+5- Car (PRR 0420) custom load (Merchandise) final destination (Park, Freight House)
 7- Car (PRR 0420) load (Merchandise) has assigned destination (City, Hold 2)
 3- Car (PRR 0420) assigned to train, destination (City, Hold 2)
 3-  
@@ -3072,15 +3279,15 @@
 7- Try spur (Park, Depot) custom load (LCL)
 7- Car (CS 0073) would overload track (Park, Depot), currently 3 inbound cars, length 
 7- (132) feet, 100% loading from staging 
-7- Try spur (Park, Freight House) custom load (Merchandise)
+7- Try spur (Park, General Delivery) custom load (Merchandise)
 7- Train (67M) can't transport car (CS 0073) out of staging (Northton) directly to 
-7- (Park, Freight House) 
+7- (Park, General Delivery) 
 7- Couldn't route car (CS 0073) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, Freight House) begins
-7- Routing using 4 trains destination (Park, Freight House) begins
+7- Routing using 3 trains destination (Park, General Delivery) begins
+7- Routing using 4 trains destination (Park, General Delivery) begins
 7- Route for car (CS 0073): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, Freight House) 
-5- Car (CS 0073) custom load (Merchandise) final destination (Park, Freight House)
+7- OB-Park)->(Park, General Delivery) 
+5- Car (CS 0073) custom load (Merchandise) final destination (Park, General Delivery)
 7- Car (CS 0073) load (Merchandise) has assigned destination (City, Hold 2)
 3- Car (CS 0073) assigned to train, destination (City, Hold 2)
 3-  
@@ -3188,20 +3395,20 @@
 7- Try spur (Park, Depot) custom load (LCL)
 7- Car (PRR 7049) would overload track (Park, Depot), currently 3 inbound cars, length 
 7- (132) feet, 100% loading from staging 
-7- Try spur (Park, General Delivery) custom load (Merchandise)
+7- Try spur (Downtown, DX) custom load (LCL)
 7- Train (67M) can't transport car (PRR 7049) out of staging (Northton) directly to 
-7- (Park, General Delivery) 
+7- (Downtown, DX) 
 7- Couldn't route car (PRR 7049) using two trains, routing using multiple trains begins
-7- Routing using 3 trains destination (Park, General Delivery) begins
-7- Routing using 4 trains destination (Park, General Delivery) begins
+7- Routing using 3 trains destination (Downtown, DX) begins
+7- Routing using 4 trains destination (Downtown, DX) begins
 7- Route for car (PRR 7049): (Northton, N1)->(City, Hold 2)->(City, 71)->(City, 
-7- OB-Park)->(Park, General Delivery) 
-5- Car (PRR 7049) custom load (Merchandise) final destination (Park, General Delivery)
-7- Car (PRR 7049) load (Merchandise) has assigned destination (City, Hold 2)
+7- OB-Downtown)->(Downtown, DX) 
+5- Car (PRR 7049) custom load (LCL) final destination (Downtown, DX)
+7- Car (PRR 7049) load (LCL) has assigned destination (City, Hold 2)
 3- Car (PRR 7049) assigned to train, destination (City, Hold 2)
 3-  
 1- Partial 32/49 cars at location (Northton) assigned to train (67M)
 1- Route location (City) id 67r9 no pick ups
 1- Route location (Train Service) id 67r10 no pick ups
 1- Partial 33/52 cars
-5- Build for train (67M) took 3,929 mSec
+5- Build for train (67M) took 3,479 mSec
