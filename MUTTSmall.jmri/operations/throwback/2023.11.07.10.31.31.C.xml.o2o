@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Nov 08 13:19:05 PST 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Nov 07 10:31:20 PST 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -68,6 +68,43 @@
   </owners>
   <loads>
     <defaults empty="E" load="L" />
+    <load type="TPO">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Heating Oil" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="GPD">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Gravel" loadType="load" />
+      <carLoad name="barrels" loadType="load" />
+      <carLoad name="load" loadType="load" />
+      <carLoad name="tank" loadType="load" />
+    </load>
+    <load type="XPV">
+      <carLoad name="Break Bulk" loadType="load" />
+      <carLoad name="Can Oysters" loadType="load" />
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Foodstuffs" loadType="load" />
+      <carLoad name="Produce" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="Bdr">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Live Oysters" loadType="load" />
+      <carLoad name="Perishables" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="XPP">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Produce" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="RP3">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Live Oysters" loadType="load" />
+      <carLoad name="Produce" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
     <load type="XP4">
       <carLoad name="Break Bulk" loadType="load" />
       <carLoad name="Can Oysters" loadType="load" />
@@ -101,43 +138,6 @@
       <carLoad name="Gravel" loadType="load" />
       <carLoad name="barrels" loadType="load" />
       <carLoad name="boiler2" loadType="load" />
-      <carLoad name="load" loadType="load" />
-    </load>
-    <load type="XPV">
-      <carLoad name="Break Bulk" loadType="load" />
-      <carLoad name="Can Oysters" loadType="load" />
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Foodstuffs" loadType="load" />
-      <carLoad name="Produce" loadType="load" />
-      <carLoad name="load" loadType="load" />
-    </load>
-    <load type="Bdr">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Live Oysters" loadType="load" />
-      <carLoad name="Perishables" loadType="load" />
-      <carLoad name="load" loadType="load" />
-    </load>
-    <load type="GPD">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Gravel" loadType="load" />
-      <carLoad name="barrels" loadType="load" />
-      <carLoad name="load" loadType="load" />
-      <carLoad name="tank" loadType="load" />
-    </load>
-    <load type="RP3">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Live Oysters" loadType="load" />
-      <carLoad name="Produce" loadType="load" />
-      <carLoad name="load" loadType="load" />
-    </load>
-    <load type="XPP">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Produce" loadType="load" />
-      <carLoad name="load" loadType="load" />
-    </load>
-    <load type="TPO">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Heating Oil" loadType="load" />
       <carLoad name="load" loadType="load" />
     </load>
   </loads>
