@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Mon Jul 17 20:02:54 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Mon Jul 17 20:05:31 PDT 2023-->
   <options>
     <trainOptions buildMessages="false" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -39,7 +39,7 @@
         <carType name="FP3" />
       </types>
     </train>
-    <train id="2" name="Fenwick Creek" description="Switch along Fenwick Creek" departHour="00" departMinute="05" current="2r1" departureTrack="5s1" terminationTrack="5s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="true" build="true" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Partial 38/62 cars" TerminationDate="1/21/2023 09:46" RequestedCars="62" statusCode="20" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="2" name="Fenwick Creek" description="Switch along Fenwick Creek" departHour="00" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="1/21/2023 09:46" RequestedCars="62" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Fenwick Switch" id="2" />
       <types>

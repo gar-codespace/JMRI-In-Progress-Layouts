@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Mon Jul 17 20:05:31 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Nov 11 21:18:53 PST 2023-->
   <options>
     <trainOptions buildMessages="false" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,97 +19,97 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Salem Yard" description="Switch Salem Terminal" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="1/20/2023 21:29" RequestedCars="112" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
+    <train id="1" name="Salem Yard" description="Switch Salem Terminal" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="1/20/2023 21:29" RequestedCars="112" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Terminal Switch" id="1" />
       <types>
-        <carType name="XPV" />
-        <carType name="XP4" />
-        <carType name="XP3" />
-        <carType name="TPO" />
-        <carType name="THV" />
-        <carType name="RP3" />
-        <carType name="RHx" />
-        <carType name="NPD" />
-        <carType name="HPx" />
-        <carType name="HPD" />
-        <carType name="GPx" />
-        <carType name="GPD" />
-        <carType name="FP4" />
         <carType name="FP3" />
+        <carType name="FP4" />
+        <carType name="GPD" />
+        <carType name="GPx" />
+        <carType name="HPD" />
+        <carType name="HPx" />
+        <carType name="NPD" />
+        <carType name="RHx" />
+        <carType name="RP3" />
+        <carType name="THV" />
+        <carType name="TPO" />
+        <carType name="XP3" />
+        <carType name="XP4" />
+        <carType name="XPV" />
       </types>
     </train>
-    <train id="2" name="Fenwick Creek" description="Switch along Fenwick Creek" departHour="00" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="1/21/2023 09:46" RequestedCars="62" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="2" name="Fenwick Creek" description="Switch along Fenwick Creek" departHour="00" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="1/21/2023 09:46" RequestedCars="62" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Fenwick Switch" id="2" />
       <types>
-        <carType name="XPV" />
-        <carType name="XP4" />
-        <carType name="XP3" />
-        <carType name="TPO" />
-        <carType name="THV" />
-        <carType name="RP3" />
-        <carType name="RHx" />
-        <carType name="NPD" />
-        <carType name="HPx" />
-        <carType name="HPD" />
-        <carType name="GPx" />
-        <carType name="GPD" />
-        <carType name="FP4" />
         <carType name="FP3" />
+        <carType name="FP4" />
+        <carType name="GPD" />
+        <carType name="GPx" />
+        <carType name="HPD" />
+        <carType name="HPx" />
+        <carType name="NPD" />
+        <carType name="RHx" />
+        <carType name="RP3" />
+        <carType name="THV" />
+        <carType name="TPO" />
+        <carType name="XP3" />
+        <carType name="XP4" />
+        <carType name="XPV" />
       </types>
     </train>
     <train id="3" name="Township" description="Switch Salem Township" departHour="00" departMinute="10" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="1/29/2023 14:30" RequestedCars="65" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Townshipper" id="3" />
       <types>
-        <carType name="XPV" />
-        <carType name="XP4" />
-        <carType name="XP3" />
-        <carType name="TPO" />
-        <carType name="THV" />
-        <carType name="RP3" />
-        <carType name="RHx" />
-        <carType name="NPD" />
-        <carType name="HPx" />
-        <carType name="HPD" />
-        <carType name="GPx" />
-        <carType name="GPD" />
-        <carType name="FP4" />
         <carType name="FP3" />
+        <carType name="FP4" />
+        <carType name="GPD" />
+        <carType name="GPx" />
+        <carType name="HPD" />
+        <carType name="HPx" />
+        <carType name="NPD" />
+        <carType name="RHx" />
+        <carType name="RP3" />
+        <carType name="THV" />
+        <carType name="TPO" />
+        <carType name="XP3" />
+        <carType name="XP4" />
+        <carType name="XPV" />
       </types>
     </train>
     <train id="4" name="Salem Creek" description="Switch along Salem Creek" departHour="00" departMinute="15" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="" RequestedCars="62" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Salem Creek" id="4" />
       <types>
-        <carType name="XPV" />
-        <carType name="XP4" />
-        <carType name="XP3" />
-        <carType name="TPO" />
-        <carType name="THV" />
-        <carType name="RP3" />
-        <carType name="RHx" />
-        <carType name="NPD" />
-        <carType name="HPx" />
-        <carType name="HPD" />
-        <carType name="GPx" />
-        <carType name="GPD" />
-        <carType name="FP4" />
         <carType name="FP3" />
+        <carType name="FP4" />
+        <carType name="GPD" />
+        <carType name="GPx" />
+        <carType name="HPD" />
+        <carType name="HPx" />
+        <carType name="NPD" />
+        <carType name="RHx" />
+        <carType name="RP3" />
+        <carType name="THV" />
+        <carType name="TPO" />
+        <carType name="XP3" />
+        <carType name="XP4" />
+        <carType name="XPV" />
         <locoType name="ESS" />
       </types>
     </train>
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="," />
-    <schedule id="2" name="Monday" trainIds="," />
-    <schedule id="3" name="Tuesday" trainIds="," />
-    <schedule id="4" name="Wednesday" trainIds="," />
-    <schedule id="5" name="Thursday" trainIds="," />
-    <schedule id="6" name="Friday" trainIds="," />
-    <schedule id="7" name="Saturday" trainIds="," />
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />
