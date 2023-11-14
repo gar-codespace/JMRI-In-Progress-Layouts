@@ -1,81 +1,152 @@
-2023-11-13 11:43:46,930 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-11-13 11:43:46,953 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-11-13 11:43:46,953 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-11-13 11:43:46,953 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-11-13 11:43:46,953 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-11-13 11:43:47,000 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-13 11:43:47,000 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-13 11:43:47,447 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-11-13 11:43:47,469 - OPS.Main.Controller - INFO - Main script run time (sec): 0.534
-2023-11-13 11:43:49,740 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1699904629741,modifiers=Button1] on psButton
-2023-11-13 11:43:49,812 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-13 11:43:49,812 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-13 11:43:49,980 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-11-13 11:43:49,989 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-11-13 11:43:49,993 - OPS.OB.Translators - DEBUG - File found: Keys.py
-2023-11-13 11:43:49,993 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
-2023-11-13 11:43:51,842 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
-2023-11-13 11:43:51,905 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1382,11,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-13 11:43:51,937 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-13 11:43:51,953 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-11-13 11:43:51,953 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-11-13 11:43:51,953 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
-2023-11-13 11:43:51,969 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-11-13 11:43:51,969 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
-2023-11-13 11:43:51,969 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-11-13 11:43:51,969 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-11-13 11:43:51,969 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-11-13 11:43:51,969 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-11-13 11:43:51,983 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-11-13 11:43:51,999 - OPS.PT.Model - DEBUG - makeTrackRows
-2023-11-13 11:43:56,888 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:43:56,898 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:43:56,898 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:43:56,936 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:43:56,936 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:43:56,936 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:43:56,936 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:43:56,944 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:43:56,944 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:43:57,048 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:43:57,048 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:43:57,063 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:43:57,331 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:43:57,331 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:43:57,331 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:43:57,331 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:43:57,426 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:43:57,426 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:43:57,441 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-13 11:43:58,532 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-13 11:44:24,767 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:44:24,773 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:44:24,773 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:44:24,773 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:44:24,773 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:44:24,773 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:44:24,773 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-13 11:44:24,779 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-13 11:44:29,348 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-13 11:44:29,365 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
-2023-11-13 11:44:29,368 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-11-13 11:44:29,368 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
-2023-11-13 11:44:29,371 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
-2023-11-13 11:44:29,371 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
-2023-11-13 11:44:29,371 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
-2023-11-13 11:44:29,371 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street Stores
-2023-11-13 11:44:29,371 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th Street Pier
-2023-11-13 11:44:29,371 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
-2023-11-13 11:44:29,371 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
-2023-11-13 11:44:29,381 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
-2023-11-13 11:44:29,382 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Street Tracks
-2023-11-13 11:44:29,382 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-11-13 11:44:29,388 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-11-13 11:44:29,388 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-11-13 13:28:28,798 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-11-13 13:28:28,812 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-11-13 13:28:28,812 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-11-13 13:28:28,812 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-11-13 13:28:28,812 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-11-13 13:28:28,835 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-11-13 13:28:28,835 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-11-13 13:28:29,253 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-11-13 13:28:29,283 - OPS.Main.Controller - INFO - Main script run time (sec): 0.455
+2023-11-13 13:28:30,869 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1699910910870,modifiers=Button1] on psButton
+2023-11-13 13:28:30,901 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-11-13 13:28:30,901 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-11-13 13:28:31,010 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-11-13 13:28:31,026 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-11-13 13:28:31,040 - OPS.OB.Translators - DEBUG - File found: Keys.py
+2023-11-13 13:28:31,040 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
+2023-11-13 13:28:32,551 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
+2023-11-13 13:28:32,614 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1382,11,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-13 13:28:32,660 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-13 13:28:32,744 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-11-13 13:28:32,744 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
+2023-11-13 13:28:32,744 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
+2023-11-13 13:28:32,753 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
+2023-11-13 13:28:32,753 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
+2023-11-13 13:28:32,753 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
+2023-11-13 13:28:32,753 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
+2023-11-13 13:28:32,753 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
+2023-11-13 13:28:32,753 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
+2023-11-13 13:28:37,756 - OPS.OE.MainScriptListeners - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Restart From Default,when=1699910917753,modifiers=Button1] on rsItemSelected
+2023-11-13 13:28:37,785 - OPS.OE.PSE - INFO - The configFile.json file is the correct version
+2023-11-13 13:28:37,799 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-11-13 13:28:37,808 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-11-13 13:28:37,832 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-11-13 13:28:37,846 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-11-13 13:28:37,846 - OPS.OB.Translators - DEBUG - File found: Keys.py
+2023-11-13 13:28:37,846 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
+2023-11-13 13:28:38,852 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
+2023-11-13 13:28:38,891 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1382,11,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-13 13:28:38,891 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Water St
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: West Yard
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
+2023-11-13 13:28:38,931 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
+2023-11-13 13:28:46,591 - OPS.JP.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update,when=1699910926591,modifiers=Button1] on update
+2023-11-13 13:28:46,605 - OPS.JP.Model - DEBUG - compositeRailroadName
+2023-11-13 13:28:46,612 - OPS.JP.Model - DEBUG - makeCompositRailroadName
+2023-11-13 13:28:46,612 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-13 13:28:50,796 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,796 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,796 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:50,812 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,812 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,812 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:50,826 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,826 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,826 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:50,826 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,826 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,826 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:50,826 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,836 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,836 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:50,836 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,836 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,836 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:50,921 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,921 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,921 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:50,921 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:50,921 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:50,921 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:51,135 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:51,135 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:51,135 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:51,135 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:51,142 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:51,142 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:51,142 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:51,301 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:51,305 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:51,316 - OPS.OE.TextReports - DEBUG - opsTrainList
+2023-11-13 13:28:52,121 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
+2023-11-13 13:28:52,220 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:28:52,309 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:28:52,313 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:28:52,322 - OPS.OE.TextReports - DEBUG - opsTrainList
+2023-11-13 13:28:52,395 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
+2023-11-13 13:29:06,273 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,273 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,273 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-13 13:29:06,288 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-13 13:29:08,892 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-11-13 13:29:08,892 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
+2023-11-13 13:29:08,892 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
+2023-11-13 13:29:08,908 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
+2023-11-13 13:29:08,908 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
+2023-11-13 13:29:08,914 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
+2023-11-13 13:29:08,914 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St
+2023-11-13 13:29:08,914 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
+2023-11-13 13:29:08,914 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
+2023-11-13 13:29:08,914 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
+2023-11-13 13:29:08,924 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
+2023-11-13 13:29:08,924 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
+2023-11-13 13:29:08,924 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
+2023-11-13 13:29:08,924 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street Stores
+2023-11-13 13:29:08,924 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street Stores
+2023-11-13 13:29:08,937 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th Street Pier
+2023-11-13 13:29:08,937 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th Street Pier
+2023-11-13 13:29:08,937 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
+2023-11-13 13:29:08,940 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
+2023-11-13 13:29:08,940 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-11-13 13:29:08,940 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-11-13 13:29:08,940 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: West Yard
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Street Tracks
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Street Tracks
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
+2023-11-13 13:29:08,944 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
