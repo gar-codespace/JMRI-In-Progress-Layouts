@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Nov 21 13:42:19 PST 2023-->
+  <routes>
+    <route id="1" name="Pier Switcher" comment="">
+      <location id="1r1" name="South Yard" locationId="2" sequenceId="1" trainDirection="8" maxTrainLength="1000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r3" name="MUTT" locationId="1" sequenceId="2" trainDirection="4" maxTrainLength="1000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r2" name="South Yard" locationId="2" sequenceId="3" trainDirection="8" maxTrainLength="1000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+  </routes>
+</operations-config>
