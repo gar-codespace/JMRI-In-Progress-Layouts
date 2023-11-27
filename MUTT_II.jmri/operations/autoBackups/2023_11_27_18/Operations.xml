@@ -2,20 +2,20 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Mon Nov 27 13:05:16 PST 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Mon Nov 27 12:39:33 PST 2023-->
   <operations>
     <setup comment="" />
-    <settings mainMenu="true" closeOnSave="true" autoSave="true" autoBackup="true" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="ARR Codes" switchTime="3" travelTime="4" showValue="true" valueLabel="Value" showRfid="true" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="1915" />
-    <pickupEngFormat prefix=" [ ] Pick up" setting="Road,Number,Model,Consist,Location,Track," />
-    <dropEngFormat prefix=" [ ] Set out" setting="Road,Number,Model,Consist,Destination," />
+    <settings mainMenu="true" closeOnSave="true" autoSave="true" autoBackup="true" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="Descriptive" switchTime="3" travelTime="4" showValue="true" valueLabel="Value" showRfid="true" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="" />
+    <pickupEngFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Model,Track," />
+    <dropEngFormat prefix=" [ ] Set out" setting="Road,Number,Type,Model,Destination," />
     <pickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Hazardous,Track," />
     <dropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Hazardous,Dest&amp;Track," />
-    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest,Dest&amp;Track," />
+    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Track,Dest&amp;Track,FD&amp;Track," />
     <missingCarFormat prefix="" setting="Road,Number,Type,Length,Color,Comment," />
     <switchList sameAsManifest="true" realTime="true" allTrains="true" pageFormat="pageNormal" printRouteLocation="true" trackSummary="true" />
     <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Hazardous,Track," />
     <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Hazardous,Dest&amp;Track," />
-    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest,Dest&amp;Track," />
+    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Track,Dest&amp;Track,FD&amp;Track," />
     <panel name="Panel" trainIconXY="true" trainIconAppend="false" />
     <fontName name="Monospaced" />
     <fontSize size="10" />
@@ -25,9 +25,9 @@
     <manifest printLocComments="false" printRouteComments="false" printLoadsEmpties="false" printTimetable="false" use12hrFormat="false" printValid="true" sortByTrack="false" printPageHeader="true" printHeaders="false" truncate="false" useDepartureTime="false" useEditor="true" printCabooseLoad="false" printPassengerLoad="false" hazardousMsg="(Hazardous)" />
     <manifestFormat value="0" />
     <manifestFileOptions manifestSave="false" />
-    <buildOptions aggressive="true" numberPasses="2" allowLocalInterchange="false" allowLocalSpur="true" allowLocalYard="false" stagingRestrictionEnabled="false" stagingTrackAvail="true" allowReturnStaging="false" promptStagingEnabled="false" promptToStagingEnabled="false" stagingTryNormal="false" generateCsvManifest="true" generateCsvSwitchList="true" />
-    <buildReport level="7" routerLevel="3" useEditor="true" indent="true" alwaysPreview="true" fontSize="7" />
-    <router carRoutingEnabled="true" carRoutingViaYards="false" carRoutingViaStaging="false" forwardToYard="true" onlyActiveTrains="false" checkCarDestination="false" />
+    <buildOptions aggressive="true" numberPasses="2" allowLocalInterchange="false" allowLocalSpur="true" allowLocalYard="false" stagingRestrictionEnabled="false" stagingTrackAvail="true" allowReturnStaging="false" promptStagingEnabled="false" promptToStagingEnabled="false" stagingTryNormal="false" generateCsvManifest="false" generateCsvSwitchList="false" />
+    <buildReport level="5" routerLevel="3" useEditor="true" indent="true" alwaysPreview="true" fontSize="7" />
+    <router carRoutingEnabled="true" carRoutingViaYards="false" carRoutingViaStaging="false" forwardToYard="true" onlyActiveTrains="true" checkCarDestination="false" />
     <logger carLogger="false" engineLogger="false" trainLogger="false" />
     <owner name="" />
     <iconColor north="White" south="White" east="White" west="White" local="White" terminate="White" />
