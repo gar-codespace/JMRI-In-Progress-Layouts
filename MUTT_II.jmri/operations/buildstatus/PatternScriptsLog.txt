@@ -1,888 +1,131 @@
-2023-11-21 13:35:31,871 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-11-21 13:35:31,881 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-11-21 13:35:31,881 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-11-21 13:35:31,881 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-11-21 13:35:31,881 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-11-21 13:35:31,938 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-21 13:35:31,947 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-21 13:35:32,352 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-11-21 13:35:32,374 - OPS.Main.Controller - INFO - Main script run time (sec): 0.484
-2023-11-21 13:35:34,377 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1700602534375,modifiers=Button1] on psButton
-2023-11-21 13:35:34,450 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-21 13:35:34,450 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-21 13:35:34,686 - OPS.SC.Model - DEBUG - validateSequenceEntries
-2023-11-21 13:35:34,727 - OPS.SC.Model - INFO - Sequence entries validated
-2023-11-21 13:35:34,740 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-11-21 13:35:34,855 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-11-21 13:35:34,864 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-11-21 13:35:34,891 - OPS.OB.Translators - DEBUG - File found: Keys.py
-2023-11-21 13:35:34,891 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
-2023-11-21 13:35:37,680 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
-2023-11-21 13:35:37,769 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1472,5,448x281,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,432x242,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:35:37,805 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:35:37,816 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:35:37,816 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:37,834 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:37,844 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:35:37,848 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-11-21 13:35:37,848 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-11-21 13:35:37,848 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-11-21 13:35:37,848 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: South Yard
-2023-11-21 13:35:37,864 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: MUTT
-2023-11-21 13:35:37,864 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-11-21 13:35:37,864 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-11-21 13:35:37,864 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-11-21 13:35:37,864 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:35:37,864 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:37,880 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:35:37,882 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:37,895 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:43,910 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:35:43,910 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:35:43,910 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:35:43,941 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:35:43,957 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:35:43,957 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:35:43,957 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:35:43,957 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:35:43,957 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:35:44,052 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:35:44,071 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:35:44,071 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:35:44,319 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:35:44,319 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:35:44,319 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:35:44,319 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:35:44,619 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:35:44,619 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:35:44,667 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:35:44,667 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:35:44,740 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:35:44,770 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:35:45,683 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:35:45,683 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:35:57,911 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame1,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:35:57,911 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:35:57,911 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:57,930 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:35:57,930 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:57,943 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:58,053 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Throwback,when=1700602558054,modifiers=Button1] on throwback
-2023-11-21 13:35:58,125 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:35:58,125 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:58,134 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:35:58,141 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:58,148 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:35:58,154 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=opsRefreshSubroutine; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:36:02,888 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:02,900 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:02,915 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:02,915 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:16,569 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:16,569 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:16,575 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:16,576 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:16,576 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:16,576 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:16,576 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:16,586 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:16,586 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:16,670 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:16,670 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:16,670 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:16,763 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:16,776 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:16,776 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:16,776 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:16,828 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:16,842 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:36:16,868 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:16,868 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:36:16,891 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:36:16,891 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:36:16,969 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:36:16,986 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:36:21,815 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame2,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:36:21,832 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:21,832 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:21,832 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:21,846 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:21,846 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,526 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Throwback,when=1700602587526,modifiers=Button1] on throwback
-2023-11-21 13:36:27,595 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:27,595 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,605 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:27,605 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,614 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,621 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:36:27,621 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:27,621 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,621 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:27,621 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,637 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,637 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=1; newValue=2; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:36:27,637 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:27,637 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,654 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:27,654 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,654 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,668 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=2; newValue=3; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:36:27,680 - OPS.TB.Model - INFO - Throwback: Locations to commit: initial
-2023-11-21 13:36:27,700 - OPS.TB.Model - INFO - Throwback: Routes to commit: initial
-2023-11-21 13:36:27,700 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.PROPERTY_CHANGE_EVENT.TrainsListLength
-2023-11-21 13:36:27,700 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-11-21 13:36:27,717 - OPS.TB.Model - INFO - Throwback: Trains to commit: initial
-2023-11-21 13:36:27,759 - OPS.TB.Model - INFO - Throwback: Cars to commit: initial
-2023-11-21 13:36:27,779 - OPS.TB.Model - INFO - Throwback: Engines to commit: initial
-2023-11-21 13:36:27,796 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:27,796 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,796 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:27,796 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,813 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:27,813 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=opsRefreshSubroutine; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:36:33,430 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:33,430 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:33,430 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:33,440 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:33,444 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:33,444 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:33,444 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:33,444 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:33,444 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:33,484 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:33,484 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:33,487 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:33,503 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:33,503 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:33,503 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:33,503 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:33,566 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:33,566 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:36:33,582 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:33,582 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:36:33,614 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:36:45,697 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame3,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:36:45,701 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:45,701 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:45,717 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:45,717 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:45,717 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:45,802 - OPS.OE.PluginListeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:36:45,802 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
-2023-11-21 13:36:45,802 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-11-21 13:36:45,802 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-11-21 13:36:45,802 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-11-21 13:36:45,802 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
-2023-11-21 13:36:47,029 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1700602607030,modifiers=Button1] on psButton
-2023-11-21 13:36:47,045 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-21 13:36:47,045 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-21 13:36:47,065 - OPS.SC.Model - DEBUG - validateSequenceEntries
-2023-11-21 13:36:47,092 - OPS.SC.Model - INFO - Sequence entries validated
-2023-11-21 13:36:47,092 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-11-21 13:36:47,108 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-11-21 13:36:47,108 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-11-21 13:36:47,108 - OPS.OB.Translators - DEBUG - File found: Keys.py
-2023-11-21 13:36:47,108 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
-2023-11-21 13:36:48,210 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
-2023-11-21 13:36:48,335 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1472,5,448x281,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,432x242,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:36:48,335 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:48,335 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:48,335 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:48,348 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: South Yard
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: MUTT
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-11-21 13:36:48,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-11-21 13:36:48,357 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:36:48,357 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:48,368 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:36:48,368 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:48,375 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:36:51,039 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:51,039 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:51,039 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:51,039 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:51,039 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:51,053 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:52,990 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:52,990 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:52,990 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:52,990 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:52,990 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:52,990 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:53,006 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:53,006 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:53,006 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:53,052 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:53,052 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:53,059 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:53,076 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:53,082 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:53,084 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:53,085 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:36:53,131 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:36:53,131 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:36:53,164 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:36:53,164 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:36:53,181 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:36:53,181 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:36:53,263 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:36:53,263 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:37:18,894 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame3,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:37:18,901 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:37:18,903 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:37:18,907 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:37:18,910 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:37:18,921 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:37:19,904 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:37:21,752 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1700602641751,modifiers=Button1] on applyButton
-2023-11-21 13:37:21,753 - OPS.SC.Model - DEBUG - getScannerReportPath
-2023-11-21 13:37:21,757 - OPS.SC.Model - DEBUG - validateScanReport
-2023-11-21 13:37:21,757 - OPS.SC.Model - DEBUG - applyScanReport
-2023-11-21 13:37:21,799 - OPS.SC.Model - INFO - applyScanReport for scanner: MUTT
-2023-11-21 13:37:21,799 - OPS.SC.Model - INFO - Number of engines sequenced: 0
-2023-11-21 13:37:21,799 - OPS.SC.Model - INFO - Number of cars sequenced: 0
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:25,407 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:25,423 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:39,177 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:39,177 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:39,178 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:39,190 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:39,191 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:39,193 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:39,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:39,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:39,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:39,226 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:39,227 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:39,229 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:39,249 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:39,250 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:39,252 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:39,253 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:37:39,311 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:37:39,315 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:37:39,344 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:37:39,345 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:37:39,374 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:37:39,378 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:37:39,470 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:37:39,486 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:38:23,799 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:38:23,803 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:38:23,805 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:38:23,806 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:38:23,808 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:38:23,809 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:38:23,809 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:38:23,811 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:38:23,812 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:38:23,812 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:38:23,815 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:38:23,815 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:38:23,816 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:38:23,818 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:38:23,819 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:38:25,098 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame3,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:38:25,098 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:38:25,098 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:38:25,107 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:38:25,115 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:38:25,119 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:00,015 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:39:00,017 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:39:00,020 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:00,029 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:39:00,032 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:00,039 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:14,234 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame4,1049,284,866x746,invalid,layout=java.awt.BorderLayout,title=JMRI System Console,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,850x707,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:39:14,234 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:39:14,234 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:14,234 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:39:14,250 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:14,266 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:14,329 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Initialize,when=1700602754330,modifiers=Button1] on self.qrCodeButton
-2023-11-21 13:39:14,329 - OPS.SC.Model - DEBUG - applyRfidData
-2023-11-21 13:39:17,605 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1700602757606,modifiers=Button1] on applyButton
-2023-11-21 13:39:17,605 - OPS.SC.Model - DEBUG - getScannerReportPath
-2023-11-21 13:39:17,605 - OPS.SC.Model - DEBUG - validateScanReport
-2023-11-21 13:39:17,605 - OPS.SC.Model - DEBUG - applyScanReport
-2023-11-21 13:39:17,605 - OPS.SC.Model - INFO - applyScanReport for scanner: MUTT
-2023-11-21 13:39:17,612 - OPS.SC.Model - INFO - Number of engines sequenced: 0
-2023-11-21 13:39:17,612 - OPS.SC.Model - INFO - Number of cars sequenced: 0
-2023-11-21 13:39:20,364 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:20,364 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:20,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:20,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:20,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:20,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:20,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:20,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:20,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:20,411 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:20,411 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:20,411 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:20,417 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:20,427 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:20,427 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:20,427 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:20,473 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:20,473 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:39:20,505 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:20,505 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:39:20,520 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:39:20,520 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:39:20,618 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:39:20,680 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:39:51,391 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame4,1049,284,866x746,invalid,layout=java.awt.BorderLayout,title=JMRI System Console,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,850x707,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:39:51,391 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:39:51,391 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:51,423 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:39:51,438 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:51,438 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:58,005 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:58,019 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:58,019 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:39:58,019 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:39:58,019 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:39:58,019 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:40:05,348 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame3,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:40:05,357 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:40:05,357 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:40:05,357 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:40:05,388 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:40:05,388 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:40:05,513 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1700602805514,modifiers=Button1] on applyButton
-2023-11-21 13:40:05,513 - OPS.SC.Model - DEBUG - getScannerReportPath
-2023-11-21 13:40:05,513 - OPS.SC.Model - DEBUG - validateScanReport
-2023-11-21 13:40:05,513 - OPS.SC.Model - DEBUG - applyScanReport
-2023-11-21 13:40:05,548 - OPS.SC.Model - INFO - applyScanReport for scanner: MUTT
-2023-11-21 13:40:05,548 - OPS.SC.Model - INFO - Number of engines sequenced: 0
-2023-11-21 13:40:05,548 - OPS.SC.Model - INFO - Number of cars sequenced: 0
-2023-11-21 13:40:30,342 - OPS.OE.PluginListeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:40:30,342 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
-2023-11-21 13:40:30,342 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-11-21 13:40:30,342 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
-2023-11-21 13:40:30,342 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: South Yard
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: MUTT
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St Stores
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 7th St Stores
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th St Pier
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-11-21 13:40:30,357 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
-2023-11-21 13:40:57,959 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1700602857959,modifiers=Button1] on psButton
-2023-11-21 13:40:57,980 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-21 13:40:57,980 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-21 13:40:58,101 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-11-21 13:40:58,117 - OPS.SC.Model - DEBUG - validateSequenceEntries
-2023-11-21 13:40:58,117 - OPS.SC.Model - INFO - Sequence entries validated
-2023-11-21 13:40:58,117 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-11-21 13:40:58,131 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-11-21 13:40:58,131 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-11-21 13:40:58,131 - OPS.OB.Translators - DEBUG - File found: Keys.py
-2023-11-21 13:40:58,131 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
-2023-11-21 13:40:59,184 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
-2023-11-21 13:40:59,247 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1472,5,448x281,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,432x242,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:40:59,247 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:40:59,247 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:40:59,247 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:40:59,247 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: South Yard
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: MUTT
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-11-21 13:40:59,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-11-21 13:40:59,263 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:40:59,263 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:40:59,263 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:40:59,263 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:40:59,279 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:41:06,382 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Cars,when=1700602866383,modifiers=Button1] on aoCars
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Locations.txt file found
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Industries.txt file found
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Rolling Stock.txt file found
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - processLocationsHeader
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - processIndustriesHeader
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - processTpInventory
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getLocationIds
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getRrLocations
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getRrLocales
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
-2023-11-21 13:41:06,382 - OPS.o2o.ModelImport - DEBUG - writeLayoutData
-2023-11-21 13:41:06,414 - OPS.o2o.ModelImport - DEBUG - writeRollingStockData
-2023-11-21 13:41:06,446 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-11-21 13:41:06,446 - OPS.o2o.Model - DEBUG - addRoads
-2023-11-21 13:41:06,446 - OPS.o2o.Model - DEBUG - addCarAar
-2023-11-21 13:41:06,446 - OPS.o2o.Model - DEBUG - addCarLoads
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - addCabooseLoads
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - addPassengerLoads
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - addCarKernels
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - addLocoModels
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - addLocoTypes
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - addLocoConsist
-2023-11-21 13:41:06,460 - OPS.o2o.Model - INFO - New rolling stock attributes
-2023-11-21 13:41:06,460 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - updateRollingStock
-2023-11-21 13:41:06,460 - OPS.o2o.Model - DEBUG - updateBaseAttributes
-2023-11-21 13:41:06,476 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
-2023-11-21 13:41:06,476 - OPS.o2o.Model - DEBUG - scheduleApplicator
-2023-11-21 13:41:06,502 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
-2023-11-21 13:41:06,502 - OPS.o2o.Model - DEBUG - _updateJmriProperties
-2023-11-21 13:41:06,502 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-11-21 13:41:06,539 - OPS.o2o.Model - INFO - JMRI railroad properties updated from TrainPlayer data
-2023-11-21 13:41:09,671 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Initialize,when=1700602869671,modifiers=Button1] on self.qrCodeButton
-2023-11-21 13:41:09,671 - OPS.SC.Model - DEBUG - applyRfidData
-2023-11-21 13:41:13,240 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:41:15,079 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1700602875080,modifiers=Button1] on applyButton
-2023-11-21 13:41:15,079 - OPS.SC.Model - DEBUG - getScannerReportPath
-2023-11-21 13:41:15,079 - OPS.SC.Model - DEBUG - validateScanReport
-2023-11-21 13:41:15,079 - OPS.SC.Model - DEBUG - applyScanReport
-2023-11-21 13:41:15,079 - OPS.SC.Model - INFO - applyScanReport for scanner: MUTT
-2023-11-21 13:41:15,079 - OPS.SC.Model - INFO - Number of engines sequenced: 0
-2023-11-21 13:41:15,079 - OPS.SC.Model - INFO - Number of cars sequenced: 0
-2023-11-21 13:41:26,387 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:26,387 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:26,387 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:26,401 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:26,403 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:26,403 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:26,404 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:26,404 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:26,404 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:26,522 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:26,522 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:26,522 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:26,529 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:26,546 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:26,546 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:26,546 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:26,625 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:26,625 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:41:26,641 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:26,641 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
-2023-11-21 13:41:26,657 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:41:26,688 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:41:26,688 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:41:26,782 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:41:26,798 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:41:41,924 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:41,924 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:41,924 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:41,924 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:41,924 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:41:41,934 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:41:48,006 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame5,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:41:48,006 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:41:48,006 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:41:48,006 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:41:48,006 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:41:48,023 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:41:53,887 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Previous,when=1700602913874,modifiers=Button1] on previous
-2023-11-21 13:42:01,441 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Next,when=1700602921442,modifiers=Button1] on next
-2023-11-21 13:42:02,427 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Previous,when=1700602922428,modifiers=Button1] on previous
-2023-11-21 13:42:03,513 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Previous,when=1700602923513,modifiers=Button1] on previous
-2023-11-21 13:42:04,443 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Next,when=1700602924443,modifiers=Button1] on next
-2023-11-21 13:42:05,454 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Next,when=1700602925455,modifiers=Button1] on next
-2023-11-21 13:42:05,802 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Next,when=1700602925802,modifiers=Button1] on next
-2023-11-21 13:42:11,520 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:11,520 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:11,520 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:11,536 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:11,536 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:11,536 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:11,536 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:11,536 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:11,536 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:11,568 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:11,585 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:11,585 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:11,598 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:11,615 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:11,615 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:11,615 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:11,694 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:11,694 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:42:11,710 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:11,726 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
-2023-11-21 13:42:11,726 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:42:11,742 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:42:11,757 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:42:11,844 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:42:11,884 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:42:18,861 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame5,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:42:18,862 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:18,864 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:18,865 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:18,869 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:18,869 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,059 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Throwback,when=1700602939059,modifiers=Button1] on throwback
-2023-11-21 13:42:19,101 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:19,108 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,108 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:19,108 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,108 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,122 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:42:19,122 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:19,122 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,122 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:19,122 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,138 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,138 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=1; newValue=2; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:42:19,138 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:19,138 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,138 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:19,138 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,154 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,154 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=2; newValue=3; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:42:19,171 - OPS.TB.Model - INFO - Throwback: Locations to commit: initial
-2023-11-21 13:42:19,171 - OPS.TB.Model - INFO - Throwback: Routes to commit: initial
-2023-11-21 13:42:19,187 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.PROPERTY_CHANGE_EVENT.TrainsListLength
-2023-11-21 13:42:19,187 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-11-21 13:42:19,187 - OPS.TB.Model - INFO - Throwback: Trains to commit: initial
-2023-11-21 13:42:19,203 - OPS.TB.Model - INFO - Throwback: Cars to commit: initial
-2023-11-21 13:42:19,220 - OPS.TB.Model - INFO - Throwback: Engines to commit: initial
-2023-11-21 13:42:19,233 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:19,233 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,233 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:19,233 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,233 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:19,250 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=opsRefreshSubroutine; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:42:24,351 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:24,351 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:24,351 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:24,362 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:24,362 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:24,362 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:24,362 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:24,362 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:24,362 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:24,378 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:24,394 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:24,394 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:24,394 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:24,394 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:24,394 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:24,394 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:24,473 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:24,473 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:42:24,490 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:24,490 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
-2023-11-21 13:42:24,490 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:42:24,522 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:42:34,989 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame4,1049,284,866x746,invalid,layout=java.awt.BorderLayout,title=JMRI System Console,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,850x707,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:42:34,989 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:34,989 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:34,989 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:34,989 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:35,003 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:35,115 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Cars,when=1700602955115,modifiers=Button1] on aoCars
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Locations.txt file found
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Industries.txt file found
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Rolling Stock.txt file found
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - processLocationsHeader
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - processIndustriesHeader
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - processTpInventory
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getLocationIds
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getRrLocations
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getRrLocales
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
-2023-11-21 13:42:35,130 - OPS.o2o.ModelImport - DEBUG - writeLayoutData
-2023-11-21 13:42:35,161 - OPS.o2o.ModelImport - DEBUG - writeRollingStockData
-2023-11-21 13:42:35,177 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:35,177 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:35,194 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:35,194 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addRoads
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addCarAar
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addCarLoads
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addCabooseLoads
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addPassengerLoads
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addCarKernels
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addLocoModels
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addLocoTypes
-2023-11-21 13:42:35,194 - OPS.o2o.Model - DEBUG - addLocoConsist
-2023-11-21 13:42:35,194 - OPS.o2o.Model - INFO - New rolling stock attributes
-2023-11-21 13:42:35,209 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-11-21 13:42:35,209 - OPS.o2o.Model - DEBUG - updateRollingStock
-2023-11-21 13:42:35,209 - OPS.o2o.Model - DEBUG - updateBaseAttributes
-2023-11-21 13:42:35,209 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
-2023-11-21 13:42:35,209 - OPS.o2o.Model - DEBUG - scheduleApplicator
-2023-11-21 13:42:35,240 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
-2023-11-21 13:42:35,240 - OPS.o2o.Model - DEBUG - _updateJmriProperties
-2023-11-21 13:42:35,240 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
-2023-11-21 13:42:35,273 - OPS.o2o.Model - INFO - JMRI railroad properties updated from TrainPlayer data
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:40,197 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:40,229 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:40,229 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:40,229 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:40,229 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:40,229 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:40,229 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:40,244 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:40,323 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:40,323 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:42:40,338 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:40,338 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
-2023-11-21 13:42:40,338 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:42:40,371 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:42:41,947 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:42:48,301 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame7,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:42:48,301 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:48,301 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:48,301 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:48,316 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:48,316 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:48,459 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Initialize,when=1700602968459,modifiers=Button1] on self.qrCodeButton
-2023-11-21 13:42:48,459 - OPS.SC.Model - DEBUG - applyRfidData
-2023-11-21 13:42:58,822 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:42:58,822 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:42:58,825 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:58,829 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:42:58,829 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:42:58,838 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:01,743 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1700602981742,modifiers=Button1] on applyButton
-2023-11-21 13:43:01,743 - OPS.SC.Model - DEBUG - getScannerReportPath
-2023-11-21 13:43:01,743 - OPS.SC.Model - DEBUG - validateScanReport
-2023-11-21 13:43:01,743 - OPS.SC.Model - DEBUG - applyScanReport
-2023-11-21 13:43:01,743 - OPS.SC.Model - INFO - applyScanReport for scanner: MUTT
-2023-11-21 13:43:01,743 - OPS.SC.Model - INFO - Number of engines sequenced: 0
-2023-11-21 13:43:01,743 - OPS.SC.Model - INFO - Number of cars sequenced: 0
-2023-11-21 13:43:06,137 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:06,153 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:06,184 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:06,184 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:06,184 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:06,191 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:06,191 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:06,191 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:06,191 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:06,263 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:06,263 - OPS.SC.Model - DEBUG - addSequenceToManifest
-2023-11-21 13:43:06,295 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:06,295 - OPS.o2o.ModelWorkEvents - DEBUG - o2oWorkEvents
-2023-11-21 13:43:06,295 - OPS.SC.Model - DEBUG - resequenceManifestJson
-2023-11-21 13:43:06,311 - OPS.OE.TextReports - DEBUG - printExtendedTrainList
-2023-11-21 13:43:06,328 - OPS.OE.TextReports - DEBUG - opsTrainList
-2023-11-21 13:43:06,394 - OPS.OE.TextReports - DEBUG - printExtendedWorkOrder
-2023-11-21 13:43:06,447 - OPS.OE.TextReports - DEBUG - opsJmriWorkOrder
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:20,098 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:20,114 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:20,114 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
-2023-11-21 13:43:20,114 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
-2023-11-21 13:43:20,114 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
-2023-11-21 13:43:22,757 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.trains.TrainsTableFrame[frame7,0,0,1257x319,invalid,layout=java.awt.BorderLayout,title=Trains,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1241x280,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:43:22,757 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:43:22,766 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:22,766 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:43:22,766 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:22,779 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,368 - OPS.TB.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Throwback,when=1700603006369,modifiers=Button1] on throwback
-2023-11-21 13:43:26,404 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:43:26,404 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,417 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:43:26,417 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,424 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,426 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:43:26,426 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:43:26,433 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,434 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:43:26,434 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,434 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,448 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=1; newValue=2; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:43:26,448 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:43:26,448 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,448 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:43:26,448 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,467 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,467 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=locationsListLength; oldValue=2; newValue=3; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:43:26,480 - OPS.TB.Model - INFO - Throwback: Locations to commit: initial
-2023-11-21 13:43:26,496 - OPS.TB.Model - INFO - Throwback: Routes to commit: initial
-2023-11-21 13:43:26,496 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.PROPERTY_CHANGE_EVENT.TrainsListLength
-2023-11-21 13:43:26,496 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
-2023-11-21 13:43:26,512 - OPS.TB.Model - INFO - Throwback: Trains to commit: initial
-2023-11-21 13:43:26,526 - OPS.TB.Model - INFO - Throwback: Cars to commit: initial
-2023-11-21 13:43:26,545 - OPS.TB.Model - INFO - Throwback: Engines to commit: initial
-2023-11-21 13:43:26,559 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:43:26,559 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,559 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:43:26,559 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,559 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:43:26,575 - OPS.OE.PluginListeners - DEBUG - java.beans.PropertyChangeEvent[propertyName=opsRefreshSubroutine; oldValue=0; newValue=1; propagationId=null; source=jmri.jmrit.operations.locations.LocationManager@182adc43]
-2023-11-21 13:44:01,940 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:44:01,944 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:44:01,944 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:44:01,948 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:44:01,948 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:44:01,963 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:44:05,609 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Initialize,when=1700603045610,modifiers=Button1] on self.qrCodeButton
-2023-11-21 13:44:05,609 - OPS.SC.Model - DEBUG - applyRfidData
-2023-11-21 13:44:31,496 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 13:44:31,496 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 13:44:31,496 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:44:31,496 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 13:44:31,512 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:44:31,512 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 13:44:36,042 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1700603076043,modifiers=Button1] on applyButton
-2023-11-21 13:44:36,042 - OPS.SC.Model - DEBUG - getScannerReportPath
-2023-11-21 13:44:36,042 - OPS.SC.Model - DEBUG - validateScanReport
-2023-11-21 13:44:36,042 - OPS.SC.Model - DEBUG - applyScanReport
-2023-11-21 13:44:36,042 - OPS.SC.Model - INFO - applyScanReport for scanner: MUTT
-2023-11-21 13:44:36,042 - OPS.SC.Model - INFO - Number of engines sequenced: 0
-2023-11-21 13:44:36,042 - OPS.SC.Model - INFO - Number of cars sequenced: 0
-2023-11-21 14:24:35,595 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 14:24:35,598 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 14:24:35,598 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:35,612 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 14:24:35,615 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:35,619 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:42,671 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 14:24:42,671 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 14:24:42,671 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:42,677 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 14:24:42,677 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:42,687 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:48,312 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 14:24:48,312 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-21 14:24:48,312 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:48,328 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-21 14:24:48,328 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:48,335 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-21 14:24:52,763 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-21 14:24:52,763 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
-2023-11-21 14:24:52,763 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-11-21 14:24:52,763 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-11-21 14:24:52,763 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-11-21 14:24:52,763 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-11-27 10:21:42,401 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-11-27 10:21:42,414 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-11-27 10:21:42,414 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-11-27 10:21:42,430 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-11-27 10:21:42,430 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-11-27 10:21:42,461 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-11-27 10:21:42,461 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-11-27 10:21:42,887 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-11-27 10:21:42,903 - OPS.Main.Controller - INFO - Main script run time (sec): 0.485
+2023-11-27 10:21:45,604 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1701109305604,modifiers=Button1] on psButton
+2023-11-27 10:21:45,651 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-11-27 10:21:45,651 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-11-27 10:21:45,766 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-11-27 10:21:45,841 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
+2023-11-27 10:21:46,046 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
+2023-11-27 10:21:46,109 - OPS.SC.Model - DEBUG - validateSequenceEntries
+2023-11-27 10:21:46,109 - OPS.SC.Model - INFO - Sequence entries validated
+2023-11-27 10:21:46,125 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
+2023-11-27 10:21:46,188 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
+2023-11-27 10:21:46,188 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-11-27 10:21:46,210 - OPS.OB.Translators - DEBUG - File found: Keys.py
+2023-11-27 10:21:46,210 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
+2023-11-27 10:21:47,750 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
+2023-11-27 10:21:47,829 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1472,5,448x281,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,432x242,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 10:21:47,875 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 10:21:47,970 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 10:21:47,970 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 10:21:47,986 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:21:47,993 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:21:48,002 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 10:21:48,013 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Pier Switcher
+2023-11-27 10:21:48,013 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
+2023-11-27 10:21:48,017 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
+2023-11-27 10:21:48,017 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: South Yard
+2023-11-27 10:21:48,017 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: MUTT
+2023-11-27 10:21:48,017 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
+2023-11-27 10:21:48,017 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
+2023-11-27 10:21:48,017 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
+2023-11-27 10:21:48,017 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-11-27 10:21:48,033 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-11-27 10:21:48,033 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-11-27 10:21:48,096 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 10:21:48,096 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:21:48,112 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 10:21:48,112 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:21:48,128 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:21:52,904 - OPS.PT.Model - DEBUG - locComboSelected
+2023-11-27 10:21:52,913 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-11-27 10:21:53,885 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Cement,when=1701109313886,modifiers=Button1] on jTrackCheckBox
+2023-11-27 10:21:54,753 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Report,when=1701109314753,modifiers=Button1] on ypButton
+2023-11-27 10:21:54,783 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-27 10:21:54,799 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-27 10:21:54,802 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-27 10:21:54,808 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-11-27 10:25:53,359 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 10:25:53,371 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 10:25:53,417 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 10:25:53,417 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:25:53,433 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 10:25:53,436 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:25:53,436 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:26:22,180 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.rollingstock.cars.CarsTableFrame[frame1,31,31,1241x606,invalid,layout=java.awt.BorderLayout,title=Cars,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1225x567,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 10:26:22,184 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 10:26:22,207 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 10:26:22,207 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:26:22,223 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 10:26:22,223 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:26:22,223 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:26:35,868 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.setup.PrintOptionFrame[frame2,266,265,1044x720,invalid,layout=java.awt.BorderLayout,title=Manifest Print Options,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1028x681,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 10:26:35,868 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 10:26:35,898 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 10:26:35,900 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:26:35,900 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 10:26:35,900 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:26:35,911 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:26:39,069 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Report,when=1701109599054,modifiers=Button1] on ypButton
+2023-11-27 10:26:39,069 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-27 10:26:39,085 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-27 10:26:39,085 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-27 10:26:39,085 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-11-27 10:27:16,795 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.setup.PrintOptionFrame[frame2,266,265,1044x720,invalid,layout=java.awt.BorderLayout,title=Manifest Print Options,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1028x681,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 10:27:16,795 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 10:27:16,822 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 10:27:16,823 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:27:16,825 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 10:27:16,825 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:27:16,842 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 10:27:18,204 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Report,when=1701109638205,modifiers=Button1] on ypButton
+2023-11-27 10:27:18,204 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-11-27 10:27:18,220 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-11-27 10:27:18,220 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-11-27 10:27:18,220 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-11-27 12:30:32,565 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 12:30:32,573 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 12:30:32,605 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 12:30:32,605 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:32,617 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 12:30:32,618 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:32,619 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:35,910 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.rollingstock.cars.CarsTableFrame[frame1,31,31,1241x606,invalid,hidden,layout=java.awt.BorderLayout,title=Cars,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1225x567,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 12:30:35,910 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 12:30:35,930 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 12:30:35,930 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:35,941 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 12:30:35,941 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:35,948 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:37,256 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.jmrit.operations.setup.PrintOptionFrame[frame2,266,265,1044x720,invalid,hidden,layout=java.awt.BorderLayout,title=Manifest Print Options,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,1028x681,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 12:30:37,265 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-11-27 12:30:37,269 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-11-27 12:30:37,285 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:37,285 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-11-27 12:30:37,285 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:37,315 - OPS.SC.Model - DEBUG - recordSelection
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - sun.awt.TimedWindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Pier Switcher
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: South Yard
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water Street
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: MUTT
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Cement
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Water St Stores
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 7th St Stores
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th St Pier
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
+2023-11-27 12:30:38,275 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
