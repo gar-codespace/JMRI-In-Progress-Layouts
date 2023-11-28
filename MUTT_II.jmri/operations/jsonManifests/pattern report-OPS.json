@@ -1,5 +1,5 @@
 {
-  "date": "1915-11-27T21:01:58.956+00:00", 
+  "date": "1915-11-28T02:35:24.814+00:00", 
   "description": "", 
   "locations": [
     {
@@ -27,7 +27,7 @@
             }, 
             "fred": false, 
             "hazardous": false, 
-            "id": "FGEX 3882", 
+            "id": "FGEX 9489", 
             "isLocal": true, 
             "kernel": "", 
             "kernelSize": "0", 
@@ -40,7 +40,7 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "number": "3882", 
+            "number": "9489", 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
@@ -72,7 +72,7 @@
             }, 
             "fred": false, 
             "hazardous": false, 
-            "id": "FGEX 9107", 
+            "id": "FGEX 3597", 
             "isLocal": true, 
             "kernel": "", 
             "kernelSize": "0", 
@@ -85,12 +85,57 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "number": "9107", 
+            "number": "3597", 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": "", 
             "road": "FGEX", 
+            "trainName": "", 
+            "weight": "0", 
+            "weightTons": 0
+          }, 
+          {
+            " ": " ", 
+            "addComment": "", 
+            "caboose": false, 
+            "carType": "XPP", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "id": "PL 44011", 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": "0", 
+            "length": "40", 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "track": {
+                "userName": "Basin St Stores"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "number": "44011", 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": "", 
+            "road": "PL", 
             "trainName": "", 
             "weight": "0", 
             "weightTons": 0
@@ -117,12 +162,12 @@
             }, 
             "fred": false, 
             "hazardous": false, 
-            "id": "CNJ 8878", 
+            "id": "PRR 0614", 
             "isLocal": true, 
             "kernel": "", 
             "kernelSize": "0", 
             "length": "40", 
-            "load": "Food Stuffs", 
+            "load": "Coffee", 
             "loadType": "load", 
             "location": {
               "track": {
@@ -130,102 +175,12 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "number": "8878", 
+            "number": "0614", 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": "", 
-            "road": "CNJ", 
-            "trainName": "", 
-            "weight": "0", 
-            "weightTons": 0
-          }, 
-          {
-            " ": " ", 
-            "addComment": "", 
-            "caboose": false, 
-            "carType": "XP4", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "id": "ACL 0676", 
-            "isLocal": true, 
-            "kernel": "", 
-            "kernelSize": "0", 
-            "length": "40", 
-            "load": "Food Stuffs", 
-            "loadType": "load", 
-            "location": {
-              "track": {
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "number": "0676", 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": "", 
-            "road": "ACL", 
-            "trainName": "", 
-            "weight": "0", 
-            "weightTons": 0
-          }, 
-          {
-            " ": " ", 
-            "addComment": "", 
-            "caboose": false, 
-            "carType": "XP4", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "id": "LV 2943", 
-            "isLocal": true, 
-            "kernel": "", 
-            "kernelSize": "0", 
-            "length": "40", 
-            "load": "Food Stuffs", 
-            "loadType": "load", 
-            "location": {
-              "track": {
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "number": "2943", 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": "", 
-            "road": "LV", 
+            "road": "PRR", 
             "trainName": "", 
             "weight": "0", 
             "weightTons": 0
@@ -278,7 +233,7 @@
         ], 
         "remove": []
       }, 
-      "empties": 2, 
+      "empties": 3, 
       "engines": {
         "add": [], 
         "remove": []
@@ -287,8 +242,8 @@
         "length": 440, 
         "unit": "Feet"
       }, 
-      "loads": 4, 
-      "total": 6, 
+      "loads": 2, 
+      "total": 5, 
       "trainDirection": 15, 
       "userName": "Basin St Stores"
     }, 
@@ -299,7 +254,7 @@
             " ": " ", 
             "addComment": "", 
             "caboose": false, 
-            "carType": "GPx", 
+            "carType": "GPD", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -317,7 +272,7 @@
             }, 
             "fred": false, 
             "hazardous": false, 
-            "id": "ER 1824", 
+            "id": "PRR 0306", 
             "isLocal": true, 
             "kernel": "", 
             "kernelSize": "0", 
@@ -330,12 +285,12 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "number": "1824", 
+            "number": "0306", 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": "", 
-            "road": "ER", 
+            "road": "PRR", 
             "trainName": "", 
             "weight": "0", 
             "weightTons": 0
@@ -344,7 +299,7 @@
             " ": " ", 
             "addComment": "", 
             "caboose": false, 
-            "carType": "GPx", 
+            "carType": "GPD", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -362,7 +317,7 @@
             }, 
             "fred": false, 
             "hazardous": false, 
-            "id": "AT&SF 0191", 
+            "id": "B&A 6470", 
             "isLocal": true, 
             "kernel": "", 
             "kernelSize": "0", 
@@ -375,12 +330,12 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "number": "0191", 
+            "number": "6470", 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": "", 
-            "road": "AT&SF", 
+            "road": "B&A", 
             "trainName": "", 
             "weight": "0", 
             "weightTons": 0
@@ -448,6 +403,6 @@
       "userName": "Bulk Material Wharf"
     }
   ], 
-  "railroad": "Metropolitian Harbor Railroad\nMetropolitian Union Transfer Terminal\nSouth Basin Street", 
+  "railroad": "MUTT II", 
   "userName": "Basin Street"
 }
