@@ -16,11 +16,11 @@
       "ER": true, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 722, 
+      "PH": 467, 
       "PW": 1000, 
-      "PX": 16, 
-      "PY": 302, 
-      "RV": 20231009, 
+      "PX": -1, 
+      "PY": 490, 
+      "RV": 20231010, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -75,7 +75,7 @@
         "RWL": 10, 
         "Road": 4, 
         "SetOut_Msg": 12, 
-        "Track": 15, 
+        "Track": 12, 
         "Type": 3, 
         "Weight": 7
       }, 
@@ -135,7 +135,11 @@
       }, 
       "HCP": " [ ] Hold", 
       "OC": true, 
-      "OT": false
+      "OPR": "pattern report ({}).{}", 
+      "OSL": "switch list ({}).{}", 
+      "OT": false, 
+      "OTL": "train list ({}).{}", 
+      "OWO": "work order ({}).{}"
     }
   }, 
   "Patterns": {
@@ -151,7 +155,7 @@
       "4th St Pier": false, 
       "7th St Stores": true, 
       "Basin St Stores": true, 
-      "Bulk Material Wharf": true, 
+      "Bulk Material Wharf": false, 
       "Cement": false, 
       "Gantry": false, 
       "Mother Schuckers": false
@@ -187,10 +191,6 @@
     "US": {
       "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
     }
-  }, 
-  "Template": {
-    "SV": true, 
-    "US": {}
   }, 
   "Throwback": {
     "SV": true, 
