@@ -16,11 +16,11 @@
       "ER": true, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 730, 
-      "PW": 1070, 
-      "PX": -5, 
-      "PY": 284, 
-      "RV": 20231009, 
+      "PH": 280, 
+      "PW": 1000, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20231010, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -28,13 +28,7 @@
         "UX": "UseSomethingElse"
       }
     }, 
-    "SL": [
-      "jPlus", 
-      "o2o", 
-      "Patterns", 
-      "Scanner", 
-      "Throwback"
-    ], 
+    "SL": [], 
     "SR": {
       "G": 11, 
       "HO": 6, 
@@ -135,7 +129,11 @@
       }, 
       "HCP": " [ ] Hold", 
       "OC": true, 
-      "OT": false
+      "OPR": "pattern report ({}).{}", 
+      "OSL": "switch list ({}).{}", 
+      "OT": false, 
+      "OTL": "train list ({}).{}", 
+      "OWO": "work order ({}).{}"
     }
   }, 
   "Patterns": {
@@ -180,20 +178,12 @@
       "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
     }
   }, 
-  "Template": {
-    "SV": true, 
-    "US": {}
-  }, 
   "Throwback": {
     "SV": true, 
     "TC": [
       [
         "", 
         ""
-      ], 
-      [
-        "2023.11.18.07.48.19", 
-        "initilal"
       ]
     ], 
     "US": {}
@@ -201,14 +191,14 @@
   "jPlus": {
     "LD": {
       "BD": "", 
-      "EH": true, 
-      "JN": "Metropolitian Harbor Railroad\nMetropolitian Union Transfer Terminal\nWest Pier District", 
+      "EH": false, 
+      "JN": "", 
       "LN": "", 
-      "LO": "West Pier District", 
-      "OR": "Metropolitian Harbor Railroad", 
+      "LO": "", 
+      "OR": "", 
       "SC": "", 
-      "TR": "Metropolitian Union Transfer Terminal", 
-      "YR": "1915"
+      "TR": "", 
+      "YR": ""
     }, 
     "SV": true, 
     "US": {}
