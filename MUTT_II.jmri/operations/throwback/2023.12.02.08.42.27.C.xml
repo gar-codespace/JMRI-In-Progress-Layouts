@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Dec 02 08:42:27 PST 2023-->
+  <roads>
+    <road name="ACL" />
+    <road name="AT&amp;SF" />
+    <road name="B&amp;A" />
+    <road name="B&amp;O" />
+    <road name="CNJ" />
+    <road name="ER" />
+    <road name="FGEX" />
+    <road name="LV" />
+    <road name="M&amp;P" />
+    <road name="MUTT" />
+    <road name="NYNH&amp;H" />
+    <road name="P&amp;R" />
+    <road name="PL" />
+    <road name="PRR" />
+    <road name="WJ&amp;S" />
+  </roads>
+  <types>
+    <type name="Bdr" />
+    <type name="FP3" />
+    <type name="FP4" />
+    <type name="GPD" />
+    <type name="GPx" />
+    <type name="NPD" />
+    <type name="RP3" />
+    <type name="TPO" />
+    <type name="XP3" />
+    <type name="XP4" />
+    <type name="XPP" />
+    <type name="XPV" />
+  </types>
+  <colors>
+    <color name="Generic" />
+  </colors>
+  <lengths>
+    <length value="40" />
+  </lengths>
+  <owners>
+    <owner name="" />
+  </owners>
+  <loads>
+    <defaults empty="E" load="L" />
+    <load type="XP4">
+      <carLoad name="Break Bulk" loadType="load" />
+      <carLoad name="Cement" loadType="load" />
+      <carLoad name="Coffee" loadType="load" />
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Food Stuffs" loadType="load" />
+      <carLoad name="Merchandise" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="XP3">
+      <carLoad name="Break Bulk" loadType="load" />
+      <carLoad name="Can Oysters" loadType="load" />
+      <carLoad name="Cement" loadType="load" />
+      <carLoad name="Coffee" loadType="load" />
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Food Stuffs" loadType="load" />
+      <carLoad name="Merchandise" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="FP4">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="crate large" loadType="load" />
+      <carLoad name="load" loadType="load" />
+      <carLoad name="lumber" loadType="load" />
+    </load>
+    <load type="NPD">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="FP3">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="boiler2" loadType="load" />
+      <carLoad name="load" loadType="load" />
+      <carLoad name="lumber" loadType="load" />
+    </load>
+    <load type="GPx">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Gravel" loadType="load" />
+      <carLoad name="coiled wire" loadType="load" />
+      <carLoad name="load" loadType="load" />
+      <carLoad name="lumber" loadType="load" />
+    </load>
+    <load type="XPV">
+      <carLoad name="Break Bulk" loadType="load" />
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Food Stuffs" loadType="load" />
+      <carLoad name="Produce" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="Bdr">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Live Oysters" loadType="load" />
+      <carLoad name="Produce" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="GPD">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Gravel" loadType="load" />
+      <carLoad name="load" loadType="load" />
+      <carLoad name="lumber" loadType="load" />
+      <carLoad name="tank" loadType="load" />
+    </load>
+    <load type="RP3">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Live Oysters" loadType="load" />
+      <carLoad name="Produce" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="XPP">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Produce" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+    <load type="TPO">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Fuel Oil" hazardous="true" loadType="load" />
+      <carLoad name="load" loadType="load" />
+    </load>
+  </loads>
+  <newKernels />
+  <options />
+  <cars>
+    <car id="ACL0676" roadName="ACL" roadNumber="0676" type="XP4" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6006" rfid="IDnvnmro0f2imu" load="E" />
+    <car id="ACL4430" roadName="ACL" roadNumber="4430" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s5" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6001" rfid="IDxwck11v79rhg" load="Merchandise" />
+    <car id="ACL9405" roadName="ACL" roadNumber="9405" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6003" rfid="IDcwjo8iapuoj0" load="Break Bulk" />
+    <car id="AT&amp;SF0191" roadName="AT&amp;SF" roadNumber="0191" type="GPx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6010" rfid="IDinq9wghdrkic" load="E" />
+    <car id="AT&amp;SF5337" roadName="AT&amp;SF" roadNumber="5337" type="FP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6001" rfid="IDf32crx9xq964" load="Empty" />
+    <car id="B&amp;A1897" roadName="B&amp;A" roadNumber="1897" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6008" rfid="ID1zmtcjgb4mj" load="E" />
+    <car id="B&amp;A6470" roadName="B&amp;A" roadNumber="6470" type="GPD" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6001" rfid="ID7tp8z82ya38" load="Gravel" />
+    <car id="B&amp;O6992" roadName="B&amp;O" roadNumber="6992" type="FP4" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="1" value="6008" rfid="IDcz3fovx6g5do" load="lumber" />
+    <car id="CNJ8878" roadName="CNJ" roadNumber="8878" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6002" rfid="ID9f8xcuarrsg9" load="Break Bulk" />
+    <car id="ER1824" roadName="ER" roadNumber="1824" type="GPx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6011" rfid="ID0d0ev2cjh69h" load="E" />
+    <car id="ER2050" roadName="ER" roadNumber="2050" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="2" value="6004" rfid="IDs5lru3bdkyay" load="Break Bulk" />
+    <car id="FGEX3597" roadName="FGEX" roadNumber="3597" type="RP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6004" rfid="IDazevwlj43hmr" load="E" scheduleId="46c1" previousScheduleId="46c1" />
+    <car id="FGEX3882" roadName="FGEX" roadNumber="3882" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6001" rfid="IDos2hxirq5l7o" load="Live Oysters" />
+    <car id="FGEX5751" roadName="FGEX" roadNumber="5751" type="RP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6003" rfid="IDiyhrw9y4hbnq" load="E" />
+    <car id="FGEX9107" roadName="FGEX" roadNumber="9107" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s6" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6001" rfid="IDwik27n6fkb8a" load="Empty" />
+    <car id="FGEX9489" roadName="FGEX" roadNumber="9489" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s6" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6002" rfid="IDckbibr6gz0tp" load="Empty" />
+    <car id="FGEX9508" roadName="FGEX" roadNumber="9508" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6002" rfid="ID5nrvhdupqntb" load="Live Oysters" />
+    <car id="LV1748" roadName="LV" roadNumber="1748" type="XPV" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="2" value="6005" rfid="IDts2xkpg00klb" load="Break Bulk" />
+    <car id="LV2943" roadName="LV" roadNumber="2943" type="XP4" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6007" rfid="ID4x5kny56coo5" load="E" />
+    <car id="M&amp;P8833" roadName="M&amp;P" roadNumber="8833" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6002" rfid="IDclycg905q5ln" load="E" />
+    <car id="NYNH&amp;H9743" roadName="NYNH&amp;H" roadNumber="9743" type="GPx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6012" rfid="ID34a1u1vsp3" load="E" />
+    <car id="P&amp;R3022" roadName="P&amp;R" roadNumber="3022" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6001" rfid="ID7cyd8xxrj6la" load="E" />
+    <car id="P&amp;R54488" roadName="P&amp;R" roadNumber="54488" type="FP4" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6002" rfid="IDjtic46rhmpz1" load="Empty" />
+    <car id="P&amp;R8715" roadName="P&amp;R" roadNumber="8715" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6001" rfid="IDoeox5ql464n2" load="Break Bulk" />
+    <car id="PL3265" roadName="PL" roadNumber="3265" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6009" rfid="IDuasqpmn3fypy" load="E" />
+    <car id="PL44011" roadName="PL" roadNumber="44011" type="XPP" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s6" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="2" value="6003" rfid="IDjr19bqqn2wph" load="Empty" />
+    <car id="PL6762" roadName="PL" roadNumber="6762" type="FP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="1" value="6007" rfid="IDnz7soprathbb" load="lumber" />
+    <car id="PRR02" roadName="PRR" roadNumber="02" type="NPD" length="40" color="Generic" weightTons="36" locationId="2" secLocationId="2s1" lastRouteId="1" moves="2" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6013" rfid="IDholtbl9yjz0u" caboose="true" load="E" />
+    <car id="PRR0306" roadName="PRR" roadNumber="0306" type="GPD" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s1" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6002" rfid="IDpkuw6seoa5zy" load="Gravel" />
+    <car id="PRR0614" roadName="PRR" roadNumber="0614" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s6" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="2" value="6004" rfid="IDu1z3zjs2lhku" load="Coffee" />
+    <car id="PRR3990" roadName="PRR" roadNumber="3990" type="TPO" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="2" value="6006" rfid="IDwca3csv34nii" load="Fuel Oil" />
+    <car id="PRR5069" roadName="PRR" roadNumber="5069" type="Bdr" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="3" date="11/30/2023 16:30:45" selected="false" lastLocationId="1" value="6003" rfid="IDhwcqlocdlvxl" load="Live Oysters" />
+    <car id="PRR6249" roadName="PRR" roadNumber="6249" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" lastRouteId="1" moves="4" date="12/01/2023 21:27:45" selected="false" lastLocationId="2" value="6001" rfid="IDcsz7d9jlu7db" load="Cement" />
+    <car id="WJ&amp;S6433" roadName="WJ&amp;S" roadNumber="6433" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="3" date="12/01/2023 21:27:45" selected="false" lastLocationId="1" value="6005" rfid="IDuk5ipp2covs0" load="E" />
+  </cars>
+</operations-config>
