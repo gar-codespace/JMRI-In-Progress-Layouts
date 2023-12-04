@@ -1,203 +1,663 @@
-2023-11-18 08:23:42,339 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-11-18 08:23:42,355 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-11-18 08:23:42,355 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-11-18 08:23:42,355 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-11-18 08:23:42,355 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-11-18 08:23:42,387 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-18 08:23:42,387 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-18 08:23:42,765 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-11-18 08:23:42,786 - OPS.Main.Controller - INFO - Main script run time (sec): 0.425
-2023-11-18 08:23:52,210 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1700324632210,modifiers=Button1] on psButton
-2023-11-18 08:23:52,246 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-11-18 08:23:52,246 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-11-18 08:23:52,325 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-11-18 08:23:52,371 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-11-18 08:23:52,482 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-11-18 08:23:52,545 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-11-18 08:23:52,607 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-11-18 08:23:52,611 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-11-18 08:23:52,622 - OPS.OB.Translators - DEBUG - File found: Keys.py
-2023-11-18 08:23:52,622 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
-2023-11-18 08:23:54,013 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
-2023-11-18 08:23:54,091 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-11-18 08:23:54,138 - OPS.JP.Model - DEBUG - updateYearModeled
-2023-11-18 08:23:54,200 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-18 08:23:54,200 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-18 08:23:54,200 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-18 08:23:54,217 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 67M
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 78P
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 12L
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 68M
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 68Y
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: City Yardmaster
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 10L
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 35T
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 35Y
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 15L
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 98Y
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Northton Division
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Valley Branch
-2023-11-18 08:23:54,232 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 12Y
-2023-11-18 08:23:54,247 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 33Y
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 10Y
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 703
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Easton Division
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Westton Division
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 97M
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 33T
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 703Y
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 704Y
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 32B
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Downtown Yardmaster
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Exclude All
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 98M
-2023-11-18 08:23:54,250 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 99Y
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 704
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Train Service
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Easton
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Valley
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Weston
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Park
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Downtown
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Midway
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: City
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Junction
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Summit
-2023-11-18 08:23:54,263 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Northton
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Valley Branch
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Weston Division
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Easton Division
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Northton Division
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-11-18 08:23:54,279 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-11-18 08:23:54,279 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-11-18 08:23:54,295 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-11-18 08:23:54,295 - OPS.PT.Model - DEBUG - makeTrackRows
-2023-11-18 08:23:54,374 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-11-18 08:23:54,374 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-18 08:23:54,374 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-11-18 08:23:54,374 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-18 08:23:54,390 - OPS.SC.Model - DEBUG - recordSelection
-2023-11-18 08:50:53,618 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 67M
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 78P
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 12L
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 68M
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 68Y
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: City Yardmaster
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 10L
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 35T
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 35Y
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 15L
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 98Y
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Northton Division
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Valley Branch
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 12Y
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 33Y
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 10Y
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 703
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Easton Division
-2023-11-18 08:50:53,635 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Westton Division
-2023-11-18 08:50:53,651 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 97M
-2023-11-18 08:50:53,651 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 33T
-2023-11-18 08:50:53,651 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 703Y
-2023-11-18 08:50:53,651 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 704Y
-2023-11-18 08:50:53,651 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 32B
-2023-11-18 08:50:53,651 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 
-2023-11-18 08:50:53,651 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Downtown Yardmaster
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Exclude All
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 98M
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 99Y
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 704
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Train Service
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Ready Track
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coach Yard
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Cabin Track
-2023-11-18 08:50:53,667 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Roundhouse
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Repair
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Car Barn
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Easton
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E4
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E1
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E3
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E2
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Valley
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Roundhouse
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Produce
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Depot
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: General Delivery
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Off Spot
-2023-11-18 08:50:53,681 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Weston
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: W2
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: W3
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: W1
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Park
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Freight House
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Depot
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: General Delivery
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Off Spot
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Power House
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Fuel Oil
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Lumber
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Downtown
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform 3
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform 2
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Service Track
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: DX
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: DY
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: General Delivery
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Sand
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Ash
-2023-11-18 08:50:53,697 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform 4
-2023-11-18 08:50:53,711 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Ice
-2023-11-18 08:50:53,711 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Midway
-2023-11-18 08:50:53,711 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Interchange
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: City
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Valley
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Northton
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Easton
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Summit
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Downtown
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Park
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Hold 1
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 71
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 75
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 74
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 73
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 72
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Hold 2
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Junction
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Off Spot
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Depot
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Steel Products
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Summit
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: S2
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: S1
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Northton
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N4
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N3
-2023-11-18 08:50:53,713 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N1
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N2
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Valley Branch
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Weston Division
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Easton Division
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Northton Division
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-11-18 08:50:53,730 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-12-04 09:29:59,407 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-12-04 09:29:59,407 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-12-04 09:29:59,407 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-12-04 09:29:59,407 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-12-04 09:29:59,407 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-12-04 09:29:59,454 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-12-04 09:29:59,454 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-12-04 09:29:59,989 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-12-04 09:30:00,003 - OPS.Main.Controller - INFO - Main script run time (sec): 0.581
+2023-12-04 09:30:37,566 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1701711037567,modifiers=Button1] on psButton
+2023-12-04 09:30:37,645 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-12-04 09:30:37,651 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-12-04 09:30:37,756 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-12-04 09:30:37,803 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
+2023-12-04 09:30:37,921 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
+2023-12-04 09:30:37,963 - OPS.SC.Model - DEBUG - validateSequenceEntries
+2023-12-04 09:30:37,979 - OPS.SC.Model - INFO - Sequence entries validated
+2023-12-04 09:30:37,979 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
+2023-12-04 09:30:38,026 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
+2023-12-04 09:30:38,026 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-12-04 09:30:38,040 - OPS.OB.Translators - DEBUG - File found: Keys.py
+2023-12-04 09:30:38,040 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
+2023-12-04 09:30:39,980 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
+2023-12-04 09:30:40,059 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1374,6,502x287,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,486x248,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:30:40,089 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:30:40,200 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:30:40,200 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:30:40,200 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:30:40,217 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:30:40,233 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:30:40,233 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 67M
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 78P
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 12L
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 68M
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 68Y
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: City Yardmaster
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 10L
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 35T
+2023-12-04 09:30:40,249 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 35Y
+2023-12-04 09:30:40,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 15L
+2023-12-04 09:30:40,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 98Y
+2023-12-04 09:30:40,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Northton Division
+2023-12-04 09:30:40,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Valley Branch
+2023-12-04 09:30:40,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 12Y
+2023-12-04 09:30:40,255 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 33Y
+2023-12-04 09:30:40,259 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 10Y
+2023-12-04 09:30:40,259 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 703
+2023-12-04 09:30:40,259 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Easton Division
+2023-12-04 09:30:40,259 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Westton Division
+2023-12-04 09:30:40,265 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 97M
+2023-12-04 09:30:40,265 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 33T
+2023-12-04 09:30:40,265 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 703Y
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 704Y
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 32B
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Downtown Yardmaster
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Exclude All
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 98M
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 99Y
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: 704
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
+2023-12-04 09:30:40,269 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Train Service
+2023-12-04 09:30:40,280 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Easton
+2023-12-04 09:30:40,280 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Valley
+2023-12-04 09:30:40,282 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Weston
+2023-12-04 09:30:40,282 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Park
+2023-12-04 09:30:40,282 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Downtown
+2023-12-04 09:30:40,282 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Midway
+2023-12-04 09:30:40,282 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: City
+2023-12-04 09:30:40,282 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Junction
+2023-12-04 09:30:40,282 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Summit
+2023-12-04 09:30:40,288 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Northton
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Valley Branch
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Weston Division
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Easton Division
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Northton Division
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
+2023-12-04 09:30:40,289 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
+2023-12-04 09:30:40,296 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-12-04 09:30:40,296 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-12-04 09:30:40,312 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-12-04 09:30:40,361 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:30:40,361 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:30:40,378 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:30:40,378 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:30:40,391 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:31:32,295 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:31:32,323 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:31:32,369 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:31:32,369 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:31:32,385 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:31:32,394 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:31:32,401 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:31:59,990 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:31:59,996 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:32:00,114 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:32:00,117 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:32:00,138 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:32:00,161 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:32:00,183 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:32:02,319 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Extended Detail,when=1701711122319,modifiers=Button1] on extendedDetail
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Locations.txt file found
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Industries.txt file found
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Rolling Stock.txt file found
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - DEBUG - processLocationsHeader
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - DEBUG - processIndustriesHeader
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - DEBUG - processTpInventory
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - DEBUG - getLocationIds
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - DEBUG - getRrLocations
+2023-12-04 09:32:02,334 - OPS.o2o.ModelImport - DEBUG - getRrLocales
+2023-12-04 09:32:02,349 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
+2023-12-04 09:32:02,349 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
+2023-12-04 09:32:02,365 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
+2023-12-04 09:32:02,365 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
+2023-12-04 09:32:02,365 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
+2023-12-04 09:32:02,365 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
+2023-12-04 09:32:02,365 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
+2023-12-04 09:32:02,381 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
+2023-12-04 09:32:02,381 - OPS.o2o.ModelImport - DEBUG - writeLayoutData
+2023-12-04 09:32:02,413 - OPS.o2o.ModelImport - DEBUG - writeRollingStockData
+2023-12-04 09:32:02,413 - OPS.o2o.Model - DEBUG - _updateJmriProperties
+2023-12-04 09:32:02,420 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:32:02,444 - OPS.o2o.Model - INFO - JMRI railroad properties updated from TrainPlayer data
+2023-12-04 09:32:02,460 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:32:02,460 - OPS.JP.Model - DEBUG - makeCompositRailroadName
+2023-12-04 09:32:02,476 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:32:31,947 - OPS.PT.Model - DEBUG - divComboSelected
+2023-12-04 09:32:31,963 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-12-04 09:32:31,980 - OPS.PT.Model - DEBUG - locComboSelected
+2023-12-04 09:32:31,993 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-12-04 09:32:32,045 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-12-04 09:32:33,443 - OPS.PT.Model - DEBUG - locComboSelected
+2023-12-04 09:32:33,459 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-12-04 09:32:37,196 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:32:42,568 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701711162568,modifiers=Button1] on applyButton
+2023-12-04 09:32:42,568 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:32:42,584 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:32:42,584 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:32:42,584 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:32:42,584 - OPS.SC.Model - INFO - Number of engines sequenced: 1
+2023-12-04 09:32:42,584 - OPS.SC.Model - INFO - Number of cars sequenced: 18
+2023-12-04 09:33:10,605 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:33:10,621 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:33:10,663 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:33:10,663 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:33:10,663 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:33:10,678 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:33:10,687 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:33:12,813 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701711192814,modifiers=Button1] on applyButton
+2023-12-04 09:33:12,828 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:33:12,829 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:33:12,829 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:33:12,829 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:33:12,829 - OPS.SC.Model - INFO - Number of engines sequenced: 1
+2023-12-04 09:33:12,829 - OPS.SC.Model - INFO - Number of cars sequenced: 16
+2023-12-04 09:33:46,753 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:33:46,766 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:33:46,786 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:33:46,786 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:33:46,786 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:33:46,786 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:33:46,802 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:33:48,483 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701711228483,modifiers=Button1] on applyButton
+2023-12-04 09:33:48,483 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:33:48,483 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:33:48,483 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:33:48,513 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:33:48,529 - OPS.SC.Model - INFO - Number of engines sequenced: 1
+2023-12-04 09:33:48,529 - OPS.SC.Model - INFO - Number of cars sequenced: 22
+2023-12-04 09:34:10,391 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:34:10,403 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:34:10,427 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:34:10,427 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:34:10,438 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:34:10,438 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:34:10,438 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:34:13,996 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701711253996,modifiers=Button1] on applyButton
+2023-12-04 09:34:13,996 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:34:13,996 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:34:13,996 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:34:14,028 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:34:14,028 - OPS.SC.Model - INFO - Number of engines sequenced: 1
+2023-12-04 09:34:14,028 - OPS.SC.Model - INFO - Number of cars sequenced: 22
+2023-12-04 09:34:40,770 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:34:40,786 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:34:40,818 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:34:40,818 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:34:40,818 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:34:40,834 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:34:40,834 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:34:44,115 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=71,when=1701711284104,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:34:44,755 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=72,when=1701711284755,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:34:45,453 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=73,when=1701711285453,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:34:46,539 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=71,when=1701711286540,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:34:47,219 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=73,when=1701711287219,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:34:50,941 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Yard tracks only ,when=1701711290942,modifiers=Button1] on ytoCheckBox
+2023-12-04 09:34:50,941 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-12-04 09:34:57,121 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Yard tracks only ,when=1701711297121,modifiers=Button1] on ytoCheckBox
+2023-12-04 09:34:57,137 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-12-04 09:35:31,723 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:35:31,726 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:35:31,747 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:35:31,755 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:35:31,756 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:35:31,763 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:35:31,763 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:35:35,375 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=72,when=1701711335375,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:35:37,082 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701711337082,modifiers=Button1] on scButton
+2023-12-04 09:35:37,128 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:35:37,128 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:35:37,239 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:35:37,239 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:35:37,276 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 72
+2023-12-04 09:36:23,367 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:36:23,371 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:36:23,378 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:36:23,394 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:36:23,394 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:36:23,400 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:36:23,400 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:36:29,298 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Report,when=1701711389298,modifiers=Button1] on ypButton
+2023-12-04 09:36:29,348 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-12-04 09:36:29,348 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-12-04 09:36:29,361 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-12-04 09:36:29,361 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-12-04 09:36:30,226 - OPS.PT.Model - DEBUG - patternReportAsCsv
+2023-12-04 09:38:56,956 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:38:56,970 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:38:57,003 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:38:57,003 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:38:57,013 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:38:57,019 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:38:57,033 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:39:00,023 - OPS.OE.MainScriptListeners - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Edit Config File,when=1701711540018,modifiers=Button1] on ecItemSelected
+2023-12-04 09:39:17,061 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:39:17,066 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:39:17,091 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:39:17,091 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:39:17,095 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:39:17,102 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:39:17,111 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:39:19,793 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Report,when=1701711559794,modifiers=Button1] on ypButton
+2023-12-04 09:39:19,823 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-12-04 09:39:19,823 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-12-04 09:39:19,838 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-12-04 09:39:19,838 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-12-04 09:39:19,933 - OPS.PT.Model - DEBUG - patternReportAsCsv
+2023-12-04 09:40:13,328 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:40:13,342 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:40:13,375 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:40:13,375 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:40:13,390 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:40:13,390 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:40:13,390 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:40:26,801 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701711626801,modifiers=Button1] on scButton
+2023-12-04 09:40:26,818 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:40:26,818 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:40:26,832 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:40:26,848 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:40:26,872 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 72
+2023-12-04 09:40:48,778 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,100,800x741,invalid,hidden,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 72,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,784x702,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:40:48,793 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:40:48,823 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:40:48,825 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:40:48,839 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:40:48,839 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:40:48,855 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:41:18,470 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:41:18,486 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:41:18,500 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:41:18,515 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:41:18,516 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:41:18,516 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:41:18,530 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:41:26,970 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame1,1132,292,770x733,invalid,layout=java.awt.BorderLayout,title=JMRI System Console,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,754x694,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:41:26,979 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:41:27,002 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:41:27,002 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:41:27,017 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:41:27,017 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:41:27,032 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:41:27,081 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Initialize,when=1701711687081,modifiers=Button1] on self.qrCodeButton
+2023-12-04 09:41:27,081 - OPS.SC.Model - DEBUG - applyRfidData
+2023-12-04 09:43:06,760 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame1,1132,292,770x733,invalid,layout=java.awt.BorderLayout,title=JMRI System Console,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,754x694,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:43:06,760 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:43:06,809 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:43:06,809 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:43:06,809 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:43:06,825 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:43:06,825 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:43:06,888 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Cars,when=1701711786888,modifiers=Button1] on aoCars
+2023-12-04 09:43:06,888 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
+2023-12-04 09:43:06,888 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Locations.txt file found
+2023-12-04 09:43:06,888 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Industries.txt file found
+2023-12-04 09:43:06,904 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Rolling Stock.txt file found
+2023-12-04 09:43:06,904 - OPS.o2o.ModelImport - DEBUG - processLocationsHeader
+2023-12-04 09:43:06,904 - OPS.o2o.ModelImport - DEBUG - processIndustriesHeader
+2023-12-04 09:43:06,904 - OPS.o2o.ModelImport - DEBUG - processTpInventory
+2023-12-04 09:43:06,904 - OPS.o2o.ModelImport - DEBUG - getLocationIds
+2023-12-04 09:43:06,904 - OPS.o2o.ModelImport - DEBUG - getRrLocations
+2023-12-04 09:43:06,904 - OPS.o2o.ModelImport - DEBUG - getRrLocales
+2023-12-04 09:43:06,907 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
+2023-12-04 09:43:06,907 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
+2023-12-04 09:43:06,907 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
+2023-12-04 09:43:06,907 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
+2023-12-04 09:43:06,907 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
+2023-12-04 09:43:06,907 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
+2023-12-04 09:43:06,907 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
+2023-12-04 09:43:06,920 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
+2023-12-04 09:43:06,920 - OPS.o2o.ModelImport - DEBUG - writeLayoutData
+2023-12-04 09:43:06,930 - OPS.o2o.ModelImport - DEBUG - writeRollingStockData
+2023-12-04 09:43:06,947 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:43:06,950 - OPS.o2o.Model - DEBUG - addRoads
+2023-12-04 09:43:06,951 - OPS.o2o.Model - DEBUG - addCarAar
+2023-12-04 09:43:06,951 - OPS.o2o.Model - DEBUG - addCarLoads
+2023-12-04 09:43:06,951 - OPS.o2o.Model - DEBUG - addCabooseLoads
+2023-12-04 09:43:06,951 - OPS.o2o.Model - DEBUG - addPassengerLoads
+2023-12-04 09:43:06,951 - OPS.o2o.Model - DEBUG - addCarKernels
+2023-12-04 09:43:06,967 - OPS.o2o.Model - DEBUG - addLocoModels
+2023-12-04 09:43:06,967 - OPS.o2o.Model - DEBUG - addLocoTypes
+2023-12-04 09:43:06,967 - OPS.o2o.Model - DEBUG - addLocoConsist
+2023-12-04 09:43:06,967 - OPS.o2o.Model - INFO - New rolling stock attributes
+2023-12-04 09:43:06,967 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:43:06,967 - OPS.o2o.Model - DEBUG - updateRollingStock
+2023-12-04 09:43:06,977 - OPS.o2o.Model - DEBUG - updateBaseAttributes
+2023-12-04 09:43:07,013 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
+2023-12-04 09:43:07,013 - OPS.o2o.Model - DEBUG - scheduleApplicator
+2023-12-04 09:43:07,062 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
+2023-12-04 09:43:07,062 - OPS.o2o.Model - DEBUG - _updateJmriProperties
+2023-12-04 09:43:07,062 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:43:07,092 - OPS.o2o.Model - INFO - JMRI railroad properties updated from TrainPlayer data
+2023-12-04 09:43:09,306 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Initialize,when=1701711789291,modifiers=Button1] on self.qrCodeButton
+2023-12-04 09:43:09,306 - OPS.SC.Model - DEBUG - applyRfidData
+2023-12-04 09:46:04,490 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame1,1132,292,770x733,invalid,layout=java.awt.BorderLayout,title=JMRI System Console,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,754x694,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:46:04,526 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:46:04,565 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:46:04,565 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:46:04,565 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:46:04,575 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:46:04,575 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:46:04,701 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Initialize,when=1701711964702,modifiers=Button1] on self.qrCodeButton
+2023-12-04 09:46:04,701 - OPS.SC.Model - DEBUG - applyRfidData
+2023-12-04 09:46:18,381 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701711978382,modifiers=Button1] on applyButton
+2023-12-04 09:46:18,381 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:46:18,381 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:46:18,381 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:46:18,381 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:46:18,381 - OPS.SC.Model - INFO - Number of engines sequenced: 0
+2023-12-04 09:46:18,381 - OPS.SC.Model - INFO - Number of cars sequenced: 0
+2023-12-04 09:46:20,855 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701711980856,modifiers=Button1] on scButton
+2023-12-04 09:46:20,868 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:46:20,868 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:46:20,884 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:46:20,884 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:46:20,920 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 72
+2023-12-04 09:47:07,934 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,100,800x666,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 72,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,784x627,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:47:07,934 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:47:07,973 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:47:07,973 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:07,983 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:47:07,983 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:07,983 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:12,529 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Cars,when=1701712032529,modifiers=Button1] on aoCars
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Locations.txt file found
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Industries.txt file found
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Rolling Stock.txt file found
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - processLocationsHeader
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - processIndustriesHeader
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - processTpInventory
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - getLocationIds
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - getRrLocations
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - getRrLocales
+2023-12-04 09:47:12,529 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
+2023-12-04 09:47:12,546 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
+2023-12-04 09:47:12,546 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
+2023-12-04 09:47:12,546 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
+2023-12-04 09:47:12,546 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
+2023-12-04 09:47:12,562 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
+2023-12-04 09:47:12,562 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
+2023-12-04 09:47:12,562 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
+2023-12-04 09:47:12,562 - OPS.o2o.ModelImport - DEBUG - writeLayoutData
+2023-12-04 09:47:12,578 - OPS.o2o.ModelImport - DEBUG - writeRollingStockData
+2023-12-04 09:47:12,602 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:47:12,602 - OPS.o2o.Model - DEBUG - addRoads
+2023-12-04 09:47:12,602 - OPS.o2o.Model - DEBUG - addCarAar
+2023-12-04 09:47:12,608 - OPS.o2o.Model - DEBUG - addCarLoads
+2023-12-04 09:47:12,611 - OPS.o2o.Model - DEBUG - addCabooseLoads
+2023-12-04 09:47:12,611 - OPS.o2o.Model - DEBUG - addPassengerLoads
+2023-12-04 09:47:12,611 - OPS.o2o.Model - DEBUG - addCarKernels
+2023-12-04 09:47:12,611 - OPS.o2o.Model - DEBUG - addLocoModels
+2023-12-04 09:47:12,611 - OPS.o2o.Model - DEBUG - addLocoTypes
+2023-12-04 09:47:12,624 - OPS.o2o.Model - DEBUG - addLocoConsist
+2023-12-04 09:47:12,624 - OPS.o2o.Model - INFO - New rolling stock attributes
+2023-12-04 09:47:12,624 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:47:12,624 - OPS.o2o.Model - DEBUG - updateRollingStock
+2023-12-04 09:47:12,624 - OPS.o2o.Model - DEBUG - updateBaseAttributes
+2023-12-04 09:47:12,641 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
+2023-12-04 09:47:12,641 - OPS.o2o.Model - DEBUG - scheduleApplicator
+2023-12-04 09:47:12,693 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
+2023-12-04 09:47:12,693 - OPS.o2o.Model - DEBUG - _updateJmriProperties
+2023-12-04 09:47:12,693 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-04 09:47:12,703 - OPS.o2o.Model - INFO - JMRI railroad properties updated from TrainPlayer data
+2023-12-04 09:47:16,694 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Report,when=1701712036695,modifiers=Button1] on ypButton
+2023-12-04 09:47:16,729 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-12-04 09:47:16,729 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-12-04 09:47:16,740 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-12-04 09:47:16,740 - OPS.OE.TextReports - DEBUG - opsTextPatternReport
+2023-12-04 09:47:16,861 - OPS.PT.Model - DEBUG - patternReportAsCsv
+2023-12-04 09:47:24,740 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:47:24,740 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:47:24,756 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:47:24,756 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:24,770 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:47:24,770 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:24,779 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:25,970 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701712045970,modifiers=Button1] on scButton
+2023-12-04 09:47:25,986 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:47:25,986 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:47:26,036 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:47:26,036 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:47:26,065 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 72
+2023-12-04 09:47:31,739 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,100,800x666,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 72,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,784x627,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:47:31,743 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:47:31,759 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:47:31,759 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:31,773 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:47:31,773 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:31,773 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:33,313 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701712053314,modifiers=Button1] on applyButton
+2023-12-04 09:47:33,313 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:47:33,313 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:47:33,313 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:47:33,313 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:47:33,313 - OPS.SC.Model - INFO - Number of engines sequenced: 0
+2023-12-04 09:47:33,313 - OPS.SC.Model - INFO - Number of cars sequenced: 0
+2023-12-04 09:47:35,111 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701712055111,modifiers=Button1] on scButton
+2023-12-04 09:47:35,127 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:47:35,127 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:47:35,148 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:47:35,157 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:47:35,200 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 72
+2023-12-04 09:47:58,884 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[setCarsWindow,200,100,800x666,layout=java.awt.BorderLayout,title=Set Rolling Stock for track: 72,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,784x627,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:47:58,884 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:47:58,917 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:47:58,917 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:58,930 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:47:58,933 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:47:58,937 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:10,368 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:49:10,384 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:49:10,415 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:49:10,415 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:10,423 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:49:10,424 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:10,428 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:35,427 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:49:35,443 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:49:35,459 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:49:35,459 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:35,459 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:49:35,459 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:35,474 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:40,786 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame1,1132,292,770x733,invalid,layout=java.awt.BorderLayout,title=JMRI System Console,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,754x694,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:49:40,786 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:49:40,865 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:49:40,865 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:40,880 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:49:40,880 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:40,891 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:49:40,911 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701712180887,modifiers=Button1] on applyButton
+2023-12-04 09:49:40,911 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:49:40,911 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:49:40,911 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:49:40,953 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:49:40,953 - OPS.SC.Model - INFO - Number of engines sequenced: 1
+2023-12-04 09:49:40,953 - OPS.SC.Model - INFO - Number of cars sequenced: 18
+2023-12-04 09:49:44,872 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=71,when=1701712184873,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:49:45,332 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=72,when=1701712185333,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:49:46,582 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701712186582,modifiers=Button1] on scButton
+2023-12-04 09:49:46,604 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:49:46,604 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:49:46,630 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:49:46,630 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:49:46,665 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 71
+2023-12-04 09:50:59,115 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:50:59,115 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:50:59,148 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:50:59,157 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:50:59,161 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:50:59,164 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:50:59,164 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:51:01,930 - OPS.SC.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Apply,when=1701712261931,modifiers=Button1] on applyButton
+2023-12-04 09:51:01,930 - OPS.SC.Model - DEBUG - getScannerReportPath
+2023-12-04 09:51:01,947 - OPS.SC.Model - DEBUG - validateScanReport
+2023-12-04 09:51:01,947 - OPS.SC.Model - DEBUG - applyScanReport
+2023-12-04 09:51:01,966 - OPS.SC.Model - INFO - applyScanReport for scanner: City-Yard East Lead
+2023-12-04 09:51:01,966 - OPS.SC.Model - INFO - Number of engines sequenced: 1
+2023-12-04 09:51:01,966 - OPS.SC.Model - INFO - Number of cars sequenced: 16
+2023-12-04 09:51:03,948 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=71,when=1701712263949,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:51:04,737 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=72,when=1701712264738,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:51:05,924 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701712265925,modifiers=Button1] on scButton
+2023-12-04 09:51:05,937 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:51:05,940 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:51:05,956 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:51:05,956 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:51:05,986 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 72
+2023-12-04 09:51:43,322 - OPS.PT.ControllerSetCarsForm - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701712303322,modifiers=Button1] on javax.swing.JButton[,36,21,153x23,alignmentX=0.0,alignmentY=0.5,border=com.sun.java.swing.plaf.windows.XPStyle$XPEmptyBorder@3b9231fd,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Set Rolling Stock to Track,defaultCapable=true]
+2023-12-04 09:51:43,354 - OPS.PT.ControllerSetCarsForm - INFO - PASS - form validated
+2023-12-04 09:51:44,825 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-12-04 09:51:44,825 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-12-04 09:51:44,825 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-12-04 09:51:44,825 - OPS.SC.Model - DEBUG - resequenceCarsAtLocation
+2023-12-04 09:51:44,825 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.preProcess
+2023-12-04 09:51:44,836 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.process
+2023-12-04 09:51:44,836 - OPS.OE.PluginListeners - DEBUG - PluginListeners.TrainsPropertyChange.TrainsPropertyParser.postProcess
+2023-12-04 09:51:44,836 - OPS.SC.Model - DEBUG - resequenceCarsAtLocation
+2023-12-04 09:51:44,858 - OPS.PT.ModelSetCarsForm - INFO - Rolling stock count: 1, processed.
+2023-12-04 09:51:44,881 - OPS.PT.ControllerSetCarsForm - INFO - Set Cars to track
+2023-12-04 09:51:44,888 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[popupFrame,572,698,274x120,invalid,hidden,layout=java.awt.BorderLayout,title=Additional Choices,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,258x81,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:51:44,892 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-04 09:51:44,904 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-04 09:51:44,904 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:51:44,920 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-04 09:51:44,921 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:51:44,921 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-04 09:51:46,375 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=71,when=1701712306375,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:51:46,941 - OPS.PT.Model - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=72,when=1701712306942,modifiers=Button1] on jTrackCheckBox
+2023-12-04 09:51:47,898 - OPS.PT.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Set Rolling Stock to Track,when=1701712307898,modifiers=Button1] on scButton
+2023-12-04 09:51:47,914 - OPS.PT.GUI - DEBUG - makeSetCarsForTrackForm
+2023-12-04 09:51:47,914 - OPS.PT.GUI - DEBUG - makeSetCarsFormHeader
+2023-12-04 09:51:47,946 - OPS.PT.GUI - DEBUG - makeSetCarsScheduleRow
+2023-12-04 09:51:47,946 - OPS.PT.GUI - DEBUG - MakeSetCarsFooter
+2023-12-04 09:51:47,976 - OPS.PT.Controller - INFO - Set Rolling Stock Window created for track 71
+2023-12-04 09:52:36,098 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-04 09:52:36,108 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 67M
+2023-12-04 09:52:36,108 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 78P
+2023-12-04 09:52:36,108 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 12L
+2023-12-04 09:52:36,108 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 68M
+2023-12-04 09:52:36,108 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 68Y
+2023-12-04 09:52:36,108 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: City Yardmaster
+2023-12-04 09:52:36,108 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 10L
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 35T
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 35Y
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 15L
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 98Y
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Northton Division
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Valley Branch
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 12Y
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 33Y
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 10Y
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 703
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Easton Division
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Westton Division
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 97M
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 33T
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 703Y
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 704Y
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 32B
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Downtown Yardmaster
+2023-12-04 09:52:36,115 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Exclude All
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 98M
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 99Y
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: 704
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Train Service
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Ready Track
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coach Yard
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Cabin Track
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Roundhouse
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Repair
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Car Barn
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Easton
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E4
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E1
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E3
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: E2
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Valley
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Roundhouse
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Produce
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Depot
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: General Delivery
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Off Spot
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Weston
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: W2
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: W3
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: W1
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Park
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Freight House
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Depot
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: General Delivery
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Off Spot
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Power House
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Fuel Oil
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Lumber
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Downtown
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform 3
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform 2
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Service Track
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: DX
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: DY
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: General Delivery
+2023-12-04 09:52:36,131 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Sand
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry Crane
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Ash
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Platform 4
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Ice
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Midway
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Interchange
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: City
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Valley
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Northton
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Easton
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Summit
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Downtown
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: OB-Park
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Hold 1
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 71
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 75
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 74
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 73
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 72
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Hold 2
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Junction
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Off Spot
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Coal
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Depot
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Steel Products
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Summit
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: S2
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: S1
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Northton
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N4
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N3
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N1
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: N2
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Valley Branch
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Weston Division
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Easton Division
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Northton Division
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
+2023-12-04 09:52:36,147 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener
+2023-12-04 09:52:36,163 - OPS.OE.PSE - DEBUG - PSE.removePSWindowListener

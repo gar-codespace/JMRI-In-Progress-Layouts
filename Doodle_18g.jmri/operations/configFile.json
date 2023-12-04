@@ -16,11 +16,11 @@
       "ER": true, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 735, 
+      "PH": 728, 
       "PW": 1000, 
-      "PX": 0, 
-      "PY": 0, 
-      "RV": 20231009, 
+      "PX": 20, 
+      "PY": 290, 
+      "RV": 20231010, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -135,7 +135,11 @@
       }, 
       "HCP": " [ ] Hold", 
       "OC": true, 
-      "OT": false
+      "OPR": "pattern report ({}).{}", 
+      "OSL": "switch list ({}).{}", 
+      "OT": false, 
+      "OTL": "train list ({}).{}", 
+      "OWO": "work order ({}).{}"
     }
   }, 
   "Patterns": {
@@ -143,11 +147,25 @@
     "AL": [], 
     "AS": true, 
     "PA": false, 
-    "PD": null, 
+    "PD": "Weston Division", 
     "PH": 16, 
     "PI": true, 
-    "PL": null, 
-    "PT": {}, 
+    "PL": "City", 
+    "PT": {
+      "71": true, 
+      "72": false, 
+      "73": false, 
+      "74": false, 
+      "75": false, 
+      "Hold 1": false, 
+      "Hold 2": false, 
+      "OB-Downtown": false, 
+      "OB-Easton": false, 
+      "OB-Northton": false, 
+      "OB-Park": false, 
+      "OB-Summit": false, 
+      "OB-Valley": false
+    }, 
     "PW": 260, 
     "RD": "", 
     "RF": 8, 
@@ -174,7 +192,7 @@
     }
   }, 
   "Scanner": {
-    "SI": null, 
+    "SI": "City-Yard East Lead", 
     "SV": true, 
     "US": {
       "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
@@ -193,14 +211,14 @@
   "jPlus": {
     "LD": {
       "BD": "", 
-      "EH": false, 
-      "JN": "", 
+      "EH": true, 
+      "JN": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
       "LN": "", 
-      "LO": "", 
-      "OR": "", 
+      "LO": "Western Pennsylvania", 
+      "OR": "Pennsylvania Railroad", 
       "SC": "", 
-      "TR": "", 
-      "YR": ""
+      "TR": "Allegheny Region", 
+      "YR": "1938"
     }, 
     "SV": true, 
     "US": {}

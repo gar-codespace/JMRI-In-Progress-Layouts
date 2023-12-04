@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Nov 04 21:13:54 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Mon Dec 04 09:43:07 PST 2023-->
   <divisions>
     <division id="2" name="Easton Division" comment="" />
     <division id="1" name="Northton Division" comment="" />
@@ -265,7 +265,7 @@
         <locoType name="ESLP" />
         <locoType name="ESS" />
       </types>
-      <track id="3s1" name="Hold 2" trackType="Interchange" dir="15" length="1600" moves="144" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="3s1" name="Hold 2" trackType="Interchange" dir="15" length="1600" moves="177" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GB" />
@@ -1671,7 +1671,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="9s4" name="Roundhouse" trackType="Interchange" dir="15" length="5280" moves="6" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="9s4" name="Roundhouse" trackType="Interchange" dir="15" length="5280" moves="7" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <locoType name="ESHF" />
           <locoType name="ESHP" />
@@ -1718,7 +1718,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="9s9" name="Car Barn" trackType="Interchange" dir="15" length="1232" moves="6" pickupOption="trains" onlyCarWithFD="false">
+      <track id="9s9" name="Car Barn" trackType="Interchange" dir="15" length="1232" moves="7" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="NE" />
           <carType name="NM" />
