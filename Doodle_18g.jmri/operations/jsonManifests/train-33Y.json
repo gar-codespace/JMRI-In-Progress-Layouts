@@ -1,53 +1,2423 @@
 {
-  "railroad" : "Doodle 18g",
-  "userName" : "33Y",
-  "description" : "Build Valley Turn",
-  "locations" : [ {
-    "userName" : "Downtown",
-    "name" : "62r5",
-    "departureTime" : "13:15",
-    "location" : {
-      "comment" : "",
-      "name" : "4"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ ]
-    },
-    "track" : { },
-    "trainDirection" : 1,
-    "length" : {
-      "length" : 0,
-      "unit" : "Feet"
-    },
-    "weight" : 0,
-    "cars" : {
-      "add" : [ ],
-      "remove" : [ ],
-      "total" : 0,
-      "loads" : 0,
-      "empties" : 0
+  "comment": "Block: VP, VGD, VC, VD, JC, JS, JD", 
+  "date": "1938-12-12T17:13:52.400+00:00", 
+  "description": "Build Valley Turn", 
+  "locations": [
+    {
+      "cars": {
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX3251", 
+            "number": "3251", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDoy6613zn1xio", 
+            "road": "FGEX", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX9586", 
+            "number": "9586", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDv1wq1cfvnk4a", 
+            "road": "FGEX", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2534", 
+            "number": "2534", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDhnk8dtlbhkhy", 
+            "road": "FGEX", 
+            "sequence": "6003", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX0775", 
+            "number": "0775", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID5hsqgn36j9my", 
+            "road": "FGEX", 
+            "sequence": "6004", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX9138", 
+            "number": "9138", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfl6k2va0sr8a", 
+            "road": "FGEX", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2851", 
+            "number": "2851", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDruua2j4dp5c4", 
+            "road": "FGEX", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX8387", 
+            "number": "8387", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDh3v6ivoh1x1o", 
+            "road": "FGEX", 
+            "sequence": "6007", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX9060", 
+            "number": "9060", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDupn67kvttdm0", 
+            "road": "FGEX", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2420", 
+            "number": "2420", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDsptgk3fh144m", 
+            "road": "FGEX", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2746", 
+            "number": "2746", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDqdgfpxfowi9d", 
+            "road": "FGEX", 
+            "sequence": "6010", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2300", 
+            "number": "2300", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID4ln8kzuc6877", 
+            "road": "FGEX", 
+            "sequence": "6011", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX6135", 
+            "number": "6135", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID8fh29qr2osqc", 
+            "road": "FGEX", 
+            "sequence": "6012", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }
+        ], 
+        "empties": 0, 
+        "loads": 12, 
+        "remove": [], 
+        "total": 12
+      }, 
+      "comment": "", 
+      "departureTime": "13:15", 
+      "division": {
+        "userName": "Weston Division"
+      }, 
+      "engines": {
+        "add": [], 
+        "remove": []
+      }, 
+      "length": {
+        "length": 528, 
+        "unit": "Feet"
+      }, 
+      "location": {
+        "comment": "", 
+        "name": "4"
+      }, 
+      "name": "62r5", 
+      "track": {
+        "4s5": {
+          "add": "", 
+          "comment": "TrainPlayer ID:53"
+        }
+      }, 
+      "trainDirection": 1, 
+      "userName": "Downtown", 
+      "weight": 0
+    }, 
+    {
+      "TrainTerminatesIn": "City", 
+      "arrivalTime": "13:19", 
+      "cars": {
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Steel Products"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S3565", 
+            "number": "3565", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDkl56e079tvnx", 
+            "road": "WJ&S", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR1035", 
+            "number": "1035", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1zqhyvo8dxxb", 
+            "road": "PRR", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "SP2604", 
+            "number": "2604", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDcnl1flxniaxc", 
+            "road": "SP", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Steel Products"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PL5550", 
+            "number": "5550", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDinfczzltrxey", 
+            "road": "PL", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S5624", 
+            "number": "5624", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDvu9zh5u9cb6e", 
+            "road": "WJ&S", 
+            "sequence": "6011", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S6658", 
+            "number": "6658", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID7ps46r8j3ucq", 
+            "road": "WJ&S", 
+            "sequence": "6012", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "CS5981", 
+            "number": "5981", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID4i4e9zj9uy9v", 
+            "road": "CS", 
+            "sequence": "6013", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A1434", 
+            "number": "1434", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDg7y5wlzn92ig", 
+            "road": "B&A", 
+            "sequence": "6014", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "DL&W0237", 
+            "number": "0237", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1rq1sunkh7jn", 
+            "road": "DL&W", 
+            "sequence": "6015", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }
+        ], 
+        "remove": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX3251", 
+            "number": "3251", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDoy6613zn1xio", 
+            "road": "FGEX", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX9586", 
+            "number": "9586", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDv1wq1cfvnk4a", 
+            "road": "FGEX", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2534", 
+            "number": "2534", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDhnk8dtlbhkhy", 
+            "road": "FGEX", 
+            "sequence": "6003", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX0775", 
+            "number": "0775", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID5hsqgn36j9my", 
+            "road": "FGEX", 
+            "sequence": "6004", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Steel Products"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S3565", 
+            "number": "3565", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDkl56e079tvnx", 
+            "road": "WJ&S", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX9138", 
+            "number": "9138", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfl6k2va0sr8a", 
+            "road": "FGEX", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR1035", 
+            "number": "1035", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1zqhyvo8dxxb", 
+            "road": "PRR", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2851", 
+            "number": "2851", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDruua2j4dp5c4", 
+            "road": "FGEX", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX8387", 
+            "number": "8387", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDh3v6ivoh1x1o", 
+            "road": "FGEX", 
+            "sequence": "6007", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "SP2604", 
+            "number": "2604", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDcnl1flxniaxc", 
+            "road": "SP", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX9060", 
+            "number": "9060", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDupn67kvttdm0", 
+            "road": "FGEX", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Steel Products"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PL5550", 
+            "number": "5550", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDinfczzltrxey", 
+            "road": "PL", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2420", 
+            "number": "2420", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDsptgk3fh144m", 
+            "road": "FGEX", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2746", 
+            "number": "2746", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDqdgfpxfowi9d", 
+            "road": "FGEX", 
+            "sequence": "6010", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S5624", 
+            "number": "5624", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDvu9zh5u9cb6e", 
+            "road": "WJ&S", 
+            "sequence": "6011", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RS", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX2300", 
+            "number": "2300", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID4ln8kzuc6877", 
+            "road": "FGEX", 
+            "sequence": "6011", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S6658", 
+            "number": "6658", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID7ps46r8j3ucq", 
+            "road": "WJ&S", 
+            "sequence": "6012", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "RB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Produce"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "R6", 
+            "kernelSize": 12, 
+            "length": 40, 
+            "load": "Iced", 
+            "loadType": "load", 
+            "location": {
+              "name": "4", 
+              "route": "62r5", 
+              "track": {
+                "name": "4s5", 
+                "userName": "Ice"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "name": "FGEX6135", 
+            "number": "6135", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID8fh29qr2osqc", 
+            "road": "FGEX", 
+            "sequence": "6012", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "CS5981", 
+            "number": "5981", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID4i4e9zj9uy9v", 
+            "road": "CS", 
+            "sequence": "6013", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A1434", 
+            "number": "1434", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDg7y5wlzn92ig", 
+            "road": "B&A", 
+            "sequence": "6014", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s13", 
+                "userName": "OB-Valley"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "62r4", 
+              "track": {
+                "name": "3s4", 
+                "userName": "74"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "DL&W0237", 
+            "number": "0237", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1rq1sunkh7jn", 
+            "road": "DL&W", 
+            "sequence": "6015", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }
+        ]
+      }, 
+      "comment": "", 
+      "division": {
+        "userName": "Weston Division"
+      }, 
+      "engines": {
+        "add": [], 
+        "remove": []
+      }, 
+      "expectedDepartureTime": "14:49", 
+      "location": {
+        "comment": "", 
+        "name": "3"
+      }, 
+      "name": "62r4", 
+      "userName": "City"
     }
-  }, {
-    "userName" : "City",
-    "name" : "62r4",
-    "arrivalTime" : "13:19",
-    "expectedDepartureTime" : "13:19",
-    "location" : {
-      "comment" : "",
-      "name" : "3"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ ]
-    },
-    "TrainTerminatesIn" : "City",
-    "cars" : {
-      "add" : [ ],
-      "remove" : [ ]
-    }
-  } ],
-  "date" : "1938-11-04T07:16:11.278+00:00"
+  ], 
+  "railroad": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
+  "userName": "33Y"
 }

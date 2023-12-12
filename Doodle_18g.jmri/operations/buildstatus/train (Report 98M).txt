@@ -1,0 +1,297 @@
+ Build Report for train (98M) built on 12/9/23, 8:21 PM 
+ JMRI version 5.2+R760b98537f 
+  Build report detail level: Normal 
+   Build report detail level: Detailed 
+ 
+   Train Build Options: 
+   Build option is set to aggressive 
+   Perform 2 passes 
+   
+   Staging build options: 
+   The option to restrict staging to the same car types, roads, and loads as the train 
+   being built is enabled 
+   Make departure track available after train is built 
+   Prompt for Arrival Track into Staging 
+   
+   Car routing options: 
+   Car routing via yards is enabled 
+   Car routing through staging is enabled 
+   Use all Trains when Routing 
+   
+   Enabled build options for train (98M): 
+   Build loco consist from single locos 
+   0 HPT (Horsepower per Ton) when adding locos to train 
+   
+   Disabled build options for train (98M): 
+   Use normal mode when building this train 
+   Send all car pick ups to terminal (Easton) 
+   Allow local moves if car has a custom load or FD 
+   Allow cars to travel from origin to terminal 
+   Service all cars with a final destination (FD) 
+   Send cars with custom loads to staging 
+   
+  Train (98M) route (98M): 
+  75r1 Location (Train Service) Eastbound requests 5 pick ups, maximum train length 
+  3,000 feet 
+  75r2 Location (City) Eastbound requests 50 pick ups, maximum train length 3,000 feet 
+  75r3 Staging (Easton) Eastbound requests 50 set outs 
+ Route (98M) requests 52 cars and 105 moves 
+ 
+ Train requirements: 
+ Train departs (Train Service) with a single locomotive, model () road () 
+ Train must depart (Train Service) with caboose, road () 
+ 
+   Train (98M) services locomotive types: 
+   ESHF 
+   
+ Found 3 locomotives for train (98M) 
+   
+   
+   
+  
+ Train terminates into staging at (Easton), there are 4 tracks 
+   Staging track (E2) does not service this train 
+   Staging track (E3) does not service this train 
+   User selected arrival track (E4) at (Easton) 
+  
+   Search for 1 loco(s), model (), road (), departing (Train Service), destination 
+   (Easton) 
+   Loco (PRR 449) road (PRR) model (J1a) type (ESHF) at location (Train Service, 
+   Roundhouse) destination (Easton) 
+ Loco (PRR 449) assigned to train, departs (Train Service) destination (Easton, E4) 
+   
+   Train (98M) services car types: 
+   FM, GB, HK, NE, TM, XM 
+   
+ Found 34 cars for train (98M) 
+ Train (98M) requires caboose, road () departing (Train Service) destination (Easton) 
+   Find destinations for (PRR 308) type (NE) load (Occupied) at (Train Service, Cabin 
+   Track) 
+   Car (PRR 308) can go to staging (Easton, E4) 0/50 moves used 
+  Car (PRR 308) assigned to train, destination (Easton, E4) 
+  
+   Train does not require car with FRED 
+  
+  Requested cars (52) for train (98M) the number available (33) building train! 
+  
+  Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
+ Route location (Train Service) id 75r1 requests 2 pick ups, 4/5 moves are available 
+   
+   No cars available for pick up at location (Train Service) 
+   
+ Partial 0/2 cars at location (Train Service) assigned to train (98M) 
+ Route location (City) id 75r2 requests 25 pick ups, 50/50 moves are available 
+   
+   Car (M&P 2664) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (M&P 2664) doesn't have an assigned destination track 
+   Car (M&P 2664) assigned to staging track (E4) 
+  Car (M&P 2664) assigned to train, destination (Easton, E4) 
+  
+   Car (M&P 8641) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (M&P 8641) doesn't have an assigned destination track 
+   Car (M&P 8641) assigned to staging track (E4) 
+  Car (M&P 8641) assigned to train, destination (Easton, E4) 
+  
+   Car (ACL 1418) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (ACL 1418) doesn't have an assigned destination track 
+   Car (ACL 1418) assigned to staging track (E4) 
+  Car (ACL 1418) assigned to train, destination (Easton, E4) 
+  
+   Car (PRR 4766) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PRR 4766) doesn't have an assigned destination track 
+   Car (PRR 4766) assigned to staging track (E4) 
+  Car (PRR 4766) assigned to train, destination (Easton, E4) 
+  
+   Car (PRR 4752) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PRR 4752) doesn't have an assigned destination track 
+   Car (PRR 4752) assigned to staging track (E4) 
+  Car (PRR 4752) assigned to train, destination (Easton, E4) 
+  
+   Car (TELX 8228) type (TM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (TELX 8228) doesn't have an assigned destination track 
+   Car (TELX 8228) assigned to staging track (E4) 
+  Car (TELX 8228) assigned to train, destination (Easton, E4) 
+  
+   Car (PRR 2598) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PRR 2598) doesn't have an assigned destination track 
+   Car (PRR 2598) assigned to staging track (E4) 
+  Car (PRR 2598) assigned to train, destination (Easton, E4) 
+  
+   Car (PRR 7541) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PRR 7541) doesn't have an assigned destination track 
+   Car (PRR 7541) assigned to staging track (E4) 
+  Car (PRR 7541) assigned to train, destination (Easton, E4) 
+  
+   Car (M&P 3300) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (M&P 3300) doesn't have an assigned destination track 
+   Car (M&P 3300) assigned to staging track (E4) 
+  Car (M&P 3300) assigned to train, destination (Easton, E4) 
+  
+   Car (NYNH&H 8380) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (NYNH&H 8380) doesn't have an assigned destination track 
+   Car (NYNH&H 8380) assigned to staging track (E4) 
+  Car (NYNH&H 8380) assigned to train, destination (Easton, E4) 
+  
+   Car (TELX 4330) type (TM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (TELX 4330) doesn't have an assigned destination track 
+   Car (TELX 4330) assigned to staging track (E4) 
+  Car (TELX 4330) assigned to train, destination (Easton, E4) 
+  
+   Car (NYC 3866) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (NYC 3866) doesn't have an assigned destination track 
+   Car (NYC 3866) assigned to staging track (E4) 
+  Car (NYC 3866) assigned to train, destination (Easton, E4) 
+  
+   Car (NYNH&H 3502) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (NYNH&H 3502) doesn't have an assigned destination track 
+   Car (NYNH&H 3502) assigned to staging track (E4) 
+  Car (NYNH&H 3502) assigned to train, destination (Easton, E4) 
+  
+   Car (PRR 7482) type (TM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PRR 7482) doesn't have an assigned destination track 
+   Car (PRR 7482) assigned to staging track (E4) 
+  Car (PRR 7482) assigned to train, destination (Easton, E4) 
+  
+   Car (CNJ 5227) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (CNJ 5227) doesn't have an assigned destination track 
+   Car (CNJ 5227) assigned to staging track (E4) 
+  Car (CNJ 5227) assigned to train, destination (Easton, E4) 
+  
+   Car (M&P 6045) type (FM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (M&P 6045) doesn't have an assigned destination track 
+   Car (M&P 6045) assigned to staging track (E4) 
+  Car (M&P 6045) assigned to train, destination (Easton, E4) 
+  
+   Car (WJ&S 3268) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (WJ&S 3268) doesn't have an assigned destination track 
+   Car (WJ&S 3268) assigned to staging track (E4) 
+  Car (WJ&S 3268) assigned to train, destination (Easton, E4) 
+  
+   Car (PL 0919) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PL 0919) doesn't have an assigned destination track 
+   Car (PL 0919) assigned to staging track (E4) 
+  Car (PL 0919) assigned to train, destination (Easton, E4) 
+  
+   Car (ER 7904) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (ER 7904) doesn't have an assigned destination track 
+   Car (ER 7904) assigned to staging track (E4) 
+  Car (ER 7904) assigned to train, destination (Easton, E4) 
+  
+   Car (WJ&S 9592) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (WJ&S 9592) doesn't have an assigned destination track 
+   Car (WJ&S 9592) assigned to staging track (E4) 
+  Car (WJ&S 9592) assigned to train, destination (Easton, E4) 
+  
+   Car (B&A 5690) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (B&A 5690) doesn't have an assigned destination track 
+   Car (B&A 5690) assigned to staging track (E4) 
+  Car (B&A 5690) assigned to train, destination (Easton, E4) 
+  
+   Car (CS 6469) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (CS 6469) doesn't have an assigned destination track 
+   Car (CS 6469) assigned to staging track (E4) 
+  Car (CS 6469) assigned to train, destination (Easton, E4) 
+  
+   Car (P&R 8518) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (P&R 8518) doesn't have an assigned destination track 
+   Car (P&R 8518) assigned to staging track (E4) 
+  Car (P&R 8518) assigned to train, destination (Easton, E4) 
+  
+   Car (M&P 6808) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (M&P 6808) doesn't have an assigned destination track 
+   Car (M&P 6808) assigned to staging track (E4) 
+  Car (M&P 6808) assigned to train, destination (Easton, E4) 
+  
+   Car (PL 2963) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PL 2963) doesn't have an assigned destination track 
+   Car (PL 2963) assigned to staging track (E4) 
+  Car (PL 2963) assigned to train, destination (Easton, E4) 
+  
+ Success 25/25 cars at location (City) assigned to train (98M) 
+ Route location (Easton) id 75r3 no pick ups 
+  
+  Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
+ Route location (Train Service) id 75r1 requests 4 pick ups, 4/5 moves are available 
+   
+   No cars available for pick up at location (Train Service) 
+   
+ Partial 0/4 cars at location (Train Service) assigned to train (98M) 
+ Route location (City) id 75r2 requests 25 pick ups, 25/50 moves are available 
+   
+   Car (P&R 9149) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (P&R 9149) doesn't have an assigned destination track 
+   Car (P&R 9149) assigned to staging track (E4) 
+  Car (P&R 9149) assigned to train, destination (Easton, E4) 
+  
+   Car (TCX 7210) type (TM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (TCX 7210) doesn't have an assigned destination track 
+   Car (TCX 7210) assigned to staging track (E4) 
+  Car (TCX 7210) assigned to train, destination (Easton, E4) 
+  
+   Car (ER 7426) type (FM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (ER 7426) doesn't have an assigned destination track 
+   Car (ER 7426) assigned to staging track (E4) 
+  Car (ER 7426) assigned to train, destination (Easton, E4) 
+  
+   Car (WJ&S 5720) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (WJ&S 5720) doesn't have an assigned destination track 
+   Car (WJ&S 5720) assigned to staging track (E4) 
+  Car (WJ&S 5720) assigned to train, destination (Easton, E4) 
+  
+   Car (AT&SF 0204) type (GB) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (AT&SF 0204) doesn't have an assigned destination track 
+   Car (AT&SF 0204) assigned to staging track (E4) 
+  Car (AT&SF 0204) assigned to train, destination (Easton, E4) 
+  
+   Car (DL&W 7242) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (DL&W 7242) doesn't have an assigned destination track 
+   Car (DL&W 7242) assigned to staging track (E4) 
+  Car (DL&W 7242) assigned to train, destination (Easton, E4) 
+  
+   Car (PRR 9880) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PRR 9880) doesn't have an assigned destination track 
+   Car (PRR 9880) assigned to staging track (E4) 
+  Car (PRR 9880) assigned to train, destination (Easton, E4) 
+  
+   Car (PRR 5250) type (XM) load (Empty) at (City, OB-Easton) has final destination 
+   (Easton, ) routing begins 
+   Car (PRR 5250) doesn't have an assigned destination track 
+   Car (PRR 5250) assigned to staging track (E4) 
+  Car (PRR 5250) assigned to train, destination (Easton, E4) 
+  
+ Partial 8/25 cars at location (City) assigned to train (98M) 
+ Route location (Easton) id 75r3 no pick ups 
+ Partial 34/52 cars 
+   Build for train (98M) took 16 mSec 

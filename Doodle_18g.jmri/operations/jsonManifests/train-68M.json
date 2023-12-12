@@ -1,3083 +1,3729 @@
 {
-  "railroad" : "Doodle 18g",
-  "userName" : "68M",
-  "description" : "Northton Hauler",
-  "locations" : [ {
-    "userName" : "Train Service",
-    "name" : "69r7",
-    "departureTime" : "04:05",
-    "location" : {
-      "comment" : "",
-      "name" : "9"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ {
-        "name" : "PRR532",
-        "number" : "532",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "EEHF",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r7",
-          "track" : {
-            "userName" : "Car Barn",
-            "name" : "9s9"
+  "date": "1938-12-11T18:16:42.468+00:00", 
+  "description": "Northton Hauler", 
+  "locations": [
+    {
+      "cars": {
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": true, 
+            "carSubType": "", 
+            "carType": "NE", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "E", 
+            "loadType": "Empty", 
+            "location": {
+              "name": "9", 
+              "route": "69r7", 
+              "track": {
+                "name": "9s5", 
+                "userName": "Cabin Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR540", 
+            "number": "540", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDh37gb9nspp48", 
+            "road": "PRR", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
           }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
+        ], 
+        "empties": 1, 
+        "loads": 0, 
+        "remove": [], 
+        "total": 1
+      }, 
+      "comment": "", 
+      "departureTime": "04:05", 
+      "division": {
+        "userName": "Weston Division"
+      }, 
+      "engines": {
+        "add": [
+          {
+            "built": "", 
+            "carSubType": "", 
+            "carType": "EEHF", 
+            "color": "Generic", 
+            "comment": "", 
+            "consist": "", 
+            "dccAddress": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "length": 40, 
+            "location": {
+              "name": "9", 
+              "route": "69r7", 
+              "track": {
+                "name": "9s9", 
+                "userName": "Car Barn"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "model": "p5b", 
+            "name": "PRR486", 
+            "number": "486", 
+            "outOfService": false, 
+            "owner": "", 
+            "rfid": "IDrjvz2z7m24kp", 
+            "road": "PRR", 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "built": "", 
+            "carSubType": "", 
+            "carType": "EEHF", 
+            "color": "Generic", 
+            "comment": "", 
+            "consist": "", 
+            "dccAddress": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "length": 40, 
+            "location": {
+              "name": "9", 
+              "route": "69r7", 
+              "track": {
+                "name": "9s9", 
+                "userName": "Car Barn"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "model": "p5b", 
+            "name": "PRR410", 
+            "number": "410", 
+            "outOfService": false, 
+            "owner": "", 
+            "rfid": "IDzfd0dafmzj3t", 
+            "road": "PRR", 
+            "weight": 0.0, 
+            "weightTons": 0.0
           }
-        },
-        "model" : "p5b",
-        "consist" : ""
-      }, {
-        "name" : "PRR303",
-        "number" : "303",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "EEHF",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r7",
-          "track" : {
-            "userName" : "Car Barn",
-            "name" : "9s9"
+        ], 
+        "remove": []
+      }, 
+      "length": {
+        "length": 132, 
+        "unit": "Feet"
+      }, 
+      "location": {
+        "comment": "", 
+        "name": "9"
+      }, 
+      "name": "69r7", 
+      "track": {
+        "9s5": {
+          "add": "", 
+          "comment": "TrainPlayer ID:26"
+        }
+      }, 
+      "trainDirection": 1, 
+      "userName": "Train Service", 
+      "weight": 36
+    }, 
+    {
+      "arrivalTime": "04:09", 
+      "cars": {
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A5607", 
+            "number": "5607", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfjsdgb2h38ly", 
+            "road": "B&A", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "UTLX7837", 
+            "number": "7837", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDav9xozn7xs0m", 
+            "road": "UTLX", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR7291", 
+            "number": "7291", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDgztbxdxu9om8", 
+            "road": "PRR", 
+            "sequence": "6003", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "FM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR4961", 
+            "number": "4961", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1l1d5mmjfnuq", 
+            "road": "PRR", 
+            "sequence": "6004", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O8552", 
+            "number": "8552", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDu1re9eemwpjl", 
+            "road": "B&O", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC1635", 
+            "number": "1635", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDz0ppd39jt9yj", 
+            "road": "PGCC", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC5648", 
+            "number": "5648", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDa6iqcxz32ogk", 
+            "road": "PGCC", 
+            "sequence": "6007", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC3336", 
+            "number": "3336", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDgjmbudbdxymw", 
+            "road": "PGCC", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "FM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PL2128", 
+            "number": "2128", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDsjmozpnyvo9r", 
+            "road": "PL", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "P&R1166", 
+            "number": "1166", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID9k0uz2a2nyy", 
+            "road": "P&R", 
+            "sequence": "6010", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR5992", 
+            "number": "5992", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDi3bvh3o4l20e", 
+            "road": "PRR", 
+            "sequence": "6011", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "TCX1116", 
+            "number": "1116", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDv54ph7t8p25u", 
+            "road": "TCX", 
+            "sequence": "6012", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "ER2798", 
+            "number": "2798", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID3tlsfhu79m5h", 
+            "road": "ER", 
+            "sequence": "6013", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O3502", 
+            "number": "3502", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID10bvds002pz8", 
+            "road": "B&O", 
+            "sequence": "6014", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "CS3576", 
+            "number": "3576", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDzdvotguqei40", 
+            "road": "CS", 
+            "sequence": "6015", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "DL&W7977", 
+            "number": "7977", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDtg8duhmemrsy", 
+            "road": "DL&W", 
+            "sequence": "6016", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S3080", 
+            "number": "3080", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID3usuapsgqwcf", 
+            "road": "WJ&S", 
+            "sequence": "6017", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "NYNH&H0540", 
+            "number": "0540", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDg402cq00mwc0", 
+            "road": "NYNH&H", 
+            "sequence": "6018", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O8996", 
+            "number": "8996", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDpllsmgwgyy76", 
+            "road": "B&O", 
+            "sequence": "6019", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "FM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A2789", 
+            "number": "2789", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDntvhvpwj9i11", 
+            "road": "B&A", 
+            "sequence": "6020", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PL2120", 
+            "number": "2120", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDuko4kgpasf6j", 
+            "road": "PL", 
+            "sequence": "6021", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR7333", 
+            "number": "7333", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID9u5teexmp9u2", 
+            "road": "PRR", 
+            "sequence": "6022", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR6262", 
+            "number": "6262", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID8r1ikey8o2g6", 
+            "road": "PRR", 
+            "sequence": "6023", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "M&P5577", 
+            "number": "5577", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfoptm5gaur96", 
+            "road": "M&P", 
+            "sequence": "6024", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC7590", 
+            "number": "7590", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDtl0gmzawdpny", 
+            "road": "PGCC", 
+            "sequence": "6025", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "UTLX1758", 
+            "number": "1758", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID9rp82h8cqfy", 
+            "road": "UTLX", 
+            "sequence": "6026", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "TCX0510", 
+            "number": "0510", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID0zburxqnj9rj", 
+            "road": "TCX", 
+            "sequence": "6027", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O1107", 
+            "number": "1107", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDqods205cj5py", 
+            "road": "B&O", 
+            "sequence": "6028", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR6115", 
+            "number": "6115", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDi4sy8v97rncb", 
+            "road": "PRR", 
+            "sequence": "6029", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "P&R7136", 
+            "number": "7136", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID8nbptq9jr8s", 
+            "road": "P&R", 
+            "sequence": "6030", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
           }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
+        ], 
+        "empties": 1, 
+        "loads": 30, 
+        "remove": [], 
+        "total": 31
+      }, 
+      "comment": "", 
+      "division": {
+        "userName": "Weston Division"
+      }, 
+      "engines": {
+        "add": [], 
+        "remove": []
+      }, 
+      "expectedDepartureTime": "05:39", 
+      "length": {
+        "length": 1452, 
+        "unit": "Feet"
+      }, 
+      "location": {
+        "comment": "", 
+        "name": "3"
+      }, 
+      "name": "69r9", 
+      "track": {
+        "3s12": {
+          "add": "", 
+          "comment": "TrainPlayer ID:32"
+        }
+      }, 
+      "trainDirection": 1, 
+      "userName": "City", 
+      "weight": 36
+    }, 
+    {
+      "TrainTerminatesIn": "Northton", 
+      "arrivalTime": "05:43", 
+      "cars": {
+        "add": [], 
+        "remove": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A5607", 
+            "number": "5607", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfjsdgb2h38ly", 
+            "road": "B&A", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": true, 
+            "carSubType": "", 
+            "carType": "NE", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "E", 
+            "loadType": "Empty", 
+            "location": {
+              "name": "9", 
+              "route": "69r7", 
+              "track": {
+                "name": "9s5", 
+                "userName": "Cabin Track"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "name": "PRR540", 
+            "number": "540", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDh37gb9nspp48", 
+            "road": "PRR", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "UTLX7837", 
+            "number": "7837", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDav9xozn7xs0m", 
+            "road": "UTLX", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR7291", 
+            "number": "7291", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDgztbxdxu9om8", 
+            "road": "PRR", 
+            "sequence": "6003", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "FM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR4961", 
+            "number": "4961", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1l1d5mmjfnuq", 
+            "road": "PRR", 
+            "sequence": "6004", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O8552", 
+            "number": "8552", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDu1re9eemwpjl", 
+            "road": "B&O", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC1635", 
+            "number": "1635", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDz0ppd39jt9yj", 
+            "road": "PGCC", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC5648", 
+            "number": "5648", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDa6iqcxz32ogk", 
+            "road": "PGCC", 
+            "sequence": "6007", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC3336", 
+            "number": "3336", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDgjmbudbdxymw", 
+            "road": "PGCC", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "FM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PL2128", 
+            "number": "2128", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDsjmozpnyvo9r", 
+            "road": "PL", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "P&R1166", 
+            "number": "1166", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID9k0uz2a2nyy", 
+            "road": "P&R", 
+            "sequence": "6010", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR5992", 
+            "number": "5992", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDi3bvh3o4l20e", 
+            "road": "PRR", 
+            "sequence": "6011", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "TCX1116", 
+            "number": "1116", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDv54ph7t8p25u", 
+            "road": "TCX", 
+            "sequence": "6012", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "ER2798", 
+            "number": "2798", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID3tlsfhu79m5h", 
+            "road": "ER", 
+            "sequence": "6013", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O3502", 
+            "number": "3502", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID10bvds002pz8", 
+            "road": "B&O", 
+            "sequence": "6014", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "CS3576", 
+            "number": "3576", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDzdvotguqei40", 
+            "road": "CS", 
+            "sequence": "6015", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "DL&W7977", 
+            "number": "7977", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDtg8duhmemrsy", 
+            "road": "DL&W", 
+            "sequence": "6016", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S3080", 
+            "number": "3080", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID3usuapsgqwcf", 
+            "road": "WJ&S", 
+            "sequence": "6017", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "NYNH&H0540", 
+            "number": "0540", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDg402cq00mwc0", 
+            "road": "NYNH&H", 
+            "sequence": "6018", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O8996", 
+            "number": "8996", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDpllsmgwgyy76", 
+            "road": "B&O", 
+            "sequence": "6019", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "FM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A2789", 
+            "number": "2789", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDntvhvpwj9i11", 
+            "road": "B&A", 
+            "sequence": "6020", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PL2120", 
+            "number": "2120", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDuko4kgpasf6j", 
+            "road": "PL", 
+            "sequence": "6021", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR7333", 
+            "number": "7333", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID9u5teexmp9u2", 
+            "road": "PRR", 
+            "sequence": "6022", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR6262", 
+            "number": "6262", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID8r1ikey8o2g6", 
+            "road": "PRR", 
+            "sequence": "6023", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "M&P5577", 
+            "number": "5577", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDfoptm5gaur96", 
+            "road": "M&P", 
+            "sequence": "6024", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PGCC7590", 
+            "number": "7590", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDtl0gmzawdpny", 
+            "road": "PGCC", 
+            "sequence": "6025", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "UTLX1758", 
+            "number": "1758", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID9rp82h8cqfy", 
+            "road": "UTLX", 
+            "sequence": "6026", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "TCX0510", 
+            "number": "0510", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID0zburxqnj9rj", 
+            "road": "TCX", 
+            "sequence": "6027", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&O1107", 
+            "number": "1107", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDqods205cj5py", 
+            "road": "B&O", 
+            "sequence": "6028", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR6115", 
+            "number": "6115", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDi4sy8v97rncb", 
+            "road": "PRR", 
+            "sequence": "6029", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "HK", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "69r9", 
+              "track": {
+                "name": "3s12", 
+                "userName": "OB-Northton"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "P&R7136", 
+            "number": "7136", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID8nbptq9jr8s", 
+            "road": "P&R", 
+            "sequence": "6030", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
           }
-        },
-        "model" : "p5b",
-        "consist" : ""
-      } ],
-      "remove" : [ ]
-    },
-    "track" : {
-      "9s5" : {
-        "add" : "",
-        "comment" : "TrainPlayer ID:26"
-      }
-    },
-    "trainDirection" : 1,
-    "length" : {
-      "length" : 132,
-      "unit" : "Feet"
-    },
-    "weight" : 36,
-    "cars" : {
-      "add" : [ {
-        "name" : "PRR308",
-        "number" : "308",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "NE",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 36.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r7",
-          "track" : {
-            "userName" : "Cabin Track",
-            "name" : "9s5"
+        ]
+      }, 
+      "comment": "", 
+      "division": {
+        "userName": "Northton Division"
+      }, 
+      "engines": {
+        "add": [], 
+        "remove": [
+          {
+            "built": "", 
+            "carSubType": "", 
+            "carType": "EEHF", 
+            "color": "Generic", 
+            "comment": "", 
+            "consist": "", 
+            "dccAddress": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "length": 40, 
+            "location": {
+              "name": "9", 
+              "route": "69r7", 
+              "track": {
+                "name": "9s9", 
+                "userName": "Car Barn"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "model": "p5b", 
+            "name": "PRR486", 
+            "number": "486", 
+            "outOfService": false, 
+            "owner": "", 
+            "rfid": "IDrjvz2z7m24kp", 
+            "road": "PRR", 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "built": "", 
+            "carSubType": "", 
+            "carType": "EEHF", 
+            "color": "Generic", 
+            "comment": "", 
+            "consist": "", 
+            "dccAddress": "", 
+            "destination": {
+              "name": "1", 
+              "route": "69r8", 
+              "track": {
+                "name": "1s1", 
+                "userName": "N2"
+              }, 
+              "userName": "Northton"
+            }, 
+            "length": 40, 
+            "location": {
+              "name": "9", 
+              "route": "69r7", 
+              "track": {
+                "name": "9s9", 
+                "userName": "Car Barn"
+              }, 
+              "userName": "Train Service"
+            }, 
+            "model": "p5b", 
+            "name": "PRR410", 
+            "number": "410", 
+            "outOfService": false, 
+            "owner": "", 
+            "rfid": "IDzfd0dafmzj3t", 
+            "road": "PRR", 
+            "weight": 0.0, 
+            "weightTons": 0.0
           }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Occupied",
-        "hazardous" : false,
-        "caboose" : true,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      } ],
-      "remove" : [ ],
-      "total" : 1,
-      "loads" : 1,
-      "empties" : 0
+        ]
+      }, 
+      "expectedDepartureTime": "07:16", 
+      "location": {
+        "comment": "", 
+        "name": "1"
+      }, 
+      "name": "69r8", 
+      "userName": "Northton"
     }
-  }, {
-    "userName" : "City",
-    "name" : "69r9",
-    "arrivalTime" : "04:09",
-    "expectedDepartureTime" : "05:39",
-    "location" : {
-      "comment" : "",
-      "name" : "3"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ ]
-    },
-    "track" : {
-      "3s12" : {
-        "add" : "",
-        "comment" : "TrainPlayer ID:32"
-      }
-    },
-    "trainDirection" : 1,
-    "length" : {
-      "length" : 1452,
-      "unit" : "Feet"
-    },
-    "weight" : 36,
-    "cars" : {
-      "add" : [ {
-        "name" : "UTLX7837",
-        "number" : "7837",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX0510",
-        "number" : "0510",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PGCC5648",
-        "number" : "5648",
-        "road" : "PGCC",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR6262",
-        "number" : "6262",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7333",
-        "number" : "7333",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O3502",
-        "number" : "3502",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "M&P5577",
-        "number" : "5577",
-        "road" : "M&P",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7291",
-        "number" : "7291",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S3080",
-        "number" : "3080",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX1116",
-        "number" : "1116",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A5607",
-        "number" : "5607",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "UTLX1758",
-        "number" : "1758",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O0263",
-        "number" : "0263",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S6707",
-        "number" : "6707",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ9642",
-        "number" : "9642",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR4478",
-        "number" : "4478",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O5953",
-        "number" : "5953",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CS9474",
-        "number" : "9474",
-        "road" : "CS",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "M&P1712",
-        "number" : "1712",
-        "road" : "M&P",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "NYC9231",
-        "number" : "9231",
-        "road" : "NYC",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A0591",
-        "number" : "0591",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL8139",
-        "number" : "8139",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR0618",
-        "number" : "0618",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX2904",
-        "number" : "2904",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PGCC0575",
-        "number" : "0575",
-        "road" : "PGCC",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CS1725",
-        "number" : "1725",
-        "road" : "CS",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "P&R7172",
-        "number" : "7172",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER3741",
-        "number" : "3741",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL3944",
-        "number" : "3944",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O5501",
-        "number" : "5501",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      } ],
-      "remove" : [ ],
-      "total" : 31,
-      "loads" : 31,
-      "empties" : 0
-    }
-  }, {
-    "userName" : "Northton",
-    "name" : "69r8",
-    "arrivalTime" : "05:43",
-    "expectedDepartureTime" : "07:16",
-    "location" : {
-      "comment" : "",
-      "name" : "1"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ {
-        "name" : "PRR532",
-        "number" : "532",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "EEHF",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r7",
-          "track" : {
-            "userName" : "Car Barn",
-            "name" : "9s9"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "model" : "p5b",
-        "consist" : ""
-      }, {
-        "name" : "PRR303",
-        "number" : "303",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "EEHF",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r7",
-          "track" : {
-            "userName" : "Car Barn",
-            "name" : "9s9"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "model" : "p5b",
-        "consist" : ""
-      } ]
-    },
-    "TrainTerminatesIn" : "Northton",
-    "cars" : {
-      "add" : [ ],
-      "remove" : [ {
-        "name" : "UTLX7837",
-        "number" : "7837",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX0510",
-        "number" : "0510",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PGCC5648",
-        "number" : "5648",
-        "road" : "PGCC",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR6262",
-        "number" : "6262",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7333",
-        "number" : "7333",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O3502",
-        "number" : "3502",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "M&P5577",
-        "number" : "5577",
-        "road" : "M&P",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7291",
-        "number" : "7291",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S3080",
-        "number" : "3080",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX1116",
-        "number" : "1116",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A5607",
-        "number" : "5607",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "UTLX1758",
-        "number" : "1758",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O0263",
-        "number" : "0263",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S6707",
-        "number" : "6707",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ9642",
-        "number" : "9642",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR4478",
-        "number" : "4478",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O5953",
-        "number" : "5953",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CS9474",
-        "number" : "9474",
-        "road" : "CS",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "M&P1712",
-        "number" : "1712",
-        "road" : "M&P",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "NYC9231",
-        "number" : "9231",
-        "road" : "NYC",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A0591",
-        "number" : "0591",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL8139",
-        "number" : "8139",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR0618",
-        "number" : "0618",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX2904",
-        "number" : "2904",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PGCC0575",
-        "number" : "0575",
-        "road" : "PGCC",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CS1725",
-        "number" : "1725",
-        "road" : "CS",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "P&R7172",
-        "number" : "7172",
-        "road" : "P&R",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ER3741",
-        "number" : "3741",
-        "road" : "ER",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "ACL3944",
-        "number" : "3944",
-        "road" : "ACL",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O5501",
-        "number" : "5501",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "69r9",
-          "track" : {
-            "userName" : "OB-Northton",
-            "name" : "3s12"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR308",
-        "number" : "308",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "NE",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 36.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "Train Service",
-          "name" : "9",
-          "route" : "69r7",
-          "track" : {
-            "userName" : "Cabin Track",
-            "name" : "9s5"
-          }
-        },
-        "destination" : {
-          "userName" : "Northton",
-          "name" : "1",
-          "route" : "69r8",
-          "track" : {
-            "userName" : "N1",
-            "name" : "1s2"
-          }
-        },
-        "load" : "Occupied",
-        "hazardous" : false,
-        "caboose" : true,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : false,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      } ]
-    }
-  } ],
-  "date" : "1938-11-03T22:38:29.968+00:00"
+  ], 
+  "railroad": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
+  "userName": "68M"
 }

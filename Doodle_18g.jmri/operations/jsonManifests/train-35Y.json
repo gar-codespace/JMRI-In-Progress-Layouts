@@ -1,1509 +1,1712 @@
 {
-  "railroad" : "Doodle 18g",
-  "userName" : "35Y",
-  "description" : "Build Summit Turn",
-  "locations" : [ {
-    "userName" : "City",
-    "name" : "77r3",
-    "departureTime" : "13:20",
-    "location" : {
-      "comment" : "",
-      "name" : "3"
-    },
-    "comment" : "",
-    "engines" : {
-      "add" : [ ],
-      "remove" : [ ]
-    },
-    "TrainTerminatesIn" : "City",
-    "cars" : {
-      "add" : [ {
-        "name" : "PGCC5648",
-        "number" : "5648",
-        "road" : "PGCC",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "71",
-            "name" : "3s6"
+  "date": "2023-12-11T20:16:20.177+00:00", 
+  "description": "Build Summit Turn", 
+  "locations": [
+    {
+      "TrainTerminatesIn": "City", 
+      "cars": {
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S6658", 
+            "number": "6658", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID7ps46r8j3ucq", 
+            "road": "WJ&S", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s5", 
+                "userName": "75"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "DL&W0237", 
+            "number": "0237", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1rq1sunkh7jn", 
+            "road": "DL&W", 
+            "sequence": "6003", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S5624", 
+            "number": "5624", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDvu9zh5u9cb6e", 
+            "road": "WJ&S", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s5", 
+                "userName": "75"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A1434", 
+            "number": "1434", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDg7y5wlzn92ig", 
+            "road": "B&A", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Gantry Crane"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Tarp", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s5", 
+                "userName": "75"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR2476", 
+            "number": "2476", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDke20iawb23h7", 
+            "road": "PRR", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Lumber"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Milled timber", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "NYNH&H3285", 
+            "number": "3285", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID3ifpgm2znvog", 
+            "road": "NYNH&H", 
+            "sequence": "6013", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "SP2604", 
+            "number": "2604", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDcnl1flxniaxc", 
+            "road": "SP", 
+            "sequence": "6014", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "ACL7510", 
+            "number": "7510", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDsljrro2hsprx", 
+            "road": "ACL", 
+            "sequence": "6015", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Lumber"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Milled timber", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S7368", 
+            "number": "7368", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDwrk6njveiy3m", 
+            "road": "WJ&S", 
+            "sequence": "6017", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR1035", 
+            "number": "1035", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1zqhyvo8dxxb", 
+            "road": "PRR", 
+            "sequence": "6020", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Fuel Oil"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "fuel", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "TCX2539", 
+            "number": "2539", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDh3uefsvuk607", 
+            "road": "TCX", 
+            "sequence": "6022", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Fuel Oil"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "fuel", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "UTLX9520", 
+            "number": "9520", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDeuzvm9a02olu", 
+            "road": "UTLX", 
+            "sequence": "6023", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Sand"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "NYC0574", 
+            "number": "0574", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDbrnb8edkfnqc", 
+            "road": "NYC", 
+            "sequence": "6027", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Sand"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "ACL0395", 
+            "number": "0395", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDunwg4ffl8d4l", 
+            "road": "ACL", 
+            "sequence": "6028", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Sand"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S3512", 
+            "number": "3512", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDv08whycsptq8", 
+            "road": "WJ&S", 
+            "sequence": "6029", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
           }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
+        ], 
+        "remove": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S6658", 
+            "number": "6658", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID7ps46r8j3ucq", 
+            "road": "WJ&S", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s5", 
+                "userName": "75"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "DL&W0237", 
+            "number": "0237", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1rq1sunkh7jn", 
+            "road": "DL&W", 
+            "sequence": "6003", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S5624", 
+            "number": "5624", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDvu9zh5u9cb6e", 
+            "road": "WJ&S", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s5", 
+                "userName": "75"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "B&A1434", 
+            "number": "1434", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDg7y5wlzn92ig", 
+            "road": "B&A", 
+            "sequence": "6005", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Gantry Crane"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Tarp", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s5", 
+                "userName": "75"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR2476", 
+            "number": "2476", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDke20iawb23h7", 
+            "road": "PRR", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Lumber"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Milled timber", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "NYNH&H3285", 
+            "number": "3285", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID3ifpgm2znvog", 
+            "road": "NYNH&H", 
+            "sequence": "6013", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Junction"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "SP2604", 
+            "number": "2604", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDcnl1flxniaxc", 
+            "road": "SP", 
+            "sequence": "6014", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Depot"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "ACL7510", 
+            "number": "7510", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDsljrro2hsprx", 
+            "road": "ACL", 
+            "sequence": "6015", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Lumber"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Milled timber", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S7368", 
+            "number": "7368", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDwrk6njveiy3m", 
+            "road": "WJ&S", 
+            "sequence": "6017", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "XM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "General Delivery"
+              }, 
+              "userName": "Valley"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Merchandise", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "PRR1035", 
+            "number": "1035", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1zqhyvo8dxxb", 
+            "road": "PRR", 
+            "sequence": "6020", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Fuel Oil"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "fuel", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "TCX2539", 
+            "number": "2539", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDh3uefsvuk607", 
+            "road": "TCX", 
+            "sequence": "6022", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "TM", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Fuel Oil"
+              }, 
+              "userName": "Park"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "fuel", 
+            "loadType": "load", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "UTLX9520", 
+            "number": "9520", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDeuzvm9a02olu", 
+            "road": "UTLX", 
+            "sequence": "6023", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Sand"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "NYC0574", 
+            "number": "0574", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDbrnb8edkfnqc", 
+            "road": "NYC", 
+            "sequence": "6027", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Sand"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "ACL0395", 
+            "number": "0395", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDunwg4ffl8d4l", 
+            "road": "ACL", 
+            "sequence": "6028", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "GB", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s10", 
+                "userName": "OB-Summit"
+              }, 
+              "userName": "City"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": "Sand"
+              }, 
+              "userName": "Downtown"
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": true, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "3", 
+              "route": "77r3", 
+              "track": {
+                "name": "3s6", 
+                "userName": "71"
+              }, 
+              "userName": "City"
+            }, 
+            "name": "WJ&S3512", 
+            "number": "3512", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDv08whycsptq8", 
+            "road": "WJ&S", 
+            "sequence": "6029", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
           }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O0263",
-        "number" : "0263",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "71",
-            "name" : "3s6"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S6707",
-        "number" : "6707",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "72",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ9642",
-        "number" : "9642",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "72",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX0510",
-        "number" : "0510",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR6262",
-        "number" : "6262",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7333",
-        "number" : "7333",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "M&P5577",
-        "number" : "5577",
-        "road" : "M&P",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "UTLX1758",
-        "number" : "1758",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "UTLX7837",
-        "number" : "7837",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O3502",
-        "number" : "3502",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7291",
-        "number" : "7291",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX1116",
-        "number" : "1116",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A5607",
-        "number" : "5607",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S3080",
-        "number" : "3080",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "75",
-            "name" : "3s5"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      } ],
-      "remove" : [ {
-        "name" : "PGCC5648",
-        "number" : "5648",
-        "road" : "PGCC",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "71",
-            "name" : "3s6"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O0263",
-        "number" : "0263",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "71",
-            "name" : "3s6"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : null,
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S6707",
-        "number" : "6707",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "72",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "CNJ9642",
-        "number" : "9642",
-        "road" : "CNJ",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "72",
-            "name" : "3s2"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX0510",
-        "number" : "0510",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR6262",
-        "number" : "6262",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7333",
-        "number" : "7333",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "M&P5577",
-        "number" : "5577",
-        "road" : "M&P",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "UTLX1758",
-        "number" : "1758",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "73",
-            "name" : "3s3"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "UTLX7837",
-        "number" : "7837",
-        "road" : "UTLX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&O3502",
-        "number" : "3502",
-        "road" : "B&O",
-        "rfid" : "",
-        "carType" : "HK",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "PRR7291",
-        "number" : "7291",
-        "road" : "PRR",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "TCX1116",
-        "number" : "1116",
-        "road" : "TCX",
-        "rfid" : "",
-        "carType" : "TM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "B&A5607",
-        "number" : "5607",
-        "road" : "B&A",
-        "rfid" : "",
-        "carType" : "GB",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "74",
-            "name" : "3s4"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      }, {
-        "name" : "WJ&S3080",
-        "number" : "3080",
-        "road" : "WJ&S",
-        "rfid" : "",
-        "carType" : "XM",
-        "carSubType" : "",
-        "length" : 40,
-        "weight" : 0.0,
-        "weightTons" : 0.0,
-        "color" : "Generic",
-        "owner" : "",
-        "built" : "",
-        "comment" : "",
-        "outOfService" : false,
-        "location" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "75",
-            "name" : "3s5"
-          }
-        },
-        "destination" : {
-          "userName" : "City",
-          "name" : "3",
-          "route" : "77r3",
-          "track" : {
-            "userName" : "OB-Summit",
-            "name" : "3s10"
-          }
-        },
-        "load" : "Empty",
-        "hazardous" : false,
-        "caboose" : false,
-        "passenger" : false,
-        "fred" : false,
-        "removeComment" : "",
-        "addComment" : "",
-        "kernel" : "",
-        "utility" : false,
-        "isLocal" : true,
-        "finalDestination" : {
-          "userName" : "Summit",
-          "name" : "2",
-          "route" : null
-        },
-        "returnWhenEmpty" : null,
-        "status" : ""
-      } ]
+        ]
+      }, 
+      "comment": "", 
+      "departureTime": "13:20", 
+      "division": {
+        "userName": "Weston Division"
+      }, 
+      "engines": {
+        "add": [], 
+        "remove": []
+      }, 
+      "location": {
+        "comment": "", 
+        "name": "3"
+      }, 
+      "name": "77r3", 
+      "userName": "City"
     }
-  } ],
-  "date" : "1938-11-02T23:26:49.025+00:00"
+  ], 
+  "railroad": "", 
+  "userName": "35Y"
 }

@@ -1,0 +1,81 @@
+ Build Report for train (78X) built on 12/12/23, 12:27 PM 
+ JMRI version 5.2+R760b98537f 
+  Build report detail level: Normal 
+   Build report detail level: Detailed 
+ 
+   Train Build Options: 
+   Build option is set to aggressive 
+   Perform 2 passes 
+   Make departure track available after train is built 
+   
+   Staging build options: 
+   The option to restrict staging to the same car types, roads, and loads as the train 
+   being built is enabled 
+   Make departure track available after train is built 
+   Prompt for Departure Track from Staging 
+   Prompt for Arrival Track into Staging 
+   
+   Car routing options: 
+   Car routing via yards is enabled 
+   Use all Trains when Routing 
+   
+   Enabled build options for train (78X): 
+   Allow cars to travel from origin to terminal 
+   Send cars with custom loads to staging 
+   Build loco consist from single locos 
+   0 HPT (Horsepower per Ton) when adding locos to train 
+   
+   Disabled build options for train (78X): 
+   Use normal mode when building this train 
+   Send all car pick ups to terminal (Easton) 
+   Allow local moves if car has a custom load or FD 
+   Service all cars with a final destination (FD) 
+   
+  Train (78X) route (78X): 
+  61r7 Staging (Weston) Eastbound request 50 pick ups, maximum train length 3,000 feet 
+  61r11 Location (Downtown) Eastbound requests 55 moves, maximum train length 3,000 feet 
+  61r9 Location (Train Service) Eastbound requests 3 moves, maximum train length 3,000 
+  feet 
+  61r10 Staging (Easton) Eastbound requests 50 set outs 
+ Route (78X) requests 79 cars and 158 moves 
+ 
+ Train requirements: 
+ Train departs (Weston) with 2 consisted locomotives, model () road () 
+ Locomotive change at (Train Service), departs with 2 loco(s), model (K4s) road () 
+ Train must depart (Weston) with caboose, road () 
+ 
+   Train (78X) services locomotive types: 
+   ESHF, ESHP 
+   
+ Found 11 locomotives for train (78X) 
+   
+   
+   
+   
+  
+ Train terminates into staging at (Easton), there are 4 tracks 
+   Staging track (E1) does not service this train 
+   Staging track (E3) does not accept type (NE) 
+   Staging track (E4) does not service this train 
+  
+ Train will depart staging (Weston), there are 3 tracks 
+  Staging track (W1) does not service this train 
+  Staging track (W3) does not service this train 
+   Only one departure track (W2) available out of staging (Weston) 
+  
+   Search for 2 loco(s), model (), road (), departing (Weston), destination (Train 
+   Service) 
+ Loco (PRR 208) assigned to train, departs (Weston) destination (Train Service, 
+ Roundhouse) 
+ Loco (PRR 758) assigned to train, departs (Weston) destination (Train Service, 
+ Roundhouse) 
+  
+  Locomotive change at (Train Service), departs with 2 loco(s), model (K4s) road () 
+   Search for 2 loco(s), model (K4s), road (), departing (Train Service), destination 
+   (Easton) 
+   Option to build consist with 2 locos departing (Train Service) is enabled 
+   There are 3 single locomotives at (Train Service) that meet this train's requirements 
+   Requested locomotives not found at location (Train Service) 
+ Train requires 2 loco(s), could not pick up at departure (Train Service) or set out 
+ at (Easton) 
+ Build failed for train (78X) 

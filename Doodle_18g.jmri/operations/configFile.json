@@ -16,10 +16,10 @@
       "ER": true, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 728, 
+      "PH": 598, 
       "PW": 1000, 
-      "PX": 20, 
-      "PY": 290, 
+      "PX": 11, 
+      "PY": 425, 
       "RV": 20231010, 
       "SE": "utf-8", 
       "TC": "UD", 
@@ -153,10 +153,10 @@
     "PL": "City", 
     "PT": {
       "71": true, 
-      "72": false, 
-      "73": false, 
-      "74": false, 
-      "75": false, 
+      "72": true, 
+      "73": true, 
+      "74": true, 
+      "75": true, 
       "Hold 1": false, 
       "Hold 2": false, 
       "OB-Downtown": false, 
@@ -182,17 +182,19 @@
       "SC": {
         "destination userName": 0, 
         "division": 0, 
-        "finalDestination userName": 2, 
-        "loadType": 1, 
+        "finalDestination userName": 1, 
+        "loadType": 2, 
         "road": 0
       }, 
       "SL": {
-        "model": 1
+        "destination userName": 0, 
+        "model": 1, 
+        "road": 0
       }
     }
   }, 
   "Scanner": {
-    "SI": "City-Yard East Lead", 
+    "SI": "Easton-Arrivals", 
     "SV": true, 
     "US": {
       "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
@@ -204,6 +206,18 @@
       [
         "", 
         ""
+      ], 
+      [
+        "2023.12.11.11.14.59", 
+        "initial"
+      ], 
+      [
+        "2023.12.12.07.23.34", 
+        "second"
+      ], 
+      [
+        "2023.12.12.11.48.25", 
+        "third"
       ]
     ], 
     "US": {}
@@ -220,7 +234,7 @@
       "TR": "Allegheny Region", 
       "YR": "1938"
     }, 
-    "SV": true, 
+    "SV": false, 
     "US": {}
   }, 
   "o2o": {
@@ -316,7 +330,7 @@
       "RCL": true, 
       "SCL": true
     }, 
-    "SV": true, 
+    "SV": false, 
     "TO": {
       "ASE": true, 
       "CWS": true, 

@@ -1,66 +1,109 @@
-2023-12-08 08:53:11,407 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
-2023-12-08 08:53:11,407 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
-2023-12-08 08:53:11,407 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
-2023-12-08 08:53:11,407 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
-2023-12-08 08:53:11,407 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
-2023-12-08 08:53:11,447 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-12-08 08:53:11,456 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-12-08 08:53:11,884 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
-2023-12-08 08:53:11,901 - OPS.Main.Controller - INFO - Main script run time (sec): 0.482
-2023-12-08 08:53:16,318 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1702054396318,modifiers=Button1] on psButton
-2023-12-08 08:53:16,397 - OPS.OB.Bundle - INFO - Stub location already exists
-2023-12-08 08:53:16,398 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
-2023-12-08 08:53:16,519 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
-2023-12-08 08:53:16,582 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
-2023-12-08 08:53:16,742 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
-2023-12-08 08:53:16,780 - OPS.SC.Model - DEBUG - validateSequenceEntries
-2023-12-08 08:53:16,786 - OPS.SC.Model - INFO - Sequence entries validated
-2023-12-08 08:53:16,786 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
-2023-12-08 08:53:16,842 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
-2023-12-08 08:53:16,851 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
-2023-12-08 08:53:16,851 - OPS.OB.Translators - DEBUG - File found: Keys.py
-2023-12-08 08:53:16,851 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
-2023-12-08 08:53:18,411 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
-2023-12-08 08:53:18,496 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1402,5,518x281,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,502x242,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
-2023-12-08 08:53:18,545 - OPS.JP.Model - DEBUG - updateYearModeled
-2023-12-08 08:53:18,608 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-12-08 08:53:18,608 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-12-08 08:53:18,624 - OPS.SC.Model - DEBUG - recordSelection
-2023-12-08 08:53:18,624 - OPS.SC.Model - DEBUG - recordSelection
-2023-12-08 08:53:18,644 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-12-08 08:53:18,644 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Basin St Switcher
-2023-12-08 08:53:18,644 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
-2023-12-08 08:53:18,644 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
-2023-12-08 08:53:18,655 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: MUTT
-2023-12-08 08:53:18,657 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Basin Street
-2023-12-08 08:53:18,657 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
-2023-12-08 08:53:18,657 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Coast Division
-2023-12-08 08:53:18,657 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
-2023-12-08 08:53:18,657 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
-2023-12-08 08:53:18,657 - OPS.PT.Model - DEBUG - divComboUpdater
-2023-12-08 08:53:18,671 - OPS.PT.Model - DEBUG - locComboUpdater
-2023-12-08 08:53:18,671 - OPS.PT.Model - DEBUG - makeTrackRows
-2023-12-08 08:53:18,744 - OPS.SC.Model - DEBUG - scannerComboUpdater
-2023-12-08 08:53:18,744 - OPS.SC.Model - DEBUG - recordSelection
-2023-12-08 08:53:18,750 - OPS.SC.Model - DEBUG - _updateScannerList
-2023-12-08 08:53:18,750 - OPS.SC.Model - DEBUG - recordSelection
-2023-12-08 08:53:18,766 - OPS.SC.Model - DEBUG - recordSelection
-2023-12-08 08:54:04,073 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
-2023-12-08 08:54:04,073 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Basin St Switcher
-2023-12-08 08:54:04,088 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
-2023-12-08 08:54:04,088 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: MUTT
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: South Yard
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Basin Street
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Cement
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Basin St Stores
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 7th St Stores
-2023-12-08 08:54:04,091 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th St Pier
-2023-12-08 08:54:04,105 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
-2023-12-08 08:54:04,105 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry
-2023-12-08 08:54:04,105 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
-2023-12-08 08:54:04,105 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
-2023-12-08 08:54:04,105 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Coast Division
-2023-12-08 08:54:04,119 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
-2023-12-08 08:54:04,122 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners
+2023-12-12 07:35:55,176 - OPS.Main.Controller - DEBUG - Initialize log file - DEBUG level test message
+2023-12-12 07:35:55,190 - OPS.Main.Controller - INFO - Initialize log file - INFO level test message
+2023-12-12 07:35:55,190 - OPS.Main.Controller - WARNING - Initialize log file - WARNING level test message
+2023-12-12 07:35:55,190 - OPS.Main.Controller - ERROR - Initialize log file - ERROR level test message
+2023-12-12 07:35:55,190 - OPS.Main.Controller - CRITICAL - Initialize log file - CRITICAL level test message
+2023-12-12 07:35:55,230 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-12-12 07:35:55,239 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-12-12 07:35:55,632 - OPS.Main.Controller - INFO - Current Pattern Scripts directory: C:\Users\greg9\JMRI\OperationsPatternScripts
+2023-12-12 07:35:55,664 - OPS.Main.Controller - INFO - Main script run time (sec): 0.473
+2023-12-12 07:36:12,095 - OPS.Main.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Pattern Scripts,when=1702395372095,modifiers=Button1] on psButton
+2023-12-12 07:36:12,188 - OPS.OB.Bundle - INFO - Stub location already exists
+2023-12-12 07:36:12,188 - OPS.OB.Bundle - DEBUG - CreateStubFile.writeStubFile
+2023-12-12 07:36:12,332 - OPS.JP.Controller - INFO - Subroutines_Activated.jPlus makeFrame completed
+2023-12-12 07:36:12,394 - OPS.o2o.Controller - INFO - Subroutines_Activated.o2o makeFrame completed
+2023-12-12 07:36:12,520 - OPS.PT.Controller - INFO - Subroutines_Activated.Patterns makeFrame completed
+2023-12-12 07:36:12,584 - OPS.SC.Model - DEBUG - validateSequenceEntries
+2023-12-12 07:36:12,584 - OPS.SC.Model - INFO - Sequence entries validated
+2023-12-12 07:36:12,584 - OPS.SC.Controller - INFO - Subroutines_Activated.Scanner makeFrame completed
+2023-12-12 07:36:12,651 - OPS.TB.Controller - INFO - Subroutines_Activated.Throwback makeFrame completed
+2023-12-12 07:36:12,651 - OPS.Main.View - DEBUG - _makePatternScriptsGUI
+2023-12-12 07:36:12,664 - OPS.OB.Translators - DEBUG - File found: Keys.py
+2023-12-12 07:36:12,664 - OPS.OB.Translators - DEBUG - Validated attribute: Keys.DEEPL_KEY
+2023-12-12 07:36:14,335 - OPS.OB.Translators - DEBUG - Validated key: Keys.DEEPL_KEY
+2023-12-12 07:36:14,413 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=jmri.util.JmriJFrame[frame0,1402,5,518x281,layout=java.awt.BorderLayout,title=PanelPro,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,502x242,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true],oldState=0,newState=0] on PatternScriptsFrame
+2023-12-12 07:36:14,460 - OPS.JP.Model - DEBUG - updateYearModeled
+2023-12-12 07:36:14,539 - OPS.SC.Model - DEBUG - _validateScannerLocation
+2023-12-12 07:36:14,539 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-12 07:36:14,539 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-12 07:36:14,553 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-12 07:36:14,553 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-12 07:36:14,569 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-12 07:36:14,569 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainListener: Basin St Switcher
+2023-12-12 07:36:14,569 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addTrainsTableListener
+2023-12-12 07:36:14,569 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Unreported
+2023-12-12 07:36:14,569 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: MUTT
+2023-12-12 07:36:14,569 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationListener: Basin Street
+2023-12-12 07:36:14,569 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addLocationsTableListener
+2023-12-12 07:36:14,585 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionListener: Coast Division
+2023-12-12 07:36:14,585 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addDivisionsTableListener
+2023-12-12 07:36:14,585 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.addSubroutineListeners
+2023-12-12 07:36:14,585 - OPS.PT.Model - DEBUG - divComboUpdater
+2023-12-12 07:36:14,585 - OPS.PT.Model - DEBUG - locComboUpdater
+2023-12-12 07:36:14,601 - OPS.PT.Model - DEBUG - makeTrackRows
+2023-12-12 07:36:14,654 - OPS.SC.Model - DEBUG - _validateScannerLocation
+2023-12-12 07:36:14,664 - OPS.SC.Model - DEBUG - scannerComboUpdater
+2023-12-12 07:36:14,664 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-12 07:36:14,664 - OPS.SC.Model - DEBUG - _updateScannerList
+2023-12-12 07:36:14,664 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-12 07:36:14,680 - OPS.SC.Model - DEBUG - recordSelection
+2023-12-12 07:36:16,545 - OPS.o2o.Controller - DEBUG - java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Cars,when=1702395376545,modifiers=Button1] on aoCars
+2023-12-12 07:36:16,545 - OPS.o2o.ModelImport - DEBUG - getTpReportFiles
+2023-12-12 07:36:16,545 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Locations.txt file found
+2023-12-12 07:36:16,545 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Industries.txt file found
+2023-12-12 07:36:16,545 - OPS.o2o.ModelImport - INFO - TrainPlayer Report - Rolling Stock.txt file found
+2023-12-12 07:36:16,545 - OPS.o2o.ModelImport - DEBUG - processLocationsHeader
+2023-12-12 07:36:16,559 - OPS.o2o.ModelImport - DEBUG - processIndustriesHeader
+2023-12-12 07:36:16,559 - OPS.o2o.ModelImport - DEBUG - processTpInventory
+2023-12-12 07:36:16,559 - OPS.o2o.ModelImport - DEBUG - getLocationIds
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getRrLocations
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getRrLocales
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getAllTpRoads
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getAllTpIndustry
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getAllTpCarAar
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getAllTpCarLoads
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getAllTpCarKernels
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoTypes
+2023-12-12 07:36:16,561 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoModels
+2023-12-12 07:36:16,576 - OPS.o2o.ModelImport - DEBUG - getAllTpLocoConsists
+2023-12-12 07:36:16,576 - OPS.o2o.ModelImport - DEBUG - writeLayoutData
+2023-12-12 07:36:16,592 - OPS.o2o.ModelImport - DEBUG - writeRollingStockData
+2023-12-12 07:36:16,592 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-12 07:36:16,592 - OPS.o2o.Model - DEBUG - addRoads
+2023-12-12 07:36:16,592 - OPS.o2o.Model - DEBUG - addCarAar
+2023-12-12 07:36:16,592 - OPS.o2o.Model - DEBUG - addCarLoads
+2023-12-12 07:36:16,592 - OPS.o2o.Model - DEBUG - addCabooseLoads
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - addPassengerLoads
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - addCarKernels
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - addLocoModels
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - addLocoTypes
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - addLocoConsist
+2023-12-12 07:36:16,608 - OPS.o2o.Model - INFO - New rolling stock attributes
+2023-12-12 07:36:16,608 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - updateRollingStock
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - updateBaseAttributes
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - setBaseLocoAttribs
+2023-12-12 07:36:16,608 - OPS.o2o.Model - DEBUG - scheduleApplicator
+2023-12-12 07:36:16,638 - OPS.o2o.Model - INFO - JMRI rolling stock updated from TrainPlayer data
+2023-12-12 07:36:16,638 - OPS.o2o.Model - DEBUG - _updateJmriProperties
+2023-12-12 07:36:16,638 - OPS.o2o.ModelEntities - INFO - tpRailroadData.json: OK
+2023-12-12 07:36:16,677 - OPS.o2o.Model - INFO - JMRI railroad properties updated from TrainPlayer data
+2023-12-12 07:36:38,444 - OPS.OE.PluginListeners - DEBUG - java.awt.event.WindowEvent[WINDOW_CLOSING,opposite=null,oldState=0,newState=0] on PatternScriptsFrame
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainListener: Basin St Switcher
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeTrainsTableListener
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Unreported
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: ~
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: MUTT
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: South Yard
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Basin Street
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Cement
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Basin St Stores
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 7th St Stores
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: 4th St Pier
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Mother Schuckers
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Gantry
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationListener: Bulk Material Wharf
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeLocationsTableListener
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionListener: Coast Division
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeDivisionsTableListener
+2023-12-12 07:36:38,460 - OPS.OE.PluginListeners - DEBUG - Main Script.Listeners.removeSubroutineListeners

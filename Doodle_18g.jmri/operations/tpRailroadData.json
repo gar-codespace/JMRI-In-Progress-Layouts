@@ -150,8 +150,8 @@
     "UTLX", 
     "PRR", 
     "FGEX", 
-    "NYC", 
     "DL&W", 
+    "NYC", 
     "TELX", 
     "AT&SF", 
     "B&A", 
@@ -164,8 +164,9 @@
     "ET", 
     "CS", 
     "PGCC", 
-    "WCC", 
     "M&P", 
+    "WCC", 
+    "NE", 
     "PL", 
     "P&R", 
     "CNJ"
@@ -226,12 +227,12 @@
       "EDHF"
     ], 
     [
-      "p5b", 
-      "EEHF"
-    ], 
-    [
       "f 3b sal", 
       "EDHF"
+    ], 
+    [
+      "p5b", 
+      "EEHF"
     ], 
     [
       "B6s", 
@@ -257,15 +258,15 @@
   "EngineRoster_types": [
     "EELP", 
     "ESS", 
-    "EEHP", 
     "ESLF", 
+    "EEHP", 
     "ESHF", 
     "ESLP", 
     "ESHP", 
     "EDHF", 
     "EEHF"
   ], 
-  "Extended_buildDate": "12/04/2023-09:42:44", 
+  "Extended_buildDate": "12/12/2023-11:50:07", 
   "Extended_divisions": [
     "Weston Division", 
     "Easton Division", 
@@ -375,26 +376,19 @@
       "label": "C71", 
       "location": "City", 
       "track": "71", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "21": {
       "capacity": "15", 
       "label": "V71", 
       "location": "Valley", 
       "track": "Roundhouse", 
-      "type": "class yard"
-    }, 
-    "22": {
-      "capacity": "47", 
-      "label": "W1", 
-      "location": "Easton", 
-      "track": "E1", 
-      "type": "staging"
+      "type": "interchange"
     }, 
     "23": {
       "capacity": "15", 
-      "label": "S1", 
-      "location": "Summit", 
+      "label": "S5", 
+      "location": "Overton", 
       "track": "S1", 
       "type": "staging"
     }, 
@@ -417,7 +411,7 @@
       "label": "S71", 
       "location": "Train Service", 
       "track": "Cabin Track", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "27": {
       "capacity": "15", 
@@ -473,7 +467,7 @@
       "label": "S72", 
       "location": "Train Service", 
       "track": "Car Barn", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "34": {
       "capacity": "3", 
@@ -494,20 +488,13 @@
       "label": "S73", 
       "location": "Train Service", 
       "track": "Coach Yard", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "37": {
       "capacity": "45", 
       "label": "N3", 
       "location": "Northton", 
       "track": "N3", 
-      "type": "staging"
-    }, 
-    "38": {
-      "capacity": "93", 
-      "label": "E2", 
-      "location": "Weston", 
-      "track": "W2", 
       "type": "staging"
     }, 
     "39": {
@@ -545,16 +532,9 @@
       "track": "DY", 
       "type": "industry"
     }, 
-    "43": {
-      "capacity": "15", 
-      "label": "S2", 
-      "location": "Summit", 
-      "track": "S2", 
-      "type": "staging"
-    }, 
     "44": {
       "capacity": "77", 
-      "label": "E4", 
+      "label": "S4", 
       "location": "Easton", 
       "track": "E4", 
       "type": "staging"
@@ -595,17 +575,17 @@
       "type": "interchange"
     }, 
     "5": {
-      "capacity": "47", 
-      "label": "W2", 
+      "capacity": "116", 
+      "label": "S2", 
       "location": "Easton", 
       "track": "E2", 
       "type": "staging"
     }, 
     "50": {
       "capacity": "75", 
-      "label": "E1", 
-      "location": "Weston", 
-      "track": "W1", 
+      "label": "S1", 
+      "location": "Easton", 
+      "track": "E1", 
       "type": "staging"
     }, 
     "51": {
@@ -620,7 +600,7 @@
       "label": "S75", 
       "location": "Train Service", 
       "track": "Repair", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "53": {
       "capacity": "12", 
@@ -634,42 +614,35 @@
       "label": "C32", 
       "location": "City", 
       "track": "Hold 2", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "55": {
-      "capacity": "30", 
+      "capacity": "29", 
       "label": "C72", 
       "location": "City", 
       "track": "72", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "56": {
-      "capacity": "26", 
+      "capacity": "27", 
       "label": "C73", 
       "location": "City", 
       "track": "73", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "57": {
       "capacity": "23", 
       "label": "C74", 
       "location": "City", 
       "track": "74", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "58": {
       "capacity": "21", 
       "label": "C75", 
       "location": "City", 
       "track": "75", 
-      "type": "class yard"
-    }, 
-    "59": {
-      "capacity": "46", 
-      "label": "E3", 
-      "location": "Weston", 
-      "track": "W3", 
-      "type": "staging"
+      "type": "interchange"
     }, 
     "6": {
       "capacity": "1", 
@@ -680,9 +653,9 @@
     }, 
     "60": {
       "capacity": "71", 
-      "label": "W3", 
-      "location": "Easton", 
-      "track": "E3", 
+      "label": "S3", 
+      "location": "Weston", 
+      "track": "W3", 
       "type": "staging"
     }, 
     "61": {
@@ -690,28 +663,49 @@
       "label": "C31", 
       "location": "City", 
       "track": "Hold 1", 
-      "type": "class yard"
+      "type": "interchange"
+    }, 
+    "62": {
+      "capacity": "46", 
+      "label": "X3", 
+      "location": "Easton", 
+      "track": "E3", 
+      "type": "staging"
     }, 
     "63": {
       "capacity": "5", 
       "label": "J1", 
       "location": "Junction", 
       "track": "Off Spot", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "64": {
       "capacity": "5", 
       "label": "P1", 
       "location": "Park", 
       "track": "Off Spot", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "65": {
       "capacity": "3", 
       "label": "V1", 
       "location": "Valley", 
       "track": "Off Spot", 
-      "type": "class yard"
+      "type": "interchange"
+    }, 
+    "66": {
+      "capacity": "47", 
+      "label": "X1", 
+      "location": "Weston", 
+      "track": "W1", 
+      "type": "staging"
+    }, 
+    "67": {
+      "capacity": "47", 
+      "label": "X2", 
+      "location": "Weston", 
+      "track": "W2", 
+      "type": "staging"
     }, 
     "7": {
       "capacity": "3", 
@@ -725,7 +719,7 @@
       "label": "S74", 
       "location": "Train Service", 
       "track": "Roundhouse", 
-      "type": "class yard"
+      "type": "interchange"
     }, 
     "9": {
       "capacity": "22", 
@@ -754,7 +748,6 @@
     "29", 
     "24", 
     "25", 
-    "22", 
     "33", 
     "28", 
     "30", 
@@ -790,28 +783,28 @@
     "26", 
     "36", 
     "50", 
-    "59", 
     "60", 
-    "38", 
     "39", 
-    "43", 
     "49", 
     "52", 
     "63", 
     "64", 
     "65", 
-    "61"
+    "61", 
+    "62", 
+    "66", 
+    "67"
   ], 
   "LocationRoster_locations": [
     "Northton", 
-    "Summit", 
     "City", 
     "Downtown", 
     "Park", 
+    "Overton", 
     "Weston", 
     "Valley", 
-    "Easton", 
     "Train Service", 
+    "Easton", 
     "Unreported", 
     "Junction", 
     "Midway"
