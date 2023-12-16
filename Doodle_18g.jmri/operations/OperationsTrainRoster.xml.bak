@@ -2,9 +2,9 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Tue Dec 12 12:26:57 PST 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Dec 16 10:46:26 PST 2023-->
   <options>
-    <trainOptions buildMessages="false" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
+    <trainOptions buildMessages="false" buildReport="true" printPreview="true" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
     <rowColorOptions rowColorManual="true" rowColorBuidFailed="" rowColorBuilt="" rowColorTrainEnRoute="" rowColorTerminated="" />
     <manifestCreator>
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="14" name="67M" description="Northton Hauler" departHour="01" departMinute="10" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR486" status="Train reset" TerminationDate="12/11/2023 14:50" RequestedCars="52" statusCode="0" oldStatusCode="20" comment="Departs Northton, Terminates City" showTimes="true">
+    <train id="14" name="67M" description="Northton Hauler" departHour="01" departMinute="10" departureTrack="1s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR486" status="Terminated 12/14/2023 13:00" TerminationDate="12/14/2023 13:00" RequestedCars="52" statusCode="128" oldStatusCode="20" comment="Departs Northton, Terminates City" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="67M" id="67" />
       <types>
@@ -33,7 +33,7 @@
         <locoType name="EEHF" />
       </types>
     </train>
-    <train id="17" name="78X" description="Produce Express" departHour="04" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="2" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="true" allowThroughCars="true" serviceAll="false" sendCustomStaging="true" buildConsist="true" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR208" status="Train reset" TerminationDate="11/03/2023 23:57" RequestedCars="79" statusCode="0" oldStatusCode="128" comment="Departs Weston, Works City, Terminates Easton" showTimes="true" leg2Options="1" leg2Engines="2" leg2Road="" leg2Model="K4s" leg2CabooseRoad="" leg2Start="61r9">
+    <train id="17" name="78X" description="Produce Express" departHour="04" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="2" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="true" allowThroughCars="true" serviceAll="false" sendCustomStaging="true" buildConsist="true" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR878" status="Train reset" TerminationDate="12/14/2023 09:43" RequestedCars="79" statusCode="0" oldStatusCode="0" comment="Departs Weston, Works City, Terminates Easton" showTimes="true" leg2Options="1" leg2Engines="2" leg2Road="" leg2Model="K4s" leg2CabooseRoad="" leg2Start="61r9">
       <rowColor name="" resetRowColor="" />
       <route name="78X" id="61" />
       <types>
@@ -47,7 +47,7 @@
         <build name="preference:Move E2 to W2.py" />
       </scripts>
     </train>
-    <train id="19" name="12L" description="Park Local" departHour="04" departMinute="30" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="true" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="true" switchListStatus="" leadEngine="PRR949" status="Terminated 12/11/2023 23:37" TerminationDate="12/11/2023 23:37" RequestedCars="127" statusCode="128" oldStatusCode="20" comment="Block: PD, PG, PO, PC, PP, PL, PF" showTimes="true">
+    <train id="19" name="12L" description="Park Local" departHour="04" departMinute="30" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="true" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR949" status="Terminated 12/14/2023 15:21" TerminationDate="12/14/2023 15:21" RequestedCars="127" statusCode="128" oldStatusCode="20" comment="Block: PD, PG, PO, PC, PP, PL, PF" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="13L" id="71" />
       <types>
@@ -104,23 +104,23 @@
         <carType name="XM" />
       </types>
     </train>
-    <train id="29" name="35T" description="Summit Turn" departHour="05" departMinute="15" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR720" status="Terminated 12/11/2023 12:41" TerminationDate="12/11/2023 12:41" RequestedCars="125" statusCode="128" oldStatusCode="0" comment="" showTimes="true">
+    <train id="29" name="35T" description="Summit Turn" departHour="05" departMinute="15" current="86r6" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="true" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR720" status="Train en route 0 cars, 0 feet, 0 tons" TerminationDate="12/11/2023 12:41" RequestedCars="80" statusCode="24" oldStatusCode="0" comment="" showTimes="true">
       <rowColor name="" resetRowColor="green" />
-      <route name="35T" id="76" />
+      <route name="35x" id="86" />
       <types>
+        <locoType name="ESLF" />
         <carType name="FM" />
         <carType name="GB" />
         <carType name="HK" />
         <carType name="NM" />
         <carType name="TM" />
         <carType name="XM" />
-        <locoType name="ESLF" />
       </types>
       <scripts>
         <build name="preference:Move Cars At Summit.py" />
       </scripts>
     </train>
-    <train id="34" name="35Y" description="Build Summit Turn" departHour="13" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="12/11/2023 10:40" RequestedCars="15" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
+    <train id="34" name="35Y" description="Build Summit Turn" departHour="13" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="true" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 12/15/2023 20:35" TerminationDate="12/15/2023 20:35" RequestedCars="15" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="35Y" id="77" />
       <types>
@@ -131,7 +131,7 @@
         <carType name="XM" />
       </types>
     </train>
-    <train id="35" name="15L" description="Valley Local" departHour="02" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR936" status="Train reset" TerminationDate="2/24/2023 22:32" RequestedCars="125" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
+    <train id="35" name="15L" description="Valley Local" departHour="02" departMinute="20" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR936" status="Terminated 12/14/2023 08:42" TerminationDate="12/14/2023 08:42" RequestedCars="125" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="15L" id="64" />
       <types>
@@ -141,7 +141,6 @@
         <carType name="NM" />
         <carType name="RB" />
         <carType name="RS" />
-        <carType name="TM" />
         <carType name="XM" />
         <locoType name="ESLF" />
       </types>
@@ -168,7 +167,7 @@
       <rowColor name="pink" resetRowColor="" />
       <types />
     </train>
-    <train id="44" name="12Y" description="Build Park Local" departHour="13" departMinute="30" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 12/11/2023 22:57" TerminationDate="12/11/2023 22:57" RequestedCars="20" statusCode="128" oldStatusCode="20" comment="Block: PD, PG, PO, PC, PP, PL, PF" showTimes="true">
+    <train id="44" name="12Y" description="Build Park Local" departHour="13" departMinute="30" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 12/14/2023 13:19" TerminationDate="12/14/2023 13:19" RequestedCars="20" statusCode="128" oldStatusCode="20" comment="Block: PD, PG, PO, PC, PP, PL, PF" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="13Y" id="70" />
       <types>
@@ -202,7 +201,7 @@
         <carType name="XM" />
       </types>
     </train>
-    <train id="59" name="703" description="Valley - Passenger Local" departHour="05" departMinute="30" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR194" status="Terminated 11/04/2023 19:40" TerminationDate="11/04/2023 19:40" RequestedCars="4" statusCode="128" oldStatusCode="2" comment="" showTimes="true">
+    <train id="59" name="703" description="Valley - Passenger Local" departHour="05" departMinute="30" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR240" status="Train reset" TerminationDate="11/04/2023 19:40" RequestedCars="4" statusCode="0" oldStatusCode="2" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="703" id="59" />
       <types>
@@ -248,7 +247,7 @@
         <locoType name="ESLF" />
       </types>
     </train>
-    <train id="69" name="703Y" description="Build 703" departHour="16" departMinute="40" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="true" toTerminal="true" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 11/04/2023 19:40" TerminationDate="11/04/2023 19:40" RequestedCars="2" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="69" name="703Y" description="Build 703" departHour="16" departMinute="40" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="true" toTerminal="true" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="true" sendCustomStaging="true" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="11/04/2023 19:40" RequestedCars="2" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="703Y" id="60" />
       <types>
@@ -338,16 +337,27 @@
         <locoType name="ESHF" />
       </types>
     </train>
+    <train id="80" name="xyz" description="" departHour="02" departMinute="35" departureTrack="13s2" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 12/16/2023 09:34" TerminationDate="12/16/2023 09:34" RequestedCars="50" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <route name="Overton" id="87" />
+      <types>
+        <carType name="XM" />
+        <carType name="TM" />
+        <carType name="HK" />
+        <carType name="GB" />
+        <carType name="FM" />
+      </types>
+    </train>
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="" />
-    <schedule id="2" name="Monday" trainIds="" />
-    <schedule id="3" name="Tuesday" trainIds="" />
-    <schedule id="4" name="Wednesday" trainIds="" />
-    <schedule id="5" name="Thursday" trainIds="" />
-    <schedule id="6" name="Friday" trainIds="" />
-    <schedule id="7" name="Saturday" trainIds="" />
+    <schedule id="1" name="Sunday" trainIds="," />
+    <schedule id="2" name="Monday" trainIds="," />
+    <schedule id="3" name="Tuesday" trainIds="," />
+    <schedule id="4" name="Wednesday" trainIds="," />
+    <schedule id="5" name="Thursday" trainIds="," />
+    <schedule id="6" name="Friday" trainIds="," />
+    <schedule id="7" name="Saturday" trainIds="," />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />

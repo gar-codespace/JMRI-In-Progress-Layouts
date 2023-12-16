@@ -18,8 +18,8 @@
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
       "PH": 598, 
       "PW": 1000, 
-      "PX": 11, 
-      "PY": 425, 
+      "PX": 15, 
+      "PY": 427, 
       "RV": 20231010, 
       "SE": "utf-8", 
       "TC": "UD", 
@@ -152,13 +152,13 @@
     "PI": true, 
     "PL": "City", 
     "PT": {
-      "71": true, 
-      "72": true, 
-      "73": true, 
-      "74": true, 
-      "75": true, 
+      "71": false, 
+      "72": false, 
+      "73": false, 
+      "74": false, 
+      "75": false, 
       "Hold 1": false, 
-      "Hold 2": false, 
+      "Hold 2": true, 
       "OB-Downtown": false, 
       "OB-Easton": false, 
       "OB-Northton": false, 
@@ -194,7 +194,7 @@
     }
   }, 
   "Scanner": {
-    "SI": "Easton-Arrivals", 
+    "SI": "City-Receiving East", 
     "SV": true, 
     "US": {
       "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
@@ -218,6 +218,18 @@
       [
         "2023.12.12.11.48.25", 
         "third"
+      ], 
+      [
+        "2023.12.14.09.45.56", 
+        "fourth"
+      ], 
+      [
+        "2023.12.14.12.35.44", 
+        "fifth"
+      ], 
+      [
+        "2023.12.15.19.31.04", 
+        "sixth"
       ]
     ], 
     "US": {}
@@ -226,13 +238,13 @@
     "LD": {
       "BD": "", 
       "EH": true, 
-      "JN": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
+      "JN": "", 
       "LN": "", 
-      "LO": "Western Pennsylvania", 
-      "OR": "Pennsylvania Railroad", 
+      "LO": "", 
+      "OR": "", 
       "SC": "", 
-      "TR": "Allegheny Region", 
-      "YR": "1938"
+      "TR": "", 
+      "YR": ""
     }, 
     "SV": false, 
     "US": {}
@@ -330,7 +342,7 @@
       "RCL": true, 
       "SCL": true
     }, 
-    "SV": false, 
+    "SV": true, 
     "TO": {
       "ASE": true, 
       "CWS": true, 

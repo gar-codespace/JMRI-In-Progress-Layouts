@@ -1,18 +1,29 @@
 Operator,Description,Parameters
-RN,Railroad Name,Pennsylvania Railroad	Allegheny Region	Western Pennsylvania
+RN,Railroad Name,
 TD,Train Description,
-VT,Valid,1938-12-12T19:53:27.850+00:00
+VT,Valid,2023-12-16T18:46:31.591+00:00
 PRNTR,Printer Name,
-TN,Track Name,71
+TN,Track Name,Hold 2
 PE,Pick Up Engines
 operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
 SE,Set Out Engines
 operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
 PC,Pick Up Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
-PC,P&R,6575,HK,40,0,Empty,empty,0,Generic,,0,,City,71,City,73,,,,,,,
-PC,P&R,5960,HK,40,0,Empty,empty,0,Generic,,0,,City,71,City,73,,,,,,,
-PC,B&O,5501,HK,40,0,Empty,empty,0,Generic,,0,,City,71,City,73,,,,,,,
-PC,P&R,7375,HK,40,0,Empty,empty,0,Generic,,0,,City,71,City,73,,,,,,,
+PC,PRR,4478,GB,40,0,Milled timber,load,0,Generic,,0,,City,Hold 2,City,71,Park,Lumber,,,,,
+PC,PRR,0618,XM,40,0,Merchandise,load,0,Generic,,0,,City,Hold 2,City,71,Park,General Delivery,,,,,
+PC,TCX,2904,TM,40,0,fuel,load,0,Generic,,0,,City,Hold 2,City,71,Park,Fuel Oil,,,,,
+PC,P&R,7172,XM,40,0,Merchandise,load,0,Generic,,0,,City,Hold 2,City,71,Park,General Delivery,,,,,
+PC,ACL,8139,XM,40,0,Merchandise,load,0,Generic,,0,,City,Hold 2,City,71,Downtown,General Delivery,,,,,
+PC,PGCC,0575,HK,40,0,coal2,load,0,Generic,,0,,City,Hold 2,City,71,Downtown,Coal,,,,,
+PC,M&P,1712,XM,40,0,Merchandise,load,0,Generic,,0,,City,Hold 2,City,71,Park,General Delivery,,,,,
+PC,B&O,5953,HK,40,0,coal2,load,0,Generic,,0,,City,Hold 2,City,71,Park,Coal,,,,,
+PC,CS,1725,XM,40,0,Merchandise,load,0,Generic,,0,,City,Hold 2,City,71,Downtown,General Delivery,,,,,
+PC,B&O,0263,HK,40,0,coal2,load,0,Generic,,0,,City,Hold 2,City,71,Junction,Coal,,,,,
+PC,B&A,0591,XM,40,0,Merchandise,load,0,Generic,,0,,City,Hold 2,City,71,Park,General Delivery,,,,,
+PC,NYC,9231,XM,40,0,Merchandise,load,0,Generic,,0,,City,Hold 2,City,71,Downtown,General Delivery,,,,,
+PC,CS,9474,XM,40,0,LCL,load,0,Generic,,0,,City,Hold 2,City,71,Park,Depot,,,,,
+PC,CNJ,9642,XM,40,0,LCL,load,0,Generic,,0,,City,Hold 2,City,71,Park,Depot,,,,,
+PC,WJ&S,6707,XM,40,0,LCL,load,0,Generic,,0,,City,Hold 2,City,71,Park,Depot,,,,,
 SC,Set Out Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
