@@ -1,8 +1,18 @@
 Operator,Description,Parameters
 RN,Railroad Name,Metropolitan Harbor Railroad	Metropolitan Union Transfer Terminal	South Basin Street
 TD,Train Description,
-VT,Valid,1915-11-30T00:28:21.099+00:00
+VT,Valid,1915-12-22T19:30:06.814+0000
 PRNTR,Printer Name,
+TN,Track Name,7th St Stores
+PE,Pick Up Engines
+operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
+SE,Set Out Engines
+operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
+PC,Pick Up Cars
+operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
+PC,P&R,8715,XP3,40,0,Merchandise,load,0,Generic,,0,,Basin Street,7th St Stores,Basin Street,7th St Stores,,,,,,,
+SC,Set Out Cars
+operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
 TN,Track Name,Basin St Stores
 PE,Pick Up Engines
 operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
@@ -10,10 +20,10 @@ SE,Set Out Engines
 operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
 PC,Pick Up Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
-PC,FGEX,3597,RP3,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
-PC,FGEX,9489,RP3,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
-PC,PL,44011,XPP,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
-PC,PRR,0614,XP3,40,0,Coffee,load,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
-PC,M&P,8833,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
+PC,B&A,1897,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
+PC,FGEX,9107,RP3,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
+PC,WJ&S,6433,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
+PC,LV,2943,XP4,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
+PC,FGEX,9508,RP3,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,Basin Street,Basin St Stores,,,,,,,
 SC,Set Out Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
