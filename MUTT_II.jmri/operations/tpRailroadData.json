@@ -66,6 +66,9 @@
     "HK"
   ], 
   "CarRoster_loads": {
+    "Bd": [
+      "LCL"
+    ], 
     "Bdr": [
       "Produce", 
       "Live Oysters"
@@ -101,15 +104,13 @@
       "Can Oysters", 
       "Break Bulk", 
       "Coffee", 
-      "Cement", 
-      "Merchandise"
+      "Cement"
     ], 
     "XP4": [
       "Food Stuffs", 
       "Break Bulk", 
       "Coffee", 
-      "Cement", 
-      "Merchandise"
+      "Cement"
     ], 
     "XPP": [
       "Produce"
@@ -134,13 +135,14 @@
     "PRR", 
     "FGEX", 
     "M&P", 
-    "AT&SF", 
     "PL", 
+    "AT&SF", 
     "B&A", 
     "P&R", 
     "CNJ"
   ], 
   "CarRoster_types": [
+    "Bd", 
     "NPD", 
     "FP3", 
     "FP4", 
@@ -166,7 +168,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "12/12/2023-07:36:07", 
+  "Extended_buildDate": "01/05/2024-20:53:08", 
   "Extended_divisions": [
     "Coast Division"
   ], 
@@ -214,13 +216,13 @@
     }, 
     "5": {
       "capacity": "1", 
-      "label": "S7", 
+      "label": "CR", 
       "location": "Basin Street", 
-      "track": "7th St Stores", 
+      "track": "Coffee Roasters", 
       "type": "industry"
     }, 
     "6": {
-      "capacity": "10", 
+      "capacity": "8", 
       "label": "WS", 
       "location": "Basin Street", 
       "track": "Basin St Stores", 
@@ -239,6 +241,13 @@
       "location": "Basin Street", 
       "track": "Cement", 
       "type": "industry"
+    }, 
+    "9": {
+      "capacity": "2", 
+      "label": "EX", 
+      "location": "Basin Street", 
+      "track": "Express", 
+      "type": "industry"
     }
   }, 
   "LocationRoster_locationIds": [
@@ -250,7 +259,8 @@
     "5", 
     "6", 
     "7", 
-    "8"
+    "8", 
+    "9"
   ], 
   "LocationRoster_locations": [
     "Basin Street", 
@@ -258,6 +268,30 @@
     "Unreported"
   ], 
   "LocationRoster_spurs": {
+    "11": {
+      "a-location": "Basin Street", 
+      "b-track": "Express", 
+      "c-schedule": {
+        "EX": [
+          [
+            "Bd", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Bd", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
     "12": {
       "a-location": "Basin Street", 
       "b-track": "Gantry", 
@@ -396,29 +430,13 @@
     }, 
     "26": {
       "a-location": "Basin Street", 
-      "b-track": "7th St Stores", 
+      "b-track": "Coffee Roasters", 
       "c-schedule": {
-        "S7": [
-          [
-            "XP3", 
-            "R", 
-            "Merchandise", 
-            "", 
-            "", 
-            ""
-          ], 
+        "CR": [
           [
             "XP3", 
             "S", 
-            "Merchandise", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP4", 
-            "R", 
-            "Merchandise", 
+            "Coffee", 
             "", 
             "", 
             ""
@@ -426,7 +444,7 @@
           [
             "XP4", 
             "S", 
-            "Merchandise", 
+            "Coffee", 
             "", 
             "", 
             ""
@@ -458,23 +476,7 @@
           [
             "XP3", 
             "S", 
-            "Coffee", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP3", 
-            "S", 
             "Food Stuffs", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP4", 
-            "S", 
-            "Coffee", 
             "", 
             "", 
             ""
