@@ -1,16 +1,21 @@
 Operator,Description,Parameters
-RN,Railroad Name,Metropolitan Harbor Railroad	Metropolitan Union Transfer Terminal	South Basin Street
+RN,Railroad Name,Pennsylvania Railroad	Allegheny Region	Western Pennsylvania
 TD,Train Description,
-VT,Valid,1915-12-22T19:30:00.723+0000
+VT,Valid,1938-01-15T15:48:53.651+0000
 PRNTR,Printer Name,
-TN,Track Name,7th St Stores
+TN,Track Name,4th St Pier
 PE,Pick Up Engines
 operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
 SE,Set Out Engines
 operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
 PC,Pick Up Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
-PC,P&R,8715,XP3,40,0,Merchandise,load,0,Generic,,0,,Basin Street,7th St Stores,,,,,,,,,
+PC,P&R,8715,XP3,40,0,Break Bulk,load,0,Generic,,0,,Basin Street,4th St Pier,,,,,,,,,
+PC,PL,3265,XP3,40,0,Break Bulk,load,0,Generic,,0,,Basin Street,4th St Pier,,,,,,,,,
+PC,P&R,54488,FP4,40,0,lumber,load,0,Generic,,0,,Basin Street,4th St Pier,,,,,,,,,
+PC,WJ&S,6433,XP3,40,0,Break Bulk,load,0,Generic,,0,,Basin Street,4th St Pier,,,,,,,,,
+PC,ACL,0676,XP4,40,0,Break Bulk,load,0,Generic,,0,,Basin Street,4th St Pier,,,,,,,,,
+PC,PRR,6249,XP3,40,0,Break Bulk,load,0,Generic,,0,,Basin Street,4th St Pier,,,,,,,,,
 SC,Set Out Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
 TN,Track Name,Basin St Stores
@@ -20,10 +25,12 @@ SE,Set Out Engines
 operator,road,number,type,model,length,weight,consist,color,owner,location,track,destination,destination track,comment
 PC,Pick Up Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty
-PC,FGEX,9107,RP3,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
-PC,FGEX,9508,RP3,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
-PC,B&A,1897,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
-PC,LV,2943,XP4,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
-PC,WJ&S,6433,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
+PC,PRR,5069,Bdr,40,0,Empty,empty,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
+PC,ACL,9405,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
+PC,ACL,4430,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
+PC,CNJ,8878,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
+PC,LV,1748,XPV,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
+PC,P&R,3022,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
+PC,PRR,0614,XP3,40,0,Food Stuffs,load,0,Generic,,0,,Basin Street,Basin St Stores,,,,,,,,,
 SC,Set Out Cars
 operator,road,number,type,length,weight,load,load type,hazardous,color,kernel,kernel size,owner,location,track,destination,destination track,final destination,final destination track,comment,set out message,pick up message,return when empty

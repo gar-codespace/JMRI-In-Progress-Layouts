@@ -1,6 +1,6 @@
 {
   "comment": "", 
-  "date": "2024-01-12T21:01:48.145+0000", 
+  "date": "1938-01-15T15:30:24.317+0000", 
   "description": "", 
   "locations": [
     {
@@ -67,7 +67,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
+            "carType": "Bdr", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -92,8 +92,8 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Empty", 
-            "loadType": "empty", 
+            "load": "Produce", 
+            "loadType": "load", 
             "location": {
               "name": "2", 
               "route": "1r6", 
@@ -103,16 +103,72 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "ACL9405", 
-            "number": "9405", 
+            "name": "PRR5069", 
+            "number": "5069", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDcwjo8iapuoj0", 
-            "road": "ACL", 
+            "rfid": "IDhwcqlocdlvxl", 
+            "road": "PRR", 
             "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "GPD", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s2", 
+                "userName": "Gantry"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "tank", 
+            "loadType": "load", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "B&A6470", 
+            "number": "6470", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID7tp8z82ya38", 
+            "road": "B&A", 
+            "sequence": "6003", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -159,16 +215,16 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "ACL4430", 
-            "number": "4430", 
+            "name": "WJ&S6433", 
+            "number": "6433", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDxwck11v79rhg", 
-            "road": "ACL", 
-            "sequence": "6003", 
+            "rfid": "IDuk5ipp2covs0", 
+            "road": "WJ&S", 
+            "sequence": "6004", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -186,8 +242,8 @@
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
@@ -215,130 +271,18 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "LV2943", 
-            "number": "2943", 
+            "name": "ACL0676", 
+            "number": "0676", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID4x5kny56coo5", 
-            "road": "LV", 
-            "sequence": "6004", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "Bd", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s8", 
-                "userName": "Express"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "LCL", 
-            "loadType": "load", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "PRR5151", 
-            "number": "5151", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "", 
-            "road": "PRR", 
+            "rfid": "IDnvnmro0f2imu", 
+            "road": "ACL", 
             "sequence": "6005", 
             "status": "", 
             "utility": false, 
-            "weight": 3.8, 
-            "weightTons": 76.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "RP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s3", 
-                "userName": "Mother Schuckers"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Empty", 
-            "loadType": "empty", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "FGEX5751", 
-            "number": "5751", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDiyhrw9y4hbnq", 
-            "road": "FGEX", 
-            "sequence": "6006", 
-            "status": "", 
-            "utility": false, 
             "weight": 0.0, 
             "weightTons": 0.0
           }, 
@@ -347,119 +291,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Empty", 
-            "loadType": "empty", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "CNJ8878", 
-            "number": "8878", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "ID9f8xcuarrsg9", 
-            "road": "CNJ", 
-            "sequence": "6007", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "Bd", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s8", 
-                "userName": "Express"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "LCL", 
-            "loadType": "load", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "PRR5150", 
-            "number": "5150", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "", 
-            "road": "PRR", 
-            "sequence": "6008", 
-            "status": "", 
-            "utility": false, 
-            "weight": 3.8, 
-            "weightTons": 76.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "GPx", 
+            "carType": "GPD", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -495,16 +327,16 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "ER1824", 
-            "number": "1824", 
+            "name": "PRR0306", 
+            "number": "0306", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID0d0ev2cjh69h", 
-            "road": "ER", 
-            "sequence": "6009", 
+            "rfid": "IDpkuw6seoa5zy", 
+            "road": "PRR", 
+            "sequence": "6006", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -551,16 +383,16 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "FGEX3597", 
-            "number": "3597", 
+            "name": "FGEX3882", 
+            "number": "3882", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDazevwlj43hmr", 
+            "rfid": "IDos2hxirq5l7o", 
             "road": "FGEX", 
-            "sequence": "6010", 
+            "sequence": "6007", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -607,15 +439,183 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "P&R3022", 
-            "number": "3022", 
+            "name": "PRR6249", 
+            "number": "6249", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID7cyd8xxrj6la", 
-            "road": "P&R", 
+            "rfid": "IDcsz7d9jlu7db", 
+            "road": "PRR", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "RP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s3", 
+                "userName": "Mother Schuckers"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "FGEX9107", 
+            "number": "9107", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDwik27n6fkb8a", 
+            "road": "FGEX", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "GPx", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s2", 
+                "userName": "Gantry"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "coiled wire", 
+            "loadType": "load", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "NYNH&H9743", 
+            "number": "9743", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID34a1u1vsp3", 
+            "road": "NYNH&H", 
+            "sequence": "6010", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "XP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s9", 
+                "userName": "Tea"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "B&A1897", 
+            "number": "1897", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1zmtcjgb4mj", 
+            "road": "B&A", 
             "sequence": "6011", 
             "status": "", 
             "utility": false, 
@@ -663,15 +663,15 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "PRR0614", 
-            "number": "0614", 
+            "name": "P&R8715", 
+            "number": "8715", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDu1z3zjs2lhku", 
-            "road": "PRR", 
+            "rfid": "IDoeox5ql464n2", 
+            "road": "P&R", 
             "sequence": "6012", 
             "status": "", 
             "utility": false, 
@@ -683,7 +683,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XPV", 
+            "carType": "XP3", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -708,8 +708,8 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Produce", 
-            "loadType": "load", 
+            "load": "Empty", 
+            "loadType": "empty", 
             "location": {
               "name": "2", 
               "route": "1r6", 
@@ -719,15 +719,15 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "LV1748", 
-            "number": "1748", 
+            "name": "PL3265", 
+            "number": "3265", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDts2xkpg00klb", 
-            "road": "LV", 
+            "rfid": "IDuasqpmn3fypy", 
+            "road": "PL", 
             "sequence": "6013", 
             "status": "", 
             "utility": false, 
@@ -804,7 +804,7 @@
       }, 
       "trainDirection": 1, 
       "userName": "MUTT", 
-      "weight": 188
+      "weight": 36
     }, 
     {
       "arrivalTime": "00:04", 
@@ -815,15 +815,15 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "GPx", 
+            "carType": "FP4", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
@@ -851,15 +851,15 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "AT&SF0191", 
-            "number": "0191", 
+            "name": "P&R54488", 
+            "number": "54488", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDinq9wghdrkic", 
-            "road": "AT&SF", 
+            "rfid": "IDjtic46rhmpz1", 
+            "road": "P&R", 
             "sequence": "6001", 
             "status": "", 
             "utility": false, 
@@ -878,8 +878,8 @@
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s5", 
-                "userName": "Coffee Roasters"
+                "name": "1s3", 
+                "userName": "Mother Schuckers"
               }, 
               "userName": "Basin Street"
             }, 
@@ -896,8 +896,8 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Produce", 
-            "loadType": "load", 
+            "load": "Empty", 
+            "loadType": "empty", 
             "location": {
               "name": "1", 
               "route": "1r8", 
@@ -916,230 +916,6 @@
             "returnWhenEmpty": null, 
             "rfid": "ID5nrvhdupqntb", 
             "road": "FGEX", 
-            "sequence": "6001", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "GPD", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Gravel", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "B&A6470", 
-            "number": "6470", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "ID7tp8z82ya38", 
-            "road": "B&A", 
-            "sequence": "6001", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "XP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Coffee", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s5", 
-                "userName": "Coffee Roasters"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "WJ&S6433", 
-            "number": "6433", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDuk5ipp2covs0", 
-            "road": "WJ&S", 
-            "sequence": "6001", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "XP4", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Coffee", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s5", 
-                "userName": "Coffee Roasters"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "ACL0676", 
-            "number": "0676", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDnvnmro0f2imu", 
-            "road": "ACL", 
-            "sequence": "6001", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "Bdr", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Live Oysters", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s3", 
-                "userName": "Mother Schuckers"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "PRR5069", 
-            "number": "5069", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDhwcqlocdlvxl", 
-            "road": "PRR", 
             "sequence": "6001", 
             "status": "", 
             "utility": false, 
@@ -1187,16 +963,16 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "PRR6249", 
-            "number": "6249", 
+            "name": "M&P8833", 
+            "number": "8833", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDcsz7d9jlu7db", 
-            "road": "PRR", 
-            "sequence": "6002", 
+            "rfid": "IDclycg905q5ln", 
+            "road": "M&P", 
+            "sequence": "6001", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -1207,7 +983,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "GPD", 
+            "carType": "Bd", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -1232,27 +1008,307 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Gravel", 
+            "load": "LCL", 
             "loadType": "load", 
             "location": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
+                "name": "1s8", 
+                "userName": "Express"
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "PRR0306", 
-            "number": "0306", 
+            "name": "PRR5151", 
+            "number": "5151", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDpkuw6seoa5zy", 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 3.8, 
+            "weightTons": 76.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "RP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Live Oysters", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s3", 
+                "userName": "Mother Schuckers"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "FGEX5751", 
+            "number": "5751", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDiyhrw9y4hbnq", 
+            "road": "FGEX", 
+            "sequence": "6001", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "TPO", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Fuel Oil", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s4", 
+                "userName": "4th St Pier"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "PRR3990", 
+            "number": "3990", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDwca3csv34nii", 
             "road": "PRR", 
             "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "Bd", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s8", 
+                "userName": "Express"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "PRR5150", 
+            "number": "5150", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 3.8, 
+            "weightTons": 76.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "RP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Live Oysters", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s3", 
+                "userName": "Mother Schuckers"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "FGEX3597", 
+            "number": "3597", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDazevwlj43hmr", 
+            "road": "FGEX", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "XP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Break Bulk", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s4", 
+                "userName": "4th St Pier"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "ER2050", 
+            "number": "2050", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDs5lru3bdkyay", 
+            "road": "ER", 
+            "sequence": "6003", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -1299,70 +1355,14 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "FGEX3882", 
-            "number": "3882", 
+            "name": "FGEX9489", 
+            "number": "9489", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDos2hxirq5l7o", 
-            "road": "FGEX", 
-            "sequence": "6002", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "RP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Produce", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "FGEX9107", 
-            "number": "9107", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDwik27n6fkb8a", 
+            "rfid": "IDckbibr6gz0tp", 
             "road": "FGEX", 
             "sequence": "6003", 
             "status": "", 
@@ -1375,7 +1375,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "GPx", 
+            "carType": "FP3", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -1400,82 +1400,26 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Gravel", 
+            "load": "lumber", 
             "loadType": "load", 
             "location": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "NYNH&H9743", 
-            "number": "9743", 
+            "name": "PL6762", 
+            "number": "6762", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID34a1u1vsp3", 
-            "road": "NYNH&H", 
-            "sequence": "6003", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "XP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Food Stuffs", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "B&A1897", 
-            "number": "1897", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "ID1zmtcjgb4mj", 
-            "road": "B&A", 
+            "rfid": "IDnz7soprathbb", 
+            "road": "PL", 
             "sequence": "6004", 
             "status": "", 
             "utility": false, 
@@ -1487,7 +1431,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
+            "carType": "FP4", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -1512,26 +1456,26 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Food Stuffs", 
+            "load": "lumber", 
             "loadType": "load", 
             "location": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "P&R8715", 
-            "number": "8715", 
+            "name": "B&O6992", 
+            "number": "6992", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDoeox5ql464n2", 
-            "road": "P&R", 
+            "rfid": "IDcz3fovx6g5do", 
+            "road": "B&O", 
             "sequence": "6005", 
             "status": "", 
             "utility": false, 
@@ -1543,7 +1487,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
+            "carType": "FP3", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -1568,8 +1512,64 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Food Stuffs", 
+            "load": "lumber", 
             "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s4", 
+                "userName": "4th St Pier"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "AT&SF5337", 
+            "number": "5337", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDf32crx9xq964", 
+            "road": "AT&SF", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "XPP", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
             "location": {
               "name": "1", 
               "route": "1r8", 
@@ -1579,16 +1579,16 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "PL3265", 
-            "number": "3265", 
+            "name": "PL44011", 
+            "number": "44011", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDuasqpmn3fypy", 
+            "rfid": "IDjr19bqqn2wph", 
             "road": "PL", 
-            "sequence": "6006", 
+            "sequence": "6008", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -1603,15 +1603,15 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "GPx", 
+            "carType": "FP4", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
@@ -1639,15 +1639,15 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "AT&SF0191", 
-            "number": "0191", 
+            "name": "P&R54488", 
+            "number": "54488", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDinq9wghdrkic", 
-            "road": "AT&SF", 
+            "rfid": "IDjtic46rhmpz1", 
+            "road": "P&R", 
             "sequence": "6001", 
             "status": "", 
             "utility": false, 
@@ -1666,8 +1666,8 @@
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s5", 
-                "userName": "Coffee Roasters"
+                "name": "1s3", 
+                "userName": "Mother Schuckers"
               }, 
               "userName": "Basin Street"
             }, 
@@ -1684,8 +1684,8 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Produce", 
-            "loadType": "load", 
+            "load": "Empty", 
+            "loadType": "empty", 
             "location": {
               "name": "1", 
               "route": "1r8", 
@@ -1715,7 +1715,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
+            "carType": "Bdr", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -1740,8 +1740,8 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Empty", 
-            "loadType": "empty", 
+            "load": "Produce", 
+            "loadType": "load", 
             "location": {
               "name": "2", 
               "route": "1r6", 
@@ -1751,16 +1751,72 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "ACL9405", 
-            "number": "9405", 
+            "name": "PRR5069", 
+            "number": "5069", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDcwjo8iapuoj0", 
-            "road": "ACL", 
+            "rfid": "IDhwcqlocdlvxl", 
+            "road": "PRR", 
             "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "GPD", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s2", 
+                "userName": "Gantry"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "tank", 
+            "loadType": "load", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "B&A6470", 
+            "number": "6470", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID7tp8z82ya38", 
+            "road": "B&A", 
+            "sequence": "6003", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -1807,16 +1863,16 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "ACL4430", 
-            "number": "4430", 
+            "name": "WJ&S6433", 
+            "number": "6433", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDxwck11v79rhg", 
-            "road": "ACL", 
-            "sequence": "6003", 
+            "rfid": "IDuk5ipp2covs0", 
+            "road": "WJ&S", 
+            "sequence": "6004", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -1834,8 +1890,8 @@
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
@@ -1863,130 +1919,18 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "LV2943", 
-            "number": "2943", 
+            "name": "ACL0676", 
+            "number": "0676", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID4x5kny56coo5", 
-            "road": "LV", 
-            "sequence": "6004", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "Bd", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s8", 
-                "userName": "Express"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "LCL", 
-            "loadType": "load", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "PRR5151", 
-            "number": "5151", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "", 
-            "road": "PRR", 
+            "rfid": "IDnvnmro0f2imu", 
+            "road": "ACL", 
             "sequence": "6005", 
             "status": "", 
             "utility": false, 
-            "weight": 3.8, 
-            "weightTons": 76.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "RP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s3", 
-                "userName": "Mother Schuckers"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Empty", 
-            "loadType": "empty", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "FGEX5751", 
-            "number": "5751", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDiyhrw9y4hbnq", 
-            "road": "FGEX", 
-            "sequence": "6006", 
-            "status": "", 
-            "utility": false, 
             "weight": 0.0, 
             "weightTons": 0.0
           }, 
@@ -1995,119 +1939,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Empty", 
-            "loadType": "empty", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "CNJ8878", 
-            "number": "8878", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "ID9f8xcuarrsg9", 
-            "road": "CNJ", 
-            "sequence": "6007", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "Bd", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s8", 
-                "userName": "Express"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "LCL", 
-            "loadType": "load", 
-            "location": {
-              "name": "2", 
-              "route": "1r6", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "name": "PRR5150", 
-            "number": "5150", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "", 
-            "road": "PRR", 
-            "sequence": "6008", 
-            "status": "", 
-            "utility": false, 
-            "weight": 3.8, 
-            "weightTons": 76.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "GPx", 
+            "carType": "GPD", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -2143,16 +1975,16 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "ER1824", 
-            "number": "1824", 
+            "name": "PRR0306", 
+            "number": "0306", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID0d0ev2cjh69h", 
-            "road": "ER", 
-            "sequence": "6009", 
+            "rfid": "IDpkuw6seoa5zy", 
+            "road": "PRR", 
+            "sequence": "6006", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -2199,16 +2031,16 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "FGEX3597", 
-            "number": "3597", 
+            "name": "FGEX3882", 
+            "number": "3882", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDazevwlj43hmr", 
+            "rfid": "IDos2hxirq5l7o", 
             "road": "FGEX", 
-            "sequence": "6010", 
+            "sequence": "6007", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -2255,15 +2087,183 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "P&R3022", 
-            "number": "3022", 
+            "name": "PRR6249", 
+            "number": "6249", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID7cyd8xxrj6la", 
-            "road": "P&R", 
+            "rfid": "IDcsz7d9jlu7db", 
+            "road": "PRR", 
+            "sequence": "6008", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "RP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s3", 
+                "userName": "Mother Schuckers"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "FGEX9107", 
+            "number": "9107", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDwik27n6fkb8a", 
+            "road": "FGEX", 
+            "sequence": "6009", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "GPx", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s2", 
+                "userName": "Gantry"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "coiled wire", 
+            "loadType": "load", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "NYNH&H9743", 
+            "number": "9743", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID34a1u1vsp3", 
+            "road": "NYNH&H", 
+            "sequence": "6010", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "XP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s9", 
+                "userName": "Tea"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
+            "location": {
+              "name": "2", 
+              "route": "1r6", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "name": "B&A1897", 
+            "number": "1897", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "ID1zmtcjgb4mj", 
+            "road": "B&A", 
             "sequence": "6011", 
             "status": "", 
             "utility": false, 
@@ -2311,15 +2311,15 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "PRR0614", 
-            "number": "0614", 
+            "name": "P&R8715", 
+            "number": "8715", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDu1z3zjs2lhku", 
-            "road": "PRR", 
+            "rfid": "IDoeox5ql464n2", 
+            "road": "P&R", 
             "sequence": "6012", 
             "status": "", 
             "utility": false, 
@@ -2331,7 +2331,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XPV", 
+            "carType": "XP3", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -2356,8 +2356,8 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Produce", 
-            "loadType": "load", 
+            "load": "Empty", 
+            "loadType": "empty", 
             "location": {
               "name": "2", 
               "route": "1r6", 
@@ -2367,15 +2367,15 @@
               }, 
               "userName": "MUTT"
             }, 
-            "name": "LV1748", 
-            "number": "1748", 
+            "name": "PL3265", 
+            "number": "3265", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDts2xkpg00klb", 
-            "road": "LV", 
+            "rfid": "IDuasqpmn3fypy", 
+            "road": "PL", 
             "sequence": "6013", 
             "status": "", 
             "utility": false, 
@@ -2405,14 +2405,14 @@
       "name": "1r8", 
       "track": {
         "1s1": {
-          "add": "", 
-          "addAndRemove": "", 
           "comment": "TrainPlayer ID:1", 
           "remove": ""
         }, 
         "1s2": {
           "add": "", 
-          "comment": "TrainPlayer ID:2"
+          "addAndRemove": "", 
+          "comment": "TrainPlayer ID:2", 
+          "remove": ""
         }, 
         "1s3": {
           "add": "", 
@@ -2422,12 +2422,8 @@
         }, 
         "1s4": {
           "add": "", 
-          "comment": "TrainPlayer ID:4"
-        }, 
-        "1s5": {
-          "add": "", 
           "addAndRemove": "", 
-          "comment": "TrainPlayer ID:5", 
+          "comment": "TrainPlayer ID:4", 
           "remove": ""
         }, 
         "1s6": {
@@ -2437,13 +2433,17 @@
           "remove": ""
         }, 
         "1s8": {
-          "comment": "TrainPlayer ID:9", 
+          "add": "", 
+          "comment": "TrainPlayer ID:9"
+        }, 
+        "1s9": {
+          "comment": "TrainPlayer ID:8", 
           "remove": ""
         }
       }, 
       "trainDirection": 1, 
       "userName": "Basin Street", 
-      "weight": 36
+      "weight": 188
     }, 
     {
       "TrainTerminatesIn": "MUTT", 
@@ -2451,62 +2451,6 @@
       "cars": {
         "add": [], 
         "remove": [
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "GPD", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Gravel", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "B&A6470", 
-            "number": "6470", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "ID7tp8z82ya38", 
-            "road": "B&A", 
-            "sequence": "6001", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
           {
             "addComment": "", 
             "built": "", 
@@ -2537,26 +2481,26 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Coffee", 
+            "load": "Break Bulk", 
             "loadType": "load", 
             "location": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s5", 
-                "userName": "Coffee Roasters"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "WJ&S6433", 
-            "number": "6433", 
+            "name": "M&P8833", 
+            "number": "8833", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDuk5ipp2covs0", 
-            "road": "WJ&S", 
+            "rfid": "IDclycg905q5ln", 
+            "road": "M&P", 
             "sequence": "6001", 
             "status": "", 
             "utility": false, 
@@ -2568,7 +2512,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP4", 
+            "carType": "Bd", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -2593,38 +2537,38 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Coffee", 
+            "load": "LCL", 
             "loadType": "load", 
             "location": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s5", 
-                "userName": "Coffee Roasters"
+                "name": "1s8", 
+                "userName": "Express"
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "ACL0676", 
-            "number": "0676", 
+            "name": "PRR5151", 
+            "number": "5151", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDnvnmro0f2imu", 
-            "road": "ACL", 
+            "rfid": "", 
+            "road": "PRR", 
             "sequence": "6001", 
             "status": "", 
             "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
+            "weight": 3.8, 
+            "weightTons": 76.0
           }, 
           {
             "addComment": "", 
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "Bdr", 
+            "carType": "RP3", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -2660,15 +2604,15 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "PRR5069", 
-            "number": "5069", 
+            "name": "FGEX5751", 
+            "number": "5751", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDhwcqlocdlvxl", 
-            "road": "PRR", 
+            "rfid": "IDiyhrw9y4hbnq", 
+            "road": "FGEX", 
             "sequence": "6001", 
             "status": "", 
             "utility": false, 
@@ -2736,6 +2680,174 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
+            "carType": "TPO", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Fuel Oil", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s4", 
+                "userName": "4th St Pier"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "PRR3990", 
+            "number": "3990", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDwca3csv34nii", 
+            "road": "PRR", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "Bd", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "LCL", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s8", 
+                "userName": "Express"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "PRR5150", 
+            "number": "5150", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 3.8, 
+            "weightTons": 76.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "RP3", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Live Oysters", 
+            "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s3", 
+                "userName": "Mother Schuckers"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "FGEX3597", 
+            "number": "3597", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDazevwlj43hmr", 
+            "road": "FGEX", 
+            "sequence": "6002", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
             "carType": "XP3", 
             "color": "Generic", 
             "comment": "", 
@@ -2772,72 +2884,16 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "PRR6249", 
-            "number": "6249", 
+            "name": "ER2050", 
+            "number": "2050", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDcsz7d9jlu7db", 
-            "road": "PRR", 
-            "sequence": "6002", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "GPD", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Gravel", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "PRR0306", 
-            "number": "0306", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDpkuw6seoa5zy", 
-            "road": "PRR", 
-            "sequence": "6002", 
+            "rfid": "IDs5lru3bdkyay", 
+            "road": "ER", 
+            "sequence": "6003", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -2884,70 +2940,14 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "FGEX3882", 
-            "number": "3882", 
+            "name": "FGEX9489", 
+            "number": "9489", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDos2hxirq5l7o", 
-            "road": "FGEX", 
-            "sequence": "6002", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "RP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Produce", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "FGEX9107", 
-            "number": "9107", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "IDwik27n6fkb8a", 
+            "rfid": "IDckbibr6gz0tp", 
             "road": "FGEX", 
             "sequence": "6003", 
             "status": "", 
@@ -2960,7 +2960,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "GPx", 
+            "carType": "FP3", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -2985,82 +2985,26 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Gravel", 
+            "load": "lumber", 
             "loadType": "load", 
             "location": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s1", 
-                "userName": "Bulk Material Wharf"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "NYNH&H9743", 
-            "number": "9743", 
+            "name": "PL6762", 
+            "number": "6762", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "ID34a1u1vsp3", 
-            "road": "NYNH&H", 
-            "sequence": "6003", 
-            "status": "", 
-            "utility": false, 
-            "weight": 0.0, 
-            "weightTons": 0.0
-          }, 
-          {
-            "addComment": "", 
-            "built": "", 
-            "caboose": false, 
-            "carSubType": null, 
-            "carType": "XP3", 
-            "color": "Generic", 
-            "comment": "", 
-            "destination": {
-              "name": "2", 
-              "route": "1r7", 
-              "track": {
-                "name": "2s1", 
-                "userName": "South Yard"
-              }, 
-              "userName": "MUTT"
-            }, 
-            "division": "", 
-            "finalDestination": {
-              "track": {
-                "userName": ""
-              }, 
-              "userName": ""
-            }, 
-            "fred": false, 
-            "hazardous": false, 
-            "isLocal": false, 
-            "kernel": null, 
-            "kernelSize": 0, 
-            "length": 40, 
-            "load": "Food Stuffs", 
-            "loadType": "load", 
-            "location": {
-              "name": "1", 
-              "route": "1r8", 
-              "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
-              }, 
-              "userName": "Basin Street"
-            }, 
-            "name": "B&A1897", 
-            "number": "1897", 
-            "outOfService": false, 
-            "owner": "", 
-            "passenger": false, 
-            "removeComment": "", 
-            "returnWhenEmpty": null, 
-            "rfid": "ID1zmtcjgb4mj", 
-            "road": "B&A", 
+            "rfid": "IDnz7soprathbb", 
+            "road": "PL", 
             "sequence": "6004", 
             "status": "", 
             "utility": false, 
@@ -3072,7 +3016,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
+            "carType": "FP4", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -3097,26 +3041,26 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Food Stuffs", 
+            "load": "lumber", 
             "loadType": "load", 
             "location": {
               "name": "1", 
               "route": "1r8", 
               "track": {
-                "name": "1s6", 
-                "userName": "Basin St Stores"
+                "name": "1s4", 
+                "userName": "4th St Pier"
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "P&R8715", 
-            "number": "8715", 
+            "name": "B&O6992", 
+            "number": "6992", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDoeox5ql464n2", 
-            "road": "P&R", 
+            "rfid": "IDcz3fovx6g5do", 
+            "road": "B&O", 
             "sequence": "6005", 
             "status": "", 
             "utility": false, 
@@ -3128,7 +3072,7 @@
             "built": "", 
             "caboose": false, 
             "carSubType": null, 
-            "carType": "XP3", 
+            "carType": "FP3", 
             "color": "Generic", 
             "comment": "", 
             "destination": {
@@ -3153,8 +3097,64 @@
             "kernel": null, 
             "kernelSize": 0, 
             "length": 40, 
-            "load": "Food Stuffs", 
+            "load": "lumber", 
             "loadType": "load", 
+            "location": {
+              "name": "1", 
+              "route": "1r8", 
+              "track": {
+                "name": "1s4", 
+                "userName": "4th St Pier"
+              }, 
+              "userName": "Basin Street"
+            }, 
+            "name": "AT&SF5337", 
+            "number": "5337", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "IDf32crx9xq964", 
+            "road": "AT&SF", 
+            "sequence": "6006", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": null, 
+            "carType": "XPP", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "2", 
+              "route": "1r7", 
+              "track": {
+                "name": "2s1", 
+                "userName": "South Yard"
+              }, 
+              "userName": "MUTT"
+            }, 
+            "division": "", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": null, 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Empty", 
+            "loadType": "empty", 
             "location": {
               "name": "1", 
               "route": "1r8", 
@@ -3164,16 +3164,16 @@
               }, 
               "userName": "Basin Street"
             }, 
-            "name": "PL3265", 
-            "number": "3265", 
+            "name": "PL44011", 
+            "number": "44011", 
             "outOfService": false, 
             "owner": "", 
             "passenger": false, 
             "removeComment": "", 
             "returnWhenEmpty": null, 
-            "rfid": "IDuasqpmn3fypy", 
+            "rfid": "IDjr19bqqn2wph", 
             "road": "PL", 
-            "sequence": "6006", 
+            "sequence": "6008", 
             "status": "", 
             "utility": false, 
             "weight": 0.0, 
@@ -3236,6 +3236,6 @@
       "userName": "MUTT"
     }
   ], 
-  "railroad": "", 
+  "railroad": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
   "userName": "Basin St Switcher"
 }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Jan 12 13:17:56 PST 2024-->
+  <options>
+    <trainOptions buildMessages="false" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Terminate" />
+    <conductorOptions showHyphenName="false" />
+    <rowColorOptions rowColorManual="true" rowColorBuidFailed="" rowColorBuilt="" rowColorTrainEnRoute="" rowColorTerminated="" />
+    <manifestCreator>
+      <directory name="csvManifests" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </manifestCreator>
+    <switchlistCreator>
+      <directory name="csvSwitchLists" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </switchlistCreator>
+  </options>
+  <trains>
+    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="MUTT492" status="Terminated 1/12/2024 13:17" TerminationDate="1/12/2024 13:17" RequestedCars="56" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <route name="Basin St Switcher" id="1" />
+      <types>
+        <carType name="Bd" />
+        <carType name="Bdr" />
+        <carType name="FP3" />
+        <carType name="FP4" />
+        <carType name="GPD" />
+        <carType name="GPx" />
+        <carType name="NPD" />
+        <carType name="RP3" />
+        <carType name="TPO" />
+        <carType name="XP3" />
+        <carType name="XP4" />
+        <carType name="XPP" />
+        <carType name="XPV" />
+        <locoType name="ESS" />
+      </types>
+    </train>
+  </trains>
+  <trainScheduleOptions activeId="" />
+  <schedules>
+    <schedule id="1" name="Sunday" trainIds="," />
+    <schedule id="2" name="Monday" trainIds="," />
+    <schedule id="3" name="Tuesday" trainIds="," />
+    <schedule id="4" name="Wednesday" trainIds="," />
+    <schedule id="5" name="Thursday" trainIds="," />
+    <schedule id="6" name="Friday" trainIds="," />
+    <schedule id="7" name="Saturday" trainIds="," />
+  </schedules>
+  <automations />
+</operations-config>
