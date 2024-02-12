@@ -2,16 +2,15 @@
 <?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Fri Feb 09 15:41:25 PST 2024-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Dec 16 09:28:38 PST 2023-->
   <routes>
     <route id="59" name="703" comment="">
-      <location id="59r7" name="City Service" locationId="16" sequenceId="1" trainDirection="4" maxTrainLength="3000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="59r4" name="Valley" locationId="7" sequenceId="2" trainDirection="4" maxTrainLength="3000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="59r6" name="Train Service" locationId="9" sequenceId="1" trainDirection="4" maxTrainLength="3000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="59r4" name="Valley" locationId="7" sequenceId="2" trainDirection="4" maxTrainLength="3000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
     </route>
     <route id="60" name="703Y" comment="">
-      <location id="60r8" name="City Business" locationId="11" sequenceId="2" trainDirection="4" maxTrainLength="3000" grade="0.0" maxCarMoves="1" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="60r9" name="City Service" locationId="16" sequenceId="3" trainDirection="4" maxTrainLength="3000" grade="0.0" maxCarMoves="3" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="60r7" name="City Depot" locationId="6" sequenceId="4" trainDirection="4" maxTrainLength="3000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="60r6" name="Downtown" locationId="4" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="1" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="60r4" name="Train Service" locationId="9" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
     </route>
     <route id="61" name="78X" comment="">
       <location id="61r7" name="Weston" locationId="6" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
@@ -97,12 +96,13 @@
       <location id="80r2" name="Downtown" locationId="4" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="12" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
     </route>
     <route id="82" name="704" comment="">
-      <location id="82r1" name="Valley" locationId="7" sequenceId="1" trainDirection="8" maxTrainLength="3000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="82r3" name="City Depot" locationId="6" sequenceId="2" trainDirection="8" maxTrainLength="3000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="82r1" name="Valley" locationId="7" sequenceId="1" trainDirection="8" maxTrainLength="3000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="82r2" name="Train Service" locationId="9" sequenceId="2" trainDirection="8" maxTrainLength="3000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
     </route>
     <route id="83" name="704Y" comment="">
-      <location id="83r6" name="City Depot" locationId="6" sequenceId="2" trainDirection="8" maxTrainLength="3000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
-      <location id="83r7" name="City Business" locationId="11" sequenceId="3" trainDirection="8" maxTrainLength="3000" grade="0.0" maxCarMoves="1" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="83r1" name="Train Service" locationId="9" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="83r5" name="Train Service" locationId="9" sequenceId="2" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="3" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="83r3" name="Downtown" locationId="4" sequenceId="3" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="1" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
     </route>
     <route id="85" name="55M" comment="">
       <location id="85r4" name="Weston" locationId="6" sequenceId="1" trainDirection="1" maxTrainLength="3000" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />

@@ -1,15 +1,72 @@
 {
   "comment": "", 
-  "date": "1938-12-14T16:44:50.624+00:00", 
+  "date": "2024-02-09T23:44:04.947+00:00", 
   "description": "Build 703", 
   "locations": [
     {
       "cars": {
-        "add": [], 
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Bd", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Express", 
+            "loadType": "load", 
+            "location": {
+              "name": "11", 
+              "route": "60r8", 
+              "track": {
+                "name": "11s1", 
+                "userName": "Express 2"
+              }, 
+              "userName": "City Business"
+            }, 
+            "name": "PRR7679", 
+            "number": "7679", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }
+        ], 
         "empties": 0, 
-        "loads": 0, 
+        "loads": 1, 
         "remove": [], 
-        "total": 0
+        "total": 1
       }, 
       "comment": "", 
       "departureTime": "16:40", 
@@ -21,25 +78,201 @@
         "remove": []
       }, 
       "length": {
-        "length": 0, 
+        "length": 44, 
         "unit": "Feet"
       }, 
       "location": {
         "comment": "", 
-        "name": "4"
+        "name": "11"
       }, 
-      "name": "60r6", 
-      "track": {}, 
-      "trainDirection": 1, 
-      "userName": "Downtown", 
+      "name": "60r8", 
+      "track": {
+        "11s1": {
+          "add": "", 
+          "comment": "TrainPlayer ID:45"
+        }
+      }, 
+      "trainDirection": 4, 
+      "userName": "City Business", 
       "weight": 0
     }, 
     {
-      "TrainTerminatesIn": "Train Service", 
       "arrivalTime": "16:44", 
       "cars": {
-        "add": [], 
-        "remove": []
+        "add": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "16", 
+              "route": "60r9", 
+              "track": {
+                "name": "16s6", 
+                "userName": "Coach Yard 2"
+              }, 
+              "userName": "City Service"
+            }, 
+            "name": "PRR2298", 
+            "number": "2298", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "16", 
+              "route": "60r9", 
+              "track": {
+                "name": "16s6", 
+                "userName": "Coach Yard 2"
+              }, 
+              "userName": "City Service"
+            }, 
+            "name": "PRR1304", 
+            "number": "1304", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Pk", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "16", 
+              "route": "60r9", 
+              "track": {
+                "name": "16s6", 
+                "userName": "Coach Yard 2"
+              }, 
+              "userName": "City Service"
+            }, 
+            "name": "PRR4092", 
+            "number": "4092", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }
+        ], 
+        "empties": 0, 
+        "loads": 4, 
+        "remove": [], 
+        "total": 4
       }, 
       "comment": "", 
       "division": {
@@ -49,15 +282,275 @@
         "add": [], 
         "remove": []
       }, 
-      "expectedDepartureTime": "16:44", 
+      "expectedDepartureTime": "16:53", 
+      "length": {
+        "length": 176, 
+        "unit": "Feet"
+      }, 
       "location": {
         "comment": "", 
-        "name": "9"
+        "name": "16"
       }, 
-      "name": "60r4", 
-      "userName": "Train Service"
+      "name": "60r9", 
+      "track": {
+        "16s6": {
+          "add": "", 
+          "comment": "TrainPlayer ID:36"
+        }
+      }, 
+      "trainDirection": 4, 
+      "userName": "City Service", 
+      "weight": 108
+    }, 
+    {
+      "TrainTerminatesIn": "City Depot", 
+      "arrivalTime": "16:57", 
+      "cars": {
+        "add": [], 
+        "remove": [
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Bd", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Express", 
+            "loadType": "load", 
+            "location": {
+              "name": "11", 
+              "route": "60r8", 
+              "track": {
+                "name": "11s1", 
+                "userName": "Express 2"
+              }, 
+              "userName": "City Business"
+            }, 
+            "name": "PRR7679", 
+            "number": "7679", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": false, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 0.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "16", 
+              "route": "60r9", 
+              "track": {
+                "name": "16s6", 
+                "userName": "Coach Yard 2"
+              }, 
+              "userName": "City Service"
+            }, 
+            "name": "PRR2298", 
+            "number": "2298", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "P54", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "16", 
+              "route": "60r9", 
+              "track": {
+                "name": "16s6", 
+                "userName": "Coach Yard 2"
+              }, 
+              "userName": "City Service"
+            }, 
+            "name": "PRR1304", 
+            "number": "1304", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }, 
+          {
+            "addComment": "", 
+            "built": "", 
+            "caboose": false, 
+            "carSubType": "", 
+            "carType": "Pk", 
+            "color": "Generic", 
+            "comment": "", 
+            "destination": {
+              "name": "6", 
+              "route": "60r7", 
+              "track": {
+                "name": "6s3", 
+                "userName": "Platform 4"
+              }, 
+              "userName": "City Depot"
+            }, 
+            "division": "Weston Division", 
+            "finalDestination": {
+              "track": {
+                "userName": ""
+              }, 
+              "userName": ""
+            }, 
+            "fred": false, 
+            "hazardous": false, 
+            "isLocal": false, 
+            "kernel": "", 
+            "kernelSize": 0, 
+            "length": 40, 
+            "load": "Occupied", 
+            "loadType": "load", 
+            "location": {
+              "name": "16", 
+              "route": "60r9", 
+              "track": {
+                "name": "16s6", 
+                "userName": "Coach Yard 2"
+              }, 
+              "userName": "City Service"
+            }, 
+            "name": "PRR4092", 
+            "number": "4092", 
+            "outOfService": false, 
+            "owner": "", 
+            "passenger": true, 
+            "removeComment": "", 
+            "returnWhenEmpty": null, 
+            "rfid": "", 
+            "road": "PRR", 
+            "sequence": "6000", 
+            "status": "", 
+            "utility": false, 
+            "weight": 0.0, 
+            "weightTons": 36.0
+          }
+        ]
+      }, 
+      "comment": "", 
+      "division": {
+        "userName": "Weston Division"
+      }, 
+      "engines": {
+        "add": [], 
+        "remove": []
+      }, 
+      "expectedDepartureTime": "17:09", 
+      "location": {
+        "comment": "", 
+        "name": "6"
+      }, 
+      "name": "60r7", 
+      "userName": "City Depot"
     }
   ], 
-  "railroad": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
+  "railroad": "", 
   "userName": "703Y"
 }
