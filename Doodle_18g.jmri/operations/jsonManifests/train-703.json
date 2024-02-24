@@ -1,6 +1,6 @@
 {
   "comment": "", 
-  "date": "1938-12-14T16:44:09.119+00:00", 
+  "date": "2024-02-09T23:55:06.310+00:00", 
   "description": "Valley - Passenger Local", 
   "locations": [
     {
@@ -30,27 +30,27 @@
               "name": "7", 
               "route": "59r4", 
               "track": {
-                "name": "7s5", 
-                "userName": "Roundhouse"
+                "name": "7s6", 
+                "userName": "Off Spot"
               }, 
               "userName": "Valley"
             }, 
             "length": 40, 
             "location": {
-              "name": "9", 
-              "route": "59r6", 
+              "name": "16", 
+              "route": "59r9", 
               "track": {
-                "name": "9s4", 
+                "name": "16s3", 
                 "userName": "Roundhouse"
               }, 
-              "userName": "Train Service"
+              "userName": "City Service"
             }, 
             "model": "E6S", 
-            "name": "PRR240", 
-            "number": "240", 
+            "name": "PRR656", 
+            "number": "656", 
             "outOfService": false, 
             "owner": "", 
-            "rfid": "IDxlskysy6yzc5", 
+            "rfid": "", 
             "road": "PRR", 
             "weight": 0.0, 
             "weightTons": 0.0
@@ -64,17 +64,49 @@
       }, 
       "location": {
         "comment": "", 
-        "name": "9"
+        "name": "16"
       }, 
-      "name": "59r6", 
+      "name": "59r9", 
       "track": {}, 
       "trainDirection": 4, 
-      "userName": "Train Service", 
+      "userName": "City Service", 
+      "weight": 0
+    }, 
+    {
+      "arrivalTime": "05:34", 
+      "cars": {
+        "add": [], 
+        "empties": 0, 
+        "loads": 0, 
+        "remove": [], 
+        "total": 0
+      }, 
+      "comment": "", 
+      "division": {
+        "userName": "Weston Division"
+      }, 
+      "engines": {
+        "add": [], 
+        "remove": []
+      }, 
+      "expectedDepartureTime": "05:34", 
+      "length": {
+        "length": 44, 
+        "unit": "Feet"
+      }, 
+      "location": {
+        "comment": "", 
+        "name": "6"
+      }, 
+      "name": "59r8", 
+      "track": {}, 
+      "trainDirection": 4, 
+      "userName": "City Depot", 
       "weight": 0
     }, 
     {
       "TrainTerminatesIn": "Valley", 
-      "arrivalTime": "05:34", 
+      "arrivalTime": "05:38", 
       "cars": {
         "add": [], 
         "remove": []
@@ -98,34 +130,34 @@
               "name": "7", 
               "route": "59r4", 
               "track": {
-                "name": "7s5", 
-                "userName": "Roundhouse"
+                "name": "7s6", 
+                "userName": "Off Spot"
               }, 
               "userName": "Valley"
             }, 
             "length": 40, 
             "location": {
-              "name": "9", 
-              "route": "59r6", 
+              "name": "16", 
+              "route": "59r9", 
               "track": {
-                "name": "9s4", 
+                "name": "16s3", 
                 "userName": "Roundhouse"
               }, 
-              "userName": "Train Service"
+              "userName": "City Service"
             }, 
             "model": "E6S", 
-            "name": "PRR240", 
-            "number": "240", 
+            "name": "PRR656", 
+            "number": "656", 
             "outOfService": false, 
             "owner": "", 
-            "rfid": "IDxlskysy6yzc5", 
+            "rfid": "", 
             "road": "PRR", 
             "weight": 0.0, 
             "weightTons": 0.0
           }
         ]
       }, 
-      "expectedDepartureTime": "05:34", 
+      "expectedDepartureTime": "05:38", 
       "location": {
         "comment": "", 
         "name": "7"
@@ -134,6 +166,6 @@
       "userName": "Valley"
     }
   ], 
-  "railroad": "Pennsylvania Railroad\nAllegheny Region\nWestern Pennsylvania", 
+  "railroad": "", 
   "userName": "703"
 }

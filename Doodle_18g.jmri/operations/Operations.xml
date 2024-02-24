@@ -2,20 +2,20 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Dec 16 10:48:17 PST 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Fri Feb 09 15:56:14 PST 2024-->
   <operations>
     <setup comment="" />
     <settings mainMenu="true" closeOnSave="true" autoSave="true" autoBackup="false" trainDirection="15" trainLength="3000" maxEngines="6" hpt="0" scale="6" carTypes="ARR Codes" switchTime="3" travelTime="4" showValue="true" valueLabel="sequence" showRfid="true" rfidLabel="qrCode" lengthUnit="Feet" yearModeled="" />
-    <pickupEngFormat prefix=" [ ] Pick up" setting="Road,Number,Model,Consist,Destination," />
+    <pickupEngFormat prefix=" [ ] Pick up" setting="Road,Number,Model,Consist,Location,Track," />
     <dropEngFormat prefix=" [ ] Set out" setting="Road,Number,Model,Consist,Destination," />
-    <pickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Destination," />
-    <dropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Dest&amp;Track," />
-    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Dest&amp;Track,FD&amp;Track," />
+    <pickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Hazardous,Track," />
+    <dropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Hazardous,Dest&amp;Track," />
+    <localFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest,Dest&amp;Track," />
     <missingCarFormat prefix="" setting="Road,Number,Type,Length,Color,Comment," />
     <switchList sameAsManifest="true" realTime="true" allTrains="true" pageFormat="pageNormal" printRouteLocation="true" trackSummary="true" />
-    <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Destination," />
-    <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Dest&amp;Track," />
-    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Dest&amp;Track,FD&amp;Track," />
+    <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Hazardous,Track," />
+    <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Hazardous,Dest&amp;Track," />
+    <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest,Dest&amp;Track," />
     <panel name="Panel" trainIconXY="true" trainIconAppend="false" />
     <fontName name="Monospaced" />
     <fontSize size="10" />

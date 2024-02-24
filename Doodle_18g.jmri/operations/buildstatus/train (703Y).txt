@@ -1,4 +1,4 @@
-1- Build Report for train (703Y) built on 12/14/23, 8:44 AM
+1- Build Report for train (703Y) built on 2/9/24, 3:44 PM
 1- JMRI version 5.2+R760b98537f
 3- Build report detail level: Normal
 5- Build report detail level: Detailed
@@ -14,7 +14,7 @@
 5-  
 5- Enabled build options for train (703Y):
 5- Use normal mode when building this train
-5- Send all car pick ups to terminal (Train Service)
+5- Send all car pick ups to terminal (City Depot)
 5- Allow local moves if car has a custom load or FD
 5- Allow cars to travel from origin to terminal
 5- Service all cars with a final destination (FD)
@@ -24,422 +24,444 @@
 5- Build loco consist from single locos
 5-  
 3- Train (703Y) route (703Y):
-3- 60r6 Location (Downtown) Eastbound requests 1 pick ups, maximum train length 3,000 
-3- feet 
-3- 60r4 Location (Train Service) Eastbound requests 4 moves
-1- Route (703Y) requests 2 cars and 5 moves
+3- 60r8 Location (City Business) Northbound requests 1 pick ups, maximum train length 
+3- 3,000 feet 
+3- 60r9 Location (City Service) Northbound requests 3 pick ups, maximum train length 
+3- 3,000 feet 
+3- 60r7 Location (City Depot) Northbound requests 5 set outs
+1- Route (703Y) requests 4 cars and 9 moves
 1-  
 1- Train requirements:
 1- Train does not require any locomotives
 1-  
-7- Exclude loco (PRR 872) at (Train Service, Car Barn) type (EDHF) is not serviced by 
+7- Exclude loco (PRR 668) at (Easton, E4) type (ESHF) is not serviced by this train
+7- Exclude loco (PRR 027) at (Weston, W1) type (ESHP) is not serviced by this train
+7- Exclude loco (PRR 379) at (Unreported, ~) type (ESS) is not serviced by this train
+7- Exclude loco (PRR 088) at (City Service, Roundhouse) type (ESHF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 798) at (Train Service, Car Barn) type (EDHF) is not serviced by 
+7- Exclude loco (PRR 951) at (City Service, Roundhouse) type (ESLF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 114) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 039) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 038) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 069) at (City, 74) type (ESS) is not serviced by this train
-7- Exclude loco (PRR 792) at (Weston, W3) type (ESHP) is not serviced by this train
-7- Exclude loco (PRR 828) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 092) at (Train Service, Car Barn) type (EDHF) is not serviced by 
+7- Exclude loco (PRR 509) at (City Service, Roundhouse) type (ESS) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 587) at (Train Service, Car Barn) type (EEHP) is not serviced by 
+7- Exclude loco (PRR 630) at (City Service, Car Barn) type (EEHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 072) at (Train Service, Roundhouse) type (ESHP) is not serviced by 
+7- Exclude loco (PRR 533) at (Northton, N1) type (EEHF) is not serviced by this train
+7- Exclude loco (PRR 820) at (City Service, Roundhouse) type (ESHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 520) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 474) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 677) at (Unreported, ~) type (ESS) is not serviced by this train
-7- Exclude loco (PRR 878) at (Train Service, Roundhouse) type (ESHP) is not serviced by 
+7- Exclude loco (PRR 499) at (Northton, N3) type (EEHP) is not serviced by this train
+7- Exclude loco (PRR 496) at (Weston, W3) type (ESHP) is not serviced by this train
+7- Exclude loco (PRR 492) at (City Service, Roundhouse) type (ESHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 611) at (Northton, N3) type (EEHP) is not serviced by this train
-7- Exclude loco (PRR 053) at (Weston, W3) type (ESHP) is not serviced by this train
-7- Exclude loco (PRR 363) at (Northton, N4) type (EELP) is not serviced by this train
-7- Exclude loco (PRR 936) at (Valley, Roundhouse) type (ESLF) is not serviced by this 
+7- Exclude loco (PRR 2788) at (Northton, N4) type (EELP) is not serviced by this train
+7- Exclude loco (PRR 048) at (Easton, E2) type (ESHF) is not serviced by this train
+7- Exclude loco (PRR 656) at (City Service, Roundhouse) type (ESLP) is not serviced by 
+7- this train 
+7- Exclude loco (PRR 652) at (Easton, E3) type (ESHP) is not serviced by this train
+7- Exclude loco (PRR 559) at (Unreported, ~) type (ESS) is not serviced by this train
+7- Exclude loco (PRR 207) at (Weston, W3) type (ESHP) is not serviced by this train
+7- Exclude loco (PRR 299) at (Weston, W1) type (ESHP) is not serviced by this train
+7- Exclude loco (PRR 520) at (Valley, Roundhouse) type (ESLF) is not serviced by this 
 7- train 
-7- Exclude loco (PRR 452) at (Train Service, Roundhouse) type (ESHP) is not serviced by 
+7- Exclude loco (PRR 0917) at (Northton, N4) type (EELP) is not serviced by this train
+7- Exclude loco (PRR 483) at (City Depot, Platform 2) type (ESHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 208) at (Weston, W2) type (ESHP) is not serviced by this train
-7- Exclude loco (PRR 045) at (Train Service, Roundhouse) type (ESHF) is not serviced by 
+7- Exclude loco (PRR 0333) at (Northton, N4) type (EELP) is not serviced by this train
+7- Exclude loco (PRR 192) at (City Service, Roundhouse) type (ESHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 323) at (Train Service, Roundhouse) type (ESHP) is not serviced by 
+7- Exclude loco (PRR 6796) at (Northton, N4) type (EELP) is not serviced by this train
+7- Exclude loco (PRR 389) at (City Service, Roundhouse) type (ESLF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 449) at (Easton, E4) type (ESHF) is not serviced by this train
-7- Exclude loco (PRR 758) at (Weston, W2) type (ESHP) is not serviced by this train
-7- Exclude loco (PRR 303) at (Train Service, Car Barn) type (EEHF) is not serviced by 
+7- Exclude loco (PRR 932) at (City Service, Roundhouse) type (ESHP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 486) at (Northton, N2) type (EEHF) is not serviced by this train
-7- Exclude loco (PRR 949) at (Train Service, Roundhouse) type (ESLF) is not serviced by 
+7- Exclude loco (PRR 675) at (City Service, Car Barn) type (EDHF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 351) at (Train Service, Car Barn) type (EEHF) is not serviced by 
+7- Exclude loco (PRR 095) at (City Service, Car Barn) type (EEHF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 240) at (Train Service, Roundhouse) type (ESLP) is not serviced by 
+7- Exclude loco (PRR 2645) at (Northton, N4) type (EELP) is not serviced by this train
+7- Exclude loco (PRR 092) at (City Service, Roundhouse) type (ESLF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 194) at (Train Service, Roundhouse) type (ESLP) is not serviced by 
+7- Exclude loco (PRR 9863) at (Northton, N4) type (EELP) is not serviced by this train
+7- Exclude loco (PRR 513) at (City Service, Car Barn) type (EEHF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 720) at (Train Service, Roundhouse) type (ESLF) is not serviced by 
+7- Exclude loco (PRR 544) at (City Service, Car Barn) type (EDHF) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 410) at (Northton, N2) type (EEHF) is not serviced by this train
-7- Exclude loco (PRR 532) at (Train Service, Car Barn) type (EEHF) is not serviced by 
+7- Exclude loco (PRR 222) at (Easton, E1) type (ESHF) is not serviced by this train
+7- Exclude loco (PRR 6082) at (Northton, N4) type (EELP) is not serviced by this train
+7- Exclude loco (PRR 893) at (City Service, Roundhouse) type (ESLP) is not serviced by 
 7- this train 
-7- Exclude loco (PRR 025) at (Easton, E1) type (ESHF) is not serviced by this train
+7- Exclude loco (PRR 250) at (City Service, Car Barn) type (EDHF) is not serviced by 
+7- this train 
+7- Exclude loco (PRR 733) at (Northton, N1) type (EEHF) is not serviced by this train
 5-  
 1- Found 0 locomotives for train (703Y)
-7- Locos at location (Downtown):
+7- Locos at location (City Business):
 5-  
-7- Locos at location (Train Service):
+7- Locos at location (City Service):
+5-  
+7- Locos at location (City Depot):
 5-  
 3-  
 5-  
 5- Train (703Y) services car types:
-5- Bd, P54, Pk
+5- P54, Pk, Bd
 7-  
 7- Remove cars not serviced by this train:
-7- Exclude car (PRR 8869) at (Train Service, Coach Yard) train doesn't service type (P70)
-7- Exclude car (PRR 8102) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (PRR 8057) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (PRR 7808) at (Downtown, DY) train doesn't service type (XX)
-7- Exclude car (PRR 9505) at (Train Service, Coach Yard) train doesn't service type (P70)
-7- Exclude car (PRR 8020) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (PRR 5189) at (Downtown, DY) train doesn't service type (XX)
-7- Exclude car (PRR 4843) at (Downtown, DY) train doesn't service type (XX)
-7- Exclude car (PRR 4414) at (Train Service, Coach Yard) train doesn't service type (P70)
-7- Exclude car (PRR 6485) at (Downtown, DX) train doesn't service type (CA)
-7- Exclude car (PRR 8587) at (Downtown, Service Track) train doesn't service type (PS)
-7- Exclude car (PRR 6854) at (Downtown, Service Track) train doesn't service type (B60)
-7- Exclude car (PRR 0460) at (Downtown, DY) train doesn't service type (XX)
-7- Exclude car (PRR 3657) at (Downtown, DY) train doesn't service type (Bn)
-7- Exclude car (PRR 5369) at (Downtown, DY) train doesn't service type (MA)
-7- Exclude car (NE 199) type (NE) by train, no pick up from C/I (Train Service, Cabin 
-7- Track) 
-7- Exclude car (PRR 3620) at (Downtown, DY) train doesn't service type (B60)
-7- Exclude car (PRR 206) type (NM) by train, no pick up from C/I (Train Service, Cabin 
-7- Track) 
-7- Exclude car (PRR 119) type (NM) by train, no pick up from C/I (Train Service, Cabin 
-7- Track) 
-7- Exclude car (FGEX 0914) type (RB) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (NYC 0574) type (GB) by train, no pick up from spur (Downtown, Ash)
-7- Exclude car (FGEX 0464) type (RS) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 3250) type (RS) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 2140) type (RS) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 7836) type (RB) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 2504) type (RB) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 2108) type (RB) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 6669) type (RB) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (PRR 235) type (NM) by train, no pick up from C/I (Train Service, Cabin 
-7- Track) 
-7- Exclude car (FGEX 9054) type (RB) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 6983) type (RB) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 4784) type (RS) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (FGEX 6112) type (RS) by train, no pick up from spur (Downtown, Ice)
-7- Exclude car (PRR 2476) type (GB) by train, no pick up from spur (Downtown, Gantry 
-7- Crane) 
-7- Exclude car (DL&W 6790) at (Downtown, DX) train doesn't service type (XM)
-7- Exclude car (PRR 6558) type (XM) by train, no pick up from spur (Downtown, General 
-7- Delivery) 
-7- Exclude car (NYC 7835) type (FM) by train, no pick up from spur (Downtown, General 
-7- Delivery) 
-7- Exclude car (WJ&S 2288) at (Downtown, DX) train doesn't service type (XM)
-7- Exclude car (B&O 3291) type (FM) by train, no pick up from spur (Downtown, General 
-7- Delivery) 
-7- Exclude car (PRR 7954) at (Downtown, DX) train doesn't service type (XM)
-7- Exclude car (PRR 9167) at (Downtown, DX) train doesn't service type (XM)
-7- Exclude car (CS 8963) type (XM) by train, no pick up from spur (Downtown, General 
-7- Delivery) 
-7- Exclude car (PRR 8836) type (GB) by train, no pick up from spur (Downtown, Gantry 
-7- Crane) 
-7- Exclude car (PRR 7481) type (HK) by train, no pick up from spur (Downtown, Coal)
-7- Exclude car (NYNH&H 0256) type (XM) by train, no pick up from spur (Downtown, General 
-7- Delivery) 
-7- Exclude car (B&O 1911) type (XM) by train, no pick up from spur (Downtown, General 
-7- Delivery) 
+7- Exclude car (PRR 8905) at (City Business, Express 1) train doesn't service type (Bn)
+7- Exclude car (LV 4240) at (City Business, General Delivery) train doesn't service type 
+7- (GB) 
+7- Exclude car (FGEX 2195) at (City Business, Ice) train doesn't service type (RS)
+7- Exclude car (C&O 7369) at (City Business, General Delivery) train doesn't service 
+7- type (XM) 
+7- Exclude car (PRR 7384) at (City Business, Express 1) train doesn't service type (MA)
+7- Exclude car (ACL 5456) at (City Business, Express 2) train doesn't service type (XM)
+7- Exclude car (FGEX 5754) at (City Business, Ice) train doesn't service type (RB)
+7- Exclude car (FGEX 9222) at (City Business, Ice) train doesn't service type (RS)
+7- Exclude car (PRR 0284) at (City Business, Express 2) train doesn't service type (XM)
+7- Exclude car (B&O 9070) at (City Business, Coal) train doesn't service type (HK)
+7- Exclude car (DL&W 9698) at (City Business, Ash) train doesn't service type (GB)
+7- Exclude car (FGEX 0027) at (City Business, Ice) train doesn't service type (RB)
+7- Exclude car (PRR 7693) at (City Business, Express 2) train doesn't service type (CA)
+7- Exclude car (ACL 2588) at (City Business, General Delivery) train doesn't service 
+7- type (XM) 
+7- Exclude car (FGEX 1455) at (City Business, Ice) train doesn't service type (RB)
+7- Exclude car (PRR 2801) at (City Business, General Delivery) train doesn't service 
+7- type (XM) 
+7- Exclude car (PRR 1681) at (City Service, Coach Yard 2) train doesn't service type 
+7- (P70) 
+7- Exclude car (PRR ) at (City Service, Cabin Track) train doesn't service type (NE)
+7- Exclude car (FGEX 7027) at (City Business, Ice) train doesn't service type (RB)
+7- Exclude car (FGEX 4171) at (City Business, Ice) train doesn't service type (RB)
+7- Exclude car (PRR 2737) at (City Business, Express 1) train doesn't service type (B60)
+7- Exclude car (FGEX 3927) at (City Business, Ice) train doesn't service type (RS)
+7- Exclude car (P&R 8702) at (City Business, Express 2) train doesn't service type (XM)
+7- Exclude car (PRR 8315) at (City Business, Express 1) train doesn't service type (XX)
+7- Exclude car (PRR 632) at (City Service, Cabin Track) train doesn't service type (NM)
+7- Exclude car (PRR 990) at (City Service, Cabin Track) train doesn't service type (NM)
+7- Exclude car (PRR 588) at (City Service, Cabin Track) train doesn't service type (NE)
+7- Exclude car (CS 7308) at (City Business, Express 2) train doesn't service type (XM)
+7- Exclude car (NYC 8851) at (City Business, Gantry Crane) train doesn't service type 
+7- (GB) 
+7- Exclude car (B&O 8231) at (City Business, General Delivery) train doesn't service 
+7- type (XM) 
+7- Exclude car (FGEX 0593) at (City Business, Ice) train doesn't service type (RS)
+7- Exclude car (CS 5871) at (City Business, General Delivery) train doesn't service type 
+7- (FM) 
+7- Exclude car (PRR 8175) at (City Business, Express 1) train doesn't service type (B60)
+7- Exclude car (PRR 0456) at (City Service, Coach Yard 2) train doesn't service type 
+7- (P70) 
+7- Exclude car (PRR 889) at (City Service, Cabin Track) train doesn't service type (NM)
+7- Exclude car (PRR 8497) at (City Business, Express 1) train doesn't service type (XX)
+7- Exclude car (PRR 4258) at (City Service, Coach Yard 2) train doesn't service type 
+7- (P70) 
+7- Exclude car (FGEX 0497) at (City Business, Ice) train doesn't service type (RB)
+7- Exclude car (DL&W 5954) at (City Business, General Delivery) train doesn't service 
+7- type (FM) 
+7- Exclude car (PRR 7798) at (City Business, Express 1) train doesn't service type (XX)
 5-  
 1- Found 4 cars for train (703Y)
-7- Cars at location (Downtown):
-7- Car (PRR 0107) type (Bd) at (Downtown, DX) 8 moves
+7- Cars at location (City Business):
+7- Car (PRR 7679) type (Bd) at (City Business, Express 2) 0 moves
 7-  
-7- Cars at location (Train Service):
-7- Car (PRR 0838) type (P54) (P) 0 at (Train Service, Coach Yard) 4 moves
-7- Car (PRR 7303) type (Pk) (P) 0 at (Train Service, Coach Yard) 8 moves
-7- Car (PRR 5466) type (P54) (P) 0 at (Train Service, Coach Yard) 8 moves
+7- Cars at location (City Service):
+7- Car (PRR 4092) type (Pk) (P) 0 at (City Service, Coach Yard 2) 0 moves
+7- Car (PRR 1304) type (P54) (P) 0 at (City Service, Coach Yard 2) 0 moves
+7- Car (PRR 2298) type (P54) (P) 0 at (City Service, Coach Yard 2) 0 moves
+7-  
+7- Cars at location (City Depot):
 7-  
 7- Sort cars on FIFO and LIFO tracks:
 7-  
-5- Train does not require caboose when departing (Downtown)
+5- Train does not require caboose when departing (City Business)
 5- Train does not require car with FRED
 7-  
 7- Remove cars not needed by this train:
 3-  
-3- Requested cars (2) for train (703Y) the number available (4) building train!
+3- Requested cars (4) for train (703Y) the number available (4) building train!
 3-  
 3- Use normal mode when building this train
-1- Route location (Downtown) id 60r6 requests 1 pick ups, 1/1 moves are available
+1- Route location (City Business) id 60r8 requests 1 pick ups, 1/1 moves are available
 5-  
-5- Find spur for car (PRR 0107) type (Bd) custom load (Express) at (Downtown, DX)
-7- Spur (Downtown, DY) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Spur (Downtown, Ash) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Spur (Downtown, Sand) can't service car (PRR 0107) with load (Express) due to type 
+5- Find spur for car (PRR 7679) type (Bd) custom load (Express) at (City Business, 
+5- Express 2) 
+7- Spur (Valley, Coal) can't service car (PRR 7679) with load (Express) due to type (Bd)
+7- Spur (Valley, Depot) can't service car (PRR 7679) with load (Express) due to type (Bd)
+7- Spur (Valley, General Delivery) can't service car (PRR 7679) with load (Express) due 
+7- to type (Bd) 
+7- Spur (Valley, Produce) can't service car (PRR 7679) with load (Express) due to type 
 7- (Bd) 
-7- Spur (Valley, Coal) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Spur (Junction, Coal) can't service car (PRR 0107) with load (Express) due to type 
+7- Spur (Junction, Coal) can't service car (PRR 7679) with load (Express) due to type 
 7- (Bd) 
-7- Spur (Park, Coal) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Spur (Downtown, Gantry Crane) can't service car (PRR 0107) with load (Express) due to 
+7- Spur (Junction, Depot) can't service car (PRR 7679) with load (Express) due to type 
+7- (Bd) 
+7- Spur (Junction, Steel Products) can't service car (PRR 7679) with load (Express) due 
+7- to type (Bd) 
+7- Spur (Park, Coal) can't service car (PRR 7679) with load (Express) due to type (Bd)
+7- Spur (Park, Depot) can't service car (PRR 7679) with load (Express) due to type (Bd)
+7- Spur (Park, Freight House) can't service car (PRR 7679) with load (Express) due to 
 7- type (Bd) 
-7- Spur (Valley, Produce) can't service car (PRR 0107) with load (Express) due to type 
+7- Spur (Park, Fuel Oil) can't service car (PRR 7679) with load (Express) due to type 
 7- (Bd) 
-7- Spur (Park, Power House) can't service car (PRR 0107) with load (Express) due to type 
+7- Spur (Park, General Delivery) can't service car (PRR 7679) with load (Express) due to 
+7- type (Bd) 
+7- Spur (Park, Lumber) can't service car (PRR 7679) with load (Express) due to type (Bd)
+7- Spur (Park, Power House) can't service car (PRR 7679) with load (Express) due to type 
 7- (Bd) 
-7- Spur (Downtown, Coal) can't service car (PRR 0107) with load (Express) due to type 
-7- (Bd) 
-7- Spur (Valley, General Delivery) can't service car (PRR 0107) with load (Express) due 
+7- Spur (River, Depot) can't service car (PRR 7679) with load (Express) due to type (Bd)
+7- Spur (City Business, Ash) can't service car (PRR 7679) with load (Express) due to 
+7- type (Bd) 
+7- Spur (City Business, Coal) can't service car (PRR 7679) with load (Express) due to 
+7- type (Bd) 
+7- Spur (City Business, Express 1) can't service car (PRR 7679) with load (Express) due 
 7- to type (Bd) 
-7- Spur (Junction, Depot) can't service car (PRR 0107) with load (Express) due to type 
-7- (Bd) 
-7- Spur (Park, Lumber) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Spur (Valley, Depot) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Spur (Park, Fuel Oil) can't service car (PRR 0107) with load (Express) due to type 
-7- (Bd) 
-7- Spur (Junction, Steel Products) can't service car (PRR 0107) with load (Express) due 
-7- to type (Bd) 
-7- Spur (Park, Depot) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Spur (Downtown, General Delivery) can't service car (PRR 0107) with load (Express) 
+7- Spur (City Business, Gantry Crane) can't service car (PRR 7679) with load (Express) 
 7- due to type (Bd) 
-7- Spur (Park, General Delivery) can't service car (PRR 0107) with load (Express) due to 
+7- Spur (City Business, General Delivery) can't service car (PRR 7679) with load 
+7- (Express) due to type (Bd) 
+7- Spur (City Business, Ice) can't service car (PRR 7679) with load (Express) due to 
 7- type (Bd) 
-7- Spur (Park, Freight House) can't service car (PRR 0107) with load (Express) due to 
+7- Spur (City Business, Sand) can't service car (PRR 7679) with load (Express) due to 
 7- type (Bd) 
-7- Spur (Downtown, Ice) can't service car (PRR 0107) with load (Express) due to type (Bd)
-7- Could not find a reachable spur for car (PRR 0107) load (Express)
-5- Try to send car (PRR 0107) custom load (Express) to staging
-7- Staging (Easton, E1) can accept car's load (Express)
+7- Spur (Towne, General Delivery) can't service car (PRR 7679) with load (Express) due 
+7- to type (Bd) 
+7- Could not find a reachable spur for car (PRR 7679) load (Express)
+5- Try to send car (PRR 7679) custom load (Express) to staging
+7- Staging (Easton, E4) can accept car's load (Express)
 7- Could not find an interim C/I or yard track that can service car to destination 
 7- (Easton) 
-7- Staging (Weston, W1) can accept car's load (Express)
+7- Staging (Northton, N3) can accept car's load (Express)
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Northton) 
+7- Staging (Weston, W2) can accept car's load (Express)
 7- Could not find an interim C/I or yard track that can service car to destination 
 7- (Weston) 
-7- Staging (Overton, S1) can accept car's load (Express)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Overton) 
-7- Couldn't find staging that would accept car (PRR 0107) and load (Express)
-5- Find destinations for (PRR 0107) type (Bd) load (Express) at (Downtown, DX)
-7- Searching location (Train Service) route id 60r4 for possible destination
-7- Can't set out rolling stock (PRR 0107) using Eastbound train, destination track 
-7- (Repair) does not service this direction 
-7- Can't set out (PRR 0107) by train (703Y) to C/I (Train Service, Coach Yard)
-7- Can't set out (PRR 0107) by train (703Y) to C/I (Train Service, Cabin Track)
-7- Can't set out (PRR 0107) by train (703Y) to C/I (Train Service, Car Barn)
-7- Can't set out (PRR 0107) by train (703Y) to C/I (Train Service, Roundhouse)
-5- Could not find a track for (PRR 0107) at destination (Train Service)
-5- Did not assign a destination for car (PRR 0107)
+7- Couldn't find staging that would accept car (PRR 7679) and load (Express)
+5- Find destinations for (PRR 7679) type (Bd) load (Express) at (City Business, Express 
+5- 2) 
+7- Route (703Y) id 60r9 no set outs at location (City Service)
+7- Searching location (City Depot) route id 60r7 for possible destination
+7- Can't send (PRR 7679) to C/I (Platform 2) due to type (Bd)
+7- Can't send (PRR 7679) to C/I (Platform 3) due to type (Bd)
+7- Can't send (PRR 7679) to C/I (Platform 1) due to type (Bd)
+7- Can't send (PRR 7679) to C/I (Passenger Service) due to type (Bd)
+5- Car (PRR 7679) can go to C/I (City Depot, Platform 4) 0/5 moves used
+3- Car (PRR 7679) assigned to train, destination (City Depot, Platform 4)
+3-  
+1- Success 1/1 cars at location (City Business) assigned to train (703Y)
+7-  
+1- Route location (City Service) id 60r9 requests 3 pick ups, 3/3 moves are available
 5-  
-1- Partial 0/1 cars at location (Downtown) assigned to train (703Y)
-1- Route location (Train Service) id 60r4 requests 4 pick ups, 4/4 moves are available
-5-  
-5- Find spur for car (PRR 0838) type (P54) custom load (Occupied) at (Train Service, 
-5- Coach Yard) 
-7- Spur (Downtown, DY) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Downtown, Ash) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Downtown, Sand) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Valley, Coal) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Junction, Coal) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Coal) can't service car (PRR 0838) with load (Occupied) due to type (P54)
-7- Spur (Downtown, Gantry Crane) can't service car (PRR 0838) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Valley, Produce) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Power House) can't service car (PRR 0838) with load (Occupied) due to 
-7- type (P54) 
-7- Spur (Downtown, Coal) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Valley, General Delivery) can't service car (PRR 0838) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Junction, Depot) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Lumber) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Valley, Depot) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Fuel Oil) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Junction, Steel Products) can't service car (PRR 0838) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Park, Depot) can't service car (PRR 0838) with load (Occupied) due to type (P54)
-7- Spur (Downtown, General Delivery) can't service car (PRR 0838) with load (Occupied) 
-7- due to type (P54) 
-7- Spur (Park, General Delivery) can't service car (PRR 0838) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Park, Freight House) can't service car (PRR 0838) with load (Occupied) due to 
-7- type (P54) 
-7- Spur (Downtown, Ice) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Downtown, DX) can't service car (PRR 0838) with load (Occupied) due to type 
-7- (P54) 
-7- Could not find a reachable spur for car (PRR 0838) load (Occupied)
-5- Try to send car (PRR 0838) custom load (Occupied) to staging
-7- Staging (Easton, E1) can accept car's load (Occupied)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Staging (Overton, S1) can accept car's load (Occupied)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Overton) 
-7- Staging (Weston, W1) can accept car's load (Occupied)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Couldn't find staging that would accept car (PRR 0838) and load (Occupied)
-5- Find destinations for (PRR 0838) type (P54) load (Occupied) at (Train Service, Coach 
-5- Yard) 
-5- Sending all car pick ups to terminal (Train Service)
-7- Searching location (Train Service) route id 60r4 for possible destination
-7- Can't set out rolling stock (PRR 0838) using Eastbound train, destination track 
-7- (Repair) does not service this direction 
-7- Can't set out (PRR 0838) by train (703Y) to C/I (Train Service, Coach Yard)
-7- Can't set out (PRR 0838) by train (703Y) to C/I (Train Service, Cabin Track)
-7- Can't set out (PRR 0838) by train (703Y) to C/I (Train Service, Car Barn)
-7- Can't set out (PRR 0838) by train (703Y) to C/I (Train Service, Roundhouse)
-5- Could not find a track for (PRR 0838) at destination (Train Service)
-5- Did not assign a destination for car (PRR 0838)
-5-  
-5- Find spur for car (PRR 7303) type (Pk) custom load (Occupied) at (Train Service, 
-5- Coach Yard) 
-7- Spur (Downtown, DY) can't service car (PRR 7303) with load (Occupied) due to type (Pk)
-7- Spur (Downtown, Ash) can't service car (PRR 7303) with load (Occupied) due to type 
+5- Find spur for car (PRR 4092) type (Pk) custom load (Occupied) at (City Service, Coach 
+5- Yard 2) 
+7- Spur (Valley, Coal) can't service car (PRR 4092) with load (Occupied) due to type (Pk)
+7- Spur (Valley, Depot) can't service car (PRR 4092) with load (Occupied) due to type 
 7- (Pk) 
-7- Spur (Downtown, Sand) can't service car (PRR 7303) with load (Occupied) due to type 
-7- (Pk) 
-7- Spur (Valley, Coal) can't service car (PRR 7303) with load (Occupied) due to type (Pk)
-7- Spur (Junction, Coal) can't service car (PRR 7303) with load (Occupied) due to type 
-7- (Pk) 
-7- Spur (Park, Coal) can't service car (PRR 7303) with load (Occupied) due to type (Pk)
-7- Spur (Downtown, Gantry Crane) can't service car (PRR 7303) with load (Occupied) due 
+7- Spur (Valley, General Delivery) can't service car (PRR 4092) with load (Occupied) due 
 7- to type (Pk) 
-7- Spur (Valley, Produce) can't service car (PRR 7303) with load (Occupied) due to type 
+7- Spur (Valley, Produce) can't service car (PRR 4092) with load (Occupied) due to type 
 7- (Pk) 
-7- Spur (Park, Power House) can't service car (PRR 7303) with load (Occupied) due to 
+7- Spur (Junction, Coal) can't service car (PRR 4092) with load (Occupied) due to type 
+7- (Pk) 
+7- Spur (Junction, Depot) can't service car (PRR 4092) with load (Occupied) due to type 
+7- (Pk) 
+7- Spur (Junction, Steel Products) can't service car (PRR 4092) with load (Occupied) due 
+7- to type (Pk) 
+7- Spur (Park, Coal) can't service car (PRR 4092) with load (Occupied) due to type (Pk)
+7- Spur (Park, Depot) can't service car (PRR 4092) with load (Occupied) due to type (Pk)
+7- Spur (Park, Freight House) can't service car (PRR 4092) with load (Occupied) due to 
 7- type (Pk) 
-7- Spur (Downtown, Coal) can't service car (PRR 7303) with load (Occupied) due to type 
+7- Spur (Park, Fuel Oil) can't service car (PRR 4092) with load (Occupied) due to type 
 7- (Pk) 
-7- Spur (Valley, General Delivery) can't service car (PRR 7303) with load (Occupied) due 
+7- Spur (Park, General Delivery) can't service car (PRR 4092) with load (Occupied) due 
 7- to type (Pk) 
-7- Spur (Junction, Depot) can't service car (PRR 7303) with load (Occupied) due to type 
-7- (Pk) 
-7- Spur (Park, Lumber) can't service car (PRR 7303) with load (Occupied) due to type (Pk)
-7- Spur (Valley, Depot) can't service car (PRR 7303) with load (Occupied) due to type 
-7- (Pk) 
-7- Spur (Park, Fuel Oil) can't service car (PRR 7303) with load (Occupied) due to type 
-7- (Pk) 
-7- Spur (Junction, Steel Products) can't service car (PRR 7303) with load (Occupied) due 
+7- Spur (Park, Lumber) can't service car (PRR 4092) with load (Occupied) due to type (Pk)
+7- Spur (Park, Power House) can't service car (PRR 4092) with load (Occupied) due to 
+7- type (Pk) 
+7- Spur (River, Depot) can't service car (PRR 4092) with load (Occupied) due to type (Pk)
+7- Spur (City Business, Ash) can't service car (PRR 4092) with load (Occupied) due to 
+7- type (Pk) 
+7- Spur (City Business, Coal) can't service car (PRR 4092) with load (Occupied) due to 
+7- type (Pk) 
+7- Spur (City Business, Express 1) can't service car (PRR 4092) with load (Occupied) due 
 7- to type (Pk) 
-7- Spur (Park, Depot) can't service car (PRR 7303) with load (Occupied) due to type (Pk)
-7- Spur (Downtown, General Delivery) can't service car (PRR 7303) with load (Occupied) 
+7- Spur (City Business, Express 2) can't service car (PRR 4092) with load (Occupied) due 
+7- to type (Pk) 
+7- Spur (City Business, Gantry Crane) can't service car (PRR 4092) with load (Occupied) 
 7- due to type (Pk) 
-7- Spur (Park, General Delivery) can't service car (PRR 7303) with load (Occupied) due 
-7- to type (Pk) 
-7- Spur (Park, Freight House) can't service car (PRR 7303) with load (Occupied) due to 
+7- Spur (City Business, General Delivery) can't service car (PRR 4092) with load 
+7- (Occupied) due to type (Pk) 
+7- Spur (City Business, Ice) can't service car (PRR 4092) with load (Occupied) due to 
 7- type (Pk) 
-7- Spur (Downtown, Ice) can't service car (PRR 7303) with load (Occupied) due to type 
-7- (Pk) 
-7- Spur (Downtown, DX) can't service car (PRR 7303) with load (Occupied) due to type (Pk)
-7- Could not find a reachable spur for car (PRR 7303) load (Occupied)
-5- Try to send car (PRR 7303) custom load (Occupied) to staging
-7- Staging (Weston, W1) can accept car's load (Occupied)
+7- Spur (City Business, Sand) can't service car (PRR 4092) with load (Occupied) due to 
+7- type (Pk) 
+7- Spur (Towne, General Delivery) can't service car (PRR 4092) with load (Occupied) due 
+7- to type (Pk) 
+7- Could not find a reachable spur for car (PRR 4092) load (Occupied)
+5- Try to send car (PRR 4092) custom load (Occupied) to staging
+7- Staging (Northton, N3) can accept car's load (Occupied)
 7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Weston) 
-7- Staging (Easton, E1) can accept car's load (Occupied)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Easton) 
-7- Staging (Overton, S1) can accept car's load (Occupied)
-7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Overton) 
-7- Couldn't find staging that would accept car (PRR 7303) and load (Occupied)
-5- Find destinations for (PRR 7303) type (Pk) load (Occupied) at (Train Service, Coach 
-5- Yard) 
-5- Sending all car pick ups to terminal (Train Service)
-7- Searching location (Train Service) route id 60r4 for possible destination
-7- Can't set out rolling stock (PRR 7303) using Eastbound train, destination track 
-7- (Repair) does not service this direction 
-7- Can't set out (PRR 7303) by train (703Y) to C/I (Train Service, Coach Yard)
-7- Can't set out (PRR 7303) by train (703Y) to C/I (Train Service, Cabin Track)
-7- Can't set out (PRR 7303) by train (703Y) to C/I (Train Service, Car Barn)
-7- Can't set out (PRR 7303) by train (703Y) to C/I (Train Service, Roundhouse)
-5- Could not find a track for (PRR 7303) at destination (Train Service)
-5- Did not assign a destination for car (PRR 7303)
-5-  
-5- Find spur for car (PRR 5466) type (P54) custom load (Occupied) at (Train Service, 
-5- Coach Yard) 
-7- Spur (Downtown, DY) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Downtown, Ash) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Downtown, Sand) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Valley, Coal) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Junction, Coal) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Coal) can't service car (PRR 5466) with load (Occupied) due to type (P54)
-7- Spur (Downtown, Gantry Crane) can't service car (PRR 5466) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Valley, Produce) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Power House) can't service car (PRR 5466) with load (Occupied) due to 
-7- type (P54) 
-7- Spur (Downtown, Coal) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Valley, General Delivery) can't service car (PRR 5466) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Junction, Depot) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Lumber) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Valley, Depot) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Park, Fuel Oil) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Junction, Steel Products) can't service car (PRR 5466) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Park, Depot) can't service car (PRR 5466) with load (Occupied) due to type (P54)
-7- Spur (Downtown, General Delivery) can't service car (PRR 5466) with load (Occupied) 
-7- due to type (P54) 
-7- Spur (Park, General Delivery) can't service car (PRR 5466) with load (Occupied) due 
-7- to type (P54) 
-7- Spur (Park, Freight House) can't service car (PRR 5466) with load (Occupied) due to 
-7- type (P54) 
-7- Spur (Downtown, Ice) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Spur (Downtown, DX) can't service car (PRR 5466) with load (Occupied) due to type 
-7- (P54) 
-7- Could not find a reachable spur for car (PRR 5466) load (Occupied)
-5- Try to send car (PRR 5466) custom load (Occupied) to staging
+7- (Northton) 
 7- Staging (Easton, E1) can accept car's load (Occupied)
 7- Could not find an interim C/I or yard track that can service car to destination 
 7- (Easton) 
 7- Staging (Weston, W3) can accept car's load (Occupied)
 7- Could not find an interim C/I or yard track that can service car to destination 
 7- (Weston) 
-7- Staging (Overton, S1) can accept car's load (Occupied)
+7- Couldn't find staging that would accept car (PRR 4092) and load (Occupied)
+5- Find destinations for (PRR 4092) type (Pk) load (Occupied) at (City Service, Coach 
+5- Yard 2) 
+5- Sending all car pick ups to terminal (City Depot)
+7- Searching location (City Depot) route id 60r7 for possible destination
+7- Can't send (PRR 4092) to C/I (Platform 2) due to type (Pk)
+7- Can't send (PRR 4092) to C/I (Platform 3) due to type (Pk)
+7- Can't send (PRR 4092) to C/I (Platform 1) due to type (Pk)
+7- Can't send (PRR 4092) to C/I (Passenger Service) due to type (Pk)
+5- Car (PRR 4092) can go to C/I (City Depot, Platform 4) 1/5 moves used
+3- Car (PRR 4092) assigned to train, destination (City Depot, Platform 4)
+3-  
+5- Find spur for car (PRR 1304) type (P54) custom load (Occupied) at (City Service, 
+5- Coach Yard 2) 
+7- Spur (Valley, Coal) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Valley, Depot) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Valley, General Delivery) can't service car (PRR 1304) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (Valley, Produce) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Junction, Coal) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Junction, Depot) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Junction, Steel Products) can't service car (PRR 1304) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (Park, Coal) can't service car (PRR 1304) with load (Occupied) due to type (P54)
+7- Spur (Park, Depot) can't service car (PRR 1304) with load (Occupied) due to type (P54)
+7- Spur (Park, Freight House) can't service car (PRR 1304) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (Park, Fuel Oil) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Park, General Delivery) can't service car (PRR 1304) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (Park, Lumber) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Park, Power House) can't service car (PRR 1304) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (River, Depot) can't service car (PRR 1304) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (City Business, Ash) can't service car (PRR 1304) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (City Business, Coal) can't service car (PRR 1304) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (City Business, Express 1) can't service car (PRR 1304) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (City Business, Express 2) can't service car (PRR 1304) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (City Business, Gantry Crane) can't service car (PRR 1304) with load (Occupied) 
+7- due to type (P54) 
+7- Spur (City Business, General Delivery) can't service car (PRR 1304) with load 
+7- (Occupied) due to type (P54) 
+7- Spur (City Business, Ice) can't service car (PRR 1304) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (City Business, Sand) can't service car (PRR 1304) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (Towne, General Delivery) can't service car (PRR 1304) with load (Occupied) due 
+7- to type (P54) 
+7- Could not find a reachable spur for car (PRR 1304) load (Occupied)
+5- Try to send car (PRR 1304) custom load (Occupied) to staging
+7- Staging (Northton, N3) can accept car's load (Occupied)
 7- Could not find an interim C/I or yard track that can service car to destination 
-7- (Overton) 
-7- Couldn't find staging that would accept car (PRR 5466) and load (Occupied)
-5- Find destinations for (PRR 5466) type (P54) load (Occupied) at (Train Service, Coach 
-5- Yard) 
-5- Sending all car pick ups to terminal (Train Service)
-7- Searching location (Train Service) route id 60r4 for possible destination
-7- Can't set out rolling stock (PRR 5466) using Eastbound train, destination track 
-7- (Repair) does not service this direction 
-7- Can't set out (PRR 5466) by train (703Y) to C/I (Train Service, Coach Yard)
-7- Can't set out (PRR 5466) by train (703Y) to C/I (Train Service, Cabin Track)
-7- Can't set out (PRR 5466) by train (703Y) to C/I (Train Service, Car Barn)
-7- Can't set out (PRR 5466) by train (703Y) to C/I (Train Service, Roundhouse)
-5- Could not find a track for (PRR 5466) at destination (Train Service)
-5- Did not assign a destination for car (PRR 5466)
-5-  
-1- Partial 0/4 cars at location (Train Service) assigned to train (703Y)
-1- Partial 0/2 cars
-5- Build for train (703Y) took 38 mSec
+7- (Northton) 
+7- Staging (Easton, E1) can accept car's load (Occupied)
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Staging (Weston, W3) can accept car's load (Occupied)
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Couldn't find staging that would accept car (PRR 1304) and load (Occupied)
+5- Find destinations for (PRR 1304) type (P54) load (Occupied) at (City Service, Coach 
+5- Yard 2) 
+5- Sending all car pick ups to terminal (City Depot)
+7- Searching location (City Depot) route id 60r7 for possible destination
+7- Can't send (PRR 1304) to C/I (Platform 2) due to type (P54)
+7- Can't send (PRR 1304) to C/I (Platform 3) due to type (P54)
+7- Can't send (PRR 1304) to C/I (Platform 1) due to type (P54)
+7- Can't send (PRR 1304) to C/I (Passenger Service) due to type (P54)
+5- Car (PRR 1304) can go to C/I (City Depot, Platform 4) 2/5 moves used
+3- Car (PRR 1304) assigned to train, destination (City Depot, Platform 4)
+3-  
+5- Find spur for car (PRR 2298) type (P54) custom load (Occupied) at (City Service, 
+5- Coach Yard 2) 
+7- Spur (Valley, Coal) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Valley, Depot) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Valley, General Delivery) can't service car (PRR 2298) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (Valley, Produce) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Junction, Coal) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Junction, Depot) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Junction, Steel Products) can't service car (PRR 2298) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (Park, Coal) can't service car (PRR 2298) with load (Occupied) due to type (P54)
+7- Spur (Park, Depot) can't service car (PRR 2298) with load (Occupied) due to type (P54)
+7- Spur (Park, Freight House) can't service car (PRR 2298) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (Park, Fuel Oil) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Park, General Delivery) can't service car (PRR 2298) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (Park, Lumber) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (Park, Power House) can't service car (PRR 2298) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (River, Depot) can't service car (PRR 2298) with load (Occupied) due to type 
+7- (P54) 
+7- Spur (City Business, Ash) can't service car (PRR 2298) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (City Business, Coal) can't service car (PRR 2298) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (City Business, Express 1) can't service car (PRR 2298) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (City Business, Express 2) can't service car (PRR 2298) with load (Occupied) due 
+7- to type (P54) 
+7- Spur (City Business, Gantry Crane) can't service car (PRR 2298) with load (Occupied) 
+7- due to type (P54) 
+7- Spur (City Business, General Delivery) can't service car (PRR 2298) with load 
+7- (Occupied) due to type (P54) 
+7- Spur (City Business, Ice) can't service car (PRR 2298) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (City Business, Sand) can't service car (PRR 2298) with load (Occupied) due to 
+7- type (P54) 
+7- Spur (Towne, General Delivery) can't service car (PRR 2298) with load (Occupied) due 
+7- to type (P54) 
+7- Could not find a reachable spur for car (PRR 2298) load (Occupied)
+5- Try to send car (PRR 2298) custom load (Occupied) to staging
+7- Staging (Northton, N4) can accept car's load (Occupied)
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Northton) 
+7- Staging (Weston, W1) can accept car's load (Occupied)
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Weston) 
+7- Staging (Easton, E2) can accept car's load (Occupied)
+7- Could not find an interim C/I or yard track that can service car to destination 
+7- (Easton) 
+7- Couldn't find staging that would accept car (PRR 2298) and load (Occupied)
+5- Find destinations for (PRR 2298) type (P54) load (Occupied) at (City Service, Coach 
+5- Yard 2) 
+5- Sending all car pick ups to terminal (City Depot)
+7- Searching location (City Depot) route id 60r7 for possible destination
+7- Can't send (PRR 2298) to C/I (Platform 2) due to type (P54)
+7- Can't send (PRR 2298) to C/I (Platform 3) due to type (P54)
+7- Can't send (PRR 2298) to C/I (Platform 1) due to type (P54)
+7- Can't send (PRR 2298) to C/I (Passenger Service) due to type (P54)
+5- Car (PRR 2298) can go to C/I (City Depot, Platform 4) 3/5 moves used
+3- Car (PRR 2298) assigned to train, destination (City Depot, Platform 4)
+3-  
+1- Success 3/3 cars at location (City Service) assigned to train (703Y)
+7-  
+1- Route location (City Depot) id 60r7 no pick ups
+1- Built 4 cars
+5- Build for train (703Y) took 30 mSec

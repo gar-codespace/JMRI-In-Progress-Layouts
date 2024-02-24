@@ -1,4 +1,4 @@
- Build Report for train (703Y) built on 11/3/23, 8:30 AM 
+ Build Report for train (703Y) built on 2/9/24, 3:43 PM 
  JMRI version 5.2+R760b98537f 
   Build report detail level: Normal 
    Build report detail level: Detailed 
@@ -9,26 +9,26 @@
    
    Car routing options: 
    Car routing via yards is enabled 
-   Car routing through staging is enabled 
    Use all Trains when Routing 
    
    Enabled build options for train (703Y): 
-   Allow local moves if car has a custom load or FD 
-   
-   Disabled build options for train (703Y): 
    Use normal mode when building this train 
-   Send all car pick ups to terminal (Downtown) 
+   Send all car pick ups to terminal (City Depot) 
+   Allow local moves if car has a custom load or FD 
+   Allow cars to travel from origin to terminal 
    Service all cars with a final destination (FD) 
    Send cars with custom loads to staging 
+   
+   Disabled build options for train (703Y): 
    Build loco consist from single locos 
    
   Train (703Y) route (703Y): 
-  60r5 Location (Downtown) Eastbound requests 1 pick ups, maximum train length 3,000 
-  feet 
-  60r4 Location (Train Service) Eastbound requests 3 pick ups, maximum train length 
+  60r8 Location (City Business) Northbound requests 1 pick ups, maximum train length 
   3,000 feet 
-  60r6 Location (Downtown) Eastbound requests 4 set outs 
- Route (703Y) requests 4 cars and 8 moves 
+  60r9 Location (City Service) Northbound requests 3 pick ups, maximum train length 
+  3,000 feet 
+  60r7 Location (City Depot) Northbound requests 5 set outs 
+ Route (703Y) requests 4 cars and 9 moves 
  
  Train requirements: 
  Train does not require any locomotives 
@@ -37,62 +37,60 @@
  Found 0 locomotives for train (703Y) 
    
    
+   
   
    
    Train (703Y) services car types: 
-   P54, Bd, Pk 
+   P54, Pk, Bd 
    
- Found 5 cars for train (703Y) 
-   Train does not require caboose when departing (Downtown) 
+ Found 4 cars for train (703Y) 
+   Train does not require caboose when departing (City Business) 
    Train does not require car with FRED 
   
-  Requested cars (4) for train (703Y) the number available (5) building train! 
+  Requested cars (4) for train (703Y) the number available (4) building train! 
   
-  Multiple pass build (Aggressive Mode), begin 1 of 2 passes 
- Route location (Downtown) id 60r5 requests 0 pick ups, 1/1 moves are available 
+  Use normal mode when building this train 
+ Route location (City Business) id 60r8 requests 1 pick ups, 1/1 moves are available 
    
- Success 0/0 cars at location (Downtown) assigned to train (703Y) 
- Route location (Train Service) id 60r4 requests 2 pick ups, 3/3 moves are available 
-   
-   Find spur for car (PRR 7303) type (Pk) custom load (Occupied) at (Train Service, 
-   Coach Yard) 
-   Try to send car (PRR 7303) custom load (Occupied) to staging 
-   Find destinations for (PRR 7303) type (Pk) load (Occupied) at (Train Service, Coach 
-   Yard) 
-   Car (PRR 7303) can go to C/I (Downtown, Ready Track) 0/4 moves used 
-  Car (PRR 7303) assigned to train, destination (Downtown, Ready Track) 
+   Find spur for car (PRR 7679) type (Bd) custom load (Express) at (City Business, 
+   Express 2) 
+   Try to send car (PRR 7679) custom load (Express) to staging 
+   Find destinations for (PRR 7679) type (Bd) load (Express) at (City Business, Express 
+   2) 
+   Car (PRR 7679) can go to C/I (City Depot, Platform 4) 0/5 moves used 
+  Car (PRR 7679) assigned to train, destination (City Depot, Platform 4) 
   
-   Find spur for car (PRR 5466) type (P54) custom load (Occupied) at (Train Service, 
-   Coach Yard) 
-   Try to send car (PRR 5466) custom load (Occupied) to staging 
-   Find destinations for (PRR 5466) type (P54) load (Occupied) at (Train Service, Coach 
-   Yard) 
-   Car (PRR 5466) can go to C/I (Downtown, Ready Track) 1/4 moves used 
-  Car (PRR 5466) assigned to train, destination (Downtown, Ready Track) 
-  
- Success 2/2 cars at location (Train Service) assigned to train (703Y) 
- Route location (Downtown) id 60r6 no pick ups 
-  
-  Multiple pass build (Aggressive Mode), begin 2 of 2 passes 
- Route location (Downtown) id 60r5 requests 1 pick ups, 1/1 moves are available 
+ Success 1/1 cars at location (City Business) assigned to train (703Y) 
+ Route location (City Service) id 60r9 requests 3 pick ups, 3/3 moves are available 
    
-   Find spur for car (PRR 0107) type (Bd) custom load (Express) at (Downtown, DX) 
-   Try to send car (PRR 0107) custom load (Express) to staging 
-   Find destinations for (PRR 0107) type (Bd) load (Express) at (Downtown, DX) 
-   Did not assign a destination for car (PRR 0107) 
-   
- Partial 0/1 cars at location (Downtown) assigned to train (703Y) 
- Route location (Train Service) id 60r4 requests 1 pick ups, 1/3 moves are available 
-   
-   Find spur for car (PRR 0838) type (P54) custom load (Occupied) at (Train Service, 
-   Coach Yard) 
-   Try to send car (PRR 0838) custom load (Occupied) to staging 
-   Find destinations for (PRR 0838) type (P54) load (Occupied) at (Train Service, Coach 
-   Yard) 
-   Car (PRR 0838) can go to C/I (Downtown, Ready Track) 2/4 moves used 
-  Car (PRR 0838) assigned to train, destination (Downtown, Ready Track) 
+   Find spur for car (PRR 4092) type (Pk) custom load (Occupied) at (City Service, Coach 
+   Yard 2) 
+   Try to send car (PRR 4092) custom load (Occupied) to staging 
+   Find destinations for (PRR 4092) type (Pk) load (Occupied) at (City Service, Coach 
+   Yard 2) 
+   Sending all car pick ups to terminal (City Depot) 
+   Car (PRR 4092) can go to C/I (City Depot, Platform 4) 1/5 moves used 
+  Car (PRR 4092) assigned to train, destination (City Depot, Platform 4) 
   
- Success 1/1 cars at location (Train Service) assigned to train (703Y) 
- Route location (Downtown) id 60r6 no pick ups 
- Partial 3/4 cars 
-   Build for train (703Y) took 28 mSec 
+   Find spur for car (PRR 1304) type (P54) custom load (Occupied) at (City Service, 
+   Coach Yard 2) 
+   Try to send car (PRR 1304) custom load (Occupied) to staging 
+   Find destinations for (PRR 1304) type (P54) load (Occupied) at (City Service, Coach 
+   Yard 2) 
+   Sending all car pick ups to terminal (City Depot) 
+   Car (PRR 1304) can go to C/I (City Depot, Platform 4) 2/5 moves used 
+  Car (PRR 1304) assigned to train, destination (City Depot, Platform 4) 
+  
+   Find spur for car (PRR 2298) type (P54) custom load (Occupied) at (City Service, 
+   Coach Yard 2) 
+   Try to send car (PRR 2298) custom load (Occupied) to staging 
+   Find destinations for (PRR 2298) type (P54) load (Occupied) at (City Service, Coach 
+   Yard 2) 
+   Sending all car pick ups to terminal (City Depot) 
+   Car (PRR 2298) can go to C/I (City Depot, Platform 4) 3/5 moves used 
+  Car (PRR 2298) assigned to train, destination (City Depot, Platform 4) 
+  
+ Success 3/3 cars at location (City Service) assigned to train (703Y) 
+ Route location (City Depot) id 60r7 no pick ups 
+ Built 4 cars 
+   Build for train (703Y) took 32 mSec 
