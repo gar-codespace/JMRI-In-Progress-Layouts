@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Sat Feb 24 08:39:03 PST 2024-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue Jan 23 22:09:24 PST 2024-->
   <options>
     <trainOptions buildMessages="false" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="MUTT492" status="Terminated 2/24/2024 08:39" TerminationDate="2/24/2024 08:39" RequestedCars="56" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="MUTT492" status="Terminated 1/23/2024 22:09" TerminationDate="1/23/2024 22:09" RequestedCars="56" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Basin St Switcher" id="1" />
       <types>
@@ -42,13 +42,14 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="," />
-    <schedule id="2" name="Monday" trainIds="," />
-    <schedule id="3" name="Tuesday" trainIds="," />
-    <schedule id="4" name="Wednesday" trainIds="," />
-    <schedule id="5" name="Thursday" trainIds="," />
-    <schedule id="6" name="Friday" trainIds="," />
-    <schedule id="7" name="Saturday" trainIds="," />
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
   </schedules>
+  <automationOptions automationStartupId="" />
   <automations />
 </operations-config>
