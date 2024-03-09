@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Dec 22 11:35:26 PST 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Mar 07 16:54:51 PST 2024-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -122,6 +122,11 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="vinegar" loadType="load" />
     </load>
+    <load type="RHx">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="produce" loadType="load" />
+    </load>
     <load type="XPV">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Glassware" loadType="load" />
@@ -130,11 +135,6 @@
       <carLoad name="flooring" loadType="load" />
       <carLoad name="goods" loadType="load" />
       <carLoad name="merchandise" loadType="load" />
-    </load>
-    <load type="RHx">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="produce" loadType="load" />
     </load>
     <load type="HPx">
       <carLoad name="Empty" loadType="empty" />
@@ -173,83 +173,83 @@
   <newKernels />
   <options />
   <cars>
-    <car id="ACL4893" roadName="ACL" roadNumber="4893" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
-    <car id="ACL5708" roadName="ACL" roadNumber="5708" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s4" moves="0" date="" selected="false" load="Glassware" />
-    <car id="ACL8074" roadName="ACL" roadNumber="8074" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" nextLoad="Glassware" />
+    <car id="ACL4893" roadName="ACL" roadNumber="4893" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6003" load="Empty" />
+    <car id="ACL5708" roadName="ACL" roadNumber="5708" type="XP3" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6003" load="E" />
+    <car id="ACL8074" roadName="ACL" roadNumber="8074" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s4" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="4" value="6002" load="Glassware" />
     <car id="AT&amp;SF0638" roadName="AT&amp;SF" roadNumber="0638" type="HPD" length="40" weightTons="0" locationId="3" secLocationId="3s2" destinationId="4" moves="0" date="" selected="false" load="Empty" />
-    <car id="AT&amp;SF1154" roadName="AT&amp;SF" roadNumber="1154" type="XP4" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s5" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" nextLoad="Glassware" />
-    <car id="AT&amp;SF1561" roadName="AT&amp;SF" roadNumber="1561" type="XP3" length="40" weightTons="0" locationId="3" routeLocationId="15r30" secLocationId="3s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Glassware" />
+    <car id="AT&amp;SF1154" roadName="AT&amp;SF" roadNumber="1154" type="XP4" length="40" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6001" load="Empty" />
+    <car id="AT&amp;SF1561" roadName="AT&amp;SF" roadNumber="1561" type="XP3" length="40" weightTons="0" locationId="3" secLocationId="3s1" moves="0" date="" selected="false" load="Glassware" />
     <car id="AT&amp;SF6208" roadName="AT&amp;SF" roadNumber="6208" type="GPx" length="40" weightTons="0" locationId="1" secLocationId="1s5" moves="0" date="" selected="false" load="Empty" />
-    <car id="AT&amp;SF8805" roadName="AT&amp;SF" roadNumber="8805" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s6" moves="0" date="" selected="false" load="Empty" />
-    <car id="AT&amp;SF8977" roadName="AT&amp;SF" roadNumber="8977" type="XP3" length="40" weightTons="0" locationId="3" routeLocationId="15r30" secLocationId="3s7" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Glassware" />
-    <car id="B&amp;A2021" roadName="B&amp;A" roadNumber="2021" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s5" moves="0" date="" selected="false" load="Glassware" />
-    <car id="B&amp;A4542" roadName="B&amp;A" roadNumber="4542" type="GPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="AT&amp;SF8805" roadName="AT&amp;SF" roadNumber="8805" type="XP3" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6004" load="E" scheduleId="1035c3" />
+    <car id="AT&amp;SF8977" roadName="AT&amp;SF" roadNumber="8977" type="XP3" length="40" weightTons="0" locationId="3" secLocationId="3s7" moves="0" date="" selected="false" load="Glassware" />
+    <car id="B&amp;A2021" roadName="B&amp;A" roadNumber="2021" type="XP3" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6008" load="E" />
+    <car id="B&amp;A4542" roadName="B&amp;A" roadNumber="4542" type="GPx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6020" load="L" scheduleId="1033c2" />
     <car id="B&amp;A5848" roadName="B&amp;A" roadNumber="5848" type="RP3" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" load="Empty" />
-    <car id="B&amp;O4103" roadName="B&amp;O" roadNumber="4103" type="XP4" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s7" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" nextLoad="Glassware" />
-    <car id="B&amp;O8418" roadName="B&amp;O" roadNumber="8418" type="FP4" length="40" weightTons="0" locationId="2" secLocationId="2s6" moves="0" date="" selected="false" load="Empty" />
-    <car id="CNJ2681" roadName="CNJ" roadNumber="2681" type="HPD" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s2" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="coal" loadFromStaging="true" nextLoad="Empty" />
-    <car id="CNJ8473" roadName="CNJ" roadNumber="8473" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="B&amp;O4103" roadName="B&amp;O" roadNumber="4103" type="XP4" length="40" weightTons="0" locationId="2" secLocationId="2s7" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="4" value="6001" load="Empty" />
+    <car id="B&amp;O8418" roadName="B&amp;O" roadNumber="8418" type="FP4" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6017" load="E" />
+    <car id="CNJ2681" roadName="CNJ" roadNumber="2681" type="HPD" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6012" load="L" scheduleId="1029c1" />
+    <car id="CNJ8473" roadName="CNJ" roadNumber="8473" type="XP3" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6019" load="L" scheduleId="1035c3" />
     <car id="CNJ9740" roadName="CNJ" roadNumber="9740" type="HPD" length="40" weightTons="0" locationId="1" secLocationId="1s6" moves="0" date="" selected="false" load="Empty" />
-    <car id="DL&amp;W0677" roadName="DL&amp;W" roadNumber="0677" type="XP3" length="40" weightTons="0" locationId="3" routeLocationId="15r31" secLocationId="3s5" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Glassware" />
+    <car id="DL&amp;W0677" roadName="DL&amp;W" roadNumber="0677" type="XP3" length="40" weightTons="0" locationId="3" secLocationId="3s5" moves="0" date="" selected="false" load="Glassware" />
     <car id="DL&amp;W0693" roadName="DL&amp;W" roadNumber="0693" type="HPx" length="40" weightTons="0" locationId="3" secLocationId="3s2" destinationId="4" moves="0" date="" selected="false" load="Empty" />
-    <car id="DL&amp;W1750" roadName="DL&amp;W" roadNumber="1750" type="HPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s4" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="coal" loadFromStaging="true" nextLoad="Empty" />
-    <car id="DL&amp;W3776" roadName="DL&amp;W" roadNumber="3776" type="GPx" length="40" weightTons="0" locationId="2" secLocationId="2s9" moves="0" date="" selected="false" load="Empty" />
-    <car id="DL&amp;W8851" roadName="DL&amp;W" roadNumber="8851" type="GPx" length="40" weightTons="0" locationId="2" secLocationId="2s10" moves="0" date="" selected="false" load="Empty" />
-    <car id="ER6085" roadName="ER" roadNumber="6085" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="flooring" />
+    <car id="DL&amp;W1750" roadName="DL&amp;W" roadNumber="1750" type="HPx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6007" load="L" scheduleId="1029c2" />
+    <car id="DL&amp;W3776" roadName="DL&amp;W" roadNumber="3776" type="GPx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6002" load="E" />
+    <car id="DL&amp;W8851" roadName="DL&amp;W" roadNumber="8851" type="GPx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6010" load="E" />
+    <car id="ER6085" roadName="ER" roadNumber="6085" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" value="6001" load="flooring" />
     <car id="HJH1687" roadName="HJH" roadNumber="1687" type="RHx" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" load="Empty" />
-    <car id="HJH5659" roadName="HJH" roadNumber="5659" type="THV" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="HJH5659" roadName="HJH" roadNumber="5659" type="THV" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6021" load="L" scheduleId="1028c1" />
     <car id="HJH5817" roadName="HJH" roadNumber="5817" type="THV" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" load="Empty" />
-    <car id="HJH8727" roadName="HJH" roadNumber="8727" type="RHx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
-    <car id="HJH8781" roadName="HJH" roadNumber="8781" type="RHx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
-    <car id="LV2594" roadName="LV" roadNumber="2594" type="FP4" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
-    <car id="LV8804" roadName="LV" roadNumber="8804" type="GPD" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s6" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="sand" loadFromStaging="true" nextLoad="Empty" />
-    <car id="M&amp;P3152" roadName="M&amp;P" roadNumber="3152" type="XP4" length="40" weightTons="0" locationId="2" secLocationId="2s7" moves="0" date="" selected="false" load="Empty" />
+    <car id="HJH8727" roadName="HJH" roadNumber="8727" type="RHx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6009" load="L" scheduleId="1026c3" />
+    <car id="HJH8781" roadName="HJH" roadNumber="8781" type="RHx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6011" load="L" scheduleId="1026c3" />
+    <car id="LV2594" roadName="LV" roadNumber="2594" type="FP4" length="40" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6004" load="Empty" />
+    <car id="LV8804" roadName="LV" roadNumber="8804" type="GPD" length="40" weightTons="0" locationId="2" secLocationId="2s10" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="4" value="6001" load="Empty" />
+    <car id="M&amp;P3152" roadName="M&amp;P" roadNumber="3152" type="XP4" length="40" weightTons="0" locationId="2" secLocationId="2s4" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="2" value="6001" load="Glassware" />
     <car id="M&amp;P3784" roadName="M&amp;P" roadNumber="3784" type="RP3" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" load="Empty" />
-    <car id="M&amp;P5414" roadName="M&amp;P" roadNumber="5414" type="HPD" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="M&amp;P5414" roadName="M&amp;P" roadNumber="5414" type="HPD" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6014" load="L" scheduleId="1029c1" />
     <car id="M&amp;P6512" roadName="M&amp;P" roadNumber="6512" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="merchandise" />
     <car id="M&amp;P9158" roadName="M&amp;P" roadNumber="9158" type="GPx" length="40" weightTons="0" locationId="1" secLocationId="1s5" moves="0" date="" selected="false" load="Empty" />
-    <car id="NYC3805" roadName="NYC" roadNumber="3805" type="HPD" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="NYC3805" roadName="NYC" roadNumber="3805" type="HPD" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6016" load="L" scheduleId="1029c1" />
     <car id="NYC5326" roadName="NYC" roadNumber="5326" type="XPV" length="40" weightTons="0" locationId="3" secLocationId="3s7" destinationId="4" moves="0" date="" selected="false" load="Glassware" />
     <car id="NYC5713" roadName="NYC" roadNumber="5713" type="XP3" length="40" weightTons="0" locationId="3" secLocationId="3s1" destinationId="4" moves="0" date="" selected="false" load="Glassware" />
     <car id="NYC7874" roadName="NYC" roadNumber="7874" type="HPx" length="40" weightTons="0" locationId="3" secLocationId="3s4" destinationId="4" moves="0" date="" selected="false" load="Empty" />
     <car id="NYC9814" roadName="NYC" roadNumber="9814" type="XP3" length="40" weightTons="0" locationId="3" secLocationId="3s5" destinationId="4" moves="0" date="" selected="false" load="Glassware" />
-    <car id="P&amp;R3718" roadName="P&amp;R" roadNumber="3718" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="P&amp;R3718" roadName="P&amp;R" roadNumber="3718" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6002" load="Empty" />
     <car id="P&amp;R5308" roadName="P&amp;R" roadNumber="5308" type="GPx" length="40" weightTons="0" locationId="1" secLocationId="1s8" moves="0" date="" selected="false" load="Empty" />
-    <car id="PL0721" roadName="PL" roadNumber="0721" type="HPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r30" secDestinationId="3s4" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="coal" loadFromStaging="true" nextLoad="Empty" />
-    <car id="PL1211" roadName="PL" roadNumber="1211" type="GPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
-    <car id="PL2710" roadName="PL" roadNumber="2710" type="GPD" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="PL0721" roadName="PL" roadNumber="0721" type="HPx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6005" load="L" scheduleId="1029c2" />
+    <car id="PL1211" roadName="PL" roadNumber="1211" type="GPx" length="40" weightTons="0" locationId="2" secLocationId="2s3" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="4" value="6002" load="Empty" />
+    <car id="PL2710" roadName="PL" roadNumber="2710" type="GPD" length="40" weightTons="0" locationId="2" secLocationId="2s9" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="4" value="6001" load="Empty" />
     <car id="PL3680" roadName="PL" roadNumber="3680" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s9" moves="0" date="" selected="false" load="Glassware" />
-    <car id="PL3726" roadName="PL" roadNumber="3726" type="GPx" length="40" weightTons="0" locationId="3" routeLocationId="15r30" secLocationId="3s6" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" />
-    <car id="PL5500" roadName="PL" roadNumber="5500" type="XP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="PL3726" roadName="PL" roadNumber="3726" type="GPx" length="40" weightTons="0" locationId="3" secLocationId="3s6" moves="0" date="" selected="false" load="Empty" />
+    <car id="PL5500" roadName="PL" roadNumber="5500" type="XP3" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6015" load="L" scheduleId="1035c3" />
     <car id="PL5751" roadName="PL" roadNumber="5751" type="XP4" length="40" weightTons="0" locationId="3" secLocationId="3s5" destinationId="4" moves="0" date="" selected="false" load="Glassware" />
     <car id="PL5779" roadName="PL" roadNumber="5779" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
     <car id="PL6739" roadName="PL" roadNumber="6739" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="merchandise" />
     <car id="PRR0331" roadName="PRR" roadNumber="0331" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s2" moves="0" date="" selected="false" load="merchandise" />
     <car id="PRR1680" roadName="PRR" roadNumber="1680" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s7" moves="0" date="" selected="false" load="Glassware" />
-    <car id="PRR3776" roadName="PRR" roadNumber="3776" type="XPV" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s5" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" loadFromStaging="true" nextLoad="Glassware" />
-    <car id="PRR5314" roadName="PRR" roadNumber="5314" type="GPx" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
-    <car id="PRR5443" roadName="PRR" roadNumber="5443" type="TPO" length="40" weightTons="0" locationId="2" secLocationId="2s8" moves="0" date="" selected="false" load="Empty" />
-    <car id="PRR5450" roadName="PRR" roadNumber="5450" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s6" moves="0" date="" selected="false" load="Empty" />
-    <car id="PRR5808" roadName="PRR" roadNumber="5808" type="TPO" length="40" weightTons="0" locationId="3" routeLocationId="15r31" secLocationId="3s3" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" />
-    <car id="PRR6546" roadName="PRR" roadNumber="6546" type="HPD" length="40" weightTons="0" locationId="3" routeLocationId="15r31" secLocationId="3s2" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" />
-    <car id="PRR6726" roadName="PRR" roadNumber="6726" type="TPO" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s3" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="heating oil" loadFromStaging="true" nextLoad="Empty" />
+    <car id="PRR3776" roadName="PRR" roadNumber="3776" type="XPV" length="40" weightTons="0" locationId="2" secLocationId="2s5" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="4" value="6002" load="Glassware" />
+    <car id="PRR5314" roadName="PRR" roadNumber="5314" type="GPx" length="40" weightTons="0" locationId="2" secLocationId="2s3" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="4" value="6001" load="Empty" />
+    <car id="PRR5443" roadName="PRR" roadNumber="5443" type="TPO" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6001" load="E" />
+    <car id="PRR5450" roadName="PRR" roadNumber="5450" type="XP3" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6018" load="E" scheduleId="1035c3" />
+    <car id="PRR5808" roadName="PRR" roadNumber="5808" type="TPO" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
+    <car id="PRR6546" roadName="PRR" roadNumber="6546" type="HPD" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
+    <car id="PRR6726" roadName="PRR" roadNumber="6726" type="TPO" length="40" weightTons="0" locationId="2" secLocationId="2s8" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6002" load="Empty" />
     <car id="PRR7675" roadName="PRR" roadNumber="7675" type="HPx" length="40" weightTons="0" locationId="1" secLocationId="1s6" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR7697" roadName="PRR" roadNumber="7697" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR7702" roadName="PRR" roadNumber="7702" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s9" moves="0" date="" selected="false" load="Glassware" />
-    <car id="PRR8138" roadName="PRR" roadNumber="8138" type="GPD" length="40" weightTons="0" locationId="2" secLocationId="2s3" moves="0" date="" selected="false" load="Empty" />
-    <car id="PRR8485" roadName="PRR" roadNumber="8485" type="HPx" length="40" weightTons="0" locationId="3" routeLocationId="15r31" secLocationId="3s2" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" />
+    <car id="PRR8138" roadName="PRR" roadNumber="8138" type="GPD" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6006" load="E" />
+    <car id="PRR8485" roadName="PRR" roadNumber="8485" type="HPx" length="40" weightTons="0" locationId="3" secLocationId="3s2" moves="0" date="" selected="false" load="Empty" />
     <car id="PRR9728" roadName="PRR" roadNumber="9728" type="XP3" length="40" weightTons="0" locationId="1" secLocationId="1s7" moves="0" date="" selected="false" load="Glassware" />
-    <car id="SP0452" roadName="SP" roadNumber="0452" type="GPx" length="40" weightTons="0" locationId="2" secLocationId="2s3" moves="0" date="" selected="false" load="Empty" />
+    <car id="SP0452" roadName="SP" roadNumber="0452" type="GPx" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="2" value="6013" load="E" />
     <car id="SP1142" roadName="SP" roadNumber="1142" type="XPP" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" load="Empty" />
-    <car id="SP2700" roadName="SP" roadNumber="2700" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s7" moves="0" date="" selected="false" load="Empty" />
-    <car id="SP6136" roadName="SP" roadNumber="6136" type="XP3" length="40" weightTons="0" locationId="3" routeLocationId="15r30" secLocationId="3s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Glassware" />
-    <car id="TCX3534" roadName="TCX" roadNumber="3534" type="TPO" length="40" weightTons="0" locationId="3" routeLocationId="15r31" secLocationId="3s3" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" />
+    <car id="SP2700" roadName="SP" roadNumber="2700" type="XP3" length="40" weightTons="0" locationId="2" secLocationId="2s5" lastRouteId="14" moves="1" date="03/07/2024 16:54:35" selected="false" lastLocationId="2" value="6001" load="Glassware" />
+    <car id="SP6136" roadName="SP" roadNumber="6136" type="XP3" length="40" weightTons="0" locationId="3" secLocationId="3s1" moves="0" date="" selected="false" load="Glassware" />
+    <car id="TCX3534" roadName="TCX" roadNumber="3534" type="TPO" length="40" weightTons="0" locationId="3" secLocationId="3s3" moves="0" date="" selected="false" load="Empty" />
     <car id="TELX0403" roadName="TELX" roadNumber="0403" type="TPO" length="40" weightTons="0" locationId="3" secLocationId="3s3" destinationId="4" moves="0" date="" selected="false" load="Empty" />
-    <car id="TELX5346" roadName="TELX" roadNumber="5346" type="TPO" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="3" routeDestinationId="15r31" secDestinationId="3s3" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="heating oil" loadFromStaging="true" nextLoad="Empty" />
+    <car id="TELX5346" roadName="TELX" roadNumber="5346" type="TPO" length="40" weightTons="0" locationId="2" secLocationId="2s8" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6001" load="Empty" />
     <car id="TELX6363" roadName="TELX" roadNumber="6363" type="TPO" length="40" weightTons="0" locationId="3" secLocationId="3s3" destinationId="4" moves="0" date="" selected="false" load="Empty" />
     <car id="WJ&amp;S2169" roadName="WJ&amp;S" roadNumber="2169" type="XP4" length="40" weightTons="0" locationId="1" secLocationId="1s9" moves="0" date="" selected="false" load="Glassware" />
     <car id="WJ&amp;S528" roadName="WJ&amp;S" roadNumber="528" type="NPD" length="40" weightTons="0" locationId="5" secLocationId="5s1" moves="0" date="" selected="false" load="unloadable" />
-    <car id="WJ&amp;S8399" roadName="WJ&amp;S" roadNumber="8399" type="HPx" length="40" weightTons="0" locationId="3" routeLocationId="15r30" secLocationId="3s4" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="Empty" />
-    <car id="WJ&amp;S8693" roadName="WJ&amp;S" roadNumber="8693" type="FP3" length="40" weightTons="0" locationId="4" routeLocationId="15r22" secLocationId="4s1" destinationId="4" routeDestinationId="15r27" secDestinationId="4s1" moves="0" date="" selected="false" train="Fenwick Flyer" trainId="3" load="E" />
+    <car id="WJ&amp;S8399" roadName="WJ&amp;S" roadNumber="8399" type="HPx" length="40" weightTons="0" locationId="3" secLocationId="3s4" moves="0" date="" selected="false" load="Empty" />
+    <car id="WJ&amp;S8693" roadName="WJ&amp;S" roadNumber="8693" type="FP3" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="14" moves="1" date="03/07/2024 16:54:50" selected="false" lastLocationId="4" value="6022" load="L" scheduleId="1036c3" />
   </cars>
 </operations-config>
